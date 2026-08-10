@@ -1,0 +1,5 @@
+audio_path,audio_filename,subtitle,text_for_tts,original_english
+\voice\radio_check\test,1.wav,无线电测试,无线电测试,radio check
+\voice\radio_check\test,2.wav,无线电测试,无线电测试,radio check
+\voice\radio_check\test,3.wav,测试，测试,测试，测试,radio check
+\voice\radio_check\test,4.wav,无线电检查,无线电检查,radio check

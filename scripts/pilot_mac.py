@@ -203,13 +203,16 @@ def apply_audio_effects(wav: torch.Tensor, sample_rate: int, preset: str = "radi
     if wav.shape[0] > 1:
         wav = wav.mean(dim=0, keepdim=True)
 
+    # Resample BEFORE normalising. Band-limited interpolation overshoots on
+    # transients, so normalising first lets the resampler push peaks back above
+    # the target, which then clips on the 16-bit write.
+    if sample_rate != TARGET_SAMPLE_RATE:
+        wav = AF.resample(wav, sample_rate, TARGET_SAMPLE_RATE)
+
     # sox `norm -1`: peak at -1 dBFS
     peak = wav.abs().max()
     if peak > 0:
         wav = wav * (10 ** (-1 / 20) / peak)
-
-    if sample_rate != TARGET_SAMPLE_RATE:
-        wav = AF.resample(wav, sample_rate, TARGET_SAMPLE_RATE)
 
     return wav, TARGET_SAMPLE_RATE
 
