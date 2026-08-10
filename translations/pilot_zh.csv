@@ -1,0 +1,11 @@
+audio_path,audio_filename,subtitle,text_for_tts,original_english
+\voice\spotter\car_left,1.wav,左边有车,左边有车,car left
+\voice\spotter\clear_all_round,1.wav,四周都空了,四周都空了,clear all around
+\voice\acknowledge\OK,1.wav,收到,收到,okay
+\voice\mandatory_pit_stops\box_now,1.wav,进站,进站,box now
+\voice\mandatory_pit_stops\pit_now,1.wav,进站进站，马上进站,进站进站，马上进站,"box, box, box, pit now"
+\voice\fuel\about_to_run_out,1.wav,油快见底了,油快见底了,"we're running on fumes, mate"
+\voice\flags\fc_yellow_in_progress_eu,2.wav,安全车出动了,安全车出动了,the safety car's out
+\voice\lap_counter\last_lap,4.wav,最后一圈,最后一圈,last lap
+\voice\timings\ahead_is_now,1.wav,前车的差距现在是,前车的差距现在是,ahead is now
+\voice\position\bad_start,1.wav,"起步的事就别想了，YOUR_NAME，找回你的节奏","起步的事就别想了，YOUR_NAME，找回你的节奏","forget about the start, find your rhythm, mate"

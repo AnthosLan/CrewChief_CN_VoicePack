@@ -1,0 +1,18 @@
+audio_path,audio_filename,subtitle,text_for_tts,original_english
+\voice\spotter\car_inside,1.wav,车在内侧,车在内侧,car low
+\voice\spotter\car_left,1.wav,左边有车,左边有车,car left
+\voice\spotter\car_outside,1.wav,外侧有车,外侧有车,car high
+\voice\spotter\car_right,1.wav,右边有车,右边有车,car right
+\voice\spotter\clear,1.wav,安全,安全,clear
+\voice\spotter\clear_all_round,1.wav,四周都安全,四周都安全,clear all around
+\voice\spotter\clear_inside,1.wav,内线安全,内线安全,clear inside
+\voice\spotter\clear_left,1.wav,左边安全,左边安全,clear left
+\voice\spotter\clear_outside,1.wav,外侧安全,外侧安全,clear high
+\voice\spotter\clear_right,1.wav,右边安全,右边安全,clear right
+\voice\spotter\hold_your_line,1.wav,保持走线,保持走线,hold your line
+\voice\spotter\in_the_middle,1.wav,你在中间，三辆并排,你在中间，三辆并排,"you're in the middle, 3 wide"
+\voice\spotter\still_there,1.wav,还在,还在,still there
+\voice\spotter\three_wide_on_inside,1.wav,三辆并排，你在内侧,三辆并排，你在内侧,"we're 3 wide, you're down low"
+\voice\spotter\three_wide_on_left,1.wav,你在左边，三辆并排,你在左边，三辆并排,"you're on the left, 3 wide"
+\voice\spotter\three_wide_on_outside,1.wav,三辆并排，你在最外侧,三辆并排，你在最外侧,"3 wide, you're up top"
+\voice\spotter\three_wide_on_right,4.wav,三辆并排，你在右边,三辆并排，你在右边,"3 wide, you're on the right"

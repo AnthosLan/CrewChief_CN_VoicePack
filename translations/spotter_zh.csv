@@ -1,0 +1,125 @@
+audio_path,audio_filename,subtitle,text_for_tts,original_english
+\voice\spotter\car_inside,1.wav,车在内侧,车在内侧,car low
+\voice\spotter\car_inside,2.wav,车在内侧,车在内侧,car low
+\voice\spotter\car_inside,3.wav,车在内侧,车在内侧,car low
+\voice\spotter\car_inside,4.wav,内线,内线,inside
+\voice\spotter\car_inside,5.wav,内线有车,内线有车,car inside
+\voice\spotter\car_inside,6.wav,内线,内线,inside
+\voice\spotter\car_inside,7.wav,内侧有车,内侧有车,car down low
+\voice\spotter\car_inside,8.wav,内侧有车,内侧有车,got a car low
+\voice\spotter\car_inside,9.wav,内线有车,内线有车,car inside
+\voice\spotter\car_left,1.wav,左边有车,左边有车,car left
+\voice\spotter\car_left,2.wav,左边有车,左边有车,car left
+\voice\spotter\car_left,3.wav,左边有车,左边有车,car left
+\voice\spotter\car_left,4.wav,左边有车,左边有车,car left
+\voice\spotter\car_left,5.wav,左边,左边,left side
+\voice\spotter\car_left,6.wav,左边,左边,left side
+\voice\spotter\car_left,7.wav,你左边有车,你左边有车,on your left
+\voice\spotter\car_left,8.wav,左边,左边,left side
+\voice\spotter\car_outside,1.wav,外侧有车,外侧有车,car high
+\voice\spotter\car_outside,2.wav,外线有车,外线有车,got a car outside
+\voice\spotter\car_outside,3.wav,外线有车,外线有车,car outside
+\voice\spotter\car_outside,4.wav,外线,外线,outside
+\voice\spotter\car_outside,5.wav,外线有车,外线有车,car outside
+\voice\spotter\car_outside,6.wav,车在外侧,车在外侧,got a car high
+\voice\spotter\car_outside,7.wav,外侧有车,外侧有车,car high
+\voice\spotter\car_right,1.wav,右边有车,右边有车,car right
+\voice\spotter\car_right,2.wav,右边有车,右边有车,car right
+\voice\spotter\car_right,3.wav,右边有车,右边有车,car right
+\voice\spotter\car_right,4.wav,右边有车,右边有车,car right
+\voice\spotter\car_right,5.wav,你右边有车,你右边有车,on your right
+\voice\spotter\car_right,6.wav,右边,右边,right side
+\voice\spotter\car_right,7.wav,右边有车,右边有车,car right
+\voice\spotter\car_right,8.wav,你右边有车,你右边有车,on your right
+\voice\spotter\clear,1.wav,安全,安全,clear
+\voice\spotter\clear,10.wav,好，都安全,好，都安全,"okay, all clear"
+\voice\spotter\clear,11.wav,都安全,都安全,all clear
+\voice\spotter\clear,2.wav,你安全了,你安全了,you're clear
+\voice\spotter\clear,3.wav,安全,安全,clear
+\voice\spotter\clear,4.wav,都安全,都安全,all clear
+\voice\spotter\clear,5.wav,安全,安全,clear
+\voice\spotter\clear,6.wav,安全,安全,clear
+\voice\spotter\clear,7.wav,好，安全了,好，安全了,"okay, you're clear"
+\voice\spotter\clear,8.wav,你安全了,你安全了,you're clear
+\voice\spotter\clear,9.wav,安全,安全,clear
+\voice\spotter\clear_all_round,1.wav,四周都安全,四周都安全,clear all around
+\voice\spotter\clear_all_round,2.wav,四周都安全,四周都安全,clear all around
+\voice\spotter\clear_all_round,3.wav,四周都安全,四周都安全,clear all around
+\voice\spotter\clear_inside,1.wav,内线安全,内线安全,clear inside
+\voice\spotter\clear_inside,2.wav,内线安全,内线安全,clear inside
+\voice\spotter\clear_inside,3.wav,内线安全,内线安全,inside's clear
+\voice\spotter\clear_inside,4.wav,内侧安全,内侧安全,clear low
+\voice\spotter\clear_inside,5.wav,内侧安全,内侧安全,clear low
+\voice\spotter\clear_inside,6.wav,内侧安全,内侧安全,clear low
+\voice\spotter\clear_inside,7.wav,内线安全,内线安全,clear inside
+\voice\spotter\clear_left,1.wav,左边安全,左边安全,clear left
+\voice\spotter\clear_left,2.wav,左边安全,左边安全,clear left
+\voice\spotter\clear_left,3.wav,左边安全,左边安全,clear left
+\voice\spotter\clear_left,4.wav,左边安全,左边安全,clear left
+\voice\spotter\clear_left,5.wav,左边安全,左边安全,clear left
+\voice\spotter\clear_outside,1.wav,外侧安全,外侧安全,clear high
+\voice\spotter\clear_outside,2.wav,外侧安全,外侧安全,clear high
+\voice\spotter\clear_outside,3.wav,外侧安全,外侧安全,you're clear high
+\voice\spotter\clear_outside,4.wav,外线安全,外线安全,clear outside
+\voice\spotter\clear_outside,5.wav,外线安全,外线安全,clear outside
+\voice\spotter\clear_outside,6.wav,外线安全,外线安全,you're clear outside
+\voice\spotter\clear_outside,7.wav,外侧安全,外侧安全,clear high
+\voice\spotter\clear_right,1.wav,右边安全,右边安全,clear right
+\voice\spotter\clear_right,2.wav,右边安全,右边安全,clear right
+\voice\spotter\clear_right,3.wav,右边安全,右边安全,right side's clear
+\voice\spotter\clear_right,4.wav,右边安全,右边安全,clear right
+\voice\spotter\clear_right,5.wav,右边安全,右边安全,clear right
+\voice\spotter\clear_right,6.wav,右边安全,右边安全,right side's clear
+\voice\spotter\hold_your_line,1.wav,保持走线,保持走线,hold your line
+\voice\spotter\hold_your_line,10.wav,保持走线,保持走线,hold your line
+\voice\spotter\hold_your_line,11.wav,保持走线,保持走线,hold your line
+\voice\spotter\hold_your_line,2.wav,保持走线,保持走线,hold your line
+\voice\spotter\hold_your_line,3.wav,保持走线,保持走线,hold your line
+\voice\spotter\hold_your_line,4.wav,保持走线,保持走线,hold your line
+\voice\spotter\hold_your_line,5.wav,保持走线,保持走线,hold your line
+\voice\spotter\hold_your_line,6.wav,保持走线,保持走线,hold your line
+\voice\spotter\hold_your_line,7.wav,保持走线,保持走线,hold your line
+\voice\spotter\hold_your_line,8.wav,保持走线,保持走线,hold your line
+\voice\spotter\hold_your_line,9.wav,保持走线,保持走线,hold your line
+\voice\spotter\in_the_middle,1.wav,你在中间，三辆并排,你在中间，三辆并排,"you're in the middle, 3 wide"
+\voice\spotter\in_the_middle,2.wav,你在中间,你在中间,you're in the middle
+\voice\spotter\in_the_middle,3.wav,你在中间,你在中间,you're in the middle
+\voice\spotter\in_the_middle,4.wav,你在中间，三辆并排,你在中间，三辆并排,"you're in the middle, 3 wide"
+\voice\spotter\in_the_middle,5.wav,三辆并排，你在中间,三辆并排，你在中间,"3 wide, you're in the middle"
+\voice\spotter\still_there,1.wav,还在,还在,still there
+\voice\spotter\still_there,10.wav,他还在,他还在,he's still there
+\voice\spotter\still_there,11.wav,还在,还在,still there
+\voice\spotter\still_there,12.wav,保持走线,保持走线,hold your line
+\voice\spotter\still_there,2.wav,还在,还在,still there
+\voice\spotter\still_there,3.wav,还在,还在,still there
+\voice\spotter\still_there,4.wav,还在,还在,still there
+\voice\spotter\still_there,5.wav,他还在,他还在,he's still there
+\voice\spotter\still_there,6.wav,保持走线,保持走线,hold your line
+\voice\spotter\still_there,7.wav,还在,还在,still there
+\voice\spotter\still_there,8.wav,他还在,他还在,he's still there
+\voice\spotter\still_there,9.wav,保持走线,保持走线,hold your line
+\voice\spotter\three_wide_on_inside,1.wav,三辆并排，你在内侧,三辆并排，你在内侧,"we're 3 wide, you're down low"
+\voice\spotter\three_wide_on_inside,2.wav,你在内线，三辆并排,你在内线，三辆并排,"you're on the inside, 3 wide"
+\voice\spotter\three_wide_on_inside,3.wav,要三辆并排了，你在内线,要三辆并排了，你在内线,"we're going 3 wide, you're on the inside"
+\voice\spotter\three_wide_on_inside,4.wav,你在内线，三辆并排,你在内线，三辆并排,"you're on the inside, 3 wide"
+\voice\spotter\three_wide_on_inside,5.wav,三辆并排，你在最内侧,三辆并排，你在最内侧,"3 wide, you're on the bottom"
+\voice\spotter\three_wide_on_inside,6.wav,三辆并排，你在内侧,三辆并排，你在内侧,"3 wide, you're down low"
+\voice\spotter\three_wide_on_inside,7.wav,三辆并排，你在内线,三辆并排，你在内线,"3 wide, you're inside"
+\voice\spotter\three_wide_on_inside,8.wav,你在内线，三辆并排,你在内线，三辆并排,"you're inside, 3 wide"
+\voice\spotter\three_wide_on_inside,9.wav,你在内侧，三辆并排,你在内侧，三辆并排,"you're down low, 3 wide"
+\voice\spotter\three_wide_on_left,1.wav,你在左边，三辆并排,你在左边，三辆并排,"you're on the left, 3 wide"
+\voice\spotter\three_wide_on_left,2.wav,三辆并排，你在左边,三辆并排，你在左边,"3 wide, you're on the left"
+\voice\spotter\three_wide_on_left,3.wav,你在左边，三辆并排,你在左边，三辆并排,"you're on the left, 3 wide"
+\voice\spotter\three_wide_on_outside,1.wav,三辆并排，你在最外侧,三辆并排，你在最外侧,"3 wide, you're up top"
+\voice\spotter\three_wide_on_outside,10.wav,要三辆并排了，你在外线,要三辆并排了，你在外线,"we're going 3 wide, you're on the outside"
+\voice\spotter\three_wide_on_outside,2.wav,我们在外侧，三辆并排,我们在外侧，三辆并排,"we're up high, 3 wide"
+\voice\spotter\three_wide_on_outside,3.wav,三辆并排，你在外线,三辆并排，你在外线,"3 wide, you're on the outside"
+\voice\spotter\three_wide_on_outside,4.wav,你在外线，三辆并排,你在外线，三辆并排,"you're on the outside, 3 wide"
+\voice\spotter\three_wide_on_outside,5.wav,要三辆并排了，你在最外侧,要三辆并排了，你在最外侧,"you're going 3 wide, you're up top"
+\voice\spotter\three_wide_on_outside,6.wav,三辆并排，你在外侧,三辆并排，你在外侧,"3 wide, you're up high"
+\voice\spotter\three_wide_on_outside,7.wav,三辆并排，你在外线,三辆并排，你在外线,"3 wide, you're on the outside"
+\voice\spotter\three_wide_on_outside,8.wav,你在外线，三辆并排,你在外线，三辆并排,"you're on the outside, 3 wide"
+\voice\spotter\three_wide_on_outside,9.wav,你在外侧，三辆并排,你在外侧，三辆并排,"you're up high, 3 wide"
+\voice\spotter\three_wide_on_right,4.wav,三辆并排，你在右边,三辆并排，你在右边,"3 wide, you're on the right"
+\voice\spotter\three_wide_on_right,5.wav,你在右边，三辆并排,你在右边，三辆并排,"you're on the right, 3 wide"
+\voice\spotter\three_wide_on_right,6.wav,三辆并排，你在右边,三辆并排，你在右边,"3 wide, you're on the right"
