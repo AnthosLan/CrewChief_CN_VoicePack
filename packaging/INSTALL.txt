@@ -1,0 +1,150 @@
+CrewChief 中文语音包 v0.1.0
+============================
+
+内容：266 条中文语音
+  voice/spotter/       124 条  盲区、接近、并排提醒
+  voice/radio_check/     4 条  启动无线电测试
+  voice/numbers/       138 条  数字与时间（0-99、点、时/分/秒、百、千、万、两 等）
+
+音频：单声道 / 22050 Hz / 16-bit PCM，峰值 −1 dBFS
+
+
+先选一种装法
+============
+
+  用法 A —— 原版 CrewChief（多数人选这个）
+      只装 spotter 和无线电测试，装的时候要删掉 numbers 文件夹。
+      spotter 说中文，工程师和圈速仍是英文。
+
+  用法 B —— 自己编译的 CrewChief
+      全部装上，圈速也说中文。需要你有 Windows 开发环境。
+
+两种装法的区别只在第 3 步和第 5 步。
+
+
+⚠ 为什么原版程序不能装 numbers
+==============================
+
+numbers 包会覆盖 numbers/0 到 numbers/99、numbers/point、numbers/hour 这些
+英文包里已经有的文件夹，但它没有英文特有的 599 个合成件
+（45point6、1_23、point75 这类预录的整段读音）。
+
+结果就是：圈速播报里整数部分念中文、小数部分念英文，变成
+「四十五 point six」。所以原版程序必须把 voice/numbers/ 删掉。
+
+根源是 CrewChief 的数字朗读规则写死在代码里，每种语言一个实现类
+（NumberProcessing/NumberReader.cs 定义了 10 个抽象方法），上游自带
+en / it / pt-br，没有中文。中文规则和这三种都不一样——「二」和「两」要
+分场合、万是独立量级、「一分二十三秒四」的结构也不同——所以需要
+NumberReaderZh.cs（294 行）加 NumberReaderFactory 里的一个分支。
+
+
+安装步骤
+========
+
+1. 找到语音包目录，默认在：
+
+       %LOCALAPPDATA%\CrewChiefV4\Sounds
+
+   （地址栏直接粘贴上面这行即可打开）
+
+2. 整个复制一份到别处，比如：
+
+       D:\CrewChief_zh\Sounds
+
+   不要直接改原目录 —— 出问题时你需要能退回去。
+
+3. 把本压缩包里的 voice 文件夹合并进复制出来的目录，覆盖同名文件。
+
+       用法 A：合并前先删掉压缩包里的 voice\numbers\ 整个文件夹
+       用法 B：全部合并
+
+4. 打开 CrewChief 属性页（Properties），搜索：
+
+       Override default Sound Pack location
+
+   填入第 2 步的路径：D:\CrewChief_zh\Sounds
+
+5. 用法 B 追加：在语音包根目录新建或编辑
+
+       D:\CrewChief_zh\Sounds\sound_pack_language.txt
+
+   内容写一行：
+
+       zh
+
+   用法 A 不要建这个文件，保持原样。
+
+6. 确认工程师语音和 spotter 语音两个下拉框都是默认值。
+
+   这一步很关键。CrewChief 在使用非默认工程师语音包时，会强制从基础包
+   读取 spotter 和 radio_check（见 Audio/Sounds.cs 中
+   prepareVoiceWithoutLoading 的实现）。一旦选了 Jerry 之类的替代语音，
+   spotter 会退回英文。
+
+7. 重启 CrewChief（Override 这个设置需要重启才生效）。
+
+
+用法 B 需要的程序改动
+=====================
+
+源码改动在项目仓库：
+
+    CrewChiefV4/NumberReaderZh.cs                        （新增，294 行）
+    CrewChiefV4/NumberProcessing/NumberReaderFactory.cs  （+7 行）
+    CrewChiefV4/CrewChiefV4.csproj                       （+1 行）
+
+需要 Windows + Visual Studio / msbuild 自行编译，配置选 Release | x86。
+
+启动后日志里应该出现：
+
+    Using NumberReaderZh for soundPackLanguage zh
+
+没有这行说明语言标记没读到，检查 sound_pack_language.txt 的位置和内容。
+
+
+验证
+====
+
+- 启动时的无线电测试是中文
+- 进游戏后有车贴近时的盲区提醒是中文
+- 工程师播报仍是英文 —— 正常，工程师那 3772 条尚未制作
+- 用法 B 额外：圈速、差距播报是中文
+
+
+卸载
+====
+
+把属性页里的 Override default Sound Pack location 清空，重启即可。
+用法 B 还要把 sound_pack_language.txt 改回 en 或删掉。
+
+
+副作用（是好事）
+================
+
+用法 B 把语言标记设成 zh 之后，自动更新器不会再用英文包覆盖你的中文包 ——
+上游 auto_update_data.xml 里没有 zh 段，语言相关的更新检查会直接跳过
+（SoundPackVersionsHelper.cs 第 121 行的回退分支只在语言为 null 时才触发）。
+
+
+制作参数
+========
+
+  TTS      XTTS v2（Coqui），语言码 zh-cn
+  音色     Bart，取自 crew-chief-autovoicepack 的 12 条干净片段（38.9 秒）
+  语速     1.45x，实测约 188 毫秒/音节
+  后处理   radio EQ 曲线
+  术语     3 wide → 三辆并排，clear → 安全，inside/outside → 内线/外线
+
+
+授权
+====
+
+语音由 XTTS v2 生成，该模型采用 Coqui Public Model License (CPML)，非商用。
+个人使用没有问题，商用需替换 TTS 引擎（本项目的语料、目录结构、后处理链
+都可复用）。
+
+Bart 音色来自 crew-chief-autovoicepack (MIT)，为 ElevenLabs 合成音色，
+不涉及真人声纹。CrewChief 本体为 MIT。
+
+项目主页：https://github.com/AnthosLan/CrewChief_CN_VoicePack

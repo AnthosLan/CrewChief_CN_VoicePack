@@ -29,16 +29,17 @@
 
 ## 下载
 
-成品在 [Releases](https://github.com/AnthosLan/CrewChief_CN_VoicePack/releases)，分两个包：
+成品在 [Releases](https://github.com/AnthosLan/CrewChief_CN_VoicePack/releases)，单个压缩包 266 条：
 
-| 包 | 内容 | 要求 |
+| 目录 | 条数 | 适用 |
 |---|---|---|
-| `crewchief-zh-spotter-*.zip` | spotter 124 条 + 无线电测试 4 条 | 原版 CrewChief 即可 |
-| `crewchief-zh-numbers-*.zip` | 数字与时间 138 条 | **需要带 `NumberReaderZh` 的自编译版本** |
+| `voice/spotter/` | 124 | 原版 CrewChief 即可 |
+| `voice/radio_check/` | 4 | 原版 CrewChief 即可 |
+| `voice/numbers/` | 138 | **需要带 `NumberReaderZh` 的自编译版本** |
 
-⚠️ **两个包不要混装到原版程序上。** 数字包覆盖了 `numbers/0`–`99`、`point`、`hour` 这些英文包已有的
-文件夹，却没有英文特有的 599 个合成件（`45point6` 这类），装在未打补丁的 CrewChief 上会让圈速播报
-变成「四十五 point six」的中英混播。
+⚠️ **用原版程序的话，解压后先把 `voice/numbers/` 整个删掉再合并。** 它覆盖了 `numbers/0`–`99`、
+`point`、`hour` 这些英文包已有的文件夹，却没有英文特有的 599 个合成件（`45point6` 这类），装在
+未打补丁的 CrewChief 上会让圈速播报变成「四十五 point six」的中英混播。
 
 自行打包：
 
