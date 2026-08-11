@@ -1,0 +1,105 @@
+audio_path,audio_filename,subtitle,text_for_tts,original_english
+\voice\damage_reporting\damage,1.wav,车有损伤,车有损伤,we have damage
+\voice\damage_reporting\damage,2.wav,车有损伤,车有损伤,we have damage
+\voice\damage_reporting\damage,3.wav,车有损伤,车有损伤,we have damage
+\voice\damage_reporting\damage,4.wav,车有损伤,车有损伤,we have damage
+\voice\damage_reporting\damage,5.wav,车有损伤,车有损伤,we have damage
+\voice\damage_reporting\damage,6.wav,车有损伤,车有损伤,we have damage
+\voice\damage_reporting\damage,7.wav,车有损伤,车有损伤,we have damage
+\voice\damage_reporting\damage,8.wav,车有损伤,车有损伤,we have damage
+\voice\flags\red-yellow-flag,1.wav,红黄旗，路面有异物,红黄旗，路面有异物,red and yellow flag
+\voice\flags\red-yellow-flag,2.wav,红黄旗，路面有异物,红黄旗，路面有异物,red and yellow flag
+\voice\flags\red-yellow-flag,3.wav,红黄旗，路面有异物,红黄旗，路面有异物,red and yellow flag
+\voice\flags\red-yellow-flag,4.wav,红黄旗，路面有异物,红黄旗，路面有异物,red and yellow flag
+\voice\flags\red-yellow-flag,5.wav,红黄旗，路面有异物,红黄旗，路面有异物,red and yellow flag
+\voice\flags\red-yellow-flag,6.wav,红黄旗，路面有异物,红黄旗，路面有异物,red and yellow flag
+\voice\flags\slippery-surface-flag,1.wav,路面湿滑,路面湿滑,slippery surface
+\voice\flags\slippery-surface-flag,2.wav,路面湿滑,路面湿滑,slippery surface
+\voice\flags\slippery-surface-flag,3.wav,路面湿滑,路面湿滑,slippery surface
+\voice\flags\slippery-surface-flag,4.wav,路面湿滑,路面湿滑,slippery surface
+\voice\flags\slippery-surface-flag,5.wav,路面湿滑,路面湿滑,slippery surface
+\voice\flags\slippery-surface-flag,6.wav,路面湿滑,路面湿滑,slippery surface
+\voice\fuel\not_enough_laps_for_average,1.wav,圈数不够，算不出平均油耗,圈数不够，算不出平均油耗,not enough laps for average
+\voice\fuel\not_enough_laps_for_average,2.wav,圈数不够，算不出平均油耗,圈数不够，算不出平均油耗,not enough laps for average
+\voice\fuel\not_enough_laps_for_average,3.wav,圈数不够，算不出平均油耗,圈数不够，算不出平均油耗,not enough laps for average
+\voice\lap_counter\has_taken_the_win,1.wav,拿下了胜利,拿下了胜利,has taken the win
+\voice\lap_counter\has_taken_the_win,10.wav,拿下了胜利,拿下了胜利,has taken the win
+\voice\lap_counter\has_taken_the_win,2.wav,拿下了胜利,拿下了胜利,has taken the win
+\voice\lap_counter\has_taken_the_win,3.wav,拿下了胜利,拿下了胜利,has taken the win
+\voice\lap_counter\has_taken_the_win,4.wav,拿下了胜利,拿下了胜利,has taken the win
+\voice\lap_counter\has_taken_the_win,5.wav,拿下了胜利,拿下了胜利,has taken the win
+\voice\lap_counter\has_taken_the_win,6.wav,拿下了胜利,拿下了胜利,has taken the win
+\voice\lap_counter\has_taken_the_win,7.wav,拿下了胜利,拿下了胜利,has taken the win
+\voice\lap_counter\has_taken_the_win,8.wav,拿下了胜利,拿下了胜利,has taken the win
+\voice\lap_counter\has_taken_the_win,9.wav,拿下了胜利,拿下了胜利,has taken the win
+\voice\lap_counter\race_starts_in,1.wav,比赛开始还有,比赛开始还有,race starts in
+\voice\lap_counter\race_starts_in,10.wav,比赛开始还有,比赛开始还有,race starts in
+\voice\lap_counter\race_starts_in,11.wav,比赛开始还有,比赛开始还有,race starts in
+\voice\lap_counter\race_starts_in,2.wav,比赛开始还有,比赛开始还有,race starts in
+\voice\lap_counter\race_starts_in,3.wav,比赛开始还有,比赛开始还有,race starts in
+\voice\lap_counter\race_starts_in,4.wav,比赛开始还有,比赛开始还有,race starts in
+\voice\lap_counter\race_starts_in,5.wav,比赛开始还有,比赛开始还有,race starts in
+\voice\lap_counter\race_starts_in,6.wav,比赛开始还有,比赛开始还有,race starts in
+\voice\lap_counter\race_starts_in,7.wav,比赛开始还有,比赛开始还有,race starts in
+\voice\lap_counter\race_starts_in,8.wav,比赛开始还有,比赛开始还有,race starts in
+\voice\lap_counter\race_starts_in,9.wav,比赛开始还有,比赛开始还有,race starts in
+\voice\mandatory_pit_stops\no_pit_timings_unreliable_fuel_estimates,1.wav,拿不到进站时间，油耗预估不准,拿不到进站时间，油耗预估不准,"no pit timings, fuel estimates unreliable"
+\voice\mandatory_pit_stops\no_pit_timings_unreliable_fuel_estimates,2.wav,拿不到进站时间，油耗预估不准,拿不到进站时间，油耗预估不准,"no pit timings, fuel estimates unreliable"
+\voice\mandatory_pit_stops\no_pit_timings_unreliable_fuel_estimates,3.wav,拿不到进站时间，油耗预估不准,拿不到进站时间，油耗预估不准,"no pit timings, fuel estimates unreliable"
+\voice\mandatory_pit_stops\no_pit_timings_unreliable_fuel_estimates,4.wav,拿不到进站时间，油耗预估不准,拿不到进站时间，油耗预估不准,"no pit timings, fuel estimates unreliable"
+\voice\mandatory_pit_stops\no_pit_timings_unreliable_fuel_estimates,5.wav,拿不到进站时间，油耗预估不准,拿不到进站时间，油耗预估不准,"no pit timings, fuel estimates unreliable"
+\voice\mandatory_pit_stops\no_pit_timings_unreliable_position_estimates,1.wav,拿不到进站时间，位置预估不准,拿不到进站时间，位置预估不准,"no pit timings, position estimates unreliable"
+\voice\mandatory_pit_stops\no_pit_timings_unreliable_position_estimates,2.wav,拿不到进站时间，位置预估不准,拿不到进站时间，位置预估不准,"no pit timings, position estimates unreliable"
+\voice\mandatory_pit_stops\no_pit_timings_unreliable_position_estimates,3.wav,拿不到进站时间，位置预估不准,拿不到进站时间，位置预估不准,"no pit timings, position estimates unreliable"
+\voice\mandatory_pit_stops\no_pit_timings_unreliable_position_estimates,4.wav,拿不到进站时间，位置预估不准,拿不到进站时间，位置预估不准,"no pit timings, position estimates unreliable"
+\voice\mandatory_pit_stops\no_pit_timings_unreliable_position_estimates,5.wav,拿不到进站时间，位置预估不准,拿不到进站时间，位置预估不准,"no pit timings, position estimates unreliable"
+\voice\mandatory_pit_stops\no_pit_timings_unreliable_position_estimates,6.wav,拿不到进站时间，位置预估不准,拿不到进站时间，位置预估不准,"no pit timings, position estimates unreliable"
+\voice\mandatory_pit_stops\no_pit_timings_unreliable_position_estimates,7.wav,拿不到进站时间，位置预估不准,拿不到进站时间，位置预估不准,"no pit timings, position estimates unreliable"
+\voice\overtaking_aids\drs_activations_remaining,1.wav,次 DRS 可用,次 DRS 可用,DRS activations remaining
+\voice\overtaking_aids\drs_activations_remaining,2.wav,次 DRS 可用,次 DRS 可用,DRS activations remaining
+\voice\overtaking_aids\drs_activations_remaining,3.wav,次 DRS 可用,次 DRS 可用,DRS activations remaining
+\voice\overtaking_aids\drs_activations_remaining,4.wav,次 DRS 可用,次 DRS 可用,DRS activations remaining
+\voice\overtaking_aids\drs_activations_remaining,5.wav,次 DRS 可用,次 DRS 可用,DRS activations remaining
+\voice\overtaking_aids\drs_activations_remaining,6.wav,次 DRS 可用,次 DRS 可用,DRS activations remaining
+\voice\overtaking_aids\no_drs_activations_remaining,1.wav,DRS 用完了,DRS 用完了,no DRS activations remaining
+\voice\overtaking_aids\no_drs_activations_remaining,2.wav,DRS 用完了,DRS 用完了,no DRS activations remaining
+\voice\overtaking_aids\no_drs_activations_remaining,3.wav,DRS 用完了,DRS 用完了,no DRS activations remaining
+\voice\overtaking_aids\no_drs_activations_remaining,4.wav,DRS 用完了,DRS 用完了,no DRS activations remaining
+\voice\overtaking_aids\no_drs_activations_remaining,5.wav,DRS 用完了,DRS 用完了,no DRS activations remaining
+\voice\overtaking_aids\no_drs_activations_remaining,6.wav,DRS 用完了,DRS 用完了,no DRS activations remaining
+\voice\overtaking_aids\one_drs_activation_remaining,1.wav,还剩一次 DRS,还剩一次 DRS,one DRS activation remaining
+\voice\overtaking_aids\remember_to_use_kers,1.wav,别忘了用 KERS,别忘了用 KERS,remember to use KERS
+\voice\overtaking_aids\remember_to_use_kers,2.wav,别忘了用 KERS,别忘了用 KERS,remember to use KERS
+\voice\overtaking_aids\remember_to_use_kers,3.wav,别忘了用 KERS,别忘了用 KERS,remember to use KERS
+\voice\overtaking_aids\remember_to_use_kers,4.wav,别忘了用 KERS,别忘了用 KERS,remember to use KERS
+\voice\overtaking_aids\remember_to_use_kers,5.wav,别忘了用 KERS,别忘了用 KERS,remember to use KERS
+\voice\overtaking_aids\remember_to_use_kers,6.wav,别忘了用 KERS,别忘了用 KERS,remember to use KERS
+\voice\penalties\disqualified_no_headlights,1.wav,没开大灯，被取消资格,没开大灯，被取消资格,"disqualified, no headlights"
+\voice\penalties\disqualified_no_headlights,2.wav,没开大灯，被取消资格,没开大灯，被取消资格,"disqualified, no headlights"
+\voice\penalties\disqualified_no_headlights,3.wav,没开大灯，被取消资格,没开大灯，被取消资格,"disqualified, no headlights"
+\voice\penalties\disqualified_no_headlights,4.wav,没开大灯，被取消资格,没开大灯，被取消资格,"disqualified, no headlights"
+\voice\penalties\disqualified_no_headlights,sweary_5.wav,没开大灯，被取消资格,没开大灯，被取消资格,"disqualified, no headlights"
+\voice\penalties\disqualified_no_headlights,sweary_6.wav,没开大灯，被取消资格,没开大灯，被取消资格,"disqualified, no headlights"
+\voice\penalties\disqualified_no_headlights,sweary_7.wav,没开大灯，被取消资格,没开大灯，被取消资格,"disqualified, no headlights"
+\voice\penalties\slow_down_penalty_clear,1.wav,减速罚时已解除,减速罚时已解除,slow down penalty clear
+\voice\penalties\slow_down_penalty_clear,2.wav,减速罚时已解除,减速罚时已解除,slow down penalty clear
+\voice\penalties\slow_down_penalty_clear,3.wav,减速罚时已解除,减速罚时已解除,slow down penalty clear
+\voice\penalties\slow_down_penalty_clear,4.wav,减速罚时已解除,减速罚时已解除,slow down penalty clear
+\voice\penalties\warning_headlights_required_when_raining,1.wav,雨天必须开大灯,雨天必须开大灯,headlights required when raining
+\voice\penalties\warning_headlights_required_when_raining,2.wav,雨天必须开大灯,雨天必须开大灯,headlights required when raining
+\voice\penalties\warning_headlights_required_when_raining,3.wav,雨天必须开大灯,雨天必须开大灯,headlights required when raining
+\voice\penalties\warning_headlights_required_when_raining,4.wav,雨天必须开大灯,雨天必须开大灯,headlights required when raining
+\voice\penalties\warning_headlights_required_when_raining,5.wav,雨天必须开大灯,雨天必须开大灯,headlights required when raining
+\voice\penalties\warning_headlights_required_when_raining,6.wav,雨天必须开大灯,雨天必须开大灯,headlights required when raining
+\voice\penalties\warning_headlights_required_when_raining,7.wav,雨天必须开大灯,雨天必须开大灯,headlights required when raining
+\voice\timings\car_behind_is_lapping_us,1.wav,后车要套我们圈,后车要套我们圈,car behind is lapping us
+\voice\timings\car_behind_is_lapping_us,2.wav,后车要套我们圈,后车要套我们圈,car behind is lapping us
+\voice\timings\car_behind_is_lapping_us,3.wav,后车要套我们圈,后车要套我们圈,car behind is lapping us
+\voice\timings\car_behind_is_lapping_us,4.wav,后车要套我们圈,后车要套我们圈,car behind is lapping us
+\voice\timings\car_behind_is_lapping_us,5.wav,后车要套我们圈,后车要套我们圈,car behind is lapping us
+\voice\timings\car_behind_is_unlapping_itself,1.wav,后车在解套,后车在解套,car behind is unlapping itself
+\voice\timings\car_behind_is_unlapping_itself,2.wav,后车在解套,后车在解套,car behind is unlapping itself
+\voice\timings\car_behind_is_unlapping_itself,3.wav,后车在解套,后车在解套,car behind is unlapping itself
+\voice\timings\car_behind_is_unlapping_itself,4.wav,后车在解套,后车在解套,car behind is unlapping itself
+\voice\timings\car_behind_is_unlapping_itself,5.wav,后车在解套,后车在解套,car behind is unlapping itself
+\voice\timings\car_behind_is_unlapping_itself,6.wav,后车在解套,后车在解套,car behind is unlapping itself

@@ -35,6 +35,54 @@ WAVES = {
     4: ["pearls_of_wisdom", "rants", "incidents", "alarm_clock", "licence", "rejoining"],
 }
 
+# 29 folders have wav files but no subtitles.csv -- newer messages that shipped without subtitles.
+# autovoicepack's older inventory doesn't have them either, so the text was recovered by tracing the
+# folder constant in the CrewChief source and reading its trigger condition. Emitted by --manual,
+# already in Chinese, so they bypass translation and go straight to TTS.
+#
+# ⚠️ Two of these are fragments concatenated with a number, so Chinese word order matters:
+#   race_starts_in            MessageContents(folder, time, "timings/seconds")  -> prefix
+#   drs_activations_remaining number precedes the folder                        -> suffix
+MANUAL_TEXT = {
+    "damage_reporting/damage": ("车有损伤", "we have damage"),
+    "flags/red-yellow-flag": ("红黄旗，路面有异物", "red and yellow flag"),
+    "flags/slippery-surface-flag": ("路面湿滑", "slippery surface"),
+    "fuel/not_enough_laps_for_average": ("圈数不够，算不出平均油耗", "not enough laps for average"),
+    "lap_counter/has_taken_the_win": ("拿下了胜利", "has taken the win"),
+    "lap_counter/race_starts_in": ("比赛开始还有", "race starts in"),
+    "mandatory_pit_stops/no_pit_timings_unreliable_fuel_estimates":
+        ("拿不到进站时间，油耗预估不准", "no pit timings, fuel estimates unreliable"),
+    "mandatory_pit_stops/no_pit_timings_unreliable_position_estimates":
+        ("拿不到进站时间，位置预估不准", "no pit timings, position estimates unreliable"),
+    "overtaking_aids/drs_activations_remaining": ("次 DRS 可用", "DRS activations remaining"),
+    "overtaking_aids/no_drs_activations_remaining": ("DRS 用完了", "no DRS activations remaining"),
+    "overtaking_aids/one_drs_activation_remaining": ("还剩一次 DRS", "one DRS activation remaining"),
+    "overtaking_aids/remember_to_use_kers": ("别忘了用 KERS", "remember to use KERS"),
+    "penalties/disqualified_no_headlights": ("没开大灯，被取消资格", "disqualified, no headlights"),
+    "penalties/slow_down_penalty_clear": ("减速罚时已解除", "slow down penalty clear"),
+    "penalties/warning_headlights_required_when_raining":
+        ("雨天必须开大灯", "headlights required when raining"),
+    "timings/car_behind_is_lapping_us": ("后车要套我们圈", "car behind is lapping us"),
+    "timings/car_behind_is_unlapping_itself": ("后车在解套", "car behind is unlapping itself"),
+}
+
+# The other 12 have no subtitles either, but nothing to make: not speech, or the event never
+# fires in AC. Listed explicitly so they stop showing up as "missing text" every run.
+DROP = {
+    "acknowledge/breath_in": "吸气声，不是语音（AudioPlayer.cs:1694 直接播放，受 enable_breath_in 控制）",
+    "lap_counter/strength_of_field_is": "Ratings.cs，iRacing/R3E 专属，AC 不加载",
+    "lap_counter/strength_of_field_for_our_class_is": "同上",
+    "flags/stay_below_vsc_speed": "虚拟安全车，AC 没有",
+    "flags/virtual_safety_car": "同上",
+    "flags/virtual_safety_car_phase_over": "同上",
+    "flags/virtual_safety_car_speed": "同上",
+    "penalties/vsc_violation_penalty": "同上",
+    "fuel/virtual_energy": "LMU 的虚拟能量，.cs 里零引用",
+    "damage_reporting/wheel_damage": ".cs 里零引用，死音频",
+    "rejoining/rejoin_clear": "rejoin 只出现在 F1/LMU 的数据结构里，没有播报路径",
+    "rejoining/rejoin_wait": "同上",
+}
+
 # Already shipped in v0.1.0.
 DONE = ["spotter", "radio_check", "numbers"]
 
@@ -68,8 +116,14 @@ def read_subtitles(path):
     return mapping
 
 
-def gather(voice_dir, wanted_categories):
-    """Walk voice/<category>/<folder>/ and pair each wav with its subtitle."""
+def gather(voice_dir, wanted_categories, manual=False):
+    """
+    Walk voice/<category>/<folder>/ and pair each wav with its text.
+
+    manual=False yields the rows awaiting translation (English in subtitle / text_for_tts).
+    manual=True yields only the MANUAL_TEXT folders, already in Chinese, so the two sets never
+    mix -- feeding pre-translated rows back through translate_phrases.py would translate them again.
+    """
     rows = []
     missing_subtitles = []
     for category in sorted(os.listdir(voice_dir)):
@@ -82,21 +136,35 @@ def gather(voice_dir, wanted_categories):
             folder_dir = os.path.join(category_dir, folder)
             if not os.path.isdir(folder_dir):
                 continue
+            key = "%s/%s" % (category, folder)
+            if key in DROP:
+                continue
             wavs = sorted(f for f in os.listdir(folder_dir) if f.endswith(".wav"))
             if not wavs:
                 continue
+            # Backslashes and the leading \voice are what CrewChief and translate_phrases.py
+            # both expect. Every segment is an identifier -- never translate a folder name.
+            audio_path = "\\voice\\%s\\%s" % (category, folder)
+
+            if key in MANUAL_TEXT:
+                if not manual:
+                    continue
+                chinese, english = MANUAL_TEXT[key]
+                for wav in wavs:
+                    rows.append([audio_path, wav, chinese, chinese, english])
+                continue
+            if manual:
+                continue
+
             subtitles_path = os.path.join(folder_dir, "subtitles.csv")
             subtitles = read_subtitles(subtitles_path) if os.path.exists(subtitles_path) else {}
             if not subtitles:
-                missing_subtitles.append("%s/%s (%d wav)" % (category, folder, len(wavs)))
+                missing_subtitles.append("%s (%d wav)" % (key, len(wavs)))
                 continue
             for wav in wavs:
                 english = subtitles.get(wav)
                 if not english:
                     continue
-                # Backslashes and the leading \voice are what CrewChief and translate_phrases.py
-                # both expect. Every segment is an identifier -- never translate a folder name.
-                audio_path = "\\voice\\%s\\%s" % (category, folder)
                 # subtitle / text_for_tts still hold English here; the translation step
                 # overwrites both and leaves original_english as the review reference.
                 rows.append([audio_path, wav, english, english, english])
@@ -136,6 +204,8 @@ def main():
     parser.add_argument("--out", default="translations/chief_zh.csv")
     parser.add_argument("--list_waves", action="store_true",
                         help="只打印波次构成，不写文件")
+    parser.add_argument("--manual", action="store_true",
+                        help="只导出手写中文的那批（官方没有 subtitles.csv），已是中文，不要再送去翻译")
     args = parser.parse_args()
 
     if not os.path.isdir(args.voice_dir):
@@ -152,9 +222,9 @@ def main():
         except (ValueError, KeyError):
             sys.exit("--wave 只能是 1/2/3/4 或 all")
 
-    rows, missing = gather(args.voice_dir, wanted)
+    rows, missing = gather(args.voice_dir, wanted, manual=args.manual)
     if not rows:
-        sys.exit("没有收集到任何行，检查 --voice_dir")
+        sys.exit("这一波没有手写中文的行" if args.manual else "没有收集到任何行，检查 --voice_dir")
 
     os.makedirs(os.path.dirname(args.out) or ".", exist_ok=True)
     with open(args.out, "w", newline="", encoding="utf-8") as f:
