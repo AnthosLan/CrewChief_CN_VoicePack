@@ -140,11 +140,22 @@ NumberReaderZh.cs（294 行）加 NumberReaderFactory 里的一个分支。
 授权
 ====
 
-语音由 XTTS v2 生成，该模型采用 Coqui Public Model License (CPML)，非商用。
-个人使用没有问题，商用需替换 TTS 引擎（本项目的语料、目录结构、后处理链
-都可复用）。
+语音由 XTTS v2 生成，该模型采用 Coqui Public Model License 1.0.0（CPML），
+只允许非商用。条款全文见同目录的 CPML.txt —— 那是许可本身的要求：任何拿到
+这些音频的人都必须一并拿到条款。你转发这个包时请连 CPML.txt 一起转发。
+
+对使用者来说，实际约束是三条：
+
+  - 自己玩、免费分享给车友，没问题
+  - 不能拿去卖，也不能塞进付费产品、付费整合包
+  - 不能只发音频不发 CPML.txt
+
+要商用得替换 TTS 引擎（本项目的语料、目录结构、后处理链都可复用）。
+Coqui 已于 2024 年 1 月关停，没有人能再出售商业许可。
 
 Bart 音色来自 crew-chief-autovoicepack (MIT)，为 ElevenLabs 合成音色，
 不涉及真人声纹。CrewChief 本体为 MIT。
+
+以上是对许可文本的阅读理解，不是法律意见。
 
 项目主页：https://github.com/AnthosLan/CrewChief_CN_VoicePack

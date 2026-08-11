@@ -19,6 +19,12 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 DIST="$ROOT/dist"
 ZIP="$DIST/crewchief-zh-voicepack-$VERSION.zip"
 
+# CPML 的 Notices 条款要求：拿到音频的人必须一并拿到条款全文或其 URL。
+# 那个 URL（coqui.ai/cpml.txt）随 Coqui 2024 年关停已经 404，所以只能附全文。
+# 缺文件就停下，不能发一个不带许可的包出去。见方案文档 §13.1。
+[[ -f "$ROOT/packaging/CPML.txt" ]] || {
+  echo "缺 packaging/CPML.txt —— CPML 要求随包传递条款全文，不能不带" >&2; exit 1; }
+
 rm -rf "$DIST"
 stage="$DIST/.stage"
 mkdir -p "$stage/voice"
@@ -40,14 +46,22 @@ for src in "$ROOT"/output/*/voice; do
 done
 [[ $found -gt 0 ]] || { echo "output/ 下没有可打包的 voice —— 先跑生成脚本" >&2; exit 1; }
 
-python3 -c "
+# 转成 CRLF 再进包：老版本记事本遇到纯 LF 会把全文连成一行。
+# 第三个参数 bom 时加 UTF-8 BOM —— INSTALL.txt 是中文需要；CPML.txt 是纯 ASCII 不加，
+# 除换行符外与上游逐字一致（换行转换不改变正文）。
+to_crlf() {
+  python3 -c "
 import pathlib, sys
 t = pathlib.Path(sys.argv[1]).read_text(encoding='utf-8')
-pathlib.Path(sys.argv[2]).write_bytes(b'\xef\xbb\xbf' + t.replace('\n', '\r\n').encode('utf-8'))
-" "$ROOT/packaging/INSTALL.txt" "$stage/INSTALL.txt"
+data = t.replace('\r\n', '\n').replace('\n', '\r\n').encode('utf-8')
+pathlib.Path(sys.argv[2]).write_bytes((b'\xef\xbb\xbf' if sys.argv[3] == 'bom' else b'') + data)
+" "$1" "$2" "$3"
+}
+to_crlf "$ROOT/packaging/INSTALL.txt" "$stage/INSTALL.txt" bom
+to_crlf "$ROOT/packaging/CPML.txt"    "$stage/CPML.txt"    nobom
 
 find "$stage" -name '.DS_Store' -delete
-( cd "$stage" && zip -r -X -q "$ZIP" voice INSTALL.txt )
+( cd "$stage" && zip -r -X -q "$ZIP" voice INSTALL.txt CPML.txt )
 rm -rf "$stage"
 
 echo "  $(basename "$ZIP")  $(du -h "$ZIP" | cut -f1)"
