@@ -19,7 +19,7 @@ CrewChief 中文语音包 v0.1.0
   用法 B —— 自己编译的 CrewChief
       全部装上，圈速也说中文。需要你有 Windows 开发环境。
 
-两种装法的区别只在第 3 步和第 5 步。
+两种装法的区别只在第 3、5、6 步。
 
 
 ⚠ 为什么原版程序不能装 numbers
@@ -75,14 +75,44 @@ NumberReaderZh.cs（294 行）加 NumberReaderFactory 里的一个分支。
 
    用法 A 不要建这个文件，保持原样。
 
-6. 确认工程师语音和 spotter 语音两个下拉框都是默认值。
+6. 用法 A 追加：防止下载按钮把英文包盖回来。编辑
+
+       D:\CrewChief_zh\Sounds\sound_pack_version_info.txt
+
+   把里面的版本号改成一个很大的值，比如：
+
+       9999
+
+   原因见后面「关于自动更新」一节。用法 B 不需要这一步。
+
+7. 确认工程师语音和 spotter 语音两个下拉框都是默认值。
 
    这一步很关键。CrewChief 在使用非默认工程师语音包时，会强制从基础包
    读取 spotter 和 radio_check（见 Audio/Sounds.cs 中
    prepareVoiceWithoutLoading 的实现）。一旦选了 Jerry 之类的替代语音，
    spotter 会退回英文。
 
-7. 重启 CrewChief（Override 这个设置需要重启才生效）。
+8. 重启 CrewChief（Override 这个设置需要重启才生效）。
+
+
+字幕显示成方块怎么办（可选）
+============================
+
+只有开了字幕覆盖层才需要看这一节，不开可以跳过。
+
+本包每个语音文件夹里都带了 subtitles.csv，字幕文本是中文。覆盖层默认字体是
+Microsoft Sans Serif（Overlay/OverlaySettings.cs），如果中文显示成方块，改字体：
+
+    我的文档\CrewChiefV4\subtitle_overlay.json
+
+找到 "fontName" 那一行，改成系统里有中文字形的字体：
+
+    "fontName": "Microsoft YaHei",
+
+工程师覆盖层是同一套设置，文件叫 crewchief_overlay.json，同样改法。
+
+两个 json 都是 CrewChief 首次运行时自动生成的，找不到就先启动一次。改完重启
+CrewChief 生效，不需要重新编译程序。
 
 
 用法 B 需要的程序改动
@@ -119,12 +149,31 @@ NumberReaderZh.cs（294 行）加 NumberReaderFactory 里的一个分支。
 用法 B 还要把 sound_pack_language.txt 改回 en 或删掉。
 
 
-副作用（是好事）
-================
+关于自动更新
+============
 
-用法 B 把语言标记设成 zh 之后，自动更新器不会再用英文包覆盖你的中文包 ——
-上游 auto_update_data.xml 里没有 zh 段，语言相关的更新检查会直接跳过
-（SoundPackVersionsHelper.cs 第 121 行的回退分支只在语言为 null 时才触发）。
+先说清楚：CrewChief 不会在后台静默覆盖你的语音包。它只是把主界面上的语音包
+下载按钮点亮，要你自己点了才会下载覆盖。所以最坏情况是「哪天顺手点了绿按钮，
+中文包被英文包盖掉」，不是开着开着就没了。
+
+按钮亮不亮的判断是 latest > current（UserInterface/SoundPacks.cs 第 117 行）：
+
+  current  读你语音包根目录的 sound_pack_version_info.txt
+  latest   从上游 auto_update_data.xml 里按【语言】取
+
+两种装法的处境不同：
+
+  用法 B（语言标记 = zh）
+      查 zh 段，上游没有这一段，取不到任何更新包，按钮永远是灰的。
+      天然免疫，不用做额外操作。
+
+  用法 A（没有语言标记）
+      语言为空时代码按 en 查（UserInterface/MainWindow.cs 第 607 行），
+      拿到的是真实的英文包版本号，上游一发新版按钮就会变绿。
+      所以第 6 步要把 current 撑大到 9999。
+
+⚠ 启动参数 -skip_updates 不管用。它只跳过程序本体的更新检查
+（AutoUpdater.Start），语音包的 XML 照样下载和比对，别拿它当防线。
 
 
 制作参数

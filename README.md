@@ -17,7 +17,7 @@
 | 装包实测 | AC 中验证无线电测试与盲区提醒 | ✅ 通过 |
 | 数字与时间 | `NumberReaderZh` + 138 条数字音频 | ✅ 完成 |
 | 打包分发 | zip 构建脚本 + Releases | ✅ 完成 |
-| 字幕字体 | 覆盖层能否渲染中文 | ⏸ 待 Windows 环境验证 |
+| 字幕字体 | 覆盖层能否渲染中文 | ⏸ 待 Windows 环境验证（改法已定，改 json 不用编译） |
 | 工程师播报 | 3772 条文案 | ⬜ 未开始（主要工作量） |
 | UI 中文化 | 2222 条 | ⬜ 未开始 |
 | 语音指令 | 30–50 个高频指令 | ⬜ 未开始 |
@@ -40,7 +40,9 @@
 
 1. 把 `%LOCALAPPDATA%\CrewChiefV4\Sounds` 整个复制一份，例如 `D:\CrewChief_zh\Sounds`；
 2. 把压缩包里的 `voice/` 合并进去，覆盖同名文件；
-3. 属性页里设 `Override default Sound Pack location` 指向第 1 步的路径，重启 CrewChief。
+3. 属性页里设 `Override default Sound Pack location` 指向第 1 步的路径，重启 CrewChief；
+4. 用原版程序的话，把复制出来那份的 `sound_pack_version_info.txt` 版本号改成 `9999`，
+   否则上游一发新版，主界面的语音包下载按钮就会变绿，点下去英文包会盖掉中文包。
 
 ### ⚠️ 两个必须知道的坑
 
