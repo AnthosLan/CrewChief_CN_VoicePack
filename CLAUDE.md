@@ -64,6 +64,12 @@ python3 scripts/make_numbers_inventory.py --verify
 python3 scripts/make_numbers_inventory.py --out translations/numbers_zh.csv
 ```
 
+切工程师语料（第二阶段，按波次分批；`--list_waves` 只打印不写文件）：
+
+```bash
+python3 scripts/make_chief_inventory.py --wave 1 --out translations/chief_wave1.csv
+```
+
 打包：
 
 ```bash
