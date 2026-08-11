@@ -1,5 +1,9 @@
-# 例外：baseline 是生成结果的必要输入，必须入库才能复现
-!baseline/**/*.wav
+# 生成的音频不入库 —— 有 translations/ + baseline/ + scripts/ 就能完整复现。
+# 成品打成 zip 挂 GitHub Releases，见 packaging/build_release.sh。
+output/
+dist/
+
+# baseline/ 是生成结果的必要输入，必须入库，别加通配的 *.wav 忽略规则
 
 # Python
 .venv/

@@ -1,0 +1,80 @@
+CrewChief 中文语音包 —— 数字与时间
+====================================
+
+内容：138 条中文数字/时间语音（0–99、点、时/分/秒、十分之一、百、千、万、两 等）
+要求：必须使用修改过的 CrewChief 程序，见下方"为什么需要改程序"
+音频：单声道 / 22050 Hz / 16-bit PCM，峰值 −1 dBFS
+
+
+⚠ 不要装在原版 CrewChief 上
+---------------------------
+
+本包会覆盖 numbers/0 到 numbers/99、numbers/point、numbers/hour 等英文包里
+已有的文件夹，但没有英文特有的 599 个合成件（45point6、1_23、point75 这类）。
+
+装在原版程序上的结果是：圈速播报变成「四十五 point six」这种中英混播。
+
+必须配合 NumberReaderZh 一起使用。
+
+
+为什么需要改程序
+----------------
+
+CrewChief 的数字朗读规则是写死在代码里的，每种语言一个实现类
+（NumberProcessing/NumberReader.cs 定义了 10 个抽象方法）。上游自带 en、it、
+pt-br 三种，没有中文。
+
+中文的数字规则和这三种都不一样：
+  - 「二」和「两」要分场合（两分钟 / 第二名）
+  - 万是独立量级，不是「十千」
+  - 「一分二十三秒四」的结构与英文 one twenty three point four 不同
+
+所以需要 NumberReaderZh.cs（294 行）+ NumberReaderFactory 里的一个分支。
+
+
+安装步骤
+--------
+
+1. 先装好 spotter 包（另一个压缩包），确认能正常出声。
+
+2. 取得修改过的 CrewChiefV4.exe。源码改动在项目仓库：
+
+       CrewChiefV4/NumberReaderZh.cs                        （新增）
+       CrewChiefV4/NumberProcessing/NumberReaderFactory.cs  （+7 行）
+       CrewChiefV4/CrewChiefV4.csproj                       （+1 行）
+
+   需要 Windows + Visual Studio / msbuild 自行编译（Release | x86）。
+
+3. 把本压缩包里的 voice 文件夹合并进你的语音包目录：
+
+       D:\CrewChief_zh\Sounds\voice\numbers\
+
+4. 在语音包根目录编辑（没有就新建）：
+
+       D:\CrewChief_zh\Sounds\sound_pack_language.txt
+
+   内容改成一行：
+
+       zh
+
+5. 重启 CrewChief。启动日志里应该出现：
+
+       Using NumberReaderZh for soundPackLanguage zh
+
+
+副作用（是好事）
+----------------
+
+把语言标记设成 zh 之后，自动更新器不会再用英文包覆盖你的中文包 ——
+上游的 auto_update_data.xml 里没有 zh 段，语言相关的更新检查会直接跳过
+（SoundPackVersionsHelper.cs 第 121 行的回退分支只在语言为 null 时才触发）。
+
+
+授权
+----
+
+语音由 XTTS v2 生成，该模型采用 Coqui Public Model License (CPML)，非商用。
+个人使用没有问题。音色 Bart 来自 crew-chief-autovoicepack (MIT)，为合成音色，
+不涉及真人声纹。
+
+项目主页：https://github.com/AnthosLan/CrewChief_CN_VoicePack

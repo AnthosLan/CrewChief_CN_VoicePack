@@ -1,0 +1,73 @@
+CrewChief 中文语音包 —— Spotter + 无线电测试
+================================================
+
+内容：128 条中文语音（spotter 盲区/接近提醒 124 条 + 无线电测试 4 条）
+要求：原版 CrewChief 即可，不需要修改程序
+音频：单声道 / 22050 Hz / 16-bit PCM，峰值 −1 dBFS
+
+
+安装步骤
+--------
+
+1. 找到你的语音包目录，默认在：
+
+       %LOCALAPPDATA%\CrewChiefV4\Sounds
+
+   （地址栏直接粘贴上面这行即可打开）
+
+2. 整个复制一份，比如复制到：
+
+       D:\CrewChief_zh\Sounds
+
+   不要直接改原目录 —— 出问题时你需要能退回去。
+
+3. 把本压缩包里的 voice 文件夹合并进复制出来的目录，覆盖同名文件：
+
+       D:\CrewChief_zh\Sounds\voice\spotter\
+       D:\CrewChief_zh\Sounds\voice\radio_check\
+
+4. 打开 CrewChief 的属性页（Properties），搜索：
+
+       Override default Sound Pack location
+
+   填入第 2 步的路径：D:\CrewChief_zh\Sounds
+
+5. 确认工程师语音和 spotter 语音两个下拉框都是默认值。
+
+   这一步很关键。CrewChief 在使用非默认工程师语音包时，会强制从基础包读取
+   spotter 和 radio_check（见 Audio/Sounds.cs 中 prepareVoiceWithoutLoading 的
+   实现）。一旦选了 Jerry 之类的替代语音，spotter 会退回英文。
+
+6. 重启 CrewChief（这个设置需要重启才生效）。
+
+
+验证
+----
+
+- 启动时的无线电测试应该是中文
+- 进游戏后有车贴近时的盲区提醒应该是中文
+- 工程师播报仍然是英文 —— 这是正常的，本包只替换 spotter
+
+
+卸载
+----
+
+把属性页里的 Override default Sound Pack location 清空，重启即可。
+
+
+已知限制
+--------
+
+- 只替换了 spotter 和无线电测试，工程师播报（约 3772 条）尚未制作
+- 数字与时间朗读是单独的压缩包，且需要修改过的 CrewChief 程序，
+  不要和本包混装，否则圈速会变成中英混播
+
+
+授权
+----
+
+语音由 XTTS v2 生成，该模型采用 Coqui Public Model License (CPML)，非商用。
+个人使用没有问题。音色 Bart 来自 crew-chief-autovoicepack (MIT)，为合成音色，
+不涉及真人声纹。
+
+项目主页：https://github.com/AnthosLan/CrewChief_CN_VoicePack

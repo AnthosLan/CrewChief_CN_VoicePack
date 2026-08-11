@@ -17,12 +17,34 @@
 | radio_check | 4 条 | ✅ 完成 |
 | 装包实测 | AC 中验证无线电测试与盲区提醒 | ✅ 通过 |
 | 数字与时间 | `NumberReaderZh` + 138 条数字音频 | ✅ 完成 |
-| 字幕与打包 | 字体、`sound_pack_language.txt`、分发形式 | ⬜ 未开始 |
+| 打包分发 | zip 构建脚本 + Releases | ✅ 完成 |
+| 字幕字体 | 覆盖层能否渲染中文，待 Windows 上验证 | ⬜ 未开始 |
 | 工程师播报 | 3772 条文案 | ⬜ 未开始（主要工作量） |
 | UI 中文化 | 2222 条 | ⬜ 未开始 |
 | 语音指令 | 30–50 个高频指令 | ⬜ 未开始 |
 
 **必做音频总量：3882 条去重文案 / 5819 个文件 / 约 143 分钟**，机器生成约 3 小时。主要瓶颈是翻译而非生成。
+
+---
+
+## 下载
+
+成品在 [Releases](https://github.com/AnthosLan/CrewChief_CN_VoicePack/releases)，分两个包：
+
+| 包 | 内容 | 要求 |
+|---|---|---|
+| `crewchief-zh-spotter-*.zip` | spotter 124 条 + 无线电测试 4 条 | 原版 CrewChief 即可 |
+| `crewchief-zh-numbers-*.zip` | 数字与时间 138 条 | **需要带 `NumberReaderZh` 的自编译版本** |
+
+⚠️ **两个包不要混装到原版程序上。** 数字包覆盖了 `numbers/0`–`99`、`point`、`hour` 这些英文包已有的
+文件夹，却没有英文特有的 599 个合成件（`45point6` 这类），装在未打补丁的 CrewChief 上会让圈速播报
+变成「四十五 point six」的中英混播。
+
+自行打包：
+
+```bash
+packaging/build_release.sh v0.1.0
+```
 
 ---
 
@@ -99,7 +121,9 @@ baseline/Bart/   音色参考音频（12 条 / 38.9s，必须入库才能复现�
 scripts/         生成脚本，路径全部走参数
 src/             对 CrewChief 的 C# 新增（NumberReaderZh）
 patches/         对 autovoicepack 和 CrewChief 的改动留档
-output/          生成产物
+packaging/       安装说明原文 + Releases 打包脚本
+output/          生成产物（不入库）
+dist/            打包产物（不入库）
 ```
 
 `translations/` 的 CSV 沿用 autovoicepack 的 inventory 格式：
