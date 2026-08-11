@@ -13,9 +13,11 @@
 | 阶段 | 内容 | 状态 |
 |---|---|---|
 | 技术验证 | XTTS v2 中文生成链路跑通，参数定稿 | ✅ 完成 |
-| Spotter | 58 条文案翻译、术语定稿 | ✅ 翻译完成，待生成 |
-| radio_check | 2–4 条 | ⬜ 未开始 |
-| 数字与时间 | `NumberReaderZh` + 数字音频 | ⬜ 未开始 |
+| Spotter | 124 条翻译 + 生成 | ✅ 完成 |
+| radio_check | 4 条 | ✅ 完成 |
+| 装包实测 | AC 中验证无线电测试与盲区提醒 | ✅ 通过 |
+| 数字与时间 | `NumberReaderZh` + 138 条数字音频 | ✅ 完成 |
+| 字幕与打包 | 字体、`sound_pack_language.txt`、分发形式 | ⬜ 未开始 |
 | 工程师播报 | 3772 条文案 | ⬜ 未开始（主要工作量） |
 | UI 中文化 | 2222 条 | ⬜ 未开始 |
 | 语音指令 | 30–50 个高频指令 | ⬜ 未开始 |
@@ -95,8 +97,9 @@ docs/            方案与设计文档
 translations/    翻译语料 CSV  ← 核心资产
 baseline/Bart/   音色参考音频（12 条 / 38.9s，必须入库才能复现）
 scripts/         生成脚本，路径全部走参数
-patches/         对 autovoicepack 的改动留档
-output/          生成产物（.gitignore 排除）
+src/             对 CrewChief 的 C# 新增（NumberReaderZh）
+patches/         对 autovoicepack 和 CrewChief 的改动留档
+output/          生成产物
 ```
 
 `translations/` 的 CSV 沿用 autovoicepack 的 inventory 格式：

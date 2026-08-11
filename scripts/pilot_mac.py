@@ -126,6 +126,30 @@ def parse_arguments():
         help="Post-processing character. 'radio' is the original project curve; 'warm' and 'full' progressively restore the low end that curve removes; 'broadcast' puts chest weight back and cuts mud instead.",
     )
     parser.add_argument(
+        "--artifact_trim_max_syllables",
+        type=int,
+        default=4,
+        help="Clips this short (in Han characters) get their hallucinated tail cut -- see drop_trailing_artifact. Set to 0 to disable.",
+    )
+    parser.add_argument(
+        "--attempts",
+        type=int,
+        default=1,
+        help="Generate this many candidates per phrase and keep the shortest plausible one. Short Chinese prompts need 3-5; long phrases are stable at 1.",
+    )
+    parser.add_argument(
+        "--attempts_max_syllables",
+        type=int,
+        default=6,
+        help="Only phrases this short get multiple attempts -- longer ones are stable and would just cost time. 0 applies --attempts to everything.",
+    )
+    parser.add_argument(
+        "--min_ms_per_syllable",
+        type=float,
+        default=90.0,
+        help="Floor for candidate selection: anything faster than this is assumed truncated, not good.",
+    )
+    parser.add_argument(
         "--disable_audio_effects",
         action="store_true",
         help="Skip the EQ / trim / normalise stage and keep the raw model output.",
@@ -182,12 +206,81 @@ def trim_silence(wav: torch.Tensor, threshold: float) -> torch.Tensor:
     return wav[:, int(nonzero[0]) : int(nonzero[-1]) + 1]
 
 
-def apply_audio_effects(wav: torch.Tensor, sample_rate: int, preset: str = "radio") -> tuple:
+def drop_trailing_artifact(
+    wav: torch.Tensor, sample_rate: int, min_gap_ms: float = 250.0, floor_ratio: float = 0.08
+) -> torch.Tensor:
+    """
+    Cut the hallucinated tail XTTS appends to very short prompts.
+
+    Given one or two characters of Chinese, the model frequently emits the syllable, goes quiet for half a
+    second, then produces a breath or a repeat of the syllable. The silence trim above doesn't catch it,
+    because the tail is real audio -- it only strips the outer edges. So instead look for a long near-silent
+    gap and drop everything after it.
+
+    The gap has to be much longer than a pause inside real speech, hence min_gap_ms. Callers still gate
+    this on syllable count, because a long phrase can legitimately hold a pause that long.
+    """
+    frame = max(1, int(sample_rate * 0.01))
+    mono = wav.abs().max(dim=0).values
+    frames = mono[: (mono.shape[0] // frame) * frame].reshape(-1, frame).max(dim=1).values
+    if frames.numel() == 0:
+        return wav
+
+    floor = frames.max() * floor_ratio
+    loud = frames > floor
+    if not bool(loud.any()):
+        return wav
+
+    min_gap_frames = max(1, int(min_gap_ms / 10))
+    first_loud = int(torch.nonzero(loud, as_tuple=False)[0])
+    gap_start, run = None, 0
+    for i in range(first_loud, frames.numel()):
+        if loud[i]:
+            # Content after a long enough gap is the artifact -- cut back to where the gap began.
+            if gap_start is not None and run >= min_gap_frames:
+                return wav[:, : gap_start * frame]
+            gap_start, run = None, 0
+        else:
+            if gap_start is None:
+                gap_start = i
+            run += 1
+    return wav
+
+
+def pick_best_candidate(candidates: list, syllables: int, min_ms_per_syllable: float) -> tuple:
+    """
+    Choose between repeated generations of the same phrase, shortest first.
+
+    Every way XTTS goes wrong on a short Chinese prompt makes the clip longer than it should be: leading
+    noise before the onset, a decaying tail that the silence trim can't reach, or the syllable spoken
+    twice. A correct rendition is therefore reliably the shortest of a handful of tries. The floor stops
+    that preference from selecting a generation that came out truncated instead.
+    """
+    if len(candidates) == 1 or not syllables:
+        return candidates[0]
+
+    def duration_ms(candidate):
+        _, wav, sample_rate = candidate
+        return wav.shape[1] * 1000.0 / sample_rate
+
+    floor = min_ms_per_syllable * syllables
+    plausible = [c for c in candidates if duration_ms(c) >= floor]
+    # Everything came out short -- prefer the longest, which is the least likely to be cut off.
+    return min(plausible, key=duration_ms) if plausible else max(candidates, key=duration_ms)
+
+
+def apply_audio_effects(
+    wav: torch.Tensor, sample_rate: int, preset: str = "radio", trim_artifact: bool = False
+) -> tuple:
     """
     torchaudio reimplementation of the sox chain in generate_voice_pack.py:
     EQ, overdrive, silence trim both ends, normalise to -1 dBFS, mono, 22050Hz.
     """
     bands, overdrive = EQ_PRESETS[preset]
+
+    if trim_artifact:
+        # Before EQ, while the dynamics are still the model's own.
+        wav = drop_trailing_artifact(wav, sample_rate)
 
     for freq, gain_db, q in bands:
         wav = AF.equalizer_biquad(wav, sample_rate, freq, gain_db, q)
@@ -259,35 +352,48 @@ def main():
 
         logging.info(f"[{idx}/{len(rows)}] {rel_path}/{filename}  <-  {text}")
 
-        with torch.no_grad():
-            out = model.inference(
-                text,
-                args.language,
-                gpt_cond_latent,
-                speaker_embedding,
-                temperature=0.3,
-                top_k=50,
-                top_p=0.8,
-                speed=args.xtts_speed,
-                length_penalty=1.0,
-                repetition_penalty=4.0,
-                enable_text_splitting=False,
-            )
+        syllables = sum(1 for ch in text if "一" <= ch <= "鿿")
+        # Only short utterances get the artifact trim: a long phrase can hold a real pause as long as
+        # the gap the trim looks for.
+        trim_artifact = 0 < syllables <= args.artifact_trim_max_syllables
+        attempts = (
+            args.attempts
+            if syllables and (args.attempts_max_syllables == 0 or syllables <= args.attempts_max_syllables)
+            else 1
+        )
 
-        wav = torch.tensor(out["wav"]).unsqueeze(0)
+        candidates = []
+        for attempt in range(attempts):
+            with torch.no_grad():
+                out = model.inference(
+                    text,
+                    args.language,
+                    gpt_cond_latent,
+                    speaker_embedding,
+                    temperature=0.3,
+                    top_k=50,
+                    top_p=0.8,
+                    speed=args.xtts_speed,
+                    length_penalty=1.0,
+                    repetition_penalty=4.0,
+                    enable_text_splitting=False,
+                )
+            raw = torch.tensor(out["wav"]).unsqueeze(0)
+            if args.disable_audio_effects:
+                candidates.append((raw, raw, 24000))
+            else:
+                processed, sr = apply_audio_effects(raw, 24000, args.eq_preset, trim_artifact)
+                candidates.append((raw, processed, sr))
+
+        raw, wav, sample_rate = pick_best_candidate(candidates, syllables, args.min_ms_per_syllable)
+
         out_path = os.path.join(voicepack_dir, rel_path, filename)
-
         if args.keep_raw:
-            save_wav(out_path.replace(".wav", ".raw.wav"), wav, 24000)
-
-        if args.disable_audio_effects:
-            save_wav(out_path, wav, 24000)
-        else:
-            processed, sr = apply_audio_effects(wav, 24000, args.eq_preset)
-            save_wav(out_path, processed, sr)
+            save_wav(out_path.replace(".wav", ".raw.wav"), raw, 24000)
+        save_wav(out_path, wav, sample_rate)
 
         duration = torchaudio.info(out_path).num_frames / TARGET_SAMPLE_RATE
-        logging.info(f"    -> {duration:.2f}s")
+        logging.info(f"    -> {duration:.2f}s" + (f" (best of {attempts})" if attempts > 1 else ""))
 
         subtitles.setdefault(os.path.join(voicepack_dir, rel_path), []).append(
             (filename, subtitle)

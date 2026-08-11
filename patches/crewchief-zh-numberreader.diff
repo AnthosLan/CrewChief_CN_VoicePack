@@ -1,0 +1,190 @@
+CrewChief: 中文数字朗读支持
+
+三处改动：
+  1. NumberReaderFactory  —— 增加 zh / zh-cn 分支，选用 NumberReaderZh
+  2. CrewChiefV4.csproj   —— 编译 NumberReaderZh.cs
+  3. TestNumbersInMessages —— 中文整数与时间用例
+
+新文件 CrewChiefV4/NumberReaderZh.cs 不在本 diff 里，从本仓库 src/ 复制：
+    cp src/NumberReaderZh.cs ~/Projects/CrewChiefV4-main/CrewChiefV4/NumberReaderZh.cs
+
+设计说明见 docs/数字与时间朗读设计.md。
+
+--- a/CrewChiefV4/NumberProcessing/NumberReaderFactory.cs
++++ b/CrewChiefV4/NumberProcessing/NumberReaderFactory.cs
+@@ -42,6 +42,13 @@
+                 Console.WriteLine("Using NumberReaderPtBr for soundPackLanguage " + AudioPlayer.soundPackLanguage);
+                 numberReader = new NumberReaderPtBr();
+             }
++            else if ("zh".Equals(AudioPlayer.soundPackLanguage, StringComparison.InvariantCultureIgnoreCase)
++                || "zh-cn".Equals(AudioPlayer.soundPackLanguage, StringComparison.InvariantCultureIgnoreCase))
++            {
++                IS_ENGLISH = false;
++                Console.WriteLine("Using NumberReaderZh for soundPackLanguage " + AudioPlayer.soundPackLanguage);
++                numberReader = new NumberReaderZh();
++            }
+             else
+             {
+                 Console.WriteLine("Using NumberReaderEn for soundPackLanguage " + AudioPlayer.soundPackLanguage);
+--- a/CrewChiefV4/CrewChiefV4.csproj
++++ b/CrewChiefV4/CrewChiefV4.csproj
+@@ -571,6 +571,7 @@
+     <Compile Include="NumberProcessing\CarNumber.cs" />
+     <Compile Include="NumberProcessing\SpokenNumberParser.cs" />
+     <Compile Include="NumberReaderPtBr.cs" />
++    <Compile Include="NumberReaderZh.cs" />
+     <Compile Include="NumberReaderIt2.cs" />
+     <Compile Include="Overlay\Charts.cs" />
+     <Compile Include="Overlay\CommonSubscriptions.cs" />
+--- a/UnitTest/Misc/TestNumbersInMessages.cs
++++ b/UnitTest/Misc/TestNumbersInMessages.cs
+@@ -5,12 +5,149 @@
+ using FluentAssertions;
+ using NUnit.Framework;
+ 
++using System;
++using System.Collections.Generic;
++using System.Linq;
++
+ namespace UnitTest.Misc
+ {
+     [TestFixture]
+     public class TestNumbersInMessages
+     {
++        /// <summary>
++        /// Maps the sound folders a reader returns back to the words they hold, so a failing assertion
++        /// shows "一百一十五" rather than a list of paths. Only covers the Chinese number folders.
++        /// </summary>
++        private static readonly Dictionary<string, string> zhWords = BuildZhWords();
++
++        private static Dictionary<string, string> BuildZhWords()
++        {
++            const string digits = "零一二三四五六七八九";
++            var words = new Dictionary<string, string>();
++            for (int n = 0; n < 100; n++)
++            {
++                string text;
++                if (n < 10) text = digits[n].ToString();
++                else if (n < 20) text = "十" + (n % 10 == 0 ? "" : digits[n % 10].ToString());
++                else text = digits[n / 10] + "十" + (n % 10 == 0 ? "" : digits[n % 10].ToString());
++                words["numbers/" + n] = text;
++            }
++            for (int n = 1; n < 10; n++)
++            {
++                words["numbers/0" + n] = "零" + digits[n];
++            }
++            words["numbers/point"] = "点";
++            words["numbers/hundred"] = "百";
++            words["numbers/thousand"] = "千";
++            words["numbers/ten_thousand"] = "万";
++            words["numbers/oh"] = "零";
++            words["numbers/liang"] = "两";
++            words["numbers/minus"] = "负";
++            words["numbers/hours"] = "小时";
++            words["numbers/minute"] = "分";
++            words["numbers/minutes"] = "分钟";
++            words["numbers/seconds"] = "秒";
++            return words;
++        }
++
++        private static string Spoken(List<string> folders)
++        {
++            return string.Join("", folders.Select(f => zhWords.ContainsKey(f) ? zhWords[f] : "<" + f + ">"));
++        }
++
++        private static NumberReader ChineseReader()
++        {
++            UserSettings.GetUserSettings().setProperty("use_naudio", false); // otherwise AudioPlayer Debug.Asserts
++            AudioPlayer ap = new AudioPlayer();
++            AudioPlayer.soundPackLanguage = "zh";
++            ap.Dispose();
++            NumberReaderFactory.NewNumberReader();
++            return NumberReaderFactory.GetNumberReader();
++        }
++
++        /// <summary>
++        /// Chinese numbers are composed from 0-99 plus place-value words, so the interesting cases are the
++        /// places that need an inserted 零 (305, 1005) and the 10-19 range, which is read 十五 alone but
++        /// 一十五 after a higher place.
++        /// </summary>
++        [TestCase(0, "零")]
++        [TestCase(2, "二")]
++        [TestCase(10, "十")]
++        [TestCase(23, "二十三")]
++        [TestCase(99, "九十九")]
++        [TestCase(100, "一百")]
++        [TestCase(105, "一百零五")]
++        [TestCase(110, "一百一十")]
++        [TestCase(115, "一百一十五")]
++        [TestCase(200, "二百")]         // 百 keeps 二, unlike 千 / 万
++        [TestCase(305, "三百零五")]
++        [TestCase(345, "三百四十五")]
++        [TestCase(1000, "一千")]
++        [TestCase(1005, "一千零五")]
++        [TestCase(1015, "一千零一十五")]
++        [TestCase(1050, "一千零五十")]
++        [TestCase(1500, "一千五百")]
++        [TestCase(1523, "一千五百二十三")]
++        [TestCase(2000, "两千")]
++        [TestCase(10500, "一万零五百")]
++        [TestCase(99999, "九万九千九百九十九")]
++        [TestCase(-5, "负五")]
++        public void TestChineseIntegers(int number, string expected)
++        {
++            var reader = ChineseReader();
++            SoundCache.availableSounds.Clear();   // no composite recordings, so we exercise the concatenation path
++            var folders = reader.GetIntegerSounds(number, true, false);
++            Spoken(folders).Should().Be(expected, string.Join(", ", folders));
++        }
++
++        /// <summary>
++        /// Chinese always speaks the unit word, so a laptime reads 一分二十三秒四 where English drops
++        /// "minutes". Sub-10 second counts after a minute need their leading zero (一分零三秒), and a
++        /// bare fraction becomes 零点八秒 rather than English's "8 tenths".
++        /// </summary>
++        [TestCase(0, 1, 23, 4, Precision.TENTHS, "一分二十三秒四")]
++        [TestCase(0, 1, 23, 0, Precision.TENTHS, "一分二十三秒")]
++        [TestCase(0, 1, 3, 4, Precision.TENTHS, "一分零三秒四")]
++        [TestCase(0, 2, 23, 4, Precision.TENTHS, "两分二十三秒四")]
++        [TestCase(0, 0, 0, 8, Precision.TENTHS, "零点八秒")]
++        [TestCase(0, 0, 12, 3, Precision.TENTHS, "十二秒三")]
++        [TestCase(0, 0, 12, 7, Precision.SECONDS, "十二秒")]   // precision wins over the available tenths
++        [TestCase(0, 0, 2, 0, Precision.TENTHS, "两秒")]
++        [TestCase(0, 15, 0, 0, Precision.MINUTES, "十五分钟")]  // 分钟 for a duration, 分 for a laptime
++        [TestCase(1, 30, 0, 0, Precision.MINUTES, "一小时三十分钟")]
++        [TestCase(2, 0, 0, 0, Precision.MINUTES, "两小时")]
++        public void TestChineseTimes(int hours, int minutes, int seconds, int tenths, Precision precision, string expected)
++        {
++            var reader = ChineseReader();
++            SoundCache.availableSounds.Clear();
++            var timeSpan = new TimeSpan(0, hours, minutes, seconds, tenths * 100);
++            var folders = reader.ConvertTimeToSounds(new TimeSpanWrapper(timeSpan, precision), false);
++            Spoken(folders).Should().Be(expected, string.Join(", ", folders));
++        }
++
++        /// <summary>
++        /// 一 and 两 shift tone in front of a measure word, which concatenated single-character clips can't
++        /// reproduce. Whole-phrase recordings are preferred when the sound pack ships them, and their
++        /// absence must stay harmless.
++        /// </summary>
+         [Test]
++        public void TestChineseUsesWholePhraseRecordingWhenAvailable()
++        {
++            var reader = ChineseReader();
++            var timeSpan = new TimeSpan(0, 0, 0, 2, 0);
++
++            SoundCache.availableSounds.Clear();
++            var withoutComposite = reader.ConvertTimeToSounds(new TimeSpanWrapper(timeSpan, Precision.TENTHS), false);
++            withoutComposite.Should().Equal(new List<string> { "numbers/liang", "numbers/seconds" });
++
++            SoundCache.availableSounds.Add("numbers/2_seconds");
++            var withComposite = reader.ConvertTimeToSounds(new TimeSpanWrapper(timeSpan, Precision.TENTHS), false);
++            withComposite.Should().Equal(new List<string> { "numbers/2_seconds" });
++
++            SoundCache.availableSounds.Clear();
++        }
++
++        [Test]
+         public void TestPortugueseTwocmd()
+         {
+             UserSettings.GetUserSettings().setProperty("use_naudio", false); // otherwise AudioPlayer Debug.Asserts
