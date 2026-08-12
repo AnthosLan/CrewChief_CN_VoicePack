@@ -267,10 +267,10 @@ index 2a31c93..76a520b 100644
          f"Engineer {voice_name_tts} confirming radio",
          "Radio's loud and clear",
 diff --git a/translate_phrases.py b/translate_phrases.py
-index 38efb4a..d89f34e 100644
+index 38efb4a..831ed12 100644
 --- a/translate_phrases.py
 +++ b/translate_phrases.py
-@@ -77,12 +77,33 @@ logging.basicConfig(level=logging.INFO)
+@@ -77,27 +77,89 @@ logging.basicConfig(level=logging.INFO)
  #     [INFO] xtts_integrity validity check passed for ./output/Luis/voice/acknowledge/OK/5-a.wav with score 0.99
  #     ...
  
@@ -294,6 +294,18 @@ index 38efb4a..d89f34e 100644
 +    return any(normalised.startswith(p.strip("/").lower()) for p in prefixes)
 +
 +
++def message_category_of(audio_path: str) -> str:
++    """
++    '\\voice\\lap_counter\\green_green_green' -> 'lap_counter/green_green_green'.
++
++    The leading 'voice' segment carries no meaning for the model, so it is dropped.
++    """
++    parts = [p for p in audio_path.replace("\\", "/").strip("/").split("/") if p]
++    if parts and parts[0].lower() == "voice":
++        parts = parts[1:]
++    return "/".join(parts)
++
++
  def translate_phrase_ollama(
      input_phrase: str,
      source_language_name: str,
@@ -302,21 +314,57 @@ index 38efb4a..d89f34e 100644
 -    ollama_host: str = "host.docker.internal:11434"
 +    ollama_host: str = "host.docker.internal:11434",
 +    timeout: int = 20,
++    message_category: str = "",
++    glossary: str = "",
++    temperature: float = 0.2,
  ) -> Optional[str]:
      """
      Translate an input phrase using a locally accessible Ollama API instance.
-@@ -92,7 +113,9 @@ def translate_phrase_ollama(
+     See https://ollama.com/ to learn how to configure with the language model of your choice.
++
++    message_category is the inventory folder the phrase lives in (i.e. 'lap_counter/green_green_green').
++    Without it the model only sees a bare phrase and translates literally: 'green, green, green'
++    becomes the colour rather than the green flag, and 'one more to go' loses the lap it refers to.
++
++    glossary is passed straight through from --glossary_file. Racing terms are where a general
++    purpose model is least reliable and the errors are not random: '2 tenths' comes out as a
++    percentage every single time unless the glossary spells out that it means 0.2 seconds.
+     """
+     prompt = (
          'Respond with JSON only using this format: { "translation": "" }.'
          "DO NOT include any notes or comments or other human-readable text. JSON only."
          f"Translate all Arabic numerals like 1, 2, 3 to their equivalent word form in {target_language_name}."
 -        "Note that these phrases are related to the status of a race car on track, so use comparable terms.\n\n"
+-        f"Translate this phrase from {source_language_name} to {target_language_name}:\n\n{input_phrase}"
 +        "Note that these phrases are related to the status of a race car on track, so use comparable terms."
 +        "These are short radio calls that will be spoken aloud, so keep them terse and colloquial."
-+        f"Leave the token {NAME_PLACEHOLDER} exactly as-is, unchanged and untranslated, if it appears.\n\n"
-         f"Translate this phrase from {source_language_name} to {target_language_name}:\n\n{input_phrase}"
++        f"Leave the token {NAME_PLACEHOLDER} exactly as-is, unchanged and untranslated, if it appears."
++        # Without this the model editorialises: 'green, green, green' came back as the equivalent
++        # of 'race start, race start, race start' -- the right idea, but not what the chief says.
++        "Translate what is written. Do not paraphrase, explain, or add words that are not there."
      )
++    if glossary:
++        prompt += (
++            "\n\nUse these terms exactly as given. They override your own word choice:\n"
++            f"{glossary}"
++        )
++    if message_category:
++        prompt += (
++            f"\n\nThis phrase belongs to the message category '{message_category}'. Use it to pick "
++            "the right sense of ambiguous words. If the phrase is an incomplete fragment, it gets "
++            "concatenated with other fragments, so translate it into a form that can be joined."
++        )
++    prompt += f"\n\nTranslate this phrase from {source_language_name} to {target_language_name}:\n\n{input_phrase}"
  
-@@ -113,7 +136,7 @@ def translate_phrase_ollama(
+     options = {
+-        "temperature": 0.4,
++        # Was 0.4, which made racing vocabulary a coin flip: the same prompt returned the
++        # colour 'green' on one run and the green flag on the next. Lower is steadier.
++        "temperature": temperature,
+         #'max_tokens': 50,
+         #'top_p': 1.0,
+         #'num_predict': len(input_phrase) * 3
+@@ -113,7 +175,7 @@ def translate_phrase_ollama(
          response = requests.post(
              f"http://{ollama_host}/api/generate",
              json=json_request,
@@ -325,7 +373,7 @@ index 38efb4a..d89f34e 100644
          )
          response.raise_for_status()
  
-@@ -183,6 +206,34 @@ def main():
+@@ -183,6 +245,49 @@ def main():
          help="If provided, skip the step of translating the LLM response back to English and display the result in the logs. This is enabled by default to help an observer gain confidence that the translation is accurate, but slows down the process by approximately half since it requires an extra call to the LLM.",
          action="store_true"
      )
@@ -353,6 +401,21 @@ index 38efb4a..d89f34e 100644
 +        help="Seconds to wait for each Ollama response. Larger models on modest hardware need well over the previous 20s default.",
 +    )
 +    parser.add_argument(
++        "--glossary_file",
++        default=None,
++        help="Path to a plain text file of domain terms injected into the prompt verbatim, one "
++             "'english = translation' per line. Racing vocabulary is where a general purpose model "
++             "fails most reliably, and it fails the same way every run, so a glossary fixes far more "
++             "than retrying does. Kept out of this script so each language can carry its own.",
++    )
++    parser.add_argument(
++        "--temperature",
++        type=float,
++        default=0.2,
++        help="Sampling temperature. Was effectively 0.4, at which the same phrase would translate "
++             "differently between runs -- fine for prose, bad for a fixed vocabulary of race calls.",
++    )
++    parser.add_argument(
 +        "--disable_cache",
 +        action="store_true",
 +        help="Translate every row independently. By default identical source phrases are translated once and reused, which removes roughly half the LLM calls since the inventory repeats many phrases across folders.",
@@ -360,10 +423,20 @@ index 38efb4a..d89f34e 100644
      args = parser.parse_args()
  
      entries: List[CrewChiefAudioFile] = parse_phrase_inventory(
-@@ -193,6 +244,34 @@ def main():
+@@ -193,6 +298,44 @@ def main():
          logging.error("No entries found in the phrase inventory. Exiting.")
          return
  
++    glossary = ""
++    if args.glossary_file:
++        with open(args.glossary_file, encoding="utf-8") as glossary_file:
++            # Comments and blank lines are for the humans maintaining the list, not the model.
++            glossary = "\n".join(
++                line.strip() for line in glossary_file
++                if line.strip() and not line.startswith("#")
++            )
++        logging.info(f"Loaded {len(glossary.splitlines())} glossary terms from {args.glossary_file}")
++
 +    # Filter rows before the resume slice below, so that resuming a partial run
 +    # lines up with the same filtered list.
 +    original_count = len(entries)
@@ -395,7 +468,7 @@ index 38efb4a..d89f34e 100644
      # if the translated file already exists, append to it instead of starting
      # from scratch (remove the file manually if you want to start over)
      existing_count = 0
-@@ -200,11 +279,23 @@ def main():
+@@ -200,11 +343,23 @@ def main():
          with open(args.translated_phrase_inventory, "r", newline="", encoding="utf-8") as existing_file:
              existing_reader = csv.reader(existing_file)
              existing_lines = list(existing_reader)
@@ -420,7 +493,7 @@ index 38efb4a..d89f34e 100644
      mode = "a" if existing_count > 0 else "w"
  
      # open output CSV file for writing
-@@ -231,42 +322,69 @@ def main():
+@@ -231,42 +386,72 @@ def main():
                  f"Translating input phrase {entry_idx} - '{english_phrase}'..."
              )
  
@@ -454,7 +527,22 @@ index 38efb4a..d89f34e 100644
 +                        model=args.model,
 +                        ollama_host=args.ollama_host,
 +                        timeout=args.ollama_timeout,
-+                    )
++                        message_category=message_category_of(entry.audio_path),
++                        glossary=glossary,
++                        temperature=args.temperature,
+                     )
+-                    num_retries += 1
+-
+-            translated_phrase = translated_phrase or "TRANSLATION_FAILED"
+-
+-            # sanity check by translating it back to English
+-            retranslated_phrase = (
+-                (
+-                    translate_phrase_ollama(
+-                        translated_phrase,
+-                        source_language_name=args.target_language,
+-                        target_language_name="English",
+-                        model=args.model
 +                    if translated_phrase is None:
 +                        logging.error(
 +                            f"Failed to translate input phrase '{english_phrase}'. Retrying (#{num_retries}/{args.max_retries})."
@@ -474,18 +562,7 @@ index 38efb4a..d89f34e 100644
 +                        f"Lost the {NAME_PLACEHOLDER} placeholder translating "
 +                        f"'{english_phrase}' -> '{translated_phrase}'. Marking for review."
                      )
--                    num_retries += 1
--
--            translated_phrase = translated_phrase or "TRANSLATION_FAILED"
--
--            # sanity check by translating it back to English
--            retranslated_phrase = (
--                (
--                    translate_phrase_ollama(
--                        translated_phrase,
--                        source_language_name=args.target_language,
--                        target_language_name="English",
--                        model=args.model
+-                    or "[Sanity check LLM call failed]"
 +                    translated_phrase = f"REVIEW_PLACEHOLDER {translated_phrase}"
 +
 +                # sanity check by translating it back to English
@@ -500,8 +577,7 @@ index 38efb4a..d89f34e 100644
 +                            timeout=args.ollama_timeout,
 +                        )
 +                        or "[Sanity check LLM call failed]"
-                     )
--                    or "[Sanity check LLM call failed]"
++                    )
 +                    if not args.skip_sanity_check
 +                    else "..."
                  )
