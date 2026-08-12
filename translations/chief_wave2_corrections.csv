@@ -1,0 +1,279 @@
+original_english,corrected_chinese
+# 波次 2 人工修正。与波次 1 同规则：按 original_english 索引，fix_translation.py 应用。
+# 含逗号的英文必须加引号，否则 CSV 会把英文尾巴当成中文译文（脚本有校验会拦下）。
+#
+# ===== damage_reporting：左右颠倒，最危险 =====
+# 同组另外三条都对，只有这条翻了，车手会去检查错的轮胎
+rear left puncture,左后扎胎
+#
+# ===== damage_reporting：aero 改短 =====
+# 我在术语表里写的「空气动力套件」太长，无线电喊不出口，统一改「空力」
+some minor aero damage,轻微空力损伤
+we're seeing a little bit of aero damage,看到一点空力损伤
+we're seeing some minor aero damage,看到轻微空力损伤
+"tiny bit of aero damage, just ignore it",一点空力损伤，别管
+"ignore that aero damage, it's nothing",别管那点空力损伤，没事
+you picked up a bit of aero damage,蹭到一点空力损伤
+you picked up a big of aero damage,蹭到一点空力损伤
+you picked up some minor aero damage,蹭到轻微空力损伤
+#
+# ===== damage_reporting：翻车调侃，直译不成话 =====
+"it goes quicker when it's on its wheels, mate",车轮朝下跑得快些，老兄
+it's quicker the other way up,翻过来跑得快点
+try the other way up,试试翻回来
+"that's not right, it should be the other way up, I'm sure",不对吧，车该是轮子朝下的
+"no, now you've gone upside-down there",不是吧，你翻过去了
+#
+# ===== damage_reporting：习语 =====
+# polish out 是「抛一下就没了」，不是把磨损磨平
+"forget about that, it'll probably just polish out",别管，抛一下就没了
+"it'll polish out, mate, forget about it",抛一下就没了，老兄，别管
+# turning blue 是憋气憋到脸发青（等你回话）
+"there's a garage full of people turning blue, here",维修区一屋子人等你回话，脸都憋青了
+# sit tight 是别动，不是坐紧
+"just sit tight, help's on the way",别动，救援在路上
+"okay, just sit tight, the team's on it's way",好的，别动，车队在路上
+"okay, mate, just sit tight, the medical team are coming",好的老兄，别动，医疗队在路上
+#
+# ===== damage_reporting：transmission 统一「变速箱」 =====
+"switch it off, mate, there's nothing left of the transmission, we're done here",熄火吧老兄，变速箱彻底没了，我们到此为止
+go easy on the transmission,变速箱悠着点
+"watch those downshifts, go easy on the transmission",降档轻点，变速箱悠着点
+#
+# ===== conditions：语义错 =====
+# eas[ing] right off = 迅速减弱，不是「容易停下来」
+the rain's easy right off now,雨正在很快变小
+"getting harder, take it easy",雨变大了，慢点开
+"light rain now, looks like it's getting better",现在小雨，看着在好转
+#
+# ===== 语气 =====
+"no idea what you just said, but at least it was something",没听懂你说什么，但有动静就好
+that's good to know,知道了
+"that's good to know, thanks, mate",知道了，谢谢老兄
+good to hear you're okay,听到你没事就好
+#
+# ===== penalties：直译成了不存在的东西 =====
+# meatball flag 是黑底橙圆盘旗，通知车辆有机械故障必须进站，不是食物
+"meatball flag, we'll need to come into the pits for repairs",机械故障旗，我们得进站维修
+# banger racing 是英国的破车对撞赛，不是街头赛车
+"come on mate, this ain't banger racing",老兄，这不是碰碰车
+"come on, this ain't banger racing, one more collision and we'll be disqualified",老兄这不是碰碰车，再撞一次就被取消资格了
+"one more collision and we're out, stop with the banger racing",再撞一次就出局，别再当碰碰车开
+# awarded 是记上，罚分是累加不是扣除
+penalty points will be awarded this lap,本圈会记罚分
+# bump 是碰撞，不是跳车
+"calm down please, they're disqualify us for one more track limit violation or bump",冷静点，再出界或再撞一次就要被取消资格了
+#
+# ===== penalties：语无伦次 =====
+"come on, stop driving into people",别再撞人了
+"stop driving into people, they'll disqualify us if we do it again",别再撞人了，再来一次要被取消资格
+"come on, track limits, keep it between the lines",注意赛道界限，压住白线内
+"step it down a bit, mate, we've had a warning for unsportsmanlike driving",收着点老兄，我们因为非体育行为吃了警告
+"box, box, box, serve this drive-through now",进站进站，马上执行通过维修区处罚
+"another lap deleted, pay attention",又删一圈，注意点
+#
+# ===== penalties：stewards 是赛会，「干事」单用歧义 =====
+the stewards have called us into the pits for repairs,赛会要求我们进站维修
+the stewards have warned us about track limits,赛会警告我们注意赛道界限
+"the stewards have warned us about track limits, keep it between the lines",赛会警告我们注意赛道界限，压住白线内
+"the stewards have warned us again, track limits",赛会又警告我们了，赛道界限
+"the stewards have warned us for cutting the track, keep it between the white lines",赛会警告我们切赛道，压住白线内
+"the stewards have warned us for cutting the track, they'll delete this lap",赛会警告我们切赛道，这圈会被删
+#
+# ===== penalties：大灯统一 =====
+headlights required,要开大灯
+headlights are required,要开大灯
+headlights are now required,现在要开大灯
+"headlights are required, turn them on, please",要开大灯，请打开
+#
+# ===== opponents：拼接片段，后面接车手名或轮胎类型 =====
+fastest lap for,最快圈，来自
+new fastest lap for,新的最快圈，来自
+that's a new fastest lap for,新的最快圈，来自
+the car in front has just posted a,前车刚跑出
+the guy ahead has just posted a,前面那位刚跑出
+the guy ahead has just done a,前面那位刚跑出
+the guy behind has just done a,后面那位刚跑出
+the guy in front has just done a,前面那位刚跑出
+the car ahead has just done a,前车刚跑出
+the car in front has just done a,前车刚跑出
+the leader has just done a,领跑的刚跑出
+is now on,现在用的是
+the car ahead's now on,前车现在用的是
+the car behind is now on,后车现在用的是
+the car behind is on,后车用的是
+the leader is now on,领跑的现在用的是
+their reputation is,他们的名声
+#
+# ===== push_now：push 不是「推」=====
+# 中文赛车语境里 push 是加快节奏、全力跑，直译成「推」像在推车，「推推推」尤其怪
+"all clear, push now",安全，加快
+"exit's clear, push",出口安全，加快
+"the pit exit's clear, push",维修区出口安全，加快
+"the pit exit is clear, push now",维修区出口安全，现在加快
+"all clear on pit exit, you can push now",维修区出口安全，可以加快了
+"push harder, we can get a podium here",再加把劲，这里能上领奖台
+"push now, the guy behind is catching",加快，后面在追上来
+"push now, we can catch this guy",加快，我们能追上他
+"push now, we can catch up here",加快，这里能追回来
+"push now, we might get second place",加快，我们可能拿第二
+"push now, we might win this",加快，我们可能赢
+"push push push, we can catch this car",快快快，能追上这辆车
+"push push push, we can get this position",快快快，这个位置能拿下
+"push, push, push, or we'll lose this place",快快快，不然位置就丢了
+"push, push, push, we can get this guy",快快快，他能拿下
+"push, push, push, we can win this",快快快，我们能赢
+"push, push, push, we could be second here",快快快，这里能拿第二
+"push, we can get second place here",加快，这里能拿第二
+"push, we can get this guy",加快，他能拿下
+"push, we might get third here",加快，这里可能拿第三
+"track's clear, push, push, push",赛道安全，快快快
+you need to push if we're gonna hold this position,想守住位置就得加快
+#
+# ===== race_time / push_now：拼接片段，中文量词跟在数字后 =====
+# 原译「还剩几圈」会拼成「三还剩几圈」
+laps left,圈
+laps remaining,圈
+laps to go,圈
+laps to get the job done,圈把事办完
+"laps to get the job done, mate",圈把事办完，老兄
+laps to set a decent time,圈跑出个像样的成绩
+"laps, let's get this done",圈，把它拿下
+minutes to do the business,分钟把事办成
+minutes to get the job done,分钟把事办完
+minutes to get a decent lap in,分钟跑出个像样的圈
+minutes to set a lap,分钟跑出一圈
+#
+# ===== race_time：同一结构给出了不同答案 =====
+# "1 more X after this one" 都是「这圈之后还有一圈」，机翻在「一圈」和「两圈」之间摇摆
+1 more lap after this one,这圈之后还有一圈
+1 more remaining after this one,这圈之后还有一圈
+1 more to go after this,这圈之后还有一圈
+#
+# ===== race_time / push_now：语气 =====
+"last lap, bring it on home",最后一圈，稳稳带回来
+"there's a car behind, take care rejoining",后面有车，回赛道时当心
+there's a car rejoining,有车正在回到赛道
+there's a car rejoining in front,前方有车回到赛道
+"heads up, there's a car rejoining",注意，有车回到赛道
+"there's traffic behind, keep your wits about you",后面有车，打起精神
+#
+# ===== tyre_monitor：单位被当成了别的东西 =====
+bar,Bar
+psi,磅
+#
+# ===== tyre_monitor：outers 是外侧胎面，不是后胎 =====
+celsius colder than the outer,摄氏度，比外侧低
+celsius colder than the outers,摄氏度，比外侧低
+celsius colder than your outers,摄氏度，比外侧低
+celsius hotter than the outer,摄氏度，比外侧高
+celsius hotter than the outers,摄氏度，比外侧高
+celsius hotter than your outers,摄氏度，比外侧高
+#
+# ===== tyre_monitor：原文 typo（head = heat），机翻把意思译反了 =====
+we need to get some head into these brakes,得让刹车热起来
+we need to get some heat into these brakes,得让刹车热起来
+let's get some heat into these brakes,把刹车热起来
+#
+# ===== tyre_monitor：cooking 是过热，不是磨损 =====
+"you're cooking your front tyres, mate",前胎烧过头了，老兄
+you're cooking your left front tyre,左前胎烧过头了
+you're cooking your left rear tyre,左后胎烧过头了
+you're cooking your left side tyres,左侧两条胎烧过头了
+"you're cooking your rear tyres, mate",后胎烧过头了，老兄
+you're cooking your right front tyre,右前胎烧过头了
+"you're cooking your right rear tyre, mate",右后胎烧过头了，老兄
+"you're cooking your right side tyres, mate",右侧两条胎烧过头了，老兄
+your left front's cooking,左前胎在烧
+"your left rear's cooking, mate",左后胎在烧，老兄
+your right front tyre is cooking,右前胎在烧
+your right rear tyre is cooking,右后胎在烧
+"your front brakes are cooking, mate",前刹车烧过头了，老兄
+"your tyres are cooking all around, they're really hot",四条胎都烧过头了，非常热
+#
+# ===== tyre_monitor：spinning 是打滑，语序也乱 =====
+you're spinning up your fronts,前轮在打滑
+you're spinning up your left front,左前轮在打滑
+you're spinning up your rear right,右后轮在打滑
+you're spinning up your rears,后轮在打滑
+you're spinning up your right front,右前轮在打滑
+you're spinning your left front,左前轮在打滑
+you're spinning your left front wheel,左前轮在打滑
+you're spinning your rear left,左后轮在打滑
+you're spinning your rear right tyre,右后胎在打滑
+you're spinning your rears,后轮在打滑
+#
+# ===== tyre_monitor：片段要留接口，后面接弯角名 =====
+you're locking your fronts going into,前轮抱死，在进
+you're locking your fronts into,前轮抱死，在
+you're locking your rears going into,后轮抱死，在进
+you're locking your rears into,后轮抱死，在
+you're locking your left front going into,左前抱死，在进
+you're locking your left front into,左前抱死，在
+you're locking your left front braking for,左前刹车抱死，在
+you're locking your right front going into,右前抱死，在进
+you're locking your right front into,右前抱死，在
+we're seeing front locking going into,看到前轮抱死，在进
+we're seeing rear locking into,看到后轮抱死，在
+we're seeing right front locking into,看到右前抱死，在
+you're spinning your fronts in,前轮打滑，在
+you're spinning your left front in,左前打滑，在
+you're spinning your right front in,右前打滑，在
+you're spinning your right rear in,右后打滑，在
+you're spinning your fronts coming out of,前轮打滑，出
+you're spinning your left front coming out of,左前打滑，出
+you're spinning your left rear coming out of,左后打滑，出
+you're spinning your right front coming out of,右前打滑，出
+you're spinning your right rear coming out of,右后打滑，出
+you're spinning your rear tyres coming out of,后胎打滑，出
+you're spinning your fronts on the exit of,前轮打滑，出
+you're spinning your rears on the exit of,后轮打滑，出
+we're seeing left front wheel spin on the exit of,看到左前打滑，出
+we're seeing left rear wheel spin on the exit of,看到左后打滑，出
+we're seeing right front wheel spin coming out of,看到右前打滑，出
+we're seeing right rear wheel spin on the exit of,看到右后打滑，出
+we're seeing rear wheel spin on the exit of,看到后轮打滑，出
+we're seeing left rear wheel spin in,看到左后打滑，在
+faster than,快过
+quicker than,快过
+are about,大约是
+#
+# ===== tyre_monitor：轮胎类型，三种软胎不能都叫「超软胎」 =====
+hyper softs,极软胎
+ultra softs,超软胎
+super softs,特软胎
+softs,软胎
+mediums,中性胎
+hards,硬胎
+slicks,光头胎
+wets,湿地胎
+intermediates,半雨胎
+inters,半雨胎
+option tyres,选择胎
+options,选择胎
+prime tyres,标准胎
+primes,标准胎
+primaries,标准胎
+alternates,备选胎
+A's,A胎
+B's,B胎
+C's,C胎
+D's,D胎
+#
+# ===== tyre_monitor：其他语义错 =====
+your tyre temps are good,轮胎温度正常
+we're seeing loads of wheelspin,看到大量打滑
+we're seeing some wear on each corner,四个角都有些磨损
+we're seeing significant wear on both left side tyres,左侧两条胎磨损明显
+you have dirt pick on all your tyres,四条胎都粘脏了
+you have dirt pick on your left side tyres,左侧两条胎粘脏了
+you have dirt pick on your right side tyres,右侧两条胎粘脏了
+you're locking your front brakes,前刹车抱死
+you got cold front tyres,前胎是冷的
+"your tyres are fine, mate, just push",轮胎没问题老兄，加快就行
+your rear tyres will be past their best soon,后胎很快就要过最佳状态了
+#
+# ===== 残留英文 =====
+# sweary 文件，按波次 1 定的规矩保留原味
+"it's properly pissing it down here, mate",这雨下得跟尿一样，老兄
+"you've been disqualified for exceeding the number of qualification laps allowed",超出允许的排位圈数，被取消资格

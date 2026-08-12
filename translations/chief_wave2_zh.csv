@@ -1,0 +1,1604 @@
+audio_path,audio_filename,subtitle,text_for_tts,original_english
+\voice\conditions\air_and_track_temp_decreasing,1.wav,空气和赛道温度正在下降,空气和赛道温度正在下降,air and track temps are decreasing
+\voice\conditions\air_and_track_temp_decreasing,2.wav,空气和赛道温度在下降,空气和赛道温度在下降,air and track temps are falling
+\voice\conditions\air_and_track_temp_decreasing,3.wav,空气和赛道温度下降,空气和赛道温度下降,air and track temps decreasing
+\voice\conditions\air_and_track_temp_increasing,1.wav,空气和赛道温度正在上升,空气和赛道温度正在上升,air and track temperatures are increasing
+\voice\conditions\air_and_track_temp_increasing,2.wav,空气和赛道温度正在上升,空气和赛道温度正在上升,air and track temperatures are rising
+\voice\conditions\air_and_track_temp_increasing,3.wav,空气和赛道温度正在上升,空气和赛道温度正在上升,air and track temps are increasing
+\voice\conditions\air_temp_decreasing_its_now,1.wav,气温下降，现在,气温下降，现在,"air temperature's falling, it's now"
+\voice\conditions\air_temp_decreasing_its_now,2.wav,气温下降，现在,气温下降，现在,"air temperature's decreasing, it's now"
+\voice\conditions\air_temp_decreasing_its_now,3.wav,气温下降，现在,气温下降，现在,"air temp's falling, it's now"
+\voice\conditions\air_temp_increasing_its_now,1.wav,气温在升高，现在,气温在升高，现在,"air temperature's increasing, it's now"
+\voice\conditions\air_temp_increasing_its_now,2.wav,气温上升，现在,气温上升，现在,"air temp's rising, it's now"
+\voice\conditions\air_temp_increasing_its_now,3.wav,气温在升高，现在,气温在升高，现在,"air temp's increasing, it's now"
+\voice\conditions\air_temp_is,1.wav,空气温度是,空气温度是,the air temp is
+\voice\conditions\air_temp_is,2.wav,空气温度是,空气温度是,the air temp is
+\voice\conditions\air_temp_is,3.wav,空气温度是,空气温度是,the air temp is
+\voice\conditions\air_temp_is_now,1.wav,空气温度现在,空气温度现在,air temperature's now
+\voice\conditions\air_temp_is_now,2.wav,当前空气温度是,当前空气温度是,air temperature is now
+\voice\conditions\air_temp_is_now,3.wav,当前空气温度为,当前空气温度为,air temp is now
+\voice\conditions\celsius,1.wav,摄氏度,摄氏度,celsius
+\voice\conditions\celsius,2.wav,摄氏度,摄氏度,celsius
+\voice\conditions\celsius,3.wav,摄氏度,摄氏度,celsius
+\voice\conditions\celsius,4.wav,摄氏度,摄氏度,celsius
+\voice\conditions\drizzle_decreasing,1.wav,现在只是细雨，看来很快就会停止,现在只是细雨，看来很快就会停止,"just drizzling now, looks like it'll stop soon"
+\voice\conditions\drizzle_decreasing,2.wav,雨快停了，现在只是有一点毛毛雨,雨快停了，现在只是有一点毛毛雨,"the rain's almost stopped, just a bit of drizzle now"
+\voice\conditions\drizzle_decreasing,3.wav,我们现在有毛毛雨，但天气正在好转,我们现在有毛毛雨，但天气正在好转,we've got drizzle now and it's drying out
+\voice\conditions\drizzle_increasing,1_op_prefix_ok.wav,开始有小雨,开始有小雨,it's starting to drizzle
+\voice\conditions\drizzle_increasing,2.wav,有点细雨开始落下,有点细雨开始落下,there's a bit of drizzle starting
+\voice\conditions\drizzle_increasing,3.wav,我们现在看到一些零星的小雨,我们现在看到一些零星的小雨,we're seeing a few spots of drizzle now
+\voice\conditions\fahrenheit,1.wav,华氏温度,华氏温度,fahrenheit
+\voice\conditions\fahrenheit,2.wav,华氏温度,华氏温度,fahrenheit
+\voice\conditions\fahrenheit,3.wav,华氏温度,华氏温度,fahrenheit
+\voice\conditions\heavy_rain_decreasing,1_op_prefix_ok.wav,现在雨下得很大，但正在减弱，慢慢来,现在雨下得很大，但正在减弱，慢慢来,"it's chucking it down now, but easing off, take it easy"
+\voice\conditions\heavy_rain_decreasing,2.wav,雨势减弱了一些，但仍然很大，小心,雨势减弱了一些，但仍然很大，小心,"the rain's easing off a bit, but it's still heavy, take care"
+\voice\conditions\heavy_rain_decreasing,3_op_suffix_please.wav,雨还是下的很大，但似乎在减弱,雨还是下的很大，但似乎在减弱,"it's still really raining, but it seems to be decreasing"
+\voice\conditions\heavy_rain_increasing,1_op_suffix_please.wav,现在的雨真的很大，而且还在变大，注意安全,现在的雨真的很大，而且还在变大，注意安全,"this rain's really heavy now, and getting harder, take care"
+\voice\conditions\heavy_rain_increasing,2_op_prefix_ok.wav,现在雨下得很大，似乎还在增大,现在雨下得很大，似乎还在增大,"it's really raining now, seems to be increasing"
+\voice\conditions\heavy_rain_increasing,3_op_suffix_please.wav,现在雨下得很大,现在雨下得很大,it's chucking it down now
+\voice\conditions\heavy_rain_increasing,4_op_prefix_ok.wav,情况变糟，慢下来,情况变糟，慢下来,"getting harder, take it easy"
+\voice\conditions\light_rain_decreasing,1.wav,现在雨没那么大了，似乎有所好转,现在雨没那么大了，似乎有所好转,"it's not raining so heavily now, seems to be improving"
+\voice\conditions\light_rain_decreasing,2_op_prefix_ok.wav,小雨现在，看起来情况在好转,小雨现在，看起来情况在好转,"light rain now, looks like it's getting better"
+\voice\conditions\light_rain_decreasing,3.wav,雨现在很容易停下来,雨现在很容易停下来,the rain's easy right off now
+\voice\conditions\light_rain_decreasing,4.wav,这里有小雨，雨势正在减弱,这里有小雨，雨势正在减弱,"we've got light rain here, it's clearing up"
+\voice\conditions\light_rain_increasing,1.wav,我们现在有点小雨，看起来雨势要变大,我们现在有点小雨，看起来雨势要变大,"we've got a bit of rain now, looks like it's getting harder"
+\voice\conditions\light_rain_increasing,2_op_prefix_ok.wav,看到一些雨点，似乎在增多,看到一些雨点，似乎在增多,"we're seeing a few spots of rain, seems to be increasing"
+\voice\conditions\light_rain_increasing,3.wav,这里有小雨，雨势变大,这里有小雨，雨势变大,"we've got light rain here, getting harder"
+\voice\conditions\maximum_rain,2.wav,这里的雨糟糕透了，小心点,这里的雨糟糕透了，小心点,"the rain's absolutely terrible here, be careful"
+\voice\conditions\maximum_rain,sweary_1.wav,这里像特么的季风一样，注意,这里像特么的季风一样，注意,"it's like a fucking monsoon here, watch out"
+\voice\conditions\maximum_rain,sweary_3.wav,这里真是下得像 piss down 一样，伙计,这里真是下得像 piss down 一样，伙计,"it's properly pissing it down here, mate"
+\voice\conditions\mid_rain_decreasing,2.wav,雨现在开始减弱，看来情况正在好转,雨现在开始减弱，看来情况正在好转,"the rain's easing now, looks like conditions are improving"
+\voice\conditions\mid_rain_increasing,1_op_prefix_ok.wav,我们现在开始下大雨了，看起来雨势要加大,我们现在开始下大雨了，看起来雨势要加大,"we're getting proper rain now, looks like it's getting harder"
+\voice\conditions\mid_rain_increasing,2.wav,现在下雨了，似乎雨势在增大,现在下雨了，似乎雨势在增大,"it's raining now, seems to be increasing"
+\voice\conditions\mid_rain_increasing,3.wav,现在雨下得很大，情况正在恶化,现在雨下得很大，情况正在恶化,"it's quite rainy now, and getting harder"
+\voice\conditions\seeing_some_rain,1_op_prefix_ok.wav,我们看到有些雨,我们看到有些雨,we're seeing some rain
+\voice\conditions\seeing_some_rain,2_op_prefix_ok.wav,我们开始看到一些雨,我们开始看到一些雨,we're starting to see some rain
+\voice\conditions\seeing_some_rain,3_op_prefix_ok.wav,看起来在下雨,看起来在下雨,it looks like it's raining
+\voice\conditions\seeing_some_rain,4_op_prefix_ok.wav,这里在下雨,这里在下雨,it's raining here
+\voice\conditions\seeing_some_rain,5_op_prefix_ok.wav,我们看到有些雨,我们看到有些雨,we're seeing some rain
+\voice\conditions\seeing_some_rain,sweary_6.wav,这里开始下大雨了,这里开始下大雨了,it's starting to piss down out here
+\voice\conditions\stopped_raining,1_op_prefix_ok.wav,雨停了,雨停了,it stopped raining
+\voice\conditions\stopped_raining,2_op_prefix_ok.wav,看起来雨停了,看起来雨停了,it looks like it stopped raining
+\voice\conditions\stopped_raining,3_op_prefix_ok.wav,不再下雨,不再下雨,no more rain
+\voice\conditions\stopped_raining,4_op_prefix_ok.wav,雨停了,雨停了,it's stopped raining
+\voice\conditions\track_temp_decreasing_its_now,1.wav,赛道温度下降，现在,赛道温度下降，现在,"the track temperature's decreasing, it's now"
+\voice\conditions\track_temp_decreasing_its_now,2.wav,赛道温度下降，现在,赛道温度下降，现在,"the track temperature's falling, it's now"
+\voice\conditions\track_temp_decreasing_its_now,3.wav,赛道温度下降，现在,赛道温度下降，现在,"the track temperature's decreasing, it's now"
+\voice\conditions\track_temp_increasing_its_now,1.wav,赛道温度升高，现在,赛道温度升高，现在,"the track temperature's increasing, it's now"
+\voice\conditions\track_temp_increasing_its_now,2.wav,赛道温度升高，现在,赛道温度升高，现在,"the track temperature's rising, it's now"
+\voice\conditions\track_temp_increasing_its_now,3.wav,赛道温度上升，现在,赛道温度上升，现在,"the track temp's increasing, it's now"
+\voice\conditions\track_temp_is,1.wav,赛道温度是,赛道温度是,the track temp is
+\voice\conditions\track_temp_is,2.wav,赛道温度是,赛道温度是,the track temp is
+\voice\conditions\track_temp_is,3.wav,赛道温度是,赛道温度是,the track temp is
+\voice\conditions\track_temp_is_now,1.wav,赛道温度现在是,赛道温度现在是,the track temperature is now
+\voice\conditions\track_temp_is_now,2.wav,赛道温度现在是,赛道温度现在是,the track temp is now
+\voice\conditions\track_temp_is_now,3.wav,赛道温度现在是,赛道温度现在是,the track temperature's now
+\voice\conditions\we_expect_drizzle_in_the_next,1.wav,我们预计在下一阶段会有小雨,我们预计在下一阶段会有小雨,we expect drizzle in the next
+\voice\conditions\we_expect_drizzle_in_the_next,2.wav,我们预计在下一阶段会有小雨,我们预计在下一阶段会有小雨,we expect drizzle in the next
+\voice\conditions\we_expect_drizzle_in_the_next,3.wav,我们预计在下一阶段会有小雨,我们预计在下一阶段会有小雨,we expect drizzle in the next
+\voice\conditions\we_expect_drizzle_in_the_next,4.wav,我们预计在下一阶段会有小雨,我们预计在下一阶段会有小雨,we expect drizzle in the next
+\voice\conditions\we_expect_drizzle_in_the_next,5.wav,我们预计在下一阶段会有小雨,我们预计在下一阶段会有小雨,we expect drizzle in the next
+\voice\conditions\we_expect_heavy_rain_in_the_next,1.wav,我们预计在接下来会有大雨,我们预计在接下来会有大雨,we expect heavy rain in the next
+\voice\conditions\we_expect_heavy_rain_in_the_next,2.wav,我们预计在接下来会有大雨,我们预计在接下来会有大雨,we expect heavy rain in the next
+\voice\conditions\we_expect_heavy_rain_in_the_next,3.wav,我们预计在接下来会有大雨,我们预计在接下来会有大雨,we expect heavy rain in the next
+\voice\conditions\we_expect_heavy_rain_in_the_next,4.wav,我们预计在接下来会有大雨,我们预计在接下来会有大雨,we expect heavy rain in the next
+\voice\conditions\we_expect_heavy_rain_in_the_next,5.wav,我们预计在接下来会有大雨,我们预计在接下来会有大雨,we expect heavy rain in the next
+\voice\conditions\we_expect_light_rain_in_the_next,1.wav,我们预计在接下来会有小雨,我们预计在接下来会有小雨,we expect light rain in the next
+\voice\conditions\we_expect_light_rain_in_the_next,2.wav,我们预计在接下来会有小雨,我们预计在接下来会有小雨,we expect light rain in the next
+\voice\conditions\we_expect_light_rain_in_the_next,3.wav,我们预计在接下来会有小雨,我们预计在接下来会有小雨,we expect light rain in the next
+\voice\conditions\we_expect_light_rain_in_the_next,4.wav,我们预计在接下来会有小雨,我们预计在接下来会有小雨,we expect light rain in the next
+\voice\conditions\we_expect_light_rain_in_the_next,5.wav,我们预计在接下来会有小雨,我们预计在接下来会有小雨,we expect light rain in the next
+\voice\conditions\we_expect_medium_rain_in_the_next,1.wav,我们预计在接下来会有中雨,我们预计在接下来会有中雨,we expect medium rain in the next
+\voice\conditions\we_expect_medium_rain_in_the_next,2.wav,我们预计在接下来会有中雨,我们预计在接下来会有中雨,we expect medium rain in the next
+\voice\conditions\we_expect_medium_rain_in_the_next,3.wav,我们预计在接下来会有中雨,我们预计在接下来会有中雨,we expect medium rain in the next
+\voice\conditions\we_expect_rain_in_the_next,1.wav,我们预计下一阶段会有雨,我们预计下一阶段会有雨,we expect rain in the next
+\voice\conditions\we_expect_rain_in_the_next,2.wav,我们预计在接下来的时段会有一些降雨,我们预计在接下来的时段会有一些降雨,we expect to see some rain in the next
+\voice\conditions\we_expect_rain_in_the_next,3.wav,看来接下来要下雨,看来接下来要下雨,looks like it's gonna rain in the next
+\voice\conditions\we_expect_rain_to_stop_in_the_next,1.wav,我们预计在接下来的,我们预计在接下来的,we expect the rain to stop in the next
+\voice\conditions\we_expect_rain_to_stop_in_the_next,2.wav,我们预计在接下来的,我们预计在接下来的,we expect the rain to stop in the next
+\voice\conditions\we_expect_rain_to_stop_in_the_next,3.wav,我们预计在接下来的,我们预计在接下来的,we expect the rain to stop in the next
+\voice\conditions\we_expect_rain_to_stop_in_the_next,4.wav,我们预计在接下来的,我们预计在接下来的,we expect the rain to stop in the next
+\voice\conditions\we_expect_rain_to_stop_in_the_next,5.wav,我们预计在接下来的,我们预计在接下来的,we expect the rain to stop in the next
+\voice\conditions\we_expect_very_heavy_rain_in_the_next,1.wav,我们预计在接下来会有非常大的雨,我们预计在接下来会有非常大的雨,we expect very heavy rain in the next
+\voice\conditions\we_expect_very_heavy_rain_in_the_next,2.wav,我们预计在接下来会有非常大的雨,我们预计在接下来会有非常大的雨,we expect very heavy rain in the next
+\voice\conditions\we_expect_very_heavy_rain_in_the_next,3.wav,我们预计在接下来会有非常大的雨,我们预计在接下来会有非常大的雨,we expect very heavy rain in the next
+\voice\conditions\we_expect_very_heavy_rain_in_the_next,4.wav,我们预计在接下来会有非常大的雨,我们预计在接下来会有非常大的雨,we expect very heavy rain in the next
+\voice\conditions\we_expect_very_heavy_rain_in_the_next,5.wav,我们预计在接下来会有非常大的雨,我们预计在接下来会有非常大的雨,we expect very heavy rain in the next
+\voice\damage_reporting\acknowledge_driver_is_ok,1.wav,知道了，谢谢，伙计,知道了，谢谢，伙计,"that's good to know, thanks, mate"
+\voice\damage_reporting\acknowledge_driver_is_ok,2.wav,这真是松了口气,这真是松了口气,that's a relief
+\voice\damage_reporting\acknowledge_driver_is_ok,3.wav,好的，待命，车队正在赶来,好的，待命，车队正在赶来,"okay, just sit tight, the team's on it's way"
+\voice\damage_reporting\acknowledge_driver_is_ok,4.wav,好的，伙计，坐紧了，医疗队就来了,好的，伙计，坐紧了，医疗队就来了,"okay, mate, just sit tight, the medical team are coming"
+\voice\damage_reporting\acknowledge_driver_is_ok,5.wav,好的，谢谢更新,好的，谢谢更新,"okay, mate, thanks for the update"
+\voice\damage_reporting\acknowledge_driver_is_ok,6_op_prefix_ok.wav,暂时保持现状，帮助很快就来,暂时保持现状，帮助很快就来,"just sit tight, help's on the way"
+\voice\damage_reporting\acknowledge_driver_is_ok,7_rq_prefix_ok.wav,感谢更新,感谢更新,thanks for the update
+\voice\damage_reporting\acknowledge_driver_is_ok,8_rq_prefix_ok.wav,知道这个很好,知道这个很好,that's good to know
+\voice\damage_reporting\acknowledge_driver_is_ok_no_speech,2.wav,好的，伙计，我觉得这无线电坏了,好的，伙计，我觉得这无线电坏了,"okay, mate, I think that radio's had it"
+\voice\damage_reporting\acknowledge_driver_is_ok_no_speech,3.wav,好的，听不到你说话，可能是无线电坏了,好的，听不到你说话，可能是无线电坏了,"okay, I can't hear you, maybe the radio's gone"
+\voice\damage_reporting\acknowledge_driver_is_ok_no_speech,4.wav,听不到任何声音，伙计，我觉得你把无线电搞坏了,听不到任何声音，伙计，我觉得你把无线电搞坏了,"can't hear anything, mate, think you've knackered the radio"
+\voice\damage_reporting\acknowledge_driver_is_ok_no_speech,5.wav,听不到任何声音，觉得无线电坏了,听不到任何声音，觉得无线电坏了,"can't hear anything, think the radio's gone"
+\voice\damage_reporting\acknowledge_driver_is_ok_no_speech,6.wav,好的，伙计，我觉得这无线电坏了,好的，伙计，我觉得这无线电坏了,"okay, mate, I think that radio's had it"
+\voice\damage_reporting\acknowledge_driver_is_ok_no_speech,sweary_1.wav,我觉得无线电坏了,我觉得无线电坏了,I think the radio's fucked
+\voice\damage_reporting\acknowledge_driver_is_ok_not_understood,1.wav,好的，听起来你还行,好的，听起来你还行,"okay, sounds like you're all right"
+\voice\damage_reporting\acknowledge_driver_is_ok_not_understood,2.wav,听起来你还好，谢谢，伙计,听起来你还好，谢谢，伙计,"sounds like you're okay, thanks, mate"
+\voice\damage_reporting\acknowledge_driver_is_ok_not_understood,3.wav,听到你没事很好,听到你没事很好,good to hear you're okay
+\voice\damage_reporting\acknowledge_driver_is_ok_not_understood,4.wav,没太听清楚，但至少你在说话,没太听清楚，但至少你在说话,"didn't really catch that, but at least you're talking"
+\voice\damage_reporting\acknowledge_driver_is_ok_not_understood,5.wav,不明白你刚才说什么，但至少你说了一些东西,不明白你刚才说什么，但至少你说了一些东西,"no idea what you just said, but at least it was something"
+\voice\damage_reporting\acknowledge_driver_is_ok_not_understood,6.wav,我认为这意味着你没事，谢谢，伙计,我认为这意味着你没事，谢谢，伙计,"I assume that means you're okay, thanks, mate"
+\voice\damage_reporting\are_you_ok_first_try,1.wav,看起来很严重，你还好吗？,看起来很严重，你还好吗？,"that looked bad, you okay?"
+\voice\damage_reporting\are_you_ok_first_try,10_rq_suffix_please.wav,看起来情况不妙，你能确认你还好吗？,看起来情况不妙，你能确认你还好吗？,"that looked bad, can you confirm that you're all right?"
+\voice\damage_reporting\are_you_ok_first_try,1_op_prefix_bad_luck.wav,看起来很严重，你还好吗？,看起来很严重，你还好吗？,"that looked bad, you okay?"
+\voice\damage_reporting\are_you_ok_first_try,2.wav,你还好吗，老兄？,你还好吗，老兄？,"are you okay, mate?"
+\voice\damage_reporting\are_you_ok_first_try,3.wav,你还好吗，那个事故很大？,你还好吗，那个事故很大？,"are you all right, that was a big one?"
+\voice\damage_reporting\are_you_ok_first_try,4.wav,那看起来很严重，你还好吗？,那看起来很严重，你还好吗？,"that looked like a bad one, are you okay?"
+\voice\damage_reporting\are_you_ok_first_try,5.wav,你还好吗，老兄？,你还好吗，老兄？,"are you all right, mate?"
+\voice\damage_reporting\are_you_ok_first_try,6.wav,那可是个大碰撞，你还好吧？,那可是个大碰撞，你还好吧？,"that was a big one, are you okay?"
+\voice\damage_reporting\are_you_ok_first_try,6_op_prefix_bad_luck.wav,那可是个大碰撞，你还好吧？,那可是个大碰撞，你还好吧？,"that was a big one, are you okay?"
+\voice\damage_reporting\are_you_ok_first_try,9_rq_suffix_please.wav,你能确认你还好吗？,你能确认你还好吗？,can you confirm you're okay?
+\voice\damage_reporting\are_you_ok_first_try,sweary_7.wav,见鬼了，老兄，刚才那一下很严重，你还好吧？,见鬼了，老兄，刚才那一下很严重，你还好吧？,"shit, mate, that was bad, are you okay?"
+\voice\damage_reporting\are_you_ok_first_try,sweary_8.wav,天啊，那看起来很疼，你还好吧？,天啊，那看起来很疼，你还好吧？,"fucking hell, that looked like it hurt, are you all right?"
+\voice\damage_reporting\are_you_ok_second_try,10.wav,来吧，别这样了，告诉我们你没事,来吧，别这样了，告诉我们你没事,"come on, don't do this, tell us you're okay"
+\voice\damage_reporting\are_you_ok_second_try,1_rq_suffix_please.wav,你还好吗？能回复我吗？,你还好吗？能回复我吗？,are you okay? Answer me if you can
+\voice\damage_reporting\are_you_ok_second_try,2_rq_suffix_please.wav,你能回答吗？,你能回答吗？,answer me if you can?
+\voice\damage_reporting\are_you_ok_second_try,3.wav,来吧，你还好吗？,来吧，你还好吗？,"come on, are you okay?"
+\voice\damage_reporting\are_you_ok_second_try,4.wav,来吧，回复一下，好吗,来吧，回复一下，好吗,"come on, respond, please"
+\voice\damage_reporting\are_you_ok_second_try,5.wav,你能听到我吗？请回复,你能听到我吗？请回复,can you hear me? Respond please
+\voice\damage_reporting\are_you_ok_second_try,6.wav,你能回应一下吗，请问你还好吗？,你能回应一下吗，请问你还好吗？,"can you respond, please, are you all right?"
+\voice\damage_reporting\are_you_ok_second_try,7.wav,喂，老兄，你还好吗？回应一下,喂，老兄，你还好吗？回应一下,"come on, mate, are you okay? respond"
+\voice\damage_reporting\are_you_ok_second_try,8.wav,你能听到吗，回复一下，好吗，你还好吧？,你能听到吗，回复一下，好吗，你还好吧？,"can you hear me, respond, please, are you okay?"
+\voice\damage_reporting\are_you_ok_second_try,sweary_9.wav,来吧，我们都快急死了，告诉我们你没事,来吧，我们都快急死了，告诉我们你没事,"come on, we're all shitting ourselves here, tell us you're okay"
+\voice\damage_reporting\are_you_ok_third_try,3.wav,如果你能听到，救援马上就到,如果你能听到，救援马上就到,"if you can hear me, help's on the way"
+\voice\damage_reporting\are_you_ok_third_try,4.wav,如果你能听到，救援来了,如果你能听到，救援来了,"if you can hear me, help's coming"
+\voice\damage_reporting\are_you_ok_third_try,5.wav,你让我们所有人都很担心，兄弟,你让我们所有人都很担心，兄弟,"you got us all really worried here, man"
+\voice\damage_reporting\are_you_ok_third_try,6.wav,这里有一个车库，里面全是人急得脸色发青,这里有一个车库，里面全是人急得脸色发青,"there's a garage full of people turning blue, here"
+\voice\damage_reporting\are_you_ok_third_try,sweary_1.wav,见鬼，希望只是无线电坏了,见鬼，希望只是无线电坏了,"shit, I hope it's just the radio that's knackered"
+\voice\damage_reporting\are_you_ok_third_try,sweary_2.wav,天啊，希望你还好吧,天啊，希望你还好吧,"fucking hell, man, I hope you're okay"
+\voice\damage_reporting\busted_brakes,1.wav,这些刹车已经完全没有了，伙计，如果可以的话就回维修区,这些刹车已经完全没有了，伙计，如果可以的话就回维修区,"there's nothing left of these brakes, mate, come back into the pit if you can"
+\voice\damage_reporting\busted_brakes,2.wav,看看你能不能把它开回维修区，我们可以对这些刹车做些处理,看看你能不能把它开回维修区，我们可以对这些刹车做些处理,see if you can get it back to the pits and we can do what we can with these brakes
+\voice\damage_reporting\busted_brakes,sweary_3.wav,他们刹车坏了，伙计,他们刹车坏了，伙计,"them brakes are fucked, mate"
+\voice\damage_reporting\busted_engine,1.wav,发动机坏了，完了,发动机坏了，完了,"we've lost the engine, it's over"
+\voice\damage_reporting\busted_engine,2_op_prefix_oh_dear.wav,那引擎完了，伙计，你得等着被拖车,那引擎完了，伙计，你得等着被拖车,"that engine's toast, mate, you're gonna have to wait for a tow"
+\voice\damage_reporting\busted_engine,2_op_prefix_ok.wav,那引擎完了，伙计，你得等着被拖车,那引擎完了，伙计，你得等着被拖车,"that engine's toast, mate, you're gonna have to wait for a tow"
+\voice\damage_reporting\busted_engine,sweary_3.wav,啊，那引擎彻底坏了，没机会修了，伙计,啊，那引擎彻底坏了，没机会修了，伙计,"ah shit, that engine's completely gone, no chance of fixing that, mate"
+\voice\damage_reporting\busted_engine,sweary_4_op_prefix_ok.wav,发动机坏了，干得漂亮，伙计,发动机坏了，干得漂亮，伙计,"the engine's fucked, nicely done, mate"
+\voice\damage_reporting\busted_suspension,1.wav,我们无法修复悬挂系统，伙计，那就是你这一天结束了,我们无法修复悬挂系统，伙计，那就是你这一天结束了,"we can't fix our suspension, mate, that's your day over"
+\voice\damage_reporting\busted_suspension,2.wav,你的悬挂完全坏了，我们对此无能为力,你的悬挂完全坏了，我们对此无能为力,"your suspension's completely knackered, there's nothing we can do there"
+\voice\damage_reporting\busted_suspension,2_op_prefix_oh_dear.wav,你的悬挂完全坏了，我们对此无能为力,你的悬挂完全坏了，我们对此无能为力,"your suspension's completely knackered, there's nothing we can do there"
+\voice\damage_reporting\busted_suspension,2_prefix_oh_dear.wav,你的悬挂完全坏了，我们对此无能为力,你的悬挂完全坏了，我们对此无能为力,"your suspension's completely knackered, there's nothing we can do there"
+\voice\damage_reporting\busted_suspension,sweary_3.wav,悬挂坏了,悬挂坏了,the suspension's boogered
+\voice\damage_reporting\busted_transmission,1.wav,变速箱彻底坏了，我们的比赛结束了,变速箱彻底坏了，我们的比赛结束了,"transmission's completely screwed, that's our race done"
+\voice\damage_reporting\busted_transmission,3.wav,关掉它，伙计，传输装置已经完全损坏了，这里结束了,关掉它，伙计，传输装置已经完全损坏了，这里结束了,"switch it off, mate, there's nothing left of the transmission, we're done here"
+\voice\damage_reporting\busted_transmission,3_op_prefix_oh_dear.wav,关掉它，伙计，传输装置已经完全损坏了，这里结束了,关掉它，伙计，传输装置已经完全损坏了，这里结束了,"switch it off, mate, there's nothing left of the transmission, we're done here"
+\voice\damage_reporting\busted_transmission,sweary_2.wav,以现在的状态不可能回到维修区，伙计，你把它搞坏了,以现在的状态不可能回到维修区，伙计，你把它搞坏了,"no chance of getting back to the pits with the transmission in that state, mate, you fucked it"
+\voice\damage_reporting\left_front_puncture,1.wav,左前扎胎,左前扎胎,front left puncture
+\voice\damage_reporting\left_front_puncture,2.wav,左前刹车平点,左前刹车平点,flat front left
+\voice\damage_reporting\left_front_puncture,3.wav,左前扎胎,左前扎胎,front left puncture
+\voice\damage_reporting\left_rear_puncture,1.wav,右后扎胎,右后扎胎,rear left puncture
+\voice\damage_reporting\left_rear_puncture,2.wav,左侧后胎扎胎,左侧后胎扎胎,left rear puncture
+\voice\damage_reporting\left_rear_puncture,3.wav,你的左后胎扎了,你的左后胎扎了,your left rear is punctured
+\voice\damage_reporting\minor_aero_damage,10.wav,你有一些车身损坏,你有一些车身损坏,you picked up a little bit of bodywork damage
+\voice\damage_reporting\minor_aero_damage,11.wav,看到一些空气动力套件的小损伤,看到一些空气动力套件的小损伤,we're seeing a little bit of aero damage
+\voice\damage_reporting\minor_aero_damage,12.wav,看起来你有一些轻微的车身损坏,看起来你有一些轻微的车身损坏,looks like you got some minor bodywork damage
+\voice\damage_reporting\minor_aero_damage,1_op_prefix_ok.wav,你有一些轻微的空气动力套件损坏,你有一些轻微的空气动力套件损坏,you picked up some minor aero damage
+\voice\damage_reporting\minor_aero_damage,2_op_prefix_ok.wav,你捡到了一些严重的空气动力套件损坏,你捡到了一些严重的空气动力套件损坏,you picked up a big of aero damage
+\voice\damage_reporting\minor_aero_damage,3_op_prefix_ok.wav,你那里有点车身部件损坏,你那里有点车身部件损坏,you've had a bit of bodywork damage there
+\voice\damage_reporting\minor_aero_damage,4_op_prefix_ok.wav,你有一些轻微的空气动力套件损坏，留在外面，问题不大,你有一些轻微的空气动力套件损坏，留在外面，问题不大,"you had some minor aero damage, stay out, it's not that bad"
+\voice\damage_reporting\minor_aero_damage,5.wav,你有一些车身部件损坏，留在赛道上，问题不大,你有一些车身部件损坏，留在赛道上，问题不大,"you've had a bit of bodywork damage, stay out, it's not too bad"
+\voice\damage_reporting\minor_aero_damage,6.wav,你那里有一点车身损坏,你那里有一点车身损坏,you've got a little bit of bodywork damage there
+\voice\damage_reporting\minor_aero_damage,7.wav,一些轻微的空气动力套件损坏,一些轻微的空气动力套件损坏,some minor aero damage
+\voice\damage_reporting\minor_aero_damage,8.wav,我们发现了一些轻微的空气动力套件损坏,我们发现了一些轻微的空气动力套件损坏,we're seeing some minor aero damage
+\voice\damage_reporting\minor_aero_damage,9.wav,看到那里有一点车身损坏,看到那里有一点车身损坏,we're seeing a little bit of bodywork damage there
+\voice\damage_reporting\minor_aero_damage_general,10.wav,你有一些车身损坏,你有一些车身损坏,you've picked up a little bit of bodywork damage
+\voice\damage_reporting\minor_aero_damage_general,11.wav,看到一些空气动力套件的小损伤,看到一些空气动力套件的小损伤,we're seeing a little bit of aero damage
+\voice\damage_reporting\minor_aero_damage_general,12.wav,看起来你有一些轻微的车身损坏,看起来你有一些轻微的车身损坏,looks like you got some minor bodywork damage
+\voice\damage_reporting\minor_aero_damage_general,1_op_prefix_ok.wav,你有一些轻微的空气动力套件损坏,你有一些轻微的空气动力套件损坏,you picked up some minor aero damage
+\voice\damage_reporting\minor_aero_damage_general,2_op_prefix_ok.wav,你有一些空气动力套件的小损伤,你有一些空气动力套件的小损伤,you picked up a bit of aero damage
+\voice\damage_reporting\minor_aero_damage_general,3_op_prefix_ok.wav,你那里有点车身部件损坏,你那里有点车身部件损坏,you've had a bit of bodywork damage there
+\voice\damage_reporting\minor_aero_damage_general,6.wav,你那里有一点车身损坏,你那里有一点车身损坏,you've got a little bit of bodywork damage there
+\voice\damage_reporting\minor_aero_damage_general,7.wav,一些轻微的空气动力套件损坏,一些轻微的空气动力套件损坏,some minor aero damage
+\voice\damage_reporting\minor_aero_damage_general,8.wav,我们发现了一些轻微的空气动力套件损坏,我们发现了一些轻微的空气动力套件损坏,we're seeing some minor aero damage
+\voice\damage_reporting\minor_aero_damage_general,9.wav,看到那里有一点车身损坏,看到那里有一点车身损坏,we're seeing a little bit of bodywork damage there
+\voice\damage_reporting\minor_brake_damage,1.wav,你的刹车有一点损坏,你的刹车有一点损坏,you've got a bit of brake damage
+\voice\damage_reporting\minor_brake_damage,2.wav,看到一些轻微的刹车损坏,看到一些轻微的刹车损坏,we're seeing some minor brake damage
+\voice\damage_reporting\minor_brake_damage,3.wav,那个刹车有点问题，伙计,那个刹车有点问题，伙计,"there's something not right with those brakes, mate"
+\voice\damage_reporting\minor_engine_damage,1.wav,那台发动机听起来不对劲，伙计，我们会留意它的,那台发动机听起来不对劲，伙计，我们会留意它的,"that engine doesn't sound right, mate, we'll keep an eye on it"
+\voice\damage_reporting\minor_engine_damage,2.wav,你的引擎有点抖，伙计,你的引擎有点抖，伙计,"your engine's running a bit rough, mate"
+\voice\damage_reporting\minor_engine_damage,3.wav,轻踩油门，否则引擎撑不到终点,轻踩油门，否则引擎撑不到终点,go easy on the engine or it's not gonna last the distance
+\voice\damage_reporting\minor_suspension_damage,10.wav,你的悬挂有一点小损坏,你的悬挂有一点小损坏,you got a little bit of suspension damage
+\voice\damage_reporting\minor_suspension_damage,1_op_prefix_ok.wav,您的悬挂有些小损坏，可能问题不大,您的悬挂有些小损坏，可能问题不大,"you've had a bit of suspension damage, it's probably all right"
+\voice\damage_reporting\minor_suspension_damage,2_op_prefix_ok.wav,你那里悬挂有些损坏，继续留在赛道,你那里悬挂有些损坏，继续留在赛道,"you've had some suspension damage there, stay out"
+\voice\damage_reporting\minor_suspension_damage,3_op_prefix_ok.wav,你的悬挂有些损坏,你的悬挂有些损坏,you've had a bit of suspension damage
+\voice\damage_reporting\minor_suspension_damage,4.wav,悬挂有轻微损坏,悬挂有轻微损坏,there's some minor suspension damage
+\voice\damage_reporting\minor_suspension_damage,5.wav,看到一些轻微的悬挂损坏,看到一些轻微的悬挂损坏,we're seeing some minor suspension damage
+\voice\damage_reporting\minor_suspension_damage,6.wav,你的悬挂有一点损坏,你的悬挂有一点损坏,you've got a little bit of suspension damage
+\voice\damage_reporting\minor_suspension_damage,7.wav,看来你的悬挂有点不对,看来你的悬挂有点不对,it looks like your suspension's a little bit off
+\voice\damage_reporting\minor_suspension_damage,8.wav,看到一些悬挂小损伤,看到一些悬挂小损伤,we're seeing a little bit of suspension damage
+\voice\damage_reporting\minor_suspension_damage,9.wav,你那里有一些轻微的悬挂损坏,你那里有一些轻微的悬挂损坏,you've got some minor suspension damage there
+\voice\damage_reporting\minor_suspension_damage_general,10.wav,你的悬挂有一点小损坏,你的悬挂有一点小损坏,you got a little bit of suspension damage
+\voice\damage_reporting\minor_suspension_damage_general,3_op_prefix_ok.wav,你的悬挂有些损坏,你的悬挂有些损坏,you've had a bit of suspension damage
+\voice\damage_reporting\minor_suspension_damage_general,4.wav,悬挂有轻微损坏,悬挂有轻微损坏,there's some minor suspension damage
+\voice\damage_reporting\minor_suspension_damage_general,5.wav,看到一些轻微的悬挂损坏,看到一些轻微的悬挂损坏,we're seeing some minor suspension damage
+\voice\damage_reporting\minor_suspension_damage_general,6.wav,你的悬挂有一点损坏,你的悬挂有一点损坏,you've got a little bit of suspension damage
+\voice\damage_reporting\minor_suspension_damage_general,7.wav,看来你的悬挂有点不对,看来你的悬挂有点不对,it looks like your suspension's a little bit off
+\voice\damage_reporting\minor_suspension_damage_general,8.wav,看到一些悬挂小损伤,看到一些悬挂小损伤,we're seeing a little bit of suspension damage
+\voice\damage_reporting\minor_suspension_damage_general,9.wav,你那里有一些轻微的悬挂损坏,你那里有一些轻微的悬挂损坏,you've got some minor suspension damage there
+\voice\damage_reporting\minor_transmission_damage,1.wav,轻点用变速箱,轻点用变速箱,go easy on the transmission
+\voice\damage_reporting\minor_transmission_damage,2.wav,注意降档，轻一点操作变速箱,注意降档，轻一点操作变速箱,"watch those downshifts, go easy on the transmission"
+\voice\damage_reporting\minor_transmission_damage,3.wav,小心换挡，否则变速箱撑不到完赛,小心换挡，否则变速箱撑不到完赛,careful with those gearshifts or the transmission ain't gonna last the race
+\voice\damage_reporting\missing_wheel,1.wav,你少了一个轮子，伙计，让我们看看你是否能把它带回维修区,你少了一个轮子，伙计，让我们看看你是否能把它带回维修区,"you're missing a wheel, mate, let's see if you can get it back to the pits"
+\voice\damage_reporting\missing_wheel,2.wav,你少了一个轮子，你可能能够勉强开回去，但我不知道我们是否能解决这个问题,你少了一个轮子，你可能能够勉强开回去，但我不知道我们是否能解决这个问题,"you're missing a wheel, you might be able to limp back, but I don't know if we can sort it"
+\voice\damage_reporting\missing_wheel,3.wav,你丢了一个轮子，情况不妙，伙计,你丢了一个轮子，情况不妙，伙计,"you've lost a wheel, it's not looking good, mate"
+\voice\damage_reporting\no_aero_damage,1.wav,你的车身看起来很好,你的车身看起来很好,your bodywork looks good
+\voice\damage_reporting\no_aero_damage,2.wav,你的车身没有损坏,你的车身没有损坏,your bodywork's fine
+\voice\damage_reporting\no_aero_damage,3.wav,你的车身没有损坏,你的车身没有损坏,your bodywork's okay
+\voice\damage_reporting\no_brake_damage,1.wav,从这里看，你的刹车状况良好,从这里看，你的刹车状况良好,your brakes look good from here
+\voice\damage_reporting\no_brake_damage,2.wav,你的刹车绝对没问题，伙计,你的刹车绝对没问题，伙计,"your brakes are absolutely fine, mate"
+\voice\damage_reporting\no_brake_damage,3.wav,你的刹车很好,你的刹车很好,your brakes are good
+\voice\damage_reporting\no_damage,1.wav,车辆看起来完好，没有明显损伤,车辆看起来完好，没有明显损伤,"car looks fine, no significant damage"
+\voice\damage_reporting\no_damage,2.wav,没有重大损坏,没有重大损坏,there's no significant damage
+\voice\damage_reporting\no_damage,3.wav,车辆状况良好，无损伤,车辆状况良好，无损伤,"the car's looking good, no damage"
+\voice\damage_reporting\no_engine_damage,1.wav,发动机看起来没问题,发动机看起来没问题,engine looks fine
+\voice\damage_reporting\no_engine_damage,2.wav,发动机看起来不错，伙计,发动机看起来不错，伙计,"engine looks good, mate"
+\voice\damage_reporting\no_engine_damage,3.wav,发动机看起来正常,发动机看起来正常,engine looks okay
+\voice\damage_reporting\no_suspension_damage,1.wav,你的悬挂看起来没问题，伙计,你的悬挂看起来没问题，伙计,"your suspension looks fine, mate"
+\voice\damage_reporting\no_suspension_damage,2.wav,你的悬挂没有问题,你的悬挂没有问题,your suspension's fine
+\voice\damage_reporting\no_suspension_damage,3.wav,没有看到悬挂损坏,没有看到悬挂损坏,we're not seeing any suspension damage
+\voice\damage_reporting\no_transmission_damage,1.wav,变速箱看起来没问题,变速箱看起来没问题,the transmission looks fine
+\voice\damage_reporting\no_transmission_damage,2.wav,变速箱看起来没问题，伙计,变速箱看起来没问题，伙计,"the transmission looks fine, mate"
+\voice\damage_reporting\no_transmission_damage,3.wav,变速箱正常,变速箱正常,the transmission's okay
+\voice\damage_reporting\right_front_puncture,1.wav,右侧前胎扎胎,右侧前胎扎胎,right front puncture
+\voice\damage_reporting\right_front_puncture,2.wav,你的右前胎扎了,你的右前胎扎了,your right front's punctured
+\voice\damage_reporting\right_front_puncture,3.wav,右侧前胎扎胎,右侧前胎扎胎,right front puncture
+\voice\damage_reporting\right_rear_puncture,1.wav,右侧后胎扎胎,右侧后胎扎胎,right rear puncture
+\voice\damage_reporting\right_rear_puncture,2.wav,你右后扎胎,你右后扎胎,you got a right rear puncture
+\voice\damage_reporting\right_rear_puncture,3.wav,你的右后胎扎了,你的右后胎扎了,your right rear's punctured
+\voice\damage_reporting\rolling,1.wav,看起来很严重,看起来很严重,that looks painful
+\voice\damage_reporting\rolling,2.wav,兄弟真倒霉，看起来很疼,兄弟真倒霉，看起来很疼,"unlucky mate, that looks painful"
+\voice\damage_reporting\rolling,3.wav,换个方向更快,换个方向更快,it's quicker the other way up
+\voice\damage_reporting\rolling,4.wav,不，你现在翻车了,不，你现在翻车了,"no, now you've gone upside-down there"
+\voice\damage_reporting\rolling,5.wav,这不对，应该是另一个方向，我确定,这不对，应该是另一个方向，我确定,"that's not right, it should be the other way up, I'm sure"
+\voice\damage_reporting\rolling,6.wav,试试另一种方式,试试另一种方式,try the other way up
+\voice\damage_reporting\rolling,7.wav,它在轮子上跑得更快，伙计,它在轮子上跑得更快，伙计,"it goes quicker when it's on its wheels, mate"
+\voice\damage_reporting\rolling,sweary_8.wav,哎呀，看起来很疼，你的头怎么样,哎呀，看起来很疼，你的头怎么样,"shit, that looked painful, how's your head"
+\voice\damage_reporting\severe_aero_damage,1.wav,车身状况很差，可能需要修复,车身状况很差，可能需要修复,"the bodywork's in pretty bad shape, we might need to fix that"
+\voice\damage_reporting\severe_aero_damage,2.wav,你的空气动力套件损坏得很严重，你可能需要进来修理一下,你的空气动力套件损坏得很严重，你可能需要进来修理一下,"you've had quite a lot of aero damage, you might need to come and get it fixed"
+\voice\damage_reporting\severe_aero_damage,sweary_3.wav,你那边的空气动力套件损坏得很严重，车身看起来糟透了，伙计,你那边的空气动力套件损坏得很严重，车身看起来糟透了，伙计,"you've had a lot of aero damage there, mate, the bodywork looks pretty fucked"
+\voice\damage_reporting\severe_brake_damage,1.wav,我们得修理这些刹车，进站,我们得修理这些刹车，进站,"we're gonna have to fix these brakes, come in"
+\voice\damage_reporting\severe_brake_damage,2.wav,你的刹车看起来真的很糟糕，进站,你的刹车看起来真的很糟糕，进站,"your brakes are looking really bad, come in"
+\voice\damage_reporting\severe_brake_damage,3.wav,立即进站，我们需要修理这些刹车,立即进站，我们需要修理这些刹车,"pit now, we need to fix these brakes"
+\voice\damage_reporting\severe_engine_damage,1.wav,引擎快不行了，伙计，尽量给它点喘息的空间,引擎快不行了，伙计，尽量给它点喘息的空间,"the engine's on its last legs, mate, try and give it some breathing space"
+\voice\damage_reporting\severe_engine_damage,2.wav,发动机声音糟糕透了，尽你所能做吧，伙计,发动机声音糟糕透了，尽你所能做吧，伙计,"the engine sounded absolutely terrible, just do what you can, mate"
+\voice\damage_reporting\severe_engine_damage,3.wav,那台引擎状况很差，慢慢开，看看能不能坚持到终点,那台引擎状况很差，慢慢开，看看能不能坚持到终点,"that engine's in a bad way, just take it easy, let's see if we can get it to the finish"
+\voice\damage_reporting\severe_suspension_damage,1.wav,你那里悬挂严重受损,你那里悬挂严重受损,you got some serious suspension damage there
+\voice\damage_reporting\severe_suspension_damage,2.wav,你的悬挂看起来很糟糕，伙计,你的悬挂看起来很糟糕，伙计,"your suspension's looking pretty bad, mate"
+\voice\damage_reporting\severe_suspension_damage,3.wav,你的悬挂需要调整，你需要进站,你的悬挂需要调整，你需要进站,"your suspension's gonna need sorting, you'll need to come in"
+\voice\damage_reporting\severe_transmission_damage,1.wav,你的变速箱状况很差，伙计，你可能撑不到终点,你的变速箱状况很差，伙计，你可能撑不到终点,"your transmission's in a bad way, mate, you might not make it to the end"
+\voice\damage_reporting\severe_transmission_damage,2.wav,你把这个变速箱搞得很糟，伙计,你把这个变速箱搞得很糟，伙计,"you made a right mess of this transmission, mate"
+\voice\damage_reporting\severe_transmission_damage,3.wav,你的变速箱看起来严重损坏了，我认为你没法用那个坚持到比赛结束,你的变速箱看起来严重损坏了，我认为你没法用那个坚持到比赛结束,"your transmission looks fucked, I don't think you'll get to the end with that"
+\voice\damage_reporting\stopped_upside_down,1.wav,你还好吗，老兄？,你还好吗，老兄？,"are you okay, mate?"
+\voice\damage_reporting\stopped_upside_down,2.wav,你还好吗？,你还好吗？,are you okay?
+\voice\damage_reporting\stopped_upside_down,3.wav,你还好吗？,你还好吗？,are you all right?
+\voice\damage_reporting\stopped_upside_down,4.wav,你还好吗？,你还好吗？,are you okay?
+\voice\damage_reporting\stopped_upside_down,5.wav,你在那边好吗？,你在那边好吗？,are you okay there?
+\voice\damage_reporting\stopped_upside_down,6.wav,你还好吗？,你还好吗？,are you all right?
+\voice\damage_reporting\stopped_upside_down,7.wav,看起来很严重，你还好吗？,看起来很严重，你还好吗？,"that looked bad, are you okay?"
+\voice\damage_reporting\stopped_upside_down,8.wav,那看起来挺严重的，你还好吗？,那看起来挺严重的，你还好吗？,"that looked like a big one, are you all right?"
+\voice\damage_reporting\stopped_upside_down,9.wav,看起来挺严重的，你还好吗？,看起来挺严重的，你还好吗？,"that looked pretty bad, are you okay?"
+\voice\damage_reporting\trivial_aero_damage,1.wav,这只是个小划痕，忽略它,这只是个小划痕，忽略它,"it's just a scratch, ignore it"
+\voice\damage_reporting\trivial_aero_damage,10.wav,忽略那点空气动力套件的损坏，没什么,忽略那点空气动力套件的损坏，没什么,"ignore that aero damage, it's nothing"
+\voice\damage_reporting\trivial_aero_damage,11.wav,轻微的空气动力套件损坏，忽略它,轻微的空气动力套件损坏，忽略它,"tiny bit of aero damage, just ignore it"
+\voice\damage_reporting\trivial_aero_damage,12.wav,你那里有一点点车身损坏，忽略它,你那里有一点点车身损坏，忽略它,"you got a tiny bit of bodywork damage there, just ignore it"
+\voice\damage_reporting\trivial_aero_damage,2.wav,这会磨平的，伙计，别担心,这会磨平的，伙计，别担心,"it'll polish out, mate, forget about it"
+\voice\damage_reporting\trivial_aero_damage,3.wav,没问题，只是刮了一下,没问题，只是刮了一下,"it's fine mate, it's just a scrape"
+\voice\damage_reporting\trivial_aero_damage,4.wav,这根本不算划痕，伙计，就别管它了,这根本不算划痕，伙计，就别管它了,"that's barely a scratch, mate, just ignore it"
+\voice\damage_reporting\trivial_aero_damage,5.wav,那只是个小划痕，忽略它,那只是个小划痕，忽略它,"that's barely a scratch, just ignore it"
+\voice\damage_reporting\trivial_aero_damage,6.wav,忘了那事吧，可能只是会把磨损磨平,忘了那事吧，可能只是会把磨损磨平,"forget about that, it'll probably just polish out"
+\voice\damage_reporting\trivial_aero_damage,7.wav,轻微的空气动力套件损坏，忽略它,轻微的空气动力套件损坏，忽略它,"tiny bit of aero damage, just ignore it"
+\voice\damage_reporting\trivial_aero_damage,8.wav,轻微的空气动力套件损坏，你可能根本感觉不到,轻微的空气动力套件损坏，你可能根本感觉不到,"tiny bit of aero damage there, you probably won't even feel it"
+\voice\damage_reporting\trivial_aero_damage,9.wav,你有一点车身损坏，但不会感觉到,你有一点车身损坏，但不会感觉到,"you've taken a tiny bit of bodywork damage, but you won't feel it"
+\voice\damage_reporting\trivial_aero_damage_general,10.wav,忽略那点空气动力套件的损坏，没什么,忽略那点空气动力套件的损坏，没什么,"ignore that aero damage, it's nothing"
+\voice\damage_reporting\trivial_aero_damage_general,11.wav,轻微的空气动力套件损坏，忽略它,轻微的空气动力套件损坏，忽略它,"tiny bit of aero damage, just ignore it"
+\voice\damage_reporting\trivial_aero_damage_general,12.wav,你那里有一点点车身损坏，忽略它,你那里有一点点车身损坏，忽略它,"you got a tiny bit of bodywork damage there, just ignore it"
+\voice\damage_reporting\trivial_aero_damage_general,7.wav,轻微的空气动力套件损坏，忽略它,轻微的空气动力套件损坏，忽略它,"tiny bit of aero damage, just ignore it"
+\voice\damage_reporting\trivial_aero_damage_general,8.wav,轻微的空气动力套件损坏，你可能根本感觉不到,轻微的空气动力套件损坏，你可能根本感觉不到,"tiny bit of aero damage there, you probably won't even feel it"
+\voice\damage_reporting\trivial_aero_damage_general,9.wav,你有一点车身损坏，但不会感觉到,你有一点车身损坏，但不会感觉到,"you've taken a tiny bit of bodywork damage, but you won't feel it"
+\voice\opponents\ahead_is_pitting,1.wav,前方赛车进站,前方赛车进站,ahead is pitting
+\voice\opponents\ahead_is_pitting,2.wav,前方赛车进站,前方赛车进站,ahead is pitting
+\voice\opponents\ahead_is_pitting,3.wav,前方赛车进站,前方赛车进站,in front is pitting
+\voice\opponents\behind_is_pitting,1.wav,后面的人在进站,后面的人在进站,behind is pitting
+\voice\opponents\behind_is_pitting,2.wav,后面的人在进站,后面的人在进站,behind is pitting
+\voice\opponents\behind_is_pitting,3.wav,后面的人要进站,后面的人要进站,behind is pitting no
+\voice\opponents\cant_pronounce_name,1.wav,我不知道,我不知道,I don't know
+\voice\opponents\cant_pronounce_name,2.wav,我读不出这个名字，伙计,我读不出这个名字，伙计,"I can't pronounce the name, mate"
+\voice\opponents\cant_pronounce_name,3.wav,我真的不知道,我真的不知道,I really don't know
+\voice\opponents\cant_pronounce_name,4.wav,我读不出那个名字,我读不出那个名字,I can't pronounce that
+\voice\opponents\cant_pronounce_name,5.wav,我不知道他的名字,我不知道他的名字,I don't know his name
+\voice\opponents\car_exiting_pits_be_careful,1.wav,有车从维修区出来，小心,有车从维修区出来，小心,"there's a car exiting the pits, be careful"
+\voice\opponents\car_exiting_pits_be_careful,2.wav,有车从维修区出来，小心,有车从维修区出来，小心,"there's a car exiting the pits, take care"
+\voice\opponents\car_exiting_pits_be_careful,3.wav,有车从维修区出来，小心,有车从维修区出来，小心,"there's a car leaving the pits, be careful"
+\voice\opponents\car_number,1.wav,车号,车号,car number
+\voice\opponents\car_number,2.wav,车号,车号,car number
+\voice\opponents\car_number,3.wav,车号,车号,car number
+\voice\opponents\car_number,4.wav,车号,车号,car number
+\voice\opponents\has_just_been_disqualified,1.wav,已被取消资格,已被取消资格,has been disqualified
+\voice\opponents\has_just_been_disqualified,2.wav,刚刚被取消资格,刚刚被取消资格,has just been disqualified
+\voice\opponents\has_just_been_disqualified,3.wav,已被取消资格,已被取消资格,has been disqualified
+\voice\opponents\has_just_been_disqualified,4.wav,刚刚被取消资格,刚刚被取消资格,has just been disqualified
+\voice\opponents\has_just_retired,1.wav,刚刚退赛,刚刚退赛,has just retired
+\voice\opponents\has_just_retired,2.wav,现已退赛,现已退赛,has now retired
+\voice\opponents\has_just_retired,3.wav,刚刚从比赛中退赛,刚刚从比赛中退赛,has just retired from the race
+\voice\opponents\has_just_retired,4.wav,已从比赛中退赛,已从比赛中退赛,has retired from the race
+\voice\opponents\has_just_retired,5.wav,已退赛,已退赛,has retired
+\voice\opponents\is_now_leading,1.wav,现在领先,现在领先,is now leading
+\voice\opponents\is_now_leading,2.wav,现在领先,现在领先,is now in the lead
+\voice\opponents\is_now_leading,3.wav,正在领跑比赛,正在领跑比赛,is leading the race
+\voice\opponents\is_now_on,10.wav,现在处于,现在处于,is now on
+\voice\opponents\is_now_on,11.wav,现在处于,现在处于,is now on
+\voice\opponents\is_now_on,12.wav,现在处于,现在处于,is now on
+\voice\opponents\is_pitting,1.wav,正在进站,正在进站,is pitting
+\voice\opponents\is_pitting,2.wav,正在进站,正在进站,is pitting
+\voice\opponents\is_pitting,3.wav,正在进站,正在进站,is pitting
+\voice\opponents\new_fastest_lap_for,1.wav,这是全场最快单圈,这是全场最快单圈,that's a new fastest lap for
+\voice\opponents\new_fastest_lap_for,2.wav,全场最快,全场最快,new fastest lap for
+\voice\opponents\new_fastest_lap_for,3.wav,全场最快,全场最快,fastest lap for
+\voice\opponents\next_car_is,10_male.wav,前方的车手是,前方的车手是,the guy in front is
+\voice\opponents\next_car_is,11.wav,前方的赛车是,前方的赛车是,the car in front is
+\voice\opponents\next_car_is,12.wav,我们前面的车现在是,我们前面的车现在是,the car in front of us is now
+\voice\opponents\next_car_is,13.wav,前方的赛车是,前方的赛车是,the car in front is
+\voice\opponents\next_car_is,14_male.wav,前方的车手是,前方的车手是,the guy in front is
+\voice\opponents\next_car_is,15.wav,前方车辆是,前方车辆是,the car ahead is
+\voice\opponents\next_car_is,16_male.wav,前方车手是,前方车手是,the guy ahead is
+\voice\opponents\next_car_is,17.wav,我们前面的车是,我们前面的车是,the car in front of us is
+\voice\opponents\next_car_is,1_male.wav,前方的车手是,前方的车手是,the guy in front is
+\voice\opponents\next_car_is,2_op_prefix_ok.wav,下一辆车是,下一辆车是,the next car is
+\voice\opponents\next_car_is,3_op_prefix_ok.wav,下一辆车是,下一辆车是,the next car is
+\voice\opponents\next_car_is,4_op_prefix_ok.wav,下一辆车是,下一辆车是,the next car is
+\voice\opponents\next_car_is,5.wav,前方车辆是,前方车辆是,the car ahead is
+\voice\opponents\next_car_is,6_male.wav,好的，我们前面的车是,好的，我们前面的车是,"right, the guy ahead of us is"
+\voice\opponents\next_car_is,7_male.wav,前方的车手是,前方的车手是,the guy in front is
+\voice\opponents\next_car_is,8.wav,我们前面的车手是,我们前面的车手是,the driver in front of us is
+\voice\opponents\next_car_is,9.wav,我们前面的车是,我们前面的车是,the car in front of us is
+\voice\opponents\one_lap_ahead,1.wav,领先一圈,领先一圈,one lap ahead
+\voice\opponents\one_lap_ahead,2.wav,领先一圈,领先一圈,one lap ahead
+\voice\opponents\one_lap_ahead,3.wav,领先一圈,领先一圈,one lap in front
+\voice\opponents\one_lap_behind,4.wav,落后一圈,落后一圈,one lap behind
+\voice\opponents\one_lap_behind,5.wav,落后一圈,落后一圈,a lap behind
+\voice\opponents\one_lap_behind,6.wav,落后一圈,落后一圈,one lap behind
+\voice\opponents\rating_intro,1.wav,他们的评级是,他们的评级是,and their rating is
+\voice\opponents\rating_intro,2.wav,他们的评级是,他们的评级是,and their rating is
+\voice\opponents\rating_intro,3.wav,他们的评级是,他们的评级是,and their rating is
+\voice\opponents\rating_intro,4.wav,他们的评级是,他们的评级是,and their rating is
+\voice\opponents\reputation_intro,1.wav,他们的声誉是,他们的声誉是,their reputation is
+\voice\opponents\reputation_intro,2.wav,他们的声誉是,他们的声誉是,their reputation is
+\voice\opponents\reputation_intro,3.wav,他们的声誉是,他们的声誉是,their reputation is
+\voice\opponents\reputation_intro,4.wav,他们的声誉是,他们的声誉是,their reputation is
+\voice\opponents\slow_car_ahead,1.wav,前方有慢车,前方有慢车,you got a slow car ahead
+\voice\opponents\slow_car_ahead,2.wav,前方有慢车,前方有慢车,there's a slow car ahead
+\voice\opponents\slow_car_ahead,3.wav,前方有慢车,前方有慢车,you got a slow car ahead
+\voice\opponents\the_car_ahead_has_just_done_a,1.wav,前方车辆刚刚完成了,前方车辆刚刚完成了,the car ahead has just done a
+\voice\opponents\the_car_ahead_has_just_done_a,10.wav,前方赛车刚刚完成了,前方赛车刚刚完成了,the car in front has just done a
+\voice\opponents\the_car_ahead_has_just_done_a,11.wav,前方车辆刚刚完成了,前方车辆刚刚完成了,the car ahead has just done a
+\voice\opponents\the_car_ahead_has_just_done_a,12_male.wav,前方的家伙刚刚做了个,前方的家伙刚刚做了个,the guy in front has just done a
+\voice\opponents\the_car_ahead_has_just_done_a,2_male.wav,前方车手刚刚完成了一个,前方车手刚刚完成了一个,the guy ahead has just done a
+\voice\opponents\the_car_ahead_has_just_done_a,3_male.wav,前方车手刚刚完成了一个,前方车手刚刚完成了一个,the guy ahead has just done a
+\voice\opponents\the_car_ahead_has_just_done_a,4.wav,前方车辆刚刚记录了,前方车辆刚刚记录了,the car in front has just posted a
+\voice\opponents\the_car_ahead_has_just_done_a,5_male.wav,前方车手刚刚记录了,前方车手刚刚记录了,the guy ahead has just posted a
+\voice\opponents\the_car_ahead_has_just_done_a,6_male.wav,前方车手的圈速是,前方车手的圈速是,the guy ahead's lap time is a
+\voice\opponents\the_car_ahead_has_just_done_a,7_male.wav,前方车手的最后一圈时间是,前方车手的最后一圈时间是,the guy ahead's last lap time is a
+\voice\opponents\the_car_ahead_has_just_done_a,8.wav,前方赛车的圈速是,前方赛车的圈速是,the car in front's lap time is a
+\voice\opponents\the_car_ahead_has_just_done_a,9_male.wav,前方的家伙刚刚做了个,前方的家伙刚刚做了个,the guy in front has just done a
+\voice\opponents\the_car_ahead_is_now_on,4.wav,前方车辆现在是,前方车辆现在是,the car ahead is now on
+\voice\opponents\the_car_ahead_is_now_on,5.wav,前方车辆处于,前方车辆处于,the car ahead is on
+\voice\opponents\the_car_ahead_is_now_on,6.wav,前方赛车现在是,前方赛车现在是,the car ahead's now on
+\voice\opponents\the_car_ahead_is_pitting,1.wav,前方车辆进站,前方车辆进站,the car ahead's pitting
+\voice\opponents\the_car_ahead_is_pitting,2.wav,前方车辆进站,前方车辆进站,the car in front is pitting
+\voice\opponents\the_car_ahead_is_pitting,3.wav,前方车辆现在进站,前方车辆现在进站,the car ahead's pitting now
+\voice\opponents\the_car_behind_has_just_done_a,1.wav,后面的家伙刚刚做了个,后面的家伙刚刚做了个,the guy behind has just done a
+\voice\opponents\the_car_behind_has_just_done_a,2.wav,后面的家伙刚刚做了个,后面的家伙刚刚做了个,the guy behind has just done a
+\voice\opponents\the_car_behind_has_just_done_a,3.wav,后面的家伙刚刚做了个,后面的家伙刚刚做了个,the guy behind has just done a
+\voice\opponents\the_car_behind_is_now_on,7.wav,后面的车现在是,后面的车现在是,the car behind is now on
+\voice\opponents\the_car_behind_is_now_on,8.wav,后面的车现在是,后面的车现在是,the car behind is now on
+\voice\opponents\the_car_behind_is_now_on,9.wav,后面的车在,后面的车在,the car behind is on
+\voice\opponents\the_car_behind_is_pitting,1.wav,后面的车正在进站,后面的车正在进站,the car behind is pitting
+\voice\opponents\the_car_behind_is_pitting,2.wav,后面的车现在进站,后面的车现在进站,the car behind's pitting now
+\voice\opponents\the_car_behind_is_pitting,3.wav,后面的车在进站,后面的车在进站,the car behind's pitting
+\voice\opponents\the_leader,1.wav,领跑者,领跑者,the leader
+\voice\opponents\the_leader,2.wav,领跑者,领跑者,the leader
+\voice\opponents\the_leader,3.wav,领跑者,领跑者,the leader
+\voice\opponents\the_leader_has_just_done_a,1.wav,领跑者刚刚完成了一个,领跑者刚刚完成了一个,the leader has just done a
+\voice\opponents\the_leader_has_just_done_a,2.wav,领跑者刚刚完成了一个,领跑者刚刚完成了一个,the leader has just done a
+\voice\opponents\the_leader_has_just_done_a,3.wav,领跑者刚刚完成了一个,领跑者刚刚完成了一个,the leader has just done a
+\voice\opponents\the_leader_is_now_on,1.wav,领跑者现在是,领跑者现在是,the leader is now on
+\voice\opponents\the_leader_is_now_on,2.wav,领跑者现在是,领跑者现在是,the leader is now on
+\voice\opponents\the_leader_is_now_on,3.wav,领跑者现在是,领跑者现在是,the leader is now on
+\voice\opponents\the_leader_is_pitting,1.wav,领跑者现在进站,领跑者现在进站,the leader's pitting now
+\voice\opponents\the_leader_is_pitting,2.wav,领跑者现在进站,领跑者现在进站,the leader is pitting now
+\voice\opponents\the_leader_is_pitting,3.wav,领先赛车进站,领先赛车进站,lead car's pitting
+\voice\opponents\we_are,1.wav,我们是,我们是,we are
+\voice\opponents\we_are,2.wav,我们是,我们是,we are
+\voice\opponents\we_are,3.wav,那是我们,那是我们,that's us
+\voice\penalties\blue_move_now_or_be_penalized,1.wav,让车旗，靠边或我们将执行处罚,让车旗，靠边或我们将执行处罚,"blue flag, move over or we will be penalized"
+\voice\penalties\blue_move_now_or_be_penalized,2.wav,让这位选手超车，否则我们会受到处罚,让这位选手超车，否则我们会受到处罚,"let this guy through, or we're gonna get penalized"
+\voice\penalties\blue_move_now_or_be_penalized,3.wav,蓝旗，让他超车，否则我们将被处罚,蓝旗，让他超车，否则我们将被处罚,"blue flag, let him go or we'll be penalized"
+\voice\penalties\blue_move_now_or_be_penalized,4.wav,蓝旗，让他过去，否则我们会受到处罚,蓝旗，让他过去，否则我们会受到处罚,"blue flag, let him go or we'll get a penalty"
+\voice\penalties\blue_move_now_or_be_penalized,5.wav,让车旗，现在移动否则将被处罚,让车旗，现在移动否则将被处罚,"blue flag, move now or we'll be penalized"
+\voice\penalties\blue_move_now_or_be_penalized,6.wav,蓝旗，你得让这辆车超车，否则他们会给我们处罚,蓝旗，你得让这辆车超车，否则他们会给我们处罚,"blue flag, you've got to let this guy through or they'll give us a penalty"
+\voice\penalties\blue_move_now_or_be_penalized,7.wav,让这位车手超车，否则我们将受到处罚，蓝旗,让这位车手超车，否则我们将受到处罚，蓝旗,"let this guy through or we'll be penalized, blue flag"
+\voice\penalties\blue_move_now_or_be_penalized,8.wav,蓝旗，让他过去，否则我们会受到处罚,蓝旗，让他过去，否则我们会受到处罚,"blue flag, let him go or we'll get a penalty"
+\voice\penalties\car_to_car_collision,1.wav,请小心,请小心,take care please
+\voice\penalties\car_to_car_collision,2.wav,小心,小心,be careful
+\voice\penalties\car_to_car_collision,3.wav,小心,小心,be careful
+\voice\penalties\car_to_car_collision,4.wav,小心点,小心点,"come on, be careful"
+\voice\penalties\car_to_car_collision,5.wav,小心,小心,be careful
+\voice\penalties\car_to_car_collision,6.wav,快点，清醒一点,快点，清醒一点,"come on, wake up"
+\voice\penalties\car_to_car_collision,7.wav,快点，清醒一点,快点，清醒一点,"come on, wake up"
+\voice\penalties\car_to_car_collision,8.wav,请小心,请小心,be careful please
+\voice\penalties\cut_track_in_prac_or_qual,1.wav,注意赛道界限,注意赛道界限,watch those track limits
+\voice\penalties\cut_track_in_prac_or_qual,10.wav,赛道界限，本圈将被删除,赛道界限，本圈将被删除,"track limits, this lap will be deleted"
+\voice\penalties\cut_track_in_prac_or_qual,11.wav,注意赛道界限，他们会删除这一圈,注意赛道界限，他们会删除这一圈,"watch those track limits, they'll delete this lap"
+\voice\penalties\cut_track_in_prac_or_qual,12.wav,这一圈不算，你切了赛道,这一圈不算，你切了赛道,"this lap won't count, you've cut the track"
+\voice\penalties\cut_track_in_prac_or_qual,13.wav,干事已经警告我们切赛道，他们会删除这一圈,干事已经警告我们切赛道，他们会删除这一圈,"the stewards have warned us for cutting the track, they'll delete this lap"
+\voice\penalties\cut_track_in_prac_or_qual,14.wav,此圈将被删除，注意赛道界限,此圈将被删除，注意赛道界限,"this lap will be deleted, watch the track limits"
+\voice\penalties\cut_track_in_prac_or_qual,15_op_prefix_oh_dear.wav,快点，保持在赛道内行驶，他们会删除这一圈,快点，保持在赛道内行驶，他们会删除这一圈,"come on, keep it between the lines, they'll delete this lap"
+\voice\penalties\cut_track_in_prac_or_qual,16.wav,快点，保持在白色线内，这一圈不算,快点，保持在白色线内，这一圈不算,"come on, keep it between the white lines, this lap won't count"
+\voice\penalties\cut_track_in_prac_or_qual,17.wav,这一圈不算，注意赛道界限,这一圈不算，注意赛道界限,"this lap won't count, watch those track limits"
+\voice\penalties\cut_track_in_prac_or_qual,18.wav,此圈将被删除，注意赛道界限,此圈将被删除，注意赛道界限,"this lap will be deleted, watch the track limits"
+\voice\penalties\cut_track_in_prac_or_qual,19_op_prefix_oh_dear.wav,听着，注意赛道界限，这一圈不算,听着，注意赛道界限，这一圈不算,"come on, man, watch them track limits, this lap won't count"
+\voice\penalties\cut_track_in_prac_or_qual,2.wav,保持在白色线内,保持在白色线内,keep it between the white lines
+\voice\penalties\cut_track_in_prac_or_qual,20.wav,赛道界限，本圈将被删除,赛道界限，本圈将被删除,"track limits, this lap will be deleted"
+\voice\penalties\cut_track_in_prac_or_qual,21.wav,他们将删除这一圈，你切了赛道,他们将删除这一圈，你切了赛道,"they'll delete this lap, you've cut the track"
+\voice\penalties\cut_track_in_prac_or_qual,22.wav,赛道界限，该圈无效,赛道界限，该圈无效,"track limits, the lap won't count"
+\voice\penalties\cut_track_in_prac_or_qual,23.wav,快点，注意赛道界限，这一圈会被删除,快点，注意赛道界限，这一圈会被删除,"come on, watch those track limits, this lap will be deleted"
+\voice\penalties\cut_track_in_prac_or_qual,24.wav,此圈无效，注意赛道界限,此圈无效，注意赛道界限,"this lap will be invalidated, watch the track limits"
+\voice\penalties\cut_track_in_prac_or_qual,3.wav,你刚才超出了赛道界限,你刚才超出了赛道界限,you've gone outside of track limits there
+\voice\penalties\cut_track_in_prac_or_qual,4.wav,注意赛道界限,注意赛道界限,watch those track limits
+\voice\penalties\cut_track_in_prac_or_qual,5.wav,赛道界限，加油，保持在白色线内,赛道界限，加油，保持在白色线内,"track limits, come on, keep it between the white lines"
+\voice\penalties\cut_track_in_prac_or_qual,6.wav,赛道界限，他们将宣布这一圈无效,赛道界限，他们将宣布这一圈无效,"track limits, they'll invalidate this lap"
+\voice\penalties\cut_track_in_prac_or_qual,7.wav,赛道界限，加油，这一圈不算,赛道界限，加油，这一圈不算,"track limits, come on, this lap won't count"
+\voice\penalties\cut_track_in_prac_or_qual,8.wav,此圈无效，超出赛道界限,此圈无效，超出赛道界限,"this lap won't count, track limits"
+\voice\penalties\cut_track_in_prac_or_qual,9_op_prefix_oh_dear.wav,赛道界限，加油，这一圈将被删除,赛道界限，加油，这一圈将被删除,"track limits, come on, this lap will be deleted"
+\voice\penalties\cut_track_in_prac_or_qual_next_invalid,1_op__prefix_oh_dear.wav,赛道界限，集中精神，他们会把下一圈也删除的,赛道界限，集中精神，他们会把下一圈也删除的,"track limits, come on, concentrate, they're gonna delete the next lap, too"
+\voice\penalties\cut_track_in_prac_or_qual_next_invalid,2.wav,赛道界限，他们将删除这一圈和下一圈,赛道界限，他们将删除这一圈和下一圈,"track limits, they'll delete this lap and the next one"
+\voice\penalties\cut_track_in_prac_or_qual_next_invalid,3.wav,你切了赛道，他们会删除这一圈，并且下一圈也会被删除,你切了赛道，他们会删除这一圈，并且下一圈也会被删除,"you've cut the track, they're gonna delete the lap and they'll delete the next one, too"
+\voice\penalties\cut_track_in_prac_or_qual_next_invalid,4_op_prefix_bad_luck.wav,你超出了赛道界限，他们将删除这一圈和下一圈,你超出了赛道界限，他们将删除这一圈和下一圈,"you've gone out of track limits, they'll delete this lap and the one after it"
+\voice\penalties\cut_track_in_prac_or_qual_next_invalid,5.wav,赛道界限，快点，他们会删除这一圈的，下一圈也会被删除,赛道界限，快点，他们会删除这一圈的，下一圈也会被删除,"track limits, come on, they're gonna delete this lap and they'll delete the next one, too"
+\voice\penalties\cut_track_in_prac_or_qual_next_invalid,6.wav,来吧，集中精神，保持在白线内行驶，你已经失去了这一圈和下一圈,来吧，集中精神，保持在白线内行驶，你已经失去了这一圈和下一圈,"come on, concentrate, keep it between the white lines, you've lost this lap and the next one"
+\voice\penalties\cut_track_in_prac_or_qual_next_invalid,7.wav,赛道界限，他们将会删除这一圈以及下一圈,赛道界限，他们将会删除这一圈以及下一圈,"track limits, they'll delete the next lap as well as this one"
+\voice\penalties\cut_track_in_prac_or_qual_next_invalid,8.wav,保持在白色线内行驶，他们会删除这一圈的成绩，并且下一圈也会被删除,保持在白色线内行驶，他们会删除这一圈的成绩，并且下一圈也会被删除,"keep it between the white lines, they'll delete the lap and they'll delete the next one, too"
+\voice\penalties\cut_track_in_race,1.wav,干事已经警告我们切赛道，保持在白色线内,干事已经警告我们切赛道，保持在白色线内,"the stewards have warned us for cutting the track, keep it between the white lines"
+\voice\penalties\cut_track_in_race,10.wav,注意赛道界限，否则我们会受到处罚,注意赛道界限，否则我们会受到处罚,watch those track limits or we'll get a penalty
+\voice\penalties\cut_track_in_race,11.wav,干事已经警告我们注意赛道界限，保持在白线内,干事已经警告我们注意赛道界限，保持在白线内,"the stewards have warned us about track limits, keep it between the lines"
+\voice\penalties\cut_track_in_race,12_op_prefix_oh_dear.wav,注意赛道界限,注意赛道界限,"come on, track limits"
+\voice\penalties\cut_track_in_race,13_op_prefix_oh_dear.wav,赛道界限，加油,赛道界限，加油,"track limits, come on"
+\voice\penalties\cut_track_in_race,14.wav,保持在赛道内，遵守赛道界限,保持在赛道内，遵守赛道界限,"keep it between the lines, track limits"
+\voice\penalties\cut_track_in_race,15.wav,注意赛道界限，不要想被罚,注意赛道界限，不要想被罚,"watch those track limits, we don't want a penalty"
+\voice\penalties\cut_track_in_race,16.wav,我们收到了关于赛道界限的警告,我们收到了关于赛道界限的警告,we've been warned about track limits
+\voice\penalties\cut_track_in_race,17.wav,你超出了赛道界限，来吧，保持在赛道内,你超出了赛道界限，来吧，保持在赛道内,"you've gone outside track limits, come on, keep it between the lines"
+\voice\penalties\cut_track_in_race,18.wav,注意赛道界限,注意赛道界限,watch the track limits
+\voice\penalties\cut_track_in_race,19.wav,我们收到了关于赛道界限的警告,我们收到了关于赛道界限的警告,we've been warned about track limits
+\voice\penalties\cut_track_in_race,2.wav,保持在白色线内，否则会受到处罚,保持在白色线内，否则会受到处罚,keep it between the white lines or we'll get a penalty
+\voice\penalties\cut_track_in_race,20.wav,注意赛道界限，如果我们不遵守就会被罚,注意赛道界限，如果我们不遵守就会被罚,"watch the track limits, we'll get a penalty if we don't"
+\voice\penalties\cut_track_in_race,21.wav,保持在赛道界限内,保持在赛道界限内,keep it within the track limits
+\voice\penalties\cut_track_in_race,22.wav,干事已经警告我们关于赛道界限,干事已经警告我们关于赛道界限,the stewards have warned us about track limits
+\voice\penalties\cut_track_in_race,23.wav,注意赛道界限,注意赛道界限,watch those track limits
+\voice\penalties\cut_track_in_race,3.wav,刚刚因为切赛道收到了警告,刚刚因为切赛道收到了警告,we just had a warning for cutting the track
+\voice\penalties\cut_track_in_race,4.wav,注意赛道界限,注意赛道界限,watch those track limits
+\voice\penalties\cut_track_in_race,5.wav,赛道界限，加油，保持在白色线内,赛道界限，加油，保持在白色线内,"track limits, come on, keep it between the white lines"
+\voice\penalties\cut_track_in_race,6_op_prefix_oh_dear.wav,赛道界限，加油,赛道界限，加油,"track limits, come on"
+\voice\penalties\cut_track_in_race,7.wav,注意赛道界限,注意赛道界限,"come on, track limits"
+\voice\penalties\cut_track_in_race,8.wav,我们收到了关于赛道界限的警告,我们收到了关于赛道界限的警告,we've been warned about track limits
+\voice\penalties\cut_track_in_race,9.wav,保持在赛道内线,保持在赛道内线,"come on, track limits, keep it between the lines"
+\voice\penalties\cut_track_prac_or_qual_1,1.wav,他们将取消这一圈，赛道界限,他们将取消这一圈，赛道界限,"they'll invalidate this lap, track limits"
+\voice\penalties\cut_track_prac_or_qual_1,10.wav,赛道界限，本圈将被删除,赛道界限，本圈将被删除,"track limits, this lap will be deleted"
+\voice\penalties\cut_track_prac_or_qual_1,12.wav,这圈不算，你切了赛道,这圈不算，你切了赛道,"this lap won't count, you cut the track"
+\voice\penalties\cut_track_prac_or_qual_1,1_rq_suffix_please.wav,注意赛道界限,注意赛道界限,mind these track limits
+\voice\penalties\cut_track_prac_or_qual_1,2.wav,赛道界限，本圈将被删除,赛道界限，本圈将被删除,"track limits, this lap will be deleted"
+\voice\penalties\cut_track_prac_or_qual_1,20.wav,赛道界限，本圈将被删除,赛道界限，本圈将被删除,"track limits, this lap will be deleted"
+\voice\penalties\cut_track_prac_or_qual_1,21.wav,他们将删除这一圈，你切了赛道,他们将删除这一圈，你切了赛道,"they'll delete this lap, you've cut the track"
+\voice\penalties\cut_track_prac_or_qual_1,24.wav,此圈无效，注意赛道界限,此圈无效，注意赛道界限,"this lap will be invalidated, watch the track limits"
+\voice\penalties\cut_track_prac_or_qual_1,2_op_prefix_ok.wav,我们需要注意赛道界限,我们需要注意赛道界限,we need to watch the track limits
+\voice\penalties\cut_track_prac_or_qual_1,3.wav,他们将删除这圈，赛道界限,他们将删除这圈，赛道界限,"they'll delete this lap, track limits"
+\voice\penalties\cut_track_prac_or_qual_1,3_op_prefix_ok.wav,我们需要注意这些赛道界限,我们需要注意这些赛道界限,we need to watch these track limits
+\voice\penalties\cut_track_prac_or_qual_1,4.wav,你超出了赛道界限,你超出了赛道界限,you're outside of track limits there
+\voice\penalties\cut_track_prac_or_qual_1,4_rq_suffix_please.wav,注意赛道界限,注意赛道界限,watch the track limits
+\voice\penalties\cut_track_prac_or_qual_1,5.wav,赛道界限，保持在白线内,赛道界限，保持在白线内,"track limits, keep it between the lines"
+\voice\penalties\cut_track_prac_or_qual_1,6.wav,赛道界限,赛道界限,track limits
+\voice\penalties\cut_track_prac_or_qual_1,7.wav,赛道界限，他们将宣布这一圈无效,赛道界限，他们将宣布这一圈无效,"track limits, they'll invalidate this lap"
+\voice\penalties\cut_track_prac_or_qual_1,8.wav,你刚才超出了赛道界限,你刚才超出了赛道界限,you've gone outside of track limits there
+\voice\penalties\cut_track_prac_or_qual_2,1.wav,这是又一次切赛道，这一圈将被删除,这是又一次切赛道，这一圈将被删除,"that's another cut, this lap will be deleted"
+\voice\penalties\cut_track_prac_or_qual_2,13.wav,干事已经警告我们切赛道，他们会删除这一圈,干事已经警告我们切赛道，他们会删除这一圈,"the stewards have warned us for cutting the track, they'll delete this lap"
+\voice\penalties\cut_track_prac_or_qual_2,14.wav,此圈将被删除，注意赛道界限,此圈将被删除，注意赛道界限,"this lap will be deleted, watch the track limits"
+\voice\penalties\cut_track_prac_or_qual_2,17.wav,这一圈不算，注意赛道界限,这一圈不算，注意赛道界限,"this lap won't count, watch those track limits"
+\voice\penalties\cut_track_prac_or_qual_2,1_op_prefix_ok.wav,这是又一次切赛道，赛道界限,这是又一次切赛道，赛道界限,"that's another cut, track limits"
+\voice\penalties\cut_track_prac_or_qual_2,2.wav,赛道界限，他们会删除这一圈,赛道界限，他们会删除这一圈,"track limits, they'll delete this lap"
+\voice\penalties\cut_track_prac_or_qual_2,22.wav,赛道界限，该圈无效,赛道界限，该圈无效,"track limits, the lap won't count"
+\voice\penalties\cut_track_prac_or_qual_2,2_rq_suffix_please.wav,注意赛道界限,注意赛道界限,watch these track limits
+\voice\penalties\cut_track_prac_or_qual_2,3.wav,注意赛道界限，这是又一次切线,注意赛道界限，这是又一次切线,"come on, track limits, that's another cut"
+\voice\penalties\cut_track_prac_or_qual_2,3_op_suffix_please.wav,保持在赛道界限内,保持在赛道界限内,stay within the track limits
+\voice\penalties\cut_track_prac_or_qual_2,4.wav,你再次超出赛道界限，他们将删除这一圈,你再次超出赛道界限，他们将删除这一圈,"you've gone out of track limits again, they'll delete this lap"
+\voice\penalties\cut_track_prac_or_qual_2,4_op_suffix_please.wav,他们将删除这一圈，保持在赛道界限内,他们将删除这一圈，保持在赛道界限内,"they'll delete this lap, stay within the track limits"
+\voice\penalties\cut_track_prac_or_qual_2,5.wav,保持在白色线内,保持在白色线内,keep it between the white lines
+\voice\penalties\cut_track_prac_or_qual_2,6.wav,注意赛道界限,注意赛道界限,watch those track limits
+\voice\penalties\cut_track_prac_or_qual_2,8.wav,此圈无效，超出赛道界限,此圈无效，超出赛道界限,"this lap won't count, track limits"
+\voice\penalties\cut_track_prac_or_qual_3,11.wav,注意赛道界限，他们会删除这一圈,注意赛道界限，他们会删除这一圈,"watch those track limits, they'll delete this lap"
+\voice\penalties\cut_track_prac_or_qual_3,16.wav,快点，保持在白色线内，这一圈不算,快点，保持在白色线内，这一圈不算,"come on, keep it between the white lines, this lap won't count"
+\voice\penalties\cut_track_prac_or_qual_3,18.wav,此圈将被删除，注意赛道界限,此圈将被删除，注意赛道界限,"this lap will be deleted, watch those track limits"
+\voice\penalties\cut_track_prac_or_qual_3,1_op_prefix_bad_luck.wav,这是另一圈因赛道界限违规被删除的圈,这是另一圈因赛道界限违规被删除的圈,"that's another deleted lap, track limits"
+\voice\penalties\cut_track_prac_or_qual_3,23.wav,快点，注意赛道界限，这一圈会被删除,快点，注意赛道界限，这一圈会被删除,"come on, watch those track limits, this lap will be deleted"
+\voice\penalties\cut_track_prac_or_qual_3,2_op_prefix_bad_luck.wav,要注意赛道界限,要注意赛道界限,we've got to pay attention to the track limits
+\voice\penalties\cut_track_prac_or_qual_3,3_op_prefix_oh_dear.wav,赛道界限，加油,赛道界限，加油,"track limits, come on"
+\voice\penalties\cut_track_prac_or_qual_3,4.wav,注意赛道界限,注意赛道界限,watch those track limits
+\voice\penalties\cut_track_prac_or_qual_3,4_op_prefix_oh_dear.wav,你再切赛道，注意赛道界限,你再切赛道，注意赛道界限,"you keep cutting, come on, track limits"
+\voice\penalties\cut_track_prac_or_qual_3,5.wav,赛道界限，加油，保持在白色线内,赛道界限，加油，保持在白色线内,"track limits, come on, keep it between the white lines"
+\voice\penalties\cut_track_prac_or_qual_3,7.wav,赛道界限，加油，这一圈不算,赛道界限，加油，这一圈不算,"track limits, come on, this lap won't count"
+\voice\penalties\cut_track_prac_or_qual_3,sweary_1.wav,注意这些该死的赛道界限,注意这些该死的赛道界限,just watch these fucking track limits
+\voice\penalties\cut_track_prac_or_qual_3,sweary_2.wav,哎呀，老兄，这又是被删除的一圈，赛道界限,哎呀，老兄，这又是被删除的一圈，赛道界限,"ah shit, man, that's another lap deleted, track limits"
+\voice\penalties\cut_track_prac_or_qual_3,sweary_3.wav,来吧，注意这些该死的赛道界限,来吧，注意这些该死的赛道界限,"come on, watch these fucking track limits"
+\voice\penalties\cut_track_prac_or_qual_3,sweary_4.wav,别闹了，你已经开始超出赛道界限了,别闹了，你已经开始超出赛道界限了,"come on, track limits, you're starting to take the piss now"
+\voice\penalties\cut_track_prac_or_qual_4,1.wav,来吧，至少试着把它保持在赛道上,来吧，至少试着把它保持在赛道上,"come on, at least try and keep it on the track"
+\voice\penalties\cut_track_prac_or_qual_4,15_op_prefix_oh_dear.wav,快点，保持在赛道内行驶，他们会删除这一圈,快点，保持在赛道内行驶，他们会删除这一圈,"come on, keep it between the lines, they'll delete this lap"
+\voice\penalties\cut_track_prac_or_qual_4,19_op_prefix_oh_dear.wav,听着，注意赛道界限，这一圈不算,听着，注意赛道界限，这一圈不算,"come on, man, watch them track limits, this lap won't count"
+\voice\penalties\cut_track_prac_or_qual_4,1_op_prefix_oh_dear.wav,计时圈被删除，这太荒谬了,计时圈被删除，这太荒谬了,"lap deleted, this is getting silly"
+\voice\penalties\cut_track_prac_or_qual_4,2.wav,再删一圈，注意,再删一圈，注意,"another lap deleted, pay attention"
+\voice\penalties\cut_track_prac_or_qual_4,2_op_prefix_oh_dear.wav,赛道界限，你到底在搞什么,赛道界限，你到底在搞什么,"track limits, what the hell's wrong with you"
+\voice\penalties\cut_track_prac_or_qual_4,3.wav,赛道界限，再次,赛道界限，再次,"track limits, again"
+\voice\penalties\cut_track_prac_or_qual_4,3_op_prefix_oh_dear.wav,赛道界限，集中精神,赛道界限，集中精神,"track limits, come on, concentrate"
+\voice\penalties\cut_track_prac_or_qual_4,4.wav,别切赛道了，遵守赛道界限,别切赛道了，遵守赛道界限,"come on, you're still cutting, track limits"
+\voice\penalties\cut_track_prac_or_qual_4,9_op_prefix_oh_dear.wav,赛道界限，加油，这一圈将被删除,赛道界限，加油，这一圈将被删除,"track limits, come on, this lap will be deleted"
+\voice\penalties\cut_track_prac_or_qual_4,sweary_5.wav,别闹了，你已经严重超出赛道界限了,别闹了，你已经严重超出赛道界限了,"come on, track limits, you're taking the absolute piss now"
+\voice\penalties\cut_track_prac_or_qual_4,sweary_6.wav,来吧，这简直是胡说八道，别再切线了,来吧，这简直是胡说八道，别再切线了,"come on, this is bollocks, stop cutting"
+\voice\penalties\cut_track_prac_or_qual_4,sweary_7.wav,停止切赛道,停止切赛道,stop fucking cutting
+\voice\penalties\cut_track_prac_or_qual_4,sweary_8.wav,天啊，注意赛道界限，加油,天啊，注意赛道界限，加油,"bloody hell, man, track limits, come on"
+\voice\penalties\cut_track_race_1,1.wav,干事已经警告我们切赛道，保持在白色线内,干事已经警告我们切赛道，保持在白色线内,"the stewards have warned us for cutting the track, keep it between the white lines"
+\voice\penalties\cut_track_race_1,10.wav,赛道界限，注意走线,赛道界限，注意走线,"track limits, watch those lines"
+\voice\penalties\cut_track_race_1,11.wav,干事已经警告我们注意赛道界限，保持在白线内,干事已经警告我们注意赛道界限，保持在白线内,"the stewards have warned us about track limits, keep it between the lines"
+\voice\penalties\cut_track_race_1,16.wav,我们收到了关于赛道界限的警告,我们收到了关于赛道界限的警告,we've been warned about track limits
+\voice\penalties\cut_track_race_1,19.wav,我们收到了关于赛道界限的警告,我们收到了关于赛道界限的警告,we've been warned about track limits
+\voice\penalties\cut_track_race_1,1_op_prefix_ok.wav,已超出赛道界限，保持在白色线内,已超出赛道界限，保持在白色线内,"we've gone out of track limits, keep it between the white lines"
+\voice\penalties\cut_track_race_1,1_rq_suffix_please.wav,收到了切赛道警告，保持干净,收到了切赛道警告，保持干净,"we've had a cut warning, keep it tidy"
+\voice\penalties\cut_track_race_1,21.wav,保持在赛道界限内,保持在赛道界限内,keep it within the track limits
+\voice\penalties\cut_track_race_1,2_op_prefix_ok.wav,刚刚切了赛道,刚刚切了赛道,we've just cut the track
+\voice\penalties\cut_track_race_1,2_op_suffix_please.wav,你切了赛道，保持线路整洁,你切了赛道，保持线路整洁,"you cut the track, keep it nice and tidy"
+\voice\penalties\cut_track_race_1,3.wav,刚刚因为切赛道收到了警告,刚刚因为切赛道收到了警告,we just had a warning for cutting the track
+\voice\penalties\cut_track_race_1,3_rq_suffix_please.wav,保持在赛道内,保持在赛道内,stay between the lines
+\voice\penalties\cut_track_race_1,4.wav,赛道界限,赛道界限,track limits
+\voice\penalties\cut_track_race_1,4_rq_suffix_please.wav,注意赛道界限,注意赛道界限,pay attention to track limits
+\voice\penalties\cut_track_race_2,1.wav,你得注意赛道界限,你得注意赛道界限,you gotta watch these track limits
+\voice\penalties\cut_track_race_2,10.wav,注意赛道界限，否则我们会受到处罚,注意赛道界限，否则我们会受到处罚,watch those track limits or we'll get a penalty
+\voice\penalties\cut_track_race_2,14.wav,保持在赛道内，遵守赛道界限,保持在赛道内，遵守赛道界限,"keep it between the lines, track limits"
+\voice\penalties\cut_track_race_2,15.wav,注意赛道界限，不要想被罚,注意赛道界限，不要想被罚,"watch those track limits, we don't want a penalty"
+\voice\penalties\cut_track_race_2,17.wav,你超出了赛道界限，来吧，保持在赛道内,你超出了赛道界限，来吧，保持在赛道内,"you've gone outside track limits, come on, keep it between the lines"
+\voice\penalties\cut_track_race_2,2.wav,保持在白色线内，否则会受到处罚,保持在白色线内，否则会受到处罚,keep it between the white lines or we'll get a penalty
+\voice\penalties\cut_track_race_2,20.wav,注意赛道界限，如果我们不遵守就会被罚,注意赛道界限，如果我们不遵守就会被罚,"watch the track limits, we'll get a penalty if we don't"
+\voice\penalties\cut_track_race_2,22.wav,干事已经警告我们关于赛道界限,干事已经警告我们关于赛道界限,the stewards have warned us about track limits
+\voice\penalties\cut_track_race_2,2_rq_suffix_please.wav,注意赛道界限,注意赛道界限,"come on, watch these track limits"
+\voice\penalties\cut_track_race_2,3_op_prefix_ok.wav,请注意赛道界限,请注意赛道界限,"watch the track limits, please"
+\voice\penalties\cut_track_race_2,4.wav,注意赛道界限,注意赛道界限,"come on, track limits"
+\voice\penalties\cut_track_race_2,5.wav,注意赛道界限,注意赛道界限,watch those track limits
+\voice\penalties\cut_track_race_2,8.wav,我们收到了关于赛道界限的警告,我们收到了关于赛道界限的警告,we've been warned about track limits
+\voice\penalties\cut_track_race_2,9.wav,保持在赛道内线,保持在赛道内线,"come on, track limits, keep it between the lines"
+\voice\penalties\cut_track_race_3,1.wav,你真的得注意这些赛道界限,你真的得注意这些赛道界限,you've really gotta pay attention to these track limits
+\voice\penalties\cut_track_race_3,10.wav,赛道界限，加油，保持在白色线内,赛道界限，加油，保持在白色线内,"track limits, come on, keep it between the white lines"
+\voice\penalties\cut_track_race_3,11.wav,注意赛道界限,注意赛道界限,"come on, track limits"
+\voice\penalties\cut_track_race_3,12_op_prefix_oh_dear.wav,注意赛道界限,注意赛道界限,"come on, track limits"
+\voice\penalties\cut_track_race_3,18.wav,注意赛道界限,注意赛道界限,watch the track limits
+\voice\penalties\cut_track_race_3,1_op_prefix_ok.wav,我们仍在切赛道，请尽快解决,我们仍在切赛道，请尽快解决,"we're still cutting, get on top of it, please"
+\voice\penalties\cut_track_race_3,2.wav,别再切线了,别再切线了,"come on, stop cutting"
+\voice\penalties\cut_track_race_3,23.wav,注意赛道界限,注意赛道界限,watch those track limits
+\voice\penalties\cut_track_race_3,2_op_suffix_please.wav,停止这种持续切赛道的行为,停止这种持续切赛道的行为,stop this persistent cutting
+\voice\penalties\cut_track_race_3,3.wav,遵守赛道界限，我们不想受到处罚,遵守赛道界限，我们不想受到处罚,"track limits, please, we don't want a penalty"
+\voice\penalties\cut_track_race_3,3_rq_suffix_please.wav,注意赛道界限,注意赛道界限,pay more attention to track limits
+\voice\penalties\cut_track_race_3,4.wav,你又切赛道了，集中注意力,你又切赛道了，集中注意力,"you've cut the track again, concentrate"
+\voice\penalties\cut_track_race_3,4_op_prefix_oh_dear.wav,开始认真对待赛道界限,开始认真对待赛道界限,start taking these track limits seriously
+\voice\penalties\cut_track_race_3,5.wav,快点，集中精神，你老是切赛道,快点，集中精神，你老是切赛道,"come on, get it together, you keep cutting"
+\voice\penalties\cut_track_race_3,5_op_prefix_oh_dear.wav,如果你不停止切赛道，我们将受到处罚,如果你不停止切赛道，我们将受到处罚,if you don't stop cutting we will get a penalty
+\voice\penalties\cut_track_race_3,6.wav,赛道界限，再次,赛道界限，再次,"track limits, again"
+\voice\penalties\cut_track_race_3,6_op_prefix_oh_dear.wav,请遵守赛道界限,请遵守赛道界限,please watch the track limits
+\voice\penalties\cut_track_race_3,7.wav,干事再次警告我们，赛道界限,干事再次警告我们，赛道界限,"the stewards have warned us again, track limits"
+\voice\penalties\cut_track_race_3,8.wav,我们又收到了关于赛道界限的警告,我们又收到了关于赛道界限的警告,we've had another warning about track limits
+\voice\penalties\cut_track_race_3,9.wav,收到了另一条赛道界限警告,收到了另一条赛道界限警告,we've had another track limits warning
+\voice\penalties\cut_track_race_3,sweary_1.wav,别说了，注意赛道界限,别说了，注意赛道界限,"come on I'm sick of telling you, watch the bloody track limits"
+\voice\penalties\cut_track_race_3,sweary_2.wav,你又切赛道了，别闹着玩了,你又切赛道了，别闹着玩了,"you've cut again, stop taking the piss"
+\voice\penalties\cut_track_race_3,sweary_3.wav,哎呀，老兄，这又是切赛道了，注意赛道界限,哎呀，老兄，这又是切赛道了，注意赛道界限,"shit, man, that's another cut, come on, track limits"
+\voice\penalties\cut_track_race_4,1.wav,你连赛道都看不见吗？停止切赛道,你连赛道都看不见吗？停止切赛道,can you even see the track? stop cutting
+\voice\penalties\cut_track_race_4,13_op_prefix_oh_dear.wav,赛道界限，加油,赛道界限，加油,"track limits, come on"
+\voice\penalties\cut_track_race_4,1_op_prefix_oh_dear.wav,你连赛道都保持不住吗,你连赛道都保持不住吗,are you even trying to keep it on the track
+\voice\penalties\cut_track_race_4,2_op_suffix_please.wav,开始遵守赛道界限,开始遵守赛道界限,start respecting the track limits
+\voice\penalties\cut_track_race_4,3.wav,再次超出赛道界限，加油,再次超出赛道界限，加油,"track limits again, come on"
+\voice\penalties\cut_track_race_4,3_op_suffix_please.wav,注意赛道界限,注意赛道界限,pay some attention to the track limits
+\voice\penalties\cut_track_race_4,4.wav,这是另一次切赛道，注意点,这是另一次切赛道，注意点,"that's another cut, come on, pay attention"
+\voice\penalties\cut_track_race_4,6_op_prefix_oh_dear.wav,赛道界限，加油,赛道界限，加油,"track limits, come on"
+\voice\penalties\cut_track_race_4,sweary_1.wav,赛道界限,赛道界限,track fucking limits
+\voice\penalties\cut_track_race_4,sweary_2.wav,赛道界限，拜托了，赛道界限,赛道界限，拜托了，赛道界限,"track limits, for fuck's sake, come on, track limits"
+\voice\penalties\cut_track_race_4,sweary_3.wav,见鬼，我已经说烦了这个，赛道界限,见鬼，我已经说烦了这个，赛道界限,"shit, I'm sick of saying this, track limits"
+\voice\penalties\cut_track_race_4,sweary_4.wav,听着，赛道界限是有的原因的，别再切线了,听着，赛道界限是有的原因的，别再切线了,"come on, track limits, they're there for a reason, stop taking the piss"
+\voice\penalties\disqualified_driving_without_headlights,1.wav,因在夜间驾驶未开大灯而被取消资格,因在夜间驾驶未开大灯而被取消资格,we've been disqualified for driving in the dark without headlights
+\voice\penalties\disqualified_driving_without_headlights,2.wav,刚刚因在夜间驾驶未开大灯而被取消资格,刚刚因在夜间驾驶未开大灯而被取消资格,we've just been disqualified for driving in the dark without headlights
+\voice\penalties\disqualified_driving_without_headlights,3.wav,我们在没有开启大灯的情况下夜间驾驶，已经被取消资格,我们在没有开启大灯的情况下夜间驾驶，已经被取消资格,"we've been driving in the dark without headlights, we've been disqualified"
+\voice\penalties\disqualified_driving_without_headlights,4.wav,刚刚被取消资格，你在没有开启大灯的情况下驾驶,刚刚被取消资格，你在没有开启大灯的情况下驾驶,"just been disqualified, you've been driving without headlights"
+\voice\penalties\disqualified_driving_without_headlights,5.wav,因在夜间驾驶未开大灯而被取消资格,因在夜间驾驶未开大灯而被取消资格,we've been disqualified for driving in the dark without headlights
+\voice\penalties\disqualified_exceeded_allowed_lap_count,1.wav,我们因超出允许的最大圈数而被取消资格,我们因超出允许的最大圈数而被取消资格,we've been disqualified for exceeding the maximum number of laps allowed
+\voice\penalties\disqualified_exceeded_allowed_lap_count,2.wav,我们超出了分配的圈数，已被取消资格,我们超出了分配的圈数，已被取消资格,"we've exceeded our allotted laps, we've been disqualified"
+\voice\penalties\disqualified_exceeded_allowed_lap_count,3.wav,我们已经超过了这里允许的圈数，已经被取消资格,我们已经超过了这里允许的圈数，已经被取消资格,"we've done more laps than we're allowed here, we've been disqualified"
+\voice\penalties\disqualified_exceeded_allowed_lap_count,4.wav,你已超出分配的圈数，已被取消资格,你已超出分配的圈数，已被取消资格,"you've exceeded your allotted laps, you've been disqualified"
+\voice\penalties\disqualified_exceeded_allowed_lap_count,5.wav,您因超出允许的 qualifying 圈数而被取消资格,您因超出允许的 qualifying 圈数而被取消资格,you've been disqualified for exceeding the number of qualification laps allowed
+\voice\penalties\disqualified_ignored_drive_through,1.wav,我们刚刚因为忽略通过维修区处罚而被取消资格,我们刚刚因为忽略通过维修区处罚而被取消资格,we've just been disqualified for ignoring the drive-through
+\voice\penalties\disqualified_ignored_drive_through,2.wav,你忽略了通过维修区处罚，他们刚刚取消了你的资格,你忽略了通过维修区处罚，他们刚刚取消了你的资格,"you've ignored your drive-through penalty, they've just disqualified you"
+\voice\penalties\disqualified_ignored_drive_through,3.wav,好的，伙计，我们因为忽略通过维修区处罚而被取消资格,好的，伙计，我们因为忽略通过维修区处罚而被取消资格,"okay, mate, we've been disqualified for ignoring a drive-through"
+\voice\penalties\disqualified_ignored_drive_through,4.wav,我们刚刚因为忽略通过维修区处罚而被取消资格,我们刚刚因为忽略通过维修区处罚而被取消资格,we've just been disqualified for ignoring a drive-through penalty
+\voice\penalties\disqualified_ignored_drive_through,5.wav,他们刚刚取消了我们的资格，我们忽略了通过维修区处罚,他们刚刚取消了我们的资格，我们忽略了通过维修区处罚,"they've just disqualified us, we've ignored a drive-through penalty"
+\voice\penalties\disqualified_ignored_stop_and_go,1.wav,我们因忽略停车处罚而被取消资格,我们因忽略停车处罚而被取消资格,we've been disqualified for ignoring a stop-and-go penalty
+\voice\penalties\disqualified_ignored_stop_and_go,2.wav,啊，我们被取消资格了，兄弟，我们忽略了停车处罚,啊，我们被取消资格了，兄弟，我们忽略了停车处罚,"ah, we're disqualified, mate, we ignored a stop-and-go penalty"
+\voice\penalties\disqualified_ignored_stop_and_go,3.wav,你刚刚被取消资格，你忽略了你的停车处罚,你刚刚被取消资格，你忽略了你的停车处罚,"you've just been disqualified, you've ignored your stop-and-go penalty"
+\voice\penalties\disqualified_ignored_stop_and_go,4.wav,我们因忽略停车处罚而被取消资格,我们因忽略停车处罚而被取消资格,we've been disqualified for ignoring a stop-and-go penalty
+\voice\penalties\disqualified_ignored_stop_and_go,5.wav,他们刚刚取消了我们的资格，我们忽略了停车处罚,他们刚刚取消了我们的资格，我们忽略了停车处罚,"they've just disqualified us, we've ignored a stop-and-go penalty"
+\voice\penalties\drive_through_cutting_track,1.wav,刚刚因为切赛道收到了通过维修区处罚,刚刚因为切赛道收到了通过维修区处罚,we've just had a drive-through for cutting the track
+\voice\penalties\drive_through_cutting_track,2.wav,刚刚因为切赛道收到了通过维修区处罚,刚刚因为切赛道收到了通过维修区处罚,we've just had a drive-through penalty for cutting the track
+\voice\penalties\drive_through_cutting_track,3.wav,刚刚因为切赛道收到了通过维修区处罚,刚刚因为切赛道收到了通过维修区处罚,we've just had a drive-through penalty for cutting the track
+\voice\penalties\drive_through_cutting_track,4.wav,我们因赛道界限违规收到了通过维修区处罚,我们因赛道界限违规收到了通过维修区处罚,we've had a drive-through penalty for track limits violations
+\voice\penalties\drive_through_cutting_track,5.wav,我们因切赛道收到了通过维修区处罚,我们因切赛道收到了通过维修区处罚,we've had a drive-through penalty for cutting the track
+\voice\penalties\drive_through_cutting_track,6.wav,我们因切赛道收到通过维修区处罚,我们因切赛道收到通过维修区处罚,we've had a drive-through for cutting the track
+\voice\penalties\drive_through_cutting_track,7.wav,我们因切赛道收到了通过维修区处罚,我们因切赛道收到了通过维修区处罚,we've had a drive-through penalty for cutting the track
+\voice\penalties\drive_through_cutting_track,8.wav,我们因切赛道收到了通过维修区处罚,我们因切赛道收到了通过维修区处罚,we've had a drive-through penalty for cutting the track
+\voice\penalties\drive_through_cutting_track,9.wav,我们因赛道界限违规收到通过维修区处罚,我们因赛道界限违规收到通过维修区处罚,we've had a drive-through for track limits violations
+\voice\penalties\drive_through_exceeding_single_stint_time,1.wav,我们因为超出最大驾驶段时间而收到了通过维修区的处罚,我们因为超出最大驾驶段时间而收到了通过维修区的处罚,we've had a drive-through penalty for exceeding the maximum driver stint time
+\voice\penalties\drive_through_exceeding_single_stint_time,2.wav,已超出单段最长时间，您将受到通过维修区处罚,已超出单段最长时间，您将受到通过维修区处罚,"we've exceeding the maximum driver stint time, you've got a drive-through penalty"
+\voice\penalties\drive_through_exceeding_single_stint_time,3.wav,我们收到了通过维修区处罚，你超出了单程最大驾驶时间,我们收到了通过维修区处罚，你超出了单程最大驾驶时间,"we've had a drive-through penalty, you've exceeded the maximum driver stint time"
+\voice\penalties\drive_through_exceeding_single_stint_time,4.wav,你超过了车手一段跑程的时间，你收到了通过维修区处罚,你超过了车手一段跑程的时间，你收到了通过维修区处罚,"you've exceeding the driver stint time, you got a drive-through penalty"
+\voice\penalties\drive_through_false_start,1.wav,刚刚因为抢跑收到了通过维修区处罚,刚刚因为抢跑收到了通过维修区处罚,we've just had a drive-through for a false-start
+\voice\penalties\drive_through_false_start,2.wav,刚刚因为抢跑得到了通过维修区处罚,刚刚因为抢跑得到了通过维修区处罚,we've just had a drive-through for jumping the start
+\voice\penalties\drive_through_false_start,3.wav,我们有一个因抢跑引起的通过维修区处罚,我们有一个因抢跑引起的通过维修区处罚,we've got a drive-through for a false start
+\voice\penalties\drive_through_false_start,4.wav,我们因为抢跑收到了通过维修区处罚,我们因为抢跑收到了通过维修区处罚,we've had a drive-through penalty for a false-start
+\voice\penalties\drive_through_false_start,5.wav,通过维修区处罚，抢跑,通过维修区处罚，抢跑,drive-through penalty for a false-start
+\voice\penalties\drive_through_false_start,6.wav,我们因抢跑被给予通过维修区处罚,我们因抢跑被给予通过维修区处罚,we've been given a drive-through penalty for a false-start
+\voice\penalties\drive_through_false_start,7.wav,我们因为抢跑收到了通过维修区处罚,我们因为抢跑收到了通过维修区处罚,we've had a drive-through penalty for a false-start
+\voice\penalties\drive_through_false_start,8.wav,我们因为抢跑收到了通过维修区处罚,我们因为抢跑收到了通过维修区处罚,we've had a drive-through for a false-start
+\voice\penalties\drive_through_ignored_blue,1.wav,我们因为忽略蓝旗收到了通过维修区处罚,我们因为忽略蓝旗收到了通过维修区处罚,we've had a drive-through for ignoring blue flags
+\voice\penalties\drive_through_ignored_blue,2.wav,刚刚因为忽略蓝旗收到了通过维修区处罚,刚刚因为忽略蓝旗收到了通过维修区处罚,we've just had a drive-through for ignoring blue flags
+\voice\penalties\drive_through_ignored_blue,3.wav,我们因为忽视蓝旗收到了通过维修区处罚,我们因为忽视蓝旗收到了通过维修区处罚,we've had a drive-through for ignoring the blue flags
+\voice\penalties\drive_through_ignored_blue,4.wav,刚刚因为忽略蓝旗收到了通过维修区处罚,刚刚因为忽略蓝旗收到了通过维修区处罚,we've just had a drive-through for ignoring blue flags
+\voice\penalties\drive_through_overtaking_on_formation_lap,1.wav,我们刚刚因为在编成圈超车收到了通过维修区处罚,我们刚刚因为在编成圈超车收到了通过维修区处罚,we just had a drive-through for passing on the formation lap
+\voice\penalties\drive_through_overtaking_on_formation_lap,2.wav,刚刚因为在编成圈超车收到了通过维修区处罚,刚刚因为在编成圈超车收到了通过维修区处罚,we've just had a drive-through penalty for passing on the formation lap
+\voice\penalties\drive_through_overtaking_on_formation_lap,3.wav,刚刚因为在暖胎圈超车收到了通过维修区处罚,刚刚因为在暖胎圈超车收到了通过维修区处罚,we just had a drive-through for overtaking on the formation lap
+\voice\penalties\drive_through_overtaking_under_safety_car,1.wav,刚刚因为在安全车带领下超车收到了通过维修区处罚,刚刚因为在安全车带领下超车收到了通过维修区处罚,we've just had a drive-through for passing under the safety car
+\voice\penalties\drive_through_overtaking_under_safety_car,2.wav,刚刚因为在安全车带领下超车而收到了通过维修区处罚,刚刚因为在安全车带领下超车而收到了通过维修区处罚,we've just had a drive-through penalty for passing under the safety car
+\voice\penalties\drive_through_overtaking_under_safety_car,3.wav,刚刚因为在安全车带领下超车收到了通过维修区处罚,刚刚因为在安全车带领下超车收到了通过维修区处罚,we've just had a drive-through for passing under the safety car
+\voice\penalties\drive_through_overtaking_under_yellow,1.wav,刚刚因为在黄旗期间超车收到了通过维修区处罚,刚刚因为在黄旗期间超车收到了通过维修区处罚,we've just had a drive-through penalty for passing under yellow
+\voice\penalties\drive_through_overtaking_under_yellow,2.wav,刚刚因为在黄旗期间超车收到了通过维修区处罚,刚刚因为在黄旗期间超车收到了通过维修区处罚,we've just had a drive-through for passing under yellow
+\voice\penalties\drive_through_overtaking_under_yellow,3.wav,刚刚因为在黄旗期间超车收到了通过维修区处罚,刚刚因为在黄旗期间超车收到了通过维修区处罚,we've just had a drive-through for overtaking under yellow
+\voice\penalties\drive_through_speeding_in_pit_lane,1.wav,刚刚因为维修区超速收到了通过维修区处罚,刚刚因为维修区超速收到了通过维修区处罚,we've just been given a drive-through for speeding in the pit lane
+\voice\penalties\drive_through_speeding_in_pit_lane,2.wav,刚刚因为在维修区超速收到了通过维修区处罚,刚刚因为在维修区超速收到了通过维修区处罚,we just had a drive-through for speeding in the pit lane
+\voice\penalties\drive_through_speeding_in_pit_lane,3.wav,刚刚因为在维修区超速收到了通过维修区处罚,刚刚因为在维修区超速收到了通过维修区处罚,we've just had a drive-through penalty for speeding in the pit lane
+\voice\penalties\lap_deleted,1.wav,你刚刚超出了赛道界限，这一圈将被删除,你刚刚超出了赛道界限，这一圈将被删除,"you've just gone outside of track limits, this lap will be deleted"
+\voice\penalties\lap_deleted,2.wav,这一圈不算，你切了赛道,这一圈不算，你切了赛道,"this lap won't count, you've cut the track"
+\voice\penalties\lap_deleted,2_op_prefix_bad_luck.wav,这一圈不算，你切了赛道,这一圈不算，你切了赛道,"this lap won't count, you've cut the track"
+\voice\penalties\lap_deleted,2_op_prefix_oh_dear.wav,你切了赛道，他们会删除这一圈,你切了赛道，他们会删除这一圈,"you've cut the track, they'll delete the lap"
+\voice\penalties\lap_deleted,3.wav,此圈无效，注意赛道界限,此圈无效，注意赛道界限,"this lap's been invalidated, watch those track limits"
+\voice\penalties\lap_deleted,3_op_prefix_bad_luck.wav,此圈无效，注意赛道界限,此圈无效，注意赛道界限,"this lap's been invalidated, watch those track limits"
+\voice\penalties\lap_deleted,4.wav,保持在白色线内，这一圈无效,保持在白色线内，这一圈无效,"keep it between the white lines, this lap's been invalidated"
+\voice\penalties\lap_deleted,4_op_prefix_oh_dear.wav,他们将删除这一圈，你切了赛道,他们将删除这一圈，你切了赛道,"they'll delete this lap, you cut the track"
+\voice\penalties\lap_deleted,5.wav,快点，赛道界限，这一圈不算,快点，赛道界限，这一圈不算,"come on, track limits, this lap won't count"
+\voice\penalties\lap_deleted,6.wav,此圈无效，你在切赛道,此圈无效，你在切赛道,"this lap won't count, you're cutting the track"
+\voice\penalties\meatball_flag,1.wav,我们被叫进维修区进行修理,我们被叫进维修区进行修理,we've been called into the pits for repairs
+\voice\penalties\meatball_flag,10.wav,肉丸旗，我们需要进站维修,肉丸旗，我们需要进站维修,"meatball flag, we'll need to come into the pits for repairs"
+\voice\penalties\meatball_flag,2.wav,干事要求我们进站维修,干事要求我们进站维修,the stewards have called us into the pits for repairs
+\voice\penalties\meatball_flag,3.wav,我们因维修被干事叫进维修区,我们因维修被干事叫进维修区,we've been called into the pits by the stewards for repairs
+\voice\penalties\meatball_flag,4.wav,我们需要进站修理，裁判已经召唤我们进站,我们需要进站修理，裁判已经召唤我们进站,"we'll need to pit for repairs, we've been called in by the stewards"
+\voice\penalties\meatball_flag,6.wav,肉丸旗，我们需要进站维修,肉丸旗，我们需要进站维修,"meatball flag, we'll need to come into the pits for repairs"
+\voice\penalties\meatball_flag,7.wav,肉丸旗，我们需要进站维修,肉丸旗，我们需要进站维修,"meatball flag, we'll need to come into the pits for repairs"
+\voice\penalties\meatball_flag,8.wav,肉丸旗，我们需要进站维修,肉丸旗，我们需要进站维修,"meatball flag, we'll need to come into the pits for repairs"
+\voice\penalties\meatball_flag,9.wav,肉丸旗，我们需要进站维修,肉丸旗，我们需要进站维修,"meatball flag, we'll need to come into the pits for repairs"
+\voice\penalties\new_penalty_black_flag,1.wav,黑旗，我们需要进站执行处罚,黑旗，我们需要进站执行处罚,"black flag, we'll need to come into the pits to serve the penalty"
+\voice\penalties\new_penalty_black_flag,2.wav,黑旗，我们需要进站执行处罚,黑旗，我们需要进站执行处罚,"black flag, we'll need to come into the pits to serve the penalty"
+\voice\penalties\new_penalty_black_flag,3.wav,黑旗，我们需要进站执行处罚,黑旗，我们需要进站执行处罚,"black flag, we'll need to come into the pits to serve the penalty"
+\voice\penalties\new_penalty_black_flag,4.wav,黑旗，我们需要进站执行处罚,黑旗，我们需要进站执行处罚,"black flag, we'll need to come into the pits to serve the penalty"
+\voice\penalties\new_penalty_black_flag,5.wav,黑旗，我们需要进站执行处罚,黑旗，我们需要进站执行处罚,"black flag, we'll need to come into the pits to serve the penalty"
+\voice\penalties\new_penalty_drivethrough,1.wav,刚刚收到了通过维修区处罚,刚刚收到了通过维修区处罚,we've just been handed a drive-through penalty
+\voice\penalties\new_penalty_drivethrough,2.wav,刚刚收到了通过维修区处罚,刚刚收到了通过维修区处罚,we've just had a drive-through penalty
+\voice\penalties\new_penalty_drivethrough,3.wav,刚刚收到了通过维修区处罚,刚刚收到了通过维修区处罚,we've just been given a drive-through
+\voice\penalties\new_penalty_drivethrough,sweary_4.wav,哎呀，刚刚收到了通过维修区处罚,哎呀，刚刚收到了通过维修区处罚,"aw shit, we've just been given a drive-through"
+\voice\penalties\new_penalty_drivethrough,sweary_5.wav,喂，刚刚收到了一个通过维修区处罚,喂，刚刚收到了一个通过维修区处罚,"cock, just had a drive-through"
+\voice\penalties\new_penalty_slowdown,1.wav,我们需要减速并给出一些时间,我们需要减速并给出一些时间,we need to slow down and give back some time
+\voice\penalties\new_penalty_slowdown,2.wav,如果你不想受到处罚，你需要减速,如果你不想受到处罚，你需要减速,you'll need to slow down if you don't want a penalty
+\voice\penalties\new_penalty_slowdown,3.wav,你需要把获得的时间让回去,你需要把获得的时间让回去,you'll need to give back the time gained
+\voice\penalties\new_penalty_slowdown,4.wav,你需要减速以归还获得的时间,你需要减速以归还获得的时间,you'll need to slow down to give back the time gained
+\voice\penalties\new_penalty_slowdown,5.wav,如果你不想受到处罚，你需要稍微减速,如果你不想受到处罚，你需要稍微减速,you'll need to slow down a bit if you don't want a penalty
+\voice\penalties\new_penalty_stopgo,1.wav,刚刚收到了停车处罚,刚刚收到了停车处罚,we've just been handed a stop-go penalty
+\voice\penalties\new_penalty_stopgo,2.wav,刚刚收到了停车处罚,刚刚收到了停车处罚,we've just been given a stop-go penalty
+\voice\penalties\new_penalty_stopgo,3.wav,刚刚收到了停车处罚,刚刚收到了停车处罚,we've just had a stop-go penalty
+\voice\penalties\new_penalty_stopgo,sweary_4.wav,哎呀，我们刚收到了停车处罚,哎呀，我们刚收到了停车处罚,"aw, crap, we've just had a stop-go penalty"
+\voice\penalties\new_penalty_stopgo,sweary_5.wav,见鬼，我们收到了停车处罚,见鬼，我们收到了停车处罚,"bollocks, we've had a stop-go"
+\voice\penalties\one_lap_to_serve_drive_through,1.wav,我们还有1圈要执行通过维修区处罚,我们还有1圈要执行通过维修区处罚,we've got 1 lap to serve this drive-through penalty
+\voice\penalties\one_lap_to_serve_drive_through,2.wav,还剩一圈执行通过维修区处罚,还剩一圈执行通过维修区处罚,1 lap to serve the drive-through penalty
+\voice\penalties\one_lap_to_serve_drive_through,3.wav,我们还剩一圈要执行通过维修区处罚,我们还剩一圈要执行通过维修区处罚,we've got 1 lap left to serve this drive-through penalty
+\voice\penalties\one_lap_to_serve_drive_through,4.wav,我们还有1圈要执行通过维修区处罚,我们还有1圈要执行通过维修区处罚,we got 1 lap to serve this drive-through penalty
+\voice\penalties\one_lap_to_serve_drive_through,5.wav,还剩一圈执行通过维修区处罚,还剩一圈执行通过维修区处罚,1 lap to serve the drive-through penalty
+\voice\penalties\one_lap_to_serve_stop_go,1.wav,我们还有1圈要执行这个停车处罚,我们还有1圈要执行这个停车处罚,we've got 1 lap to serve this stop-go penalty
+\voice\penalties\one_lap_to_serve_stop_go,2.wav,我们还剩一圈要执行停车处罚,我们还剩一圈要执行停车处罚,we've got 1 lap left to serve the stop-go penalty
+\voice\penalties\one_lap_to_serve_stop_go,3.wav,我们还剩一圈要执行这个停车处罚,我们还剩一圈要执行这个停车处罚,we've got 1 lap left to serve this stop-go penalty
+\voice\penalties\one_lap_to_serve_stop_go,4.wav,我们还有1圈要执行这个停车处罚,我们还有1圈要执行这个停车处罚,we've got 1 lap to serve this stop-go penalty
+\voice\penalties\one_lap_to_serve_stop_go,5.wav,还剩一圈要执行停车处罚,还剩一圈要执行停车处罚,1 lap left to serve this stop-go penalty
+\voice\penalties\one_more_collision_before_kick,1.wav,你再有一次碰撞就要被取消资格了，冷静点,你再有一次碰撞就要被取消资格了，冷静点,"you're one collision away from being disqualified, calm down"
+\voice\penalties\one_more_collision_before_kick,2.wav,再撞一次我们就出局了，别搞成碰碰车比赛,再撞一次我们就出局了，别搞成碰碰车比赛,"one more collision and we're out, stop with the banger racing"
+\voice\penalties\one_more_collision_before_kick,3.wav,来吧，这不是街头赛车，再撞一次我们就被取消资格了,来吧，这不是街头赛车，再撞一次我们就被取消资格了,"come on, this ain't banger racing, one more collision and we'll be disqualified"
+\voice\penalties\one_more_collision_before_kick,4.wav,请冷静，再撞一次我们就出局了,请冷静，再撞一次我们就出局了,"calm it down please, one more collision and we'll be out"
+\voice\penalties\one_more_collision_before_kick,5.wav,停止撞人，再这样做我们会被取消资格,停止撞人，再这样做我们会被取消资格,"stop driving into people, they'll disqualify us if we do it again"
+\voice\penalties\one_more_collision_before_kick,6.wav,如果我们再撞到另一辆车，我们将被取消资格，冷静点,如果我们再撞到另一辆车，我们将被取消资格，冷静点,"we'll be disqualified if we hit another car, calm down"
+\voice\penalties\one_more_off_track_before_kick,1.wav,这里即将被取消资格，再有任何一次切赛道就要出局了,这里即将被取消资格，再有任何一次切赛道就要出局了,"we're on the verge of being disqualified here, any more cut-tracks and you're out"
+\voice\penalties\one_more_off_track_before_kick,2.wav,再有一次赛道界限违规你就要出局了，你即将被取消资格,再有一次赛道界限违规你就要出局了，你即将被取消资格,"one more track limits violation and you're out, you're about to be disqualified"
+\voice\penalties\one_more_off_track_before_kick,3.wav,请注意，我们快要被取消资格了，保持干净,请注意，我们快要被取消资格了，保持干净,"concentrate please, we're on the verge of being disqualified here, keep it clean"
+\voice\penalties\one_more_off_track_before_kick,4.wav,保持干净，不要再违反赛道界限或弹跳，否则我们将被取消资格,保持干净，不要再违反赛道界限或弹跳，否则我们将被取消资格,"keep it clean, no more track limits violations or bumps, we'll be disqualified"
+\voice\penalties\one_more_off_track_before_kick,5.wav,他们快要取消我们的资格了，保持干净，不要再违反赛道界限或碰撞车辆,他们快要取消我们的资格了，保持干净，不要再违反赛道界限或碰撞车辆,"they're about to disqualify us, keep it clean, no more track limits violations or car bumps"
+\voice\penalties\one_more_off_track_before_kick,6.wav,不要再有碰撞或切赛道了，否则他们会取消我们的资格,不要再有碰撞或切赛道了，否则他们会取消我们的资格,"no more collisions or cut tracks please, they're disqualify us if we do"
+\voice\penalties\one_more_off_track_before_kick,7.wav,我们快要被取消资格了，请保持干净驾驶,我们快要被取消资格了，请保持干净驾驶,"we're on the verge of being disqualified here, keep it clean please"
+\voice\penalties\one_more_off_track_before_kick,8.wav,请冷静，再有一次赛道限制违规或跳车我们就会被取消资格,请冷静，再有一次赛道限制违规或跳车我们就会被取消资格,"calm down please, they're disqualify us for one more track limit violation or bump"
+\voice\penalties\one_more_off_track_before_kick,9.wav,我们即将被取消这场比赛的资格，冷静下来，保持干净,我们即将被取消这场比赛的资格，冷静下来，保持干净,"we're about to be disqualified from this race, calm down, keep it clean"
+\voice\penalties\penalty_disqualified,1.wav,我们已被取消资格,我们已被取消资格,we've been disqualified
+\voice\penalties\penalty_disqualified,2.wav,看来我们被取消资格了,看来我们被取消资格了,looks like we've been disqualified
+\voice\penalties\penalty_disqualified,3.wav,我们已被取消资格,我们已被取消资格,we've been disqualified
+\voice\penalties\penalty_disqualified,sweary_4.wav,那些家伙刚刚取消了我们的资格，错过了那个愚蠢的处罚,那些家伙刚刚取消了我们的资格，错过了那个愚蠢的处罚,"the bastards have just disqualified us, missed that stupid penalty"
+\voice\penalties\penalty_not_served,1.wav,你仍然需要执行你的处罚,你仍然需要执行你的处罚,you still need to serve your penalty
+\voice\penalties\penalty_not_served,2.wav,你还没有执行这个处罚,你还没有执行这个处罚,you still haven't served this penalty
+\voice\penalties\penalty_not_served,3.wav,你仍有未执行的处罚,你仍有未执行的处罚,you've still got an outstanding penalty
+\voice\penalties\penalty_one_lap_left_drivethrough,1.wav,我们需要在这一圈结束时进站接受通过维修区处罚,我们需要在这一圈结束时进站接受通过维修区处罚,we need to come in for this drive-through at the end of the lap
+\voice\penalties\penalty_one_lap_left_drivethrough,2.wav,我们需要在本圈结束时执行这个通过维修区处罚,我们需要在本圈结束时执行这个通过维修区处罚,we need to serve this drive-through penalty at the end of this lap
+\voice\penalties\penalty_one_lap_left_drivethrough,3.wav,在这一圈结束时进站执行您的通过维修区处罚,在这一圈结束时进站执行您的通过维修区处罚,come in at the end of this lap for your drive-through penalty
+\voice\penalties\penalty_one_lap_left_drivethrough,4.wav,我们需要在这圈执行通过维修区处罚,我们需要在这圈执行通过维修区处罚,we need to serve this drive-through penalty on this lap
+\voice\penalties\penalty_one_lap_left_stopgo,1.wav,在这一圈结束时来接受你的停车处罚,在这一圈结束时来接受你的停车处罚,come in for your stop-go penalty at the end of this lap
+\voice\penalties\penalty_one_lap_left_stopgo,2.wav,我们需要在这圈执行停车处罚,我们需要在这圈执行停车处罚,we need to serve this stop-go penalty on this lap
+\voice\penalties\penalty_one_lap_left_stopgo,3.wav,本圈进站执行停车处罚,本圈进站执行停车处罚,box for your stop-go penalty on this lap
+\voice\penalties\penalty_one_lap_left_stopgo,4.wav,这圈执行你的停车处罚,这圈执行你的停车处罚,come in for your stop-go on this lap
+\voice\penalties\penalty_one_lap_left_to_pit,1.wav,我们需要在这圈来执行我们的处罚,我们需要在这圈来执行我们的处罚,we need to come and serve our penalty on this lap
+\voice\penalties\penalty_one_lap_left_to_pit,2.wav,我们需要在这圈来执行我们的处罚,我们需要在这圈来执行我们的处罚,we need to come and serve our penalty on this lap
+\voice\penalties\penalty_one_lap_left_to_pit,3.wav,我们需要在这圈来执行我们的处罚,我们需要在这圈来执行我们的处罚,we need to come and serve our penalty on this lap
+\voice\penalties\penalty_one_lap_left_to_pit,4.wav,我们需要在这圈来执行我们的处罚,我们需要在这圈来执行我们的处罚,we need to come and serve our penalty on this lap
+\voice\penalties\penalty_served,1.wav,你执行了你的处罚,你执行了你的处罚,you served your penalty
+\voice\penalties\penalty_served,2.wav,你的处罚已完成,你的处罚已完成,your penalty's completed
+\voice\penalties\penalty_served,3.wav,你已执行了处罚,你已执行了处罚,you've served your penalty
+\voice\penalties\penalty_three_laps_left,1.wav,你还有三圈来执行这个处罚,你还有三圈来执行这个处罚,you got 3 laps to serve this penalty
+\voice\penalties\penalty_three_laps_left,2.wav,你需要在接下来的三圈内进站接受这个处罚,你需要在接下来的三圈内进站接受这个处罚,you need to come in for this penalty in the next 3 laps
+\voice\penalties\penalty_three_laps_left,3.wav,你还有三圈要执行这个处罚,你还有三圈要执行这个处罚,you've got 3 laps to serve this penalty
+\voice\penalties\penalty_two_laps_left,1.wav,我们还剩两圈就要进来执行这个处罚,我们还剩两圈就要进来执行这个处罚,we got 2 laps left to come in and serve this penalty
+\voice\penalties\penalty_two_laps_left,2.wav,我们需要在接下来的两圈内进站执行这个处罚,我们需要在接下来的两圈内进站执行这个处罚,we need to come in for this penalty in the next 2 laps
+\voice\penalties\penalty_two_laps_left,3.wav,我们还有两圈就要进来执行这个处罚,我们还有两圈就要进来执行这个处罚,we got 2 laps to come in for this penalty
+\voice\penalties\penalty_two_laps_left,4.wav,在接下来的两圈内进站执行这个处罚,在接下来的两圈内进站执行这个处罚,come in to serve this penalty in the next 2 laps
+\voice\penalties\pit_now_drive_through,1.wav,现在进站执行你的通过维修区处罚,现在进站执行你的通过维修区处罚,pit now for your drive-through penalty
+\voice\penalties\pit_now_drive_through,2.wav,现在进站接受通过维修区处罚,现在进站接受通过维修区处罚,box now for your drive-through
+\voice\penalties\pit_now_drive_through,3.wav,进站，执行通过维修区处罚现在,进站，执行通过维修区处罚现在,"box, box, box, serve this drive-through now"
+\voice\penalties\pit_now_stop_go,1.wav,现在进站执行停车处罚，进站，进站，进站,现在进站执行停车处罚，进站，进站，进站,"pit for your stop-go penalty now, box, box, box"
+\voice\penalties\pit_now_stop_go,2.wav,进站，执行停车处罚,进站，执行停车处罚,"box, box, box for this stop-go penalty"
+\voice\penalties\pit_now_stop_go,3.wav,进站，进站，进站，现在进站执行处罚,进站，进站，进站，现在进站执行处罚,"box, box, box, pit now for your penalty"
+\voice\penalties\points_will_be_awarded_this_lap,1.wav,本圈将扣除罚分,本圈将扣除罚分,penalty points will be awarded this lap
+\voice\penalties\points_will_be_awarded_this_lap,2.wav,本圈将扣除罚分,本圈将扣除罚分,penalty points will be awarded this lap
+\voice\penalties\points_will_be_awarded_this_lap,3.wav,本圈将扣除罚分,本圈将扣除罚分,penalty points will be awarded this lap
+\voice\penalties\points_will_be_awarded_this_lap,4.wav,本圈将扣除罚分,本圈将扣除罚分,penalty points will be awarded this lap
+\voice\penalties\possible_track_limits_warning,1.wav,我们认为你可能超出了赛道界限,我们认为你可能超出了赛道界限,we think you might have gone outside of track limits there
+\voice\penalties\possible_track_limits_warning,2.wav,你刚才超出了赛道界限,你刚才超出了赛道界限,you were out of track limits there
+\voice\penalties\possible_track_limits_warning,3.wav,你刚才超出了赛道界限,你刚才超出了赛道界限,you were out of track limits there
+\voice\penalties\possible_track_limits_warning,4.wav,你在外侧赛道界限,你在外侧赛道界限,you're outside track limits there
+\voice\penalties\possible_track_limits_warning,5.wav,你刚刚越过了赛道界限,你刚刚越过了赛道界限,you've just got out of track limits
+\voice\penalties\possible_track_limits_warning,6.wav,看起来那是超出了赛道界限,看起来那是超出了赛道界限,looks like that was outside track limits
+\voice\penalties\possible_track_limits_warning,7.wav,可能超出赛道界限,可能超出赛道界限,that might be outside track limits
+\voice\penalties\slow_down_penalty_cutting_track,1.wav,刚刚因为切赛道收到了减速处罚,刚刚因为切赛道收到了减速处罚,we've just had a slowdown penalty for cutting the track
+\voice\penalties\slow_down_penalty_cutting_track,2.wav,刚刚因为切赛道收到了减速处罚,刚刚因为切赛道收到了减速处罚,we've just had a slowdown penalty for cutting the track
+\voice\penalties\slow_down_penalty_cutting_track,3.wav,我们因为切赛道收到了减速处罚,我们因为切赛道收到了减速处罚,we've had a slowdown penalty for cutting the track
+\voice\penalties\still_have_to_serve_drive_through,1.wav,你仍然需要执行你的通过维修区处罚,你仍然需要执行你的通过维修区处罚,you still need to serve your drive-through penalty
+\voice\penalties\still_have_to_serve_drive_through,2.wav,我们仍然需要执行这个通过维修区处罚,我们仍然需要执行这个通过维修区处罚,we've still got to serve this drive-through penalty
+\voice\penalties\still_have_to_serve_drive_through,3.wav,我们仍然需要执行通过维修区处罚,我们仍然需要执行通过维修区处罚,we still need to serve our drive-through penalty
+\voice\penalties\still_have_to_serve_drive_through,4.wav,我们仍然需要执行这个通过维修区处罚,我们仍然需要执行这个通过维修区处罚,we still got to serve this drive-through penalty
+\voice\penalties\still_have_to_serve_drive_through,5.wav,你仍然需要执行这个通过维修区处罚,你仍然需要执行这个通过维修区处罚,you still have to serve this drive-through penalty
+\voice\penalties\still_have_to_serve_stop_go,1.wav,我们仍然需要执行停车处罚,我们仍然需要执行停车处罚,we've still got to serve our stop-go penalty
+\voice\penalties\still_have_to_serve_stop_go,2.wav,我们仍然需要执行这次停车处罚,我们仍然需要执行这次停车处罚,we still need to serve this stop-go penalty
+\voice\penalties\still_have_to_serve_stop_go,3.wav,你仍然需要执行你的停车处罚,你仍然需要执行你的停车处罚,you still have to serve your stop-go penalty
+\voice\penalties\still_have_to_serve_stop_go,4.wav,你仍然需要执行你的停车处罚,你仍然需要执行你的停车处罚,you've still got to serve your stop-go penalty
+\voice\penalties\still_have_to_serve_stop_go,5.wav,我们仍然需要执行这次停车处罚,我们仍然需要执行这次停车处罚,we still need to serve this stop-go penalty
+\voice\penalties\stop_go_exceeding_single_stint_time,1.wav,刚刚因为超出最大驾驶段落时间而收到了停车处罚,刚刚因为超出最大驾驶段落时间而收到了停车处罚,we've just had a stop-go penalty for exceeding the maximum driver stint time
+\voice\penalties\stop_go_exceeding_single_stint_time,2.wav,你超出了最大驾驶段落时间，我们收到了停车处罚,你超出了最大驾驶段落时间，我们收到了停车处罚,"you've exceeded the maximum driver stint time, we got a stop-go penalty"
+\voice\penalties\stop_go_exceeding_single_stint_time,3.wav,我们收到了停车处罚，超过了车手一段跑程的最大时间,我们收到了停车处罚，超过了车手一段跑程的最大时间,"we've had a stop-go penalty, we've exceeded the driver stint time maximum"
+\voice\penalties\stop_go_exceeding_single_stint_time,4.wav,你超过了车手一段跑程的时间，你收到了停车处罚,你超过了车手一段跑程的时间，你收到了停车处罚,"you've exceeded the driver stint time, you got a stop-go penalty"
+\voice\penalties\stop_go_exitting_pits_on_red,1.wav,我们在红灯下出站收到了停车处罚,我们在红灯下出站收到了停车处罚,we've had a stop-go penalty for exiting the pits under red lights
+\voice\penalties\stop_go_exitting_pits_on_red,2.wav,你在维修区出来时信号灯是红灯，我们要接受停车处罚,你在维修区出来时信号灯是红灯，我们要接受停车处罚,"the light was red when you left the pits, we're gonna get a stop-go penalty"
+\voice\penalties\stop_go_exitting_pits_on_red,3.wav,我们在红灯时离开维修区被给予了停车处罚,我们在红灯时离开维修区被给予了停车处罚,we've been given a stop-go penalty for exiting the pits under red light
+\voice\penalties\stop_go_exitting_pits_on_red,4.wav,我们在红旗下出站收到了停车处罚,我们在红旗下出站收到了停车处罚,we've had a stop-go penalty for exiting the pits under red
+\voice\penalties\stop_go_exitting_pits_on_red,5.wav,我们在维修区出口时信号灯是红灯，我们将受到停车处罚,我们在维修区出口时信号灯是红灯，我们将受到停车处罚,"the light was red when we exited the pits, we're gonna have a stop-go penalty"
+\voice\penalties\stop_go_penalty_cutting_track,1.wav,刚刚因为切赛道收到了停车处罚,刚刚因为切赛道收到了停车处罚,we've just had a stop-go penalty for cutting the track
+\voice\penalties\stop_go_penalty_cutting_track,2.wav,刚刚因为切赛道收到了停车处罚,刚刚因为切赛道收到了停车处罚,we've just had a stop-go penalty for cutting the track
+\voice\penalties\stop_go_penalty_cutting_track,3.wav,刚刚因为切赛道收到了停车处罚,刚刚因为切赛道收到了停车处罚,we've just had a stop-go penalty for cutting the track
+\voice\penalties\stop_go_penalty_false_start,1.wav,刚刚因为抢跑收到了停车处罚,刚刚因为抢跑收到了停车处罚,we've just had a stop-go penalty for jumping the start
+\voice\penalties\stop_go_penalty_false_start,2.wav,我们因为抢跑收到了停车处罚,我们因为抢跑收到了停车处罚,we've had a stop-go penalty for a false start
+\voice\penalties\stop_go_penalty_false_start,3.wav,我们因为抢跑获得停车处罚,我们因为抢跑获得停车处罚,we've got a stop-go penalty for jumping the start
+\voice\penalties\stop_go_penalty_overtaking_on_formation_lap,1.wav,刚刚因为在编成圈超车收到了停车处罚,刚刚因为在编成圈超车收到了停车处罚,we've just had a stop-go penalty for passing on the formation lap
+\voice\penalties\stop_go_penalty_overtaking_on_formation_lap,2.wav,刚刚因为在编队圈超车收到了停车处罚,刚刚因为在编队圈超车收到了停车处罚,we've just had a stop-go penalty for overtaking on the formation lap
+\voice\penalties\stop_go_penalty_overtaking_on_formation_lap,3.wav,刚刚因为在编成圈超车收到了停车处罚,刚刚因为在编成圈超车收到了停车处罚,we've just had a stop-go penalty for passing on the formation lap
+\voice\penalties\stop_go_penalty_overtaking_under_safety_car,1.wav,刚刚因为在安全车带领下超车收到了停车处罚,刚刚因为在安全车带领下超车收到了停车处罚,we've just had a stop-go penalty for passing under the safety car
+\voice\penalties\stop_go_penalty_overtaking_under_safety_car,2.wav,刚刚因为在安全车带领下超车收到了停车处罚,刚刚因为在安全车带领下超车收到了停车处罚,we've just had a stop-go penalty for passing under the safety car
+\voice\penalties\stop_go_penalty_overtaking_under_safety_car,3.wav,刚刚因为安全车期间超车收到了停车处罚,刚刚因为安全车期间超车收到了停车处罚,we've just had a stop-go for passing under the safety car
+\voice\penalties\stop_go_penalty_overtaking_under_yellow,1.wav,刚刚因为黄旗下超车收到了停车处罚,刚刚因为黄旗下超车收到了停车处罚,we've just had a stop-go penalty for overtaking under yellow
+\voice\penalties\stop_go_penalty_overtaking_under_yellow,2.wav,刚刚因为在黄旗期间超车收到了停车处罚,刚刚因为在黄旗期间超车收到了停车处罚,we've just had a stop-go penalty for passing under yellow
+\voice\penalties\stop_go_penalty_overtaking_under_yellow,3.wav,刚刚因为在黄旗期间超车收到了停车处罚,刚刚因为在黄旗期间超车收到了停车处罚,we've just had a stop-go penalty for passing under yellow flag
+\voice\penalties\stop_go_penalty_speeding_in_pit_lane,1.wav,刚刚因为维修区超速收到了停车处罚,刚刚因为维修区超速收到了停车处罚,we've just had a stop-go penalty for speeding in the pit lane
+\voice\penalties\stop_go_penalty_speeding_in_pit_lane,2.wav,刚刚因为维修区超速收到了停车处罚,刚刚因为维修区超速收到了停车处罚,we've just had a stop-go penalty for speeding in the pit lane
+\voice\penalties\stop_go_penalty_speeding_in_pit_lane,3.wav,我们因为维修区超速收到了停车处罚,我们因为维修区超速收到了停车处罚,we've got had a stop-go penalty for speeding in the pit lane
+\voice\penalties\time_penalty,1.wav,刚刚收到了时间处罚,刚刚收到了时间处罚,we've just had a time penalty
+\voice\penalties\time_penalty,2.wav,刚刚收到了时间处罚,刚刚收到了时间处罚,we've just been given a time penalty
+\voice\penalties\time_penalty,3.wav,刚刚收到了时间处罚,刚刚收到了时间处罚,we've just been handed a time penalty
+\voice\penalties\time_penalty,sweary_4.wav,见鬼，我们刚收到了时间处罚,见鬼，我们刚收到了时间处罚,"bollocks, we've just had a time penalty"
+\voice\penalties\too_many_car_to_car_collisions,1.wav,别闹了，这可不是碰碰车比赛,别闹了，这可不是碰碰车比赛,"come on, this ain't bumper-cars"
+\voice\penalties\too_many_car_to_car_collisions,2.wav,小心，你不是在开碰碰车,小心，你不是在开碰碰车,"be careful, you're not racing bangers"
+\voice\penalties\too_many_car_to_car_collisions,3.wav,兄弟，这不是街头赛车,兄弟，这不是街头赛车,"come on mate, this ain't banger racing"
+\voice\penalties\too_many_car_to_car_collisions,4.wav,停下手里的碰撞驾驶,停下手里的碰撞驾驶,"come on, stop driving into people"
+\voice\penalties\warning_driving_too_slow,1.wav,你开得太慢了,你开得太慢了,you're driving too slowly
+\voice\penalties\warning_driving_too_slow,2.wav,我们开得太慢了，加速,我们开得太慢了，加速,"we're going too slowly, speed up"
+\voice\penalties\warning_driving_too_slow,3.wav,收到驾驶速度过慢的警告,收到驾驶速度过慢的警告,we've had a warning for driving too slowly
+\voice\penalties\warning_driving_too_slow,4.wav,你开得太慢了，加速,你开得太慢了，加速,"you're going too slowly, speed up"
+\voice\penalties\warning_driving_too_slow,5.wav,你开得太慢了,你开得太慢了,you're driving too slowly
+\voice\penalties\warning_enter_pits_to_avoid_exceeding_laps,1.wav,进入维修区以避免超出圈数限制,进入维修区以避免超出圈数限制,enter the pits to avoid exceeding the lap allowance
+\voice\penalties\warning_enter_pits_to_avoid_exceeding_laps,2.wav,我们用完了圈数豁免，这圈必须进站,我们用完了圈数豁免，这圈必须进站,"we've used our lap allowance, we need to pit this lap"
+\voice\penalties\warning_enter_pits_to_avoid_exceeding_laps,3.wav,我们用完了圈数豁免，这圈进站,我们用完了圈数豁免，这圈进站,"we've used our lap allowance, pit this lap"
+\voice\penalties\warning_enter_pits_to_avoid_exceeding_laps,4.wav,进入维修区以避免超出你的圈数限制,进入维修区以避免超出你的圈数限制,enter the pits to avoid exceeding your lap allowance
+\voice\penalties\warning_enter_pits_to_avoid_exceeding_laps,5.wav,本圈进站以避免超出圈数限制,本圈进站以避免超出圈数限制,box this lap to avoid exceeding your lap allowance
+\voice\penalties\warning_enter_pits_to_avoid_exceeding_laps,6.wav,我们已经完成了允许的最大圈数，这圈进站,我们已经完成了允许的最大圈数，这圈进站,"we've done as many laps as we're allowed, box this lap"
+\voice\penalties\warning_enter_pits_to_serve_penalty,1.wav,我们刚刚收到了警告，现在需要进站执行我们的处罚,我们刚刚收到了警告，现在需要进站执行我们的处罚,"we've just had a warning, we need to enter the pits now to serve our penalty"
+\voice\penalties\warning_enter_pits_to_serve_penalty,2.wav,我们收到了警告，现在需要进站执行这个处罚,我们收到了警告，现在需要进站执行这个处罚,"we've had a warning, we need to enter the pits now to serve this penalty"
+\voice\penalties\warning_enter_pits_to_serve_penalty,3.wav,我们刚刚收到了警告，必须进入维修区执行这个处罚,我们刚刚收到了警告，必须进入维修区执行这个处罚,"we've just been warned, we've got to enter the pits to serve this penalty"
+\voice\penalties\warning_enter_pits_to_serve_penalty,4.wav,我们刚刚收到了警告，我们必须进入维修区执行我们的处罚,我们刚刚收到了警告，我们必须进入维修区执行我们的处罚,"we've just had a warning, we've got to enter the pits to serve our penalty"
+\voice\penalties\warning_enter_pits_to_serve_penalty,5.wav,我们需要现在进入维修区执行这个处罚，我们刚刚收到了一个警告,我们需要现在进入维修区执行这个处罚，我们刚刚收到了一个警告,"we need to enter the pits now to serve this penalty, we've just had a warning"
+\voice\penalties\warning_headlights_required,1.wav,现在需要开启大灯,现在需要开启大灯,headlights are now required
+\voice\penalties\warning_headlights_required,10.wav,开启前照灯,开启前照灯,headlights required
+\voice\penalties\warning_headlights_required,2.wav,你现在需要打开车头灯，现在要求使用车头灯,你现在需要打开车头灯，现在要求使用车头灯,"you need to turn your headlights on, headlights are required now"
+\voice\penalties\warning_headlights_required,3.wav,现在需要开启大灯,现在需要开启大灯,headlights are now required
+\voice\penalties\warning_headlights_required,4.wav,请打开大灯，需要使用,请打开大灯，需要使用,"headlights are required, turn them on, please"
+\voice\penalties\warning_headlights_required,5.wav,你必须使用你的大灯,你必须使用你的大灯,you must use your headlights
+\voice\penalties\warning_headlights_required,6.wav,开启前照灯,开启前照灯,headlights required
+\voice\penalties\warning_headlights_required,7.wav,需要开启大灯,需要开启大灯,headlights are required
+\voice\penalties\warning_headlights_required,8.wav,你必须使用你的大灯,你必须使用你的大灯,you must use your headlights
+\voice\penalties\warning_headlights_required,9.wav,需要开启大灯,需要开启大灯,headlights are required
+\voice\penalties\warning_unsportsmanlike_driving,1.wav,刚刚因为不正当驾驶收到了警告,刚刚因为不正当驾驶收到了警告,we've just had a warning for unsportsmanlike driving
+\voice\penalties\warning_unsportsmanlike_driving,2.wav,我们收到了不文明驾驶的警告,我们收到了不文明驾驶的警告,we've had a warning for unsportsmanlike driving
+\voice\penalties\warning_unsportsmanlike_driving,3.wav,收到了不文明驾驶的警告，来吧，振作点,收到了不文明驾驶的警告，来吧，振作点,"we've had a warning for unsportsmanlike driving, come on, get your act together"
+\voice\penalties\warning_unsportsmanlike_driving,4.wav,刚刚收到了不文明驾驶的警告，来吧，冷静一点,刚刚收到了不文明驾驶的警告，来吧，冷静一点,"we've just had a warning for unsportsmanlike driving, come on, calm it down"
+\voice\penalties\warning_unsportsmanlike_driving,5.wav,稍微慢一点，伙计，我们因为不礼貌驾驶收到了警告,稍微慢一点，伙计，我们因为不礼貌驾驶收到了警告,"step it down a bit, mate, we've had a warning for unsportsmanlike driving"
+\voice\penalties\warning_unsportsmanlike_driving,6.wav,刚刚因为不文明驾驶收到了警告，来吧，保持冷静,刚刚因为不文明驾驶收到了警告，来吧，保持冷静,"we've just had a warning for unsportsmanlike driving, come on, keep cool"
+\voice\penalties\warning_unsportsmanlike_driving,7.wav,保持冷静，伙计，我们收到了不文明驾驶的警告,保持冷静，伙计，我们收到了不文明驾驶的警告,"stay calm, mate, we've had a warning for unsportsmanlike driving"
+\voice\penalties\warning_wrong_way,1.wav,你走错方向了,你走错方向了,you're going the wrong way
+\voice\penalties\warning_wrong_way,2.wav,这是错误的方向，掉头,这是错误的方向，掉头,"that's the wrong way, turn around"
+\voice\penalties\warning_wrong_way,3.wav,我们走错了方向,我们走错了方向,we're going the wrong way
+\voice\penalties\you_dont_have_a_penalty,1.wav,你没有处罚,你没有处罚,you don't have a penalty
+\voice\penalties\you_dont_have_a_penalty,2.wav,你没有处罚,你没有处罚,you don't have a penalty
+\voice\penalties\you_dont_have_a_penalty,3.wav,你没有处罚,你没有处罚,you don't have a penalty
+\voice\penalties\you_have_a_penalty,1.wav,你有一个处罚,你有一个处罚,you have a penalty
+\voice\penalties\you_have_a_penalty,2.wav,你有一个处罚,你有一个处罚,you have a penalty
+\voice\penalties\you_have_a_penalty,3.wav,你有一个处罚,你有一个处罚,you have a penalty
+\voice\penalties\you_still_have_a_penalty,1.wav,你仍有处罚,你仍有处罚,You still have a penalty
+\voice\penalties\you_still_have_a_penalty,2.wav,你还有处罚,你还有处罚,you've still got a penalty
+\voice\penalties\you_still_have_a_penalty,3.wav,你还有处罚,你还有处罚,you've still got a penalty
+\voice\push_now\laps_to_get_the_job_done,1.wav,还剩几圈完成任务,还剩几圈完成任务,laps to get the job done
+\voice\push_now\laps_to_get_the_job_done,2.wav,圈数，搞定这个,圈数，搞定这个,"laps, let's get this done"
+\voice\push_now\laps_to_get_the_job_done,3.wav,圈数以设定一个合理的时间,圈数以设定一个合理的时间,laps to set a decent time
+\voice\push_now\laps_to_get_the_job_done,4.wav,完成工作的圈数，伙计,完成工作的圈数，伙计,"laps to get the job done, mate"
+\voice\push_now\minutes_to_set_a_lap,1.wav,还剩几分钟才能跑出一圈,还剩几分钟才能跑出一圈,minutes to set a lap
+\voice\push_now\minutes_to_set_a_lap,2.wav,还剩几分钟完成一圈,还剩几分钟完成一圈,minutes to get the job done
+\voice\push_now\minutes_to_set_a_lap,3.wav,还剩几分钟才能跑出一圈,还剩几分钟才能跑出一圈,minutes to set a lap
+\voice\push_now\minutes_to_set_a_lap,4.wav,分钟才能跑一个像样的圈,分钟才能跑一个像样的圈,minutes to get a decent lap in
+\voice\push_now\minutes_to_set_a_lap,5.wav,还剩几分钟可以做出好圈,还剩几分钟可以做出好圈,minutes to do the business
+\voice\push_now\opponent_exiting_pits,1.wav,注意，有辆车正在出站,注意，有辆车正在出站,"heads up, there's a car exiting the pits"
+\voice\push_now\opponent_exiting_pits,10.wav,注意，有赛车重新加入赛道,注意，有赛车重新加入赛道,"heads up, there's a car rejoining"
+\voice\push_now\opponent_exiting_pits,2.wav,有辆车正在离开维修区,有辆车正在离开维修区,there's a car leaving the pits
+\voice\push_now\opponent_exiting_pits,3_op_prefix_ok.wav,有辆车正在离开维修区，注意,有辆车正在离开维修区，注意,"there's a car leaving the pits, heads up"
+\voice\push_now\opponent_exiting_pits,4.wav,有辆车正在离开维修区,有辆车正在离开维修区,there's a car leaving the pits
+\voice\push_now\opponent_exiting_pits,5.wav,有辆车正在离开维修区,有辆车正在离开维修区,there's a car leaving the pit lane
+\voice\push_now\opponent_exiting_pits,6.wav,有辆车正在重新加入赛道,有辆车正在重新加入赛道,there's a car rejoining
+\voice\push_now\opponent_exiting_pits,7.wav,前方有赛车重新加入,前方有赛车重新加入,there's a car rejoining in front
+\voice\push_now\opponent_exiting_pits,8.wav,有辆车正在离开维修区,有辆车正在离开维修区,there's a car leaving the pit lane
+\voice\push_now\opponent_exiting_pits,9.wav,有辆车正在离开维修区,有辆车正在离开维修区,there's a car exiting the pits
+\voice\push_now\pits_exit_clear,1.wav,赛道安全，加速，加速，加速,赛道安全，加速，加速，加速,"track's clear, push, push, push"
+\voice\push_now\pits_exit_clear,10.wav,维修区出口畅通,维修区出口畅通,pit exit's clear
+\voice\push_now\pits_exit_clear,11.wav,维修区出口看起来安全,维修区出口看起来安全,the pit exit looks clear
+\voice\push_now\pits_exit_clear,12.wav,出站口畅通,出站口畅通,pit exit is clear
+\voice\push_now\pits_exit_clear,13.wav,维修区出口畅通，加速,维修区出口畅通，加速,"the pit exit's clear, push"
+\voice\push_now\pits_exit_clear,14.wav,维修区出口安全，你现在可以加速,维修区出口安全，你现在可以加速,"all clear on pit exit, you can push now"
+\voice\push_now\pits_exit_clear,15.wav,维修区出口畅通，立即推出,维修区出口畅通，立即推出,"the pit exit is clear, push now"
+\voice\push_now\pits_exit_clear,16.wav,你的出口安全，不要越过白线,你的出口安全，不要越过白线,"your exit's clear, don't cross the white line"
+\voice\push_now\pits_exit_clear,17.wav,出站口畅通，不要越过白线,出站口畅通，不要越过白线,"pit exit's clear, don't cross the white line"
+\voice\push_now\pits_exit_clear,18.wav,你的出口安全，注意白色标线,你的出口安全，注意白色标线,"your exit is clear, watch the white line"
+\voice\push_now\pits_exit_clear,19.wav,维修区出口畅通，保持在白色线后,维修区出口畅通，保持在白色线后,"pit exit's clear, stay behind the white line"
+\voice\push_now\pits_exit_clear,2.wav,安全，现在推进,安全，现在推进,"all clear, push now"
+\voice\push_now\pits_exit_clear,20.wav,你的出口安全，不要越过白线,你的出口安全，不要越过白线,"your exit's clear, don't cross the white line"
+\voice\push_now\pits_exit_clear,21.wav,你的出口安全，不要越过白线,你的出口安全，不要越过白线,"your exit's clear, don't cross the white line"
+\voice\push_now\pits_exit_clear,22.wav,你的出口安全，不要越过白线,你的出口安全，不要越过白线,"your exit's clear, don't cross the white line"
+\voice\push_now\pits_exit_clear,23.wav,你的出口安全，不要越过白线,你的出口安全，不要越过白线,"your exit's clear, don't cross the white line"
+\voice\push_now\pits_exit_clear,24.wav,你的出口安全，不要越过白线,你的出口安全，不要越过白线,"your exit's clear, don't cross the white line"
+\voice\push_now\pits_exit_clear,3.wav,出口安全，推车,出口安全，推车,"exit's clear, push"
+\voice\push_now\pits_exit_clear,4.wav,维修区出口畅通,维修区出口畅通,pit exit's clear
+\voice\push_now\pits_exit_clear,5.wav,维修区出口畅通,维修区出口畅通,pit exit's clear
+\voice\push_now\pits_exit_clear,6.wav,维修区出口畅通,维修区出口畅通,the pit exit's clear
+\voice\push_now\pits_exit_clear,7.wav,维修区出口安全,维修区出口安全,all clear on pit exit
+\voice\push_now\pits_exit_clear,8.wav,维修区出口看起来安全,维修区出口看起来安全,the pit exit looks clear
+\voice\push_now\pits_exit_clear,9.wav,看起来你在维修区出口是安全的,看起来你在维修区出口是安全的,looks like you're clear on the pit exit
+\voice\push_now\pits_exit_traffic_behind,1.wav,后面有车，重新加入赛道时小心,后面有车，重新加入赛道时小心,"there's a car behind, take care rejoining"
+\voice\push_now\pits_exit_traffic_behind,11.wav,有车接近，保持在白线后面,有车接近，保持在白线后面,"there's a car approaching, stay behind the white line"
+\voice\push_now\pits_exit_traffic_behind,12.wav,有车接近，注意后视镜，保持在白线后面,有车接近，注意后视镜，保持在白线后面,"there's a car approaching, watch your mirrors, stay behind the white line"
+\voice\push_now\pits_exit_traffic_behind,13.wav,有车接近，不要越过白线,有车接近，不要越过白线,"there's a car approaching, don't cross the white line"
+\voice\push_now\pits_exit_traffic_behind,14.wav,有车接近，不要越过白线，注意后视镜,有车接近，不要越过白线，注意后视镜,"there's a car approaching, don't cross the white line, watch your mirrors"
+\voice\push_now\pits_exit_traffic_behind,15.wav,后面有车，注意后视镜,后面有车，注意后视镜,"there's traffic behind, watch your mirrors"
+\voice\push_now\pits_exit_traffic_behind,16.wav,后面有车，注意后视镜,后面有车，注意后视镜,"there's traffic behind, watch your mirrors"
+\voice\push_now\pits_exit_traffic_behind,17.wav,后面有车，注意后视镜,后面有车，注意后视镜,"there's traffic behind, watch your mirrors"
+\voice\push_now\pits_exit_traffic_behind,18.wav,后面有车，注意后视镜,后面有车，注意后视镜,"there's traffic behind, watch your mirrors"
+\voice\push_now\pits_exit_traffic_behind,19.wav,后面有车，注意后视镜,后面有车，注意后视镜,"there's traffic behind, watch your mirrors"
+\voice\push_now\pits_exit_traffic_behind,2.wav,后面有车，保持警惕,后面有车，保持警惕,"there's traffic behind, keep your wits about you"
+\voice\push_now\pits_exit_traffic_behind,20.wav,后面有车，注意后视镜,后面有车，注意后视镜,"there's traffic behind, watch your mirrors"
+\voice\push_now\pits_exit_traffic_behind,3.wav,车辆接近，注意后视镜,车辆接近，注意后视镜,"car approaching, watch your mirrors"
+\voice\push_now\pits_exit_traffic_behind,4.wav,后面有车,后面有车,there's traffic behind
+\voice\push_now\pits_exit_traffic_behind,5.wav,注意后视镜，有辆车在接近,注意后视镜，有辆车在接近,"watch your mirrors, there's a car approaching"
+\voice\push_now\pits_exit_traffic_behind,6.wav,有车辆接近，注意后视镜,有车辆接近，注意后视镜,"there's traffic approaching, watch your mirrors"
+\voice\push_now\pits_exit_traffic_behind,7.wav,后面有车，注意后视镜,后面有车，注意后视镜,"there's traffic behind, watch your mirrors"
+\voice\push_now\pits_exit_traffic_behind,8.wav,小心，有车接近,小心，有车接近,"take care, there's a car approaching"
+\voice\push_now\pits_exit_traffic_behind,9.wav,后面有车，小心,后面有车，小心,"there's traffic behind, take care"
+\voice\push_now\push_to_get_second,1_prefix_come_on.wav,现在推，我们可能拿到第二名,现在推，我们可能拿到第二名,"push now, we might get second place"
+\voice\push_now\push_to_get_second,2_prefix_come_on.wav,推，推，推，我们这里可能是第二名,推，推，推，我们这里可能是第二名,"push, push, push, we could be second here"
+\voice\push_now\push_to_get_second,3_prefix_ok.wav,推一把，我们可以在这里拿到第二名,推一把，我们可以在这里拿到第二名,"push, we can get second place here"
+\voice\push_now\push_to_get_third,1_prefix_come_on.wav,这里有机会登上领奖台，加油，加油，加油,这里有机会登上领奖台，加油，加油，加油,"there's a chance of a podium here, push, push, push"
+\voice\push_now\push_to_get_third,2_prefix_come_on.wav,加大努力，我们可以在这里拿到领奖台,加大努力，我们可以在这里拿到领奖台,"push harder, we can get a podium here"
+\voice\push_now\push_to_get_third,3_prefix_ok.wav,推一把，我们可能在这里拿到第三,推一把，我们可能在这里拿到第三,"push, we might get third here"
+\voice\push_now\push_to_get_win,1_prefix_come_on.wav,推，推，我们有机会赢得这场比赛,推，推，我们有机会赢得这场比赛,"push, push, push, we're in with a chance of winning this"
+\voice\push_now\push_to_get_win,2_prefix_ok.wav,现在推，我们可能赢得这场比赛,现在推，我们可能赢得这场比赛,"push now, we might win this"
+\voice\push_now\push_to_get_win,3_prefix_ok.wav,推，推，推，我们可以赢得这场比赛,推，推，推，我们可以赢得这场比赛,"push, push, push, we can win this"
+\voice\push_now\push_to_get_win,sweary_4_suffix_come_on.wav,拼了，这里有机会赢得比赛,拼了，这里有机会赢得比赛,"push like a bastard, there's a win to be had here"
+\voice\push_now\push_to_hold_position,1_prefix_come_on.wav,如果你要保住这个位置，你需要顶住,如果你要保住这个位置，你需要顶住,you need to push if we're gonna hold this position
+\voice\push_now\push_to_hold_position,2_suffix_come_on.wav,推，推，推，否则我们会失去这个位置,推，推，推，否则我们会失去这个位置,"push, push, push, or we'll lose this place"
+\voice\push_now\push_to_hold_position,3_prefix_ok_male.wav,推一把，后面的人在追近,推一把，后面的人在追近,"push now, the guy behind is catching"
+\voice\push_now\push_to_improve,1_op_prefix_come_on.wav,推推推，我们可以追上这辆车,推推推，我们可以追上这辆车,"push push push, we can catch this car"
+\voice\push_now\push_to_improve,1_op_prefix_come_on_male.wav,加油，我们可以超过这家伙,加油，我们可以超过这家伙,"push, push, push, we can get this guy"
+\voice\push_now\push_to_improve,2_op_prefix_ok.wav,现在推一把，我们可以在这里追回,现在推一把，我们可以在这里追回,"push now, we can catch up here"
+\voice\push_now\push_to_improve,2_op_prefix_ok_male.wav,现在推一把，我们可以追上这家伙,现在推一把，我们可以追上这家伙,"push now, we can catch this guy"
+\voice\push_now\push_to_improve,3_op_suffix_come_on.wav,推推推，我们可以拿到这个位置,推推推，我们可以拿到这个位置,"push push push, we can get this position"
+\voice\push_now\push_to_improve,3_op_suffix_come_on_male.wav,推一把，我们可以超过这家伙,推一把，我们可以超过这家伙,"push, we can get this guy"
+\voice\push_now\we_have,1_op_prefix_ok.wav,我们有,我们有,we've got
+\voice\push_now\we_have,2.wav,我们有,我们有,we have
+\voice\push_now\we_have,3_op_prefix_ok.wav,我们有,我们有,we've got
+\voice\push_now\we_have,4.wav,我们有,我们有,we've got
+\voice\race_time\fifteen_minutes_left,1_op_prefix_ok.wav,还剩15分钟,还剩15分钟,"15 minutes left, that's 15 minutes"
+\voice\race_time\fifteen_minutes_left,2.wav,还剩15分钟,还剩15分钟,"15 minutes remaining, 15 minutes to go"
+\voice\race_time\fifteen_minutes_left,3.wav,还剩15分钟,还剩15分钟,15 minutes left
+\voice\race_time\five_minutes_left,1_op_prefix_ok.wav,还剩5分钟,还剩5分钟,"5 minutes to go, 5 minutes left"
+\voice\race_time\five_minutes_left,2.wav,还剩5分钟,还剩5分钟,"that's 5 minutes to go, 5 minutes"
+\voice\race_time\five_minutes_left,3.wav,还剩5分钟,还剩5分钟,"5 minutes remaining, 5 minutes left"
+\voice\race_time\five_minutes_left_leading,1_op_prefix_come_on.wav,只剩五分钟，保持冷静，我们可以赢得这场比赛,只剩五分钟，保持冷静，我们可以赢得这场比赛,"just 5 minutes left, hold your nerve, we can win this"
+\voice\race_time\five_minutes_left_leading,2.wav,还剩5分钟，我们可以赢得这场比赛,还剩5分钟，我们可以赢得这场比赛,"that's 5 minutes remaining, we can win this"
+\voice\race_time\five_minutes_left_leading,3.wav,还剩5分钟，P1，加油，把它带回家,还剩5分钟，P1，加油，把它带回家,"that's 5 minutes remaining, P1, come on, bring it home"
+\voice\race_time\five_minutes_left_leading,4.wav,还剩5分钟，带它回家，你是冠军,还剩5分钟，带它回家，你是冠军,"5 minutes remaining, bring it on home, you're the man"
+\voice\race_time\five_minutes_left_leading,sweary_5.wav,还剩5分钟，加油，保持冷静，我们可以赢得这场比赛,还剩5分钟，加油，保持冷静，我们可以赢得这场比赛,"5 minutes left, come on, keep your shit together, we can win this"
+\voice\race_time\five_minutes_left_podium,1_op_suffix_come_on.wav,还剩五分钟，加油，保持冷静，我们会在这里登上领奖台,还剩五分钟，加油，保持冷静，我们会在这里登上领奖台,"that's 5 minutes to go, come on, keep it together, we'll be on the podium here"
+\voice\race_time\five_minutes_left_podium,2.wav,还剩五分钟，你有望登上领奖台,还剩五分钟，你有望登上领奖台,"5 minutes to go, you're looking good for a podium"
+\voice\race_time\five_minutes_left_podium,3.wav,还剩五分钟，这很好，如果我们能保持住，我们将登上领奖台,还剩五分钟，这很好，如果我们能保持住，我们将登上领奖台,"5 minutes to go, this is good, we'll be on the podium if we can keep it together"
+\voice\race_time\half_way,1.wav,你已经跑了一半了,你已经跑了一半了,you're half-way home
+\voice\race_time\half_way,2.wav,那是半程,那是半程,that's half-way
+\voice\race_time\half_way,3.wav,那是半程,那是半程,that's half-distance
+\voice\race_time\half_way,op_prefix_ok_4.wav,我们已经过半,我们已经过半,we're half-way home
+\voice\race_time\half_way,op_prefix_ok_5.wav,我们到达半程点,我们到达半程点,we're at the half-way point
+\voice\race_time\half_way,op_prefix_ok_6.wav,我们已经过半,我们已经过半,we're half-way through
+\voice\race_time\half_way,op_prefix_ok_7.wav,我们已经过半,我们已经过半,we're half-way home
+\voice\race_time\half_way,op_prefix_ok_8.wav,半程,半程,half-distance
+\voice\race_time\half_way,op_prefix_ok_9.wav,那是半程,那是半程,that's half-distance
+\voice\race_time\laps_remaining,1.wav,还剩几圈,还剩几圈,laps left
+\voice\race_time\laps_remaining,2.wav,还剩…圈,还剩…圈,laps to go
+\voice\race_time\laps_remaining,3.wav,还剩几圈,还剩几圈,laps remaining
+\voice\race_time\last_lap,1.wav,还剩一圈,还剩一圈,1 more lap to go
+\voice\race_time\last_lap,3.wav,还剩一圈,还剩一圈,1 more lap to go
+\voice\race_time\last_lap,4.wav,最后一圈,最后一圈,last lap
+\voice\race_time\last_lap_leading,1.wav,还剩一圈，加油,还剩一圈，加油,"1 more lap for the win, come on"
+\voice\race_time\last_lap_leading,2.wav,还剩一圈，保持专注,还剩一圈，保持专注,"1 more lap to go, stay focused"
+\voice\race_time\last_lap_leading,3.wav,还剩一圈，你是第一名,还剩一圈，你是第一名,"1 more lap, you're P1"
+\voice\race_time\last_lap_leading,4.wav,还剩一圈，保持住，我们会赢得这场比赛,还剩一圈，保持住，我们会赢得这场比赛,"1 more lap, keep it together, we'll win this"
+\voice\race_time\last_lap_top_three,1.wav,最后一圈，有望登上领奖台,最后一圈，有望登上领奖台,"last lap, looking good for a podium"
+\voice\race_time\last_lap_top_three,2.wav,最后一圈，把它带回家,最后一圈，把它带回家,"last lap, bring it on home"
+\voice\race_time\last_lap_top_three,3.wav,还剩一圈，保持住，我们会登上领奖台,还剩一圈，保持住，我们会登上领奖台,"1 more to go, keep it together, we'll be on the podium"
+\voice\race_time\less_than_one_minute,1.wav,不到一分钟,不到一分钟,less than a minute
+\voice\race_time\less_than_one_minute,2.wav,少于一分钟,少于一分钟,less than 1 minute
+\voice\race_time\less_than_one_minute,3.wav,不到一分钟,不到一分钟,less than a minute
+\voice\race_time\one_minute_remaining,1.wav,还剩1分钟,还剩1分钟,1 minute remaining
+\voice\race_time\one_minute_remaining,2.wav,还剩1分钟,还剩1分钟,"1 minute left, 1 minute"
+\voice\race_time\one_minute_remaining,3.wav,还剩一分钟,还剩一分钟,1 minute left
+\voice\race_time\one_more_lap_after_this_one,1.wav,还剩两圈,还剩两圈,1 more lap after this one
+\voice\race_time\one_more_lap_after_this_one,2.wav,还剩一圈,还剩一圈,1 more to go after this
+\voice\race_time\one_more_lap_after_this_one,3.wav,还剩一圈,还剩一圈,1 more remaining after this one
+\voice\race_time\remaining,1.wav,还剩,还剩,remaining
+\voice\race_time\remaining,2.wav,还剩,还剩,remaining
+\voice\race_time\remaining,3.wav,还剩,还剩,to go
+\voice\race_time\ten_minutes_left,1_op_prefix_ok.wav,还剩10分钟,还剩10分钟,"10 minutes to go, that's 10 minutes left"
+\voice\race_time\ten_minutes_left,2.wav,还剩10分钟,还剩10分钟,"10 minutes remaining, 10 minutes"
+\voice\race_time\ten_minutes_left,3.wav,你还剩10分钟,你还剩10分钟,"you got 10 minutes left, 10 minutes to go"
+\voice\race_time\this_is_the_last_lap,1.wav,这是你的最后一圈,这是你的最后一圈,this is your last lap
+\voice\race_time\this_is_the_last_lap,2.wav,这是最后一圈,这是最后一圈,this is the last lap
+\voice\race_time\this_is_the_last_lap,3.wav,这是你的最后一圈,这是你的最后一圈,this is your last lap
+\voice\race_time\twenty_minutes_left,1.wav,还剩20分钟，还剩20分钟,还剩20分钟，还剩20分钟,"that's 20 minutes to go, 20 minutes"
+\voice\race_time\twenty_minutes_left,2.wav,还剩20分钟,还剩20分钟,"20 minutes remaining, you got 20 minutes left"
+\voice\race_time\twenty_minutes_left,3.wav,还剩二十分钟,还剩二十分钟,that's 20 minutes to go
+\voice\race_time\two_minutes_left,1.wav,还剩两分钟，还剩两分钟,还剩两分钟，还剩两分钟,"2 minutes to go, 2 minutes"
+\voice\race_time\two_minutes_left,2.wav,还剩两分钟,还剩两分钟,"just 2 minutes left, 2 minutes to go"
+\voice\race_time\two_minutes_left,3.wav,还剩两分钟，两分钟,还剩两分钟，两分钟,"that's 2 minutes left, 2 minutes"
+\voice\race_time\zero_minutes_left,1.wav,方格旗出来了,方格旗出来了,checkered flag's out
+\voice\race_time\zero_minutes_left,2.wav,方格旗,方格旗,checkered flag
+\voice\race_time\zero_minutes_left,3.wav,方格旗出来了,方格旗出来了,checkered flag's out
+\voice\tyre_monitor\all_tyres_dirty,1.wav,你的所有轮胎都有碎片,你的所有轮胎都有碎片,you have dirt pick on all your tyres
+\voice\tyre_monitor\all_tyres_dirty,2.wav,你的所有轮胎都有碎片,你的所有轮胎都有碎片,you have dirt pick on all your tyres
+\voice\tyre_monitor\all_tyres_dirty,3.wav,你的所有轮胎都有碎片,你的所有轮胎都有碎片,you have dirt pick on all your tyres
+\voice\tyre_monitor\all_tyres_dirty,4.wav,你的所有轮胎都有碎片,你的所有轮胎都有碎片,you have dirt pick on all your tyres
+\voice\tyre_monitor\all_tyres_dirty,5.wav,你的所有轮胎都有碎片,你的所有轮胎都有碎片,you have dirt pick on all your tyres
+\voice\tyre_monitor\all_tyres_dirty,6.wav,你的所有轮胎都有碎片,你的所有轮胎都有碎片,you have dirt pick on all your tyres
+\voice\tyre_monitor\alternates,1.wav,备用轮胎,备用轮胎,alternates
+\voice\tyre_monitor\alternates,2.wav,备用轮胎,备用轮胎,alternates
+\voice\tyre_monitor\alternates,3.wav,备用轮胎,备用轮胎,alternates
+\voice\tyre_monitor\are_about,1.wav,即将,即将,are about
+\voice\tyre_monitor\are_about,2.wav,即将,即将,are about
+\voice\tyre_monitor\are_about,3.wav,即将,即将,are about
+\voice\tyre_monitor\average_front_inner_and_outer_same,1.wav,你的前内胎和外胎的平均温度大约相同,你的前内胎和外胎的平均温度大约相同,your average front inner and outer temps are about the same
+\voice\tyre_monitor\average_front_inner_and_outer_same,2.wav,你的前内胎和外胎的平均温度大约相同,你的前内胎和外胎的平均温度大约相同,your average front inner and outer temperatures are about the same
+\voice\tyre_monitor\average_front_inner_and_outer_same,3.wav,你的前内胎和外胎的平均温度大约相同,你的前内胎和外胎的平均温度大约相同,your average front inner and outer temps are about the same
+\voice\tyre_monitor\average_front_inner_and_outer_same,4.wav,你的前内胎和外胎的平均温度大约相同,你的前内胎和外胎的平均温度大约相同,your average front inner and outer temperatures are about the same
+\voice\tyre_monitor\average_front_inner_and_outer_same,5.wav,你的前内胎和外胎的平均温度大约相同,你的前内胎和外胎的平均温度大约相同,your average front inner and outer temperatures are about the same
+\voice\tyre_monitor\average_front_inner_temps_are,1.wav,你的前内胎平均温度是,你的前内胎平均温度是,your average front inner temperatures are
+\voice\tyre_monitor\average_front_inner_temps_are,2.wav,你的前内胎平均温度是,你的前内胎平均温度是,your average front inner temps are
+\voice\tyre_monitor\average_front_inner_temps_are,3.wav,你的前内胎平均温度是,你的前内胎平均温度是,your average front inner temps are
+\voice\tyre_monitor\average_front_inner_temps_are,4.wav,你的前内胎平均温度是,你的前内胎平均温度是,your average front inner temps are
+\voice\tyre_monitor\average_front_inner_temps_are,5.wav,你的前内胎平均温度是,你的前内胎平均温度是,your average front inner temps are
+\voice\tyre_monitor\average_rear_inner_and_outer_same,1.wav,你的后内侧和外侧轮胎平均温度大约相同,你的后内侧和外侧轮胎平均温度大约相同,your average rear inner and outer temperatures are about the same
+\voice\tyre_monitor\average_rear_inner_and_outer_same,2.wav,你的后内侧和外侧轮胎平均温度大约相同,你的后内侧和外侧轮胎平均温度大约相同,your average rear inner and outer temperatures are about the same
+\voice\tyre_monitor\average_rear_inner_and_outer_same,3.wav,你的后内侧和外侧轮胎平均温度大约相同,你的后内侧和外侧轮胎平均温度大约相同,your average rear inner and outer temps are about the same
+\voice\tyre_monitor\average_rear_inner_and_outer_same,4.wav,你的后内侧和外侧轮胎平均温度大约相同,你的后内侧和外侧轮胎平均温度大约相同,your average rear inner and outer temperatures are about the same
+\voice\tyre_monitor\average_rear_inner_and_outer_same,5.wav,你的后内侧和外侧轮胎平均温度大约相同,你的后内侧和外侧轮胎平均温度大约相同,your average rear inner and outer temperatures are about the same
+\voice\tyre_monitor\average_rear_inner_temps_are,1.wav,你的后内胎平均温度是,你的后内胎平均温度是,your average rear inner temperatures are
+\voice\tyre_monitor\average_rear_inner_temps_are,2.wav,你的后内胎平均温度是,你的后内胎平均温度是,your average rear inner temps are
+\voice\tyre_monitor\average_rear_inner_temps_are,3.wav,你的后内胎平均温度是,你的后内胎平均温度是,your average rear inner temperatures are
+\voice\tyre_monitor\average_rear_inner_temps_are,4.wav,你的后内胎平均温度是,你的后内胎平均温度是,your average rear inner temps are
+\voice\tyre_monitor\average_rear_inner_temps_are,5.wav,你的后内胎平均温度是,你的后内胎平均温度是,your average rear inner temperatures are
+\voice\tyre_monitor\bar,4.wav,轮胎监测,轮胎监测,bar
+\voice\tyre_monitor\bar,5.wav,轮胎监测,轮胎监测,bar
+\voice\tyre_monitor\bar,6.wav,轮胎监测,轮胎监测,bar
+\voice\tyre_monitor\camber_ok,1.wav,大概没问题,大概没问题,it's probably okay
+\voice\tyre_monitor\camber_ok,2.wav,看起来差不多,看起来差不多,it looks about right
+\voice\tyre_monitor\camber_ok,3.wav,看起来不错,看起来不错,it looks okay
+\voice\tyre_monitor\camber_ok,4.wav,看起来我们这边没问题,看起来我们这边没问题,it looks okay to us
+\voice\tyre_monitor\camber_ok,5.wav,它可能没问题,它可能没问题,it's probably fine
+\voice\tyre_monitor\celsius_colder_than_outer,1.wav,摄氏度比外侧胎低,摄氏度比外侧胎低,celsius colder than the outer
+\voice\tyre_monitor\celsius_colder_than_outer,2.wav,摄氏度比外侧胎低,摄氏度比外侧胎低,celsius colder than the outer
+\voice\tyre_monitor\celsius_colder_than_outer,3.wav,摄氏度比外侧胎低,摄氏度比外侧胎低,celsius colder than the outer
+\voice\tyre_monitor\celsius_colder_than_outer,4.wav,摄氏度比外侧胎低,摄氏度比外侧胎低,celsius colder than the outer
+\voice\tyre_monitor\celsius_colder_than_outer,5.wav,摄氏度比外侧胎低,摄氏度比外侧胎低,celsius colder than the outer
+\voice\tyre_monitor\celsius_colder_than_outers,1.wav,摄氏温度低于后胎,摄氏温度低于后胎,celsius colder than the outers
+\voice\tyre_monitor\celsius_colder_than_outers,2.wav,摄氏温度低于后胎,摄氏温度低于后胎,celsius colder than the outers
+\voice\tyre_monitor\celsius_colder_than_outers,3.wav,摄氏温度低于后胎,摄氏温度低于后胎,celsius colder than the outers
+\voice\tyre_monitor\celsius_colder_than_outers,4.wav,摄氏温度低于你的后胎,摄氏温度低于你的后胎,celsius colder than your outers
+\voice\tyre_monitor\celsius_colder_than_outers,5.wav,摄氏温度低于你的后胎,摄氏温度低于你的后胎,celsius colder than your outers
+\voice\tyre_monitor\celsius_hotter_than_outer,1.wav,摄氏度高于外侧,摄氏度高于外侧,celsius hotter than the outer
+\voice\tyre_monitor\celsius_hotter_than_outer,2.wav,摄氏度高于外侧,摄氏度高于外侧,celsius hotter than the outer
+\voice\tyre_monitor\celsius_hotter_than_outer,3.wav,摄氏度高于外侧,摄氏度高于外侧,celsius hotter than the outer
+\voice\tyre_monitor\celsius_hotter_than_outer,4.wav,摄氏度高于外侧,摄氏度高于外侧,celsius hotter than the outer
+\voice\tyre_monitor\celsius_hotter_than_outer,5.wav,摄氏度高于外侧,摄氏度高于外侧,celsius hotter than the outer
+\voice\tyre_monitor\celsius_hotter_than_outers,1.wav,摄氏温度高于外胎,摄氏温度高于外胎,celsius hotter than the outers
+\voice\tyre_monitor\celsius_hotter_than_outers,2.wav,摄氏温度高于外胎,摄氏温度高于外胎,celsius hotter than the outers
+\voice\tyre_monitor\celsius_hotter_than_outers,3.wav,摄氏温度高于外胎,摄氏温度高于外胎,celsius hotter than the outers
+\voice\tyre_monitor\celsius_hotter_than_outers,4.wav,摄氏温度高于你的后胎,摄氏温度高于你的后胎,celsius hotter than your outers
+\voice\tyre_monitor\celsius_hotter_than_outers,5.wav,摄氏温度高于你的后胎,摄氏温度高于你的后胎,celsius hotter than your outers
+\voice\tyre_monitor\cold_brakes_all_round,1.wav,你的刹车是冷的，慢点开,你的刹车是冷的，慢点开,"your brakes are cold, take it easy"
+\voice\tyre_monitor\cold_brakes_all_round,10.wav,你所有刹车都冷，小心点,你所有刹车都冷，小心点,"you got cold brakes all around, be careful"
+\voice\tyre_monitor\cold_brakes_all_round,11.wav,您的刹车是冷的，小心,您的刹车是冷的，小心,"your brakes are cold, be careful"
+\voice\tyre_monitor\cold_brakes_all_round,2.wav,您的刹车是冷的，小心,您的刹车是冷的，小心,"your brakes are cold, be careful"
+\voice\tyre_monitor\cold_brakes_all_round,3.wav,您的刹车是冷的，让我们给它们加点热,您的刹车是冷的，让我们给它们加点热,"your brakes are cold, let's get some heat into them"
+\voice\tyre_monitor\cold_brakes_all_round,4.wav,让我们把这些刹车热起来,让我们把这些刹车热起来,let's get some heat into these brakes
+\voice\tyre_monitor\cold_brakes_all_round,5.wav,我们需要让这些刹车暖起来,我们需要让这些刹车暖起来,we need to get some heat into these brakes
+\voice\tyre_monitor\cold_brakes_all_round,6.wav,你所有刹车都冷,你所有刹车都冷,you've got cold brakes all around
+\voice\tyre_monitor\cold_brakes_all_round,7.wav,你的刹车温度偏低，我们需要让它们热起来,你的刹车温度偏低，我们需要让它们热起来,"your brake temperatures are low, we need to get some heat into them"
+\voice\tyre_monitor\cold_brakes_all_round,8.wav,我们需要给这些刹车降温,我们需要给这些刹车降温,we need to get some head into these brakes
+\voice\tyre_monitor\cold_brakes_all_round,9.wav,您的刹车是冷的，我们需要让它们热起来,您的刹车是冷的，我们需要让它们热起来,"your brakes are cold, we need to get some heat into them"
+\voice\tyre_monitor\cold_front_brakes,1.wav,你的前刹车是冷的，小心,你的前刹车是冷的，小心,"your front brakes are cold, take care"
+\voice\tyre_monitor\cold_front_brakes,2.wav,小心点，伙计，你的前刹车是冷的,小心点，伙计，你的前刹车是冷的,"be careful, mate, your front brakes are cold"
+\voice\tyre_monitor\cold_front_brakes,3.wav,你的前刹车是冷的,你的前刹车是冷的,your front brakes are cold
+\voice\tyre_monitor\cold_front_tyres,1.wav,你的前胎是冷的,你的前胎是冷的,your front tyres are cold
+\voice\tyre_monitor\cold_front_tyres,2.wav,你的前胎是冷的,你的前胎是冷的,your front tyres are cold
+\voice\tyre_monitor\cold_front_tyres,3.wav,你有冷胎前胎,你有冷胎前胎,you got cold front tyres
+\voice\tyre_monitor\cold_left_tyres,1.wav,左侧轮胎冷,左侧轮胎冷,left side tyres are cold
+\voice\tyre_monitor\cold_left_tyres,2.wav,你的左侧行驶侧轮胎是冷的,你的左侧行驶侧轮胎是冷的,your left side tyres are cold
+\voice\tyre_monitor\cold_left_tyres,3.wav,左侧轮胎冷,左侧轮胎冷,left side tyres are cold
+\voice\tyre_monitor\cold_rear_brakes,1.wav,你的后刹车是冷的，伙计,你的后刹车是冷的，伙计,"your rear brakes are cold, mate"
+\voice\tyre_monitor\cold_rear_brakes,2.wav,你的后刹车是冷的，小心,你的后刹车是冷的，小心,"your rear brakes are cold, be careful"
+\voice\tyre_monitor\cold_rear_brakes,3.wav,你的后刹车是冷的,你的后刹车是冷的,your rear brakes are cold
+\voice\tyre_monitor\cold_rear_tyres,1.wav,你的后胎是冷的,你的后胎是冷的,your rear tyres are cold
+\voice\tyre_monitor\cold_rear_tyres,2.wav,你的后胎是冷的,你的后胎是冷的,your rears are cold
+\voice\tyre_monitor\cold_rear_tyres,3.wav,注意你的后轮胎，它们很冷,注意你的后轮胎，它们很冷,"watch your rear tyres, they're pretty cold"
+\voice\tyre_monitor\cold_right_tyres,1.wav,你的右轮胎是冷的,你的右轮胎是冷的,your right tyres are cold
+\voice\tyre_monitor\cold_right_tyres,2.wav,你的右侧轮胎是冷的,你的右侧轮胎是冷的,your right side tyres are cold
+\voice\tyre_monitor\cold_right_tyres,3.wav,你的右侧轮胎是冷的,你的右侧轮胎是冷的,your right sides are cold
+\voice\tyre_monitor\cold_tyres_all_round,1.wav,所有轮胎都冷,所有轮胎都冷,cold tyres all around
+\voice\tyre_monitor\cold_tyres_all_round,2.wav,你的轮胎是冷的，注意,你的轮胎是冷的，注意,"your tyres are cold, watch out"
+\voice\tyre_monitor\cold_tyres_all_round,3.wav,慢点，你的轮胎是冷的,慢点，你的轮胎是冷的,"take it easy, you got cold tyres"
+\voice\tyre_monitor\compound_a,4.wav,A的,A的,A's
+\voice\tyre_monitor\compound_a,5.wav,A的,A的,A's
+\voice\tyre_monitor\compound_a,6.wav,A的,A的,A's
+\voice\tyre_monitor\compound_b,7.wav,B的,B的,B's
+\voice\tyre_monitor\compound_b,8.wav,B的,B的,B's
+\voice\tyre_monitor\compound_b,9.wav,B的,B的,B's
+\voice\tyre_monitor\compound_c,10.wav,C胎,C胎,C's
+\voice\tyre_monitor\compound_c,11.wav,C胎,C胎,C's
+\voice\tyre_monitor\compound_c,12.wav,C胎,C胎,C's
+\voice\tyre_monitor\compound_d,13.wav,D胎,D胎,D's
+\voice\tyre_monitor\compound_d,14.wav,D胎,D胎,D's
+\voice\tyre_monitor\compound_d,15.wav,D胎,D胎,D's
+\voice\tyre_monitor\cooking_brakes_all_round,1.wav,你的刹车温度都很高，我们必须得让它们冷却下来,你的刹车温度都很高，我们必须得让它们冷却下来,"your brake temperatures are all really high, we're gonna have to cool them"
+\voice\tyre_monitor\cooking_brakes_all_round,2.wav,你的刹车温度非常高，伙计，它们正在过热,你的刹车温度非常高，伙计，它们正在过热,"your brake temperatures are really high, mate, they're cooking"
+\voice\tyre_monitor\cooking_brakes_all_round,3.wav,你的刹车温度过高,你的刹车温度过高,your brake temperatures are far too high
+\voice\tyre_monitor\cooking_front_brakes,1.wav,你的前刹车真的很热,你的前刹车真的很热,your front brakes are really hot
+\voice\tyre_monitor\cooking_front_brakes,2.wav,你的前刹车在高温下工作，朋友,你的前刹车在高温下工作，朋友,"your front brakes are cooking, mate"
+\voice\tyre_monitor\cooking_front_brakes,3.wav,你的前刹车过热,你的前刹车过热,your front brakes are far too hot
+\voice\tyre_monitor\cooking_front_tyres,1.wav,你在前面轮胎上过热了，伙计,你在前面轮胎上过热了，伙计,"you're cooking your front tyres, mate"
+\voice\tyre_monitor\cooking_front_tyres,2.wav,你的前胎真的很热,你的前胎真的很热,your front tyres are really hot
+\voice\tyre_monitor\cooking_front_tyres,3.wav,你的前胎温度过高,你的前胎温度过高,your front tyres are far too hot
+\voice\tyre_monitor\cooking_left_front_tyre,1.wav,你的左前胎在磨损,你的左前胎在磨损,you're cooking your left front tyre
+\voice\tyre_monitor\cooking_left_front_tyre,2.wav,你的左前胎真的很热,你的左前胎真的很热,your left front tyre is really hot
+\voice\tyre_monitor\cooking_left_front_tyre,3.wav,你的左前胎在磨损,你的左前胎在磨损,your left front's cooking
+\voice\tyre_monitor\cooking_left_rear_tyre,1.wav,你的左后轮胎在磨损,你的左后轮胎在磨损,you're cooking your left rear tyre
+\voice\tyre_monitor\cooking_left_rear_tyre,2.wav,你的左后胎真的很热,你的左后胎真的很热,your left rear is really hot
+\voice\tyre_monitor\cooking_left_rear_tyre,3.wav,你的左后胎在磨损，伙计,你的左后胎在磨损，伙计,"your left rear's cooking, mate"
+\voice\tyre_monitor\cooking_left_tyres,1.wav,你在磨损左边的轮胎,你在磨损左边的轮胎,you're cooking your left side tyres
+\voice\tyre_monitor\cooking_left_tyres,2.wav,你的左側輪胎温度过高,你的左側輪胎温度过高,your left side tyres are far too hot
+\voice\tyre_monitor\cooking_left_tyres,3.wav,你的左侧行胎温度非常高,你的左侧行胎温度非常高,your left side tyres are really hot
+\voice\tyre_monitor\cooking_rear_brakes,1.wav,你的后刹车过热了，它们真的很热,你的后刹车过热了，它们真的很热,"your rear brakes have overheated, they're really hot"
+\voice\tyre_monitor\cooking_rear_brakes,2.wav,你的后刹车过热了，伙计,你的后刹车过热了，伙计,"your rear brakes are too hot, mate"
+\voice\tyre_monitor\cooking_rear_brakes,3.wav,你的后刹车真的很热,你的后刹车真的很热,your rear brakes are really hot
+\voice\tyre_monitor\cooking_rear_tyres,1.wav,你的后胎在磨损，朋友,你的后胎在磨损，朋友,"you're cooking your rear tyres, mate"
+\voice\tyre_monitor\cooking_rear_tyres,2.wav,你的后胎真的很热,你的后胎真的很热,your rear tyres are really hot
+\voice\tyre_monitor\cooking_rear_tyres,3.wav,你的后胎太热了，不会持久,你的后胎太热了，不会持久,"your rear tyres are too hot, they're not gonna last"
+\voice\tyre_monitor\cooking_right_front_tyre,1.wav,你的右前轮胎正在磨损,你的右前轮胎正在磨损,you're cooking your right front tyre
+\voice\tyre_monitor\cooking_right_front_tyre,2.wav,你的右前轮胎在磨损,你的右前轮胎在磨损,your right front tyre is cooking
+\voice\tyre_monitor\cooking_right_front_tyre,3.wav,你的右前胎真的很热,你的右前胎真的很热,your right front's really hot
+\voice\tyre_monitor\cooking_right_rear_tyre,1.wav,你的右后轮胎在过度磨损，伙计,你的右后轮胎在过度磨损，伙计,"you're cooking your right rear tyre, mate"
+\voice\tyre_monitor\cooking_right_rear_tyre,2.wav,你的右后胎真的很热,你的右后胎真的很热,"your right rear's really, really hot"
+\voice\tyre_monitor\cooking_right_rear_tyre,3.wav,你的右后轮胎在磨损,你的右后轮胎在磨损,your right rear tyre is cooking
+\voice\tyre_monitor\cooking_right_tyres,1.wav,你右侧行胎正在磨损，伙计,你右侧行胎正在磨损，伙计,"you're cooking your right side tyres, mate"
+\voice\tyre_monitor\cooking_right_tyres,2.wav,你的右侧轮胎非常热,你的右侧轮胎非常热,your right side tyres are really hot
+\voice\tyre_monitor\cooking_right_tyres,3.wav,你的右侧轮胎温度过高,你的右侧轮胎温度过高,your right side tyres are far too hot
+\voice\tyre_monitor\cooking_tyres_all_round,1.wav,我们需要让这些轮胎冷却下来，伙计，它们真的很热,我们需要让这些轮胎冷却下来，伙计，它们真的很热,"we need to cool these tyres down, mate, they're really hot"
+\voice\tyre_monitor\cooking_tyres_all_round,2.wav,减速一点，这样轮胎撑不了多久,减速一点，这样轮胎撑不了多久,"back off a bit, these tyres are not gonna last like this"
+\voice\tyre_monitor\cooking_tyres_all_round,3.wav,你的轮胎各处都在发热，真的很热,你的轮胎各处都在发热，真的很热,"your tyres are cooking all around, they're really hot"
+\voice\tyre_monitor\damage_to_front_tyres,1.wav,你把两个前胎都损坏了,你把两个前胎都损坏了,you've damaged both front tyres
+\voice\tyre_monitor\damage_to_front_tyres,2.wav,你把两个前胎都损坏了,你把两个前胎都损坏了,you've damaged both front tyres
+\voice\tyre_monitor\damage_to_front_tyres,3.wav,你把两个前胎都损坏了,你把两个前胎都损坏了,you've damaged both front tyres
+\voice\tyre_monitor\damage_to_left_front_tyre,1.wav,你损毁了左前轮胎,你损毁了左前轮胎,you've damaged your left front tyre
+\voice\tyre_monitor\damage_to_left_front_tyre,2.wav,你损毁了左前轮胎,你损毁了左前轮胎,you've damaged your left front tyre
+\voice\tyre_monitor\damage_to_left_front_tyre,3.wav,你损毁了左前轮胎,你损毁了左前轮胎,you've damaged your left front tyre
+\voice\tyre_monitor\damage_to_left_rear_tyre,1.wav,你损伤了左后轮胎,你损伤了左后轮胎,you've damaged your left rear tyre
+\voice\tyre_monitor\damage_to_left_rear_tyre,2.wav,你损伤了左后轮胎,你损伤了左后轮胎,you've damaged your left rear tyre
+\voice\tyre_monitor\damage_to_left_rear_tyre,3.wav,你损伤了左后轮胎,你损伤了左后轮胎,you've damaged your left rear tyre
+\voice\tyre_monitor\damage_to_rear_tyres,1.wav,你损坏了两个后轮胎,你损坏了两个后轮胎,you've damaged both rear tyres
+\voice\tyre_monitor\damage_to_rear_tyres,2.wav,你损坏了两个后轮胎,你损坏了两个后轮胎,you've damaged both rear tyres
+\voice\tyre_monitor\damage_to_rear_tyres,3.wav,你损坏了两个后轮胎,你损坏了两个后轮胎,you've damaged both rear tyres
+\voice\tyre_monitor\damage_to_right_front_tyre,1.wav,你右前轮胎受损,你右前轮胎受损,you've damaged your right front tyre
+\voice\tyre_monitor\damage_to_right_front_tyre,2.wav,你右前轮胎受损,你右前轮胎受损,you've damaged your right front tyre
+\voice\tyre_monitor\damage_to_right_front_tyre,3.wav,你右前轮胎受损,你右前轮胎受损,you've damaged your right front tyre
+\voice\tyre_monitor\damage_to_right_rear_tyre,1.wav,你损伤了右后轮胎,你损伤了右后轮胎,you've damaged your right rear tyre
+\voice\tyre_monitor\damage_to_right_rear_tyre,2.wav,你损伤了右后轮胎,你损伤了右后轮胎,you've damaged your right rear tyre
+\voice\tyre_monitor\damage_to_right_rear_tyre,3.wav,你损伤了右后轮胎,你损伤了右后轮胎,you've damaged your right rear tyre
+\voice\tyre_monitor\faster_than,4.wav,比…快,比…快,faster than
+\voice\tyre_monitor\faster_than,5.wav,比…更快,比…更快,quicker than
+\voice\tyre_monitor\faster_than,6.wav,比…快,比…快,faster than
+\voice\tyre_monitor\front_pressures_high,2.wav,你的前胎压力看起来有点高,你的前胎压力看起来有点高,your front pressures look a bit high
+\voice\tyre_monitor\front_pressures_low,4.wav,你的前胎压力有点低,你的前胎压力有点低,your front pressures are a bit low
+\voice\tyre_monitor\front_pressures_ok,3.wav,你的前胎胎压看起来正常,你的前胎胎压看起来正常,your front pressures look okay
+\voice\tyre_monitor\front_pressures_very_high,1.wav,你的前胎压力非常高,你的前胎压力非常高,your front pressures are very high
+\voice\tyre_monitor\front_pressures_very_low,5.wav,你的前胎压力非常低,你的前胎压力非常低,your front pressures are very low
+\voice\tyre_monitor\fronts_are_flat_spotted,1.wav,你的前胎有刹车平点,你的前胎有刹车平点,your front tyres are flat spotted
+\voice\tyre_monitor\fronts_are_flat_spotted,2.wav,你的前胎有刹车平点,你的前胎有刹车平点,your front tyres are flat spotted
+\voice\tyre_monitor\fronts_are_flat_spotted,3.wav,你的前胎有刹车平点,你的前胎有刹车平点,your front tyres are flat spotted
+\voice\tyre_monitor\fronts_are_flat_spotted,4.wav,你的前胎有刹车平点,你的前胎有刹车平点,your front tyres are flat spotted
+\voice\tyre_monitor\fronts_are_flat_spotted,5.wav,你的前胎有刹车平点,你的前胎有刹车平点,your front tyres are flat spotted
+\voice\tyre_monitor\good_brake_temps,1.wav,你的刹车温度看起来不错,你的刹车温度看起来不错,your brake temperatures look good
+\voice\tyre_monitor\good_brake_temps,10.wav,你的刹车温度正常,你的刹车温度正常,your brake temperatures are fine
+\voice\tyre_monitor\good_brake_temps,2.wav,你的刹车温度正常，伙计,你的刹车温度正常，伙计,"your brake temperatures are fine, mate"
+\voice\tyre_monitor\good_brake_temps,3.wav,你的刹车温度看起来很好,你的刹车温度看起来很好,your brake temperatures are looking good
+\voice\tyre_monitor\good_brake_temps,4.wav,你的刹车温度看起来很好,你的刹车温度看起来很好,your brake temps look good
+\voice\tyre_monitor\good_brake_temps,5.wav,你的刹车温度看起来不错,你的刹车温度看起来不错,your brake temperatures look good
+\voice\tyre_monitor\good_brake_temps,6.wav,你的刹车温度看起来不错,你的刹车温度看起来不错,your brake temperatures look good
+\voice\tyre_monitor\good_brake_temps,7.wav,你的刹车温度正常,你的刹车温度正常,your brake temperatures are okay
+\voice\tyre_monitor\good_brake_temps,8.wav,你的刹车温度正常,你的刹车温度正常,your brake temperatures are okay
+\voice\tyre_monitor\good_brake_temps,9.wav,你的刹车温度良好,你的刹车温度良好,your brake temps are good
+\voice\tyre_monitor\good_tyre_temps,1.wav,你的轮胎温度看起来不错,你的轮胎温度看起来不错,your tyre temperatures look good
+\voice\tyre_monitor\good_tyre_temps,10.wav,轮胎温度良好,轮胎温度良好,tyre temps are good
+\voice\tyre_monitor\good_tyre_temps,11.wav,你的轮胎温度良好,你的轮胎温度良好,your tyre temperatures are good
+\voice\tyre_monitor\good_tyre_temps,12.wav,你的轮胎温度都很好,你的轮胎温度都很好,your tyre temps are all good
+\voice\tyre_monitor\good_tyre_temps,13.wav,你的轮胎温度看起来不错,你的轮胎温度看起来不错,your tyre temperatures look good
+\voice\tyre_monitor\good_tyre_temps,2.wav,你的轮胎温度正常,你的轮胎温度正常,your tyre temperatures are okay
+\voice\tyre_monitor\good_tyre_temps,3.wav,你的轮胎温度看起来很好,你的轮胎温度看起来很好,your tyre temps are looking good
+\voice\tyre_monitor\good_tyre_temps,4.wav,你的轮胎温度正常,你的轮胎温度正常,your tyre temperatures are fine
+\voice\tyre_monitor\good_tyre_temps,5.wav,你的胎压正常,你的胎压正常,your tyre temps are good
+\voice\tyre_monitor\good_tyre_temps,6.wav,你的轮胎温度都很好,你的轮胎温度都很好,your tyre temps are all fine
+\voice\tyre_monitor\good_tyre_temps,7.wav,轮胎温度良好,轮胎温度良好,tyre temps are good
+\voice\tyre_monitor\good_tyre_temps,8.wav,轮胎温度良好,轮胎温度良好,tyre temperatures are good
+\voice\tyre_monitor\good_tyre_temps,9.wav,你的轮胎温度看起来不错,你的轮胎温度看起来不错,your tyre temperatures look good
+\voice\tyre_monitor\good_wear,1.wav,你的轮胎磨损看起来不错，伙计,你的轮胎磨损看起来不错，伙计,"your tyre wear looks fine, mate"
+\voice\tyre_monitor\good_wear,2.wav,没有看到明显的轮胎磨损,没有看到明显的轮胎磨损,we're not seeing any significant tyre wear
+\voice\tyre_monitor\good_wear,3.wav,你的轮胎状况良好，伙计，只需继续推进,你的轮胎状况良好，伙计，只需继续推进,"your tyres are fine, mate, just push"
+\voice\tyre_monitor\good_wear_general,1.wav,你的轮胎磨损看起来不错，伙计,你的轮胎磨损看起来不错，伙计,"your tyre wear looks fine, mate"
+\voice\tyre_monitor\good_wear_general,2.wav,没有看到明显的轮胎磨损,没有看到明显的轮胎磨损,we're not seeing any significant tyre wear
+\voice\tyre_monitor\hards,16.wav,硬胎,硬胎,hards
+\voice\tyre_monitor\hards,17.wav,硬胎,硬胎,hards
+\voice\tyre_monitor\hards,18.wav,硬胎,硬胎,hards
+\voice\tyre_monitor\hot_brakes_all_round,1.wav,你的刹车过热,你的刹车过热,your brakes are hot
+\voice\tyre_monitor\hot_brakes_all_round,2.wav,你的所有刹车都过热,你的所有刹车都过热,your brakes are hot all around
+\voice\tyre_monitor\hot_brakes_all_round,3.wav,你的刹车温度相当高,你的刹车温度相当高,your brake temperatures are pretty high
+\voice\tyre_monitor\hot_front_brakes,1.wav,你的前刹车开始变热,你的前刹车开始变热,your front brakes are getting a bit hot
+\voice\tyre_monitor\hot_front_brakes,2.wav,你的前刹车开始变热了,你的前刹车开始变热了,your front brakes are getting pretty hot
+\voice\tyre_monitor\hot_front_brakes,3.wav,你的前刹车现在很热,你的前刹车现在很热,your front brakes are pretty hot now
+\voice\tyre_monitor\hot_front_tyres,1.wav,你的前胎看起来有点热,你的前胎看起来有点热,your front tyres are looking a little hot
+\voice\tyre_monitor\hot_front_tyres,2.wav,你的前胎很热,你的前胎很热,your front tyres are hot
+\voice\tyre_monitor\hot_front_tyres,3.wav,前胎热,前胎热,"front tyres are hot, fronts are hot"
+\voice\tyre_monitor\hot_left_front_tyre,1.wav,你的左前胎温度过高,你的左前胎温度过高,your left front tyre is running hot
+\voice\tyre_monitor\hot_left_front_tyre,2.wav,你的左前胎过热,你的左前胎过热,your left front is hot
+\voice\tyre_monitor\hot_left_front_tyre,3.wav,你的左前胎过热,你的左前胎过热,your left front's hot
+\voice\tyre_monitor\hot_left_rear_tyre,1.wav,左后轮胎看起来有点热,左后轮胎看起来有点热,left rear tyre looks a little hot
+\voice\tyre_monitor\hot_left_rear_tyre,2.wav,你的左后胎过热,你的左后胎过热,your left rear is hot
+\voice\tyre_monitor\hot_left_rear_tyre,3.wav,你的左后胎过热,你的左后胎过热,your left rear is hot
+\voice\tyre_monitor\hot_left_tyres,1.wav,你的左侧行胎温度过高,你的左侧行胎温度过高,your left side tyres are running hot
+\voice\tyre_monitor\hot_left_tyres,2.wav,你的左侧行胎过热,你的左侧行胎过热,your left side tyres hot
+\voice\tyre_monitor\hot_left_tyres,3.wav,你的左胎温度过高,你的左胎温度过高,your left sides are running hot
+\voice\tyre_monitor\hot_left_tyres,4.wav,你需要关注左侧行驶轮胎的温度,你需要关注左侧行驶轮胎的温度,you need to watch your left side tyre temperatures
+\voice\tyre_monitor\hot_rear_brakes,1.wav,你的后刹车开始变热了,你的后刹车开始变热了,your rear brakes are getting pretty hot
+\voice\tyre_monitor\hot_rear_brakes,2.wav,你的后刹车开始过热,你的后刹车开始过热,your rear brakes are starting to overheat
+\voice\tyre_monitor\hot_rear_brakes,3.wav,你的后刹车过热,你的后刹车过热,your rear brakes are hot
+\voice\tyre_monitor\hot_rear_tyres,1.wav,你的后胎正在变热,你的后胎正在变热,your rear tyres are getting hot
+\voice\tyre_monitor\hot_rear_tyres,2.wav,注意后胎温度，它们正在升高,注意后胎温度，它们正在升高,"watch your rear tyre temperatures, they're getting hot"
+\voice\tyre_monitor\hot_rear_tyres,3.wav,后胎很热，你的后胎正在变热,后胎很热，你的后胎正在变热,"rear tyres are hot, your rear tyres are getting hot"
+\voice\tyre_monitor\hot_right_front_tyre,1.wav,你的右前轮胎过热，右前方过热,你的右前轮胎过热，右前方过热,"your right front tyre is hot, right front is hot"
+\voice\tyre_monitor\hot_right_front_tyre,2.wav,注意右前胎温度，它很高,注意右前胎温度，它很高,"watch your right front temperature, it's hot"
+\voice\tyre_monitor\hot_right_front_tyre,3.wav,你的右前轮胎正在变热,你的右前轮胎正在变热,your right front tyre's getting hot
+\voice\tyre_monitor\hot_right_rear_tyre,1.wav,右后胎过热，你的右后胎过热,右后胎过热，你的右后胎过热,"right rear is hot, your right rear is hot"
+\voice\tyre_monitor\hot_right_rear_tyre,2.wav,注意右后胎温度，它正在升高,注意右后胎温度，它正在升高,"watch your right rear temperature, it's getting hot"
+\voice\tyre_monitor\hot_right_rear_tyre,3.wav,你的右后轮胎过热,你的右后轮胎过热,your right rear tyre is hot
+\voice\tyre_monitor\hot_right_tyres,1.wav,右侧轮胎热,右侧轮胎热,right side tyres are hot
+\voice\tyre_monitor\hot_right_tyres,2.wav,你需要关注右胎温度,你需要关注右胎温度,you need to watch your right side tyre temperatures
+\voice\tyre_monitor\hot_right_tyres,3.wav,你的右侧轮胎正在变热,你的右侧轮胎正在变热,your right side tyres are getting hot
+\voice\tyre_monitor\hot_tyres_all_round,1.wav,你的轮胎温度全部偏高,你的轮胎温度全部偏高,your tyre temperatures are hot all around
+\voice\tyre_monitor\hot_tyres_all_round,2.wav,你的所有轮胎都显得很热,你的所有轮胎都显得很热,all your tyres are looking hot
+\voice\tyre_monitor\hot_tyres_all_round,3.wav,你的轮胎现在看起来很热,你的轮胎现在看起来很热,your tyres are looking pretty hot now
+\voice\tyre_monitor\hyper_softs,1.wav,超软胎,超软胎,hyper softs
+\voice\tyre_monitor\hyper_softs,2.wav,超软胎,超软胎,hyper softs
+\voice\tyre_monitor\hyper_softs,3.wav,超软胎,超软胎,hyper softs
+\voice\tyre_monitor\intermediates,19.wav,中间胎,中间胎,inters
+\voice\tyre_monitor\intermediates,20.wav,中间胎,中间胎,inters
+\voice\tyre_monitor\intermediates,21.wav,半雨胎,半雨胎,intermediates
+\voice\tyre_monitor\knackered_all_round,1.wav,你需要更换所有轮胎,你需要更换所有轮胎,you're gonna need new tyres all around
+\voice\tyre_monitor\knackered_all_round,2.wav,你的轮胎看起来都挺糟糕的，伙计,你的轮胎看起来都挺糟糕的，伙计,"your tyres all look pretty bad, mate"
+\voice\tyre_monitor\knackered_all_round,3.wav,你的轮胎都磨损了,你的轮胎都磨损了,your tyres are all worn out
+\voice\tyre_monitor\knackered_fronts,1.wav,你的前胎已经很磨损了,你的前胎已经很磨损了,your front tyres are pretty knackered
+\voice\tyre_monitor\knackered_fronts,2.wav,你的前胎已经磨损了，伙计,你的前胎已经磨损了，伙计,"your front tyres are worn out, mate"
+\voice\tyre_monitor\knackered_fronts,3.wav,你的前胎已经磨损,你的前胎已经磨损,your front tyres have gone
+\voice\tyre_monitor\knackered_left_front,1.wav,左前胎看起来严重磨损,左前胎看起来严重磨损,that left front's looking heavily worn
+\voice\tyre_monitor\knackered_left_front,2.wav,你的左前轮胎看起来已经磨损严重了，伙计,你的左前轮胎看起来已经磨损严重了，伙计,"your left front tyre looks knackered, mate"
+\voice\tyre_monitor\knackered_left_front,3.wav,我认为你的左前胎坏了,我认为你的左前胎坏了,I think your left front's gone
+\voice\tyre_monitor\knackered_left_rear,1.wav,那左后轮胎已经磨损完了,那左后轮胎已经磨损完了,that left rear tyre's shot
+\voice\tyre_monitor\knackered_left_rear,2.wav,你的左后胎完了，伙计,你的左后胎完了，伙计,"your left rear's had it, mate"
+\voice\tyre_monitor\knackered_left_rear,3.wav,我们看到你的左后胎看起来已经磨损,我们看到你的左后胎看起来已经磨损,your left rear looks worn out to us
+\voice\tyre_monitor\knackered_lefts,1.wav,我们认为你的左侧轮胎已经磨损不堪,我们认为你的左侧轮胎已经磨损不堪,we think your left side tyres have had it
+\voice\tyre_monitor\knackered_lefts,2.wav,看来你的左侧轮胎磨损严重了，伙计,看来你的左侧轮胎磨损严重了，伙计,"it looks like your left side tyres are knackered, mate"
+\voice\tyre_monitor\knackered_lefts,3.wav,我认为你的左侧轮胎现在开始磨损了,我认为你的左侧轮胎现在开始磨损了,I think your left side tyres will be wearing out now
+\voice\tyre_monitor\knackered_rears,1.wav,你的后胎看起来磨损得很严重,你的后胎看起来磨损得很严重,your rear tyres look pretty shot
+\voice\tyre_monitor\knackered_rears,2.wav,你的后胎已经磨损了，伙计,你的后胎已经磨损了，伙计,"your rear tyres are knackered, mate"
+\voice\tyre_monitor\knackered_rears,3.wav,你的后胎已经磨损,你的后胎已经磨损,your rear tyres are worn out
+\voice\tyre_monitor\knackered_right_front,1.wav,右前轮胎看起来已经磨损,右前轮胎看起来已经磨损,that right front tyre looks knackered
+\voice\tyre_monitor\knackered_right_front,2.wav,右前胎坏了，伙计,右前胎坏了，伙计,"that right front's gone, mate"
+\voice\tyre_monitor\knackered_right_front,3.wav,你的右前胎看起来磨损得很严重,你的右前胎看起来磨损得很严重,your right front looks pretty worn out
+\voice\tyre_monitor\knackered_right_rear,1.wav,右后胎不行了,右后胎不行了,that right rear's had it
+\voice\tyre_monitor\knackered_right_rear,2.wav,我们认为右后轮胎可能已经磨损,我们认为右后轮胎可能已经磨损,we think that right rear is probably gone
+\voice\tyre_monitor\knackered_right_rear,3.wav,你的右后胎完全磨损了，伙计,你的右后胎完全磨损了，伙计,"your right rear's completely worn out, mate"
+\voice\tyre_monitor\knackered_rights,1.wav,你的右侧轮胎已经磨损,你的右侧轮胎已经磨损,your right side tyres are worn out
+\voice\tyre_monitor\knackered_rights,2.wav,你的右侧轮胎已经磨损严重,你的右侧轮胎已经磨损严重,your right side tyres have had it
+\voice\tyre_monitor\knackered_rights,3.wav,你的右胎磨损严重，伙计,你的右胎磨损严重，伙计,"your right sides are knackered, mate"
+\voice\tyre_monitor\laps_on_current_tyres_intro,1.wav,我们估计大约,我们估计大约,we estimate about
+\voice\tyre_monitor\laps_on_current_tyres_intro,2.wav,我们认为你可以跑大约,我们认为你可以跑大约,we think you'll get about
+\voice\tyre_monitor\laps_on_current_tyres_intro,3.wav,我们认为你应该还能跑大约,我们认为你应该还能跑大约,we think you should get about
+\voice\tyre_monitor\laps_on_current_tyres_outro,1.wav,这套轮胎还有更多的圈数,这套轮胎还有更多的圈数,more laps on this set of tyres
+\voice\tyre_monitor\laps_on_current_tyres_outro,2.wav,这套轮胎还能跑更多的圈数,这套轮胎还能跑更多的圈数,more laps out of this set of tyres
+\voice\tyre_monitor\laps_on_current_tyres_outro,3.wav,这套轮胎还能跑更多圈,这套轮胎还能跑更多圈,more laps from this set of tyres
+\voice\tyre_monitor\left_front,1.wav,前左,前左,front left
+\voice\tyre_monitor\left_front,2.wav,前左,前左,front left
+\voice\tyre_monitor\left_front,3.wav,左前,左前,left front
+\voice\tyre_monitor\left_front_is_flat_spotted,1.wav,你的左前胎有刹车平点,你的左前胎有刹车平点,your front left tyre is flat spotted
+\voice\tyre_monitor\left_front_is_flat_spotted,2.wav,你的左前胎有刹车平点,你的左前胎有刹车平点,your front left tyre is flat spotted
+\voice\tyre_monitor\left_front_is_flat_spotted,3.wav,你的左前胎有刹车平点,你的左前胎有刹车平点,your front left tyre is flat spotted
+\voice\tyre_monitor\left_front_is_flat_spotted,4.wav,你的左前胎有刹车平点,你的左前胎有刹车平点,your front left tyre is flat spotted
+\voice\tyre_monitor\left_front_is_flat_spotted,5.wav,你的左前胎有刹车平点,你的左前胎有刹车平点,your front left tyre is flat spotted
+\voice\tyre_monitor\left_front_pressure_high,2.wav,你的左前胎压看起来很高,你的左前胎压看起来很高,your left front pressure looks quite high
+\voice\tyre_monitor\left_front_pressure_low,4.wav,你的左前胎压看起来很低,你的左前胎压看起来很低,your left front pressure looks quite low
+\voice\tyre_monitor\left_front_pressure_ok,3.wav,你的左前胎压看起来正常,你的左前胎压看起来正常,your left front pressure looks okay
+\voice\tyre_monitor\left_front_pressure_very_high,1.wav,你的左前胎压看起来非常高,你的左前胎压看起来非常高,your left front pressure looks very high
+\voice\tyre_monitor\left_front_pressure_very_low,5.wav,你的左前胎压看起来非常低,你的左前胎压看起来非常低,your left front pressure looks very low
+\voice\tyre_monitor\left_rear,1.wav,左后,左后,left rear
+\voice\tyre_monitor\left_rear,2.wav,左后,左后,left rear
+\voice\tyre_monitor\left_rear,3.wav,左后,左后,rear left
+\voice\tyre_monitor\left_rear_is_flat_spotted,1.wav,你的左后轮胎有刹车平点,你的左后轮胎有刹车平点,your rear left tyre is flat spotted
+\voice\tyre_monitor\left_rear_is_flat_spotted,2.wav,你的左后轮胎有刹车平点,你的左后轮胎有刹车平点,your rear left tyre is flat spotted
+\voice\tyre_monitor\left_rear_is_flat_spotted,3.wav,你的左后轮胎有刹车平点,你的左后轮胎有刹车平点,your rear left tyre is flat spotted
+\voice\tyre_monitor\left_rear_is_flat_spotted,4.wav,你的左后轮胎有刹车平点,你的左后轮胎有刹车平点,your rear left tyre is flat spotted
+\voice\tyre_monitor\left_rear_is_flat_spotted,5.wav,你的左后轮胎有刹车平点,你的左后轮胎有刹车平点,your rear left tyre is flat spotted
+\voice\tyre_monitor\left_rear_pressure_high,2.wav,你的左后胎压有点高,你的左后胎压有点高,your left rear pressure is a bit high
+\voice\tyre_monitor\left_rear_pressure_low,4.wav,你的左后胎压看起来有点低,你的左后胎压看起来有点低,your left rear pressure looks a bit low
+\voice\tyre_monitor\left_rear_pressure_ok,3.wav,你的左后胎压看起来正常,你的左后胎压看起来正常,your left rear pressure looks okay
+\voice\tyre_monitor\left_rear_pressure_very_high,1.wav,你的左后胎压非常高,你的左后胎压非常高,your left rear pressure is very high
+\voice\tyre_monitor\left_rear_pressure_very_low,5.wav,你的左后胎压非常低,你的左后胎压非常低,your left rear pressure is very low
+\voice\tyre_monitor\left_tyres_dirty,1.wav,你的左侧轮胎有脏物,你的左侧轮胎有脏物,you have dirt pick on your left side tyres
+\voice\tyre_monitor\left_tyres_dirty,2.wav,你的左侧轮胎有脏物,你的左侧轮胎有脏物,you have dirt pick on your left side tyres
+\voice\tyre_monitor\left_tyres_dirty,3.wav,你的左侧轮胎有脏物,你的左侧轮胎有脏物,you have dirt pick on your left side tyres
+\voice\tyre_monitor\left_tyres_dirty,4.wav,你的左侧轮胎有脏物,你的左侧轮胎有脏物,you have dirt pick on your left side tyres
+\voice\tyre_monitor\left_tyres_dirty,5.wav,你的左侧轮胎有脏物,你的左侧轮胎有脏物,you have dirt pick on your left side tyres
+\voice\tyre_monitor\left_tyres_dirty,6.wav,你的左侧轮胎有脏物,你的左侧轮胎有脏物,you have dirt pick on your left side tyres
+\voice\tyre_monitor\lf_inner_and_outer_are_same,1.wav,你的左前内侧和外侧温度大约相同,你的左前内侧和外侧温度大约相同,your left front inner and outer temps are about the same
+\voice\tyre_monitor\lf_inner_and_outer_are_same,2.wav,你的左前内侧和外侧温度大约相同,你的左前内侧和外侧温度大约相同,your left front inner and outer temperatures are about the same
+\voice\tyre_monitor\lf_inner_and_outer_are_same,3.wav,你的左前轮内侧和外侧温度差不多,你的左前轮内侧和外侧温度差不多,the inner and outer temperatures on your left front are about the same
+\voice\tyre_monitor\lf_inner_and_outer_are_same,4.wav,你的左前内侧和外侧温度大约相同,你的左前内侧和外侧温度大约相同,your left front inner and outer temps are about the same
+\voice\tyre_monitor\lf_inner_and_outer_are_same,5.wav,你的左前内侧和外侧温度大约相同,你的左前内侧和外侧温度大约相同,your left front inner and outer temperatures are about the same
+\voice\tyre_monitor\lf_inner_is_running,1.wav,你的左前内胎正在使用,你的左前内胎正在使用,your left front inner is running
+\voice\tyre_monitor\lf_inner_is_running,2.wav,你的左前内胎正在使用,你的左前内胎正在使用,your left front inner is running
+\voice\tyre_monitor\lf_inner_is_running,3.wav,你的左前内胎正在,你的左前内胎正在,your left front inner is
+\voice\tyre_monitor\lf_inner_is_running,4.wav,你的左前内胎正在,你的左前内胎正在,your left front inner is
+\voice\tyre_monitor\lf_inner_is_running,5.wav,你的左前内胎正在使用,你的左前内胎正在使用,your left front inner is running
+\voice\tyre_monitor\locking_fronts_corner_warning,7.wav,你在弯道抱死前胎,你在弯道抱死前胎,you're locking your fronts into
+\voice\tyre_monitor\locking_fronts_corner_warning,8.wav,你在进入,你在进入,you're locking your fronts going into
+\voice\tyre_monitor\locking_fronts_corner_warning,9.wav,我们看到前胎在进入,我们看到前胎在进入,we're seeing front locking going into
+\voice\tyre_monitor\locking_fronts_lap_warning,1_op_prefix_ok.wav,我们看到很多前胎抱死,我们看到很多前胎抱死,we're seeing lots of front locking
+\voice\tyre_monitor\locking_fronts_lap_warning,2.wav,你前胎抱死,你前胎抱死,you're locking your front brakes
+\voice\tyre_monitor\locking_fronts_lap_warning,3_op_prefix_ok.wav,你前胎抱死频繁,你前胎抱死频繁,you're locking up your fronts a lot
+\voice\tyre_monitor\locking_left_front_corner_warning,1.wav,你在进入弯道时左前轮抱死,你在进入弯道时左前轮抱死,you're locking your left front going into
+\voice\tyre_monitor\locking_left_front_corner_warning,2.wav,你在左前刹车时抱死,你在左前刹车时抱死,you're locking your left front braking for
+\voice\tyre_monitor\locking_left_front_corner_warning,3.wav,你左前轮抱死,你左前轮抱死,you're locking your left front into
+\voice\tyre_monitor\locking_left_front_lap_warning,1.wav,你的左前胎经常抱死,你的左前胎经常抱死,you're locking your front left tyre a lot
+\voice\tyre_monitor\locking_left_front_lap_warning,2.wav,你左前轮抱死,你左前轮抱死,you're locking your front left
+\voice\tyre_monitor\locking_left_front_lap_warning,3.wav,你的左前轮在抱死,你的左前轮在抱死,you're locking your front left wheel
+\voice\tyre_monitor\locking_left_rear_lap_warning,1.wav,我们看到很多左后轮抱死,我们看到很多左后轮抱死,we're seeing lots of left rear locking
+\voice\tyre_monitor\locking_left_rear_lap_warning,2.wav,你左后轮抱死,你左后轮抱死,you're locking your left rear
+\voice\tyre_monitor\locking_left_rear_lap_warning,3.wav,我们看到很多左后轮抱死,我们看到很多左后轮抱死,we're seeing lots of left rear locking
+\voice\tyre_monitor\locking_rears_corner_warning,10.wav,你在进入,你在进入,you're locking your rears going into
+\voice\tyre_monitor\locking_rears_corner_warning,11.wav,你在弯道抱死后胎,你在弯道抱死后胎,you're locking your rears into
+\voice\tyre_monitor\locking_rears_corner_warning,12.wav,我们看到后轮在弯道抱死,我们看到后轮在弯道抱死,we're seeing rear locking into
+\voice\tyre_monitor\locking_rears_lap_warning,1_op_prefix_ok.wav,你后轮抱死频繁,你后轮抱死频繁,you're locking your rears a lot
+\voice\tyre_monitor\locking_rears_lap_warning,2.wav,我们看到后刹车频繁抱死,我们看到后刹车频繁抱死,we're seeing lots of rear brake locking
+\voice\tyre_monitor\locking_rears_lap_warning,3_op_prefix_ok.wav,我们看到很多后轮抱死,我们看到很多后轮抱死,we're seeing lots of rear locking
+\voice\tyre_monitor\locking_right_front_corner_warning,4.wav,你右前轮入弯时在抱死,你右前轮入弯时在抱死,you're locking your right front going into
+\voice\tyre_monitor\locking_right_front_corner_warning,5.wav,你右前轮抱死,你右前轮抱死,you're locking your right front into
+\voice\tyre_monitor\locking_right_front_corner_warning,6.wav,右前轮抱死进入,右前轮抱死进入,we're seeing right front locking into
+\voice\tyre_monitor\locking_right_front_lap_warning,1.wav,你右前轮抱死,你右前轮抱死,you're locking your front right
+\voice\tyre_monitor\locking_right_front_lap_warning,2.wav,看到很多右前抱死,看到很多右前抱死,we're seeing lots of front right locking
+\voice\tyre_monitor\locking_right_front_lap_warning,3.wav,你右前轮抱死,你右前轮抱死,you're locking your front right wheel
+\voice\tyre_monitor\locking_right_rear_lap_warning,1.wav,你右后轮抱死,你右后轮抱死,you're locking your right rear
+\voice\tyre_monitor\locking_right_rear_lap_warning,2.wav,右后轮频繁抱死,右后轮频繁抱死,we're seeing lots of right rear locking
+\voice\tyre_monitor\locking_right_rear_lap_warning,3.wav,你右后轮抱死,你右后轮抱死,you're locking your right rear
+\voice\tyre_monitor\lr_inner_and_outer_are_same,1.wav,你的左后内侧和外侧温度大约相同,你的左后内侧和外侧温度大约相同,your left rear inner and outer temps are about the same
+\voice\tyre_monitor\lr_inner_and_outer_are_same,2.wav,你的左后内侧和外侧胎温差不多,你的左后内侧和外侧胎温差不多,your left rear inner and outer temperatures are about the same
+\voice\tyre_monitor\lr_inner_and_outer_are_same,3.wav,你的左后内侧和外侧温度大约相同,你的左后内侧和外侧温度大约相同,your left rear inner and outer temps are about the same
+\voice\tyre_monitor\lr_inner_and_outer_are_same,4.wav,你的左后轮内侧和外侧温度差不多,你的左后轮内侧和外侧温度差不多,your inner and outer temps are about the same for your left rear
+\voice\tyre_monitor\lr_inner_and_outer_are_same,5.wav,你的左后内侧和外侧胎温差不多,你的左后内侧和外侧胎温差不多,your left rear inner and outer temperatures are about the same
+\voice\tyre_monitor\lr_inner_is_running,1.wav,你的左后内胎正在使用,你的左后内胎正在使用,your left rear inner is running
+\voice\tyre_monitor\lr_inner_is_running,2.wav,你的左后内胎正在使用,你的左后内胎正在使用,your left rear inner is running
+\voice\tyre_monitor\lr_inner_is_running,3.wav,你的左后内胎正在使用,你的左后内胎正在使用,your left rear inner is running
+\voice\tyre_monitor\lr_inner_is_running,4.wav,你的左后内胎正在,你的左后内胎正在,your left rear inner is
+\voice\tyre_monitor\lr_inner_is_running,5.wav,你的左后内胎正在,你的左后内胎正在,your left rear inner is
+\voice\tyre_monitor\mediums,22.wav,中性胎,中性胎,mediums
+\voice\tyre_monitor\mediums,23.wav,中性胎,中性胎,mediums
+\voice\tyre_monitor\mediums,24.wav,中性胎,中性胎,mediums
+\voice\tyre_monitor\minor_wear_all_round,1.wav,我们发现轮胎各处都有轻微磨损,我们发现轮胎各处都有轻微磨损,we're seeing minor wear all around
+\voice\tyre_monitor\minor_wear_all_round,2.wav,你的所有轮胎都有一定的磨损,你的所有轮胎都有一定的磨损,you've got a bit of tyre wear on all your tyres
+\voice\tyre_monitor\minor_wear_all_round,3.wav,我们注意到所有轮胎都有一定程度的磨损,我们注意到所有轮胎都有一定程度的磨损,we're seeing a bit of wear all around
+\voice\tyre_monitor\minor_wear_fronts,1.wav,前胎出现轻微磨损,前胎出现轻微磨损,we're seeing minor wear on the fronts
+\voice\tyre_monitor\minor_wear_fronts,2.wav,看到你的前胎有一些磨损,看到你的前胎有一些磨损,we're seeing a bit of wear on your front tyres
+\voice\tyre_monitor\minor_wear_fronts,3.wav,你的前胎有轻微磨损,你的前胎有轻微磨损,your front tyres have got minor wear
+\voice\tyre_monitor\minor_wear_left_front,1.wav,看到你的左前轮胎有轻微磨损,看到你的左前轮胎有轻微磨损,we're seeing minor wear on your left front
+\voice\tyre_monitor\minor_wear_left_front,2.wav,看来你的左前胎有些磨损,看来你的左前胎有些磨损,looks like a bit of wear on your left front
+\voice\tyre_monitor\minor_wear_left_front,3.wav,你的左前胎有一些磨损,你的左前胎有一些磨损,your left front has a bit of wear
+\voice\tyre_monitor\minor_wear_left_rear,1.wav,看到你的左后轮胎有轻微磨损,看到你的左后轮胎有轻微磨损,we're seeing minor wear on your left rear
+\voice\tyre_monitor\minor_wear_left_rear,2.wav,看到你的左后轮胎有一些磨损,看到你的左后轮胎有一些磨损,we're seeing a bit of wear on your left rear
+\voice\tyre_monitor\minor_wear_left_rear,3.wav,你的左后胎有轻微磨损,你的左后胎有轻微磨损,your left rear has minor wear
+\voice\tyre_monitor\minor_wear_lefts,1.wav,我们在你的左侧轮胎上看到轻微磨损,我们在你的左侧轮胎上看到轻微磨损,we're seeing minor wear on your left side tyres
+\voice\tyre_monitor\minor_wear_lefts,2.wav,你的左侧轮胎有轻微磨损,你的左侧轮胎有轻微磨损,your left side tyres are carrying minor wear
+\voice\tyre_monitor\minor_wear_lefts,3.wav,你的左侧行胎有一些磨损,你的左侧行胎有一些磨损,there's a bit of wear on your left side tyres
+\voice\tyre_monitor\minor_wear_rears,1.wav,看到您的后轮胎有轻微磨损,看到您的后轮胎有轻微磨损,we're seeing minor wear on your rear tyres
+\voice\tyre_monitor\minor_wear_rears,2.wav,你的后胎有一些磨损,你的后胎有一些磨损,your rear tyres have got a bit of wear
+\voice\tyre_monitor\minor_wear_rears,3.wav,看到您的后轮胎有轻微磨损,看到您的后轮胎有轻微磨损,we're seeing minor wear on your rear tyres
+\voice\tyre_monitor\minor_wear_right_front,1.wav,看到你的右前胎有些磨损,看到你的右前胎有些磨损,we're seeing a bit of wear on your right front
+\voice\tyre_monitor\minor_wear_right_front,2.wav,你的右前胎有些磨损,你的右前胎有些磨损,your right front's carrying a bit of wear
+\voice\tyre_monitor\minor_wear_right_front,3.wav,你的右前胎有轻微磨损,你的右前胎有轻微磨损,your right front has got minor wear
+\voice\tyre_monitor\minor_wear_right_rear,1.wav,你的右后轮胎有轻微磨损,你的右后轮胎有轻微磨损,your right rear has got minor wear
+\voice\tyre_monitor\minor_wear_right_rear,2.wav,你的右后轮胎有些磨损,你的右后轮胎有些磨损,your right rear is carrying a bit of wear
+\voice\tyre_monitor\minor_wear_right_rear,3.wav,看到你的右后轮胎有一些磨损,看到你的右后轮胎有一些磨损,we're seeing a bit of wear on your right rear
+\voice\tyre_monitor\minor_wear_rights,1.wav,你的右侧轮胎有些磨损,你的右侧轮胎有些磨损,there's a bit of wear on your right side tyres
+\voice\tyre_monitor\minor_wear_rights,2.wav,看到你的右侧轮胎有些磨损,看到你的右侧轮胎有些磨损,we're seeing a bit of wear on your right side tyres
+\voice\tyre_monitor\minor_wear_rights,3.wav,你的右侧轮胎有轻微磨损,你的右侧轮胎有轻微磨损,you're carrying minor wear on your right side tyres
+\voice\tyre_monitor\minutes_on_current_tyres_intro,1.wav,我们估计大约,我们估计大约,we estimate about
+\voice\tyre_monitor\minutes_on_current_tyres_intro,2.wav,我们认为你可以跑大约,我们认为你可以跑大约,we think you'll get about
+\voice\tyre_monitor\minutes_on_current_tyres_intro,3.wav,我们认为你应该还能跑大约,我们认为你应该还能跑大约,we think you should get about
+\voice\tyre_monitor\minutes_on_current_tyres_outro,1.wav,这套轮胎还有更多分钟,这套轮胎还有更多分钟,more minutes for this set of tyres
+\voice\tyre_monitor\minutes_on_current_tyres_outro,2.wav,这套轮胎还有更多分钟,这套轮胎还有更多分钟,more minutes for this set of tyres
+\voice\tyre_monitor\minutes_on_current_tyres_outro,3.wav,这些轮胎还有更多分钟,这些轮胎还有更多分钟,more minutes on these tyres
+\voice\tyre_monitor\options,1.wav,选项,选项,options
+\voice\tyre_monitor\options,2.wav,轮胎选项,轮胎选项,option tyres
+\voice\tyre_monitor\options,3.wav,选项,选项,options
+\voice\tyre_monitor\primaries,25.wav,主胎,主胎,primaries
+\voice\tyre_monitor\primaries,26.wav,主胎,主胎,primaries
+\voice\tyre_monitor\primaries,27.wav,主胎,主胎,primaries
+\voice\tyre_monitor\primes,1.wav,Prime轮胎,Prime轮胎,prime tyres
+\voice\tyre_monitor\primes,2.wav,Prime轮胎,Prime轮胎,prime tyres
+\voice\tyre_monitor\primes,3.wav,初级胎,初级胎,primes
+\voice\tyre_monitor\psi,1.wav,胎压,胎压,psi
+\voice\tyre_monitor\psi,2.wav,胎压,胎压,psi
+\voice\tyre_monitor\psi,3.wav,胎压,胎压,psi
+\voice\tyre_monitor\rear_pressures_high,2.wav,你的后胎压力有点高,你的后胎压力有点高,your rear pressures are a bit high
+\voice\tyre_monitor\rear_pressures_low,4.wav,你的后胎胎压有点低,你的后胎胎压有点低,your rear pressures are a bit low
+\voice\tyre_monitor\rear_pressures_ok,3.wav,你的后胎胎压看起来正常,你的后胎胎压看起来正常,your rear pressures look okay
+\voice\tyre_monitor\rear_pressures_very_high,1.wav,你的后胎压力非常高,你的后胎压力非常高,your rear pressures are very high
+\voice\tyre_monitor\rear_pressures_very_low,5.wav,你的后胎胎压非常低,你的后胎胎压非常低,your rear pressures are very low
+\voice\tyre_monitor\rears_are_flat_spotted,1.wav,你的后胎有刹车平点,你的后胎有刹车平点,your rear tyres are flat spotted
+\voice\tyre_monitor\rears_are_flat_spotted,2.wav,你的后胎有刹车平点,你的后胎有刹车平点,your rear tyres are flat spotted
+\voice\tyre_monitor\rears_are_flat_spotted,3.wav,你的后胎有刹车平点,你的后胎有刹车平点,your rear tyres are flat spotted
+\voice\tyre_monitor\rears_are_flat_spotted,4.wav,你的后胎有刹车平点,你的后胎有刹车平点,your rear tyres are flat spotted
+\voice\tyre_monitor\rears_are_flat_spotted,5.wav,你的后胎有刹车平点,你的后胎有刹车平点,your rear tyres are flat spotted
+\voice\tyre_monitor\rf_inner_and_outer_are_same,1.wav,你的右前内侧和外侧胎温差不多,你的右前内侧和外侧胎温差不多,your right front inner and outer temperatures are about the same
+\voice\tyre_monitor\rf_inner_and_outer_are_same,2.wav,你的右前内侧和外侧温度大约相同,你的右前内侧和外侧温度大约相同,your right front inner and outer temps are about the same
+\voice\tyre_monitor\rf_inner_and_outer_are_same,3.wav,你的右前胎内侧和外侧的温度大约相同,你的右前胎内侧和外侧的温度大约相同,the inner and outer temps of your right front are about the same
+\voice\tyre_monitor\rf_inner_and_outer_are_same,4.wav,你的右前内侧和外侧温度大约相同,你的右前内侧和外侧温度大约相同,your right front inner and outer temps are about the same
+\voice\tyre_monitor\rf_inner_and_outer_are_same,5.wav,你的右前内侧和外侧胎温差不多,你的右前内侧和外侧胎温差不多,your right front inner and outer temperatures are about the same
+\voice\tyre_monitor\rf_inner_is_running,1.wav,你的右前内胎正在磨损,你的右前内胎正在磨损,your right front inner is running
+\voice\tyre_monitor\rf_inner_is_running,2.wav,你的右前内胎正在磨损,你的右前内胎正在磨损,your right front inner is running
+\voice\tyre_monitor\rf_inner_is_running,3.wav,你的右前内胎正在,你的右前内胎正在,your right front inner is
+\voice\tyre_monitor\rf_inner_is_running,4.wav,你的右前内胎正在磨损,你的右前内胎正在磨损,your right front inner is running
+\voice\tyre_monitor\rf_inner_is_running,5.wav,你的右前内胎正在磨损,你的右前内胎正在磨损,your right front inner is running
+\voice\tyre_monitor\right_front,1.wav,前右,前右,front right
+\voice\tyre_monitor\right_front,2.wav,右前,右前,right front
+\voice\tyre_monitor\right_front,3.wav,前右,前右,front right
+\voice\tyre_monitor\right_front_is_flat_spotted,1.wav,你的右前轮胎有刹车平点,你的右前轮胎有刹车平点,your right front tyre is flat spotted
+\voice\tyre_monitor\right_front_is_flat_spotted,2.wav,你的右前轮胎有刹车平点,你的右前轮胎有刹车平点,your right front tyre is flat spotted
+\voice\tyre_monitor\right_front_is_flat_spotted,3.wav,你的右前轮胎有刹车平点,你的右前轮胎有刹车平点,your right front tyre is flat spotted
+\voice\tyre_monitor\right_front_is_flat_spotted,4.wav,你的右前轮胎有刹车平点,你的右前轮胎有刹车平点,your right front tyre is flat spotted
+\voice\tyre_monitor\right_front_is_flat_spotted,5.wav,你的右前轮胎有刹车平点,你的右前轮胎有刹车平点,your right front tyre is flat spotted
+\voice\tyre_monitor\right_front_pressure_high,2.wav,你的右前胎压偏高,你的右前胎压偏高,your right front pressure is quite high
+\voice\tyre_monitor\right_front_pressure_low,4.wav,你的右前胎压很低,你的右前胎压很低,your right front pressure is quite low
+\voice\tyre_monitor\right_front_pressure_ok,3.wav,你的右前胎压看起来正常,你的右前胎压看起来正常,your right front pressure looks okay
+\voice\tyre_monitor\right_front_pressure_very_high,1.wav,你的右前胎压非常高,你的右前胎压非常高,your right front pressure is very high
+\voice\tyre_monitor\right_front_pressure_very_low,5.wav,你的右前胎压非常低,你的右前胎压非常低,your right front pressure is very low
+\voice\tyre_monitor\right_rear,1.wav,右后,右后,right rear
+\voice\tyre_monitor\right_rear,2.wav,右后,右后,right rear
+\voice\tyre_monitor\right_rear,3.wav,右后,右后,rear right
+\voice\tyre_monitor\right_rear_is_flat_spotted,1.wav,你的右后轮胎有刹车平点,你的右后轮胎有刹车平点,your right rear tyre is flat spotted
+\voice\tyre_monitor\right_rear_is_flat_spotted,2.wav,你的右后轮胎有刹车平点,你的右后轮胎有刹车平点,your right rear tyre is flat spotted
+\voice\tyre_monitor\right_rear_is_flat_spotted,3.wav,你的右后轮胎有刹车平点,你的右后轮胎有刹车平点,your right rear tyre is flat spotted
+\voice\tyre_monitor\right_rear_is_flat_spotted,4.wav,你的右后轮胎有刹车平点,你的右后轮胎有刹车平点,your right rear tyre is flat spotted
+\voice\tyre_monitor\right_rear_is_flat_spotted,5.wav,你的右后轮胎有刹车平点,你的右后轮胎有刹车平点,your right rear tyre is flat spotted
+\voice\tyre_monitor\right_rear_pressure_high,2.wav,你的右后胎压看起来有点高,你的右后胎压看起来有点高,your right rear pressure looks a bit high
+\voice\tyre_monitor\right_rear_pressure_low,4.wav,你的右后胎压有点低,你的右后胎压有点低,your right rear pressure is a bit low
+\voice\tyre_monitor\right_rear_pressure_ok,3.wav,你的右后胎压看起来正常,你的右后胎压看起来正常,your right rear pressure looks okay
+\voice\tyre_monitor\right_rear_pressure_very_high,1.wav,你的右后胎压非常高,你的右后胎压非常高,your right rear pressure is very high
+\voice\tyre_monitor\right_rear_pressure_very_low,5.wav,你的右后胎压非常低,你的右后胎压非常低,your right rear pressure is very low
+\voice\tyre_monitor\right_tyres_dirty,1.wav,你的右侧轮胎上有脏物,你的右侧轮胎上有脏物,you have dirt pick on your right side tyres
+\voice\tyre_monitor\right_tyres_dirty,2.wav,你的右侧轮胎上有脏物,你的右侧轮胎上有脏物,you have dirt pick on your right side tyres
+\voice\tyre_monitor\right_tyres_dirty,3.wav,你的右侧轮胎上有脏物,你的右侧轮胎上有脏物,you have dirt pick on your right side tyres
+\voice\tyre_monitor\right_tyres_dirty,4.wav,你的右侧轮胎上有脏物,你的右侧轮胎上有脏物,you have dirt pick on your right side tyres
+\voice\tyre_monitor\right_tyres_dirty,5.wav,你的右侧轮胎上有脏物,你的右侧轮胎上有脏物,you have dirt pick on your right side tyres
+\voice\tyre_monitor\right_tyres_dirty,6.wav,你的右侧轮胎上有脏物,你的右侧轮胎上有脏物,you have dirt pick on your right side tyres
+\voice\tyre_monitor\rr_inner_and_outer_are_same,1.wav,你的右后内侧和外侧温度大约相同,你的右后内侧和外侧温度大约相同,your right rear inner and outer temps are about the same
+\voice\tyre_monitor\rr_inner_and_outer_are_same,2.wav,你的右后内侧和外侧胎温差不多,你的右后内侧和外侧胎温差不多,your right rear inner and outer temperatures are about the same
+\voice\tyre_monitor\rr_inner_and_outer_are_same,3.wav,你的右后内侧和外侧温度大约相同,你的右后内侧和外侧温度大约相同,your right rear inner and outer temps are about the same
+\voice\tyre_monitor\rr_inner_and_outer_are_same,4.wav,你的右后轮胎内侧和外侧的温度大约相同,你的右后轮胎内侧和外侧的温度大约相同,your inner and outer temps are about the same for your right rear
+\voice\tyre_monitor\rr_inner_and_outer_are_same,5.wav,你的右后内侧和外侧温度大约相同,你的右后内侧和外侧温度大约相同,your right rear inner and outer temps are about the same
+\voice\tyre_monitor\rr_inner_is_running,1.wav,你的右后内胎正在使用,你的右后内胎正在使用,your right rear inner is running
+\voice\tyre_monitor\rr_inner_is_running,2.wav,你的右后内胎正在使用,你的右后内胎正在使用,your right rear inner is running
+\voice\tyre_monitor\rr_inner_is_running,3.wav,你的右后内胎正在,你的右后内胎正在,your right rear inner is
+\voice\tyre_monitor\rr_inner_is_running,4.wav,你的右后内胎正在使用,你的右后内胎正在使用,your right rear inner is running
+\voice\tyre_monitor\rr_inner_is_running,5.wav,你的右后内胎正在使用,你的右后内胎正在使用,your right rear inner is running
+\voice\tyre_monitor\slicks,28.wav,光头胎,光头胎,slicks
+\voice\tyre_monitor\slicks,29.wav,光头胎,光头胎,slicks
+\voice\tyre_monitor\slicks,30.wav,光头胎,光头胎,slicks
+\voice\tyre_monitor\softs,31.wav,软胎,软胎,softs
+\voice\tyre_monitor\softs,32.wav,软胎,软胎,softs
+\voice\tyre_monitor\softs,33.wav,软胎,软胎,softs
+\voice\tyre_monitor\spinning_fronts_corner_warning,7.wav,你出弯时前胎在打滑,你出弯时前胎在打滑,you're spinning your fronts coming out of
+\voice\tyre_monitor\spinning_fronts_corner_warning,8.wav,你在出弯时前胎在打滑,你在出弯时前胎在打滑,you're spinning your fronts on the exit of
+\voice\tyre_monitor\spinning_fronts_corner_warning,9.wav,你前胎在打滑,你前胎在打滑,you're spinning your fronts in
+\voice\tyre_monitor\spinning_fronts_lap_warning,1_op_prefix_ok.wav,你有很多车轮打滑,你有很多车轮打滑,you're getting lots of wheel spin
+\voice\tyre_monitor\spinning_fronts_lap_warning,2.wav,我们看到大量的车轮打滑,我们看到大量的车轮打滑,we're seeing loads of wheel spin
+\voice\tyre_monitor\spinning_fronts_lap_warning,3_op_prefix_ok.wav,你正在磨损前胎,你正在磨损前胎,you're spinning up your fronts
+\voice\tyre_monitor\spinning_fronts_lap_warning,4.wav,前轮打滑严重,前轮打滑严重,you're getting a lot of front wheel spin
+\voice\tyre_monitor\spinning_left_front_corner_warning,1.wav,你在出弯时左前轮在打滑,你在出弯时左前轮在打滑,you're spinning your left front coming out of
+\voice\tyre_monitor\spinning_left_front_corner_warning,2.wav,我们在出口处看到左前轮打滑,我们在出口处看到左前轮打滑,we're seeing left front wheel spin on the exit of
+\voice\tyre_monitor\spinning_left_front_corner_warning,3.wav,你在左前角打滑,你在左前角打滑,you're spinning your left front in
+\voice\tyre_monitor\spinning_left_front_lap_warning,1.wav,你正在让你的左前轮打滑,你正在让你的左前轮打滑,you're spinning up your left front
+\voice\tyre_monitor\spinning_left_front_lap_warning,2.wav,你正在打滑左前轮,你正在打滑左前轮,you're spinning your left front wheel
+\voice\tyre_monitor\spinning_left_front_lap_warning,3.wav,你正在打滑左前轮,你正在打滑左前轮,you're spinning your left front
+\voice\tyre_monitor\spinning_left_rear_corner_warning,1.wav,看到左后轮在出弯时打滑,看到左后轮在出弯时打滑,we're seeing left rear wheel spin on the exit of
+\voice\tyre_monitor\spinning_left_rear_corner_warning,2.wav,你在出弯时左后轮打滑,你在出弯时左后轮打滑,you're spinning your left rear coming out of
+\voice\tyre_monitor\spinning_left_rear_corner_warning,3.wav,看到左后轮打滑,看到左后轮打滑,we're seeing left rear wheel spin in
+\voice\tyre_monitor\spinning_left_rear_lap_warning,1.wav,你正在打滑，左后轮,你正在打滑，左后轮,you're spinning your rear left
+\voice\tyre_monitor\spinning_left_rear_lap_warning,2.wav,看到很多左后轮打滑,看到很多左后轮打滑,we're seeing lots of rear left wheel spin
+\voice\tyre_monitor\spinning_left_rear_lap_warning,3.wav,看到很多左后轮打滑,看到很多左后轮打滑,we're seeing lots of rear left wheel spin
+\voice\tyre_monitor\spinning_left_rear_lap_warning,4.wav,看到大量的左后轮空转,看到大量的左后轮空转,we're seeing loads of rear left wheel spin
+\voice\tyre_monitor\spinning_rears_corner_warning,7.wav,你在出弯时后胎在打滑,你在出弯时后胎在打滑,you're spinning your rear tyres coming out of
+\voice\tyre_monitor\spinning_rears_corner_warning,8.wav,你在出弯时后轮打滑,你在出弯时后轮打滑,you're spinning your rears on the exit of
+\voice\tyre_monitor\spinning_rears_corner_warning,9.wav,我们在出口处看到后轮打滑,我们在出口处看到后轮打滑,we're seeing rear wheel spin on the exit of
+\voice\tyre_monitor\spinning_rears_lap_warning,1_op_prefix_ok.wav,你有很多车轮打滑,你有很多车轮打滑,you're getting lots of wheel spin
+\voice\tyre_monitor\spinning_rears_lap_warning,2.wav,我们看到大量的后轮空转,我们看到大量的后轮空转,we're seeing loads of wheelspin
+\voice\tyre_monitor\spinning_rears_lap_warning,3_op_prefix_ok.wav,你正在让后胎打滑,你正在让后胎打滑,you're spinning up your rears
+\voice\tyre_monitor\spinning_rears_lap_warning,4.wav,看到很多后轮打滑,看到很多后轮打滑,we're seeing lots of rear wheel spin
+\voice\tyre_monitor\spinning_rears_lap_warning,5.wav,你后轮打滑,你后轮打滑,you're spinning your rears
+\voice\tyre_monitor\spinning_right_front_corner_warning,4.wav,你在出弯时右前轮在打滑,你在出弯时右前轮在打滑,you're spinning your right front coming out of
+\voice\tyre_monitor\spinning_right_front_corner_warning,5.wav,看到右前轮在出弯时打滑,看到右前轮在出弯时打滑,we're seeing right front wheel spin coming out of
+\voice\tyre_monitor\spinning_right_front_corner_warning,6.wav,你在右前角打滑,你在右前角打滑,you're spinning your right front in
+\voice\tyre_monitor\spinning_right_front_lap_warning,1.wav,你正在让你的右前轮打滑,你正在让你的右前轮打滑,you're spinning up your right front
+\voice\tyre_monitor\spinning_right_front_lap_warning,2.wav,你的右前轮打滑严重,你的右前轮打滑严重,you're getting a lot of right front wheel spin
+\voice\tyre_monitor\spinning_right_front_lap_warning,3.wav,你的右前胎在打滑,你的右前胎在打滑,your right front is spinning
+\voice\tyre_monitor\spinning_right_front_lap_warning,4.wav,你的右前轮打滑严重,你的右前轮打滑严重,you're getting lots of right front wheel spin
+\voice\tyre_monitor\spinning_right_rear_corner_warning,4.wav,你在出弯时右后轮在打滑,你在出弯时右后轮在打滑,you're spinning your right rear coming out of
+\voice\tyre_monitor\spinning_right_rear_corner_warning,5.wav,看到右后轮在出弯时打滑,看到右后轮在出弯时打滑,we're seeing right rear wheel spin on the exit of
+\voice\tyre_monitor\spinning_right_rear_corner_warning,6.wav,你在右后角打滑,你在右后角打滑,you're spinning your right rear in
+\voice\tyre_monitor\spinning_right_rear_lap_warning,1.wav,你正在让右后轮打滑,你正在让右后轮打滑,you're spinning up your rear right
+\voice\tyre_monitor\spinning_right_rear_lap_warning,2.wav,你正在让右后胎打滑,你正在让右后胎打滑,you're spinning your rear right tyre
+\voice\tyre_monitor\spinning_right_rear_lap_warning,3.wav,看到很多右后轮打滑,看到很多右后轮打滑,we're seeing lots of rear right wheel spin
+\voice\tyre_monitor\super_softs,34.wav,超软胎,超软胎,super softs
+\voice\tyre_monitor\super_softs,35.wav,超软胎,超软胎,super softs
+\voice\tyre_monitor\super_softs,36.wav,超软胎,超软胎,super softs
+\voice\tyre_monitor\ultra_softs,1.wav,超软胎,超软胎,ultra softs
+\voice\tyre_monitor\ultra_softs,2.wav,超软胎,超软胎,ultra softs
+\voice\tyre_monitor\ultra_softs,3.wav,超软胎,超软胎,ultra softs
+\voice\tyre_monitor\wets,37.wav,湿地胎,湿地胎,wets
+\voice\tyre_monitor\wets,38.wav,湿地胎,湿地胎,wets
+\voice\tyre_monitor\wets,39.wav,湿地胎,湿地胎,wets
+\voice\tyre_monitor\worn_all_round,1.wav,你的轮胎都看起来有些磨损,你的轮胎都看起来有些磨损,your tyres are all looking a bit worn
+\voice\tyre_monitor\worn_all_round,2.wav,你所有轮胎都有显著磨损,你所有轮胎都有显著磨损,you got significant tyre wear all around
+\voice\tyre_monitor\worn_all_round,3.wav,每个弯道都有一些磨损,每个弯道都有一些磨损,we're seeing some wear on each corner
+\voice\tyre_monitor\worn_fronts,1.wav,你的前轮胎有些磨损,你的前轮胎有些磨损,you got some wear on your front tyres
+\voice\tyre_monitor\worn_fronts,2.wav,前胎磨损严重,前胎磨损严重,we're seeing significant wear on the fronts
+\voice\tyre_monitor\worn_fronts,3.wav,那些前轮胎有些磨损了，伙计,那些前轮胎有些磨损了，伙计,"there's some wear on those front tyres, mate"
+\voice\tyre_monitor\worn_left_front,1.wav,左前胎很快就会过最佳状态,左前胎很快就会过最佳状态,that left front will be past its best soon
+\voice\tyre_monitor\worn_left_front,2.wav,看到你的左前胎有显著磨损,看到你的左前胎有显著磨损,we're seeing significant wear on your left front
+\voice\tyre_monitor\worn_left_front,3.wav,你的左前胎有些磨损，注意观察,你的左前胎有些磨损，注意观察,"your left front's showing some wear, keep an eye on it"
+\voice\tyre_monitor\worn_left_rear,1.wav,你的左后胎显示出明显的磨损,你的左后胎显示出明显的磨损,your left rear's showing some significant wear
+\voice\tyre_monitor\worn_left_rear,2.wav,看到你的左后轮胎有显著磨损,看到你的左后轮胎有显著磨损,we're seeing significant wear on your left rear
+\voice\tyre_monitor\worn_left_rear,3.wav,你的左后胎有些磨损了，注意观察,你的左后胎有些磨损了，注意观察,"your left rear has got some wear on it mate, keep an eye out"
+\voice\tyre_monitor\worn_lefts,1.wav,你的左侧轮胎都已经过了最佳状态,你的左侧轮胎都已经过了最佳状态,your left side tyres are both past their best
+\voice\tyre_monitor\worn_lefts,2.wav,我们看到两侧左胎有显著磨损,我们看到两侧左胎有显著磨损,we're seeing significant wear on both left side tyres
+\voice\tyre_monitor\worn_lefts,3.wav,你的左侧轮胎现在看起来磨损得很严重,你的左侧轮胎现在看起来磨损得很严重,your left side tyres are looking pretty worn now
+\voice\tyre_monitor\worn_rears,1.wav,后轮胎磨损严重,后轮胎磨损严重,we're looking at significant wear on those rear tyres
+\voice\tyre_monitor\worn_rears,2.wav,你的后胎很快就会达到磨损状态,你的后胎很快就会达到磨损状态,your rear tyres will be past their best soon
+\voice\tyre_monitor\worn_rears,3.wav,可以看到那些后轮胎有一些磨损，注意观察,可以看到那些后轮胎有一些磨损，注意观察,"we can see some wear on those rear tyres, keep and eye out"
+\voice\tyre_monitor\worn_right_front,1.wav,看到你的右前胎有显著磨损,看到你的右前胎有显著磨损,we're seeing significant wear on your right front
+\voice\tyre_monitor\worn_right_front,2.wav,你的右前轮胎看起来正在磨损,你的右前轮胎看起来正在磨损,your right front tyre looks like it's wearing out
+\voice\tyre_monitor\worn_right_front,3.wav,你的右前胎现在有些磨损,你的右前胎现在有些磨损,your right front's carrying some wear now
+\voice\tyre_monitor\worn_right_rear,1.wav,看到你的右后轮胎有磨损,看到你的右后轮胎有磨损,we're seeing some wear on your right rear
+\voice\tyre_monitor\worn_right_rear,2.wav,你的右后轮胎现在有些磨损,你的右后轮胎现在有些磨损,your right rear tyre's got some wear now
+\voice\tyre_monitor\worn_right_rear,3.wav,注意你的右后轮胎，伙计，它看起来磨损得很严重,注意你的右后轮胎，伙计，它看起来磨损得很严重,"lookout for your right rear tyre, mate, it's looking pretty worn"
+\voice\tyre_monitor\worn_rights,1.wav,你的右侧轮胎现在看起来磨损得很严重,你的右侧轮胎现在看起来磨损得很严重,your right side tyres are looking quite worn now
+\voice\tyre_monitor\worn_rights,2.wav,我们在右侧的两个轮胎上看到明显的磨损,我们在右侧的两个轮胎上看到明显的磨损,we're seeing significant wear on both tyres on the right side
+\voice\tyre_monitor\worn_rights,3.wav,你的右侧轮胎正在磨损,你的右侧轮胎正在磨损,your right side tyres are getting old
+\voice\tyre_monitor\you_need_more_negative_camber,1.wav,你可能需要更多的负外倾角,你可能需要更多的负外倾角,you might need more negative camber
+\voice\tyre_monitor\you_need_more_negative_camber,2.wav,你可能需要更多的负外倾角,你可能需要更多的负外倾角,you might need more negative camber
+\voice\tyre_monitor\you_need_more_negative_camber,3.wav,你可能需要更多的负外倾角,你可能需要更多的负外倾角,you might need more negative camber
+\voice\tyre_monitor\you_need_more_negative_camber,4.wav,你可能需要更多的负外倾角,你可能需要更多的负外倾角,you might need more negative camber
+\voice\tyre_monitor\you_need_more_negative_camber,5.wav,你可能需要更多的负外倾角,你可能需要更多的负外倾角,you might need more negative camber
+\voice\tyre_monitor\you_need_more_negative_camber_on_fronts,1.wav,你可能需要在前胎上增加更多的负外倾角,你可能需要在前胎上增加更多的负外倾角,you might need more negative camber on the fronts
+\voice\tyre_monitor\you_need_more_negative_camber_on_fronts,2.wav,你可能需要在前胎上增加更多的负外倾角,你可能需要在前胎上增加更多的负外倾角,you might need more negative camber on the fronts
+\voice\tyre_monitor\you_need_more_negative_camber_on_fronts,3.wav,你可能需要在前胎上增加更多的负外倾角,你可能需要在前胎上增加更多的负外倾角,you might need more negative camber on the fronts
+\voice\tyre_monitor\you_need_more_negative_camber_on_fronts,4.wav,你可能需要在前胎上增加更多的负外倾角,你可能需要在前胎上增加更多的负外倾角,you might need more negative camber on the fronts
+\voice\tyre_monitor\you_need_more_negative_camber_on_fronts,5.wav,你可能需要在前胎上增加更多的负外倾角,你可能需要在前胎上增加更多的负外倾角,you might need more negative camber on the fronts
+\voice\tyre_monitor\you_need_more_negative_camber_on_rears,1.wav,你可能需要在后轮上增加更多的负外倾角,你可能需要在后轮上增加更多的负外倾角,you might need more negative camber on the rears
+\voice\tyre_monitor\you_need_more_negative_camber_on_rears,2.wav,你可能需要在后轮上增加更多的负外倾角,你可能需要在后轮上增加更多的负外倾角,you might need more negative camber on the rears
+\voice\tyre_monitor\you_need_more_negative_camber_on_rears,3.wav,你可能需要在后轮上增加更多的负外倾角,你可能需要在后轮上增加更多的负外倾角,you might need more negative camber on the rears
+\voice\tyre_monitor\you_need_more_negative_camber_on_rears,4.wav,你可能需要在后轮上增加更多的负外倾角,你可能需要在后轮上增加更多的负外倾角,you might need more negative camber on the rears
+\voice\tyre_monitor\you_need_more_negative_camber_on_rears,5.wav,你可能需要在后轮上增加更多的负外倾角,你可能需要在后轮上增加更多的负外倾角,you might need more negative camber on the rears
+\voice\tyre_monitor\you_need_more_positive_camber,1.wav,你可能需要更多的正外倾角,你可能需要更多的正外倾角,you might need more positive camber
+\voice\tyre_monitor\you_need_more_positive_camber,2.wav,你可能需要更多的正外倾角,你可能需要更多的正外倾角,you might need more positive camber
+\voice\tyre_monitor\you_need_more_positive_camber,3.wav,你可能需要更多的正外倾角,你可能需要更多的正外倾角,you might need more positive camber
+\voice\tyre_monitor\you_need_more_positive_camber,4.wav,你可能需要更多的正外倾角,你可能需要更多的正外倾角,you might need more positive camber
+\voice\tyre_monitor\you_need_more_positive_camber,5.wav,你可能需要更多的正外倾角,你可能需要更多的正外倾角,you might need more positive camber
+\voice\tyre_monitor\you_need_more_positive_camber_on_fronts,1.wav,你可能需要增加前轮的正外倾角,你可能需要增加前轮的正外倾角,you might need more positive camber on the fronts
+\voice\tyre_monitor\you_need_more_positive_camber_on_fronts,2.wav,你可能需要增加前轮的正外倾角,你可能需要增加前轮的正外倾角,you might need more positive camber on the fronts
+\voice\tyre_monitor\you_need_more_positive_camber_on_fronts,3.wav,你可能需要增加前轮的正外倾角,你可能需要增加前轮的正外倾角,you might need more positive camber on the fronts
+\voice\tyre_monitor\you_need_more_positive_camber_on_fronts,4.wav,你可能需要增加前轮的正外倾角,你可能需要增加前轮的正外倾角,you might need more positive camber on the fronts
+\voice\tyre_monitor\you_need_more_positive_camber_on_fronts,5.wav,你可能需要增加前轮的正外倾角,你可能需要增加前轮的正外倾角,you might need more positive camber on the fronts
+\voice\tyre_monitor\you_need_more_positive_camber_on_rears,1.wav,你可能需要在后胎上增加更多的正外倾角,你可能需要在后胎上增加更多的正外倾角,you might need more positive camber on the rears
+\voice\tyre_monitor\you_need_more_positive_camber_on_rears,2.wav,你可能需要在后胎上增加更多的正外倾角,你可能需要在后胎上增加更多的正外倾角,you might need more positive camber on the rears
+\voice\tyre_monitor\you_need_more_positive_camber_on_rears,3.wav,你可能需要在后胎上增加更多的正外倾角,你可能需要在后胎上增加更多的正外倾角,you might need more positive camber on the rears
+\voice\tyre_monitor\you_need_more_positive_camber_on_rears,4.wav,你可能需要在后胎上增加更多的正外倾角,你可能需要在后胎上增加更多的正外倾角,you might need more positive camber on the rears
+\voice\tyre_monitor\you_need_more_positive_camber_on_rears,5.wav,你可能需要在后胎上增加更多的正外倾角,你可能需要在后胎上增加更多的正外倾角,you might need more positive camber on the rears

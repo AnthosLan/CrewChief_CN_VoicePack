@@ -1,0 +1,303 @@
+original_english,corrected_chinese
+# ===== 继承自波次 1、2 的口径（同一英文在多波出现，译法必须一致）=====
+stay behind,跟在后面
+it looks like,看起来
+hold position behind,保持位置，跟在
+option tyres,选择胎
+options,选择胎
+# 波次 3+4 人工修正。规则同前两波：按 original_english 索引，含逗号的英文必须加引号。
+#
+# ===== 残留英文 =====
+"critical battery level, we're really low on energy",电量告急，能量严重不足
+#
+# ===== battery：拼接片段，量词跟在数字后 =====
+# 「百分比」放在数字后拼不成句（三十百分比），改成能拼的「个百分点」
+percent,个百分点
+percent remaining,个百分点剩余
+percent battery remaining,个百分点的电量
+percent of charge remaining,个百分点的电量
+percent of your battery,个百分点的电量
+percent of your energy,个百分点的能量
+percent of your remaining battery,个百分点的剩余电量
+percent per lap,个百分点每圈
+laps of charge remaining,圈的电量
+laps of energy remaining,圈的能量
+laps remaining in the battery,圈的电量
+minutes left in the battery,分钟的电量
+minutes of charge remaining,分钟的电量
+minutes of energy remaining,分钟的能量
+we'll get about,大约还能跑
+we're good for another,还能再跑
+#
+# ===== battery：电池 → 电量（说的是剩余量，不是那块硬件）=====
+"this battery is about to run out, mate",电快用完了，老兄
+"this battery is had it, it's about to run out",电撑不住了，快用完了
+this battery is pretty much done,电基本用完了
+this battery will last about 5 more minutes,电还能撑大约五分钟
+there's about 10 minutes left in this battery,电还剩大约十分钟
+there's about 5 minutes left in this battery,电还剩大约五分钟
+there's one lap left in this battery,电还剩一圈
+we think about 2 laps left in this battery,估计电还剩两圈
+we've got 2 minutes left in this battery,电还剩两分钟
+we've got about 5 more minutes on this battery,电还剩大约五分钟
+the battery's has got plenty of charge in it,电量充足
+2 laps remaining in the battery,电量还剩两圈
+#
+# ===== driver_swaps：stint 统一「这一棒」（耐力赛换手的说法）=====
+10 minutes left in this driver stint,这一棒还剩十分钟
+5 minutes left in this driver stint,这一棒还剩五分钟
+2 minutes remaining on this driver stint,这一棒还剩两分钟
+15 minutes of this driver stint remaining,这一棒还剩十五分钟
+15 minutes of this stint left,这一棒还剩十五分钟
+5 minutes left in this stint,这一棒还剩五分钟
+10 minutes left in this stint before we need a driver swap,这一棒还剩十分钟，之后要换手
+"10 minutes left in this stint, we'll need a driver swap",这一棒还剩十分钟，我们要换手
+we got 2 minutes left of this driver stint,这一棒还剩两分钟
+we'll need to swap in 2 minutes,两分钟后换手
+#
+# ===== engine_monitor：引擎统一（不用「发动机」）=====
+your engine temperatures are looking better now,引擎温度好转了
+your engine temperatures are now back to normal,引擎温度恢复正常了
+"your engine temperatures are okay, all clear on engine temperatures",引擎温度正常，都没问题
+"restart it, get the clutch it next time",重新打火，下次记得带离合
+"don't rush, get it running, back it back in the race",别急，打着火，慢慢回到比赛里
+"fire it back up, get back into the fray",重新打火，回到场上
+restart it and get on it,重新打火，跟上去
+#
+# ===== mandatory_pit_stops：prime/option 译反了，而且「一级方程式轮胎」离谱 =====
+# prime = 标准胎（较硬的那套），option = 选择胎（较软）。模型把两个都译成「软胎」
+box this lap for prime tyres,本圈进站换标准胎
+box this lap for primes,本圈进站换标准胎
+pit this lap for prime tyres,本圈进站换标准胎
+in this lap for primes,本圈换标准胎
+in this lap for primes tyres,本圈换标准胎
+you can now fit prime tyres,现在可以换标准胎
+you can now put primes on,现在可以换标准胎
+you can now switch to primes,现在可以换标准胎
+we can now switch to primes,现在可以换标准胎
+box this lap for options,本圈进站换选择胎
+pit this lap for options,本圈进站换选择胎
+in this lap for options,本圈换选择胎
+in this lap for option tyres,本圈换选择胎
+you can now fit option tyres,现在可以换选择胎
+you can now switch to options,现在可以换选择胎
+you can put options on,可以换选择胎
+we can now fit options,现在可以换选择胎
+#
+# ===== mandatory_pit_stops：左右颠倒 / 语序 =====
+"acknowledged, we'll change rear left only",收到，只换左后胎
+"acknowledged, we'll change front right only",收到，只换右前胎
+#
+# ===== frozen_order：right 被当成「正确」，还有一处反义 =====
+line up in the right column,排到右列
+in the right lane,在右车道
+# pass 是超过，不是跟随
+pass the safety car,超过安全车
+standing start now,现在是静止起步
+kilometres per hour,公里每小时
+miles per hour,英里每小时
+you're ahead of a guy you should be behind,你超到了本该跟着的车前面
+you're ahead of a guy you should be following,你超到了本该跟着的车前面
+"you're ahead of this guy, you should be behind him",你超到他前面了，本该跟在后面
+#
+# ===== aero 沿用波次 2 的「空力」=====
+"acknowledged, no aero fix at the next pit stop",收到，下次进站不修空力
+"acknowledged, we'll fix front and rear aero",收到，前后空力都修
+"acknowledged, we're not gonna fix the aero",收到，空力不修了
+"copy that, no aero fixes",收到，空力不修
+"copy that, no aero fixes this time",收到，这次空力不修
+"copy that, we'll fix your front and your rear aero",收到，前后空力都修
+"understood, we'll fix front and rear aero",明白，前后空力都修
+"understood, we're not gonna fix the aero",明白，空力不修了
+#
+# ===== multiclass：组别名是专有名词，一律保留原文 =====
+# 机翻把GT300 拆成「GT3零」、GTC和GTE都译成「GT」（尾字母丢失，两个组别变成同一个）
+GT1,GT1
+GT2,GT2
+GT2 cars,GT2赛车
+GT2 runners,GT2车
+GT2 class cars,GT2组的车
+GT3,GT3
+GT3 cars,GT3赛车
+GT3 runners,GT3车
+GT3 class cars,GT3组的车
+GT4,GT4
+GT4 cars,GT4赛车
+GT4 runners,GT4车
+GT4 class cars,GT4组的车
+GT5,GT5
+GT5 cars,GT5赛车
+GT5 runners,GT5车
+GT5 class cars,GT5组的车
+GT300,GT300
+GT500,GT500
+GTC,GTC
+GTC cars,GTC赛车
+GTC runners,GTC车
+GTC class cars,GTC组的车
+GTE,GTE
+GTE cars,GTE赛车
+GTE runners,GTE车
+GTE class cars,GTE组的车
+GTLM,GTLM
+GTO,GTO
+GTP,GTP
+GTP cars,GTP赛车
+GTP runners,GTP车
+GTP class cars,GTP组的车
+LMDH,LMDH
+LMDH cars,LMDH赛车
+LMDH runners,LMDH车
+DTM,DTM
+DTM cars,DTM赛车
+DTM runners,DTM车
+DTM-class cars,DTM组的车
+Carrera Cup,Carrera Cup
+Group 4,四组
+Group 5,五组
+Group 6,六组
+Group A,A组
+Group A runners,A组的车
+Group A class cars,A组的车
+Group B,B组
+Group C,C组
+Group C cars,C组赛车
+Group C runners,C组的车
+Group C class cars,C组的车
+#
+# ===== multiclass：blue flag 统一「蓝旗」，class leader 统一「组别领跑」=====
+faster car behind,后面有快组的车
+faster cars approaching,快组的车正在接近
+there's a faster car approaching,有快组的车在接近
+there's a faster class car approaching,有快组的车在接近
+there's a faster class car behind,后面有快组的车
+there's a group of faster cars behind,后面有一群快组的车
+is in a faster class,属于快组
+it's a faster class,是快组
+it's a slower class,是慢组
+that's a faster class,是快组
+that's a slower class,是慢组
+the car behind's a faster class,后车是快组
+the class leader from a faster class is behind,快组的组别领跑在后面
+#
+# ===== 翻译失败 =====
+and,和
+#
+# ===== overtaking_aids：push to pass 统一「超车推进」=====
+# 「推至超越激活」是逐字直译，念不出口
+10 push to pass activations left,还剩十次超车推进
+5 push to pass activations left,还剩五次超车推进
+that's 10 push to pass activations left,还剩十次超车推进
+that's 5 push to pass activations left,还剩五次超车推进
+you've got 10 push to pass activations left,你还有十次超车推进
+you've got 5 push to pass activations left,你还有五次超车推进
+activations left,次超车推进
+activations remaining,次超车推进
+one activation remaining,还剩一次
+no more push-to-pass activations remaining,超车推进用完了
+no more push-to-pass activations,超车推进用完了
+#
+# ===== strategy：赛车术语直译 =====
+# clear air 是无干扰的空档，不是空气质量
+you should be coming out into clear air,你出站应该能进空档
+we think you'll be exiting the pits into clear air,我们估计你出站能进空档
+we expect you'll be coming out of the pits into clear air,预计你出站能进空档
+# flying lap 是计时圈
+we'll calculate the time loss based on your next flying lap,我们按你下一个计时圈算时间损失
+we'll calculate your time loss from your next flying lap,我们按你下一个计时圈算时间损失
+we'll work out the time loss based on your next flying lap,我们按你下一个计时圈算时间损失
+# in-lap 是进站圈，不是暖胎圈
+"this'll be our benchmark pit stop, race pace on the in-lap and the out-lap",这是我们的基准进站，进站圈和出站圈都按比赛节奏
+# traffic 在赛车里是挡路的车
+expect traffic on exit,预计出站会遇到车
+expect traffic when you come out,预计出站会遇到车
+expect traffic when you exit the pits,预计出站会遇到车
+there'll be traffic on the exit,出站会遇到车
+there'll be traffic when you exit the pits,出站会遇到车
+you'll be coming out into traffic,你出站会遇到车
+# 省略号
+right with,并排，与
+is pitting from position,进站，从第
+"is entering the pits, he's in P",正在进站，他在第
+is pitting from P,进站，从第
+#
+# ===== watched_opponents：monitoring 统一「盯」=====
+"OK, no more monitoring calls for",好的，不再盯
+"OK, no more monitoring of",好的，不再盯
+"OK, we'll stop monitoring",好的，不盯了
+"OK, we'll stop monitoring car number",好的，不盯这个车号了
+"acknowledged, no more monitoring",收到，不再盯
+"acknowledged, we'll stop monitoring",收到，不盯了
+"acknowledged, we'll stop monitoring car number",收到，不盯这个车号了
+"understood, no more monitoring",明白，不再盯
+"understood, no more monitoring of car number",明白，不盯这个车号了
+"understood, we'll stop monitoring",明白，不盯了
+"understood, we'll stop all monitoring",明白，全都不盯了
+#
+# ===== 翻译失败 =====
+# rants 整个分类是脏话吐槽，文件名不带 sweary 标记但内容本身就是发泄，按用户定的规矩保留原味
+Dick,蠢货
+#
+# ===== rants：粗俗被抹平或译错 =====
+# shat 是拉屎，不是「开过/演过」
+I've shat better drives than that,我拉的屎都比这开得好
+I've shat better performances than that,我拉的屎都比这表现好
+#
+# ===== licence：A/B/C/D 是等级不是冠词 =====
+A license,A级执照
+B license,B级执照
+C license,C级执照
+D license,D级执照
+Pro license,职业执照
+Rookie license,新手执照
+#
+# ===== incidents / alarm_clock =====
+incident points,事故积分
+the incident limit is,事故上限是
+the incident points limit is,事故积分上限是
+there's no incident limit,没有事故上限
+there's no incident points limit,没有事故积分上限
+FOGHORN,汽笛
+#
+# ===== pearls_of_wisdom：直译 =====
+keep digging,继续拼
+"keep digging, this isn't over yet",继续拼，还没完
+"come on, keep digging",上啊，继续拼
+"stay on it, keep digging",顶住，继续拼
+"you're the man, stay on it",你行的，顶住
+"keep it neat and tidy, we still might get something out of this",开干净点，说不定还能捞到东西
+"nice and smooth, don't overdrive the car",开顺一点，别把车开过了
+"hit all your apexes, wait for the chances to come, mate",每个弯心都咬住，等机会，老兄
+"just keep hitting your marks, this is looking good",继续咬住走线，看着不错
+"loving this, mate, this is perfect",这段太漂亮了老兄，完美
+#
+# ===== 省略号（TTS会念出来或卡顿）=====
+pit window opens after,进站窗口打开，在
+"yes, pit window opens after",是的，进站窗口打开，在
+your teammate is pitting from position,你的队友进站，从第
+That was... shit,那真是一坨屎
+"come on, stay focused, apexes and exits, apexes and exits",专注点，弯心和出弯，弯心和出弯
+#
+# ===== LMP组别名同样保留原文 =====
+LMP1,LMP1
+LMP2,LMP2
+LMP3,LMP3
+LMP1 cars,LMP1赛车
+LMP2 cars,LMP2赛车
+LMP1 runners,LMP1车
+LMP2 runners,LMP2车
+LMP1 class cars,LMP1组的车
+LMP2 class cars,LMP2组的车
+TC1,TC1
+TC2,TC2
+TC1 cars,TC1赛车
+TC2 cars,TC2赛车
+TC1 runners,TC1车
+TC2 runners,TC2车
+TC1 class cars,TC1组的车
+TC2 class cars,TC2组的车
+DTM-class cars,DTM组的车
+you're being caught by the,你正在被追上，被
+LMP3 cars,LMP3赛车
+LMP3 runners,LMP3车
+LMP3 class cars,LMP3组的车

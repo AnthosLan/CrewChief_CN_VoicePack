@@ -1,0 +1,27 @@
+audio_path,audio_filename,subtitle,text_for_tts,original_english
+\voice\damage_reporting\damage,1.wav,车有损伤,车有损伤,we have damage
+\voice\damage_reporting\damage,2.wav,车有损伤,车有损伤,we have damage
+\voice\damage_reporting\damage,3.wav,车有损伤,车有损伤,we have damage
+\voice\damage_reporting\damage,4.wav,车有损伤,车有损伤,we have damage
+\voice\damage_reporting\damage,5.wav,车有损伤,车有损伤,we have damage
+\voice\damage_reporting\damage,6.wav,车有损伤,车有损伤,we have damage
+\voice\damage_reporting\damage,7.wav,车有损伤,车有损伤,we have damage
+\voice\damage_reporting\damage,8.wav,车有损伤,车有损伤,we have damage
+\voice\penalties\disqualified_no_headlights,1.wav,没开大灯，被取消资格,没开大灯，被取消资格,"disqualified, no headlights"
+\voice\penalties\disqualified_no_headlights,2.wav,没开大灯，被取消资格,没开大灯，被取消资格,"disqualified, no headlights"
+\voice\penalties\disqualified_no_headlights,3.wav,没开大灯，被取消资格,没开大灯，被取消资格,"disqualified, no headlights"
+\voice\penalties\disqualified_no_headlights,4.wav,没开大灯，被取消资格,没开大灯，被取消资格,"disqualified, no headlights"
+\voice\penalties\disqualified_no_headlights,sweary_5.wav,没开大灯，被取消资格,没开大灯，被取消资格,"disqualified, no headlights"
+\voice\penalties\disqualified_no_headlights,sweary_6.wav,没开大灯，被取消资格,没开大灯，被取消资格,"disqualified, no headlights"
+\voice\penalties\disqualified_no_headlights,sweary_7.wav,没开大灯，被取消资格,没开大灯，被取消资格,"disqualified, no headlights"
+\voice\penalties\slow_down_penalty_clear,1.wav,减速罚时已解除,减速罚时已解除,slow down penalty clear
+\voice\penalties\slow_down_penalty_clear,2.wav,减速罚时已解除,减速罚时已解除,slow down penalty clear
+\voice\penalties\slow_down_penalty_clear,3.wav,减速罚时已解除,减速罚时已解除,slow down penalty clear
+\voice\penalties\slow_down_penalty_clear,4.wav,减速罚时已解除,减速罚时已解除,slow down penalty clear
+\voice\penalties\warning_headlights_required_when_raining,1.wav,雨天必须开大灯,雨天必须开大灯,headlights required when raining
+\voice\penalties\warning_headlights_required_when_raining,2.wav,雨天必须开大灯,雨天必须开大灯,headlights required when raining
+\voice\penalties\warning_headlights_required_when_raining,3.wav,雨天必须开大灯,雨天必须开大灯,headlights required when raining
+\voice\penalties\warning_headlights_required_when_raining,4.wav,雨天必须开大灯,雨天必须开大灯,headlights required when raining
+\voice\penalties\warning_headlights_required_when_raining,5.wav,雨天必须开大灯,雨天必须开大灯,headlights required when raining
+\voice\penalties\warning_headlights_required_when_raining,6.wav,雨天必须开大灯,雨天必须开大灯,headlights required when raining
+\voice\penalties\warning_headlights_required_when_raining,7.wav,雨天必须开大灯,雨天必须开大灯,headlights required when raining

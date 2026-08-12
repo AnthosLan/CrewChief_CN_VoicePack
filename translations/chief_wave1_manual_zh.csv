@@ -1,0 +1,48 @@
+audio_path,audio_filename,subtitle,text_for_tts,original_english
+\voice\flags\red-yellow-flag,1.wav,红黄旗，路面有异物,红黄旗，路面有异物,red and yellow flag
+\voice\flags\red-yellow-flag,2.wav,红黄旗，路面有异物,红黄旗，路面有异物,red and yellow flag
+\voice\flags\red-yellow-flag,3.wav,红黄旗，路面有异物,红黄旗，路面有异物,red and yellow flag
+\voice\flags\red-yellow-flag,4.wav,红黄旗，路面有异物,红黄旗，路面有异物,red and yellow flag
+\voice\flags\red-yellow-flag,5.wav,红黄旗，路面有异物,红黄旗，路面有异物,red and yellow flag
+\voice\flags\red-yellow-flag,6.wav,红黄旗，路面有异物,红黄旗，路面有异物,red and yellow flag
+\voice\flags\slippery-surface-flag,1.wav,路面湿滑,路面湿滑,slippery surface
+\voice\flags\slippery-surface-flag,2.wav,路面湿滑,路面湿滑,slippery surface
+\voice\flags\slippery-surface-flag,3.wav,路面湿滑,路面湿滑,slippery surface
+\voice\flags\slippery-surface-flag,4.wav,路面湿滑,路面湿滑,slippery surface
+\voice\flags\slippery-surface-flag,5.wav,路面湿滑,路面湿滑,slippery surface
+\voice\flags\slippery-surface-flag,6.wav,路面湿滑,路面湿滑,slippery surface
+\voice\fuel\not_enough_laps_for_average,1.wav,圈数不够，算不出平均油耗,圈数不够，算不出平均油耗,not enough laps for average
+\voice\fuel\not_enough_laps_for_average,2.wav,圈数不够，算不出平均油耗,圈数不够，算不出平均油耗,not enough laps for average
+\voice\fuel\not_enough_laps_for_average,3.wav,圈数不够，算不出平均油耗,圈数不够，算不出平均油耗,not enough laps for average
+\voice\lap_counter\has_taken_the_win,1.wav,拿下了胜利,拿下了胜利,has taken the win
+\voice\lap_counter\has_taken_the_win,10.wav,拿下了胜利,拿下了胜利,has taken the win
+\voice\lap_counter\has_taken_the_win,2.wav,拿下了胜利,拿下了胜利,has taken the win
+\voice\lap_counter\has_taken_the_win,3.wav,拿下了胜利,拿下了胜利,has taken the win
+\voice\lap_counter\has_taken_the_win,4.wav,拿下了胜利,拿下了胜利,has taken the win
+\voice\lap_counter\has_taken_the_win,5.wav,拿下了胜利,拿下了胜利,has taken the win
+\voice\lap_counter\has_taken_the_win,6.wav,拿下了胜利,拿下了胜利,has taken the win
+\voice\lap_counter\has_taken_the_win,7.wav,拿下了胜利,拿下了胜利,has taken the win
+\voice\lap_counter\has_taken_the_win,8.wav,拿下了胜利,拿下了胜利,has taken the win
+\voice\lap_counter\has_taken_the_win,9.wav,拿下了胜利,拿下了胜利,has taken the win
+\voice\lap_counter\race_starts_in,1.wav,比赛开始还有,比赛开始还有,race starts in
+\voice\lap_counter\race_starts_in,10.wav,比赛开始还有,比赛开始还有,race starts in
+\voice\lap_counter\race_starts_in,11.wav,比赛开始还有,比赛开始还有,race starts in
+\voice\lap_counter\race_starts_in,2.wav,比赛开始还有,比赛开始还有,race starts in
+\voice\lap_counter\race_starts_in,3.wav,比赛开始还有,比赛开始还有,race starts in
+\voice\lap_counter\race_starts_in,4.wav,比赛开始还有,比赛开始还有,race starts in
+\voice\lap_counter\race_starts_in,5.wav,比赛开始还有,比赛开始还有,race starts in
+\voice\lap_counter\race_starts_in,6.wav,比赛开始还有,比赛开始还有,race starts in
+\voice\lap_counter\race_starts_in,7.wav,比赛开始还有,比赛开始还有,race starts in
+\voice\lap_counter\race_starts_in,8.wav,比赛开始还有,比赛开始还有,race starts in
+\voice\lap_counter\race_starts_in,9.wav,比赛开始还有,比赛开始还有,race starts in
+\voice\timings\car_behind_is_lapping_us,1.wav,后车要套我们圈,后车要套我们圈,car behind is lapping us
+\voice\timings\car_behind_is_lapping_us,2.wav,后车要套我们圈,后车要套我们圈,car behind is lapping us
+\voice\timings\car_behind_is_lapping_us,3.wav,后车要套我们圈,后车要套我们圈,car behind is lapping us
+\voice\timings\car_behind_is_lapping_us,4.wav,后车要套我们圈,后车要套我们圈,car behind is lapping us
+\voice\timings\car_behind_is_lapping_us,5.wav,后车要套我们圈,后车要套我们圈,car behind is lapping us
+\voice\timings\car_behind_is_unlapping_itself,1.wav,后车在解套,后车在解套,car behind is unlapping itself
+\voice\timings\car_behind_is_unlapping_itself,2.wav,后车在解套,后车在解套,car behind is unlapping itself
+\voice\timings\car_behind_is_unlapping_itself,3.wav,后车在解套,后车在解套,car behind is unlapping itself
+\voice\timings\car_behind_is_unlapping_itself,4.wav,后车在解套,后车在解套,car behind is unlapping itself
+\voice\timings\car_behind_is_unlapping_itself,5.wav,后车在解套,后车在解套,car behind is unlapping itself
+\voice\timings\car_behind_is_unlapping_itself,6.wav,后车在解套,后车在解套,car behind is unlapping itself

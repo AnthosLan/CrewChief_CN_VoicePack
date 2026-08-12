@@ -1,0 +1,1664 @@
+audio_path,audio_filename,subtitle,text_for_tts,original_english
+\voice\battery\about_to_run_out,1.wav,这台车的电量快要耗尽了，伙计,这台车的电量快要耗尽了，伙计,"this battery is about to run out, mate"
+\voice\battery\about_to_run_out,2.wav,这电池快没电了,这电池快没电了,"this battery is had it, it's about to run out"
+\voice\battery\about_to_run_out,3.wav,这台车的电量差不多要耗尽了,这台车的电量差不多要耗尽了,this battery is pretty much done
+\voice\battery\battery_use_increasing,1.wav,您的电量使用在增加,您的电量使用在增加,your battery use is increasing
+\voice\battery\battery_use_increasing,2.wav,你的能量使用正在增加,你的能量使用正在增加,your energy use is increasing
+\voice\battery\battery_use_increasing,3.wav,您的电量使用在增加,您的电量使用在增加,your battery use is increasing
+\voice\battery\battery_use_reducing,1.wav,您的电量使用正在减少,您的电量使用正在减少,your battery use is dropping
+\voice\battery\battery_use_reducing,2.wav,您的电量正在减少,您的电量正在减少,your battery use is reducing
+\voice\battery\battery_use_reducing,3.wav,你的能量使用在减少,你的能量使用在减少,your energy use is reducing
+\voice\battery\battery_use_stable,1.wav,您的电量使用现在稳定,您的电量使用现在稳定,your battery use is now stable
+\voice\battery\battery_use_stable,2.wav,您的电量使用稳定,您的电量使用稳定,your battery use is stable
+\voice\battery\battery_use_stable,3.wav,您的电量使用已稳定,您的电量使用已稳定,your battery use is stabilized
+\voice\battery\critical_battery,1.wav,您的电量几乎耗尽,您的电量几乎耗尽,your battery is almost empty
+\voice\battery\critical_battery,2.wav,电量真的很低,电量真的很低,the battery is really low
+\voice\battery\critical_battery,3.wav,电量真的很低,电量真的很低,the battery level is really low
+\voice\battery\critical_battery,4.wav,电量 critically 低，能量非常不足,电量 critically 低，能量非常不足,"critical battery level, we're really low on energy"
+\voice\battery\current_charge_should_make_end,1.wav,你应该能在当前电量到达终点,你应该能在当前电量到达终点,you should be able to make it to the end on this charge
+\voice\battery\current_charge_should_make_end,2.wav,您的当前电量应该足以支撑到比赛结束,您的当前电量应该足以支撑到比赛结束,your current charge level should last to the end of the race
+\voice\battery\current_charge_should_make_end,3.wav,我们认为你在当前电量下能跑到终点,我们认为你在当前电量下能跑到终点,we think you'll make it to the end on your current charge
+\voice\battery\current_charge_should_make_half_distance,1.wav,当前电量应该能够跑到比赛半程,当前电量应该能够跑到比赛半程,should be able to reach the middle of the race on the current charge
+\voice\battery\current_charge_should_make_half_distance,2.wav,当前电量应该能够跑到比赛半程,当前电量应该能够跑到比赛半程,should be able to make the midpoint of the race on the current charge
+\voice\battery\current_charge_should_make_half_distance,3.wav,当前的电量应该足够你跑到比赛的一半,当前的电量应该足够你跑到比赛的一半,the current charge should last you to the midpoint of the race
+\voice\battery\five_minutes_battery,1.wav,这个电池还剩大约五分钟,这个电池还剩大约五分钟,there's about 5 minutes left in this battery
+\voice\battery\five_minutes_battery,2.wav,我们这组电池大约还有五分钟,我们这组电池大约还有五分钟,we've got about 5 more minutes on this battery
+\voice\battery\five_minutes_battery,3.wav,这电池还能持续大约五分钟左右,这电池还能持续大约五分钟左右,this battery will last about 5 more minutes
+\voice\battery\four_laps_battery,1.wav,我们还剩四圈电量,我们还剩四圈电量,we got 4 laps of battery power left
+\voice\battery\four_laps_battery,2.wav,电量还剩大约四圈,电量还剩大约四圈,there's about 4 laps left in the battery
+\voice\battery\four_laps_battery,3.wav,电量还能坚持大约四圈,电量还能坚持大约四圈,the battery will last about 4 more laps
+\voice\battery\half_charge_warning,1.wav,我们还剩一半的电量,我们还剩一半的电量,we got half our battery charge remaining
+\voice\battery\half_charge_warning,2.wav,电量现在为半满,电量现在为半满,the battery is now at half power
+\voice\battery\half_charge_warning,3.wav,现在电量还剩一半,现在电量还剩一半,"we got half the battery power left, now"
+\voice\battery\half_distance_good_battery,1.wav,半程了，电量看起来不错，我们可以坚持到终点,半程了，电量看起来不错，我们可以坚持到终点,"half distance, the battery looks good, we'll make it to the end"
+\voice\battery\half_distance_good_battery,2.wav,半程距离，电量看起来还好,半程距离，电量看起来还好,"half distance, the battery power looks okay"
+\voice\battery\half_distance_good_battery,3.wav,这是半程距离，电量看起来不错，我们认为可以坚持到终点,这是半程距离，电量看起来不错，我们认为可以坚持到终点,"that's half distance, the battery looks good, we think we'll make it to the end"
+\voice\battery\half_distance_good_battery,4.wav,半程了，电量应该足够支撑到终点,半程了，电量应该足够支撑到终点,"half distance, we should have enough power to get to the end"
+\voice\battery\half_distance_low_battery,1.wav,这是半程距离，照这样下去，这轮电量无法跑到终点,这是半程距离，照这样下去，这轮电量无法跑到终点,"that's half distance, at this rate we won't make it to the end on this charge"
+\voice\battery\half_distance_low_battery,2.wav,这是半程距离，我们的能量不足以到达终点,这是半程距离，我们的能量不足以到达终点,"that's half distance, we haven't got enough energy to get to the end"
+\voice\battery\half_distance_low_battery,3.wav,这是半程距离，我们的能量不足以到达终点,这是半程距离，我们的能量不足以到达终点,"that's half distance, we don't have enough energy to get to the end"
+\voice\battery\half_distance_low_battery,4.wav,这是半程，我们在比赛结束前就会没电,这是半程，我们在比赛结束前就会没电,"that's half distance, we'll be out of battery before the end"
+\voice\battery\increase_battery_use_easily_make_end,1.wav,你现在可以增加电量使用，我们有足够的能量坚持到比赛结束,你现在可以增加电量使用，我们有足够的能量坚持到比赛结束,"you can increase your battery usage now, we've got plenty of energy to get us to the end"
+\voice\battery\increase_battery_use_easily_make_end,2.wav,我们有足够的电量来完成比赛，你可以增加能量使用,我们有足够的电量来完成比赛，你可以增加能量使用,"we've got plenty of battery to make the end, you can increase your energy usage"
+\voice\battery\increase_battery_use_easily_make_end,3.wav,增加你的能量使用，我们有足够的能量可以节省，我们会坚持到终点,增加你的能量使用，我们有足够的能量可以节省，我们会坚持到终点,"increase your energy usage, we've got plenty of energy to spare, we'll make it to the end"
+\voice\battery\increase_battery_use_easily_make_half_distance,1.wav,你可以增加能量使用，我们比到达中点所需的能量多,你可以增加能量使用，我们比到达中点所需的能量多,"you can increase your energy usage, we have more than we need to make it to the midpoint"
+\voice\battery\increase_battery_use_easily_make_half_distance,2.wav,我们有足够的能量跑完半程距离，你可以增加电量使用,我们有足够的能量跑完半程距离，你可以增加电量使用,"we have more than enough energy to make half distance, you can increase your battery usage"
+\voice\battery\increase_battery_use_easily_make_half_distance,3.wav,增加电量使用，我们有足够的能量跑完半程,增加电量使用，我们有足够的能量跑完半程,"increase your battery usage, we've got more than enough energy to make half distance"
+\voice\battery\laps,1.wav,圈,圈,laps
+\voice\battery\laps,2.wav,圈,圈,laps
+\voice\battery\laps,3.wav,圈,圈,laps
+\voice\battery\laps,4.wav,圈,圈,laps
+\voice\battery\laps_remaining,1.wav,剩余的能量圈数,剩余的能量圈数,laps of energy remaining
+\voice\battery\laps_remaining,2.wav,还剩多少圈电量,还剩多少圈电量,laps of charge remaining
+\voice\battery\laps_remaining,3.wav,电量剩余圈数,电量剩余圈数,laps remaining in the battery
+\voice\battery\low_battery,1.wav,电量低,电量低,we're low on charge
+\voice\battery\low_battery,2.wav,电量低,电量低,the battery level is low
+\voice\battery\low_battery,3.wav,电量看起来很低了，现在,电量看起来很低了，现在,"the battery level is looking pretty low, now"
+\voice\battery\minutes,1.wav,分钟,分钟,minutes
+\voice\battery\minutes,2.wav,分钟,分钟,minutes
+\voice\battery\minutes,3.wav,分钟,分钟,minutes
+\voice\battery\minutes,4.wav,分钟,分钟,minutes
+\voice\battery\minutes_remaining,1.wav,剩余充电时间分钟,剩余充电时间分钟,minutes of charge remaining
+\voice\battery\minutes_remaining,2.wav,剩余的能量分钟,剩余的能量分钟,minutes of energy remaining
+\voice\battery\minutes_remaining,3.wav,电池剩余分钟数,电池剩余分钟数,minutes left in the battery
+\voice\battery\on_last_lap_you_used,1.wav,在最后一圈你使用了,在最后一圈你使用了,on last lap you used
+\voice\battery\on_last_lap_you_used,2.wav,你在最后一圈使用了,你在最后一圈使用了,on your last lap you used
+\voice\battery\on_last_lap_you_used,3.wav,在最后一圈你使用了,在最后一圈你使用了,on the last lap you used
+\voice\battery\one_lap_battery,1.wav,还剩一圈电量,还剩一圈电量,one lap of battery power left
+\voice\battery\one_lap_battery,2.wav,我们当前的电量还剩一圈,我们当前的电量还剩一圈,one lap left on our current charge
+\voice\battery\one_lap_battery,3.wav,这个电量还剩一圈,这个电量还剩一圈,there's one lap left in this battery
+\voice\battery\percent,1.wav,百分比,百分比,percent
+\voice\battery\percent,2.wav,百分比,百分比,percent
+\voice\battery\percent,3.wav,百分比,百分比,percent
+\voice\battery\percent_of_your_battery,1.wav,您的电量百分比,您的电量百分比,percent of your battery
+\voice\battery\percent_of_your_battery,2.wav,您的能量百分比,您的能量百分比,percent of your energy
+\voice\battery\percent_of_your_battery,3.wav,剩余电量的百分比,剩余电量的百分比,percent of your remaining battery
+\voice\battery\percent_of_your_battery,4.wav,您的电量百分比,您的电量百分比,percent of your battery
+\voice\battery\percent_per_lap,1.wav,每圈的百分比,每圈的百分比,percent per lap
+\voice\battery\percent_per_lap,2.wav,每圈的百分比,每圈的百分比,percent per lap
+\voice\battery\percent_per_lap,3.wav,每圈的百分比,每圈的百分比,percent per lap
+\voice\battery\percent_remaining,1.wav,剩余电量百分比,剩余电量百分比,percent of charge remaining
+\voice\battery\percent_remaining,2.wav,剩余百分比,剩余百分比,percent remaining
+\voice\battery\percent_remaining,3.wav,剩余电量百分比,剩余电量百分比,percent battery remaining
+\voice\battery\percent_remaining,4.wav,剩余电量百分比,剩余电量百分比,percent battery remaining
+\voice\battery\plenty_of_battery,1.wav,电量充足,电量充足,plenty of battery
+\voice\battery\plenty_of_battery,2.wav,电池电量充足,电池电量充足,the battery's has got plenty of charge in it
+\voice\battery\plenty_of_battery,3.wav,你有足够的电池能量,你有足够的电池能量,you got plenty of battery energy
+\voice\battery\plenty_of_battery,4.wav,你有很多能量,你有很多能量,you got loads of energy
+\voice\battery\plenty_of_battery,5.wav,电量充足,电量充足,plenty of battery
+\voice\battery\reduce_battery_use_to_make_end,1.wav,你需要减少电量使用才能坚持到比赛结束,你需要减少电量使用才能坚持到比赛结束,you'll need to reduce your battery use if you're going to make it to the end
+\voice\battery\reduce_battery_use_to_make_end,2.wav,你必须减少电量使用，否则无法跑到终点,你必须减少电量使用，否则无法跑到终点,you won't make it to the end unless you reduce your battery use
+\voice\battery\reduce_battery_use_to_make_end,3.wav,你需要降低电量使用以撑到比赛结束,你需要降低电量使用以撑到比赛结束,you'll need to drop your battery use to make it to the end of the race
+\voice\battery\reduce_battery_use_to_make_half_distance,1.wav,你需要减少电量使用以行驶到半程,你需要减少电量使用以行驶到半程,you'll need to reduce your battery use to reach half distance
+\voice\battery\reduce_battery_use_to_make_half_distance,2.wav,你需要减少电量使用，才能跑到比赛半程,你需要减少电量使用，才能跑到比赛半程,you'll need to drop your battery use if you're going to make mid point of the race
+\voice\battery\reduce_battery_use_to_make_half_distance,3.wav,你需要减少电量使用以到达半程点,你需要减少电量使用以到达半程点,you'll need to reduce your battery use to reach the halfway point
+\voice\battery\ten_minutes_battery,1.wav,这个电池大约还剩十分钟,这个电池大约还剩十分钟,there's about 10 minutes left in this battery
+\voice\battery\ten_minutes_battery,2.wav,电量将在大约十分钟内耗尽,电量将在大约十分钟内耗尽,we'll be out of battery in about 10 minutes
+\voice\battery\ten_minutes_battery,3.wav,我们还剩大约十分钟的电量,我们还剩大约十分钟的电量,we got about 10 minutes of charge left
+\voice\battery\three_laps_battery,1.wav,我们有足够的电量完成三圈,我们有足够的电量完成三圈,we got enough power for 3 more laps
+\voice\battery\three_laps_battery,2.wav,我们认为电量将在还剩三圈时耗尽,我们认为电量将在还剩三圈时耗尽,we think we'll be out of battery in 3 laps
+\voice\battery\three_laps_battery,3.wav,我们还剩大约三圈电量,我们还剩大约三圈电量,we got about 3 laps left in the battery
+\voice\battery\two_laps_battery,1.wav,我们估计这个电池还剩两圈,我们估计这个电池还剩两圈,we think about 2 laps left in this battery
+\voice\battery\two_laps_battery,2.wav,我们现在有足够的电量跑两圈,我们现在有足够的电量跑两圈,we got enough power for 2 laps now
+\voice\battery\two_laps_battery,3.wav,电池还剩两圈,电池还剩两圈,2 laps remaining in the battery
+\voice\battery\two_minutes_battery,1.wav,我们有足够的电量再跑两分钟,我们有足够的电量再跑两分钟,we got enough charge for 2 more minutes
+\voice\battery\two_minutes_battery,2.wav,电量将在两分钟后耗尽,电量将在两分钟后耗尽,we'll be out of battery in 2 minutes
+\voice\battery\two_minutes_battery,3.wav,我们这个电池还剩两分钟,我们这个电池还剩两分钟,we've got 2 minutes left in this battery
+\voice\battery\we_estimate,1.wav,我们估计,我们估计,we estimate
+\voice\battery\we_estimate,2.wav,我们估计,我们估计,we think about
+\voice\battery\we_estimate,3.wav,我们估计,我们估计,we estimate
+\voice\battery\we_estimate,4.wav,看起来像,看起来像,it looks like
+\voice\battery\we_will_get_another,1.wav,我们会得到大约,我们会得到大约,we'll get about
+\voice\battery\we_will_get_another,2.wav,我们还能再坚持一段时间,我们还能再坚持一段时间,we're good for another
+\voice\battery\we_will_get_another,3.wav,我们会得到大约,我们会得到大约,we'll get about
+\voice\battery\we_will_get_another,4.wav,我们还能再坚持一段时间,我们还能再坚持一段时间,we're good for another
+\voice\battery\wont_make_end_without_pitstop,1.wav,我们没有足够的能量跑到终点，我们需要停下来,我们没有足够的能量跑到终点，我们需要停下来,"we don't have enough energy to get to the end, we'll need to stop"
+\voice\battery\wont_make_end_without_pitstop,2.wav,我们电量不足，无法跑到比赛结束，需要进站,我们电量不足，无法跑到比赛结束，需要进站,"we don't have enough battery to make it to the end of the race, we'll need to stop"
+\voice\battery\wont_make_end_without_pitstop,3.wav,我们需要在比赛结束前进站，电量不足,我们需要在比赛结束前进站，电量不足,"we'll need to stop before the end of the race, we don't have enough energy"
+\voice\battery\wont_make_half_distance_without_pitstop,1.wav,我们没有进站的话，撑不到半程,我们没有进站的话，撑不到半程,we're not going to make it to half distance without a pit stop
+\voice\battery\wont_make_half_distance_without_pitstop,2.wav,我们没有足够的能量跑到一半的距离，我们需要停下来,我们没有足够的能量跑到一半的距离，我们需要停下来,"we don't have enough energy to get us to half distance, we'll need to stop"
+\voice\battery\wont_make_half_distance_without_pitstop,3.wav,你没有足够的能量跑到一半的距离，我们需要停下来,你没有足够的能量跑到一半的距离，我们需要停下来,"you don't have enough energy to make it to half way, we'll need to stop"
+\voice\driver_swaps\10_minutes_left_in_stint,1.wav,这个车手的一段跑程还剩10分钟,这个车手的一段跑程还剩10分钟,10 minutes left in this driver stint
+\voice\driver_swaps\10_minutes_left_in_stint,2.wav,还有十分钟就要换车手了,还有十分钟就要换车手了,you've got 10 minutes left before we need to change drivers
+\voice\driver_swaps\10_minutes_left_in_stint,3.wav,你还有十分钟就要换手了,你还有十分钟就要换手了,you got 10 minutes before we need to change drivers
+\voice\driver_swaps\10_minutes_left_in_stint,4.wav,这个阶段还剩10分钟，之后需要换手,这个阶段还剩10分钟，之后需要换手,10 minutes left in this stint before we need a driver swap
+\voice\driver_swaps\10_minutes_left_in_stint,5.wav,这个段跑程还剩10分钟，我们需要换手,这个段跑程还剩10分钟，我们需要换手,"10 minutes left in this stint, we'll need a driver swap"
+\voice\driver_swaps\15_minutes_left_in_stint,1.wav,这个车手阶段还剩15分钟,这个车手阶段还剩15分钟,15 minutes of this driver stint remaining
+\voice\driver_swaps\15_minutes_left_in_stint,2.wav,你还有15分钟就要换手了,你还有15分钟就要换手了,you got 15 minutes before we need a driver swap
+\voice\driver_swaps\15_minutes_left_in_stint,3.wav,这个段跑程还剩15分钟,这个段跑程还剩15分钟,15 minutes of this stint left
+\voice\driver_swaps\15_minutes_left_in_stint,4.wav,还剩15分钟就要换手,还剩15分钟就要换手,15 minutes before we need to change drivers
+\voice\driver_swaps\15_minutes_left_in_stint,5.wav,还剩15分钟就要进行换手,还剩15分钟就要进行换手,15 minutes before we need a driver swap
+\voice\driver_swaps\2_minutes_left_in_stint,1.wav,还剩两分钟,还剩两分钟,2 minutes remaining on this driver stint
+\voice\driver_swaps\2_minutes_left_in_stint,2.wav,还剩两分钟，我们得换手了,还剩两分钟，我们得换手了,2 minutes before we gotta swap drivers
+\voice\driver_swaps\2_minutes_left_in_stint,3.wav,我们还剩两分钟这个车手的跑程,我们还剩两分钟这个车手的跑程,we got 2 minutes left of this driver stint
+\voice\driver_swaps\2_minutes_left_in_stint,4.wav,我们需要在两分钟后进行交接,我们需要在两分钟后进行交接,we'll need to swap in 2 minutes
+\voice\driver_swaps\2_minutes_left_in_stint,5.wav,还需要两分钟换手,还需要两分钟换手,need to change drivers in 2 minutes
+\voice\driver_swaps\5_minutes_left_in_stint,1.wav,还剩5分钟就要换手了,还剩5分钟就要换手了,5 minutes left before we gotta swap
+\voice\driver_swaps\5_minutes_left_in_stint,2.wav,这个段跑程还剩5分钟,这个段跑程还剩5分钟,5 minutes left in this stint
+\voice\driver_swaps\5_minutes_left_in_stint,3.wav,这个车手的一段跑程还剩5分钟,这个车手的一段跑程还剩5分钟,5 minutes left in this driver stint
+\voice\driver_swaps\5_minutes_left_in_stint,4.wav,我们需要在5分钟后换手,我们需要在5分钟后换手,we'll need to swap drivers in 5 minutes
+\voice\driver_swaps\5_minutes_left_in_stint,5.wav,我们需要在5分钟后进行换手,我们需要在5分钟后进行换手,we need a driver change in 5 minutes
+\voice\driver_swaps\pit_now_for_driver_change,1.wav,换手，进站，进站，进站,换手，进站，进站，进站,"driver change, box, box, box"
+\voice\driver_swaps\pit_now_for_driver_change,2.wav,换手，进站,换手，进站,"driver change, pit now"
+\voice\driver_swaps\pit_now_for_driver_change,3.wav,我们现在进站换手,我们现在进站换手,we're pitting now for a driver change
+\voice\driver_swaps\pit_now_for_driver_change,4.wav,我们需要现在进站换手,我们需要现在进站换手,we need to pit now for a driver change
+\voice\driver_swaps\pit_now_for_driver_change,5.wav,进站，进站，进站，这次我们要进行换手,进站，进站，进站，这次我们要进行换手,"box, box, box, we're doing a driver change this time"
+\voice\driver_swaps\pit_this_lap_driver_change_no_more_stints,1.wav,这圈进站换手，这是你在车里的最后一圈,这圈进站换手，这是你在车里的最后一圈,"box this lap for a driver change, this is your last time in the car"
+\voice\driver_swaps\pit_this_lap_driver_change_no_more_stints,2.wav,我们的驾驶时间到了，这圈进站换手,我们的驾驶时间到了，这圈进站换手,"our time in the car is up, pit this lap for a driver change"
+\voice\driver_swaps\pit_this_lap_driver_change_no_more_stints,3.wav,本圈进站换人，我们没有剩余的跑程了,本圈进站换人，我们没有剩余的跑程了,"box this lap for a driver change, we've got no more stints left"
+\voice\driver_swaps\pit_this_lap_driver_change_no_more_stints,4.wav,本圈进站换人，我们的驾驶时间到了,本圈进站换人，我们的驾驶时间到了,"pit this lap for a driver change, our time in the car is up"
+\voice\driver_swaps\pit_this_lap_driver_change_no_more_stints,5.wav,这圈进站换手，车里没剩多少时间了,这圈进站换手，车里没剩多少时间了,"box this lap for a driver change, we've got no more time left in the car"
+\voice\driver_swaps\pit_this_lap_for_driver_change,1.wav,本圈进站换手,本圈进站换手,pit this lap for your driver change
+\voice\driver_swaps\pit_this_lap_for_driver_change,2.wav,本圈进站换手,本圈进站换手,pit this lap for a driver swap
+\voice\driver_swaps\pit_this_lap_for_driver_change,3.wav,本圈进站换手,本圈进站换手,box this lap for a driver swap
+\voice\driver_swaps\pit_this_lap_for_driver_change,4.wav,本圈进站换手,本圈进站换手,pit this lap for a driver swap
+\voice\driver_swaps\pit_this_lap_for_driver_change,5.wav,本圈进站换手,本圈进站换手,pit this lap for a driver change
+\voice\engine_monitor\all_clear,1_op_prefix_ok.wav,你的发动机温度现在看起来好些了,你的发动机温度现在看起来好些了,your engine temperatures are looking better now
+\voice\engine_monitor\all_clear,2_op_prefix_ok.wav,您的发动机温度正常，发动机温度一切安全,您的发动机温度正常，发动机温度一切安全,"your engine temperatures are okay, all clear on engine temperatures"
+\voice\engine_monitor\all_clear,3_op_prefix_ok.wav,您的发动机温度现在已恢复正常,您的发动机温度现在已恢复正常,your engine temperatures are now back to normal
+\voice\engine_monitor\hot_oil,1_op_prefix_ok.wav,注意你的机油温度，它正在上升,注意你的机油温度，它正在上升,"keep an eye on your oil temperature, it's creeping up"
+\voice\engine_monitor\hot_oil,2_op_prefix_ok.wav,你的机油温度有点高,你的机油温度有点高,your oil temperature's getting a bit high
+\voice\engine_monitor\hot_oil,3_op_prefix_ok.wav,注意机油温度，它很高,注意机油温度，它很高,"watch your oil temperature, it's pretty high"
+\voice\engine_monitor\hot_oil_and_water,1.wav,你的机油和水温偏高，需要稍微减速,你的机油和水温偏高，需要稍微减速,"your oil and water temperatures are high, you need to back off a little"
+\voice\engine_monitor\hot_oil_and_water,2.wav,你的机油和水温都很高，你可能需要稍微减速,你的机油和水温都很高，你可能需要稍微减速,"your oil and water temperatures are both high, you might need to take it easy for a bit"
+\voice\engine_monitor\hot_oil_and_water,3_op_prefix_ok.wav,你的水温和油温都挺高的，尽量轻一点开,你的水温和油温都挺高的，尽量轻一点开,"your water and your oil are both looking pretty hot right now, try and take it easy"
+\voice\engine_monitor\hot_oil_and_water,sweary_4_op_prefix_ok.wav,如果你不给这台发动机降温，你真的会把它搞砸,如果你不给这台发动机降温，你真的会把它搞砸,if you don't cool this engine you're really gonna fuck it up
+\voice\engine_monitor\hot_water,1_op_prefix_ok.wav,你的水温在上升,你的水温在上升,your water temperature's creeping up
+\voice\engine_monitor\hot_water,2_op_prefix_ok.wav,你的水温看起来很高,你的水温看起来很高,your water temperature looks quite high
+\voice\engine_monitor\hot_water,3_op_prefix_ok.wav,你要注意水温，它看起来有点高,你要注意水温，它看起来有点高,"you want to watch your water temperature, it's looking a little high"
+\voice\engine_monitor\low_fuel_pressure,1.wav,你的燃油压力在下降，看起来不妙,你的燃油压力在下降，看起来不妙,"your fuel pressure's dropping, it doesn't look good"
+\voice\engine_monitor\low_fuel_pressure,2.wav,好的，伙计，你的燃油压力在下降,好的，伙计，你的燃油压力在下降,"okay, mate, your fuel pressure's dropping"
+\voice\engine_monitor\low_fuel_pressure,3_rq_prefix_ok.wav,燃油压力低,燃油压力低,you have low fuel pressure
+\voice\engine_monitor\low_fuel_pressure,4.wav,这里收到了燃油压力警告,这里收到了燃油压力警告,we got a fuel pressure warning here
+\voice\engine_monitor\low_fuel_pressure,5_op_prefix_ok.wav,你的燃油压力在下降,你的燃油压力在下降,your fuel pressure's dropping
+\voice\engine_monitor\low_fuel_pressure,6.wav,燃油压力低,燃油压力低,low fuel pressure
+\voice\engine_monitor\low_oil_pressure,1_op_prefix_ok.wav,我们看到机油压力低，最好留意一下,我们看到机油压力低，最好留意一下,"we're seeing low oil pressure, better keep an eye on it"
+\voice\engine_monitor\low_oil_pressure,2.wav,看起来我们有机油压力问题,看起来我们有机油压力问题,looks like we got oil pressure issues
+\voice\engine_monitor\low_oil_pressure,3_op_prefix_ok.wav,这里出现了低机油压力警告,这里出现了低机油压力警告,we're seeing a low oil pressure warning here
+\voice\engine_monitor\low_oil_pressure,4.wav,看到低机油压力警告,看到低机油压力警告,we're seeing a low oil pressure warning
+\voice\engine_monitor\low_oil_pressure,5.wav,看起来这里机油压力有问题,看起来这里机油压力有问题,looks like you got oil pressure issues here
+\voice\engine_monitor\oil_temp_intro,1.wav,你的机油温度是,你的机油温度是,your oil temp is
+\voice\engine_monitor\oil_temp_intro,2.wav,你的机油温度是,你的机油温度是,your oil temp is
+\voice\engine_monitor\oil_temp_intro,3.wav,你的机油温度是,你的机油温度是,your oil temp is
+\voice\engine_monitor\oil_temp_intro,4.wav,你的机油温度是,你的机油温度是,your oil temp is
+\voice\engine_monitor\oil_temp_intro,5.wav,你的机油温度是,你的机油温度是,your oil temp is
+\voice\engine_monitor\oil_temp_intro,6.wav,你的机油温度是,你的机油温度是,your oil temp is
+\voice\engine_monitor\stalled,1.wav,好的，伙计，深呼吸，重新启动它，继续前进,好的，伙计，深呼吸，重新启动它，继续前进,"okay, mate, take a breath, fire it back up, get back on it"
+\voice\engine_monitor\stalled,2_op_prefix_oh_dear.wav,重新启动并跟上,重新启动并跟上,restart it and get on it
+\voice\engine_monitor\stalled,3_op_prefix_bad_luck.wav,慢点来，重新启动车子，然后回到比赛中,慢点来，重新启动车子，然后回到比赛中,"take your time, start it back up and get back in the race"
+\voice\engine_monitor\stalled,4_op_prefix_ok.wav,重新启动，回到比赛中,重新启动，回到比赛中,"fire it back up, get back into the fray"
+\voice\engine_monitor\stalled,5.wav,好的，慢慢来，启动它,好的，慢慢来，启动它,"okay, take your time, just get it started"
+\voice\engine_monitor\stalled,6_op_prefix_oh_dear.wav,重新启动它，下次用离合,重新启动它，下次用离合,"restart it, get the clutch it next time"
+\voice\engine_monitor\stalled,7_op_prefix_bad_luck.wav,不要急，把车开起来，慢慢回到比赛中,不要急，把车开起来，慢慢回到比赛中,"don't rush, get it running, back it back in the race"
+\voice\engine_monitor\water_temp_intro,1.wav,你的水温是,你的水温是,your water temp is
+\voice\engine_monitor\water_temp_intro,2.wav,你的水温是,你的水温是,your water temp is
+\voice\engine_monitor\water_temp_intro,3.wav,你的水温是,你的水温是,your water temp is
+\voice\engine_monitor\water_temp_intro,4.wav,你的水温是,你的水温是,your water temp is
+\voice\engine_monitor\water_temp_intro,5.wav,你的水温是,你的水温是,your water temp is
+\voice\engine_monitor\water_temp_intro,6.wav,你的水温是,你的水温是,your water temp is
+\voice\frozen_order\allow,1.wav,允许,允许,allow
+\voice\frozen_order\allow,2.wav,允许,允许,allow
+\voice\frozen_order\allow,3.wav,允许,允许,allow
+\voice\frozen_order\allow_car_number,1.wav,我们需要允许车号,我们需要允许车号,we need to allow car number
+\voice\frozen_order\allow_car_number,2.wav,允许车号,允许车号,allow car number
+\voice\frozen_order\allow_car_number,3.wav,允许车号,允许车号,allow car number
+\voice\frozen_order\allow_car_number,4.wav,我们需要允许车号,我们需要允许车号,we need to allow car number
+\voice\frozen_order\allow_car_number,5.wav,我们需要让出赛车编号,我们需要让出赛车编号,we need to let car number
+\voice\frozen_order\allow_guy_behind_to_pass,4_op_suffix_please.wav,允许后面的车超车,允许后面的车超车,allow the car behind to pass
+\voice\frozen_order\allow_guy_behind_to_pass,5.wav,允许这辆车超车,允许这辆车超车,allow this guy to pass
+\voice\frozen_order\allow_guy_behind_to_pass,6.wav,让这辆车超车,让这辆车超车,let this guy through
+\voice\frozen_order\catch_up_to,1.wav,追上,追上,catch up to
+\voice\frozen_order\catch_up_to,10.wav,你需要追赶到,你需要追赶到,you need to catch up to
+\voice\frozen_order\catch_up_to,11.wav,接近,接近,get closer to
+\voice\frozen_order\catch_up_to,12.wav,你应该追上,你应该追上,you should catch up to
+\voice\frozen_order\catch_up_to,13.wav,请追赶到,请追赶到,please catch up to
+\voice\frozen_order\catch_up_to,14.wav,追上,追上,catch up to
+\voice\frozen_order\catch_up_to,15.wav,你需要追赶到,你需要追赶到,you need to catch up to
+\voice\frozen_order\catch_up_to,16.wav,你需要追赶到,你需要追赶到,you need to catch up to
+\voice\frozen_order\catch_up_to,17.wav,追上,追上,catch up to
+\voice\frozen_order\catch_up_to,18.wav,你需要接近,你需要接近,you need to get closer to
+\voice\frozen_order\catch_up_to,2.wav,追上,追上,catch up to
+\voice\frozen_order\catch_up_to,3.wav,追上,追上,catch up to
+\voice\frozen_order\catch_up_to,7.wav,追上,追上,catch up to
+\voice\frozen_order\catch_up_to,8.wav,追上,追上,catch up to
+\voice\frozen_order\catch_up_to,9.wav,追上,追上,catch up to
+\voice\frozen_order\catch_up_to_car_number,1.wav,追上车号,追上车号,catch up to car number
+\voice\frozen_order\catch_up_to_car_number,2.wav,我们需要追上车号,我们需要追上车号,we need to catch car number
+\voice\frozen_order\catch_up_to_car_number,3.wav,追上车号,追上车号,catch up to car number
+\voice\frozen_order\catch_up_to_car_number,4.wav,追上车号,追上车号,catch up to car number
+\voice\frozen_order\catch_up_to_car_number,5.wav,我们需要追上车号,我们需要追上车号,we need to catch up to car number
+\voice\frozen_order\fcy_lineup_single_file,1_op_prefix_ok.wav,单列排队,单列排队,line up single file
+\voice\frozen_order\fcy_lineup_single_file,2_op_suffix_please.wav,单列排队,单列排队,line up single file
+\voice\frozen_order\fcy_lineup_single_file,3.wav,单列排队,单列排队,line up single file
+\voice\frozen_order\fcy_lineup_single_file,4.wav,单列排队,单列排队,line up single file
+\voice\frozen_order\fcy_lineup_single_file,5_op_prefix_ok.wav,我们需要单列排队,我们需要单列排队,we need to line up single file
+\voice\frozen_order\follow,1.wav,跟在后面,跟在后面,stay behind
+\voice\frozen_order\follow,10.wav,跟随,跟随,follow
+\voice\frozen_order\follow,11.wav,跟随,跟随,follow
+\voice\frozen_order\follow,12.wav,跟随,跟随,follow
+\voice\frozen_order\follow,13.wav,跟在后面,跟在后面,stay behind
+\voice\frozen_order\follow,2.wav,跟在后面,跟在后面,stay behind
+\voice\frozen_order\follow,3.wav,你需要跟随,你需要跟随,you need to follow
+\voice\frozen_order\follow,4.wav,跟在后面,跟在后面,stay behind
+\voice\frozen_order\follow,5.wav,跟随,跟随,follow
+\voice\frozen_order\follow,6.wav,跟在后面,跟在后面,stay behind
+\voice\frozen_order\follow,7.wav,跟在后面,跟在后面,stay behind
+\voice\frozen_order\follow,8.wav,跟随,跟随,follow
+\voice\frozen_order\follow,9.wav,保持位置在...之后,保持位置在...之后,hold position behind
+\voice\frozen_order\follow_car_number,1.wav,跟随赛车号码,跟随赛车号码,follow car number
+\voice\frozen_order\follow_car_number,2.wav,我们需要跟随车号,我们需要跟随车号,we need to follow car number
+\voice\frozen_order\follow_car_number,3.wav,跟随赛车号码,跟随赛车号码,follow car number
+\voice\frozen_order\follow_car_number,4.wav,跟随赛车号码,跟随赛车号码,follow car number
+\voice\frozen_order\follow_car_number,5.wav,跟随赛车号码,跟随赛车号码,follow car number
+\voice\frozen_order\in_the_inside_column,13.wav,在内线,在内线,in the inside column
+\voice\frozen_order\in_the_inside_column,14.wav,在内线,在内线,in the inside lane
+\voice\frozen_order\in_the_inside_column,15.wav,在内线,在内线,in the inside column
+\voice\frozen_order\in_the_left_column,16.wav,在左列,在左列,in the left column
+\voice\frozen_order\in_the_left_column,17.wav,在左车道,在左车道,in the left lane
+\voice\frozen_order\in_the_left_column,18.wav,在左列,在左列,in the left column
+\voice\frozen_order\in_the_outside_column,19.wav,在外侧列,在外侧列,in the outside column
+\voice\frozen_order\in_the_outside_column,20.wav,在外侧车道,在外侧车道,in the outside lane
+\voice\frozen_order\in_the_outside_column,21.wav,在外侧列,在外侧列,in the outside column
+\voice\frozen_order\in_the_right_column,22.wav,在右侧列,在右侧列,in the right column
+\voice\frozen_order\in_the_right_column,23.wav,在右侧列,在右侧列,in the right column
+\voice\frozen_order\in_the_right_column,24.wav,在外侧车道,在外侧车道,in the right lane
+\voice\frozen_order\kilometres_per_hour,25.wav,每小时公里数,每小时公里数,kilometres per hour
+\voice\frozen_order\kilometres_per_hour,26.wav,每小时公里数,每小时公里数,kilometres per hour
+\voice\frozen_order\kilometres_per_hour,27.wav,每小时公里数,每小时公里数,kilometres per hour
+\voice\frozen_order\line_up_in_the_inside_column,1.wav,在内侧列排队,在内侧列排队,line up in the inside column
+\voice\frozen_order\line_up_in_the_inside_column,2.wav,在内侧列排队,在内侧列排队,form up in the inside column
+\voice\frozen_order\line_up_in_the_inside_column,3.wav,在内侧排队,在内侧排队,line up on the inside
+\voice\frozen_order\line_up_in_the_inside_column,4.wav,在内侧列排队,在内侧列排队,form up in the inside column
+\voice\frozen_order\line_up_in_the_inside_column,5.wav,在内侧排队,在内侧排队,line up on the inside
+\voice\frozen_order\line_up_in_the_inside_column,6.wav,在内侧列排队,在内侧列排队,line up in the inside column
+\voice\frozen_order\line_up_in_the_left_column,1.wav,在左列排队,在左列排队,line up in the left column
+\voice\frozen_order\line_up_in_the_left_column,2.wav,在左列排队,在左列排队,line up in the left column
+\voice\frozen_order\line_up_in_the_left_column,3.wav,在左列排队,在左列排队,form up in the left column
+\voice\frozen_order\line_up_in_the_left_column,4.wav,在左列排队,在左列排队,line up in the left column
+\voice\frozen_order\line_up_in_the_left_column,5.wav,在左侧列队,在左侧列队,form up on the left-hand side
+\voice\frozen_order\line_up_in_the_left_column,6.wav,在左边排队,在左边排队,line up on the left
+\voice\frozen_order\line_up_in_the_outside_column,1.wav,在外侧列排队,在外侧列排队,form up in the outside column
+\voice\frozen_order\line_up_in_the_outside_column,2.wav,在外侧列队,在外侧列队,line up on the outside
+\voice\frozen_order\line_up_in_the_outside_column,3.wav,在外侧列排队,在外侧列排队,form up in the outside line
+\voice\frozen_order\line_up_in_the_outside_column,4.wav,在外侧列排队,在外侧列排队,line up on the outside line
+\voice\frozen_order\line_up_in_the_outside_column,5.wav,在外侧列排队,在外侧列排队,form up in the outside column
+\voice\frozen_order\line_up_in_the_outside_column,6.wav,在外侧列排队,在外侧列排队,line up in the outside column
+\voice\frozen_order\line_up_in_the_outside_column,7.wav,在外侧列队,在外侧列队,form up on the outside
+\voice\frozen_order\line_up_in_the_outside_column,8.wav,在外侧列队,在外侧列队,line up on the outside
+\voice\frozen_order\line_up_in_the_right_column,1.wav,在右侧列排队,在右侧列排队,form up in the right column
+\voice\frozen_order\line_up_in_the_right_column,2.wav,在右侧列队,在右侧列队,line up on the right-hand side
+\voice\frozen_order\line_up_in_the_right_column,3.wav,在正确的列中排队,在正确的列中排队,line up in the right column
+\voice\frozen_order\line_up_in_the_right_column,4.wav,在右侧列排队,在右侧列排队,form up in the right column
+\voice\frozen_order\line_up_in_the_right_column,5.wav,在右侧列队,在右侧列队,line up on the right-hand side
+\voice\frozen_order\line_up_in_the_right_column,6.wav,在右侧列排队,在右侧列排队,form up in the right column
+\voice\frozen_order\line_up_in_the_right_column,7.wav,在正确的列中排队,在正确的列中排队,line up in the right column
+\voice\frozen_order\line_up_single_file_behind,1.wav,单列排队跟在后面,单列排队跟在后面,line up single-file behind
+\voice\frozen_order\line_up_single_file_behind,2.wav,单列排队跟在后面,单列排队跟在后面,line up single-file behind
+\voice\frozen_order\line_up_single_file_behind,3.wav,单列排队跟在后面,单列排队跟在后面,line up single-file behind
+\voice\frozen_order\line_up_single_file_behind,4.wav,单列排队跟在后面,单列排队跟在后面,line up single-file behind
+\voice\frozen_order\line_up_single_file_behind,5.wav,单列排队跟在后面,单列排队跟在后面,line up single-file behind
+\voice\frozen_order\line_up_single_file_behind_car_number,1.wav,单列排队跟在车号,单列排队跟在车号,line up single-file behind car number
+\voice\frozen_order\line_up_single_file_behind_car_number,2.wav,单列排队跟在车号,单列排队跟在车号,line up single-file behind car number
+\voice\frozen_order\line_up_single_file_behind_car_number,3.wav,单列排队跟在车号,单列排队跟在车号,line up single-file behind car number
+\voice\frozen_order\line_up_single_file_behind_car_number,4.wav,单列跟在车辆后面,单列跟在车辆后面,line up single-file behind car
+\voice\frozen_order\line_up_single_file_behind_car_number,5.wav,单列排队跟在车号,单列排队跟在车号,line up single-file behind car number
+\voice\frozen_order\line_up_single_file_behind_safety_car_eu,1.wav,单列跟在安全车后面,单列跟在安全车后面,line up single-file behind the safety car
+\voice\frozen_order\line_up_single_file_behind_safety_car_eu,2.wav,单列跟在安全车后面,单列跟在安全车后面,line up single-file behind the safety car
+\voice\frozen_order\line_up_single_file_behind_safety_car_eu,3.wav,单列跟在安全车后面,单列跟在安全车后面,line up single-file behind the safety car
+\voice\frozen_order\line_up_single_file_behind_safety_car_eu,4.wav,单列跟在安全车后面,单列跟在安全车后面,line up single-file behind the safety car
+\voice\frozen_order\line_up_single_file_behind_safety_car_eu,5.wav,单列跟在安全车后面,单列跟在安全车后面,line up single-file behind the safety car
+\voice\frozen_order\line_up_single_file_behind_safety_car_usa,1.wav,单列跟在安全车后面,单列跟在安全车后面,line up single-file behind the pace car
+\voice\frozen_order\line_up_single_file_behind_safety_car_usa,2.wav,单列跟在安全车后面,单列跟在安全车后面,line up single-file behind the pace car
+\voice\frozen_order\line_up_single_file_behind_safety_car_usa,3.wav,单列跟在安全车后面,单列跟在安全车后面,line up single-file behind the pace car
+\voice\frozen_order\line_up_single_file_behind_safety_car_usa,4.wav,单列跟在安全车后面,单列跟在安全车后面,line up single-file behind the pace car
+\voice\frozen_order\line_up_single_file_behind_safety_car_usa,5.wav,单列跟在安全车后面,单列跟在安全车后面,line up single-file behind the pace car
+\voice\frozen_order\miles_per_hour,28.wav,每小时英里,每小时英里,miles per hour
+\voice\frozen_order\miles_per_hour,29.wav,每小时英里,每小时英里,miles per hour
+\voice\frozen_order\miles_per_hour,30.wav,每小时英里,每小时英里,miles per hour
+\voice\frozen_order\move_to_pole,1.wav,回到杆位,回到杆位,move back to the pole
+\voice\frozen_order\move_to_pole,2.wav,你需要回到杆位,你需要回到杆位,you need to move back to the pole
+\voice\frozen_order\move_to_pole,3.wav,回到杆位,回到杆位,move back to the pole
+\voice\frozen_order\move_to_pole,4.wav,你需要回到杆位,你需要回到杆位,you need to move back to the pole
+\voice\frozen_order\move_to_pole,5.wav,回到杆位,回到杆位,move back to the pole position
+\voice\frozen_order\move_to_pole,6.wav,你需要回到杆位,你需要回到杆位,you need to move back to the pole position
+\voice\frozen_order\move_to_pole_row,1.wav,你需要回到杆位排,你需要回到杆位排,you need to move back to the pole row
+\voice\frozen_order\move_to_pole_row,2.wav,回到杆位排,回到杆位排,move back to the pole row
+\voice\frozen_order\move_to_pole_row,3.wav,你需要回到杆位排,你需要回到杆位排,you need to move back to the pole row
+\voice\frozen_order\move_to_pole_row,4.wav,你需要回到杆位排,你需要回到杆位排,you need to move back to the pole row
+\voice\frozen_order\move_to_pole_row,5.wav,回到杆位排,回到杆位排,move back to the pole row
+\voice\frozen_order\move_to_pole_row,6.wav,你需要回到杆位排,你需要回到杆位排,you need to move back to the pole row
+\voice\frozen_order\pass_car_number,1.wav,我们需要超车，车号,我们需要超车，车号,we need to pass car number
+\voice\frozen_order\pass_car_number,2.wav,超车，车辆编号,超车，车辆编号,pass car number
+\voice\frozen_order\pass_car_number,3.wav,我们需要超车，车号,我们需要超车，车号,we need to pass car number
+\voice\frozen_order\pass_car_number,4.wav,我们需要超车，车号,我们需要超车，车号,we need to pass car number
+\voice\frozen_order\pass_car_number,5.wav,超车，车辆编号,超车，车辆编号,pass car number
+\voice\frozen_order\pass_the_safety_car,1.wav,跟随安全车,跟随安全车,pass the safety car
+\voice\frozen_order\pass_the_safety_car,2.wav,跟随安全车,跟随安全车,pass the safety car
+\voice\frozen_order\pass_the_safety_car,3.wav,跟随安全车,跟随安全车,pass the safety car
+\voice\frozen_order\pass_the_safety_car,4.wav,跟随安全车,跟随安全车,pass the safety car
+\voice\frozen_order\pass_the_safety_car,5.wav,跟随安全车,跟随安全车,pass the safety car
+\voice\frozen_order\row,1.wav,排,排,row
+\voice\frozen_order\row,2.wav,排,排,row
+\voice\frozen_order\row,3.wav,排,排,row
+\voice\frozen_order\safety_car_just_left,37.wav,安全车刚刚离开,安全车刚刚离开,the safety car has just left
+\voice\frozen_order\safety_car_just_left,38_op_prefix_ok.wav,安全车刚刚离开,安全车刚刚离开,the safety car's just left
+\voice\frozen_order\safety_car_just_left,39.wav,安全车刚刚离开,安全车刚刚离开,the safety car has just left
+\voice\frozen_order\safety_car_speed_is,40.wav,安全车速度是,安全车速度是,the safety car speed is
+\voice\frozen_order\safety_car_speed_is,41.wav,安全车速度是,安全车速度是,the safety car speed is
+\voice\frozen_order\safety_car_speed_is,42.wav,安全车速度是,安全车速度是,the safety car speed is
+\voice\frozen_order\safetycar_out_eu,1.wav,安全车出动,安全车出动,the safety car is out
+\voice\frozen_order\safetycar_out_eu,2.wav,安全车出动,安全车出动,the safety car's out
+\voice\frozen_order\safetycar_out_eu,3.wav,安全车出动,安全车出动,safety car is out
+\voice\frozen_order\safetycar_out_eu,4.wav,安全车出动,安全车出动,the safety car's out
+\voice\frozen_order\safetycar_out_eu,5.wav,安全车出动,安全车出动,the safety car is out
+\voice\frozen_order\safetycar_out_usa,1.wav,安全车出动,安全车出动,the pace car is out
+\voice\frozen_order\safetycar_out_usa,2.wav,安全车出动,安全车出动,pace car is out
+\voice\frozen_order\safetycar_out_usa,3.wav,安全车出动,安全车出动,the pace car's out
+\voice\frozen_order\safetycar_out_usa,4.wav,安全车出动,安全车出动,pace car is out
+\voice\frozen_order\safetycar_out_usa,5.wav,安全车出动,安全车出动,the pace car's out
+\voice\frozen_order\stay_in_pole,1.wav,保持杆位,保持杆位,stay in the pole
+\voice\frozen_order\stay_in_pole,2.wav,保持杆位,保持杆位,stay in pole
+\voice\frozen_order\stay_in_pole,3.wav,保持杆位,保持杆位,stay in the pole
+\voice\frozen_order\stay_in_pole,4.wav,保持杆位,保持杆位,stay in the pole
+\voice\frozen_order\stay_in_pole_in_inside_column,1.wav,保持在发车杆位排的内侧车道,保持在发车杆位排的内侧车道,stay in the pole row in the inside column
+\voice\frozen_order\stay_in_pole_in_inside_column,2.wav,保持在发车杆位排的内侧车道,保持在发车杆位排的内侧车道,stay in the pole row in the inside column
+\voice\frozen_order\stay_in_pole_in_inside_column,3.wav,保持在发车杆位排的内侧车道,保持在发车杆位排的内侧车道,stay in the pole row in the inside column
+\voice\frozen_order\stay_in_pole_in_inside_column,4.wav,保持在发车杆位排的内侧车道,保持在发车杆位排的内侧车道,stay in the pole row in the inside column
+\voice\frozen_order\stay_in_pole_in_left_column,1.wav,留在发车杆位所在的左列,留在发车杆位所在的左列,stay in the pole row in the left column
+\voice\frozen_order\stay_in_pole_in_left_column,2.wav,留在发车杆位所在的左列,留在发车杆位所在的左列,stay in the pole row in the left column
+\voice\frozen_order\stay_in_pole_in_left_column,3.wav,留在发车杆位所在的左列,留在发车杆位所在的左列,stay in the pole row in the left column
+\voice\frozen_order\stay_in_pole_in_left_column,4.wav,留在发车杆位所在的左列,留在发车杆位所在的左列,stay in the pole row in the left column
+\voice\frozen_order\stay_in_pole_in_outside_column,1.wav,保持在头排外侧,保持在头排外侧,stay in the pole row in the outside column
+\voice\frozen_order\stay_in_pole_in_outside_column,2.wav,保持在头排外侧,保持在头排外侧,stay in the pole row in the outside column
+\voice\frozen_order\stay_in_pole_in_outside_column,3.wav,保持在头排外侧,保持在头排外侧,stay in the pole row in the outside column
+\voice\frozen_order\stay_in_pole_in_outside_column,4.wav,保持在头排外侧,保持在头排外侧,stay in the pole row in the outside column
+\voice\frozen_order\stay_in_pole_in_right_column,1.wav,保持在发车杆位排的右侧列,保持在发车杆位排的右侧列,stay in the pole row in the right column
+\voice\frozen_order\stay_in_pole_in_right_column,2.wav,保持在发车杆位排的右侧列,保持在发车杆位排的右侧列,stay in the pole row in the right column
+\voice\frozen_order\stay_in_pole_in_right_column,3.wav,保持在发车杆位排的右侧列,保持在发车杆位排的右侧列,stay in the pole row in the right column
+\voice\frozen_order\stay_in_pole_in_right_column,4.wav,保持在发车杆位排的右侧列,保持在发车杆位排的右侧列,stay in the pole row in the right column
+\voice\frozen_order\thats_a_rolling_start,1.wav,好的，滚动发车,好的，滚动发车,"okay, rolling start"
+\voice\frozen_order\thats_a_rolling_start,2.wav,滚动发车，准备就绪,滚动发车，准备就绪,"rolling start, get ready"
+\voice\frozen_order\thats_a_rolling_start,3.wav,这是一个滚动发车,这是一个滚动发车,this is a rolling start
+\voice\frozen_order\thats_a_standing_start,4.wav,站立起跑现在,站立起跑现在,standing start now
+\voice\frozen_order\thats_a_standing_start,5.wav,好的，静止起跑,好的，静止起跑,"okay, standing start"
+\voice\frozen_order\thats_a_standing_start,6.wav,这将是静止起步,这将是静止起步,this'll be a standing start
+\voice\frozen_order\the_safety_car,52.wav,安全车,安全车,the safety car
+\voice\frozen_order\the_safety_car,53.wav,安全车,安全车,the safety car
+\voice\frozen_order\the_safety_car,54.wav,安全车,安全车,the safety car
+\voice\frozen_order\to_pass,55.wav,超车,超车,to pass
+\voice\frozen_order\to_pass,56.wav,超车,超车,to pass
+\voice\frozen_order\to_pass,57.wav,超车,超车,to pass
+\voice\frozen_order\were_starting_from_pole,58.wav,我们从杆位起步,我们从杆位起步,we're starting from pole
+\voice\frozen_order\were_starting_from_pole,59.wav,我们从杆位起步,我们从杆位起步,we're starting from pole
+\voice\frozen_order\were_starting_from_pole,60.wav,我们从杆位起步,我们从杆位起步,we're starting from pole
+\voice\frozen_order\were_starting_from_position,61.wav,我们从位置起步,我们从位置起步,we're starting from position
+\voice\frozen_order\were_starting_from_position,62.wav,我们从位置开始,我们从位置开始,we're starting in position
+\voice\frozen_order\were_starting_from_position,63.wav,我们从位置起步,我们从位置起步,we're starting from position
+\voice\frozen_order\you_need_to_catch_up_to_the_guy_ahead,64.wav,你需要追上前面的家伙,你需要追上前面的家伙,you need to catch up to the guy ahead
+\voice\frozen_order\you_need_to_catch_up_to_the_guy_ahead,65.wav,你需要追上前面的家伙,你需要追上前面的家伙,you need to catch up to the guy ahead
+\voice\frozen_order\you_need_to_catch_up_to_the_guy_ahead,66_op_suffix_please.wav,你需要缩小与前方车手的差距,你需要缩小与前方车手的差距,you need to close the gap to the guy ahead
+\voice\frozen_order\youre_ahead_of_guy_you_should_follow,67.wav,你领先了一个你应该在后面的位置的车手,你领先了一个你应该在后面的位置的车手,you're ahead of a guy you should be behind
+\voice\frozen_order\youre_ahead_of_guy_you_should_follow,68.wav,你在你应该跟随的车手前面,你在你应该跟随的车手前面,you're ahead of a guy you should be following
+\voice\frozen_order\youre_ahead_of_guy_you_should_follow,69_op_prefix_ok.wav,你在这辆车前面，你应该在它后面,你在这辆车前面，你应该在它后面,"you're ahead of this guy, you should be behind him"
+\voice\mandatory_pit_stops\box_in,1.wav,进站,进站,box in
+\voice\mandatory_pit_stops\box_in,2.wav,进站,进站,box in
+\voice\mandatory_pit_stops\box_in,3.wav,进站,进站,box in
+\voice\mandatory_pit_stops\box_in,4.wav,进站,进站,box in
+\voice\mandatory_pit_stops\box_now,1.wav,进站,进站,box now
+\voice\mandatory_pit_stops\box_now,2.wav,进站,进站,box now
+\voice\mandatory_pit_stops\box_now,3.wav,进站,进站,box now
+\voice\mandatory_pit_stops\box_now,4.wav,进站,进站,box now
+\voice\mandatory_pit_stops\box_now,5.wav,进站,进站,box now
+\voice\mandatory_pit_stops\box_now,6.wav,进站,进站,box now
+\voice\mandatory_pit_stops\box_now,7.wav,进站,进站,box now
+\voice\mandatory_pit_stops\box_to_fit_options_now,1_op_prefix_ok.wav,本圈换软胎,本圈换软胎,in this lap for options
+\voice\mandatory_pit_stops\box_to_fit_options_now,1_rq_suffix_please.wav,本圈换上软胎,本圈换上软胎,in this lap for option tyres
+\voice\mandatory_pit_stops\box_to_fit_options_now,2_op_prefix_ok.wav,本圈换上软胎,本圈换上软胎,in this lap for option tyres
+\voice\mandatory_pit_stops\box_to_fit_options_now,2_rq_suffix_please.wav,本圈进站换选胎,本圈进站换选胎,box this lap for options
+\voice\mandatory_pit_stops\box_to_fit_options_now,3_op_prefix_ok.wav,本圈进站换选胎,本圈进站换选胎,pit this lap for options
+\voice\mandatory_pit_stops\box_to_fit_options_now,3_rq_suffix_please.wav,本圈换上软胎,本圈换上软胎,in this lap for option tyres
+\voice\mandatory_pit_stops\box_to_fit_primes_now,1_op_prefix_ok.wav,本圈进站换装软胎,本圈进站换装软胎,box this lap for prime tyres
+\voice\mandatory_pit_stops\box_to_fit_primes_now,1_rq_suffix_please.wav,本圈进站换装软胎,本圈进站换装软胎,box this lap for primes
+\voice\mandatory_pit_stops\box_to_fit_primes_now,2_op_prefix_ok.wav,本圈进站更换软胎,本圈进站更换软胎,pit this lap for prime tyres
+\voice\mandatory_pit_stops\box_to_fit_primes_now,2_rq_suffix_please.wav,本圈换软胎,本圈换软胎,in this lap for primes
+\voice\mandatory_pit_stops\box_to_fit_primes_now,3_op_prefix_ok.wav,本圈更换软胎,本圈更换软胎,in this lap for primes tyres
+\voice\mandatory_pit_stops\box_to_fit_primes_now,3_rq_suffix_please.wav,本圈进站换装软胎,本圈进站换装软胎,box this lap for prime tyres
+\voice\mandatory_pit_stops\can_now_fit_options,1.wav,我们现在可以安装选项,我们现在可以安装选项,we can now fit options
+\voice\mandatory_pit_stops\can_now_fit_options,2.wav,你现在可以换上选项轮胎,你现在可以换上选项轮胎,you can now fit option tyres
+\voice\mandatory_pit_stops\can_now_fit_options,3.wav,你可以装上选项,你可以装上选项,you can put options on
+\voice\mandatory_pit_stops\can_now_fit_options,4.wav,你现在可以切换到软胎,你现在可以切换到软胎,you can now switch to options
+\voice\mandatory_pit_stops\can_now_fit_primes,1.wav,你现在可以换到软胎,你现在可以换到软胎,you can now switch to primes
+\voice\mandatory_pit_stops\can_now_fit_primes,2.wav,你现在可以装上软胎,你现在可以装上软胎,you can now put primes on
+\voice\mandatory_pit_stops\can_now_fit_primes,3.wav,你现在可以换上一级方程式轮胎,你现在可以换上一级方程式轮胎,you can now fit prime tyres
+\voice\mandatory_pit_stops\can_now_fit_primes,4.wav,我们现在可以切换到软胎,我们现在可以切换到软胎,we can now switch to primes
+\voice\mandatory_pit_stops\cant_change_those,1.wav,我们不能更改那些,我们不能更改那些,we can't change those
+\voice\mandatory_pit_stops\cant_change_those,2.wav,我们不能更改那些,我们不能更改那些,we can't change those
+\voice\mandatory_pit_stops\cant_change_those,3.wav,我们不能那样做，那些选项不可用,我们不能那样做，那些选项不可用,"we can't do that, they're not available"
+\voice\mandatory_pit_stops\cant_change_those,4.wav,我们不能更改那些,我们不能更改那些,we can't change those
+\voice\mandatory_pit_stops\cant_do_that,1.wav,我们不能那样做,我们不能那样做,we can't do that
+\voice\mandatory_pit_stops\cant_do_that,2.wav,我们不能那样做,我们不能那样做,we can't do that
+\voice\mandatory_pit_stops\cant_do_that,3.wav,我们不能那样做,我们不能那样做,we can't do that
+\voice\mandatory_pit_stops\cant_do_that,4.wav,我们不能那样做,我们不能那样做,we can't do that
+\voice\mandatory_pit_stops\car_has_too_much_damage,1.wav,车辆损伤太严重，我们无法修复,车辆损伤太严重，我们无法修复,"the car has too much damage, we can't fix this"
+\voice\mandatory_pit_stops\car_has_too_much_damage,2.wav,这里损伤太严重了，我们无能为力,这里损伤太严重了，我们无能为力,"there's too much damage here, there's nothing we can do"
+\voice\mandatory_pit_stops\car_has_too_much_damage,3.wav,车子损伤太严重了，伙计，我们完了,车子损伤太严重了，伙计，我们完了,"the car's got too much damage, mate, we're done"
+\voice\mandatory_pit_stops\confirm_alternate_tyres,1.wav,收到，备选轮胎,收到，备选轮胎,"copy that, alternate tyres"
+\voice\mandatory_pit_stops\confirm_alternate_tyres,2.wav,明白，我们将更换备用轮胎,明白，我们将更换备用轮胎,"understood, we're putting alternate tyres on"
+\voice\mandatory_pit_stops\confirm_alternate_tyres,3.wav,好的，备选轮胎,好的，备选轮胎,"okay, alternate tyres"
+\voice\mandatory_pit_stops\confirm_alternate_tyres,4.wav,已确认，这次使用备选轮胎,已确认，这次使用备选轮胎,"acknowledged, alternate tyres this time"
+\voice\mandatory_pit_stops\confirm_alternate_tyres,5.wav,好的，我们将更换备选轮胎,好的，我们将更换备选轮胎,"okay, we're putting alternate tyres on"
+\voice\mandatory_pit_stops\confirm_change_all_tyres,1.wav,收到，我们将更换所有四个轮胎,收到，我们将更换所有四个轮胎,"copy that, we'll change all 4 tyres"
+\voice\mandatory_pit_stops\confirm_change_all_tyres,2.wav,明白，我们将更换所有四个轮胎,明白，我们将更换所有四个轮胎,"understood, we're changing all 4 tyres"
+\voice\mandatory_pit_stops\confirm_change_all_tyres,3.wav,收到，我们将更换所有四个轮胎,收到，我们将更换所有四个轮胎,"acknowledged, we'll change all 4 tyres"
+\voice\mandatory_pit_stops\confirm_change_all_tyres,4.wav,明白，我们将为您更换所有轮胎,明白，我们将为您更换所有轮胎,"understood, we'll change all your tyres"
+\voice\mandatory_pit_stops\confirm_change_all_tyres,5.wav,收到，我们会为你更换所有轮胎,收到，我们会为你更换所有轮胎,"copy that, we'll change all your tyres"
+\voice\mandatory_pit_stops\confirm_change_all_tyres,6.wav,明白，我们将更换所有四个轮胎,明白，我们将更换所有四个轮胎,"understood, we're changing all 4 tyres"
+\voice\mandatory_pit_stops\confirm_change_all_tyres,7.wav,收到，我们将更换所有四条轮胎,收到，我们将更换所有四条轮胎,"acknowledged, we're changing all 4 tyres"
+\voice\mandatory_pit_stops\confirm_change_front_left_only,1.wav,收到，只换左前胎,收到，只换左前胎,"acknowledged, we'll change front left only"
+\voice\mandatory_pit_stops\confirm_change_front_left_only,2.wav,收到，只换左前胎,收到，只换左前胎,"acknowledged, we'll change front left only"
+\voice\mandatory_pit_stops\confirm_change_front_left_only,3.wav,收到，只换左前胎,收到，只换左前胎,"acknowledged, we'll change front left only"
+\voice\mandatory_pit_stops\confirm_change_front_left_only,4.wav,收到，只换左前胎,收到，只换左前胎,"acknowledged, we'll change front left only"
+\voice\mandatory_pit_stops\confirm_change_front_right_only,1.wav,收到，只换前右轮胎,收到，只换前右轮胎,"acknowledged, we'll change front right only"
+\voice\mandatory_pit_stops\confirm_change_front_right_only,2.wav,收到，只换前右轮胎,收到，只换前右轮胎,"acknowledged, we'll change front right only"
+\voice\mandatory_pit_stops\confirm_change_front_right_only,3.wav,收到，只换前右轮胎,收到，只换前右轮胎,"acknowledged, we'll change front right only"
+\voice\mandatory_pit_stops\confirm_change_front_right_only,4.wav,收到，只换前右轮胎,收到，只换前右轮胎,"acknowledged, we'll change front right only"
+\voice\mandatory_pit_stops\confirm_change_front_tyres,1.wav,明白，这次只更换前胎,明白，这次只更换前胎,"understood, we're changing front tyres only this time"
+\voice\mandatory_pit_stops\confirm_change_front_tyres,2.wav,收到，只换前胎,收到，只换前胎,"copy that, front tyres only"
+\voice\mandatory_pit_stops\confirm_change_front_tyres,3.wav,收到，这次我们将更换前胎,收到，这次我们将更换前胎,"acknowledged, we'll change front tyres this time"
+\voice\mandatory_pit_stops\confirm_change_front_tyres,4.wav,收到，这次只换前胎,收到，这次只换前胎,"acknowledged, we're changing front tyres only this time"
+\voice\mandatory_pit_stops\confirm_change_front_tyres,5.wav,明白，只换前胎,明白，只换前胎,"understood, change front tyres only"
+\voice\mandatory_pit_stops\confirm_change_front_tyres,6.wav,收到，只更换你的前胎,收到，只更换你的前胎,"acknowledged, we're changing your front tyres only"
+\voice\mandatory_pit_stops\confirm_change_left_side_tyres,1.wav,收到，只换左侧轮胎,收到，只换左侧轮胎,"acknowledged, we'll change left side tyres only"
+\voice\mandatory_pit_stops\confirm_change_left_side_tyres,2.wav,收到，只换左侧轮胎,收到，只换左侧轮胎,"acknowledged, we'll change left side tyres only"
+\voice\mandatory_pit_stops\confirm_change_left_side_tyres,3.wav,收到，只换左侧轮胎,收到，只换左侧轮胎,"acknowledged, we'll change left side tyres only"
+\voice\mandatory_pit_stops\confirm_change_left_side_tyres,4.wav,收到，只换左侧轮胎,收到，只换左侧轮胎,"acknowledged, we'll change left side tyres only"
+\voice\mandatory_pit_stops\confirm_change_no_tyres,1.wav,收到，下一停站不换轮胎,收到，下一停站不换轮胎,"copy that, no tyres at the next stop"
+\voice\mandatory_pit_stops\confirm_change_no_tyres,2.wav,明白了，这次不换轮胎,明白了，这次不换轮胎,"understood, we're not gonna change the tyres this time around"
+\voice\mandatory_pit_stops\confirm_change_no_tyres,3.wav,收到，下一进站不换轮胎,收到，下一进站不换轮胎,"acknowledged, no tyres at the next pit stop"
+\voice\mandatory_pit_stops\confirm_change_no_tyres,4.wav,收到，下一停站不换胎,收到，下一停站不换胎,"copy that, no tyre change at the next stop"
+\voice\mandatory_pit_stops\confirm_change_no_tyres,5.wav,明白，下一圈进站不换轮胎,明白，下一圈进站不换轮胎,"understood, no tyres for the next pit stop"
+\voice\mandatory_pit_stops\confirm_change_rear_left_only,1.wav,收到，只换右后胎,收到，只换右后胎,"acknowledged, we'll change rear left only"
+\voice\mandatory_pit_stops\confirm_change_rear_left_only,2.wav,收到，只换右后胎,收到，只换右后胎,"acknowledged, we'll change rear left only"
+\voice\mandatory_pit_stops\confirm_change_rear_left_only,3.wav,收到，只换右后胎,收到，只换右后胎,"acknowledged, we'll change rear left only"
+\voice\mandatory_pit_stops\confirm_change_rear_left_only,4.wav,收到，只换右后胎,收到，只换右后胎,"acknowledged, we'll change rear left only"
+\voice\mandatory_pit_stops\confirm_change_rear_right_only,1.wav,收到，只换右后胎,收到，只换右后胎,"acknowledged, we'll change rear right only"
+\voice\mandatory_pit_stops\confirm_change_rear_right_only,2.wav,收到，只换右后胎,收到，只换右后胎,"acknowledged, we'll change rear right only"
+\voice\mandatory_pit_stops\confirm_change_rear_right_only,3.wav,收到，只换右后胎,收到，只换右后胎,"acknowledged, we'll change rear right only"
+\voice\mandatory_pit_stops\confirm_change_rear_right_only,4.wav,收到，只换右后胎,收到，只换右后胎,"acknowledged, we'll change rear right only"
+\voice\mandatory_pit_stops\confirm_change_rear_tyres,1.wav,收到，只换后胎,收到，只换后胎,"copy that, we'll change rear tyres only"
+\voice\mandatory_pit_stops\confirm_change_rear_tyres,2.wav,明白，只更换你的后胎,明白，只更换你的后胎,"understood, we're changing your rear tyres only"
+\voice\mandatory_pit_stops\confirm_change_rear_tyres,3.wav,好的，我们只会更换你的后胎,好的，我们只会更换你的后胎,"okay, we'll change your rear tyres only"
+\voice\mandatory_pit_stops\confirm_change_rear_tyres,4.wav,收到，只更换后胎,收到，只更换后胎,"acknowledged, we'll change the rear tyres only"
+\voice\mandatory_pit_stops\confirm_change_rear_tyres,5.wav,收到，只换后胎,收到，只换后胎,"copy that, we're changing rear tyres only"
+\voice\mandatory_pit_stops\confirm_change_rear_tyres,6.wav,明白，只换后胎,明白，只换后胎,"understood, rear tyres only"
+\voice\mandatory_pit_stops\confirm_change_right_side_tyres,1.wav,收到，只换右侧轮胎,收到，只换右侧轮胎,"acknowledged, we'll change right side tyres only"
+\voice\mandatory_pit_stops\confirm_change_right_side_tyres,2.wav,收到，只换右侧轮胎,收到，只换右侧轮胎,"acknowledged, we'll change right side tyres only"
+\voice\mandatory_pit_stops\confirm_change_right_side_tyres,3.wav,收到，只换右侧轮胎,收到，只换右侧轮胎,"acknowledged, we'll change right side tyres only"
+\voice\mandatory_pit_stops\confirm_change_right_side_tyres,4.wav,收到，只换右侧轮胎,收到，只换右侧轮胎,"acknowledged, we'll change right side tyres only"
+\voice\mandatory_pit_stops\confirm_change_tyres,1.wav,收到，我们将更换轮胎,收到，我们将更换轮胎,"acknowledged, we'll change tyres"
+\voice\mandatory_pit_stops\confirm_change_tyres,2.wav,收到，我们将更换轮胎,收到，我们将更换轮胎,"acknowledged, we'll change tyres"
+\voice\mandatory_pit_stops\confirm_change_tyres,3.wav,收到，我们将更换轮胎,收到，我们将更换轮胎,"acknowledged, we'll change tyres"
+\voice\mandatory_pit_stops\confirm_change_tyres,4.wav,收到，我们将更换轮胎,收到，我们将更换轮胎,"acknowledged, we'll change tyres"
+\voice\mandatory_pit_stops\confirm_change_tyres,5.wav,收到，我们将更换轮胎,收到，我们将更换轮胎,"acknowledged, we'll change tyres"
+\voice\mandatory_pit_stops\confirm_dont_fix_aero,1.wav,明白，我们不会修复空气动力套件,明白，我们不会修复空气动力套件,"understood, we're not gonna fix the aero"
+\voice\mandatory_pit_stops\confirm_dont_fix_aero,2.wav,收到，这次不修理空气动力套件,收到，这次不修理空气动力套件,"copy that, no aero fixes this time"
+\voice\mandatory_pit_stops\confirm_dont_fix_aero,3.wav,收到，下一进站不修复空气动力套件,收到，下一进站不修复空气动力套件,"acknowledged, no aero fix at the next pit stop"
+\voice\mandatory_pit_stops\confirm_dont_fix_aero,4.wav,明白，我们不会修复空气动力套件,明白，我们不会修复空气动力套件,"understood, we're not gonna fix the aero"
+\voice\mandatory_pit_stops\confirm_dont_fix_aero,5.wav,收到，我们不会修复空气动力套件,收到，我们不会修复空气动力套件,"acknowledged, we're not gonna fix the aero"
+\voice\mandatory_pit_stops\confirm_dont_fix_aero,6.wav,收到，不修理空气动力套件,收到，不修理空气动力套件,"copy that, no aero fixes"
+\voice\mandatory_pit_stops\confirm_dont_fix_suspension,1.wav,明白，我们不会修理悬挂,明白，我们不会修理悬挂,"understood, we won't fix the suspension"
+\voice\mandatory_pit_stops\confirm_dont_fix_suspension,2.wav,收到，我们不会修复悬挂,收到，我们不会修复悬挂,"copy that, we're not gonna fix the suspension"
+\voice\mandatory_pit_stops\confirm_dont_fix_suspension,3.wav,收到，我们不会修理悬挂,收到，我们不会修理悬挂,"acknowledged, we won't fix the suspension"
+\voice\mandatory_pit_stops\confirm_dont_fix_suspension,4.wav,好的，我们不会修复悬挂,好的，我们不会修复悬挂,"okay, we're not gonna fix the suspension"
+\voice\mandatory_pit_stops\confirm_dont_fix_suspension,5.wav,明白，我们不会修理悬挂,明白，我们不会修理悬挂,"understood, we won't fix the suspension"
+\voice\mandatory_pit_stops\confirm_dont_fix_suspension,6.wav,收到，我们不会修复悬挂,收到，我们不会修复悬挂,"copy that, we're not gonna fix the suspension"
+\voice\mandatory_pit_stops\confirm_dry_tyres,1.wav,确认，干胎,确认，干胎,"acknowledged, dry tyres"
+\voice\mandatory_pit_stops\confirm_dry_tyres,2.wav,确认，干胎,确认，干胎,"acknowledged, dry tyres"
+\voice\mandatory_pit_stops\confirm_dry_tyres,3.wav,确认，干胎,确认，干胎,"acknowledged, dry tyres"
+\voice\mandatory_pit_stops\confirm_dry_tyres,4.wav,确认，干胎,确认，干胎,"acknowledged, dry tyres"
+\voice\mandatory_pit_stops\confirm_dry_tyres,5.wav,确认，干胎,确认，干胎,"acknowledged, dry tyres"
+\voice\mandatory_pit_stops\confirm_fit_tyre_set_intro,1.wav,收到，我们将安装轮胎组,收到，我们将安装轮胎组,"acknowledged, we'll fit tyre set"
+\voice\mandatory_pit_stops\confirm_fit_tyre_set_intro,2.wav,收到，我们将安装轮胎组,收到，我们将安装轮胎组,"acknowledged, we'll fit tyre set"
+\voice\mandatory_pit_stops\confirm_fit_tyre_set_intro,3.wav,收到，我们将安装轮胎组,收到，我们将安装轮胎组,"acknowledged, we'll fit tyre set"
+\voice\mandatory_pit_stops\confirm_fit_tyre_set_intro,4.wav,收到，我们将安装轮胎组,收到，我们将安装轮胎组,"acknowledged, we'll fit tyre set"
+\voice\mandatory_pit_stops\confirm_fit_tyre_set_intro,5.wav,收到，我们将安装轮胎组,收到，我们将安装轮胎组,"acknowledged, we'll fit tyre set"
+\voice\mandatory_pit_stops\confirm_fix_all,1.wav,收到，我们会修复所有可以解决的问题,收到，我们会修复所有可以解决的问题,"acknowledged, we'll fix everything we can"
+\voice\mandatory_pit_stops\confirm_fix_all,2.wav,收到，我们会修复所有可以解决的问题,收到，我们会修复所有可以解决的问题,"acknowledged, we'll fix everything we can"
+\voice\mandatory_pit_stops\confirm_fix_all,3.wav,收到，我们会修复所有可以解决的问题,收到，我们会修复所有可以解决的问题,"acknowledged, we'll fix everything we can"
+\voice\mandatory_pit_stops\confirm_fix_all,4.wav,收到，我们会修复所有可以解决的问题,收到，我们会修复所有可以解决的问题,"acknowledged, we'll fix everything we can"
+\voice\mandatory_pit_stops\confirm_fix_all_aero,1.wav,明白，我们会修复前部和后部的空气动力套件,明白，我们会修复前部和后部的空气动力套件,"understood, we'll fix front and rear aero"
+\voice\mandatory_pit_stops\confirm_fix_all_aero,2.wav,收到，我们会修复你的前部和后部空气动力套件,收到，我们会修复你的前部和后部空气动力套件,"copy that, we'll fix your front and your rear aero"
+\voice\mandatory_pit_stops\confirm_fix_all_aero,3.wav,已确认，我们将修复前部和后部空气动力套件,已确认，我们将修复前部和后部空气动力套件,"acknowledged, we'll fix front and rear aero"
+\voice\mandatory_pit_stops\confirm_fix_all_aero,4.wav,好的，我们会修复你的前部和后部空气动力套件,好的，我们会修复你的前部和后部空气动力套件,"okay, we'll fix your front and your rear aero"
+\voice\mandatory_pit_stops\confirm_fix_all_aero,5.wav,明白，我们会修复前部和后部的空气动力套件,明白，我们会修复前部和后部的空气动力套件,"understood, we'll fix the front and rear aero"
+\voice\mandatory_pit_stops\confirm_fix_body,1.wav,收到，我们将修复车身,收到，我们将修复车身,"acknowledged, we'll fix the bodywork"
+\voice\mandatory_pit_stops\confirm_fix_body,2.wav,收到，我们将修复车身,收到，我们将修复车身,"acknowledged, we'll fix the bodywork"
+\voice\mandatory_pit_stops\confirm_fix_body,3.wav,收到，我们将修复车身,收到，我们将修复车身,"acknowledged, we'll fix the bodywork"
+\voice\mandatory_pit_stops\confirm_fix_body,4.wav,收到，我们将修复车身,收到，我们将修复车身,"acknowledged, we'll fix the bodywork"
+\voice\mandatory_pit_stops\confirm_fix_body,5.wav,收到，我们将修复车身,收到，我们将修复车身,"acknowledged, we'll fix the bodywork"
+\voice\mandatory_pit_stops\confirm_fix_front_aero,1.wav,收到，我们会修复前部空气动力套件,收到，我们会修复前部空气动力套件,"copy that, we'll fix the front aero"
+\voice\mandatory_pit_stops\confirm_fix_front_aero,2.wav,明白，我们正在修复前部空气动力套件,明白，我们正在修复前部空气动力套件,"understood, we're fixing the front aero"
+\voice\mandatory_pit_stops\confirm_fix_front_aero,3.wav,好的，我们要修复前部空气动力套件,好的，我们要修复前部空气动力套件,"okay, we're gonna fix the front aero"
+\voice\mandatory_pit_stops\confirm_fix_front_aero,4.wav,收到，我们将只修复前部空气动力套件,收到，我们将只修复前部空气动力套件,"acknowledged, we'll fix the front aero only"
+\voice\mandatory_pit_stops\confirm_fix_front_aero,5.wav,收到，我们将只修复前部空气动力套件,收到，我们将只修复前部空气动力套件,"copy that, we'll fix the front aero only"
+\voice\mandatory_pit_stops\confirm_fix_nothing,1.wav,确认，无需维修,确认，无需维修,"acknowledged, no repairs"
+\voice\mandatory_pit_stops\confirm_fix_nothing,2.wav,确认，无需维修,确认，无需维修,"acknowledged, no repairs"
+\voice\mandatory_pit_stops\confirm_fix_nothing,3.wav,确认，无需维修,确认，无需维修,"acknowledged, no repairs"
+\voice\mandatory_pit_stops\confirm_fix_nothing,4.wav,确认，无需维修,确认，无需维修,"acknowledged, no repairs"
+\voice\mandatory_pit_stops\confirm_fix_rear_aero,1.wav,明白，只修复后部空气动力套件,明白，只修复后部空气动力套件,"understood, we're fixing rear aero only"
+\voice\mandatory_pit_stops\confirm_fix_rear_aero,2.wav,收到，仅后空气动力套件,收到，仅后空气动力套件,"copy that, rear aero only"
+\voice\mandatory_pit_stops\confirm_fix_rear_aero,3.wav,收到，我们将只修复后部空气动力套件,收到，我们将只修复后部空气动力套件,"acknowledged, we'll fix the rear aero only"
+\voice\mandatory_pit_stops\confirm_fix_rear_aero,4.wav,好的，下一进站只修复后部空气动力套件,好的，下一进站只修复后部空气动力套件,"okay, we'll fix rear aero only at the next stop"
+\voice\mandatory_pit_stops\confirm_fix_rear_aero,5.wav,明白，我们只修复后部空气动力套件,明白，我们只修复后部空气动力套件,"understood, we're fixing the rear aero only"
+\voice\mandatory_pit_stops\confirm_fix_suspension,1.wav,明白，将在下次进站时修复悬挂,明白，将在下次进站时修复悬挂,"understood, we'll fix the suspension at the next stop"
+\voice\mandatory_pit_stops\confirm_fix_suspension,2.wav,收到，我们会修复悬挂,收到，我们会修复悬挂,"copy that, we'll fix the suspension"
+\voice\mandatory_pit_stops\confirm_fix_suspension,3.wav,好的，我们将在下一个停站时修复悬挂,好的，我们将在下一个停站时修复悬挂,"okay, we're gonna fix the suspension at the next stop"
+\voice\mandatory_pit_stops\confirm_fix_suspension,4.wav,收到，我们将修复悬挂,收到，我们将修复悬挂,"acknowledged, we'll fix the suspension"
+\voice\mandatory_pit_stops\confirm_fix_suspension,5.wav,好的，我们要修复悬挂,好的，我们要修复悬挂,"okay, we're gonna fix the suspension"
+\voice\mandatory_pit_stops\confirm_fix_suspension,6.wav,收到，将在下次进站时修复悬挂,收到，将在下次进站时修复悬挂,"copy that, we're gonna fix the suspension at the next stop"
+\voice\mandatory_pit_stops\confirm_hard_tyres,1.wav,明白，硬胎,明白，硬胎,"understood, hard tyres"
+\voice\mandatory_pit_stops\confirm_hard_tyres,2.wav,收到，我们将使用硬胎,收到，我们将使用硬胎,"copy that, we're going for hard tyres"
+\voice\mandatory_pit_stops\confirm_hard_tyres,3.wav,好的，我们将安装硬胎,好的，我们将安装硬胎,"okay, we'll put hard tyres on"
+\voice\mandatory_pit_stops\confirm_hard_tyres,4.wav,确认，硬胎,确认，硬胎,"acknowledged, hard tyres"
+\voice\mandatory_pit_stops\confirm_hard_tyres,5.wav,好的，我们将使用硬胎,好的，我们将使用硬胎,"okay, we're going for hard tyres"
+\voice\mandatory_pit_stops\confirm_hypersoft_tyres,1.wav,确认，超软胎,确认，超软胎,"acknowledged, hyper-soft tyres"
+\voice\mandatory_pit_stops\confirm_hypersoft_tyres,2.wav,确认，超软胎,确认，超软胎,"acknowledged, hyper-soft tyres"
+\voice\mandatory_pit_stops\confirm_hypersoft_tyres,3.wav,确认，超软胎,确认，超软胎,"acknowledged, hyper-soft tyres"
+\voice\mandatory_pit_stops\confirm_hypersoft_tyres,4.wav,确认，超软胎,确认，超软胎,"acknowledged, hyper-soft tyres"
+\voice\mandatory_pit_stops\confirm_intermediate_tyres,1.wav,确认，半雨胎,确认，半雨胎,"acknowledged, intermediate tyres"
+\voice\mandatory_pit_stops\confirm_intermediate_tyres,2.wav,确认，半雨胎,确认，半雨胎,"acknowledged, intermediate tyres"
+\voice\mandatory_pit_stops\confirm_intermediate_tyres,3.wav,确认，半雨胎,确认，半雨胎,"acknowledged, intermediate tyres"
+\voice\mandatory_pit_stops\confirm_intermediate_tyres,4.wav,确认，半雨胎,确认，半雨胎,"acknowledged, intermediate tyres"
+\voice\mandatory_pit_stops\confirm_intermediate_tyres,5.wav,确认，半雨胎,确认，半雨胎,"acknowledged, intermediate tyres"
+\voice\mandatory_pit_stops\confirm_medium_tyres,1.wav,收到，中性胎,收到，中性胎,"copy that, medium tyres"
+\voice\mandatory_pit_stops\confirm_medium_tyres,2.wav,确认，中性胎,确认，中性胎,"acknowledged, medium tyres"
+\voice\mandatory_pit_stops\confirm_medium_tyres,3.wav,好的，我们将安装中性胎,好的，我们将安装中性胎,okay we'll put medium tyres on
+\voice\mandatory_pit_stops\confirm_medium_tyres,4.wav,收到，我们将使用中性胎,收到，我们将使用中性胎,"copy that, we're going for medium tyres"
+\voice\mandatory_pit_stops\confirm_medium_tyres,5.wav,明白，中性胎,明白，中性胎,"understood, medium tyres"
+\voice\mandatory_pit_stops\confirm_monsoon_tyres,1.wav,确认，季风轮胎,确认，季风轮胎,"acknowledged, monsoon tyres"
+\voice\mandatory_pit_stops\confirm_monsoon_tyres,2.wav,确认，季风轮胎,确认，季风轮胎,"acknowledged, monsoon tyres"
+\voice\mandatory_pit_stops\confirm_monsoon_tyres,3.wav,确认，季风轮胎,确认，季风轮胎,"acknowledged, monsoon tyres"
+\voice\mandatory_pit_stops\confirm_monsoon_tyres,4.wav,确认，季风轮胎,确认，季风轮胎,"acknowledged, monsoon tyres"
+\voice\mandatory_pit_stops\confirm_monsoon_tyres,5.wav,确认，季风轮胎,确认，季风轮胎,"acknowledged, monsoon tyres"
+\voice\mandatory_pit_stops\confirm_next_tyre_compound,1.wav,确认，下一组轮胎,确认，下一组轮胎,"acknowledged, next tyre compound"
+\voice\mandatory_pit_stops\confirm_next_tyre_compound,2.wav,确认，下一组轮胎,确认，下一组轮胎,"acknowledged, next tyre compound"
+\voice\mandatory_pit_stops\confirm_next_tyre_compound,3.wav,确认，下一组轮胎,确认，下一组轮胎,"acknowledged, next tyre compound"
+\voice\mandatory_pit_stops\confirm_next_tyre_compound,4.wav,确认，下一组轮胎,确认，下一组轮胎,"acknowledged, next tyre compound"
+\voice\mandatory_pit_stops\confirm_no_refuelling,1.wav,收到，这次不加油,收到，这次不加油,"copy that, no fuel this time"
+\voice\mandatory_pit_stops\confirm_no_refuelling,2.wav,明白，不会加油,明白，不会加油,"understood, we won't add fuel"
+\voice\mandatory_pit_stops\confirm_no_refuelling,3.wav,收到，我们不会为你加油,收到，我们不会为你加油,"acknowledged, we won't refuel you"
+\voice\mandatory_pit_stops\confirm_no_refuelling,4.wav,好的，这次不加油,好的，这次不加油,"okay, no refueling this time"
+\voice\mandatory_pit_stops\confirm_no_refuelling,5.wav,收到，不加油,收到，不加油,"copy that, no refueling"
+\voice\mandatory_pit_stops\confirm_no_refuelling,6.wav,明白，不会加油,明白，不会加油,"understood, we won't add any fuel"
+\voice\mandatory_pit_stops\confirm_option_tyres,1.wav,明白，我们将使用比赛轮胎,明白，我们将使用比赛轮胎,"understood, we'll go for option tyres"
+\voice\mandatory_pit_stops\confirm_option_tyres,2.wav,收到，我们将安装比赛用胎,收到，我们将安装比赛用胎,"acknowledged, we'll put option tyres on"
+\voice\mandatory_pit_stops\confirm_option_tyres,3.wav,好的，选择性轮胎,好的，选择性轮胎,"okay, option tyres"
+\voice\mandatory_pit_stops\confirm_option_tyres,4.wav,收到，我们将使用策略轮胎,收到，我们将使用策略轮胎,"copy that, we're going for option tyres"
+\voice\mandatory_pit_stops\confirm_option_tyres,5.wav,好的，那是选项轮胎,好的，那是选项轮胎,"okay, that's option tyres"
+\voice\mandatory_pit_stops\confirm_prime_tyres,1.wav,收到，我们将使用最佳轮胎,收到，我们将使用最佳轮胎,"copy that, we're going for prime tyres"
+\voice\mandatory_pit_stops\confirm_prime_tyres,2.wav,明白，我们将安装最佳轮胎,明白，我们将安装最佳轮胎,"understood, we'll put prime tyres on"
+\voice\mandatory_pit_stops\confirm_prime_tyres,3.wav,好的，我们将安装高性能轮胎,好的，我们将安装高性能轮胎,"okay, we're putting prime tyres on"
+\voice\mandatory_pit_stops\confirm_prime_tyres,4.wav,收到，主力轮胎,收到，主力轮胎,"acknowledged, prime tyres"
+\voice\mandatory_pit_stops\confirm_prime_tyres,5.wav,好的，我们将使用软胎,好的，我们将使用软胎,"okay, we're going for prime tyres"
+\voice\mandatory_pit_stops\confirm_refuelling,1.wav,明白，我们将加油,明白，我们将加油,"understood, we'll add fuel"
+\voice\mandatory_pit_stops\confirm_refuelling,2.wav,收到，我们会为你加油,收到，我们会为你加油,"copy that, we'll refuel you"
+\voice\mandatory_pit_stops\confirm_refuelling,3.wav,明白，我们要加油,明白，我们要加油,"understood, we're gonna add fuel"
+\voice\mandatory_pit_stops\confirm_refuelling,4.wav,好的，我们将加油,好的，我们将加油,"okay, we'll add the fuel"
+\voice\mandatory_pit_stops\confirm_refuelling,5.wav,收到，我们将为您加油,收到，我们将为您加油,"acknowledged, we're gonna refuel you"
+\voice\mandatory_pit_stops\confirm_requested_tyre_not_available,1.wav,抱歉，没有可用的,抱歉，没有可用的,"sorry, they're not available"
+\voice\mandatory_pit_stops\confirm_requested_tyre_not_available,2.wav,那些轮胎不可用,那些轮胎不可用,those tyres aren't available
+\voice\mandatory_pit_stops\confirm_requested_tyre_not_available,3.wav,我们不能那样做，那些选项不可用,我们不能那样做，那些选项不可用,"we can't do that, they're not available"
+\voice\mandatory_pit_stops\confirm_requested_tyre_not_available,4.wav,那些轮胎不可用,那些轮胎不可用,those tyres aren't available
+\voice\mandatory_pit_stops\confirm_requested_tyre_not_available,5.wav,抱歉，不可用,抱歉，不可用,"sorry, are not available"
+\voice\mandatory_pit_stops\confirm_requested_tyre_not_available,6.wav,那些轮胎不可用,那些轮胎不可用,those tyres aren't available
+\voice\mandatory_pit_stops\confirm_soft_tyres,1.wav,收到，我们将使用软胎,收到，我们将使用软胎,"acknowledged, we're going for soft tyres"
+\voice\mandatory_pit_stops\confirm_soft_tyres,2.wav,明白，我们将安装软胎,明白，我们将安装软胎,"understood, we'll put soft tyres on"
+\voice\mandatory_pit_stops\confirm_soft_tyres,3.wav,收到，我们将使用软胎,收到，我们将使用软胎,"copy that, we're going for soft tyres"
+\voice\mandatory_pit_stops\confirm_soft_tyres,4.wav,好的，我们将安装软胎,好的，我们将安装软胎,"okay, we'll put soft tyres on"
+\voice\mandatory_pit_stops\confirm_soft_tyres,5.wav,明白，这次用软胎,明白，这次用软胎,"understood, soft tyres this time"
+\voice\mandatory_pit_stops\confirm_supersoft_tyres,1.wav,确认，超软胎,确认，超软胎,"acknowledged, super-soft tyres"
+\voice\mandatory_pit_stops\confirm_supersoft_tyres,2.wav,确认，超软胎,确认，超软胎,"acknowledged, super-soft tyres"
+\voice\mandatory_pit_stops\confirm_supersoft_tyres,3.wav,确认，超软胎,确认，超软胎,"acknowledged, super-soft tyres"
+\voice\mandatory_pit_stops\confirm_supersoft_tyres,4.wav,确认，超软胎,确认，超软胎,"acknowledged, super-soft tyres"
+\voice\mandatory_pit_stops\confirm_ultrasoft_tyres,1.wav,确认，超软胎,确认，超软胎,"acknowledged, ultra-soft tyres"
+\voice\mandatory_pit_stops\confirm_ultrasoft_tyres,2.wav,确认，超软胎,确认，超软胎,"acknowledged, ultra-soft tyres"
+\voice\mandatory_pit_stops\confirm_ultrasoft_tyres,3.wav,确认，超软胎,确认，超软胎,"acknowledged, ultra-soft tyres"
+\voice\mandatory_pit_stops\confirm_ultrasoft_tyres,4.wav,确认，超软胎,确认，超软胎,"acknowledged, ultra-soft tyres"
+\voice\mandatory_pit_stops\confirm_wet_tyres,1.wav,确认，湿地胎,确认，湿地胎,"acknowledged, wet tyres"
+\voice\mandatory_pit_stops\confirm_wet_tyres,2.wav,确认，湿地胎,确认，湿地胎,"acknowledged, wet tyres"
+\voice\mandatory_pit_stops\confirm_wet_tyres,3.wav,确认，湿地胎,确认，湿地胎,"acknowledged, wet tyres"
+\voice\mandatory_pit_stops\confirm_wet_tyres,4.wav,确认，湿地胎,确认，湿地胎,"acknowledged, wet tyres"
+\voice\mandatory_pit_stops\confirm_wet_tyres,5.wav,确认，湿地胎,确认，湿地胎,"acknowledged, wet tyres"
+\voice\mandatory_pit_stops\disengage_limiter,1_op_suffix_please.wav,解除限速器,解除限速器,disengage limiter
+\voice\mandatory_pit_stops\disengage_limiter,5.wav,解除限速器,解除限速器,disengage limiter
+\voice\mandatory_pit_stops\disengage_limiter,6.wav,限速器仍然开启，取消它,限速器仍然开启，取消它,"limiter's still on, disengage it"
+\voice\mandatory_pit_stops\engage_limiter,1_op_suffix_please.wav,启用限速器,启用限速器,engage limiter
+\voice\mandatory_pit_stops\engage_limiter,2_op_suffix_please.wav,启动限速器,启动限速器,engage the limiter
+\voice\mandatory_pit_stops\engage_limiter,3_op_suffix_please.wav,启动限速器,启动限速器,activate limiter
+\voice\mandatory_pit_stops\feet,1.wav,进站,进站,feet
+\voice\mandatory_pit_stops\feet,2.wav,进站,进站,feet
+\voice\mandatory_pit_stops\feet,3.wav,进站,进站,feet
+\voice\mandatory_pit_stops\feet,4.wav,进站,进站,feet
+\voice\mandatory_pit_stops\feet,5.wav,进站,进站,feet
+\voice\mandatory_pit_stops\fifty_metres,4.wav,50米,50米,50 metres
+\voice\mandatory_pit_stops\fifty_metres,5.wav,50米,50米,50 metres
+\voice\mandatory_pit_stops\fifty_metres,6.wav,50米,50米,50 metres
+\voice\mandatory_pit_stops\laps_so_far,1.wav,总共圈数,总共圈数,laps in total
+\voice\mandatory_pit_stops\laps_so_far,2.wav,总共圈数,总共圈数,laps in total
+\voice\mandatory_pit_stops\laps_so_far,3.wav,总共圈数,总共圈数,laps in total
+\voice\mandatory_pit_stops\laps_so_far,4.wav,总共圈数,总共圈数,laps in total
+\voice\mandatory_pit_stops\laps_so_far,5.wav,总共圈数,总共圈数,laps in total
+\voice\mandatory_pit_stops\left_pit_too_soon,1.wav,这次进站不算，你出站太早了,这次进站不算，你出站太早了,"this stop won't count, you've left the pit too soon"
+\voice\mandatory_pit_stops\left_pit_too_soon,2.wav,你需要等待，这不会算作你的强制进站,你需要等待，这不会算作你的强制进站,"you needed to wait, this won't count as your mandatory stop"
+\voice\mandatory_pit_stops\left_pit_too_soon,3.wav,你需要等待更长的时间，这不会算作你的进站,你需要等待更长的时间，这不会算作你的进站,"you needed to wait longer, this won't count as your stop"
+\voice\mandatory_pit_stops\left_pit_too_soon,4.wav,你出站太早了，你需要回来再做一次,你出站太早了，你需要回来再做一次,"you've left the box too soon, you'll need to come back and do it again"
+\voice\mandatory_pit_stops\left_pit_too_soon,5.wav,你出站太早了，这一圈不算,你出站太早了，这一圈不算,"you've exited too soon, this one won't count"
+\voice\mandatory_pit_stops\metres,1.wav,米,米,metres
+\voice\mandatory_pit_stops\metres,2.wav,米,米,metres
+\voice\mandatory_pit_stops\metres,3.wav,米,米,metres
+\voice\mandatory_pit_stops\min_pitstop_time_intro,1.wav,我们需要完全停止共计,我们需要完全停止共计,we need to be stationary for a total of
+\voice\mandatory_pit_stops\min_pitstop_time_intro,2.wav,我们需要静止,我们需要静止,we'll need to be stationary for
+\voice\mandatory_pit_stops\min_pitstop_time_intro,3.wav,我们需要停车,我们需要停车,we need to be stopped for
+\voice\mandatory_pit_stops\min_pitstop_time_intro,4.wav,我们需要至少停一站,我们需要至少停一站,we need to be stopped for at least
+\voice\mandatory_pit_stops\min_pitstop_time_intro,5.wav,我们需要至少停留,我们需要至少停留,we need to be stationary for at least
+\voice\mandatory_pit_stops\min_pitstop_time_intro,6.wav,我们需要至少停一站,我们需要至少停一站,we need to be stopped for at least
+\voice\mandatory_pit_stops\minutes,1.wav,分钟,分钟,minutes
+\voice\mandatory_pit_stops\minutes,2.wav,分钟,分钟,minutes
+\voice\mandatory_pit_stops\minutes,3.wav,分钟,分钟,minutes
+\voice\mandatory_pit_stops\missed_stop,1.wav,你错过了进站窗口,你错过了进站窗口,you missed the pit window
+\voice\mandatory_pit_stops\missed_stop,2.wav,你错过了你的机会，伙计,你错过了你的机会，伙计,"you missed your chance, mate"
+\voice\mandatory_pit_stops\missed_stop,3.wav,是的，但现在进站窗口已经关闭了,是的，但现在进站窗口已经关闭了,"yeah, but the pit window's closed now"
+\voice\mandatory_pit_stops\missed_stop,4.wav,好的，进站窗口现在已经关闭了，你错过了你的机会,好的，进站窗口现在已经关闭了，你错过了你的机会,"yep, pit window's closed now, you missed your chance"
+\voice\mandatory_pit_stops\no_fuel_this_time,1.wav,我们这次不加油,我们这次不加油,we're not refueling
+\voice\mandatory_pit_stops\no_fuel_this_time,2.wav,这次不加油,这次不加油,no fuel this time
+\voice\mandatory_pit_stops\no_fuel_this_time,3.wav,我们这次不会加油,我们这次不会加油,we're not gonna refuel
+\voice\mandatory_pit_stops\no_fuel_this_time,4.wav,我们这次不加油,我们这次不加油,we're not refueling
+\voice\mandatory_pit_stops\no_fuel_this_time,5.wav,这次不加油,这次不加油,we're not putting fuel in
+\voice\mandatory_pit_stops\no_pit_speed_limit,1.wav,没有维修区限速,没有维修区限速,there's no pit speed limit
+\voice\mandatory_pit_stops\no_pit_speed_limit,2.wav,没有维修区限速,没有维修区限速,there's no pit speed limit
+\voice\mandatory_pit_stops\no_pit_speed_limit,3.wav,没有维修区限速,没有维修区限速,there's no pit lane speed limit
+\voice\mandatory_pit_stops\no_pit_speed_limit,4.wav,没有维修区限速,没有维修区限速,there's no pit lane speed limit
+\voice\mandatory_pit_stops\no_pit_speed_limit,5.wav,没有维修区限速,没有维修区限速,there's no pit speed limit
+\voice\mandatory_pit_stops\no_tyres_or_fuel,1.wav,这次没有轮胎或燃油,这次没有轮胎或燃油,no tyres or fuel this time
+\voice\mandatory_pit_stops\no_tyres_or_fuel,2.wav,不加油，不换胎,不加油，不换胎,no refueling and no tyres
+\voice\mandatory_pit_stops\no_tyres_or_fuel,3.wav,我们这次不换轮胎也不加油,我们这次不换轮胎也不加油,we're not changing tyres or refueling this time
+\voice\mandatory_pit_stops\no_tyres_or_fuel,4.wav,没有燃油或轮胎,没有燃油或轮胎,no fuel or tyres
+\voice\mandatory_pit_stops\no_tyres_or_fuel,5.wav,我们不加油，也不换轮胎,我们不加油，也不换轮胎,we're not refueling and we're not changing tyres
+\voice\mandatory_pit_stops\no_tyres_or_fuel,6.wav,这次没有轮胎或燃油,这次没有轮胎或燃油,no tyres or fuel this time
+\voice\mandatory_pit_stops\no_tyres_this_time,1.wav,我们不换轮胎,我们不换轮胎,we're not changing tyres
+\voice\mandatory_pit_stops\no_tyres_this_time,2.wav,这次不换轮胎,这次不换轮胎,no tyres this time
+\voice\mandatory_pit_stops\no_tyres_this_time,3.wav,我们这次不换轮胎,我们这次不换轮胎,we're not changing any tyres
+\voice\mandatory_pit_stops\no_tyres_this_time,4.wav,我们这次不换轮胎,我们这次不换轮胎,we're not changing our tyres
+\voice\mandatory_pit_stops\no_tyres_this_time,5.wav,这次不换轮胎,这次不换轮胎,no tyres this time
+\voice\mandatory_pit_stops\one_hundred_feet,1.wav,一百英尺,一百英尺,100 feet
+\voice\mandatory_pit_stops\one_hundred_feet,2.wav,一百英尺,一百英尺,100 feet
+\voice\mandatory_pit_stops\one_hundred_feet,3.wav,一百英尺,一百英尺,100 feet
+\voice\mandatory_pit_stops\one_hundred_feet,4.wav,一百英尺,一百英尺,100 feet
+\voice\mandatory_pit_stops\one_hundred_feet,5.wav,一百英尺,一百英尺,100 feet
+\voice\mandatory_pit_stops\one_hundred_feet,6.wav,一百英尺,一百英尺,100 feet
+\voice\mandatory_pit_stops\one_hundred_metres,1.wav,一百米,一百米,100 metres
+\voice\mandatory_pit_stops\one_hundred_metres,2.wav,一百米,一百米,100 metres
+\voice\mandatory_pit_stops\one_hundred_metres,3.wav,一百米,一百米,100 metres
+\voice\mandatory_pit_stops\option_tyres,1.wav,选项,选项,options
+\voice\mandatory_pit_stops\option_tyres,2.wav,轮胎选项,轮胎选项,option tyres
+\voice\mandatory_pit_stops\option_tyres,3.wav,选项,选项,options
+\voice\mandatory_pit_stops\pit_crew_ready,1.wav,维修区人员准备就绪,维修区人员准备就绪,pit crew is ready
+\voice\mandatory_pit_stops\pit_crew_ready,2.wav,维修区人员准备就绪,维修区人员准备就绪,the pit crew is ready
+\voice\mandatory_pit_stops\pit_crew_ready,3.wav,维修区人员准备就绪,维修区人员准备就绪,the pit crew's ready
+\voice\mandatory_pit_stops\pit_now,1.wav,进站，进站，进站，现在进站,进站，进站，进站，现在进站,"box, box, box, pit now"
+\voice\mandatory_pit_stops\pit_now,2.wav,进站，进站，进站,进站，进站，进站,"pit now, box, box, box"
+\voice\mandatory_pit_stops\pit_now,3.wav,进站，现在进站，进站，进站，进站,进站，现在进站，进站，进站，进站,"box now, please, box, box, box"
+\voice\mandatory_pit_stops\pit_request_cancelled,1.wav,收到，进站请求取消,收到，进站请求取消,"acknowledged, pit request cancelled"
+\voice\mandatory_pit_stops\pit_request_cancelled,2.wav,进站取消,进站取消,pit stop cancelled
+\voice\mandatory_pit_stops\pit_request_cancelled,3.wav,好的，进站请求已取消,好的，进站请求已取消,"okay, pit request cancelled"
+\voice\mandatory_pit_stops\pit_speed_limit,1.wav,维修区速度限制是,维修区速度限制是,the pit lane speed limit is
+\voice\mandatory_pit_stops\pit_speed_limit,2.wav,维修区限速是,维修区限速是,pit lane speed limit is
+\voice\mandatory_pit_stops\pit_speed_limit,3.wav,维修区速度限制是,维修区速度限制是,the pit lane speed limit is
+\voice\mandatory_pit_stops\pit_speed_limit,4.wav,维修区限速是,维修区限速是,pit lane speed limit is
+\voice\mandatory_pit_stops\pit_speed_limit,5.wav,维修区限速是,维修区限速是,pit lane speed limit is
+\voice\mandatory_pit_stops\pit_stall_available,1.wav,你的维修车位现在可用,你的维修车位现在可用,your pit stall is now available
+\voice\mandatory_pit_stops\pit_stall_available,2.wav,你的维修车位现在空了,你的维修车位现在空了,your pit stall's now free
+\voice\mandatory_pit_stops\pit_stall_available,3.wav,我们的维修车位现在可用,我们的维修车位现在可用,our pit stall's available now
+\voice\mandatory_pit_stops\pit_stall_available,4.wav,维修区车位现在可用,维修区车位现在可用,the pit stall is now available
+\voice\mandatory_pit_stops\pit_stall_available,5.wav,维修区车位可用,维修区车位可用,the pit stall is available
+\voice\mandatory_pit_stops\pit_stall_occupied,1.wav,你的维修车位不可用,你的维修车位不可用,your pit stall is unavailable
+\voice\mandatory_pit_stops\pit_stall_occupied,2.wav,你的维修区车位已被占用,你的维修区车位已被占用,your pit stall is occupied
+\voice\mandatory_pit_stops\pit_stall_occupied,3.wav,你的维修车位目前被占用,你的维修车位目前被占用,your pit box is currently occupied
+\voice\mandatory_pit_stops\pit_stop_already_requested,1.wav,知道了，进站已经请求过了,知道了，进站已经请求过了,"we know, pit stop's already been requested"
+\voice\mandatory_pit_stops\pit_stop_already_requested,2.wav,进站已经请求，我们知道,进站已经请求，我们知道,"pit stop already requested, we know"
+\voice\mandatory_pit_stops\pit_stop_already_requested,3.wav,进站已经请求过了，我们准备好了,进站已经请求过了，我们准备好了,"pit stop's already been requested, we are ready"
+\voice\mandatory_pit_stops\pit_stop_already_requested,4.wav,明白了，我们已经在期待你了,明白了，我们已经在期待你了,"understood, we're already expecting you"
+\voice\mandatory_pit_stops\pit_stop_already_requested,5.wav,明白了，我们已经在期待你了,明白了，我们已经在期待你了,"understood, we're already expecting you"
+\voice\mandatory_pit_stops\pit_stop_already_requested,6.wav,收到，我们已经预计你进站,收到，我们已经预计你进站,"acknowledged, we're already expecting you in"
+\voice\mandatory_pit_stops\pit_stop_already_requested,7.wav,好的，我们已经预计你会来了,好的，我们已经预计你会来了,"okay, we are already expecting you"
+\voice\mandatory_pit_stops\pit_stop_not_requested,1.wav,好的，我们没想到你会来，不管怎样,好的，我们没想到你会来，不管怎样,"okay, we weren't expecting you, anyway"
+\voice\mandatory_pit_stops\pit_stop_not_requested,2.wav,呃，我们没想到你会来，老兄,呃，我们没想到你会来，老兄,"uh, we weren't expecting you, mate"
+\voice\mandatory_pit_stops\pit_stop_not_requested,3.wav,好吧，我们没想到你会来,好吧，我们没想到你会来,"nah, we weren't expecting you, anyway"
+\voice\mandatory_pit_stops\pit_stop_not_requested,4.wav,我们没想到你会来,我们没想到你会来,"we weren't expecting you, anyway"
+\voice\mandatory_pit_stops\pit_stop_not_requested,5.wav,好的，我们没想到你会来，不管怎样,好的，我们没想到你会来，不管怎样,"okay, we weren't expecting you, anyway"
+\voice\mandatory_pit_stops\pit_stop_requested,1.wav,好的，请求进站,好的，请求进站,"okay, pit stop requested"
+\voice\mandatory_pit_stops\pit_stop_requested,2.wav,收到，请求进站,收到，请求进站,"acknowledged, pit stop requested"
+\voice\mandatory_pit_stops\pit_stop_requested,3.wav,好的，请求进站,好的，请求进站,"okay, pit stop requested"
+\voice\mandatory_pit_stops\pit_this_lap,1_op_prefix_ok.wav,这圈进站,这圈进站,"in this lap, box this lap"
+\voice\mandatory_pit_stops\pit_this_lap,1_rq_suffix_please.wav,这圈进站,这圈进站,"in this lap, box this lap"
+\voice\mandatory_pit_stops\pit_this_lap,2_op_prefix_ok.wav,本圈结束进站，这一圈进站,本圈结束进站，这一圈进站,"come in to the pits at the end of this lap, box this lap"
+\voice\mandatory_pit_stops\pit_this_lap,2_rq_suffix_please.wav,本圈进站,本圈进站,box this lap
+\voice\mandatory_pit_stops\pit_this_lap,3_op_prefix_ok.wav,本圈进站,本圈进站,"pit this lap, in this lap"
+\voice\mandatory_pit_stops\pit_this_lap,3_rq_suffix_please.wav,本圈进站,本圈进站,box this lap
+\voice\mandatory_pit_stops\pit_this_lap_too_late,1.wav,这圈进站，加速，我们时间不够,这圈进站，加速，我们时间不够,"box this lap, push, we're short of time"
+\voice\mandatory_pit_stops\pit_this_lap_too_late,2.wav,这圈进站，我们可能会错过进站窗口,这圈进站，我们可能会错过进站窗口,"box this lap, we might miss the pit window"
+\voice\mandatory_pit_stops\pit_this_lap_too_late,3.wav,在这个圈里，这将很难赶上进站窗口,在这个圈里，这将很难赶上进站窗口,"in this lap, this is gonna be tight to make the pit window"
+\voice\mandatory_pit_stops\pit_this_lap_too_late,sweary_4.wav,这圈进站，快点否则会错过窗口,这圈进站，快点否则会错过窗口,"box this lap, haul ass or you'll miss the window"
+\voice\mandatory_pit_stops\pit_window_closed,1_op_prefix_ok.wav,进站窗口现在关闭,进站窗口现在关闭,pit window is now closed
+\voice\mandatory_pit_stops\pit_window_closed,2_op_prefix_ok.wav,进站窗口关闭,进站窗口关闭,pit window is closed
+\voice\mandatory_pit_stops\pit_window_closed,3_op_prefix_ok.wav,进站窗口关闭,进站窗口关闭,pit window is closed
+\voice\mandatory_pit_stops\pit_window_closed,4.wav,进站窗口现在关闭,进站窗口现在关闭,pit window is now closed
+\voice\mandatory_pit_stops\pit_window_closes_1_min,1.wav,进站窗口将在1分钟后关闭,进站窗口将在1分钟后关闭,pit window closing in 1 minute
+\voice\mandatory_pit_stops\pit_window_closes_1_min,2.wav,进站窗口将在一分钟内关闭,进站窗口将在一分钟内关闭,pit window closes in 1 minute
+\voice\mandatory_pit_stops\pit_window_closes_1_min,3.wav,进站窗口将在一分钟内关闭,进站窗口将在一分钟内关闭,pit window closes in 1 minute
+\voice\mandatory_pit_stops\pit_window_closes_2_min,1.wav,进站窗口将在2分钟后关闭,进站窗口将在2分钟后关闭,the pit window closes in 2 minutes
+\voice\mandatory_pit_stops\pit_window_closes_2_min,2.wav,进站窗口将在2分钟后关闭,进站窗口将在2分钟后关闭,pit window closing in 2 minutes
+\voice\mandatory_pit_stops\pit_window_closes_2_min,3.wav,进站窗口将在2分钟后关闭,进站窗口将在2分钟后关闭,pit window closes in 2 minutes
+\voice\mandatory_pit_stops\pit_window_closing,1.wav,进站窗口即将关闭,进站窗口即将关闭,the pit window is closing
+\voice\mandatory_pit_stops\pit_window_closing,2.wav,进站窗口在本圈结束时关闭,进站窗口在本圈结束时关闭,pit window closes at the end of this lap
+\voice\mandatory_pit_stops\pit_window_closing,3.wav,进站窗口在本圈结束时关闭,进站窗口在本圈结束时关闭,the pit window closes at the end of this lap
+\voice\mandatory_pit_stops\pit_window_open,1_op_prefix_ok.wav,进站窗口开启,进站窗口开启,pit window is open
+\voice\mandatory_pit_stops\pit_window_open,2_op_prefix_ok.wav,进站窗口开启,进站窗口开启,pit window open
+\voice\mandatory_pit_stops\pit_window_open,3_op_prefix_ok.wav,进站窗口现在打开,进站窗口现在打开,the pit window is now open
+\voice\mandatory_pit_stops\pit_window_opening,1.wav,进站窗口在本圈结束时开启,进站窗口在本圈结束时开启,the pit window opens at the end of this lap
+\voice\mandatory_pit_stops\pit_window_opening,2.wav,进站窗口在本圈结束时开启,进站窗口在本圈结束时开启,the pit window opens at the end of this lap
+\voice\mandatory_pit_stops\pit_window_opening,3.wav,进站窗口在下一圈开启,进站窗口在下一圈开启,the pit window opens next lap
+\voice\mandatory_pit_stops\pit_window_opens_1_min,1.wav,进站窗口将在1分钟后开启,进站窗口将在1分钟后开启,pit window opens in 1 minute
+\voice\mandatory_pit_stops\pit_window_opens_1_min,2.wav,进站窗口将在一分钟内开启,进站窗口将在一分钟内开启,pit window open in 1 minute
+\voice\mandatory_pit_stops\pit_window_opens_1_min,3.wav,进站窗口将在1分钟后打开,进站窗口将在1分钟后打开,the pit window opens in 1 minute
+\voice\mandatory_pit_stops\pit_window_opens_2_min,1.wav,进站窗口将在两分钟后开启,进站窗口将在两分钟后开启,pit window opens in 2 minutes
+\voice\mandatory_pit_stops\pit_window_opens_2_min,2.wav,进站窗口将在2分钟后打开,进站窗口将在2分钟后打开,the pit window opens in 2 minutes
+\voice\mandatory_pit_stops\pit_window_opens_2_min,3.wav,进站窗口将在两分钟后开启,进站窗口将在两分钟后开启,pit window opens in 2 minutes
+\voice\mandatory_pit_stops\pit_window_opens_after,1.wav,进站窗口在…之后打开,进站窗口在…之后打开,pit window opens after
+\voice\mandatory_pit_stops\pit_window_opens_after,2.wav,进站窗口在…之后打开,进站窗口在…之后打开,pit window opens after
+\voice\mandatory_pit_stops\pit_window_opens_after,3.wav,进站窗口在…之后打开,进站窗口在…之后打开,pit window opens after
+\voice\mandatory_pit_stops\pit_window_opens_on_lap,1.wav,进站窗口在第圈打开,进站窗口在第圈打开,pit window opens on lap
+\voice\mandatory_pit_stops\pit_window_opens_on_lap,2.wav,进站窗口在第圈打开,进站窗口在第圈打开,pit window opens on lap
+\voice\mandatory_pit_stops\pit_window_opens_on_lap,3.wav,进站窗口在第圈打开,进站窗口在第圈打开,the pit window opens on lap
+\voice\mandatory_pit_stops\prime_tyres,1.wav,更换指定轮胎,更换指定轮胎,prime tyres
+\voice\mandatory_pit_stops\prime_tyres,2.wav,更换指定轮胎,更换指定轮胎,prime tyres
+\voice\mandatory_pit_stops\prime_tyres,3.wav,软胎,软胎,primes
+\voice\mandatory_pit_stops\stop_complete_go,1.wav,进站完成，出发,进站完成，出发,"go, go, go"
+\voice\mandatory_pit_stops\stop_complete_go,2.wav,完成，去，去,完成，去，去,"we're done, go, go"
+\voice\mandatory_pit_stops\stop_complete_go,3.wav,进站，完成,进站，完成,"go, go"
+\voice\mandatory_pit_stops\stop_complete_go,4.wav,完成，出发,完成，出发,"all done, go"
+\voice\mandatory_pit_stops\theyve_done,1.wav,他们完成了,他们完成了,they've done
+\voice\mandatory_pit_stops\theyve_done,2.wav,他们完成了,他们完成了,they've done
+\voice\mandatory_pit_stops\theyve_done,3.wav,他们完成了,他们完成了,they've done
+\voice\mandatory_pit_stops\theyve_done,4.wav,他们完成了,他们完成了,they've done
+\voice\mandatory_pit_stops\theyve_done,5.wav,他们完成了,他们完成了,they've done
+\voice\mandatory_pit_stops\three_hundred_feet,1.wav,三百英尺,三百英尺,300 feet
+\voice\mandatory_pit_stops\three_hundred_feet,2.wav,三百英尺,三百英尺,300 feet
+\voice\mandatory_pit_stops\three_hundred_feet,3.wav,三百英尺,三百英尺,300 feet
+\voice\mandatory_pit_stops\three_hundred_feet,4.wav,三百英尺,三百英尺,300 feet
+\voice\mandatory_pit_stops\three_hundred_feet,5.wav,三百英尺,三百英尺,300 feet
+\voice\mandatory_pit_stops\wait,1.wav,等待,等待,wait
+\voice\mandatory_pit_stops\wait,2.wav,等待,等待,wait
+\voice\mandatory_pit_stops\wait,3.wav,等待,等待,wait
+\voice\mandatory_pit_stops\wait,4.wav,等待,等待,wait
+\voice\mandatory_pit_stops\wait,5.wav,等待,等待,wait
+\voice\mandatory_pit_stops\wait,6.wav,等待,等待,wait
+\voice\mandatory_pit_stops\wait,7.wav,等待,等待,wait
+\voice\mandatory_pit_stops\wait,8.wav,等待,等待,wait
+\voice\mandatory_pit_stops\wait,9.wav,等待,等待,wait
+\voice\mandatory_pit_stops\wait_5_seconds,1.wav,5秒,5秒,5 seconds
+\voice\mandatory_pit_stops\wait_5_seconds,2.wav,5秒,5秒,5 seconds
+\voice\mandatory_pit_stops\wait_5_seconds,3.wav,5秒,5秒,5 seconds
+\voice\mandatory_pit_stops\wait_5_seconds,4.wav,5秒,5秒,5 seconds
+\voice\mandatory_pit_stops\wait_intro,1.wav,保持，我们需要等待,保持，我们需要等待,"hold, we need to wait"
+\voice\mandatory_pit_stops\wait_intro,2.wav,等待，我们需要再停留一段时间,等待，我们需要再停留一段时间,"wait, we need to be stationary for another"
+\voice\mandatory_pit_stops\wait_intro,3.wav,等待，我们需要再停一次,等待，我们需要再停一次,"wait, we need to be stopped for another"
+\voice\mandatory_pit_stops\wait_intro,4.wav,保持，我们需要再等一下,保持，我们需要再等一下,"hold, we need to wait another"
+\voice\mandatory_pit_stops\wait_intro,5.wav,停一下，我们需要再停留一段时间,停一下，我们需要再停留一段时间,"hold, we need to be stationary for another"
+\voice\mandatory_pit_stops\wait_intro,6.wav,等待，我们需要再停一次,等待，我们需要再停一次,"wait, we need to be stopped for another"
+\voice\mandatory_pit_stops\wait_intro,7.wav,等待，我们需要再停留一段时间,等待，我们需要再停留一段时间,"wait, we need to be stationary for another"
+\voice\mandatory_pit_stops\watch_your_pit_speed,1.wav,注意速度,注意速度,watch your speed
+\voice\mandatory_pit_stops\watch_your_pit_speed,2.wav,注意维修区速度限制,注意维修区速度限制,watch your speed limit in the pits
+\voice\mandatory_pit_stops\watch_your_pit_speed,3.wav,注意维修区限速,注意维修区限速,look out for the pit speed limit
+\voice\mandatory_pit_stops\watch_your_speed,4.wav,注意限速线,注意限速线,look out for the limiter line
+\voice\mandatory_pit_stops\watch_your_speed,5.wav,注意速度,注意速度,watch your speed
+\voice\mandatory_pit_stops\watch_your_speed,6.wav,注意维修区速度,注意维修区速度,watch your speed in the pits
+\voice\mandatory_pit_stops\watch_your_speed,7.wav,注意速度,注意速度,watch your speed
+\voice\mandatory_pit_stops\watch_your_speed,8.wav,维修区限速,维修区限速,pit speed limit
+\voice\mandatory_pit_stops\watch_your_speed,9.wav,注意维修区速度,注意维修区速度,watch your pit speed
+\voice\mandatory_pit_stops\will_be_serving_penalty,1.wav,将执行那个处罚,将执行那个处罚,will be serving that penalty
+\voice\mandatory_pit_stops\will_be_serving_penalty,2.wav,将执行此处罚,将执行此处罚,will be serving this penalty
+\voice\mandatory_pit_stops\will_be_serving_penalty,3.wav,我们将执行处罚,我们将执行处罚,we're serving the penalty
+\voice\mandatory_pit_stops\will_be_serving_penalty,4.wav,我们将执行处罚,我们将执行处罚,we'll be serving the penalty
+\voice\mandatory_pit_stops\will_be_serving_penalty,5.wav,我们将执行处罚,我们将执行处罚,we're serving the penalty
+\voice\mandatory_pit_stops\will_change_all_four_tyre_and_refuel,1.wav,我们将为您更换所有四个轮胎并加油,我们将为您更换所有四个轮胎并加油,we're gonna change all 4 tyres and we're gonna refuel you
+\voice\mandatory_pit_stops\will_change_all_four_tyre_and_refuel,2.wav,我们将更换所有四个轮胎并加油,我们将更换所有四个轮胎并加油,we're gonna change all 4 tyres and refuel
+\voice\mandatory_pit_stops\will_change_all_four_tyre_and_refuel,3.wav,我们将更换所有四个轮胎并加油,我们将更换所有四个轮胎并加油,we're changing all 4 tyres and we're gonna add fuel
+\voice\mandatory_pit_stops\will_change_all_four_tyre_and_refuel,4.wav,我们将加油并更换所有四个轮胎,我们将加油并更换所有四个轮胎,we're adding fuel and we're gonna change all 4 tyres
+\voice\mandatory_pit_stops\will_change_all_four_tyre_and_refuel,5.wav,我们将更换所有四个轮胎并加油,我们将更换所有四个轮胎并加油,we're changing all 4 tyres and we're adding fuel
+\voice\mandatory_pit_stops\will_change_all_four_tyre_and_refuel,6.wav,我们将加油并更换所有四个轮胎,我们将加油并更换所有四个轮胎,we'll add fuel and change all 4 tyres
+\voice\mandatory_pit_stops\will_change_all_four_tyre_no_fuel,1.wav,我们将更换所有四个轮胎，这次不加油,我们将更换所有四个轮胎，这次不加油,"we're changing all 4 tyres, no fuel this time"
+\voice\mandatory_pit_stops\will_change_all_four_tyre_no_fuel,2.wav,我们将更换所有四个轮胎，不会加油,我们将更换所有四个轮胎，不会加油,"we're changing all 4 tyres, we are not refueling"
+\voice\mandatory_pit_stops\will_change_all_four_tyre_no_fuel,3.wav,我们将更换所有四个轮胎，不加油,我们将更换所有四个轮胎，不加油,"we're changing all 4 tyres, no fuel"
+\voice\mandatory_pit_stops\will_change_all_four_tyre_no_fuel,4.wav,我们将更换所有四个轮胎，这次不会加油,我们将更换所有四个轮胎，这次不会加油,"we're changing all 4 tyres, we're not refueling this time"
+\voice\mandatory_pit_stops\will_change_all_four_tyre_no_fuel,5.wav,我们将更换所有四个轮胎，不加油,我们将更换所有四个轮胎，不加油,"we're changing all 4 tyres, no fuel"
+\voice\mandatory_pit_stops\will_change_all_four_tyre_no_fuel,6.wav,我们将更换所有四个轮胎，不加油,我们将更换所有四个轮胎，不加油,"we're changing all 4 tyres, no refueling"
+\voice\mandatory_pit_stops\will_change_all_four_tyres,1.wav,我们要更换所有4条轮胎,我们要更换所有4条轮胎,we're gonna change all 4 tyres
+\voice\mandatory_pit_stops\will_change_all_four_tyres,2.wav,我们将更换所有四个轮胎,我们将更换所有四个轮胎,we're changing all 4 tyres
+\voice\mandatory_pit_stops\will_change_all_four_tyres,3.wav,我们将更换所有四个轮胎,我们将更换所有四个轮胎,we'll change all 4 tyres
+\voice\mandatory_pit_stops\will_change_all_four_tyres,4.wav,我们要更换所有4条轮胎,我们要更换所有4条轮胎,we're gonna change all 4 tyres
+\voice\mandatory_pit_stops\will_change_all_four_tyres,5.wav,我们将更换所有四个轮胎,我们将更换所有四个轮胎,we're changing all 4 tyres
+\voice\mandatory_pit_stops\will_change_front_tyres_only,1.wav,我们只更换你的前胎,我们只更换你的前胎,we're changing your front tyres only
+\voice\mandatory_pit_stops\will_change_front_tyres_only,2.wav,这次只换前胎,这次只换前胎,we're changing front tyres only this time
+\voice\mandatory_pit_stops\will_change_front_tyres_only,3.wav,我们只换前胎,我们只换前胎,we're changing front tyres only
+\voice\mandatory_pit_stops\will_change_front_tyres_only,4.wav,我们将只更换前胎,我们将只更换前胎,we'll change the front tyres only
+\voice\mandatory_pit_stops\will_change_front_tyres_only,5.wav,这次只换前胎,这次只换前胎,we'll change the front tyres only this time
+\voice\mandatory_pit_stops\will_change_rear_tyres_only,1.wav,我们将只更换你的后胎,我们将只更换你的后胎,we'll change your rear tyres only
+\voice\mandatory_pit_stops\will_change_rear_tyres_only,2.wav,我们只更换后胎,我们只更换后胎,we're changing the rear tyres only
+\voice\mandatory_pit_stops\will_change_rear_tyres_only,3.wav,这次只换后胎,这次只换后胎,we're changing rear tyres only this time
+\voice\mandatory_pit_stops\will_change_rear_tyres_only,4.wav,这次只换后胎,这次只换后胎,we'll change the rear tyres only this time
+\voice\mandatory_pit_stops\will_change_rear_tyres_only,5.wav,我们只换后胎,我们只换后胎,we're changing rear tyres only
+\voice\mandatory_pit_stops\will_fix_front_aero,1.wav,我们会修复前部空气动力套件,我们会修复前部空气动力套件,we'll fix the front aero
+\voice\mandatory_pit_stops\will_fix_front_aero,2.wav,我们会修复前部空气动力套件,我们会修复前部空气动力套件,we'll fix the front aero
+\voice\mandatory_pit_stops\will_fix_front_aero,3.wav,我们要修复前部空气动力套件,我们要修复前部空气动力套件,we're gonna fix the front aero
+\voice\mandatory_pit_stops\will_fix_front_aero,4.wav,我们会修复前部空气动力套件,我们会修复前部空气动力套件,we'll fix the front aero
+\voice\mandatory_pit_stops\will_fix_front_aero,5.wav,我们会修复前部空气动力套件,我们会修复前部空气动力套件,we'll fix the front aero
+\voice\mandatory_pit_stops\will_fix_front_aero,6.wav,我们要修复前部空气动力套件,我们要修复前部空气动力套件,we're gonna fix the front aero
+\voice\mandatory_pit_stops\will_fix_front_and_leave_rear_aero,1.wav,我们会修复前部，后部空气动力套件保持原样,我们会修复前部，后部空气动力套件保持原样,we'll fix the front and we'll leave the rear aero
+\voice\mandatory_pit_stops\will_fix_front_and_leave_rear_aero,2.wav,我们要修复前部空气动力套件，保留后部,我们要修复前部空气动力套件，保留后部,we're gonna fix the front aero and leave the rear
+\voice\mandatory_pit_stops\will_fix_front_and_leave_rear_aero,3.wav,我们要只修复前部空气动力套件,我们要只修复前部空气动力套件,we're gonna fix the front aero only
+\voice\mandatory_pit_stops\will_fix_front_and_leave_rear_aero,4.wav,我们只修复前部空气动力套件,我们只修复前部空气动力套件,we're fixing front aero only
+\voice\mandatory_pit_stops\will_fix_front_and_leave_rear_aero,5.wav,我们会修复前部空气动力套件，保留后部,我们会修复前部空气动力套件，保留后部,we'll fix the front aero and leave the rear
+\voice\mandatory_pit_stops\will_fix_front_and_rear_aero,1.wav,我们要修复你的前部和后部空气动力套件,我们要修复你的前部和后部空气动力套件,we're gonna fix your front and rear aero
+\voice\mandatory_pit_stops\will_fix_front_and_rear_aero,2.wav,我们会修复前部和后部的空气动力套件,我们会修复前部和后部的空气动力套件,we'll fix the front and rear aero
+\voice\mandatory_pit_stops\will_fix_front_and_rear_aero,3.wav,我们会修复前部和后部的空气动力套件,我们会修复前部和后部的空气动力套件,we'll fix the front and rear aero
+\voice\mandatory_pit_stops\will_fix_front_and_rear_aero,4.wav,我们会修复前部和后部的空气动力套件,我们会修复前部和后部的空气动力套件,we'll fix the front and the rear aero
+\voice\mandatory_pit_stops\will_fix_front_and_rear_aero,5.wav,我们将修复前部和后部的空气动力套件,我们将修复前部和后部的空气动力套件,we're fixing front and rear aero
+\voice\mandatory_pit_stops\will_fix_rear_aero,1.wav,我们会修复后部空气动力套件,我们会修复后部空气动力套件,we'll fix the rear aero
+\voice\mandatory_pit_stops\will_fix_rear_aero,2.wav,我们要修复后部空气动力套件,我们要修复后部空气动力套件,we're gonna fix the rear aero
+\voice\mandatory_pit_stops\will_fix_rear_aero,3.wav,我们会修复后部空气动力套件,我们会修复后部空气动力套件,we'll fix the rear aero
+\voice\mandatory_pit_stops\will_fix_rear_aero,4.wav,我们正在修复后部空气动力套件,我们正在修复后部空气动力套件,we're fixing the rear aero
+\voice\mandatory_pit_stops\will_fix_rear_aero,5.wav,我们会修复后部空气动力套件,我们会修复后部空气动力套件,we'll fix the rear aero
+\voice\mandatory_pit_stops\will_fix_rear_and_leave_front_aero,1.wav,我们要只修复后部空气动力套件,我们要只修复后部空气动力套件,we're gonna fix the rear aero only
+\voice\mandatory_pit_stops\will_fix_rear_and_leave_front_aero,2.wav,我们会修复后方空气动力套件，保留前方,我们会修复后方空气动力套件，保留前方,we'll fix the rear aero and leave the front
+\voice\mandatory_pit_stops\will_fix_rear_and_leave_front_aero,3.wav,我们会修复后方空气动力套件，前方的保持原样,我们会修复后方空气动力套件，前方的保持原样,we'll fix the rear aero and we'll leave the front
+\voice\mandatory_pit_stops\will_fix_rear_and_leave_front_aero,4.wav,我们只修复后部空气动力套件,我们只修复后部空气动力套件,we're fixing the rear aero only
+\voice\mandatory_pit_stops\will_fix_rear_and_leave_front_aero,5.wav,我们会修复后方空气动力套件，保留前方,我们会修复后方空气动力套件，保留前方,we'll fix the rear aero and leave the front
+\voice\mandatory_pit_stops\will_fix_suspension,1.wav,我们会修复悬挂,我们会修复悬挂,we'll fix the suspension
+\voice\mandatory_pit_stops\will_fix_suspension,2.wav,我们要修复悬挂,我们要修复悬挂,we're gonna fix the suspension
+\voice\mandatory_pit_stops\will_fix_suspension,3.wav,我们会修复悬挂,我们会修复悬挂,we'll fix the suspension
+\voice\mandatory_pit_stops\will_fix_suspension,4.wav,我们要修复悬挂,我们要修复悬挂,we're gonna fix the suspension
+\voice\mandatory_pit_stops\will_fix_suspension,5.wav,我们会修复悬挂,我们会修复悬挂,we'll fix the suspension
+\voice\mandatory_pit_stops\will_leave_suspension,1.wav,我们不会修复悬挂,我们不会修复悬挂,we're not gonna fix the suspension
+\voice\mandatory_pit_stops\will_leave_suspension,2.wav,我们要离开悬挂系统,我们要离开悬挂系统,we're gonna leave the suspension
+\voice\mandatory_pit_stops\will_leave_suspension,3.wav,我们不会修复悬挂,我们不会修复悬挂,we won't fix the suspension
+\voice\mandatory_pit_stops\will_leave_suspension,4.wav,我们不会修理悬挂,我们不会修理悬挂,we're not fixing the suspension
+\voice\mandatory_pit_stops\will_leave_suspension,5.wav,我们将离开悬挂系统不作修复,我们将离开悬挂系统不作修复,"we'll leave the suspension, we're not fixing it"
+\voice\mandatory_pit_stops\will_not_be_serving_penalty,1.wav,我们不会执行处罚,我们不会执行处罚,we will not be serving the penalty
+\voice\mandatory_pit_stops\will_not_be_serving_penalty,2.wav,我们不会执行处罚,我们不会执行处罚,we will not be serving the penalty
+\voice\mandatory_pit_stops\will_not_be_serving_penalty,3.wav,我们不会执行处罚,我们不会执行处罚,we will not be serving the penalty
+\voice\mandatory_pit_stops\will_not_be_serving_penalty,4.wav,我们不会执行处罚,我们不会执行处罚,we will not be serving the penalty
+\voice\mandatory_pit_stops\will_put_fuel_in,1.wav,我们要加油,我们要加油,we're going to put fuel in
+\voice\mandatory_pit_stops\will_put_fuel_in,2.wav,我们会给你加油,我们会给你加油,we'll refuel you
+\voice\mandatory_pit_stops\will_put_fuel_in,3.wav,我们要加油,我们要加油,we're gonna refuel
+\voice\mandatory_pit_stops\will_put_fuel_in,4.wav,我们将加油,我们将加油,we'll be refueling
+\voice\mandatory_pit_stops\will_put_fuel_in,5.wav,我们在加油,我们在加油,we're putting fuel in
+\voice\mandatory_pit_stops\will_put_fuel_in,6.wav,我们会加油,我们会加油,we'll put fuel in
+\voice\mandatory_pit_stops\will_put_fuel_in_no_tyres,1.wav,我们只加油，不换胎,我们只加油，不换胎,"we'll be refueling only, no tyres"
+\voice\mandatory_pit_stops\will_put_fuel_in_no_tyres,2.wav,这次不换轮胎，只加油,这次不换轮胎，只加油,"no tyres this time, we're refueling only"
+\voice\mandatory_pit_stops\will_put_fuel_in_no_tyres,3.wav,我们只加油，不换胎,我们只加油，不换胎,"we're refueling only, no tyres"
+\voice\mandatory_pit_stops\will_put_fuel_in_no_tyres,4.wav,我们将加油，这次不换轮胎,我们将加油，这次不换轮胎,"we'll be refueling, no tyres this time"
+\voice\mandatory_pit_stops\will_put_fuel_in_no_tyres,5.wav,我们将加油，不会换胎,我们将加油，不会换胎,"we'll be refueling, we're not changing tyres"
+\voice\mandatory_pit_stops\will_put_fuel_in_no_tyres,6.wav,我们只加油，不换胎,我们只加油，不换胎,"we're refueling only, no tyres"
+\voice\mandatory_pit_stops\yes_stop_after,1.wav,是的，进站窗口在…之后打开,是的，进站窗口在…之后打开,"yes, pit window opens after"
+\voice\mandatory_pit_stops\yes_stop_after,2.wav,是的，进站窗口在之后打开,是的，进站窗口在之后打开,"yes, the pit window opens after"
+\voice\mandatory_pit_stops\yes_stop_after,3.wav,是的，进站窗口在之后打开,是的，进站窗口在之后打开,"yes, the pit window opens after"
+\voice\mandatory_pit_stops\yes_stop_on_lap,1.wav,是的，进站窗口在第圈打开,是的，进站窗口在第圈打开,"yes, the pit window opens on lap"
+\voice\mandatory_pit_stops\yes_stop_on_lap,2.wav,是的，进站窗口在第圈打开,是的，进站窗口在第圈打开,"yes, the pit window opens on lap"
+\voice\mandatory_pit_stops\yes_stop_on_lap,3.wav,好的，进站窗口在第圈打开,好的，进站窗口在第圈打开,"yep, the pit window opens on lap"
+\voice\multiclass\carrera_cup,70.wav,卡雷拉杯,卡雷拉杯,Carrera Cup
+\voice\multiclass\carrera_cup,71.wav,卡雷拉杯,卡雷拉杯,Carrera Cup
+\voice\multiclass\carrera_cup,72.wav,卡雷拉杯,卡雷拉杯,Carrera Cup
+\voice\multiclass\dtm,40.wav,DTM,DTM,DTM
+\voice\multiclass\dtm,41.wav,DTM,DTM,DTM
+\voice\multiclass\dtm,42.wav,DTM,DTM,DTM
+\voice\multiclass\dtm_runners,1.wav,DTM组,DTM组,DTM-class cars
+\voice\multiclass\dtm_runners,2.wav,DTM赛车,DTM赛车,DTM cars
+\voice\multiclass\dtm_runners,3.wav,DTM赛车手,DTM赛车手,DTM runners
+\voice\multiclass\faster_car_behind,1_op_prefix_ok.wav,有一辆更快的赛车正在接近,有一辆更快的赛车正在接近,there's a faster car approaching
+\voice\multiclass\faster_car_behind,2.wav,快车在后,快车在后,faster car behind
+\voice\multiclass\faster_car_behind,3.wav,有一辆更快的赛车正在接近,有一辆更快的赛车正在接近,there's a faster car approaching
+\voice\multiclass\faster_car_behind,4_op_prefix_ok.wav,有一辆快组的赛车正在接近,有一辆快组的赛车正在接近,there's a faster class car approaching
+\voice\multiclass\faster_car_behind,5.wav,后面的车是快组,后面的车是快组,the car behind's a faster class
+\voice\multiclass\faster_car_behind,6.wav,有一辆快组的车在后面,有一辆快组的车在后面,there's a faster class car behind
+\voice\multiclass\faster_car_behind_is_class_leader,1_male.wav,更快的车在后面，这家伙是他们组别的领跑,更快的车在后面，这家伙是他们组别的领跑,"faster car behind, this guy's their class leader"
+\voice\multiclass\faster_car_behind_is_class_leader,1_op_prefix_ok.wav,更快的车接近，它是他们的组别领跑,更快的车接近，它是他们的组别领跑,"faster car approaching, it's their class leader"
+\voice\multiclass\faster_car_behind_is_class_leader,2.wav,后面有辆更快的车，这是他们的组别领跑,后面有辆更快的车，这是他们的组别领跑,"there's a faster car behind, this is their class leader"
+\voice\multiclass\faster_car_behind_is_class_leader,2_op_prefix_ok_male.wav,有一辆更快的车在接近你，他是组别领跑,有一辆更快的车在接近你，他是组别领跑,"there's a faster car bearing down on you, he's the class leader"
+\voice\multiclass\faster_car_behind_is_class_leader,3.wav,有一辆更快的车在靠近你，它是他们的组别领跑,有一辆更快的车在靠近你，它是他们的组别领跑,"there's a faster car bearing down on you, it's their class leader"
+\voice\multiclass\faster_car_behind_is_class_leader,3_male.wav,后面有比你快的车，他是组别领跑,后面有比你快的车，他是组别领跑,"there's a faster car behind, he's class leader"
+\voice\multiclass\faster_car_behind_is_class_leader,4.wav,快组的组别领跑在后面,快组的组别领跑在后面,the class leader from a faster class is behind
+\voice\multiclass\faster_car_behind_is_class_leader,5_male.wav,更快的赛车接近，这家伙是他们的组别领跑,更快的赛车接近，这家伙是他们的组别领跑,"faster car approaching, this guy's their class leader"
+\voice\multiclass\faster_car_behind_is_class_leader,6_male.wav,快车接近，这家伙是组别领跑,快车接近，这家伙是组别领跑,"faster car approaching, this guy's the class leader"
+\voice\multiclass\faster_car_behind_racing_player,1.wav,更快的车在后面，他们在为我们争夺位置，不会有让车旗,更快的车在后面，他们在为我们争夺位置，不会有让车旗,"faster car behind, they're racing us for position, there'll be no blue flag"
+\voice\multiclass\faster_car_behind_racing_player,1_male.wav,有一辆更快的车正在接近，他正在和我们争夺位置，不要期待蓝旗,有一辆更快的车正在接近，他正在和我们争夺位置，不要期待蓝旗,"there's a faster car approaching, he's racing us for position, don't expect a blue flag"
+\voice\multiclass\faster_car_behind_racing_player,2.wav,有一辆更快的车正在接近，他们已经在套我们圈了，所以不会有让车旗,有一辆更快的车正在接近，他们已经在套我们圈了，所以不会有让车旗,"there's a faster car approaching, they're on our lap so there'll be no blue flag"
+\voice\multiclass\faster_car_behind_racing_player,2_male.wav,有一辆更快的车在后面，他正在套我们圈，不会得到让车旗,有一辆更快的车在后面，他正在套我们圈，不会得到让车旗,"there's a faster car behind, he's on our lap, we're not gonna get a blue flag"
+\voice\multiclass\faster_car_behind_racing_player,3.wav,更快的赛车接近，他们在为位置与我们竞速-不要期待并且蓝旗,更快的赛车接近，他们在为位置与我们竞速-不要期待并且蓝旗,"faster car approaching, they're racing us for position - don't expect and blue flag"
+\voice\multiclass\faster_car_behind_racing_player,3_male.wav,更快的赛车接近中，他正在与我们争夺位置，不要期待让车旗,更快的赛车接近中，他正在与我们争夺位置，不要期待让车旗,"faster car approaching, he's racing us for position, don't expect a blue"
+\voice\multiclass\faster_car_behind_racing_player,4.wav,后面有一辆更快的车，我们在为位置竞争，所以不会有让车旗,后面有一辆更快的车，我们在为位置竞争，所以不会有让车旗,"there's a faster car behind, we're racing them for position so there'll be no blue flag"
+\voice\multiclass\faster_car_behind_racing_player,4_male.wav,有一辆更快的车在后面，他正在和我们争夺位置，我认为我们不会得到让车旗,有一辆更快的车在后面，他正在和我们争夺位置，我认为我们不会得到让车旗,"there's a faster car behind, he's racing us for position, I don't think we'll get a blue flag"
+\voice\multiclass\faster_car_behind_racing_player,5_male.wav,更快的车在后面，他在为我们争夺位置，不要期待蓝旗,更快的车在后面，他在为我们争夺位置，不要期待蓝旗,"faster car behind, he's racing us for position, don't expect a blue flag"
+\voice\multiclass\faster_car_behind_racing_player_is_class_leader,1.wav,后面有一辆更快的车，它是他们的组别领跑，但我们正在为位置竞争，不会有让车旗,后面有一辆更快的车，它是他们的组别领跑，但我们正在为位置竞争，不会有让车旗,"there's a faster car behind, it's their class leader but we're racing for position for there'll be no blue flag"
+\voice\multiclass\faster_car_behind_racing_player_is_class_leader,1_male.wav,后面有一辆更快的车，他是组别领跑者，但他正在和你争夺位置，你不会得到让车旗,后面有一辆更快的车，他是组别领跑者，但他正在和你争夺位置，你不会得到让车旗,"there's a faster car behind, he's the class leader but he's racing you for position, you won't get a blue flag"
+\voice\multiclass\faster_car_behind_racing_player_is_class_leader,2.wav,有一辆更快的车正在接近，它是他们的组别领跑者，但我们处在同一圈，所以不会有让车旗,有一辆更快的车正在接近，它是他们的组别领跑者，但我们处在同一圈，所以不会有让车旗,"there's a faster car approaching, it's their class leader but we're on the same lap so there'll be no blue flag"
+\voice\multiclass\faster_car_behind_racing_player_is_class_leader,2_male.wav,后面有比我们快的车，但这家伙是组别领跑，但他正在和我们争夺位置，不要期待让车旗,后面有比我们快的车，但这家伙是组别领跑，但他正在和我们争夺位置，不要期待让车旗,"there's a faster car behind, this guy's the class leader but he's racing us for position, don't expect a blue flag"
+\voice\multiclass\faster_car_behind_racing_player_is_class_leader,3.wav,后面有一辆更快的车，它是他们的组别领跑，但我们处在同一圈，所以不会有让车旗,后面有一辆更快的车，它是他们的组别领跑，但我们处在同一圈，所以不会有让车旗,"there's a faster car behind, it's their class leader but we're on the same lap so there'll be no blue flag"
+\voice\multiclass\faster_car_behind_racing_player_is_class_leader,3_male.wav,有一辆更快的车正在接近，这辆车是他的组别领跑但他在和我们争夺位置，我们不会得到让车旗,有一辆更快的车正在接近，这辆车是他的组别领跑但他在和我们争夺位置，我们不会得到让车旗,"there's a faster car approaching, this guy's class leader but he's racing us for position, we won't get a blue flag"
+\voice\multiclass\faster_car_behind_racing_player_is_class_leader,4_male.wav,有一辆更快的车在接近，我们不会在这里得到让车旗，他正在套我们的圈，他是组别领跑,有一辆更快的车在接近，我们不会在这里得到让车旗，他正在套我们的圈，他是组别领跑,"there's a faster car approaching, we're not gonna get a blue flag here, he's on our lap, he's the class leader"
+\voice\multiclass\faster_cars_behind,1.wav,后面有一组快车,后面有一组快车,there's a group of faster cars behind
+\voice\multiclass\faster_cars_behind,2.wav,后面有一组快车,后面有一组快车,there's a group of faster cars behind
+\voice\multiclass\faster_cars_behind,3.wav,有组快车正在接近你,有组快车正在接近你,there's a group of faster cars bearing down on you
+\voice\multiclass\faster_cars_behind,4.wav,更快的赛车接近,更快的赛车接近,faster cars approaching
+\voice\multiclass\faster_cars_behind_fighting,1.wav,有一群快车正在接近你，这些家伙为了位置在争夺,有一群快车正在接近你，这些家伙为了位置在争夺,"there's a group of faster cars bearing down on you, these guys are scrapping for position"
+\voice\multiclass\faster_cars_behind_fighting,2.wav,有一群快组的车在后面，它们正在为位置竞速,有一群快组的车在后面，它们正在为位置竞速,"there's a group of faster cars behind, they're racing for position"
+\voice\multiclass\faster_cars_behind_fighting,3.wav,有一些更快的赛车正在接近，它们在争夺位置,有一些更快的赛车正在接近，它们在争夺位置,"there's some faster cars approaching, their fighting for position"
+\voice\multiclass\faster_cars_behind_fighting,4.wav,有几辆快车在你后面，它们正在为位置竞争,有几辆快车在你后面，它们正在为位置竞争,"there's a group of faster cars behind you, they're racing for position"
+\voice\multiclass\faster_cars_behind_inc_class_leader,1.wav,有更快的车在后面，包括组别领跑,有更快的车在后面，包括组别领跑,"there's faster cars behind, along with the class leader"
+\voice\multiclass\faster_cars_behind_inc_class_leader,2.wav,有更快的赛车接近，这个组别包括组别领跑,有更快的赛车接近，这个组别包括组别领跑,"there's faster cars approaching, this group includes the class leader"
+\voice\multiclass\faster_cars_behind_inc_class_leader,3.wav,有更快的赛车接近，其中包括组别领跑,有更快的赛车接近，其中包括组别领跑,"there's faster cars approaching, the group includes the class leader"
+\voice\multiclass\faster_cars_behind_inc_class_leader,4.wav,有更快的车在后面，这个组包括他们的组别领跑,有更快的车在后面，这个组包括他们的组别领跑,"there's faster cars behind, this group includes their class leader"
+\voice\multiclass\faster_cars_fighting_behind_inc_class_leader,1.wav,更快的赛车接近了，他们正在为位置战斗，这个小组包括组别领跑,更快的赛车接近了，他们正在为位置战斗，这个小组包括组别领跑,"faster cars approaching, they're battling for position, the group includes the class leader"
+\voice\multiclass\faster_cars_fighting_behind_inc_class_leader,2.wav,更快的赛车接近了，它们正在争夺位置，组别领跑者在这组,更快的赛车接近了，它们正在争夺位置，组别领跑者在这组,"faster cars approaching, they're scrapping for position, the class leader's in this group"
+\voice\multiclass\faster_cars_fighting_behind_inc_class_leader,3.wav,有一组快车正在接近，它们在争夺位置，他们的组别领跑者也在其中,有一组快车正在接近，它们在争夺位置，他们的组别领跑者也在其中,"there's a group of faster cars approaching, they're fighting for position, their class leader's in the group"
+\voice\multiclass\faster_cars_fighting_behind_inc_class_leader,4.wav,有一些更快的赛车正在接近，它们在争夺位置，这个小组包括组别领跑,有一些更快的赛车正在接近，它们在争夺位置，这个小组包括组别领跑,"there's some faster cars approaching, they're fighting for position, the group includes the class leader"
+\voice\multiclass\group4,52.wav,组别4,组别4,Group 4
+\voice\multiclass\group4,53.wav,组别4,组别4,Group 4
+\voice\multiclass\group4,54.wav,组别4,组别4,Group 4
+\voice\multiclass\group5,55.wav,组别5,组别5,Group 5
+\voice\multiclass\group5,56.wav,组别5,组别5,Group 5
+\voice\multiclass\group5,57.wav,组别5,组别5,Group 5
+\voice\multiclass\group6,58.wav,组别,组别,Group 6
+\voice\multiclass\group6,59.wav,组别,组别,Group 6
+\voice\multiclass\group6,60.wav,组别,组别,Group 6
+\voice\multiclass\groupa,43.wav,A组,A组,Group A
+\voice\multiclass\groupa,44.wav,A组,A组,Group A
+\voice\multiclass\groupa,45.wav,A组,A组,Group A
+\voice\multiclass\groupa_runners,1.wav,A组别赛车,A组别赛车,Group A class cars
+\voice\multiclass\groupa_runners,2.wav,A组跑者,A组跑者,Group A runners
+\voice\multiclass\groupa_runners,3.wav,A组跑者,A组跑者,Group A runners
+\voice\multiclass\groupb,46.wav,组别B,组别B,Group B
+\voice\multiclass\groupb,47.wav,组别B,组别B,Group B
+\voice\multiclass\groupb,48.wav,组别B,组别B,Group B
+\voice\multiclass\groupc,49.wav,组别C,组别C,Group C
+\voice\multiclass\groupc,50.wav,组别C,组别C,Group C
+\voice\multiclass\groupc,51.wav,组别C,组别C,Group C
+\voice\multiclass\groupc_runners,31.wav,C组赛车,C组赛车,Group C class cars
+\voice\multiclass\groupc_runners,32.wav,组别C的赛车手,组别C的赛车手,Group C runners
+\voice\multiclass\groupc_runners,33.wav,组C赛车,组C赛车,Group C cars
+\voice\multiclass\gt1,10.wav,GT1,GT1,GT1
+\voice\multiclass\gt1,11.wav,GT1,GT1,GT1
+\voice\multiclass\gt1,12.wav,GT1,GT1,GT1
+\voice\multiclass\gt2,13.wav,GT2,GT2,GT2
+\voice\multiclass\gt2,14.wav,GT2,GT2,GT2
+\voice\multiclass\gt2,15.wav,GT2,GT2,GT2
+\voice\multiclass\gt2_runners,4.wav,GT2赛车,GT2赛车,GT2 cars
+\voice\multiclass\gt2_runners,5.wav,GT2 组参赛者,GT2 组参赛者,GT2 runners
+\voice\multiclass\gt2_runners,6.wav,GT2组别赛车,GT2组别赛车,GT2 class cars
+\voice\multiclass\gt3,25.wav,GT3,GT3,GT3
+\voice\multiclass\gt3,26.wav,GT3,GT3,GT3
+\voice\multiclass\gt3,27.wav,GT3,GT3,GT3
+\voice\multiclass\gt300,37.wav,GT300,GT300,GT300
+\voice\multiclass\gt300,38.wav,GT300,GT300,GT300
+\voice\multiclass\gt300,39.wav,GT300,GT300,GT300
+\voice\multiclass\gt3_runners,7.wav,GT3组参赛者,GT3组参赛者,GT3 runners
+\voice\multiclass\gt3_runners,8.wav,GT3组别赛车,GT3组别赛车,GT3 class cars
+\voice\multiclass\gt3_runners,9.wav,GT3赛车,GT3赛车,GT3 cars
+\voice\multiclass\gt4,28.wav,GT4,GT4,GT4
+\voice\multiclass\gt4,29.wav,GT4,GT4,GT4
+\voice\multiclass\gt4,30.wav,GT4,GT4,GT4
+\voice\multiclass\gt4_runners,10.wav,GT4赛车,GT4赛车,GT4 cars
+\voice\multiclass\gt4_runners,11.wav,GT4组别赛车,GT4组别赛车,GT4 class cars
+\voice\multiclass\gt4_runners,12.wav,GT4组参赛者,GT4组参赛者,GT4 runners
+\voice\multiclass\gt5,31.wav,GT5,GT5,GT5
+\voice\multiclass\gt5,32.wav,GT5,GT5,GT5
+\voice\multiclass\gt5,33.wav,GT5,GT5,GT5
+\voice\multiclass\gt500,34.wav,GT500,GT500,GT500
+\voice\multiclass\gt500,35.wav,GT500,GT500,GT500
+\voice\multiclass\gt500,36.wav,GT500,GT500,GT500
+\voice\multiclass\gt5_runners,4.wav,GT5赛车,GT5赛车,GT5 cars
+\voice\multiclass\gt5_runners,5.wav,GT5组参赛者,GT5组参赛者,GT5 runners
+\voice\multiclass\gt5_runners,6.wav,GT5组别赛车,GT5组别赛车,GT5 class cars
+\voice\multiclass\gtc,19.wav,GT,GT,GTC
+\voice\multiclass\gtc,20.wav,GT,GT,GTC
+\voice\multiclass\gtc,21.wav,GT,GT,GTC
+\voice\multiclass\gtc_runners,13.wav,GT组跑者,GT组跑者,GTC runners
+\voice\multiclass\gtc_runners,14.wav,GT组的赛车,GT组的赛车,GTC class cars
+\voice\multiclass\gtc_runners,15.wav,GT组赛车,GT组赛车,GTC cars
+\voice\multiclass\gte,16.wav,GT,GT,GTE
+\voice\multiclass\gte,17.wav,GT,GT,GTE
+\voice\multiclass\gte,18.wav,GT,GT,GTE
+\voice\multiclass\gte_runners,16.wav,GTE组跑者,GTE组跑者,GTE runners
+\voice\multiclass\gte_runners,17.wav,GT组赛车,GT组赛车,GTE cars
+\voice\multiclass\gte_runners,18.wav,GTE组,GTE组,GTE class cars
+\voice\multiclass\gtlm,22.wav,GTLM,GTLM,GTLM
+\voice\multiclass\gtlm,23.wav,GTLM,GTLM,GTLM
+\voice\multiclass\gtlm,24.wav,GTLM,GTLM,GTLM
+\voice\multiclass\gto,61.wav,GTO,GTO,GTO
+\voice\multiclass\gto,62.wav,GTO,GTO,GTO
+\voice\multiclass\gto,63.wav,GTO,GTO,GTO
+\voice\multiclass\gtp,19.wav,GTP,GTP,GTP
+\voice\multiclass\gtp,20.wav,GTP,GTP,GTP
+\voice\multiclass\gtp,21.wav,GTP,GTP,GTP
+\voice\multiclass\gtp_runners,13.wav,GTP车手,GTP车手,GTP runners
+\voice\multiclass\gtp_runners,14.wav,GTP组,GTP组,GTP class cars
+\voice\multiclass\gtp_runners,15.wav,GTP赛车,GTP赛车,GTP cars
+\voice\multiclass\it_is_a_faster_class,1.wav,在快组,在快组,is in a faster class
+\voice\multiclass\it_is_a_faster_class,2.wav,它是快组,它是快组,it's a faster class
+\voice\multiclass\it_is_a_faster_class,3.wav,在快组,在快组,is in a faster class
+\voice\multiclass\it_is_a_faster_class,4.wav,那是快组,那是快组,that's a faster class
+\voice\multiclass\it_is_a_faster_class,5.wav,那是快组,那是快组,that's a faster class
+\voice\multiclass\it_is_a_faster_class,6.wav,它是快组,它是快组,it's a faster class
+\voice\multiclass\it_is_a_slower_class,1.wav,它是慢组,它是慢组,it's a slower class
+\voice\multiclass\it_is_a_slower_class,2.wav,那是慢组,那是慢组,that's a slower class
+\voice\multiclass\it_is_a_slower_class,3.wav,它是慢组,它是慢组,it's a slower class
+\voice\multiclass\it_is_a_slower_class,4.wav,它是慢组,它是慢组,it's a slower class
+\voice\multiclass\it_is_a_slower_class,5.wav,那是慢组,那是慢组,that's a slower class
+\voice\multiclass\lmdh,1.wav,LMDH,LMDH,LMDH
+\voice\multiclass\lmdh,2.wav,LMDH,LMDH,LMDH
+\voice\multiclass\lmdh,3.wav,LMDH,LMDH,LMDH
+\voice\multiclass\lmdh,4.wav,LMDH,LMDH,LMDH
+\voice\multiclass\lmdh_runners,19.wav,LMDH赛车,LMDH赛车,LMDH cars
+\voice\multiclass\lmdh_runners,20.wav,LMDH赛车手,LMDH赛车手,LMDH runners
+\voice\multiclass\lmdh_runners,21.wav,LMDH组别赛车,LMDH组别赛车,LMDH class cars
+\voice\multiclass\lmp1,1.wav,LMP1,LMP1,LMP1
+\voice\multiclass\lmp1,2.wav,LMP1,LMP1,LMP1
+\voice\multiclass\lmp1,3.wav,LMP1,LMP1,LMP1
+\voice\multiclass\lmp1_runners,19.wav,LMP1赛车,LMP1赛车,LMP1 cars
+\voice\multiclass\lmp1_runners,20.wav,LMP1赛车手,LMP1赛车手,LMP1 runners
+\voice\multiclass\lmp1_runners,21.wav,LMP1组别赛车,LMP1组别赛车,LMP1 class cars
+\voice\multiclass\lmp2,4.wav,LMP2,LMP2,LMP2
+\voice\multiclass\lmp2,5.wav,LMP2,LMP2,LMP2
+\voice\multiclass\lmp2,6.wav,LMP2,LMP2,LMP2
+\voice\multiclass\lmp2_runners,22.wav,LMP2 组参赛者,LMP2 组参赛者,LMP2 runners
+\voice\multiclass\lmp2_runners,23.wav,LMP2组别赛车,LMP2组别赛车,LMP2 class cars
+\voice\multiclass\lmp2_runners,24.wav,LMP2赛车,LMP2赛车,LMP2 cars
+\voice\multiclass\lmp3,7.wav,LMP3,LMP3,LMP3
+\voice\multiclass\lmp3,8.wav,LMP3,LMP3,LMP3
+\voice\multiclass\lmp3,9.wav,LMP3,LMP3,LMP3
+\voice\multiclass\lmp3_runners,25.wav,LMP3赛车,LMP3赛车,LMP3 cars
+\voice\multiclass\lmp3_runners,26.wav,LMP3组赛车,LMP3组赛车,LMP3 class cars
+\voice\multiclass\lmp3_runners,27.wav,LMP3赛车手,LMP3赛车手,LMP3 runners
+\voice\multiclass\mustang,1.wav,野马,野马,mustang
+\voice\multiclass\mustang,2.wav,福特,福特,ford
+\voice\multiclass\runners,1.wav,组别赛车,组别赛车,class cars
+\voice\multiclass\runners,10.wav,组别参赛者,组别参赛者,class runners
+\voice\multiclass\runners,11.wav,组别车手,组别车手,class drivers
+\voice\multiclass\runners,12.wav,组别车手,组别车手,class drivers
+\voice\multiclass\runners,13.wav,组别车手,组别车手,class drivers
+\voice\multiclass\runners,14.wav,组别车手,组别车手,class drivers
+\voice\multiclass\runners,15.wav,组别参赛者,组别参赛者,class runners
+\voice\multiclass\runners,16.wav,组别车手,组别车手,class drivers
+\voice\multiclass\runners,17.wav,组别车手,组别车手,class drivers
+\voice\multiclass\runners,2.wav,组别赛车,组别赛车,class cars
+\voice\multiclass\runners,3.wav,组别赛车,组别赛车,class cars
+\voice\multiclass\runners,4.wav,组别赛车,组别赛车,class cars
+\voice\multiclass\runners,5.wav,组别赛车,组别赛车,class cars
+\voice\multiclass\runners,6.wav,组别参赛者,组别参赛者,class runners
+\voice\multiclass\runners,7.wav,组别参赛者,组别参赛者,class runners
+\voice\multiclass\runners,8.wav,组别参赛者,组别参赛者,class runners
+\voice\multiclass\runners,9.wav,组别参赛者,组别参赛者,class runners
+\voice\multiclass\same_class_as_us,1.wav,与我们同组,与我们同组,same class as us
+\voice\multiclass\same_class_as_us,2.wav,和我们一样,和我们一样,same as us
+\voice\multiclass\same_class_as_us,3.wav,和我们一样,和我们一样,same as we are
+\voice\multiclass\same_class_as_us,4.wav,与我们同组,与我们同组,same class as we are
+\voice\multiclass\same_class_as_us,5.wav,和我们一样,和我们一样,same as us
+\voice\multiclass\same_class_as_us,6.wav,和我们一样,和我们一样,same as us
+\voice\multiclass\same_class_as_us,7.wav,和我们一样,和我们一样,same as we are
+\voice\multiclass\same_class_as_us,8.wav,与我们同组,与我们同组,same as our class
+\voice\multiclass\slower_car_ahead,1.wav,慢组车辆在前,慢组车辆在前,slower class car ahead
+\voice\multiclass\slower_car_ahead,2.wav,你即将接近一辆慢组的车,你即将接近一辆慢组的车,you're coming up on a slower class car
+\voice\multiclass\slower_car_ahead,3.wav,慢组车辆在前,慢组车辆在前,slower class car ahead
+\voice\multiclass\slower_car_ahead,4.wav,你即将接近一辆慢车,你即将接近一辆慢车,you're coming up on a slower car
+\voice\multiclass\slower_car_ahead,5.wav,你即将接近一辆慢组的车,你即将接近一辆慢组的车,you're coming up on a slower class car
+\voice\multiclass\slower_car_ahead,6.wav,慢组车辆在前,慢组车辆在前,slower class car ahead
+\voice\multiclass\slower_car_ahead_is_class_leader,1.wav,前方慢组车辆，这是他们的组别领跑,前方慢组车辆，这是他们的组别领跑,"slower car ahead, this is their class leader"
+\voice\multiclass\slower_car_ahead_is_class_leader,1_male.wav,前方慢组赛车，他是他们组的领跑,前方慢组赛车，他是他们组的领跑,"slower car ahead, this guy's their class leader"
+\voice\multiclass\slower_car_ahead_is_class_leader,2.wav,前方慢组车辆，它是该组的领跑者,前方慢组车辆，它是该组的领跑者,"slower car ahead, it's their class leader"
+\voice\multiclass\slower_car_ahead_is_class_leader,2_male.wav,慢组的前车，他是他们组别的领跑,慢组的前车，他是他们组别的领跑,"slower class car ahead, he's their class leader"
+\voice\multiclass\slower_car_ahead_is_class_leader,3.wav,前方慢车，这是他们组别的领跑,前方慢车，这是他们组别的领跑,"slow car ahead, this is the leader for their class"
+\voice\multiclass\slower_car_ahead_is_class_leader,3_male.wav,前方慢组车辆，他是这些车的组别领跑,前方慢组车辆，他是这些车的组别领跑,"slower car ahead, he's the class leader for these guys"
+\voice\multiclass\slower_car_ahead_is_class_leader,4_male.wav,前方慢组车辆，这家伙是组别领跑,前方慢组车辆，这家伙是组别领跑,"slower car ahead, this guy's the class leader"
+\voice\multiclass\slower_car_ahead_is_class_leader,5_male.wav,前方慢车，这家伙是他们组的领跑,前方慢车，这家伙是他们组的领跑,"slow car ahead, this guy's their class leader"
+\voice\multiclass\slower_car_ahead_racing_player,1.wav,慢车在前，我们在同一圈，所以他们不会得到让车旗,慢车在前，我们在同一圈，所以他们不会得到让车旗,"slow car ahead, we're on the same lap so they'll get no blue flag"
+\voice\multiclass\slower_car_ahead_racing_player,1_male.wav,慢车在前，我们在为位置竞争这个家伙，不要期待让车旗,慢车在前，我们在为位置竞争这个家伙，不要期待让车旗,"slower car ahead, we're racing this guy for position, don't expect a blue flag"
+\voice\multiclass\slower_car_ahead_racing_player,2.wav,慢车在前，我们在争夺位置，所以他们不会得到让车旗,慢车在前，我们在争夺位置，所以他们不会得到让车旗,"slower car ahead, we're racing them for position so they'll get no blue flag"
+\voice\multiclass\slower_car_ahead_racing_player,2_male.wav,前方有慢组车辆，这辆车不会得到让车旗，因为他正在和我们争夺位置,前方有慢组车辆，这辆车不会得到让车旗，因为他正在和我们争夺位置,"slower car ahead, this guy won't get a blue flag because he's racing us for position"
+\voice\multiclass\slower_car_ahead_racing_player,3.wav,前方有慢车，这是为了位置争夺，所以不要期待让车旗,前方有慢车，这是为了位置争夺，所以不要期待让车旗,"slow car ahead, this is for position so don't expect a blue flag"
+\voice\multiclass\slower_car_ahead_racing_player,3_male.wav,慢车在前，这家伙正在和我们争夺位置，他不会得到让车旗,慢车在前，这家伙正在和我们争夺位置，他不会得到让车旗,"slower car ahead, this guy's racing us for position, he won't get a blue flag"
+\voice\multiclass\slower_car_ahead_racing_player,4.wav,前方有慢车，这里不会有让车旗，我们在同一圈,前方有慢车，这里不会有让车旗，我们在同一圈,"slow car ahead, there'll be no blue flag here, we're on the same lap"
+\voice\multiclass\slower_car_ahead_racing_player,4_male.wav,前方慢车，这家伙在套我们圈，他不会得到让车旗，他在和我们争夺位置,前方慢车，这家伙在套我们圈，他不会得到让车旗，他在和我们争夺位置,"slow car ahead, this guy's on our lap, he won't get a blue flag, he's racing us for position"
+\voice\multiclass\slower_car_ahead_racing_player,5_male.wav,前方慢车，这辆车在和我们争夺位置，不要期待让车旗,前方慢车，这辆车在和我们争夺位置，不要期待让车旗,"slow car ahead, this guy's racing us for position, don't expect a blue flag"
+\voice\multiclass\slower_car_ahead_racing_player,6_male.wav,前方慢车，这辆车在和我们争夺位置，他不会得到让车旗,前方慢车，这辆车在和我们争夺位置，他不会得到让车旗,"slow car ahead, this guy's racing us for position, he won't get a blue flag"
+\voice\multiclass\slower_car_ahead_racing_player_is_class_leader,1.wav,前方有慢组的领跑车，我们在为位置竞争这辆车，所以不会有让车旗,前方有慢组的领跑车，我们在为位置竞争这辆车，所以不会有让车旗,"slower car ahead, it's their class leader, we're racing this car for position so there'll be no blue flag"
+\voice\multiclass\slower_car_ahead_racing_player_is_class_leader,1_male.wav,慢车在前，但这辆车是他们的组别领跑，但我们正在为位置竞争，他不会看到让车旗,慢车在前，但这辆车是他们的组别领跑，但我们正在为位置竞争，他不会看到让车旗,"slower car ahead, this guys their class leader but we're racing for position, he won't see the blue flag"
+\voice\multiclass\slower_car_ahead_racing_player_is_class_leader,2.wav,慢组的车在前面，我们要为位置和他们比赛，所以不会有让车旗，他们是他们的组别领跑,慢组的车在前面，我们要为位置和他们比赛，所以不会有让车旗，他们是他们的组别领跑,"slower car ahead, we're racing this car for position so there'll be no blue flag, it's their class leader"
+\voice\multiclass\slower_car_ahead_racing_player_is_class_leader,2_male.wav,前方有慢组赛车，这家伙不会看到让车旗，因为他正在和我们争夺位置，他是他们组别的领跑,前方有慢组赛车，这家伙不会看到让车旗，因为他正在和我们争夺位置，他是他们组别的领跑,"slower car ahead, this guy won't see the blue flag because he's racing us for position, he's their class leader"
+\voice\multiclass\slower_car_ahead_racing_player_is_class_leader,3.wav,前方有慢组的领跑车，这里不会有让车旗，因为我们是同圈,前方有慢组的领跑车，这里不会有让车旗，因为我们是同圈,"slower car ahead, it's their class leader, there'll be no blue flag here cos we're on the same lap"
+\voice\multiclass\slower_car_ahead_racing_player_is_class_leader,3_male.wav,前方有慢组赛车，这家伙是他们组的领跑者，他不会看到让车旗，因为他正在和我们争夺位置,前方有慢组赛车，这家伙是他们组的领跑者，他不会看到让车旗，因为他正在和我们争夺位置,"slower car ahead, this guy's their class leader, he won't see the blue flag because he's racing us for position"
+\voice\multiclass\slower_car_ahead_racing_player_is_class_leader,4_male.wav,前方有慢组车辆，这家伙看不到让车旗，他在为我们争夺位置，他是组别领跑,前方有慢组车辆，这家伙看不到让车旗，他在为我们争夺位置，他是组别领跑,"slower car ahead, this guy won't see the blue flag, he's racing us for position, he's the class leader"
+\voice\multiclass\slower_cars_ahead,1.wav,前方有一组慢车,前方有一组慢车,there's a group of slower cars ahead
+\voice\multiclass\slower_cars_ahead,2.wav,你即将接近一组慢车,你即将接近一组慢车,you're approaching a group of slower cars
+\voice\multiclass\slower_cars_ahead,3.wav,前方有一组慢车,前方有一组慢车,there's a group of slower cars ahead
+\voice\multiclass\slower_cars_ahead,4.wav,你即将接近一组慢车,你即将接近一组慢车,you're approaching a group of slower cars
+\voice\multiclass\slower_cars_ahead,5.wav,慢组车辆在前,慢组车辆在前,slower class cars ahead
+\voice\multiclass\slower_cars_ahead,6.wav,你即将接近一组慢组的车辆,你即将接近一组慢组的车辆,you're approaching a group of slower class cars
+\voice\multiclass\slower_cars_ahead_fighting,1_op_prefix_ok.wav,你即将接近一些慢组的赛车，这些车手正在为位置争夺,你即将接近一些慢组的赛车，这些车手正在为位置争夺,"you're approaching some slower cars, these guys are fighting for position"
+\voice\multiclass\slower_cars_ahead_fighting,2_op_prefix_ok.wav,前方有一组慢车，这些家伙正在互相缠斗,前方有一组慢车，这些家伙正在互相缠斗,"there's a group of slower cars ahead, these guys are busy fighting each other"
+\voice\multiclass\slower_cars_ahead_fighting,3_op_prefix_ok.wav,前方慢车，这些家伙可能会为位置争夺，他们可能没看到你,前方慢车，这些家伙可能会为位置争夺，他们可能没看到你,"slower cars ahead, these guys will be fighting for position, they might not see you"
+\voice\multiclass\slower_cars_ahead_fighting,4_op_prefix_ok.wav,你快要赶上一些慢车了，这些家伙正在缠斗，可能没注意到你,你快要赶上一些慢车了，这些家伙正在缠斗，可能没注意到你,"you're coming up on some slower cars, these guys are busy fighting, they might not notice you"
+\voice\multiclass\slower_cars_ahead_fighting,5.wav,前方有慢车，这些家伙在争夺位置，他们可能没看到你,前方有慢车，这些家伙在争夺位置，他们可能没看到你,"slower cars ahead, these guys are scrapping for position, they might not see you"
+\voice\multiclass\slower_cars_ahead_inc_class_leader,1.wav,你即将遇到一些慢组的车，包括他们的组别领跑,你即将遇到一些慢组的车，包括他们的组别领跑,"you're coming up on some slower cars, including their class leader"
+\voice\multiclass\slower_cars_ahead_inc_class_leader,2.wav,前方有慢组车辆，组别领跑者在这里,前方有慢组车辆，组别领跑者在这里,"slower cars ahead, the class leader's up here"
+\voice\multiclass\slower_cars_ahead_inc_class_leader,3.wav,你即将接近一些慢组的车，他们的组别领跑者在这组,你即将接近一些慢组的车，他们的组别领跑者在这组,"you're coming up on some slower cars, their class leader's in this group"
+\voice\multiclass\slower_cars_ahead_inc_class_leader,4.wav,前方有慢车，包括组别领跑,前方有慢车，包括组别领跑,"slow cars ahead, including the class leader"
+\voice\multiclass\slower_cars_ahead_inc_class_leader,5.wav,你即将接近一些慢车，他们的组别领跑者在这组,你即将接近一些慢车，他们的组别领跑者在这组,"you're coming up on some slow cars, their class leader's in this group"
+\voice\multiclass\slower_cars_fighting_ahead_inc_class_leader,1.wav,慢车在前方，这些家伙正在为位置争斗，其中包括他们的组别领跑,慢车在前方，这些家伙正在为位置争斗，其中包括他们的组别领跑,"slower cars ahead, these guys are fighting for position, the group includes their class leader"
+\voice\multiclass\slower_cars_fighting_ahead_inc_class_leader,2.wav,慢车在前方，这些家伙正在为位置争斗，其中包括他们的组别领跑,慢车在前方，这些家伙正在为位置争斗，其中包括他们的组别领跑,"slower cars ahead, these guys are fighting for position, the group includes their class leader"
+\voice\multiclass\slower_cars_fighting_ahead_inc_class_leader,3.wav,你即将接近一些慢组的车，这些家伙们正在为位置争夺，组别领跑者也在这个小组,你即将接近一些慢组的车，这些家伙们正在为位置争夺，组别领跑者也在这个小组,"you're coming up on some slower cars, these guys are fighting for position, the class leader's in this group"
+\voice\multiclass\slower_cars_fighting_ahead_inc_class_leader,4.wav,慢车在前方，组别领跑者也在这个小组里，这些家伙们正在为位置拼抢,慢车在前方，组别领跑者也在这个小组里，这些家伙们正在为位置拼抢,"slower cars ahead, the class leader's in this group, these guys are scrapping for position"
+\voice\multiclass\slower_cars_fighting_ahead_inc_class_leader,5.wav,慢车在前方，这些家伙为了位置拼得你死我活，组别领跑者也在这个小组,慢车在前方，这些家伙为了位置拼得你死我活，组别领跑者也在这个小组,"slower cars ahead, these guys are slugging it out for position, the class leader's in this group"
+\voice\multiclass\tc1,64.wav,TC1,TC1,TC1
+\voice\multiclass\tc1,65.wav,TC1,TC1,TC1
+\voice\multiclass\tc1,66.wav,TC1,TC1,TC1
+\voice\multiclass\tc1_runners,28.wav,TC1组赛车,TC1组赛车,TC1 cars
+\voice\multiclass\tc1_runners,29.wav,TC1组别赛车,TC1组别赛车,TC1 class cars
+\voice\multiclass\tc1_runners,30.wav,TC1 组参赛者,TC1 组参赛者,TC1 runners
+\voice\multiclass\tc2,67.wav,TC2,TC2,TC2
+\voice\multiclass\tc2,68.wav,TC2,TC2,TC2
+\voice\multiclass\tc2,69.wav,TC2,TC2,TC2
+\voice\multiclass\tc2_runners,7.wav,TC2 组,TC2 组,TC2 cars
+\voice\multiclass\tc2_runners,8.wav,TC2 组参赛者,TC2 组参赛者,TC2 runners
+\voice\multiclass\tc2_runners,9.wav,TC2组别赛车,TC2组别赛车,TC2 class cars
+\voice\multiclass\you_are_being_caught_by_the,1.wav,你被...追上了,你被...追上了,you're being caught by the
+\voice\multiclass\you_are_being_caught_by_the,2.wav,你被...追上了,你被...追上了,you're being caught by the
+\voice\multiclass\you_are_being_caught_by_the,3.wav,来了,来了,here come the
+\voice\multiclass\you_are_being_caught_by_the,4.wav,来了,来了,here come the
+\voice\multiclass\you_are_being_caught_by_the,5.wav,你被...追上了,你被...追上了,you're being caught by the
+\voice\multiclass\you_are_being_caught_by_the,6.wav,来了,来了,here come the
+\voice\multiclass\you_are_being_caught_by_the,7.wav,来了,来了,here come the
+\voice\multiclass\you_are_being_caught_by_the,8.wav,你被...追上了,你被...追上了,you're being caught by the
+\voice\multiclass\you_are_being_caught_by_the_faster_cars,1.wav,你被快组的车追上了,你被快组的车追上了,you're being caught by the faster class cars
+\voice\multiclass\you_are_being_caught_by_the_faster_cars,2.wav,你被快组追上了,你被快组追上了,you're being caught by the faster class
+\voice\multiclass\you_are_being_caught_by_the_faster_cars,3.wav,快组的赛车正在追上你,快组的赛车正在追上你,the faster class cars are catching you up
+\voice\multiclass\you_are_being_caught_by_the_faster_cars,4.wav,快组的赛车正在追近,快组的赛车正在追近,the faster class cars are catching
+\voice\multiclass\you_are_being_caught_by_the_faster_cars,5.wav,你被快组的车追上了,你被快组的车追上了,you're being caught by the faster class cars
+\voice\multiclass\you_are_catching_the,1.wav,你正在接近,你正在接近,you're catching the
+\voice\multiclass\you_are_catching_the,2.wav,你正在接近,你正在接近,you're catching the
+\voice\multiclass\you_are_catching_the,3.wav,你即将来到,你即将来到,you're coming up on the
+\voice\multiclass\you_are_catching_the,4.wav,你即将来到,你即将来到,you're coming up on the
+\voice\multiclass\you_are_catching_the,5.wav,你正在接近,你正在接近,you're catching the
+\voice\multiclass\you_are_catching_the,6.wav,你即将来到,你即将来到,you're coming up on the
+\voice\multiclass\you_are_catching_the,7.wav,你正在接近,你正在接近,you're approaching the
+\voice\multiclass\you_are_catching_the,8.wav,你正在接近,你正在接近,you're catching the
+\voice\multiclass\you_are_catching_the_slower_cars,1.wav,你现在追上慢组的车辆了,你现在追上慢组的车辆了,you're catching the slower cars now
+\voice\multiclass\you_are_catching_the_slower_cars,2.wav,你在追上慢组的赛车,你在追上慢组的赛车,you're catching up with the slower class cars
+\voice\multiclass\you_are_catching_the_slower_cars,3.wav,你在追上慢组的车辆,你在追上慢组的车辆,you're catching the slower class cars
+\voice\multiclass\you_are_catching_the_slower_cars,4.wav,你在追上慢车,你在追上慢车,you're catching the slower cars
+\voice\multiclass\you_are_catching_the_slower_cars,5.wav,你在追上慢组的车辆,你在追上慢组的车辆,you're catching the slower class cars
+\voice\multiclass\you_are_catching_the_slower_cars,6.wav,你现在追上慢组的赛车了,你现在追上慢组的赛车了,you're catching up with the slower class cars now
+\voice\multiclass\you_are_catching_the_slower_cars,7.wav,你在追上慢组的赛车,你在追上慢组的赛车,you're catching up with the slower class cars
+\voice\overtaking_aids\a_few_tenths_off_drs_range,1.wav,再快几十分之一秒我们就进入DRS范围,再快几十分之一秒我们就进入DRS范围,a few more tenths and we'll be in DRS range
+\voice\overtaking_aids\a_few_tenths_off_drs_range,2.wav,再差几个十分之一秒就能进入DRS范围,再差几个十分之一秒就能进入DRS范围,just a few more tenths for DRS range
+\voice\overtaking_aids\a_few_tenths_off_drs_range,3.wav,我们需要再靠近零点几秒才能使用DRS,我们需要再靠近零点几秒才能使用DRS,we need to be a few tenths closer for DRS
+\voice\overtaking_aids\a_second_off_drs_range,1.wav,我们需要再近一秒才能使用DRS,我们需要再近一秒才能使用DRS,we need to be a second closer for DRS
+\voice\overtaking_aids\a_second_off_drs_range,2.wav,我们需要在DRS范围内缩小一秒,我们需要在DRS范围内缩小一秒,we need to close up a second for DRS
+\voice\overtaking_aids\a_second_off_drs_range,3.wav,我们距离DRS范围大约一秒钟,我们距离DRS范围大约一秒钟,we're about a second outside of DRS range
+\voice\overtaking_aids\activations_remaining,1.wav,剩余激活次数,剩余激活次数,activations remaining
+\voice\overtaking_aids\activations_remaining,2.wav,剩余次数,剩余次数,activations left
+\voice\overtaking_aids\activations_remaining,3.wav,剩余次数,剩余次数,activations left
+\voice\overtaking_aids\dont_forget_drs,1.wav,不要忘了使用你的DRS,不要忘了使用你的DRS,don't forget to use your DRS
+\voice\overtaking_aids\dont_forget_drs,2.wav,不要忘了你的DRS,不要忘了你的DRS,don't forget your DRS
+\voice\overtaking_aids\dont_forget_drs,3.wav,使用你的DRS当它可用时,使用你的DRS当它可用时,use your DRS when it's available
+\voice\overtaking_aids\drs_disabled,1.wav,赛事总监已禁用DRS,赛事总监已禁用DRS,the race director has disabled DRS
+\voice\overtaking_aids\drs_disabled,2.wav,DRS 现在被禁用,DRS 现在被禁用,DRS is now disabled
+\voice\overtaking_aids\drs_disabled,3.wav,DRS已关闭,DRS已关闭,DRS is disabled
+\voice\overtaking_aids\drs_disabled,4.wav,DRS 不再可用,DRS 不再可用,DRS is no longer available
+\voice\overtaking_aids\drs_disabled,5.wav,DRS 已被禁用,DRS 已被禁用,DRS has been disabled
+\voice\overtaking_aids\drs_enabled,1.wav,DRS 现在可用,DRS 现在可用,DRS is now available
+\voice\overtaking_aids\drs_enabled,2.wav,赛事总监已启用DRS,赛事总监已启用DRS,the race director has enabled DRS
+\voice\overtaking_aids\drs_enabled,3.wav,DRS 已启用,DRS 已启用,DRS has been enabled
+\voice\overtaking_aids\drs_enabled,4.wav,DRS已启用,DRS已启用,DRS is enabled
+\voice\overtaking_aids\drs_enabled,5.wav,DRS 现在可用,DRS 现在可用,DRS is now available
+\voice\overtaking_aids\five_ptp_activations_remaining,1.wav,你还有五次推至超越激活剩余,你还有五次推至超越激活剩余,you've got 5 push to pass activations left
+\voice\overtaking_aids\five_ptp_activations_remaining,2.wav,还剩5次推至超越激活,还剩5次推至超越激活,5 push to pass activations left
+\voice\overtaking_aids\five_ptp_activations_remaining,3.wav,还剩5次超车推进,还剩5次超车推进,5 push to pass activations remaining
+\voice\overtaking_aids\five_ptp_activations_remaining,4.wav,还剩五个超车推进激活次数,还剩五个超车推进激活次数,that's 5 push to pass activations left
+\voice\overtaking_aids\guy_behind_has_drs,1.wav,这辆车现在有DRS,这辆车现在有DRS,this car will now have DRS
+\voice\overtaking_aids\guy_behind_has_drs,1_male.wav,这位车手现在有DRS,这位车手现在有DRS,this guy will now have DRS
+\voice\overtaking_aids\guy_behind_has_drs,2.wav,这辆车在DRS范围内,这辆车在DRS范围内,this car's in DRS range
+\voice\overtaking_aids\guy_behind_has_drs,2_male.wav,这家伙在DRS范围内,这家伙在DRS范围内,this guy's in DRS range
+\voice\overtaking_aids\guy_behind_has_drs,3.wav,后面的车现在有DRS,后面的车现在有DRS,the car behind has now got DRS
+\voice\overtaking_aids\guy_behind_has_drs,3_male.wav,后面的家伙现在有DRS了,后面的家伙现在有DRS了,the guy behind has now got DRS
+\voice\overtaking_aids\no_activations_remaining,1.wav,没有超车推进剩余次数,没有超车推进剩余次数,no more push-to-pass activations remaining
+\voice\overtaking_aids\no_activations_remaining,2.wav,你没有剩余的超车推进了,你没有剩余的超车推进了,you got no more push-to-pass
+\voice\overtaking_aids\no_activations_remaining,3.wav,没有超车推进了,没有超车推进了,no more push-to-pass activations
+\voice\overtaking_aids\one_activation_remaining,1.wav,你还有一个超车推进,你还有一个超车推进,you got one more push-to-pass
+\voice\overtaking_aids\one_activation_remaining,2.wav,还剩一次超车推进,还剩一次超车推进,one more push-to-pass activation
+\voice\overtaking_aids\one_activation_remaining,3.wav,还剩一次激活,还剩一次激活,one activation remaining
+\voice\overtaking_aids\push_to_pass_now_available,1.wav,好的，超车推进现在可用,好的，超车推进现在可用,"okay, push-to-pass is now available"
+\voice\overtaking_aids\push_to_pass_now_available,2.wav,超车推进可用,超车推进可用,push-to-pass is available
+\voice\overtaking_aids\push_to_pass_now_available,3.wav,超车推进现在可用,超车推进现在可用,push-to-pass is now available
+\voice\overtaking_aids\remember_to_use_ptp,1.wav,记得使用你的超车推进,记得使用你的超车推进,remember to use your push-to-pass allocation
+\voice\overtaking_aids\remember_to_use_ptp,2.wav,不要忘了你的超车推进,不要忘了你的超车推进,don't forget your push-to-pass
+\voice\overtaking_aids\remember_to_use_ptp,3.wav,记得使用你的超车推进次数,记得使用你的超车推进次数,"remember, use your push-to-pass allocation"
+\voice\overtaking_aids\remember_to_use_ptp,4.wav,记得使用你的超车推进,记得使用你的超车推进,remember to use your push-to-pass allocation
+\voice\overtaking_aids\remember_to_use_ptp,5.wav,不要忘了你的超车推进次数,不要忘了你的超车推进次数,don't forget your push-to-pass allocation
+\voice\overtaking_aids\remember_to_use_ptp,6.wav,不要忘记使用超车推进,不要忘记使用超车推进,don't forget push-to-pass
+\voice\overtaking_aids\remember_to_use_ptp,7.wav,记得使用你的超车推进,记得使用你的超车推进,"remember, use your push-to-pass"
+\voice\overtaking_aids\ten_ptp_activations_remaining,1.wav,你还有十次超车推进激活次数,你还有十次超车推进激活次数,you've got 10 push to pass activations left
+\voice\overtaking_aids\ten_ptp_activations_remaining,2.wav,还剩10次推至超越激活,还剩10次推至超越激活,10 push to pass activations left
+\voice\overtaking_aids\ten_ptp_activations_remaining,3.wav,剩余10次超车推进,剩余10次超车推进,10 push to pass activations remaining
+\voice\overtaking_aids\ten_ptp_activations_remaining,4.wav,还剩十次推至超越激活,还剩十次推至超越激活,that's 10 push to pass activations left
+\voice\overtaking_aids\three_ptp_activations_remaining,1.wav,还剩三次超车推进,还剩三次超车推进,3 push to pass activations left
+\voice\overtaking_aids\three_ptp_activations_remaining,2.wav,还剩三次超车推进,还剩三次超车推进,3 push to pass activations remaining
+\voice\overtaking_aids\three_ptp_activations_remaining,3.wav,我们还剩三次超车推进,我们还剩三次超车推进,we have 3 push to pass activations left
+\voice\overtaking_aids\three_ptp_activations_remaining,4.wav,还剩三次超车推进,还剩三次超车推进,3 push to pass activations remaining
+\voice\strategy\a_few_seconds_ahead_of,1.wav,几秒领先,几秒领先,a few seconds ahead of
+\voice\strategy\a_few_seconds_ahead_of,2.wav,前方几秒,前方几秒,a few seconds in front of
+\voice\strategy\a_few_seconds_ahead_of,3.wav,几秒领先,几秒领先,a few seconds ahead of
+\voice\strategy\a_few_seconds_ahead_of,4.wav,前方几秒,前方几秒,a few seconds in front of
+\voice\strategy\a_few_seconds_ahead_of,5.wav,前方几秒,前方几秒,a few seconds in front of
+\voice\strategy\a_few_seconds_behind,1.wav,落后几秒,落后几秒,a few seconds behind
+\voice\strategy\a_few_seconds_behind,2.wav,落后几秒,落后几秒,a few seconds behind
+\voice\strategy\a_few_seconds_behind,3.wav,落后几秒,落后几秒,a few seconds behind
+\voice\strategy\a_few_seconds_behind,4.wav,落后几秒,落后几秒,a few seconds behind
+\voice\strategy\a_few_seconds_behind,5.wav,落后几秒,落后几秒,a few seconds behind
+\voice\strategy\a_pitstop_costs_us_about,1_op_prefix_ok.wav,看来进站要让我们损失大约,看来进站要让我们损失大约,looks like a pit stop costs us about
+\voice\strategy\a_pitstop_costs_us_about,2.wav,看起来进站会让我们大约,看起来进站会让我们大约,it looks like pitting will lose us about
+\voice\strategy\a_pitstop_costs_us_about,3_op_prefix_ok.wav,一次进站会让我们损失,一次进站会让我们损失,a pit stop will cost us
+\voice\strategy\a_pitstop_costs_us_about,4.wav,我们认为进站会让我们,我们认为进站会让我们,we think a pit stop costs us
+\voice\strategy\a_pitstop_costs_us_about,5.wav,我们认为进站大约会,我们认为进站大约会,we think a pit stop costs about
+\voice\strategy\a_pitstop_costs_us_about,6_op_prefix_ok.wav,一次进站将让我们大约,一次进站将让我们大约,a pit stop will lose us about
+\voice\strategy\acknowledge_time_pitstop,1.wav,好的，我们会计时这次进站,好的，我们会计时这次进站,"okay, we'll time this stop"
+\voice\strategy\acknowledge_time_pitstop,1_op_suffix_please.wav,这将是我们的基准进站，暖胎圈和出站圈的节奏将按照比赛速度,这将是我们的基准进站，暖胎圈和出站圈的节奏将按照比赛速度,"this'll be our benchmark pit stop, race pace on the in-lap and the out-lap"
+\voice\strategy\acknowledge_time_pitstop,2.wav,好的，我们将以此进站作为基准,好的，我们将以此进站作为基准,"okay, we'll use this stop as a benchmark"
+\voice\strategy\acknowledge_time_pitstop,2_op_prefix_ok.wav,这是我们的基准进站，我们将计时进站圈和出站圈，比赛节奏,这是我们的基准进站，我们将计时进站圈和出站圈，比赛节奏,"this is our benchmark stop, we'll be timing the in-lap and the out-lap, race pace"
+\voice\strategy\acknowledge_time_pitstop,3.wav,好的，这是我们的基准进站，直到第二分段按比赛节奏,好的，这是我们的基准进站，直到第二分段按比赛节奏,"okay, this is our benchmark stop, race pace until sector 2"
+\voice\strategy\acknowledge_time_pitstop,3_op_prefix_ok.wav,我们需要在进站圈和出站圈达到比赛节奏，这将是我们的基准,我们需要在进站圈和出站圈达到比赛节奏，这将是我们的基准,"we need race pace on the in-lap and the out-lap, this'll be our benchmark"
+\voice\strategy\acknowledge_time_pitstop,4.wav,好的，出站圈直到第二分段保持比赛节奏，这将是我们的基准进站,好的，出站圈直到第二分段保持比赛节奏，这将是我们的基准进站,"okay, race pace on the outlap until sector 2, this'll be our benchmark stop"
+\voice\strategy\acknowledge_time_pitstop,5.wav,明白，我们会计时这次进站，作为基准,明白，我们会计时这次进站，作为基准,"understood, we'll time this stop, use it as a benchmark"
+\voice\strategy\acknowledge_time_pitstop,5_op_suffix_please.wav,这是我们基准的进站，我们需要在进站圈和出站圈保持比赛节奏,这是我们基准的进站，我们需要在进站圈和出站圈保持比赛节奏,"this is our benchmark pit stop, we need race pace on the in-lap and the out-lap"
+\voice\strategy\acknowledge_time_pitstop,6.wav,收到，我们将计时这次进站，在入站圈和出站圈按比赛节奏行驶直到第二分段,收到，我们将计时这次进站，在入站圈和出站圈按比赛节奏行驶直到第二分段,"acknowledged, we'll time this stop, race pace on the in-lap and out-lap until sector 2, please"
+\voice\strategy\ahead_of,1.wav,领先于,领先于,ahead of
+\voice\strategy\ahead_of,2.wav,前方,前方,in front of
+\voice\strategy\ahead_of,3.wav,领先于,领先于,ahead of
+\voice\strategy\ahead_of,4.wav,前方,前方,in front of
+\voice\strategy\ahead_of,5.wav,领先于,领先于,ahead of
+\voice\strategy\ahead_of,6.wav,前方,前方,in front of
+\voice\strategy\and,1.wav,TRANSLATION_FAILED,TRANSLATION_FAILED,and
+\voice\strategy\and,2.wav,TRANSLATION_FAILED,TRANSLATION_FAILED,and
+\voice\strategy\and,3.wav,TRANSLATION_FAILED,TRANSLATION_FAILED,and
+\voice\strategy\and,4.wav,TRANSLATION_FAILED,TRANSLATION_FAILED,and
+\voice\strategy\and,5.wav,TRANSLATION_FAILED,TRANSLATION_FAILED,and
+\voice\strategy\and,6.wav,TRANSLATION_FAILED,TRANSLATION_FAILED,and
+\voice\strategy\and,7.wav,TRANSLATION_FAILED,TRANSLATION_FAILED,and
+\voice\strategy\behind,1.wav,落后,落后,behind
+\voice\strategy\behind,2.wav,落后,落后,behind
+\voice\strategy\behind,3.wav,落后,落后,behind
+\voice\strategy\behind,4.wav,落后,落后,behind
+\voice\strategy\between,1.wav,之间,之间,in between
+\voice\strategy\between,2.wav,之间,之间,between
+\voice\strategy\between,3.wav,之间,之间,in between
+\voice\strategy\between,4.wav,之间,之间,between
+\voice\strategy\between,5.wav,之间,之间,between
+\voice\strategy\between,6.wav,之间,之间,in between
+\voice\strategy\between,7.wav,之间,之间,between
+\voice\strategy\close_between,1.wav,非常接近,非常接近,really close to
+\voice\strategy\close_between,2.wav,和…在一起,和…在一起,right with
+\voice\strategy\close_between,3.wav,非常接近,非常接近,really close to
+\voice\strategy\close_between,4.wav,接近,接近,close between
+\voice\strategy\close_between,5.wav,真的接近,真的接近,really close between
+\voice\strategy\close_between,6.wav,和…在一起,和…在一起,right with
+\voice\strategy\expect_clear_track_on_pit_exit,1.wav,预计出站时赛道畅通,预计出站时赛道畅通,expect a clear track on exit
+\voice\strategy\expect_clear_track_on_pit_exit,2_op_prefix_ok.wav,你应该出来就能获得干净的空气,你应该出来就能获得干净的空气,you should be coming out into clear air
+\voice\strategy\expect_clear_track_on_pit_exit,3_op_prefix_ok.wav,你在出口处应该有足够的空间,你在出口处应该有足够的空间,you should have plenty of space on the exit
+\voice\strategy\expect_clear_track_on_pit_exit,4_op_prefix_ok.wav,预计出站时不会有其他车辆,预计出站时不会有其他车辆,we expect there'll be no traffic on exit
+\voice\strategy\expect_clear_track_on_pit_exit,5.wav,预计您出站时会遇到干净的空气,预计您出站时会遇到干净的空气,we expect you'll be coming out of the pits into clear air
+\voice\strategy\expect_clear_track_on_pit_exit,6.wav,我们认为你会从维修区出来进入干净的空气,我们认为你会从维修区出来进入干净的空气,we think you'll be exiting the pits into clear air
+\voice\strategy\expect_clear_track_on_pit_exit,7.wav,我们预计出站口不会有其他车辆,我们预计出站口不会有其他车辆,we don't expect any traffic on the pit exit
+\voice\strategy\expect_traffic_on_pit_exit,1_op_prefix_ok.wav,预计出站时会有车流,预计出站时会有车流,expect traffic when you exit the pits
+\voice\strategy\expect_traffic_on_pit_exit,2.wav,出口会有慢车,出口会有慢车,there'll be traffic on the exit
+\voice\strategy\expect_traffic_on_pit_exit,3_op_prefix_ok.wav,你出来时会遇到车流,你出来时会遇到车流,you'll be coming out into traffic
+\voice\strategy\expect_traffic_on_pit_exit,4.wav,你出维修区时会有车流,你出维修区时会有车流,there'll be traffic when you exit the pits
+\voice\strategy\expect_traffic_on_pit_exit,5.wav,出口会有慢车,出口会有慢车,there'll be traffic on the exit
+\voice\strategy\expect_traffic_on_pit_exit,6.wav,你出维修区时会有车流,你出维修区时会有车流,there'll be traffic when you exit the pits
+\voice\strategy\expect_traffic_on_pit_exit,7_op_prefix_ok.wav,预计出站有慢车,预计出站有慢车,expect traffic on exit
+\voice\strategy\expect_traffic_on_pit_exit,8_op_prefix_ok.wav,预计出站时会有车流,预计出站时会有车流,expect traffic when you come out
+\voice\strategy\he_will_come_out_just_behind,1.wav,我们认为他会出来刚好在你后面,我们认为他会出来刚好在你后面,we think he'll come out just behind you
+\voice\strategy\he_will_come_out_just_behind,2.wav,我们认为他会出来刚好在你后面,我们认为他会出来刚好在你后面,we think he'll come out just behind you
+\voice\strategy\he_will_come_out_just_behind,3.wav,我们认为他出来的时候会稍微落后于你,我们认为他出来的时候会稍微落后于你,we think he'll come out a little way behind you
+\voice\strategy\he_will_come_out_just_behind,4.wav,他出来的时候会紧跟着你,他出来的时候会紧跟着你,it looks like he'll come out just behind you
+\voice\strategy\he_will_come_out_just_behind,5.wav,他应该出来稍微落后于你,他应该出来稍微落后于你,he should come out a little way behind you
+\voice\strategy\he_will_come_out_just_behind,6.wav,预计他出来会稍微落在你后面,预计他出来会稍微落在你后面,expect him to come out a bit behind you
+\voice\strategy\he_will_come_out_just_behind,7.wav,他出来的时候应该会稍微落后一点,他出来的时候应该会稍微落后一点,he should be a little bit behind when he comes out
+\voice\strategy\he_will_come_out_just_in_front,1.wav,我们认为他出来时会正好在你前面,我们认为他出来时会正好在你前面,we think he'll come out just in front of you
+\voice\strategy\he_will_come_out_just_in_front,2.wav,我们认为他会出来就在前面,我们认为他会出来就在前面,we think he'll come out just in front
+\voice\strategy\he_will_come_out_just_in_front,3.wav,看来他会出来就在你前面,看来他会出来就在你前面,looks like he'll come out just in front of you
+\voice\strategy\he_will_come_out_just_in_front,4.wav,他出来时应该就在你前面,他出来时应该就在你前面,he should come out just in front of you
+\voice\strategy\he_will_come_out_just_in_front,5.wav,他出来时应该就在你前面,他出来时应该就在你前面,he should come out close in front of you
+\voice\strategy\he_will_come_out_just_in_front,6.wav,我们认为他会出来时领先,我们认为他会出来时领先,we think he'll come out close in front
+\voice\strategy\he_will_come_out_just_in_front,7.wav,我们认为他在出站时会紧跟着你在前方,我们认为他在出站时会紧跟着你在前方,we think he'll be close in front of you when he exits
+\voice\strategy\is_pitting_from_position,1.wav,从第P位进站,从第P位进站,is pitting from P
+\voice\strategy\is_pitting_from_position,2.wav,从第...位进站,从第...位进站,is pitting from position
+\voice\strategy\is_pitting_from_position,3.wav,正在进入维修区，他处于P,正在进入维修区，他处于P,"is entering the pits, he's in P"
+\voice\strategy\is_pitting_from_position,4.wav,从第...位进站,从第...位进站,is pitting from position
+\voice\strategy\is_pitting_from_position,5.wav,从第P位进站,从第P位进站,is pitting from P
+\voice\strategy\just_ahead_of,1.wav,就在前方,就在前方,just in front of
+\voice\strategy\just_ahead_of,2.wav,就在前方,就在前方,just ahead of
+\voice\strategy\just_ahead_of,3.wav,就在前面,就在前面,right ahead of
+\voice\strategy\just_ahead_of,4.wav,就在前方,就在前方,just in front of
+\voice\strategy\just_ahead_of,5.wav,就在前方,就在前方,just ahead of
+\voice\strategy\just_ahead_of,6.wav,就在前面,就在前面,right in front of
+\voice\strategy\just_ahead_of,7.wav,就在前面,就在前面,right ahead of
+\voice\strategy\just_behind,1.wav,就在后面,就在后面,just behind
+\voice\strategy\just_behind,2.wav,紧随其后,紧随其后,right behind
+\voice\strategy\just_behind,3.wav,紧随其后,紧随其后,immediately behind
+\voice\strategy\just_behind,4.wav,就在后面,就在后面,just behind
+\voice\strategy\just_behind,5.wav,紧随其后,紧随其后,right behind
+\voice\strategy\just_behind,6.wav,紧随其后,紧随其后,right behind
+\voice\strategy\just_behind,7.wav,就在后面,就在后面,just behind
+\voice\strategy\just_behind,8.wav,紧随其后,紧随其后,immediately behind
+\voice\strategy\set_benchmark_laptime_first,1.wav,我们需要先设定一个不错的圈速,我们需要先设定一个不错的圈速,we need to set a decent lap first
+\voice\strategy\set_benchmark_laptime_first,2.wav,我们需要先设定一个基准圈速,我们需要先设定一个基准圈速,we need to set a benchmark lap time first
+\voice\strategy\set_benchmark_laptime_first,3.wav,我们需要先设定一些圈速,我们需要先设定一些圈速,we need to set some laptimes first
+\voice\strategy\we_are_sharing_our_pit_box_with,1.wav,我们共用维修区车位,我们共用维修区车位,we are sharing our pit box with
+\voice\strategy\we_are_sharing_our_pit_box_with,2.wav,我们共用维修区车位,我们共用维修区车位,we are sharing our pit box with
+\voice\strategy\we_are_sharing_our_pit_box_with,3.wav,我们共用维修区车位,我们共用维修区车位,we are sharing our pit box with
+\voice\strategy\we_are_sharing_our_pit_box_with,4.wav,我们共用维修区车位,我们共用维修区车位,we are sharing our pit box with
+\voice\strategy\we_should_emerge_in_position,1.wav,我们应该出来占据位置,我们应该出来占据位置,we should come out into position
+\voice\strategy\we_should_emerge_in_position,2.wav,当我们出站时，我们会处于第,当我们出站时，我们会处于第,when we exit the pits we'll be in P
+\voice\strategy\we_should_emerge_in_position,3.wav,当我们离开维修区时，我们认为我们会处在第,当我们离开维修区时，我们认为我们会处在第,when we leave the pits we think we'll be in P
+\voice\strategy\we_should_emerge_in_position,4.wav,当我们出站时，我们应该处于第,当我们出站时，我们应该处于第,when we exit the pits we should be in P
+\voice\strategy\we_should_emerge_in_position,5.wav,当我们出站时，我们应该处于位置,当我们出站时，我们应该处于位置,when we exit the pits we should be in position
+\voice\strategy\we_should_emerge_in_position,6.wav,我们预计出站后能保持位置,我们预计出站后能保持位置,we expect to exit the pits in position
+\voice\strategy\we_should_emerge_in_position,7.wav,出弯时我们应该处于位置,出弯时我们应该处于位置,on exit we should be in position
+\voice\strategy\will_calculate_time_loss_from_next_lap,1.wav,我们将从您的下一个飞驰圈计算您的时间损失,我们将从您的下一个飞驰圈计算您的时间损失,we'll calculate your time loss from your next flying lap
+\voice\strategy\will_calculate_time_loss_from_next_lap,2.wav,我们将根据您的下一个飞驰圈计算时间损失,我们将根据您的下一个飞驰圈计算时间损失,we'll calculate the time loss based on your next flying lap
+\voice\strategy\will_calculate_time_loss_from_next_lap,3.wav,我们将根据您下一个飞驰圈的工作出时间损失,我们将根据您下一个飞驰圈的工作出时间损失,we'll work out the time loss based on your next flying lap
+\voice\watched_opponents\acknowledge_no_way_to_refer_to_driver,1.wav,我们没有那名车手的车牌号或姓名,我们没有那名车手的车牌号或姓名,we've got no car number or name for that driver
+\voice\watched_opponents\acknowledge_no_way_to_refer_to_driver,2.wav,我们没有该车手的赛车号码或名字可以参考,我们没有该车手的赛车号码或名字可以参考,we've got no car number or name to refer to that driver
+\voice\watched_opponents\acknowledge_no_way_to_refer_to_driver,3.wav,我们没有他的车号或姓名可以称呼,我们没有他的车号或姓名可以称呼,we have no car number or name to refer to him
+\voice\watched_opponents\acknowledge_no_way_to_refer_to_driver,4.wav,我们不知道他的名字或车号,我们不知道他的名字或车号,we don't know his name or his car number
+\voice\watched_opponents\acknowledge_no_way_to_refer_to_driver,5.wav,我们没有那辆车的车号或车手名字,我们没有那辆车的车号或车手名字,we've no car number or name for that guy
+\voice\watched_opponents\acknowledge_stop_watching_all,1.wav,收到，我们将停止监控,收到，我们将停止监控,"acknowledged, we'll stop monitoring"
+\voice\watched_opponents\acknowledge_stop_watching_all,2.wav,收到，我们将停止所有监控,收到，我们将停止所有监控,"understood, we'll stop all monitoring"
+\voice\watched_opponents\acknowledge_stop_watching_all,3.wav,明白，不再监视,明白，不再监视,"understood, no more monitoring"
+\voice\watched_opponents\acknowledge_stop_watching_all,4.wav,收到，不再监控,收到，不再监控,"acknowledged, no more monitoring"
+\voice\watched_opponents\acknowledge_stop_watching_all,5.wav,好的，我们将停止监控,好的，我们将停止监控,"OK, we'll stop monitoring"
+\voice\watched_opponents\acknowledge_stop_watching_car_number,1.wav,好的，我们将停止监控车号,好的，我们将停止监控车号,"OK, we'll stop monitoring car number"
+\voice\watched_opponents\acknowledge_stop_watching_car_number,2.wav,收到，不再监控该车号,收到，不再监控该车号,"understood, no more monitoring of car number"
+\voice\watched_opponents\acknowledge_stop_watching_car_number,3.wav,收到，我们将停止监控车号,收到，我们将停止监控车号,"acknowledged, we'll stop monitoring car number"
+\voice\watched_opponents\acknowledge_stop_watching_car_number,4.wav,好的，我们将停止监控车号,好的，我们将停止监控车号,"OK, we'll stop monitoring car number"
+\voice\watched_opponents\acknowledge_stop_watching_car_number,5.wav,明白，不再关注该车号,明白，不再关注该车号,"understood, we won't watch car number"
+\voice\watched_opponents\acknowledge_stop_watching_driver_name,1.wav,收到，我们将停止监控,收到，我们将停止监控,"acknowledged, we'll stop monitoring"
+\voice\watched_opponents\acknowledge_stop_watching_driver_name,2.wav,好的，不再进行监控呼叫给,好的，不再进行监控呼叫给,"OK, no more monitoring calls for"
+\voice\watched_opponents\acknowledge_stop_watching_driver_name,3.wav,明白，不再关注,明白，不再关注,"understood, we won't watch"
+\voice\watched_opponents\acknowledge_stop_watching_driver_name,4.wav,好的，不再监控,好的，不再监控,"OK, no more monitoring of"
+\voice\watched_opponents\acknowledge_stop_watching_driver_name,5.wav,收到，我们将停止监视,收到，我们将停止监视,"understood, we'll stop monitoring"
+\voice\watched_opponents\acknowledge_stop_watching_rival,1.wav,明白，我们将停止监视我们的对手,明白，我们将停止监视我们的对手,"understood, we'll stop monitoring our rival"
+\voice\watched_opponents\acknowledge_stop_watching_rival,2.wav,收到，我们将停止监视对手,收到，我们将停止监视对手,"acknowledged, we'll stop monitoring our rival"
+\voice\watched_opponents\acknowledge_stop_watching_rival,3.wav,好的，不再监视我们的对手,好的，不再监视我们的对手,"OK, no more monitoring of our rival"
+\voice\watched_opponents\acknowledge_stop_watching_rival,4.wav,好的，我们将停止关注我们的对手,好的，我们将停止关注我们的对手,"OK, we'll stop watching our rival"
+\voice\watched_opponents\acknowledge_stop_watching_rival,5.wav,明白，我们将停止监视这个对手,明白，我们将停止监视这个对手,"understood, we'll stop watching this rival"
+\voice\watched_opponents\acknowledge_stop_watching_team_mate,1.wav,明白，我们将停止关注我们的队友,明白，我们将停止关注我们的队友,"understood, we'll stop watching our teammate"
+\voice\watched_opponents\acknowledge_stop_watching_team_mate,2.wav,收到，不再监视我们的队友,收到，不再监视我们的队友,"acknowledged, no more monitoring of our teammate"
+\voice\watched_opponents\acknowledge_stop_watching_team_mate,3.wav,好的，我们将停止监控我们的队友,好的，我们将停止监控我们的队友,"OK, we'll stop monitoring our teammate"
+\voice\watched_opponents\acknowledge_stop_watching_team_mate,4.wav,明白，我们将停止关注我们的队友,明白，我们将停止关注我们的队友,"understood, we'll stop watching our teammate"
+\voice\watched_opponents\acknowledge_stop_watching_team_mate,5.wav,好的，不再监视我们的队友,好的，不再监视我们的队友,"OK, no more monitoring of our teammate"
+\voice\watched_opponents\acknowledge_unknown_driver,1.wav,我们不知道那个人是谁,我们不知道那个人是谁,we don't know who that guy is
+\voice\watched_opponents\acknowledge_unknown_driver,2.wav,抱歉，我们不知道他是谁,抱歉，我们不知道他是谁,"sorry, we don't know who he is"
+\voice\watched_opponents\acknowledge_unknown_driver,3.wav,抱歉，我们不知道那位车手是谁,抱歉，我们不知道那位车手是谁,"sorry, we don't know who that driver is"
+\voice\watched_opponents\acknowledge_unknown_driver,4.wav,我们不知道那位车手是谁,我们不知道那位车手是谁,we don't know who that driver is
+\voice\watched_opponents\acknowledge_unknown_driver,5.wav,不知道那个人是谁,不知道那个人是谁,don't know who that guy is
+\voice\watched_opponents\acknowledge_watch_rival,1.wav,明白，我们会盯着这个人，他是我们的对手,明白，我们会盯着这个人，他是我们的对手,"understood, we'll watch this guy, he's our rival"
+\voice\watched_opponents\acknowledge_watch_rival,2.wav,明白，这家伙是我们的对手，我们会盯着他,明白，这家伙是我们的对手，我们会盯着他,"understood, this guy's our rival, we'll watch him"
+\voice\watched_opponents\acknowledge_watch_rival,3.wav,明白，我们将把他作为对手监视,明白，我们将把他作为对手监视,"understood, we'll monitor this guy as a rival"
+\voice\watched_opponents\acknowledge_watch_rival,4.wav,收到，这家伙是我们的对手，我们会监视他,收到，这家伙是我们的对手，我们会监视他,"acknowledged, this guy's our rival, we'll monitor him"
+\voice\watched_opponents\acknowledge_watch_rival,5.wav,明白，这家伙是对手，我们会盯着他,明白，这家伙是对手，我们会盯着他,"understood, this guy's a rival, we'll watch him"
+\voice\watched_opponents\acknowledge_watch_team_mate,1.wav,明白，我们会盯着这个家伙，作为我们的队友,明白，我们会盯着这个家伙，作为我们的队友,"understood, we'll watch this guy as our teammate"
+\voice\watched_opponents\acknowledge_watch_team_mate,2.wav,收到，我们将监视这位队友,收到，我们将监视这位队友,"acknowledged, we'll monitor this guy as our teammate"
+\voice\watched_opponents\acknowledge_watch_team_mate,3.wav,明白，这是他的队友，我们会监视他,明白，这是他的队友，我们会监视他,"understood, this guy's out teammate, we'll monitor him"
+\voice\watched_opponents\acknowledge_watch_team_mate,4.wav,收到，我们会留意我们的队友,收到，我们会留意我们的队友,"acknowledged, we'll watch our teammate"
+\voice\watched_opponents\acknowledge_watch_team_mate,5.wav,明白，我们会盯着这个家伙，作为我们的队友,明白，我们会盯着这个家伙，作为我们的队友,"understood, we'll watch this guy as our teammate"
+\voice\watched_opponents\acknowledge_watch_with_car_number,1.wav,收到，我们将监视车号,收到，我们将监视车号,"acknowledged, we'll monitor car number"
+\voice\watched_opponents\acknowledge_watch_with_car_number,2.wav,明白，我们将监视车号,明白，我们将监视车号,"understood, we'll watch car number"
+\voice\watched_opponents\acknowledge_watch_with_car_number,3.wav,好的，我们将监视车号,好的，我们将监视车号,"OK, we'll watch car number"
+\voice\watched_opponents\acknowledge_watch_with_car_number,4.wav,明白，我们将监视车号,明白，我们将监视车号,"understood, we'll watch car number"
+\voice\watched_opponents\acknowledge_watch_with_car_number,5.wav,明白，我们将监视车号,明白，我们将监视车号,"understood, we'll monitor car number"
+\voice\watched_opponents\acknowledge_we_will_watch,1.wav,收到，我们现在开始监视,收到，我们现在开始监视,"acknowledged, we're now watching"
+\voice\watched_opponents\acknowledge_we_will_watch,2.wav,好的，我们会监视,好的，我们会监视,"OK, we'll watch"
+\voice\watched_opponents\acknowledge_we_will_watch,3.wav,明白，我们会告诉你的,明白，我们会告诉你的,"understood, we'll tell you about"
+\voice\watched_opponents\acknowledge_we_will_watch,4.wav,好的，我们会告诉你关于,好的，我们会告诉你关于,"OK, we'll tell you about"
+\voice\watched_opponents\acknowledge_we_will_watch,5.wav,收到，我们将监视,收到，我们将监视,"understood, we'll monitor"
+\voice\watched_opponents\has_just_done_a,1.wav,刚刚完成了一个,刚刚完成了一个,has just done a
+\voice\watched_opponents\has_just_done_a,2.wav,刚刚发布了一个,刚刚发布了一个,has just posted a
+\voice\watched_opponents\has_just_done_a,3.wav,刚刚完成了一个,刚刚完成了一个,has just done a
+\voice\watched_opponents\has_just_done_a,4.wav,刚刚完成了一个,刚刚完成了一个,has just done a
+\voice\watched_opponents\has_just_done_a,5.wav,刚刚发布了一个,刚刚发布了一个,has just posted a
+\voice\watched_opponents\is_in_position,1.wav,处于位置,处于位置,is in position
+\voice\watched_opponents\is_in_position,2.wav,处于位置,处于位置,is in position
+\voice\watched_opponents\is_in_position,3.wav,处于位置,处于位置,is in position
+\voice\watched_opponents\is_in_position,4.wav,处于位置,处于位置,is in position
+\voice\watched_opponents\is_in_position,5.wav,处于位置,处于位置,is in position
+\voice\watched_opponents\is_leaving_pits,1.wav,离开维修区,离开维修区,is leaving the pits
+\voice\watched_opponents\is_leaving_pits,2.wav,离开维修区,离开维修区,is leaving the pits
+\voice\watched_opponents\is_leaving_pits,3.wav,正在离开维修区,正在离开维修区,is exiting the pit
+\voice\watched_opponents\is_leaving_pits,4.wav,正在离开维修区,正在离开维修区,is exiting the pits
+\voice\watched_opponents\is_leaving_pits,5.wav,离开维修区,离开维修区,is leaving the pits
+\voice\watched_opponents\is_now_in_position,1.wav,现在处于位置,现在处于位置,is now in position
+\voice\watched_opponents\is_now_in_position,2.wav,现在处于位置,现在处于位置,is now in position
+\voice\watched_opponents\is_now_in_position,3.wav,现在处于位置,现在处于位置,is now in position
+\voice\watched_opponents\is_now_in_position,4.wav,现在处于位置,现在处于位置,is now in position
+\voice\watched_opponents\is_now_in_position,5.wav,现在处于位置,现在处于位置,is now in position
+\voice\watched_opponents\rival_has_just_done_a,1.wav,你的对手刚刚发布了,你的对手刚刚发布了,your rival has just posted a
+\voice\watched_opponents\rival_has_just_done_a,2.wav,你对手的圈速是,你对手的圈速是,you rival's lap time is a
+\voice\watched_opponents\rival_has_just_done_a,3.wav,你的对手刚刚完成了一个,你的对手刚刚完成了一个,your rival has just done a
+\voice\watched_opponents\rival_has_just_done_a,4.wav,你的对手刚刚完成了一个,你的对手刚刚完成了一个,your rival has just done a
+\voice\watched_opponents\rival_has_just_done_a,5.wav,你的对手刚刚发布了,你的对手刚刚发布了,you rival has just posted a
+\voice\watched_opponents\rival_is_leaving_pits,1.wav,你的对手正在离开维修区,你的对手正在离开维修区,your rival is leaving the pits
+\voice\watched_opponents\rival_is_leaving_pits,2.wav,你的对手正在离开维修区,你的对手正在离开维修区,your rival's leaving the pits
+\voice\watched_opponents\rival_is_leaving_pits,3.wav,你的对手正在离开维修区,你的对手正在离开维修区,your rival is exiting the pits
+\voice\watched_opponents\rival_is_leaving_pits,4.wav,你的对手正在离开维修区,你的对手正在离开维修区,your rival's exiting the pits
+\voice\watched_opponents\rival_is_leaving_pits,5.wav,你的对手正在离开维修区,你的对手正在离开维修区,your rival is leaving the pits
+\voice\watched_opponents\rival_is_now_in_position,1.wav,你的对手现在处于位置,你的对手现在处于位置,your rival is now in position
+\voice\watched_opponents\rival_is_now_in_position,2.wav,你的对手现在处于位置,你的对手现在处于位置,your rival is now in position
+\voice\watched_opponents\rival_is_now_in_position,3.wav,你的对手现在处于位置,你的对手现在处于位置,your rival is now in position
+\voice\watched_opponents\rival_is_now_in_position,4.wav,你的对手现在处于位置,你的对手现在处于位置,your rival's now in position
+\voice\watched_opponents\rival_is_now_in_position,5.wav,你的对手现在处于位置,你的对手现在处于位置,your rival's now in position
+\voice\watched_opponents\rival_pitting_from_position,1.wav,你的对手从位置进站,你的对手从位置进站,your rival is pitting from position
+\voice\watched_opponents\rival_pitting_from_position,2.wav,你的对手从位置进站,你的对手从位置进站,your rival's pitting from position
+\voice\watched_opponents\rival_pitting_from_position,3.wav,你的对手从位置进站,你的对手从位置进站,your rival is pitting from position
+\voice\watched_opponents\rival_pitting_from_position,4.wav,你的对手从位置进站,你的对手从位置进站,your rival's pitting from position
+\voice\watched_opponents\rival_pitting_from_position,5.wav,你的对手从位置进站,你的对手从位置进站,your rival is pitting from position
+\voice\watched_opponents\team_mate_has_just_done_a,1.wav,你的队友刚刚发布了,你的队友刚刚发布了,your teammate's just posted a
+\voice\watched_opponents\team_mate_has_just_done_a,2.wav,你的队友刚刚完成了一个,你的队友刚刚完成了一个,your teammate has just done a
+\voice\watched_opponents\team_mate_has_just_done_a,3.wav,你的队友刚刚完成了一个,你的队友刚刚完成了一个,your teammate's just done a
+\voice\watched_opponents\team_mate_has_just_done_a,4.wav,你的队友刚刚完成了一个,你的队友刚刚完成了一个,your teammate's just done a
+\voice\watched_opponents\team_mate_has_just_done_a,5.wav,你的队友刚刚发布了,你的队友刚刚发布了,your teammate's just posted a
+\voice\watched_opponents\team_mate_is_leaving_pits,1.wav,你的队友正在离开维修区,你的队友正在离开维修区,your teammate is leaving the pits
+\voice\watched_opponents\team_mate_is_leaving_pits,2.wav,你的队友正在离开维修区,你的队友正在离开维修区,your teammate's leaving the pits
+\voice\watched_opponents\team_mate_is_leaving_pits,3.wav,你的队友正在离开维修区,你的队友正在离开维修区,your teammate is leaving the pits
+\voice\watched_opponents\team_mate_is_leaving_pits,4.wav,你的队友正在离开维修区,你的队友正在离开维修区,your teammate's leaving the pits
+\voice\watched_opponents\team_mate_is_leaving_pits,5.wav,你的队友正在离开维修区,你的队友正在离开维修区,your teammate is leaving the pits
+\voice\watched_opponents\team_mate_is_now_in_position,1.wav,你的队友现在处于位置,你的队友现在处于位置,your teammate is now in position
+\voice\watched_opponents\team_mate_is_now_in_position,2.wav,你的队友现在处于位置,你的队友现在处于位置,your teammate is now in position
+\voice\watched_opponents\team_mate_is_now_in_position,3.wav,你的队友现在处于位置,你的队友现在处于位置,your teammate is now in position
+\voice\watched_opponents\team_mate_is_now_in_position,4.wav,你的队友现在处于位置,你的队友现在处于位置,your teammate is now in position
+\voice\watched_opponents\team_mate_is_now_in_position,5.wav,你的队友现在到位了,你的队友现在到位了,your teammate's now in position
+\voice\watched_opponents\team_mate_pitting_from_position,1.wav,你的队友从第…位进站,你的队友从第…位进站,your teammate is pitting from position
+\voice\watched_opponents\team_mate_pitting_from_position,2.wav,你的队友从第…位进站,你的队友从第…位进站,your teammate is pitting from position
+\voice\watched_opponents\team_mate_pitting_from_position,3.wav,你的队友从位置进站,你的队友从位置进站,your teammate's pitting from position
+\voice\watched_opponents\team_mate_pitting_from_position,4.wav,你的队友从位置进站,你的队友从位置进站,your teammate's pitting from position
+\voice\watched_opponents\team_mate_pitting_from_position,5.wav,你的队友从位置进站,你的队友从位置进站,your teammate's pitting from position
+\voice\watched_opponents\your_rival,1.wav,你的对手,你的对手,your rival
+\voice\watched_opponents\your_rival,2.wav,你的对手,你的对手,your rival
+\voice\watched_opponents\your_rival,3.wav,你的对手,你的对手,your rival
+\voice\watched_opponents\your_rival,4.wav,你的对手,你的对手,your rival
+\voice\watched_opponents\your_rival,5.wav,你的对手,你的对手,your rival
+\voice\watched_opponents\your_team_mate,1.wav,你的队友,你的队友,your teammate
+\voice\watched_opponents\your_team_mate,2.wav,你的队友,你的队友,your teammate
+\voice\watched_opponents\your_team_mate,3.wav,你的队友,你的队友,your teammate
+\voice\watched_opponents\your_team_mate,4.wav,你的队友,你的队友,your teammate
+\voice\watched_opponents\your_team_mate,5.wav,你的队友,你的队友,your teammate
+\voice\alarm_clock\alarms,1.wav,雾号,雾号,FOGHORN
+\voice\alarm_clock\am,1.wav,上午,上午,a.m.
+\voice\alarm_clock\am,2.wav,上午,上午,a.m.
+\voice\alarm_clock\am,3.wav,上午,上午,a.m.
+\voice\alarm_clock\notify,1.wav,我们将通知您,我们将通知您,we'll notify you at
+\voice\alarm_clock\notify,2.wav,好的，我们将会在,好的，我们将会在,"okay, we'll notify you at"
+\voice\alarm_clock\notify,3.wav,好的，我们将会在,好的，我们将会在,"all right, we'll notify you at"
+\voice\alarm_clock\notify,4.wav,已确认，将在,已确认，将在,"acknowledged, you'll be notified at"
+\voice\alarm_clock\notify,5.wav,好的，我们将会在,好的，我们将会在,"okay, we'll notify you at"
+\voice\alarm_clock\notify,6.wav,我们将通知您,我们将通知您,we'll notify you at
+\voice\alarm_clock\pm,4.wav,下午,下午,p.m.
+\voice\alarm_clock\pm,5.wav,下午,下午,p.m.
+\voice\alarm_clock\pm,6.wav,下午,下午,p.m.
+\voice\incidents\incident_points,1.wav,事故点,事故点,incident points
+\voice\incidents\incident_points,2.wav,事故点,事故点,incident points
+\voice\incidents\incident_points,3.wav,事故点,事故点,incident points
+\voice\incidents\incidents,1.wav,事故,事故,incidents
+\voice\incidents\incidents,2.wav,事故,事故,incidents
+\voice\incidents\incidents,3.wav,事故,事故,incidents
+\voice\incidents\no_incident_limit,1.wav,没有事故限制,没有事故限制,there's no incident limit
+\voice\incidents\no_incident_limit,2.wav,没有事故限制,没有事故限制,there's no incident limit
+\voice\incidents\no_incident_limit,3.wav,没有事故限制,没有事故限制,there's no incident limit
+\voice\incidents\no_incident_points_limit,1.wav,没有事故积分限制,没有事故积分限制,there's no incident points limit
+\voice\incidents\no_incident_points_limit,2.wav,没有事故积分限制,没有事故积分限制,there's no incident points limit
+\voice\incidents\no_incident_points_limit,3.wav,没有事故积分限制,没有事故积分限制,there's no incident points limit
+\voice\incidents\the_incident_limit_is,1.wav,事故限制是,事故限制是,the incident limit is
+\voice\incidents\the_incident_limit_is,2.wav,事故限制是,事故限制是,the incident limit is
+\voice\incidents\the_incident_limit_is,3.wav,事故限制是,事故限制是,the incident limit is
+\voice\incidents\the_incident_points_limit_is,1.wav,事故积分限制是,事故积分限制是,the incident points limit is
+\voice\incidents\the_incident_points_limit_is,2.wav,事故积分限制是,事故积分限制是,the incident points limit is
+\voice\incidents\the_incident_points_limit_is,3.wav,事故积分限制是,事故积分限制是,the incident points limit is
+\voice\incidents\you_have,1.wav,你有,你有,you have
+\voice\incidents\you_have,2.wav,你有,你有,you have
+\voice\incidents\you_have,3.wav,你有,你有,you have
+\voice\licence\a_licence,1.wav,一个许可证,一个许可证,A license
+\voice\licence\a_licence,2.wav,一个许可证,一个许可证,A license
+\voice\licence\a_licence,3.wav,一个许可证,一个许可证,A license
+\voice\licence\b_licence,4.wav,B级许可证,B级许可证,B license
+\voice\licence\b_licence,5.wav,B级许可证,B级许可证,B license
+\voice\licence\b_licence,6.wav,B级许可证,B级许可证,B license
+\voice\licence\c_licence,7.wav,C级驾照,C级驾照,C license
+\voice\licence\c_licence,8.wav,C级驾照,C级驾照,C license
+\voice\licence\c_licence,9.wav,C级驾照,C级驾照,C license
+\voice\licence\d_licence,10.wav,D级驾照,D级驾照,D license
+\voice\licence\d_licence,11.wav,D级驾照,D级驾照,D license
+\voice\licence\d_licence,12.wav,D级驾照,D级驾照,D license
+\voice\licence\pro_licence,13.wav,专业许可证,专业许可证,Pro license
+\voice\licence\pro_licence,14.wav,专业许可证,专业许可证,Pro license
+\voice\licence\pro_licence,15.wav,专业许可证,专业许可证,Pro license
+\voice\licence\rookie_licence,1.wav,新手执照,新手执照,Rookie license
+\voice\licence\rookie_licence,2.wav,新手执照,新手执照,Rookie license
+\voice\licence\rookie_licence,3.wav,新手执照,新手执照,Rookie license
+\voice\pearls_of_wisdom\keep_it_up,1.wav,继续保持，这里看起来不错,继续保持，这里看起来不错,"keep it up, we're looking good here"
+\voice\pearls_of_wisdom\keep_it_up,10.wav,太棒了，伙计，继续保持,太棒了，伙计，继续保持,"awesome stuff, mate, keep it coming"
+\voice\pearls_of_wisdom\keep_it_up,11.wav,很棒的驾驶，继续保持,很棒的驾驶，继续保持,"great driving, keep it up"
+\voice\pearls_of_wisdom\keep_it_up,12.wav,兄弟，太棒了,兄弟，太棒了,"loving this, mate, this is perfect"
+\voice\pearls_of_wisdom\keep_it_up,14.wav,我们喜欢这个，继续保持,我们喜欢这个，继续保持,"we like this, keep doing it"
+\voice\pearls_of_wisdom\keep_it_up,15.wav,这个不错，继续保持这样的圈速,这个不错，继续保持这样的圈速,"this is good, keep banging out them laptimes"
+\voice\pearls_of_wisdom\keep_it_up,16_male.wav,你是那个人，保持状态,你是那个人，保持状态,"you're the man, stay on it"
+\voice\pearls_of_wisdom\keep_it_up,17.wav,这太棒了，伙计，继续保持,这太棒了，伙计，继续保持,"this is excellent, mate, keep it up"
+\voice\pearls_of_wisdom\keep_it_up,19_male.wav,继续加油，伙计，这太棒了,继续加油，伙计，这太棒了,"keep it coming, man, this is great"
+\voice\pearls_of_wisdom\keep_it_up,2_op_prefix_ok.wav,继续保持，这太完美了,继续保持，这太完美了,"keep doing what you're doing, this is spot on"
+\voice\pearls_of_wisdom\keep_it_up,3.wav,很棒，继续加油，伙计,很棒，继续加油，伙计,"great stuff, keep it coming, mate"
+\voice\pearls_of_wisdom\keep_it_up,4.wav,这太棒了，继续保持,这太棒了，继续保持,"this is brilliant, keep it up"
+\voice\pearls_of_wisdom\keep_it_up,5_op_prefix_ok.wav,继续保持标记，这看起来不错,继续保持标记，这看起来不错,"just keep hitting your marks, this is looking good"
+\voice\pearls_of_wisdom\keep_it_up,6.wav,这太棒了，继续保持,这太棒了，继续保持,"this is brilliant, keep it up"
+\voice\pearls_of_wisdom\keep_it_up,7_op_prefix_well_done.wav,这太棒了，加油，继续保持这样的出弯,这太棒了，加油，继续保持这样的出弯,"this is great, come on, keep nailing those exits"
+\voice\pearls_of_wisdom\keep_it_up,8_op_prefix_well_done.wav,你表现得很棒，加油，保持专注,你表现得很棒，加油，保持专注,"you're looking really good, come on, keep your focus"
+\voice\pearls_of_wisdom\keep_it_up,9_op_prefix_well_done.wav,这太棒了，正是我们来这里的目的,这太棒了，正是我们来这里的目的,"this is terrific, exactly what we came here for"
+\voice\pearls_of_wisdom\keep_it_up,sweary_13.wav,这他妈太棒了，伙计，继续保持,这他妈太棒了，伙计，继续保持,"this is fucking great, mate, keep it coming"
+\voice\pearls_of_wisdom\keep_it_up,sweary_18.wav,干得好，伙计，这真是太棒了,干得好，伙计，这真是太棒了,"good stuff, mate, this is fucking excellent"
+\voice\pearls_of_wisdom\must_do_better,1.wav,加油，我们可以做得更好，专注于你的出弯，保持流畅,加油，我们可以做得更好，专注于你的出弯，保持流畅,"come on, we can do better than this, focus on your exits, keep it smooth"
+\voice\pearls_of_wisdom\must_do_better,10.wav,来吧，我们应该表现得更好,来吧，我们应该表现得更好,"come on, we should be doing better than this"
+\voice\pearls_of_wisdom\must_do_better,11.wav,出了什么问题，伙计，来吧，振作点,出了什么问题，伙计，来吧，振作点,"what's going on, mate, come on, get your act together"
+\voice\pearls_of_wisdom\must_do_better,12.wav,这真的不够好，来吧，开始集中注意力,这真的不够好，来吧，开始集中注意力,"this really isn't good enough, come on, start concentrating"
+\voice\pearls_of_wisdom\must_do_better,19.wav,我们现在每圈都需要排位赛速度，伙计，这里可能还有机会,我们现在每圈都需要排位赛速度，伙计，这里可能还有机会,"we need quali-pace every lap now, mate, there might still be chances here"
+\voice\pearls_of_wisdom\must_do_better,2.wav,来吧，把注意力收回来，保持流畅，专注于这些走线,来吧，把注意力收回来，保持流畅，专注于这些走线,"come on, get your head back into it, keep it smooth, focus on these lines"
+\voice\pearls_of_wisdom\must_do_better,21_male.wav,来吧，伙计，这很让人失望，这辆车有不错的速度,来吧，伙计，这很让人失望，这辆车有不错的速度,"come on, man, this is disappointing, there's decent pace in this car"
+\voice\pearls_of_wisdom\must_do_better,22_male.wav,你跑得乱七八糟了，来吧，伙计，把注意力集中起来,你跑得乱七八糟了，来吧，伙计，把注意力集中起来,"you're all over the place, come on, man, get your head back together"
+\voice\pearls_of_wisdom\must_do_better,23_male.wav,兄弟，稳才能快，我们现在需要快,兄弟，稳才能快，我们现在需要快,"come on, man, smooth is fast, and we need fast right now"
+\voice\pearls_of_wisdom\must_do_better,24_male.wav,你比这强，车也比这好，振作点，伙计,你比这强，车也比这好，振作点，伙计,"you're better than this, the car's better than this, get it together, man"
+\voice\pearls_of_wisdom\must_do_better,27.wav,现在是排位赛节奏，加油，你可以在这里挽回一些,现在是排位赛节奏，加油，你可以在这里挽回一些,"qualifying pace now, come on, you can salvage something here"
+\voice\pearls_of_wisdom\must_do_better,28.wav,来吧，不要再犯错了，集中注意力,来吧，不要再犯错了，集中注意力,"come on, no more mistakes, concentrate"
+\voice\pearls_of_wisdom\must_do_better,29.wav,每圈都要最大化，让我们尽力挽回能拿到的,每圈都要最大化，让我们尽力挽回能拿到的,"maximize every lap, let's salvage what we can"
+\voice\pearls_of_wisdom\must_do_better,3.wav,来吧，集中注意力，我们需要更快的速度，不要尝试晚刹车，只是更努力地集中,来吧，集中注意力，我们需要更快的速度，不要尝试晚刹车，只是更努力地集中,"come on, focus, we need more speed, don't try to brake later, just concentrate harder"
+\voice\pearls_of_wisdom\must_do_better,4.wav,来吧，伙计，我们现在真的需要加速了,来吧，伙计，我们现在真的需要加速了,"come on, mate, we really need to get the hammer down now"
+\voice\pearls_of_wisdom\must_do_better,5.wav,现在加速，我们需要更快的速度,现在加速，我们需要更快的速度,"push now, we need more speed"
+\voice\pearls_of_wisdom\must_do_better,6.wav,保持整洁，我们也许还能从中得到一些东西,保持整洁，我们也许还能从中得到一些东西,"keep it neat and tidy, we still might get something out of this"
+\voice\pearls_of_wisdom\must_do_better,7.wav,保持冷静，加油，比赛还没结束,保持冷静，加油，比赛还没结束,"keep it together, come on, the race isn't over yet"
+\voice\pearls_of_wisdom\must_do_better,9.wav,不要惊慌，你有时间解决这个问题,不要惊慌，你有时间解决这个问题,"don't panic, you got time to sort this out"
+\voice\pearls_of_wisdom\must_do_better,sweary_13.wav,来吧，试着更努力一点,来吧，试着更努力一点,"come on, try fucking harder"
+\voice\pearls_of_wisdom\must_do_better,sweary_14.wav,这有点糟糕了，来吧，伙计，振作点,这有点糟糕了，来吧，伙计，振作点,"this is a bit crap, come on, mate, get your act together"
+\voice\pearls_of_wisdom\must_do_better,sweary_15.wav,操，把头低下,操，把头低下,"fucking hell, get your head down"
+\voice\pearls_of_wisdom\must_do_better,sweary_16.wav,来吧，别这么差劲了，再努力一点,来吧，别这么差劲了，再努力一点,"come on, stop being so shit, try bloody harder"
+\voice\pearls_of_wisdom\must_do_better,sweary_18_male.wav,来吧，伙计，别再搞砸了,来吧，伙计，别再搞砸了,"come on, man, stop fucking it up"
+\voice\pearls_of_wisdom\must_do_better,sweary_20_male.wav,来吧，伙计，如果前面有人搞砸了，我们需要能够抓住机会,来吧，伙计，如果前面有人搞砸了，我们需要能够抓住机会,"come on, man, if somebody fucks up in front we need to be able to take advantage"
+\voice\pearls_of_wisdom\must_do_better,sweary_25.wav,来吧，别再搞砸了,来吧，别再搞砸了,"come on, stop fucking it up"
+\voice\pearls_of_wisdom\must_do_better,sweary_26.wav,这有点糟糕，加油，让它好一点,这有点糟糕，加油，让它好一点,"this is a bit shit, come on, make it less shit"
+\voice\pearls_of_wisdom\must_do_better,sweary_8.wav,来吧，伙计，加油，我们可以做得更好,来吧，伙计，加油，我们可以做得更好,"come on, mate, get your ass in gear, we can do better than this"
+\voice\pearls_of_wisdom\neutral,10.wav,专注于出口，我们可以在这里加速,专注于出口，我们可以在这里加速,"focus on the exits, we can go faster here"
+\voice\pearls_of_wisdom\neutral,11_op_prefix_ok.wav,这里会有机会，确保我们可以抓住它们,这里会有机会，确保我们可以抓住它们,"there'll be chances here, let's make sure we can take them"
+\voice\pearls_of_wisdom\neutral,12_op_prefix_ok.wav,不要想着圈速，只要过好每一个弯心,不要想着圈速，只要过好每一个弯心,"don't think about the lap times, just hit each and every apex"
+\voice\pearls_of_wisdom\neutral,13.wav,来吧，继续努力,来吧，继续努力,"come on, keep digging"
+\voice\pearls_of_wisdom\neutral,14.wav,继续挖掘,继续挖掘,keep digging
+\voice\pearls_of_wisdom\neutral,15.wav,坚持下去，继续挖掘,坚持下去，继续挖掘,"stay on it, keep digging"
+\voice\pearls_of_wisdom\neutral,16_male.wav,来吧，伙计，继续加油,来吧，伙计，继续加油,"come on, man, keep pushing"
+\voice\pearls_of_wisdom\neutral,17.wav,把握每一个弯道，让我们抓住一切可能的机会,把握每一个弯道，让我们抓住一切可能的机会,"nail every corner, let's take whatever chances we can"
+\voice\pearls_of_wisdom\neutral,18.wav,保持冷静，平稳驾驶,保持冷静，平稳驾驶,"stay calm, keep it smooth"
+\voice\pearls_of_wisdom\neutral,19.wav,来吧，抬头，把注意力集中在更远的赛道上,来吧，抬头，把注意力集中在更远的赛道上,"come on, head up, keep your focus further down the track"
+\voice\pearls_of_wisdom\neutral,1_op_prefix_ok.wav,来吧，保持专注，弯心和出口，弯心和出口,来吧，保持专注，弯心和出口，弯心和出口,"come on, stay focused, apexes and exits, apexes and exits"
+\voice\pearls_of_wisdom\neutral,2.wav,这里看起来不错，保持集中，平稳驾驶,这里看起来不错，保持集中，平稳驾驶,"we're looking all right here, keep your concentration, nice and smooth"
+\voice\pearls_of_wisdom\neutral,20.wav,平稳驾驶，不要过度操控行车,平稳驾驶，不要过度操控行车,"nice and smooth, don't overdrive the car"
+\voice\pearls_of_wisdom\neutral,21.wav,抓住所有最佳入弯点，等待机会来临，伙计,抓住所有最佳入弯点，等待机会来临，伙计,"hit all your apexes, wait for the chances to come, mate"
+\voice\pearls_of_wisdom\neutral,22.wav,用油门保持平稳，保持平衡,用油门保持平稳，保持平衡,"nice and smooth with that throttle, keep it balanced"
+\voice\pearls_of_wisdom\neutral,3.wav,这个没问题，保持那些出口速度,这个没问题，保持那些出口速度,"this is okay, keep those exit speeds up"
+\voice\pearls_of_wisdom\neutral,4.wav,保持专注，我们仍然有机会,保持专注，我们仍然有机会,"stay focused, we're still in this"
+\voice\pearls_of_wisdom\neutral,5.wav,坚持住，这还没完,坚持住，这还没完,"stay on it, this isn't over yet"
+\voice\pearls_of_wisdom\neutral,6.wav,继续努力，这还没完,继续努力，这还没完,"keep digging, this isn't over yet"
+\voice\pearls_of_wisdom\neutral,7_op_prefix_ok.wav,保持流畅，来吧，让比赛来找我们,保持流畅，来吧，让比赛来找我们,"keep it nice and smooth, come on, let the race come to us"
+\voice\pearls_of_wisdom\neutral,8.wav,来吧，让我们好好利用这辛苦的努力,来吧，让我们好好利用这辛苦的努力,"come on, let's put this hard work to good use"
+\voice\pearls_of_wisdom\neutral,9_op_prefix_ok.wav,放松，集中注意力，保持流畅,放松，集中注意力，保持流畅,"relax, focus, keep it smooth"
+\voice\rants\general,10.wav,这对士气真的不好，我们在这里已经拼尽全力了，这样做还不如不干。听着，我们需要坐下来好好谈谈，等你回到维修区的时候,这对士气真的不好，我们在这里已经拼尽全力了，这样做还不如不干。听着，我们需要坐下来好好谈谈，等你回到维修区的时候,"this really isn't good for morale, we've been busting our asses here, we might as well not have bothered. Look, we need to sit down, and talk properly when you get back to the pits"
+\voice\rants\general,11.wav,这周末真是糟糕。我们需要把所有东西打包，离开这里，下次从头开始，找出出了什么问题。我们必须变得更好,这周末真是糟糕。我们需要把所有东西打包，离开这里，下次从头开始，找出出了什么问题。我们必须变得更好,"it's been one of them weekends. We need to just pack everything up, get away from here, start out fresh next time, work out what went wrong. We've gotta get better"
+\voice\rants\general,12.wav,好的，我们走了。你自己收拾这些东西吧，我们都受够了，伙计,好的，我们走了。你自己收拾这些东西吧，我们都受够了，伙计,"right, we're out of here. You can pack all this shit up yourself, we've all had enough, mate"
+\voice\rants\general,13.wav,说实话，哥们儿，这是最后一个周末我们看你这么开车了。如果再不改进，我自己去买一辆该死的比赛用车,说实话，哥们儿，这是最后一个周末我们看你这么开车了。如果再不改进，我自己去买一辆该死的比赛用车,"honestly mate, this is the last weekend we're gonna watch you drive like that. If it doesn't improve, I will buy my own fucking race car"
+\voice\rants\general,14_male.wav,你今天一直一团糟，伙计，简直是垃圾秀。我们都坐在这里想搞清楚为什么要这么做,你今天一直一团糟，伙计，简直是垃圾秀。我们都坐在这里想搞清楚为什么要这么做,"you've been a shambles all day, man, total shit show. We're all sat here wondering why we bothered"
+\voice\rants\general,15_male.wav,整个周末，就是没用，没用。真是烦透了看到这个，伙计，我们都看腻了。这简直就是浪费我们的时间,整个周末，就是没用，没用。真是烦透了看到这个，伙计，我们都看腻了。这简直就是浪费我们的时间,"all weekend, just useless, useless. Fucking tired of seeing this, man, we're all tired of seeing it. It's like, it's like just wasting our time"
+\voice\rants\general,16_male.wav,操蛋的一周，老兄，噩梦。我们会整理一下然后离开，之后再试着弄清楚刚刚发生了什么,操蛋的一周，老兄，噩梦。我们会整理一下然后离开，之后再试着弄清楚刚刚发生了什么,"fucking nightmare weekend, man, nightmare. We'll clear up and clear out, then we'll try and work out what the hell's just happened"
+\voice\rants\general,17.wav,TRANSLATION_FAILED,TRANSLATION_FAILED,Dick
+\voice\rants\general,18.wav,他妈的没用,他妈的没用,fucking useless
+\voice\rants\general,19.wav,我开过比那更好的车,我开过比那更好的车,I've shat better drives than that
+\voice\rants\general,1_male.wav,我们整晚都在准备这辆车，这就是你最好的表现？我们不会浪费周末来看你搞砸一切的，振作点，伙计,我们整晚都在准备这辆车，这就是你最好的表现？我们不会浪费周末来看你搞砸一切的，振作点，伙计,"we were up all night prepping this fucking car, and this is the best you can do? We're not pissing our weekends away to watch you fuck it all up, get your head out of your ass, man"
+\voice\rants\general,2.wav,我们都在拼命工作，你得开始拿出表现了。赛车很快也很稳定，你必须把状态调整好,我们都在拼命工作，你得开始拿出表现了。赛车很快也很稳定，你必须把状态调整好,"we're all working our asses off here, you got to start delivering. The car's quick and it's solid, and you've got to get your shit together"
+\voice\rants\general,20.wav,远离工作人员，他们准备把你胳膊拽下来,远离工作人员，他们准备把你胳膊拽下来,"stay away from the crew, they're ready to pull your arms off"
+\voice\rants\general,21.wav,我不想再和你一起工作了。滚开,我不想再和你一起工作了。滚开,I don't wanna work with you anymore. Fuck off
+\voice\rants\general,22.wav,你简直就是无可救药，完全他妈的无可救药,你简直就是无可救药，完全他妈的无可救药,"You're just hopeless, just absolutely fucking hopeless"
+\voice\rants\general,23.wav,好的，把它带回来。如果你认为可以在不搞砸的情况下回到维修区,好的，把它带回来。如果你认为可以在不搞砸的情况下回到维修区,"Right, bring it back. If you think can get back to the pits without fucking that up"
+\voice\rants\general,24.wav,说实话，我从屁股里都能挤出更好的表现,说实话，我从屁股里都能挤出更好的表现,"Honestly, I've seen better performances fall out of my arse"
+\voice\rants\general,25.wav,糟糕透了,糟糕透了,Absolutely bloody terrible
+\voice\rants\general,26.wav,那他妈的是什么？你就是个垃圾,那他妈的是什么？你就是个垃圾,The fuck was all that? You're just fucking shit
+\voice\rants\general,27.wav,那真是…垃圾,那真是…垃圾,That was... shit
+\voice\rants\general,28.wav,你这个白痴,你这个白痴,You fucking berk
+\voice\rants\general,29.wav,我演得比那更好,我演得比那更好,I've shat better performances than that
+\voice\rants\general,3.wav,好的，就这样吧，又一个周末就这么浪费了。你可能觉得把钱扔掉也无所谓，只是凑个数而已，但我们有一辆强劲的赛车和一支有竞争力的车队，我们希望为我们的辛勤工作取得一些成果,好的，就这样吧，又一个周末就这么浪费了。你可能觉得把钱扔掉也无所谓，只是凑个数而已，但我们有一辆强劲的赛车和一支有竞争力的车队，我们希望为我们的辛勤工作取得一些成果,"great, well, there we are, another weekend down the toilet. You might be content to throw your money away, just making up the numbers, but we've got a strong car and a competitive crew here, and we want some results for our hard work"
+\voice\rants\general,30.wav,我觉得你开得糟透了，希望你自己也为此感到自豪,我觉得你开得糟透了，希望你自己也为此感到自豪,"I think that's the worst you've ever driven, I hope you're proud of yourself"
+\voice\rants\general,4_male.wav,好吧，你通宵喝酒狂欢，我们却在忙着修车，现在你醉醺醺地把一切都搞砸了，真是太好了，干得漂亮，伙计,好吧，你通宵喝酒狂欢，我们却在忙着修车，现在你醉醺醺地把一切都搞砸了，真是太好了，干得漂亮，伙计,"well that went well, we're all properly thrilled that you stayed up half the night getting hammered while we worked on the car, just so we could watch you screw it all up in a hungover haze, well done, man"
+\voice\rants\general,5.wav,这个，这还不够好，差得远呢。我开始怀疑我们为什么还要在这里坚持。有家伙们用不到我们一半的预算和几乎不能工作的车子都比我们快得多结束了比赛。你是薄弱环节。除非你改进，否则结果不会变好,这个，这还不够好，差得远呢。我开始怀疑我们为什么还要在这里坚持。有家伙们用不到我们一半的预算和几乎不能工作的车子都比我们快得多结束了比赛。你是薄弱环节。除非你改进，否则结果不会变好,"right this, this isn't good enough, not by a long shot. I'm starting to wonder why we're bothering here. There's guys finishing way ahead of us who've got half the budget and cars that barely work. You're the weak link. The results are not gonna improve unless you do"
+\voice\rants\general,6.wav,这太尴尬了。你只有一个任务要完成，一个任务。在后面手忙脚乱可能让你觉得好笑，但我们对这个已经厌倦透了。我们周末可以做更有意义的事情,这太尴尬了。你只有一个任务要完成，一个任务。在后面手忙脚乱可能让你觉得好笑，但我们对这个已经厌倦透了。我们周末可以做更有意义的事情,"this is embarrassing. You've got one job to do, one job. Fumbling around at the back might be a laugh for you, but we are absolutely sick of it. We've got better things we could be doing with our weekends"
+\voice\rants\general,7.wav,操，完全没用。好车，好队，垃圾车手。别玩赛车了，认真点努力一下,操，完全没用。好车，好队，垃圾车手。别玩赛车了，认真点努力一下,"fucking useless, just fucking useless. Good car, good team, shit driver. Stop playing racing car and actually make a fucking effort"
+\voice\rants\general,8_male.wav,回到维修区后离车队远点。他们都很生气，我也一样。我说，这真是糟糕透了，简直是浪费了一个周末,回到维修区后离车队远点。他们都很生气，我也一样。我说，这真是糟糕透了，简直是浪费了一个周末,"stay away from the crew when you get back to the pits. They're all really fucking pissed off. I am, too. I mean, it was shit man, really shit, waste of a weekend"
+\voice\rants\general,9.wav,什么，刚刚发生了什么？你怎么搞砸得这么惨？,什么，刚刚发生了什么？你怎么搞砸得这么惨？,"what, what the fuck just happened? How'd you manage to fuck it up so badly"

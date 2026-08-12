@@ -1,0 +1,492 @@
+original_english,corrected_chinese
+# 波次 1 的人工修正。按 original_english 索引，重新翻译后依然生效。
+# scripts/fix_translation.py 应用；数字归一化由脚本负责，这里只写语义和语气。
+#
+# 片段（原文不成句的）译法要能拼接：CrewChief 会把 "we think" + 车手名 + "has gone off in" + 弯角名
+# 拼成一句，所以中文也必须留出接口，不能各自成句。
+#
+# ===== flags：反义错，最危险的一类 =====
+safety car in at end of next lap,安全车下一圈结束进站
+safety car in at the end of the next lap,安全车下一圈结束进站
+safety car in this lap,安全车这圈进站
+P3 has gone off,第三名冲出赛道
+looks like P2's off,看来第二名冲出去了
+have gone off,冲出赛道了
+have gone off in,冲出赛道了，在
+has stacked it,撞车了
+has stacked it in,撞车了，在
+have stacked it,撞车了
+have binned it,撞车了
+have binned it in,撞车了，在
+has binned it,撞车了
+has binned it in,撞车了，在
+"double yellows, watch out",双黄旗，注意
+"we got double yellows, double yellows",双黄旗，双黄旗
+rare will resume at the end of the next lap,比赛将在下一圈结束后恢复
+#
+# ===== flags：打转 / 撞车的说法 =====
+has spun off,打转冲出去了
+have spun off,打转冲出去了
+have spun off in,打转冲出去了，在
+have spun out,打转了
+has crashed in,撞车了，在
+there's a big mess in,一堆车撞在一起，在
+there's a big pileup in,连环追尾，在
+we think P2's binned it,第二名好像撞车了
+we think P2's binned it in,第二名好像撞车了，在
+we think P3's binned it,第三名好像撞车了
+we think P4's binned it,第四名好像撞车了
+we think P2's gone off in,第二名冲出赛道了，在
+we think P3's gone off in,第三名冲出赛道了，在
+looks like P2's gone off in,看来第二名冲出去了，在
+looks like P3's gone off in,看来第三名冲出去了，在
+looks like the leader's binned it,看来领跑的撞车了
+looks like the leader's binned it in,看来领跑的撞车了，在
+looks like P5's binned it,看来第五名撞车了
+looks like P6 has binned it,看来第六名撞车了
+looks like P4 has binned it in,看来第四名撞车了，在
+#
+# ===== flags：sector 统一成「第N分段」 =====
+sector 1 is clear,第一分段安全
+sector 1 is yellow,第一分段黄旗
+sector 2 is yellow,第二分段黄旗
+sector 3 is yellow,第三分段黄旗
+"incident in sector 1, sector 1 is yellow",第一分段有事故，第一分段黄旗
+"incident in sector 2, sector 2 is yellow",第二分段有事故，第二分段黄旗
+"incident in sector 3, sector 3 is yellow",第三分段有事故，第三分段黄旗
+green flag sector 2,绿旗，第二分段
+green flag sector 3,绿旗，第三分段
+yellow flag in sector 1,第一分段黄旗
+yellow flag in sector 2,第二分段黄旗
+yellow flag in sector 3,第三分段黄旗
+#
+# ===== flags：caution 是黄旗期间，不是「谨慎状态」 =====
+"full course yellow, we're under caution",全场黄旗，黄旗期间
+"safety car out, we're under caution",安全车出动，黄旗期间
+"we're under caution, full course yellow",黄旗期间，全场黄旗
+"we're under caution, pits are closed",黄旗期间，维修区关闭
+"we're under caution, pits closed",黄旗期间，维修区关闭
+"we're under caution, pits are open to lead lap cars",黄旗期间，只有领先圈的车能进站
+#
+# ===== flags：stay high 统一「保持外侧」 =====
+"stay high in turn 3, we've got a slow car",三号弯保持外侧，前面有慢车
+#
+# ===== flags：语气，工程师不说书面语 =====
+"okay, all sorted",好了，都清了
+give this place back,把位置让回去
+we need to give this place back,得把位置让回去
+we still need to give back,还得让回
+we still need to give one place back,还得让回一个位置
+we still need to give up,还得让位
+we need to give up one more position,还得再让一个位置
+we need to let this guy through,让他过去
+stay behind,跟在后面
+we can see,我们看到
+two to green,还有两圈发车
+two more to green,还有两圈发车
+we're going green next time by,下次经过就发车
+we can overtake this guy,可以超他了
+it looks like,看起来
+it looks like it's,看起来是
+we think it might be,可能是
+places or we'll get a penalty,个位置，否则要吃罚
+positions or we'll be penalized,个位置，否则要吃罚
+"positions, or we'll be black flagged",个位置，否则要吃黑旗
+"yellow flag, keep your wits about you, mate",黄旗，打起精神，老兄
+"black flag, we're being shown the black flag",黑旗，我们被出示黑旗了
+we're shown the black flag,我们被出示黑旗了
+#
+# ===== acknowledge：进站策略的语序 =====
+pit strategy 1 selected,已选择一号进站策略
+pit strategy 2 selected,已选择二号进站策略
+pit strategy 3 selected,已选择三号进站策略
+pit strategy 4 selected,已选择四号进站策略
+"yeah, nailed that fucker",干得漂亮
+#
+# ===== 脏话：保留原味 =====
+# 这 46 条的文件名都带 sweary 标记，SoundSet.initialise() 按 use_sweary_messages 过滤
+# （Audio/Sounds.cs:1503），关了开关的人根本听不到，所以照原文的力度译。
+# 不在此列：acknowledge/3.wav 的 "shut the hell up" 和 lap_counter/2.wav 的 "bloody awful"
+# 文件名不带 sweary，对所有人都播，保持温和。
+"ah, bollocks, see if you can get him back",妈的，看看能不能超回来
+"bollocks start mate, get your head down, fix it",起步稀烂，老兄，沉住气，补回来
+"come on, just fucking send it",上啊，给我他妈冲进去
+"come on, mate, go fucking faster",快啊老兄，他妈的再快点
+"come on, nail this fucker",上，干掉这孙子
+"come on, push like a bastard, we'll get this guy",拼命推，这家伙我们吃得下
+"come on, stick with the bastard",咬住这孙子
+"come on, stop fannying about, fucking pass him",别磨蹭了，他妈的超过去
+"come on, we can have this bastard",上，这孙子我们拿得下
+"crap start, but we got time to sort this out",起步稀烂，但还有时间捞回来
+"crap start, mate, but we need you to recover something here",起步稀烂，老兄，得在这儿捞回点东西
+"don't be intimidated by this little shit, make him work for it",别被这小兔崽子唬住，让他自己拼去
+"fan-fucking-tastic, now keep pushing",他妈的漂亮，继续推
+"fucking awesome move, mate",这一下他妈的漂亮，老兄
+"fucking awesome result, mate, well done",这成绩他妈的漂亮，老兄，干得好
+"fucking bollocks start, mate, it's damage limitation from here",起步稀烂透了，老兄，接下来只能少赔点
+"fucking come on, you nailed him",漂亮，你他妈把他干掉了
+"fucking excellent pass, nice one, mate",这超车他妈的漂亮，老兄
+"fucking excellent start, well done",起步他妈的漂亮，干得好
+"fucking great pass, mate, well done",超得他妈的漂亮，老兄，干得好
+"fucking hell, defend these positions",我操，守住位置
+"fucking hell, nightmare start mate, damage limitation from here",我操，起步噩梦，老兄，接下来只能少赔点
+"good pass, mate, fucking awesome",超得漂亮，老兄，他妈的爽
+"good pass, mate, that was fucking brilliant",超得漂亮，老兄，那一下他妈的精彩
+"here we go, don't fuck this up",来了，别他妈搞砸
+"ignore that fucker in the mirror, stick to your line, nail those exits",别管后视镜里那孙子，走你的线，出弯给我咬死
+"keep your concentration, make the bastard work for it",专注点，让这孙子自己去拼
+"last lap, keep your shit together, you're not home yet",最后一圈，给我稳住，还没到家
+"let's get this right, no fuck ups",这次做对，别他妈出岔子
+"pass the bastard, come on, do it now",超掉这孙子，就现在
+"shit result, mate, hard luck",成绩稀烂，老兄，运气不好
+"shit start, but don't panic, we can salvage this",起步稀烂，别慌，还能救
+"shit start, come on, sort it out",起步稀烂，上，给我理顺
+"shit start, mate, we got a lot of work to do here",起步稀烂，老兄，有的忙了
+"shit, we won, wow",我操，我们赢了
+"shite, stay close, you might get him back",妈的，咬住，还有机会超回来
+"shitty start, but don't panic, there's time to recover",起步稀烂，别慌，还有时间追
+that was a fucking waste of time,这他妈纯属浪费时间
+"that's disappointing, but shit happens, keep pushing",可惜，但破事总会有，继续推
+"there's the checkered flag, shit day, mate, let's just pack up and go home",方格旗了，稀烂的一天，老兄，收拾收拾回家吧
+"this bastard's holding you up, you've gotta find a way past",这孙子挡着你，得想办法过去
+"this fucker's trying to distract you, don't let him",这孙子想干扰你，别让他得逞
+"yeah, nailed that fucker",爽，干掉那孙子了
+"you fucked up the start, now come on, don't fuck up the race",起步你他妈搞砸了，别把整场也搞砸
+"you need to pass this twat, you're losing too much time",得超掉这傻逼，时间丢太多了
+"your lap times have gone to crap, come on, sort it out",圈速烂掉了，上，给我理顺
+#
+# ===== mate 统一成「老兄」 =====
+"double yellow flag, keep an eye out, mate",双黄旗，注意看，老兄
+"white flag, mate",白旗，老兄
+#
+# ===== position：名次量词统一「第N名」 =====
+# 模型在「名/位/什么都不加」之间随机摇摆，同一场比赛里听到两种说法很跳戏。
+P28,第二十八名
+P35,第三十五名
+P36,第三十六名
+P39,第三十九名
+P41,第四十一名
+P45,第四十五名
+P47,第四十七名
+P53,第五十三名
+P56,第五十六名
+21st,第二十一名
+7th position,第七名
+#
+# ===== position：语义错 =====
+# "that's last" 是名次垫底，被译成了圈数
+that's last,垫底
+you're last,你垫底
+you're running last,你跑在最后一名
+# 拼接片段：CrewChief 播 [你] [三] [laps ahead]，中文量词必须跟在数字后面
+laps ahead,圈领先
+laps in front,圈领先
+laps behind,圈落后
+"come on, more gas, less brake",多给油，少踩刹车
+"come on, mate, don't spend all day bringing up the rear",老兄，别一整天都待在队尾
+"have it, nice one",拿下了，漂亮
+we were expecting to finish in the top,我们本来预计能进前
+#
+# ===== position：繁体字 =====
+our original target was P,我们原本的目标是第
+our original target was to finish in the top,我们原本的目标是完赛进前
+#
+# ===== position：结尾成分被吞 =====
+"good start, mate",起步不错，老兄
+"good start, mate, nice one",起步不错，漂亮，老兄
+#
+# ===== position：译文残留 P =====
+our target today to finish around P,今天的目标是完赛在第
+"there's some good drivers out there, our target is to finish around P",对手里有几个好手，我们的目标是第
+"we expect to do well here, our target is to finish around P",这里我们该跑得不错，目标是完赛在第
+"we might struggle today, a decent finish will be around P",今天可能会吃力，跑到第
+we're in P,我们在第
+we're currently P,我们目前第
+we're running in P,我们跑在第
+our target was to finish around P,我们的目标是完赛在第
+#
+# ===== position：语气 =====
+"decent start, we can build something from here",起步不错，能往上走
+"your start's okay, we can build something from this",起跑没问题，能往上走
+"bad start, mate, let's get to work",起跑不好，老兄，开始干活
+"that's the stuff, we'll have some more of that",就是这样，再来几次
+you're in pole,你拿到杆位
+"well done, fella'",干得好，老兄
+"good pass, eyes front",超得漂亮，注意前面
+good pass,超得漂亮
+"good pass, well done",超得漂亮，干得好
+"well done, good pass",干得好，超得漂亮
+"good pass, now keep pushing",超得漂亮，继续推
+nice pass,超得漂亮
+"sweet pass, mate",超得漂亮，老兄
+"come on, sort yourself out, this is hopeless",上啊，调整过来，这样下去没戏
+"let's see what we can salvage from this, mate",看看还能捞回多少，老兄
+"okay, bit of a mountain to climb now, but let's get started",好了，前面是座山，但开干吧
+#
+# ===== lap_times：归一化规则救不了的 =====
+sector 3 is a tenth off the pace,第三分段比最快慢零点一秒
+off your best,比个人最佳慢
+off the leader's pace,比领跑的慢
+"good lap, that's your best in the session",这圈不错，是你这节最快的
+"good lap, that's your quickest so far",这圈不错，是你目前最快的
+"good lap, that's your quickest today",这圈不错，是你今天最快的
+good lap,这圈不错
+nice lap,这圈漂亮
+"decent lap, but you can go quicker",这圈还行，但还能再快
+"good consistency, keep 'em coming",稳定性不错，保持住
+it's not good at the moment,目前不理想
+"just one more tenth, that's all we need",再快零点一秒就够了
+all 3 sectors are,三个分段都
+all 3 sectors are pretty quick,三个分段都挺快
+all 3 sectors are the quickest,三个分段都是全场最快
+fastest lap,最快圈
+#
+# ===== timings：反义错 =====
+# reeling in 是「追近」，被译成了「套圈」（那是 lapping），意思差一个量级
+"is reeling you in, the gap's now",在追近你，差距现在
+you're reeling,你在追近
+"you're reeling this car in, the gap's now",你在追近前车，差距现在
+"you're reeling this guy in, the gap's now",你在追近他，差距现在
+"the car behind is reeling you in, the gap is now",后车在追近你，差距现在
+"the guy behind's reeling you in, the gap's now",后面那位在追近你，差距现在
+# send it 是「冲进去」，不是发车
+"come on, just send it",上啊，冲进去
+"come on, man, send it already",上啊，别犹豫了，冲
+"you're just gonna have to send it, mate",只能硬上了，老兄
+# 片段 "in <弯角>, the gap is"：in 是「在」，不是进站
+"in, the gap is",在，差距是
+"in, the gap is now",在，差距现在是
+# 原文 typo（use = us），机翻把 use 当动词译了
+they're faster than use through,他们过弯比我们快，在
+#
+# ===== timings：gap 在这里是空档不是时间差 =====
+"keep searching, you'll find a gap",继续找，会有空档的
+"come on, find a gap",上啊，找个空档
+"use all the track, force him to find the gap",把赛道用满，逼他自己找路
+"use all the track, force them to find the gap",把赛道用满，逼他们自己找路
+#
+# ===== timings：比喻直译 =====
+let's see how wide you can make this thing,把车身横过来，别给他路
+"we're wasting a lot of time here, get your elbows out and force the pass",这儿丢太多时间了，强硬点，超过去
+"you're wasting time behind this guy, get your elbows out and get around him",跟在他后面净丢时间，强硬点绕过去
+"hold your nerve, make them do the work",沉住气，让他们去拼
+"make him do all the work, focus on your exits",让他去拼，你守好出弯
+"come on, nail him already",上啊，把他干掉
+#
+# ===== timings：口语化 =====
+bad rep,名声不好
+bad reputation,名声不好
+poor reputation,名声不好
+sketchy,不太靠谱
+accident prone,爱出事故
+really accident prone,特别爱出事故
+not the cleanest racer,开得不太干净
+seconds,秒
+the gap to,差距，与
+"you're pulling away from the guy behind, the gap's now",你在拉开和后车的差距，现在
+"okay, mate, watch for a mistake",老兄，盯着他出错
+"just ignore him, he'll go away",别理他，他自己会退
+"time to get defensive, mate",该防守了，老兄
+"stay close, wait for him to crack",咬住，等他崩
+#
+# ===== timings：入弯/过弯片段，弯角名接在后面 =====
+he's slow into,他入弯慢，在
+he's slow through,他过弯慢，在
+he's pretty slow into,他入弯挺慢，在
+he's pretty slow through,他过弯挺慢，在
+he's faster than you entering,他入弯比你快，在
+he's faster than you into,他入弯比你快，在
+he's faster than you through,他过弯比你快，在
+he's quicker than us in,他比我们快，在
+he's quicker than us through,他过弯比我们快，在
+he's quicker than you into,他入弯比你快，在
+he's slower than us into,他入弯比我们慢，在
+he's slower than us through,他过弯比我们慢，在
+they're slow into,他们入弯慢，在
+they're slow through,他们过弯慢，在
+they're pretty slow into,他们入弯挺慢，在
+they're pretty slow through,他们过弯挺慢，在
+they're faster than us in,他们比我们快，在
+they're faster than us into,他们入弯比我们快，在
+they're quicker than us entering,他们入弯比我们快，在
+they're quicker than us through,他们过弯比我们快，在
+they're quicker than you entering,他们入弯比你快，在
+they're slower than us into,他们入弯比我们慢，在
+they're slower than us through,他们过弯比我们慢，在
+#
+# ===== acknowledge：spotter 相关的语义错 =====
+# cut 是切赛道，不是超车
+"okay, I'll give cut warnings",好的，我会提醒切角
+"okay, we'll give cut-track warnings",好的，我们会提醒切角
+"understood, we'll warn about track limits",明白，我们会提醒赛道界限
+I am your spotter,我是你的观察员
+I'm your eye in the sky,我就是你的眼睛
+I'll spot for ya,我来给你盯着
+I'm spotting,我盯着呢
+spottin',盯着呢
+"spotter, out",观察员下线
+this spotter has left the building,这个观察员下班了
+this spotter is available,这个观察员在线
+you've got a spotter,你有观察员了
+"okay, I'll get you",好的，我盯着你
+hold on,稍等
+"all right, peace",行，回见
+"understood, I'll keep you informed",明白，我会随时告诉你
+"acknowledged, I'll keep you up to date",收到，我会随时告诉你
+"acknowledged, we'll report on yellows",收到，我们会报黄旗
+"acknowledged, no more deltas",收到，不再报时间差
+"okay, no more deltas",好的，不再报时间差
+"copy that, no more time deltas",收到，不再报时间差
+"acknowledged, time deltas every lap",收到，每圈报时间差
+"okay, I'll read out those gaps",好的，我来报差距
+"okay, I'll tell you the gaps",好的，我来报差距
+#
+# ===== acknowledge：Clare 是观察员的名字，统一音译 =====
+"acknowledged, no more spot calls, please, Clare",收到，不再报点了，克莱
+"okay, no more spot calls, Clare",好的，不再报点了，克莱
+"okay, no more spotter calls, please, Clare",好的，不再报点了，克莱
+"okay, spotter calls, please, Clare",好的，开始报点，克莱
+"acknowledged, we'll have spotter calls from here, please, Clare",收到，从这里开始报点，克莱
+"okay, make those calls, please, Clare",好的，开始报点，克莱
+#
+# ===== acknowledge：梗和俚语 =====
+"hasta la vista, baby",后会有期，宝贝
+"let's kick the tyres and light the fires, baby",踢踢轮胎点上火，走起
+time to nut up or shut up,是骡子是马拉出来遛遛
+"I came to do two things: chew gum and, and I'm out of gum, so, I guess I'll spot you",我来就干两件事，嚼口香糖和帮你盯着，口香糖没了，那就只能帮你盯着了
+"I got popcorn and a great view, we're all set",爆米花备好了，视野也好，齐活
+"wait, you want me to spot? It's your funeral",等等，你要我盯？那你自己看着办
+"if you wreck, it's on you",撞了算你的
+"if you don't need me for a while, I've got an ice cream craving",要是暂时用不上我，我去吃个冰淇淋
+"what else do you want from me, jeez, I'll stop calling",还要我怎样，天啊，我不说了
+"well, fine, if you think you can do it better",行吧，你觉得你自己更行那就来
+are you not entertained?,这还不够精彩吗
+"okay, I'll be taking a nap if you need me",好的，需要我就喊，我先眯一会
+"okay, good luck, have fun on your own",好的，祝你好运，自己玩得开心
+#
+# ===== acknowledge：语气 =====
+acknowledged,收到
+understood,明白
+pardon,再说一遍
+say again,再说一遍
+"repeat, please",请重复
+I didn't catch that,没听清
+didn't understand that,没听懂
+"sorry, mate, I didn't catch that",抱歉老兄，没听清
+"can't hear you, mate",听不到你，老兄
+"ah, no, I just can't hear you",不行，我听不到你
+"speak more clearly, I can't hear you",说清楚点，听不到你
+"you're breaking up, say again please",信号断断续续，再说一遍
+now you're breaking up,你信号断了
+just a minute,稍等
+standby,待命
+"okay, standby",好的，待命
+yea,嗯
+yes,是
+no,不
+"yes, man",行，老兄
+Will do!,没问题
+Let's do this!,开干
+let's do this,开干
+"okay, let's go win this thing",好，咱们去赢下来
+you can do it,你可以的
+"all right, then let's go",行，那就走
+"well, fine then",行吧
+"all right, here we go, this should be fun",行，开始了，有意思了
+"let's get it on, I'm in the mood to race, yes, yes, yes",来吧，我正想比赛，来来来
+"yeah, it's looking good today",嗯，今天看着不错
+I'll see you after the race,比赛结束见
+"all right, you're on your own",行，你自己来
+"you're on your own, buddy, no spotter calls",你自己来，兄弟，不报点了
+#
+# ===== lap_counter：起跑指令 =====
+# go 是发车口令，"去" 喊不出口
+go,走
+"go, go, go",走，走，走
+"go, nail it",走，全力上
+let's go,走
+"green, let's go, let's go",绿灯，走，走
+floor it,地板油
+"floor it, green, green, green",地板油，绿灯，绿灯，绿灯
+"be ready, we're about to go green",准备，马上就要发车了
+"heads up, we're going green",注意，马上发车
+#
+# ===== lap_counter：拼接片段（前面接数字） =====
+"laps, let's make 'em count",圈，圈圈都要算数
+"laps, let's make them count",圈，圈圈都要算数
+"laps, make 'em count",圈，每圈都要算
+until the start line,直到发车线
+until we cross the line,直到我们过线
+form up behind,排到后面，跟着
+line up behind,排到后面，跟着
+hold position behind,保持位置，跟在
+take position behind,排到后面，跟在
+hold your position behind,守住位置，跟在
+#
+# ===== lap_counter：语气 =====
+"great drive, that's a podium",开得漂亮，上领奖台了
+there's the checkered flag,方格旗了
+that's the end of the session,这节结束了
+the leader has gone,领跑的走了
+the leader's gone,领跑的走了
+the leader's accelerating,领跑的加速了
+the leader's floored it,领跑的地板油了
+the leaders are under green,领跑的已经发车
+"nice and neat, stay out of trouble",干净利落，别惹麻烦
+"get ready, keep your nose clean",准备，别出事
+"last lap, bring it on home",最后一圈，稳稳带回来
+"two to go, come on, you're the man",还剩两圈，上，你行的
+"understood, manual formation lap",明白，手动暖胎圈
+"well done, mate, you made 'em all look silly today",干得好老兄，今天把他们全比下去了
+"that's the end of the race, we'll get 'em next time",比赛结束，下次再收拾他们
+you'll need to wait for the field and rejoin at the back,等大队过去，从队尾归队
+you'll need to rejoin at the back,你得从队尾归队
+#
+# ===== fuel：省略号 TTS 会念出来或卡住 =====
+and closes after,之后关闭
+it'll close on lap,关闭，在第
+our fuel window will open after,加油窗口打开，在
+our refueling window will open after,加油窗口打开，在
+we predict your refuel window will open after,我们估计你的加油窗口打开，在
+we think our refueling window will open after,我们估计加油窗口打开，在
+#
+# ===== fuel：拼接片段，量词跟在数字后面 =====
+for,够跑
+gallons remaining,加仑
+litres remaining,升
+litres left,升
+gallons per lap,加仑每圈
+litres per lap,升每圈
+laps of fuel left,圈的油
+laps of fuel remaining,圈的油
+minutes of fuel left,分钟的油
+minutes of fuel remaining,分钟的油
+laps remaining on this tank,圈，这箱油还能跑
+gallons to get to the end,加仑才能跑到终点
+gallons to get to the end of the race,加仑才能跑到比赛结束
+gallons to reach the end of the race,加仑才能跑到比赛结束
+litres to get to the end,升才能跑到终点
+litres to get to the end of the race,升才能跑到比赛结束
+litres to reach the end,升才能跑到终点
+into the race,进入比赛
+it will end on lap,结束，在第
+it'll end on lap,结束，在第
+#
+# ===== fuel：空格与语气 =====
+you've got 1 gallon left,你还有一加仑
+you've got half your fuel left,你还剩一半油
+you've used half your fuel,你用掉一半油了
+"we're running on fumes, mate",快见底了，老兄
+very little fuel left,油不多了
+"it's fine, you got loads",没事，你油多着呢
+this is the last lap of fuel,油只够这一圈了
+you've only got enough fuel for this lap,油只够这一圈了
+the pit window for refueling should open about lap,加油窗口大约打开，在第
+we think your pit window for fuel should open after,我们估计你的加油窗口打开，在
+we think your pit window for refuel will open after,我们估计你的加油窗口打开，在
+#
+# ===== 生成中抽检发现 =====
+# 术语表：outside=外线（走线位置），high=外侧（相对高低）。「外侧线」把两个混在一起了。
+# 这 3 个 wav 已用旧文本生成，需要重跑 flags/on_the_outside_line 这一个文件夹。
+on the outside line,走外线
+"yep, spotting",好的，盯着呢

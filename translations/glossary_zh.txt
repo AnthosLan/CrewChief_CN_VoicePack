@@ -1,0 +1,156 @@
+# 赛车术语表，注入 translate_phrases.py 的 prompt（--glossary_file）。
+# 一行一条 'english = 中文'，# 开头的行和空行会被过滤掉，不进 prompt。
+#
+# 收录标准：只放 qwen2.5:14b 会稳定译错的词。它错得不随机——'2 tenths' 每次都出
+# 「百分之二十」，降 temperature 救不了，只有写进术语表才行。通用词不要放，
+# 表越长模型越容易忽略后面的条目。
+#
+# 已定稿的部分见 docs/中文语音包制作方案.md §6.3，改这里记得同步那边。
+
+# —— 旗语与比赛状态 ——
+green = 绿灯（起跑或恢复比赛的信号，不是颜色）
+green flag = 绿旗
+yellow = 黄旗
+full course yellow = 全场黄旗
+safety car = 安全车
+red flag = 红旗
+checkered flag = 方格旗
+blue flag = 蓝旗（让车旗）
+
+# —— 圈数与时间 ——
+to go = 还剩…圈
+one more to go = 还剩一圈
+last lap = 最后一圈
+tenths = 十分之一秒（2 tenths 是零点二秒，不是百分之二十）
+sector = 分段
+purple = 全场最快（计时用色，不要译成紫色）
+personal best = 个人最佳
+gap = 差距
+delta = 差值
+
+# —— 走线与位置 ——
+inside = 内线
+outside = 外线
+low = 内侧
+high = 外侧
+clear = 安全
+3 wide = 三辆并排
+hold your line = 保持走线
+pass = 超车
+overtake = 超车
+lapping = 套圈
+unlapping = 解套
+P1 = 第一名
+P2 = 第二名
+P3 = 第三名
+podium = 领奖台
+
+# —— 进站与策略 ——
+box now = 进站
+pit window = 进站窗口
+stint = 一段跑程
+undercut = 提前进站抢位
+overcut = 延后进站抢位
+out lap = 出站圈
+in lap = 进站圈
+
+# —— 车辆状态 ——
+tyres = 轮胎
+graining = 起粒
+flat spot = 刹车平点
+DRS = DRS（不要翻译，保留英文）
+KERS = KERS（不要翻译，保留英文）
+ERS = ERS（不要翻译，保留英文）
+
+# —— 罚则（波次 2 高频，117 处 penalty + 98 处 track limits）——
+penalty = 处罚
+drive through penalty = 通过维修区处罚
+stop-go penalty = 停车处罚
+serve a penalty = 执行处罚
+track limits = 赛道界限
+cut the track = 切赛道
+jump start = 抢跑
+speeding in the pit lane = 维修区超速
+pit lane = 维修区
+disqualified = 取消资格
+warning = 警告
+give the position back = 把位置让回去
+
+# —— 轮胎与磨损 ——
+wear = 磨损
+worn = 磨损
+degradation = 衰退
+pressures = 胎压
+fronts = 前胎
+rears = 后胎
+locking up = 抱死
+lock up = 抱死
+blistering = 起泡
+puncture = 扎胎
+marbles = 胶粒
+temps = 温度
+
+# —— 操控与车况 ——
+understeer = 转向不足
+oversteer = 转向过度
+suspension = 悬挂
+camber = 外倾角
+aero = 空气动力套件
+downforce = 下压力
+splitter = 前唇
+diffuser = 扩散器
+radiator = 水箱
+wing = 尾翼
+debris = 碎片
+
+# —— 跟车 ——
+dirty air = 乱流
+tow = 尾流
+slipstream = 尾流
+
+# —— 多级别赛（波次 3 高频，89 处 class）——
+class = 组别
+faster class = 快组
+slower class = 慢组
+class leader = 组别领跑
+in class = 组内
+LMP = LMP
+GT = GT
+prototype = 原型车
+
+# —— 电能与引擎 ——
+battery = 电量
+state of charge = 电量
+charge = 电量
+energy = 能量
+regen = 回充
+deploy = 释放
+engine mode = 引擎模式
+fuel map = 油图
+oil = 机油
+water = 水温
+coolant = 冷却液
+gearbox = 变速箱
+clutch = 离合
+
+# —— 进站与策略 ——
+pit stop = 进站
+pit window = 进站窗口
+refuel = 加油
+tyre change = 换胎
+driver swap = 换手
+mandatory = 强制
+handover = 交接
+
+# —— 发车队列 ——
+pole = 杆位
+row = 排
+front row = 头排
+double file = 双列
+single file = 单列
+formation lap = 暖胎圈
+grid = 发车位
+
+# —— 超车辅助 ——
+push to pass = 超车推进
+boost = 增压

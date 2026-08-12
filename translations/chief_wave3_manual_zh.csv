@@ -1,0 +1,32 @@
+audio_path,audio_filename,subtitle,text_for_tts,original_english
+\voice\mandatory_pit_stops\no_pit_timings_unreliable_fuel_estimates,1.wav,拿不到进站时间，油耗预估不准,拿不到进站时间，油耗预估不准,"no pit timings, fuel estimates unreliable"
+\voice\mandatory_pit_stops\no_pit_timings_unreliable_fuel_estimates,2.wav,拿不到进站时间，油耗预估不准,拿不到进站时间，油耗预估不准,"no pit timings, fuel estimates unreliable"
+\voice\mandatory_pit_stops\no_pit_timings_unreliable_fuel_estimates,3.wav,拿不到进站时间，油耗预估不准,拿不到进站时间，油耗预估不准,"no pit timings, fuel estimates unreliable"
+\voice\mandatory_pit_stops\no_pit_timings_unreliable_fuel_estimates,4.wav,拿不到进站时间，油耗预估不准,拿不到进站时间，油耗预估不准,"no pit timings, fuel estimates unreliable"
+\voice\mandatory_pit_stops\no_pit_timings_unreliable_fuel_estimates,5.wav,拿不到进站时间，油耗预估不准,拿不到进站时间，油耗预估不准,"no pit timings, fuel estimates unreliable"
+\voice\mandatory_pit_stops\no_pit_timings_unreliable_position_estimates,1.wav,拿不到进站时间，位置预估不准,拿不到进站时间，位置预估不准,"no pit timings, position estimates unreliable"
+\voice\mandatory_pit_stops\no_pit_timings_unreliable_position_estimates,2.wav,拿不到进站时间，位置预估不准,拿不到进站时间，位置预估不准,"no pit timings, position estimates unreliable"
+\voice\mandatory_pit_stops\no_pit_timings_unreliable_position_estimates,3.wav,拿不到进站时间，位置预估不准,拿不到进站时间，位置预估不准,"no pit timings, position estimates unreliable"
+\voice\mandatory_pit_stops\no_pit_timings_unreliable_position_estimates,4.wav,拿不到进站时间，位置预估不准,拿不到进站时间，位置预估不准,"no pit timings, position estimates unreliable"
+\voice\mandatory_pit_stops\no_pit_timings_unreliable_position_estimates,5.wav,拿不到进站时间，位置预估不准,拿不到进站时间，位置预估不准,"no pit timings, position estimates unreliable"
+\voice\mandatory_pit_stops\no_pit_timings_unreliable_position_estimates,6.wav,拿不到进站时间，位置预估不准,拿不到进站时间，位置预估不准,"no pit timings, position estimates unreliable"
+\voice\mandatory_pit_stops\no_pit_timings_unreliable_position_estimates,7.wav,拿不到进站时间，位置预估不准,拿不到进站时间，位置预估不准,"no pit timings, position estimates unreliable"
+\voice\overtaking_aids\drs_activations_remaining,1.wav,次DRS可用,次DRS可用,DRS activations remaining
+\voice\overtaking_aids\drs_activations_remaining,2.wav,次DRS可用,次DRS可用,DRS activations remaining
+\voice\overtaking_aids\drs_activations_remaining,3.wav,次DRS可用,次DRS可用,DRS activations remaining
+\voice\overtaking_aids\drs_activations_remaining,4.wav,次DRS可用,次DRS可用,DRS activations remaining
+\voice\overtaking_aids\drs_activations_remaining,5.wav,次DRS可用,次DRS可用,DRS activations remaining
+\voice\overtaking_aids\drs_activations_remaining,6.wav,次DRS可用,次DRS可用,DRS activations remaining
+\voice\overtaking_aids\no_drs_activations_remaining,1.wav,DRS用完了,DRS用完了,no DRS activations remaining
+\voice\overtaking_aids\no_drs_activations_remaining,2.wav,DRS用完了,DRS用完了,no DRS activations remaining
+\voice\overtaking_aids\no_drs_activations_remaining,3.wav,DRS用完了,DRS用完了,no DRS activations remaining
+\voice\overtaking_aids\no_drs_activations_remaining,4.wav,DRS用完了,DRS用完了,no DRS activations remaining
+\voice\overtaking_aids\no_drs_activations_remaining,5.wav,DRS用完了,DRS用完了,no DRS activations remaining
+\voice\overtaking_aids\no_drs_activations_remaining,6.wav,DRS用完了,DRS用完了,no DRS activations remaining
+\voice\overtaking_aids\one_drs_activation_remaining,1.wav,还剩一次DRS,还剩一次DRS,one DRS activation remaining
+\voice\overtaking_aids\remember_to_use_kers,1.wav,别忘了用KERS,别忘了用KERS,remember to use KERS
+\voice\overtaking_aids\remember_to_use_kers,2.wav,别忘了用KERS,别忘了用KERS,remember to use KERS
+\voice\overtaking_aids\remember_to_use_kers,3.wav,别忘了用KERS,别忘了用KERS,remember to use KERS
+\voice\overtaking_aids\remember_to_use_kers,4.wav,别忘了用KERS,别忘了用KERS,remember to use KERS
+\voice\overtaking_aids\remember_to_use_kers,5.wav,别忘了用KERS,别忘了用KERS,remember to use KERS
+\voice\overtaking_aids\remember_to_use_kers,6.wav,别忘了用KERS,别忘了用KERS,remember to use KERS

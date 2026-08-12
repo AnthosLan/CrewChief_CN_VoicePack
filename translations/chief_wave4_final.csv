@@ -1,0 +1,152 @@
+audio_path,audio_filename,subtitle,text_for_tts,original_english
+\voice\alarm_clock\alarms,1.wav,汽笛,汽笛,FOGHORN
+\voice\alarm_clock\am,1.wav,上午,上午,a.m.
+\voice\alarm_clock\am,2.wav,上午,上午,a.m.
+\voice\alarm_clock\am,3.wav,上午,上午,a.m.
+\voice\alarm_clock\notify,1.wav,我们将通知您,我们将通知您,we'll notify you at
+\voice\alarm_clock\notify,2.wav,好的，我们将会在,好的，我们将会在,"okay, we'll notify you at"
+\voice\alarm_clock\notify,3.wav,好的，我们将会在,好的，我们将会在,"all right, we'll notify you at"
+\voice\alarm_clock\notify,4.wav,已确认，将在,已确认，将在,"acknowledged, you'll be notified at"
+\voice\alarm_clock\notify,5.wav,好的，我们将会在,好的，我们将会在,"okay, we'll notify you at"
+\voice\alarm_clock\notify,6.wav,我们将通知您,我们将通知您,we'll notify you at
+\voice\alarm_clock\pm,4.wav,下午,下午,p.m.
+\voice\alarm_clock\pm,5.wav,下午,下午,p.m.
+\voice\alarm_clock\pm,6.wav,下午,下午,p.m.
+\voice\incidents\incident_points,1.wav,事故积分,事故积分,incident points
+\voice\incidents\incident_points,2.wav,事故积分,事故积分,incident points
+\voice\incidents\incident_points,3.wav,事故积分,事故积分,incident points
+\voice\incidents\incidents,1.wav,事故,事故,incidents
+\voice\incidents\incidents,2.wav,事故,事故,incidents
+\voice\incidents\incidents,3.wav,事故,事故,incidents
+\voice\incidents\no_incident_limit,1.wav,没有事故上限,没有事故上限,there's no incident limit
+\voice\incidents\no_incident_limit,2.wav,没有事故上限,没有事故上限,there's no incident limit
+\voice\incidents\no_incident_limit,3.wav,没有事故上限,没有事故上限,there's no incident limit
+\voice\incidents\no_incident_points_limit,1.wav,没有事故积分上限,没有事故积分上限,there's no incident points limit
+\voice\incidents\no_incident_points_limit,2.wav,没有事故积分上限,没有事故积分上限,there's no incident points limit
+\voice\incidents\no_incident_points_limit,3.wav,没有事故积分上限,没有事故积分上限,there's no incident points limit
+\voice\incidents\the_incident_limit_is,1.wav,事故上限是,事故上限是,the incident limit is
+\voice\incidents\the_incident_limit_is,2.wav,事故上限是,事故上限是,the incident limit is
+\voice\incidents\the_incident_limit_is,3.wav,事故上限是,事故上限是,the incident limit is
+\voice\incidents\the_incident_points_limit_is,1.wav,事故积分上限是,事故积分上限是,the incident points limit is
+\voice\incidents\the_incident_points_limit_is,2.wav,事故积分上限是,事故积分上限是,the incident points limit is
+\voice\incidents\the_incident_points_limit_is,3.wav,事故积分上限是,事故积分上限是,the incident points limit is
+\voice\incidents\you_have,1.wav,你有,你有,you have
+\voice\incidents\you_have,2.wav,你有,你有,you have
+\voice\incidents\you_have,3.wav,你有,你有,you have
+\voice\licence\a_licence,1.wav,A级执照,A级执照,A license
+\voice\licence\a_licence,2.wav,A级执照,A级执照,A license
+\voice\licence\a_licence,3.wav,A级执照,A级执照,A license
+\voice\licence\b_licence,4.wav,B级执照,B级执照,B license
+\voice\licence\b_licence,5.wav,B级执照,B级执照,B license
+\voice\licence\b_licence,6.wav,B级执照,B级执照,B license
+\voice\licence\c_licence,7.wav,C级执照,C级执照,C license
+\voice\licence\c_licence,8.wav,C级执照,C级执照,C license
+\voice\licence\c_licence,9.wav,C级执照,C级执照,C license
+\voice\licence\d_licence,10.wav,D级执照,D级执照,D license
+\voice\licence\d_licence,11.wav,D级执照,D级执照,D license
+\voice\licence\d_licence,12.wav,D级执照,D级执照,D license
+\voice\licence\pro_licence,13.wav,职业执照,职业执照,Pro license
+\voice\licence\pro_licence,14.wav,职业执照,职业执照,Pro license
+\voice\licence\pro_licence,15.wav,职业执照,职业执照,Pro license
+\voice\licence\rookie_licence,1.wav,新手执照,新手执照,Rookie license
+\voice\licence\rookie_licence,2.wav,新手执照,新手执照,Rookie license
+\voice\licence\rookie_licence,3.wav,新手执照,新手执照,Rookie license
+\voice\pearls_of_wisdom\keep_it_up,1.wav,继续保持，这里看起来不错,继续保持，这里看起来不错,"keep it up, we're looking good here"
+\voice\pearls_of_wisdom\keep_it_up,10.wav,太棒了，伙计，继续保持,太棒了，伙计，继续保持,"awesome stuff, mate, keep it coming"
+\voice\pearls_of_wisdom\keep_it_up,11.wav,很棒的驾驶，继续保持,很棒的驾驶，继续保持,"great driving, keep it up"
+\voice\pearls_of_wisdom\keep_it_up,12.wav,这段太漂亮了老兄，完美,这段太漂亮了老兄，完美,"loving this, mate, this is perfect"
+\voice\pearls_of_wisdom\keep_it_up,14.wav,我们喜欢这个，继续保持,我们喜欢这个，继续保持,"we like this, keep doing it"
+\voice\pearls_of_wisdom\keep_it_up,15.wav,这个不错，继续保持这样的圈速,这个不错，继续保持这样的圈速,"this is good, keep banging out them laptimes"
+\voice\pearls_of_wisdom\keep_it_up,16_male.wav,你行的，顶住,你行的，顶住,"you're the man, stay on it"
+\voice\pearls_of_wisdom\keep_it_up,17.wav,这太棒了，伙计，继续保持,这太棒了，伙计，继续保持,"this is excellent, mate, keep it up"
+\voice\pearls_of_wisdom\keep_it_up,19_male.wav,继续加油，伙计，这太棒了,继续加油，伙计，这太棒了,"keep it coming, man, this is great"
+\voice\pearls_of_wisdom\keep_it_up,2_op_prefix_ok.wav,继续保持，这太完美了,继续保持，这太完美了,"keep doing what you're doing, this is spot on"
+\voice\pearls_of_wisdom\keep_it_up,3.wav,很棒，继续加油，伙计,很棒，继续加油，伙计,"great stuff, keep it coming, mate"
+\voice\pearls_of_wisdom\keep_it_up,4.wav,这太棒了，继续保持,这太棒了，继续保持,"this is brilliant, keep it up"
+\voice\pearls_of_wisdom\keep_it_up,5_op_prefix_ok.wav,继续咬住走线，看着不错,继续咬住走线，看着不错,"just keep hitting your marks, this is looking good"
+\voice\pearls_of_wisdom\keep_it_up,6.wav,这太棒了，继续保持,这太棒了，继续保持,"this is brilliant, keep it up"
+\voice\pearls_of_wisdom\keep_it_up,7_op_prefix_well_done.wav,这太棒了，加油，继续保持这样的出弯,这太棒了，加油，继续保持这样的出弯,"this is great, come on, keep nailing those exits"
+\voice\pearls_of_wisdom\keep_it_up,8_op_prefix_well_done.wav,你表现得很棒，加油，保持专注,你表现得很棒，加油，保持专注,"you're looking really good, come on, keep your focus"
+\voice\pearls_of_wisdom\keep_it_up,9_op_prefix_well_done.wav,这太棒了，正是我们来这里的目的,这太棒了，正是我们来这里的目的,"this is terrific, exactly what we came here for"
+\voice\pearls_of_wisdom\keep_it_up,sweary_13.wav,这他妈太棒了，伙计，继续保持,这他妈太棒了，伙计，继续保持,"this is fucking great, mate, keep it coming"
+\voice\pearls_of_wisdom\keep_it_up,sweary_18.wav,干得好，伙计，这真是太棒了,干得好，伙计，这真是太棒了,"good stuff, mate, this is fucking excellent"
+\voice\pearls_of_wisdom\must_do_better,1.wav,加油，我们可以做得更好，专注于你的出弯，保持流畅,加油，我们可以做得更好，专注于你的出弯，保持流畅,"come on, we can do better than this, focus on your exits, keep it smooth"
+\voice\pearls_of_wisdom\must_do_better,10.wav,来吧，我们应该表现得更好,来吧，我们应该表现得更好,"come on, we should be doing better than this"
+\voice\pearls_of_wisdom\must_do_better,11.wav,出了什么问题，伙计，来吧，振作点,出了什么问题，伙计，来吧，振作点,"what's going on, mate, come on, get your act together"
+\voice\pearls_of_wisdom\must_do_better,12.wav,这真的不够好，来吧，开始集中注意力,这真的不够好，来吧，开始集中注意力,"this really isn't good enough, come on, start concentrating"
+\voice\pearls_of_wisdom\must_do_better,19.wav,我们现在每圈都需要排位赛速度，伙计，这里可能还有机会,我们现在每圈都需要排位赛速度，伙计，这里可能还有机会,"we need quali-pace every lap now, mate, there might still be chances here"
+\voice\pearls_of_wisdom\must_do_better,2.wav,来吧，把注意力收回来，保持流畅，专注于这些走线,来吧，把注意力收回来，保持流畅，专注于这些走线,"come on, get your head back into it, keep it smooth, focus on these lines"
+\voice\pearls_of_wisdom\must_do_better,21_male.wav,来吧，伙计，这很让人失望，这辆车有不错的速度,来吧，伙计，这很让人失望，这辆车有不错的速度,"come on, man, this is disappointing, there's decent pace in this car"
+\voice\pearls_of_wisdom\must_do_better,22_male.wav,你跑得乱七八糟了，来吧，伙计，把注意力集中起来,你跑得乱七八糟了，来吧，伙计，把注意力集中起来,"you're all over the place, come on, man, get your head back together"
+\voice\pearls_of_wisdom\must_do_better,23_male.wav,兄弟，稳才能快，我们现在需要快,兄弟，稳才能快，我们现在需要快,"come on, man, smooth is fast, and we need fast right now"
+\voice\pearls_of_wisdom\must_do_better,24_male.wav,你比这强，车也比这好，振作点，伙计,你比这强，车也比这好，振作点，伙计,"you're better than this, the car's better than this, get it together, man"
+\voice\pearls_of_wisdom\must_do_better,27.wav,现在是排位赛节奏，加油，你可以在这里挽回一些,现在是排位赛节奏，加油，你可以在这里挽回一些,"qualifying pace now, come on, you can salvage something here"
+\voice\pearls_of_wisdom\must_do_better,28.wav,来吧，不要再犯错了，集中注意力,来吧，不要再犯错了，集中注意力,"come on, no more mistakes, concentrate"
+\voice\pearls_of_wisdom\must_do_better,29.wav,每圈都要最大化，让我们尽力挽回能拿到的,每圈都要最大化，让我们尽力挽回能拿到的,"maximize every lap, let's salvage what we can"
+\voice\pearls_of_wisdom\must_do_better,3.wav,来吧，集中注意力，我们需要更快的速度，不要尝试晚刹车，只是更努力地集中,来吧，集中注意力，我们需要更快的速度，不要尝试晚刹车，只是更努力地集中,"come on, focus, we need more speed, don't try to brake later, just concentrate harder"
+\voice\pearls_of_wisdom\must_do_better,4.wav,来吧，伙计，我们现在真的需要加速了,来吧，伙计，我们现在真的需要加速了,"come on, mate, we really need to get the hammer down now"
+\voice\pearls_of_wisdom\must_do_better,5.wav,现在加速，我们需要更快的速度,现在加速，我们需要更快的速度,"push now, we need more speed"
+\voice\pearls_of_wisdom\must_do_better,6.wav,开干净点，说不定还能捞到东西,开干净点，说不定还能捞到东西,"keep it neat and tidy, we still might get something out of this"
+\voice\pearls_of_wisdom\must_do_better,7.wav,保持冷静，加油，比赛还没结束,保持冷静，加油，比赛还没结束,"keep it together, come on, the race isn't over yet"
+\voice\pearls_of_wisdom\must_do_better,9.wav,不要惊慌，你有时间解决这个问题,不要惊慌，你有时间解决这个问题,"don't panic, you got time to sort this out"
+\voice\pearls_of_wisdom\must_do_better,sweary_13.wav,来吧，试着更努力一点,来吧，试着更努力一点,"come on, try fucking harder"
+\voice\pearls_of_wisdom\must_do_better,sweary_14.wav,这有点糟糕了，来吧，伙计，振作点,这有点糟糕了，来吧，伙计，振作点,"this is a bit crap, come on, mate, get your act together"
+\voice\pearls_of_wisdom\must_do_better,sweary_15.wav,操，把头低下,操，把头低下,"fucking hell, get your head down"
+\voice\pearls_of_wisdom\must_do_better,sweary_16.wav,来吧，别这么差劲了，再努力一点,来吧，别这么差劲了，再努力一点,"come on, stop being so shit, try bloody harder"
+\voice\pearls_of_wisdom\must_do_better,sweary_18_male.wav,来吧，伙计，别再搞砸了,来吧，伙计，别再搞砸了,"come on, man, stop fucking it up"
+\voice\pearls_of_wisdom\must_do_better,sweary_20_male.wav,来吧，伙计，如果前面有人搞砸了，我们需要能够抓住机会,来吧，伙计，如果前面有人搞砸了，我们需要能够抓住机会,"come on, man, if somebody fucks up in front we need to be able to take advantage"
+\voice\pearls_of_wisdom\must_do_better,sweary_25.wav,来吧，别再搞砸了,来吧，别再搞砸了,"come on, stop fucking it up"
+\voice\pearls_of_wisdom\must_do_better,sweary_26.wav,这有点糟糕，加油，让它好一点,这有点糟糕，加油，让它好一点,"this is a bit shit, come on, make it less shit"
+\voice\pearls_of_wisdom\must_do_better,sweary_8.wav,来吧，伙计，加油，我们可以做得更好,来吧，伙计，加油，我们可以做得更好,"come on, mate, get your ass in gear, we can do better than this"
+\voice\pearls_of_wisdom\neutral,10.wav,专注于出口，我们可以在这里加速,专注于出口，我们可以在这里加速,"focus on the exits, we can go faster here"
+\voice\pearls_of_wisdom\neutral,11_op_prefix_ok.wav,这里会有机会，确保我们可以抓住它们,这里会有机会，确保我们可以抓住它们,"there'll be chances here, let's make sure we can take them"
+\voice\pearls_of_wisdom\neutral,12_op_prefix_ok.wav,不要想着圈速，只要过好每一个弯心,不要想着圈速，只要过好每一个弯心,"don't think about the lap times, just hit each and every apex"
+\voice\pearls_of_wisdom\neutral,13.wav,上啊，继续拼,上啊，继续拼,"come on, keep digging"
+\voice\pearls_of_wisdom\neutral,14.wav,继续拼,继续拼,keep digging
+\voice\pearls_of_wisdom\neutral,15.wav,顶住，继续拼,顶住，继续拼,"stay on it, keep digging"
+\voice\pearls_of_wisdom\neutral,16_male.wav,来吧，伙计，继续加油,来吧，伙计，继续加油,"come on, man, keep pushing"
+\voice\pearls_of_wisdom\neutral,17.wav,把握每一个弯道，让我们抓住一切可能的机会,把握每一个弯道，让我们抓住一切可能的机会,"nail every corner, let's take whatever chances we can"
+\voice\pearls_of_wisdom\neutral,18.wav,保持冷静，平稳驾驶,保持冷静，平稳驾驶,"stay calm, keep it smooth"
+\voice\pearls_of_wisdom\neutral,19.wav,来吧，抬头，把注意力集中在更远的赛道上,来吧，抬头，把注意力集中在更远的赛道上,"come on, head up, keep your focus further down the track"
+\voice\pearls_of_wisdom\neutral,1_op_prefix_ok.wav,专注点，弯心和出弯，弯心和出弯,专注点，弯心和出弯，弯心和出弯,"come on, stay focused, apexes and exits, apexes and exits"
+\voice\pearls_of_wisdom\neutral,2.wav,这里看起来不错，保持集中，平稳驾驶,这里看起来不错，保持集中，平稳驾驶,"we're looking all right here, keep your concentration, nice and smooth"
+\voice\pearls_of_wisdom\neutral,20.wav,开顺一点，别把车开过了,开顺一点，别把车开过了,"nice and smooth, don't overdrive the car"
+\voice\pearls_of_wisdom\neutral,21.wav,每个弯心都咬住，等机会，老兄,每个弯心都咬住，等机会，老兄,"hit all your apexes, wait for the chances to come, mate"
+\voice\pearls_of_wisdom\neutral,22.wav,用油门保持平稳，保持平衡,用油门保持平稳，保持平衡,"nice and smooth with that throttle, keep it balanced"
+\voice\pearls_of_wisdom\neutral,3.wav,这个没问题，保持那些出口速度,这个没问题，保持那些出口速度,"this is okay, keep those exit speeds up"
+\voice\pearls_of_wisdom\neutral,4.wav,保持专注，我们仍然有机会,保持专注，我们仍然有机会,"stay focused, we're still in this"
+\voice\pearls_of_wisdom\neutral,5.wav,坚持住，这还没完,坚持住，这还没完,"stay on it, this isn't over yet"
+\voice\pearls_of_wisdom\neutral,6.wav,继续拼，还没完,继续拼，还没完,"keep digging, this isn't over yet"
+\voice\pearls_of_wisdom\neutral,7_op_prefix_ok.wav,保持流畅，来吧，让比赛来找我们,保持流畅，来吧，让比赛来找我们,"keep it nice and smooth, come on, let the race come to us"
+\voice\pearls_of_wisdom\neutral,8.wav,来吧，让我们好好利用这辛苦的努力,来吧，让我们好好利用这辛苦的努力,"come on, let's put this hard work to good use"
+\voice\pearls_of_wisdom\neutral,9_op_prefix_ok.wav,放松，集中注意力，保持流畅,放松，集中注意力，保持流畅,"relax, focus, keep it smooth"
+\voice\rants\general,10.wav,这对士气真的不好，我们在这里已经拼尽全力了，这样做还不如不干。听着，我们需要坐下来好好谈谈，等你回到维修区的时候,这对士气真的不好，我们在这里已经拼尽全力了，这样做还不如不干。听着，我们需要坐下来好好谈谈，等你回到维修区的时候,"this really isn't good for morale, we've been busting our asses here, we might as well not have bothered. Look, we need to sit down, and talk properly when you get back to the pits"
+\voice\rants\general,11.wav,这周末真是糟糕。我们需要把所有东西打包，离开这里，下次从头开始，找出出了什么问题。我们必须变得更好,这周末真是糟糕。我们需要把所有东西打包，离开这里，下次从头开始，找出出了什么问题。我们必须变得更好,"it's been one of them weekends. We need to just pack everything up, get away from here, start out fresh next time, work out what went wrong. We've gotta get better"
+\voice\rants\general,12.wav,好的，我们走了。你自己收拾这些东西吧，我们都受够了，伙计,好的，我们走了。你自己收拾这些东西吧，我们都受够了，伙计,"right, we're out of here. You can pack all this shit up yourself, we've all had enough, mate"
+\voice\rants\general,13.wav,说实话，哥们儿，这是最后一个周末我们看你这么开车了。如果再不改进，我自己去买一辆该死的比赛用车,说实话，哥们儿，这是最后一个周末我们看你这么开车了。如果再不改进，我自己去买一辆该死的比赛用车,"honestly mate, this is the last weekend we're gonna watch you drive like that. If it doesn't improve, I will buy my own fucking race car"
+\voice\rants\general,14_male.wav,你今天一直一团糟，伙计，简直是垃圾秀。我们都坐在这里想搞清楚为什么要这么做,你今天一直一团糟，伙计，简直是垃圾秀。我们都坐在这里想搞清楚为什么要这么做,"you've been a shambles all day, man, total shit show. We're all sat here wondering why we bothered"
+\voice\rants\general,15_male.wav,整个周末，就是没用，没用。真是烦透了看到这个，伙计，我们都看腻了。这简直就是浪费我们的时间,整个周末，就是没用，没用。真是烦透了看到这个，伙计，我们都看腻了。这简直就是浪费我们的时间,"all weekend, just useless, useless. Fucking tired of seeing this, man, we're all tired of seeing it. It's like, it's like just wasting our time"
+\voice\rants\general,16_male.wav,操蛋的一周，老兄，噩梦。我们会整理一下然后离开，之后再试着弄清楚刚刚发生了什么,操蛋的一周，老兄，噩梦。我们会整理一下然后离开，之后再试着弄清楚刚刚发生了什么,"fucking nightmare weekend, man, nightmare. We'll clear up and clear out, then we'll try and work out what the hell's just happened"
+\voice\rants\general,17.wav,蠢货,蠢货,Dick
+\voice\rants\general,18.wav,他妈的没用,他妈的没用,fucking useless
+\voice\rants\general,19.wav,我拉的屎都比这开得好,我拉的屎都比这开得好,I've shat better drives than that
+\voice\rants\general,1_male.wav,我们整晚都在准备这辆车，这就是你最好的表现？我们不会浪费周末来看你搞砸一切的，振作点，伙计,我们整晚都在准备这辆车，这就是你最好的表现？我们不会浪费周末来看你搞砸一切的，振作点，伙计,"we were up all night prepping this fucking car, and this is the best you can do? We're not pissing our weekends away to watch you fuck it all up, get your head out of your ass, man"
+\voice\rants\general,2.wav,我们都在拼命工作，你得开始拿出表现了。赛车很快也很稳定，你必须把状态调整好,我们都在拼命工作，你得开始拿出表现了。赛车很快也很稳定，你必须把状态调整好,"we're all working our asses off here, you got to start delivering. The car's quick and it's solid, and you've got to get your shit together"
+\voice\rants\general,20.wav,远离工作人员，他们准备把你胳膊拽下来,远离工作人员，他们准备把你胳膊拽下来,"stay away from the crew, they're ready to pull your arms off"
+\voice\rants\general,21.wav,我不想再和你一起工作了。滚开,我不想再和你一起工作了。滚开,I don't wanna work with you anymore. Fuck off
+\voice\rants\general,22.wav,你简直就是无可救药，完全他妈的无可救药,你简直就是无可救药，完全他妈的无可救药,"You're just hopeless, just absolutely fucking hopeless"
+\voice\rants\general,23.wav,好的，把它带回来。如果你认为可以在不搞砸的情况下回到维修区,好的，把它带回来。如果你认为可以在不搞砸的情况下回到维修区,"Right, bring it back. If you think can get back to the pits without fucking that up"
+\voice\rants\general,24.wav,说实话，我从屁股里都能挤出更好的表现,说实话，我从屁股里都能挤出更好的表现,"Honestly, I've seen better performances fall out of my arse"
+\voice\rants\general,25.wav,糟糕透了,糟糕透了,Absolutely bloody terrible
+\voice\rants\general,26.wav,那他妈的是什么？你就是个垃圾,那他妈的是什么？你就是个垃圾,The fuck was all that? You're just fucking shit
+\voice\rants\general,27.wav,那真是一坨屎,那真是一坨屎,That was... shit
+\voice\rants\general,28.wav,你这个白痴,你这个白痴,You fucking berk
+\voice\rants\general,29.wav,我拉的屎都比这表现好,我拉的屎都比这表现好,I've shat better performances than that
+\voice\rants\general,3.wav,好的，就这样吧，又一个周末就这么浪费了。你可能觉得把钱扔掉也无所谓，只是凑个数而已，但我们有一辆强劲的赛车和一支有竞争力的车队，我们希望为我们的辛勤工作取得一些成果,好的，就这样吧，又一个周末就这么浪费了。你可能觉得把钱扔掉也无所谓，只是凑个数而已，但我们有一辆强劲的赛车和一支有竞争力的车队，我们希望为我们的辛勤工作取得一些成果,"great, well, there we are, another weekend down the toilet. You might be content to throw your money away, just making up the numbers, but we've got a strong car and a competitive crew here, and we want some results for our hard work"
+\voice\rants\general,30.wav,我觉得你开得糟透了，希望你自己也为此感到自豪,我觉得你开得糟透了，希望你自己也为此感到自豪,"I think that's the worst you've ever driven, I hope you're proud of yourself"
+\voice\rants\general,4_male.wav,好吧，你通宵喝酒狂欢，我们却在忙着修车，现在你醉醺醺地把一切都搞砸了，真是太好了，干得漂亮，伙计,好吧，你通宵喝酒狂欢，我们却在忙着修车，现在你醉醺醺地把一切都搞砸了，真是太好了，干得漂亮，伙计,"well that went well, we're all properly thrilled that you stayed up half the night getting hammered while we worked on the car, just so we could watch you screw it all up in a hungover haze, well done, man"
+\voice\rants\general,5.wav,这个，这还不够好，差得远呢。我开始怀疑我们为什么还要在这里坚持。有家伙们用不到我们一半的预算和几乎不能工作的车子都比我们快得多结束了比赛。你是薄弱环节。除非你改进，否则结果不会变好,这个，这还不够好，差得远呢。我开始怀疑我们为什么还要在这里坚持。有家伙们用不到我们一半的预算和几乎不能工作的车子都比我们快得多结束了比赛。你是薄弱环节。除非你改进，否则结果不会变好,"right this, this isn't good enough, not by a long shot. I'm starting to wonder why we're bothering here. There's guys finishing way ahead of us who've got half the budget and cars that barely work. You're the weak link. The results are not gonna improve unless you do"
+\voice\rants\general,6.wav,这太尴尬了。你只有一个任务要完成，一个任务。在后面手忙脚乱可能让你觉得好笑，但我们对这个已经厌倦透了。我们周末可以做更有意义的事情,这太尴尬了。你只有一个任务要完成，一个任务。在后面手忙脚乱可能让你觉得好笑，但我们对这个已经厌倦透了。我们周末可以做更有意义的事情,"this is embarrassing. You've got one job to do, one job. Fumbling around at the back might be a laugh for you, but we are absolutely sick of it. We've got better things we could be doing with our weekends"
+\voice\rants\general,7.wav,操，完全没用。好车，好队，垃圾车手。别玩赛车了，认真点努力一下,操，完全没用。好车，好队，垃圾车手。别玩赛车了，认真点努力一下,"fucking useless, just fucking useless. Good car, good team, shit driver. Stop playing racing car and actually make a fucking effort"
+\voice\rants\general,8_male.wav,回到维修区后离车队远点。他们都很生气，我也一样。我说，这真是糟糕透了，简直是浪费了一个周末,回到维修区后离车队远点。他们都很生气，我也一样。我说，这真是糟糕透了，简直是浪费了一个周末,"stay away from the crew when you get back to the pits. They're all really fucking pissed off. I am, too. I mean, it was shit man, really shit, waste of a weekend"
+\voice\rants\general,9.wav,什么，刚刚发生了什么？你怎么搞砸得这么惨？,什么，刚刚发生了什么？你怎么搞砸得这么惨？,"what, what the fuck just happened? How'd you manage to fuck it up so badly"

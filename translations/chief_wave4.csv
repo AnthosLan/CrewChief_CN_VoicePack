@@ -1,0 +1,152 @@
+audio_path,audio_filename,subtitle,text_for_tts,original_english
+\voice\alarm_clock\alarms,1.wav,FOGHORN,FOGHORN,FOGHORN
+\voice\alarm_clock\am,1.wav,a.m.,a.m.,a.m.
+\voice\alarm_clock\am,2.wav,a.m.,a.m.,a.m.
+\voice\alarm_clock\am,3.wav,a.m.,a.m.,a.m.
+\voice\alarm_clock\notify,1.wav,we'll notify you at,we'll notify you at,we'll notify you at
+\voice\alarm_clock\notify,2.wav,"okay, we'll notify you at","okay, we'll notify you at","okay, we'll notify you at"
+\voice\alarm_clock\notify,3.wav,"all right, we'll notify you at","all right, we'll notify you at","all right, we'll notify you at"
+\voice\alarm_clock\notify,4.wav,"acknowledged, you'll be notified at","acknowledged, you'll be notified at","acknowledged, you'll be notified at"
+\voice\alarm_clock\notify,5.wav,"okay, we'll notify you at","okay, we'll notify you at","okay, we'll notify you at"
+\voice\alarm_clock\notify,6.wav,we'll notify you at,we'll notify you at,we'll notify you at
+\voice\alarm_clock\pm,4.wav,p.m.,p.m.,p.m.
+\voice\alarm_clock\pm,5.wav,p.m.,p.m.,p.m.
+\voice\alarm_clock\pm,6.wav,p.m.,p.m.,p.m.
+\voice\incidents\incident_points,1.wav,incident points,incident points,incident points
+\voice\incidents\incident_points,2.wav,incident points,incident points,incident points
+\voice\incidents\incident_points,3.wav,incident points,incident points,incident points
+\voice\incidents\incidents,1.wav,incidents,incidents,incidents
+\voice\incidents\incidents,2.wav,incidents,incidents,incidents
+\voice\incidents\incidents,3.wav,incidents,incidents,incidents
+\voice\incidents\no_incident_limit,1.wav,there's no incident limit,there's no incident limit,there's no incident limit
+\voice\incidents\no_incident_limit,2.wav,there's no incident limit,there's no incident limit,there's no incident limit
+\voice\incidents\no_incident_limit,3.wav,there's no incident limit,there's no incident limit,there's no incident limit
+\voice\incidents\no_incident_points_limit,1.wav,there's no incident points limit,there's no incident points limit,there's no incident points limit
+\voice\incidents\no_incident_points_limit,2.wav,there's no incident points limit,there's no incident points limit,there's no incident points limit
+\voice\incidents\no_incident_points_limit,3.wav,there's no incident points limit,there's no incident points limit,there's no incident points limit
+\voice\incidents\the_incident_limit_is,1.wav,the incident limit is,the incident limit is,the incident limit is
+\voice\incidents\the_incident_limit_is,2.wav,the incident limit is,the incident limit is,the incident limit is
+\voice\incidents\the_incident_limit_is,3.wav,the incident limit is,the incident limit is,the incident limit is
+\voice\incidents\the_incident_points_limit_is,1.wav,the incident points limit is,the incident points limit is,the incident points limit is
+\voice\incidents\the_incident_points_limit_is,2.wav,the incident points limit is,the incident points limit is,the incident points limit is
+\voice\incidents\the_incident_points_limit_is,3.wav,the incident points limit is,the incident points limit is,the incident points limit is
+\voice\incidents\you_have,1.wav,you have,you have,you have
+\voice\incidents\you_have,2.wav,you have,you have,you have
+\voice\incidents\you_have,3.wav,you have,you have,you have
+\voice\licence\a_licence,1.wav,A license,A license,A license
+\voice\licence\a_licence,2.wav,A license,A license,A license
+\voice\licence\a_licence,3.wav,A license,A license,A license
+\voice\licence\b_licence,4.wav,B license,B license,B license
+\voice\licence\b_licence,5.wav,B license,B license,B license
+\voice\licence\b_licence,6.wav,B license,B license,B license
+\voice\licence\c_licence,7.wav,C license,C license,C license
+\voice\licence\c_licence,8.wav,C license,C license,C license
+\voice\licence\c_licence,9.wav,C license,C license,C license
+\voice\licence\d_licence,10.wav,D license,D license,D license
+\voice\licence\d_licence,11.wav,D license,D license,D license
+\voice\licence\d_licence,12.wav,D license,D license,D license
+\voice\licence\pro_licence,13.wav,Pro license,Pro license,Pro license
+\voice\licence\pro_licence,14.wav,Pro license,Pro license,Pro license
+\voice\licence\pro_licence,15.wav,Pro license,Pro license,Pro license
+\voice\licence\rookie_licence,1.wav,Rookie license,Rookie license,Rookie license
+\voice\licence\rookie_licence,2.wav,Rookie license,Rookie license,Rookie license
+\voice\licence\rookie_licence,3.wav,Rookie license,Rookie license,Rookie license
+\voice\pearls_of_wisdom\keep_it_up,1.wav,"keep it up, we're looking good here","keep it up, we're looking good here","keep it up, we're looking good here"
+\voice\pearls_of_wisdom\keep_it_up,10.wav,"awesome stuff, mate, keep it coming","awesome stuff, mate, keep it coming","awesome stuff, mate, keep it coming"
+\voice\pearls_of_wisdom\keep_it_up,11.wav,"great driving, keep it up","great driving, keep it up","great driving, keep it up"
+\voice\pearls_of_wisdom\keep_it_up,12.wav,"loving this, mate, this is perfect","loving this, mate, this is perfect","loving this, mate, this is perfect"
+\voice\pearls_of_wisdom\keep_it_up,14.wav,"we like this, keep doing it","we like this, keep doing it","we like this, keep doing it"
+\voice\pearls_of_wisdom\keep_it_up,15.wav,"this is good, keep banging out them laptimes","this is good, keep banging out them laptimes","this is good, keep banging out them laptimes"
+\voice\pearls_of_wisdom\keep_it_up,16_male.wav,"you're the man, stay on it","you're the man, stay on it","you're the man, stay on it"
+\voice\pearls_of_wisdom\keep_it_up,17.wav,"this is excellent, mate, keep it up","this is excellent, mate, keep it up","this is excellent, mate, keep it up"
+\voice\pearls_of_wisdom\keep_it_up,19_male.wav,"keep it coming, man, this is great","keep it coming, man, this is great","keep it coming, man, this is great"
+\voice\pearls_of_wisdom\keep_it_up,2_op_prefix_ok.wav,"keep doing what you're doing, this is spot on","keep doing what you're doing, this is spot on","keep doing what you're doing, this is spot on"
+\voice\pearls_of_wisdom\keep_it_up,3.wav,"great stuff, keep it coming, mate","great stuff, keep it coming, mate","great stuff, keep it coming, mate"
+\voice\pearls_of_wisdom\keep_it_up,4.wav,"this is brilliant, keep it up","this is brilliant, keep it up","this is brilliant, keep it up"
+\voice\pearls_of_wisdom\keep_it_up,5_op_prefix_ok.wav,"just keep hitting your marks, this is looking good","just keep hitting your marks, this is looking good","just keep hitting your marks, this is looking good"
+\voice\pearls_of_wisdom\keep_it_up,6.wav,"this is brilliant, keep it up","this is brilliant, keep it up","this is brilliant, keep it up"
+\voice\pearls_of_wisdom\keep_it_up,7_op_prefix_well_done.wav,"this is great, come on, keep nailing those exits","this is great, come on, keep nailing those exits","this is great, come on, keep nailing those exits"
+\voice\pearls_of_wisdom\keep_it_up,8_op_prefix_well_done.wav,"you're looking really good, come on, keep your focus","you're looking really good, come on, keep your focus","you're looking really good, come on, keep your focus"
+\voice\pearls_of_wisdom\keep_it_up,9_op_prefix_well_done.wav,"this is terrific, exactly what we came here for","this is terrific, exactly what we came here for","this is terrific, exactly what we came here for"
+\voice\pearls_of_wisdom\keep_it_up,sweary_13.wav,"this is fucking great, mate, keep it coming","this is fucking great, mate, keep it coming","this is fucking great, mate, keep it coming"
+\voice\pearls_of_wisdom\keep_it_up,sweary_18.wav,"good stuff, mate, this is fucking excellent","good stuff, mate, this is fucking excellent","good stuff, mate, this is fucking excellent"
+\voice\pearls_of_wisdom\must_do_better,1.wav,"come on, we can do better than this, focus on your exits, keep it smooth","come on, we can do better than this, focus on your exits, keep it smooth","come on, we can do better than this, focus on your exits, keep it smooth"
+\voice\pearls_of_wisdom\must_do_better,10.wav,"come on, we should be doing better than this","come on, we should be doing better than this","come on, we should be doing better than this"
+\voice\pearls_of_wisdom\must_do_better,11.wav,"what's going on, mate, come on, get your act together","what's going on, mate, come on, get your act together","what's going on, mate, come on, get your act together"
+\voice\pearls_of_wisdom\must_do_better,12.wav,"this really isn't good enough, come on, start concentrating","this really isn't good enough, come on, start concentrating","this really isn't good enough, come on, start concentrating"
+\voice\pearls_of_wisdom\must_do_better,19.wav,"we need quali-pace every lap now, mate, there might still be chances here","we need quali-pace every lap now, mate, there might still be chances here","we need quali-pace every lap now, mate, there might still be chances here"
+\voice\pearls_of_wisdom\must_do_better,2.wav,"come on, get your head back into it, keep it smooth, focus on these lines","come on, get your head back into it, keep it smooth, focus on these lines","come on, get your head back into it, keep it smooth, focus on these lines"
+\voice\pearls_of_wisdom\must_do_better,21_male.wav,"come on, man, this is disappointing, there's decent pace in this car","come on, man, this is disappointing, there's decent pace in this car","come on, man, this is disappointing, there's decent pace in this car"
+\voice\pearls_of_wisdom\must_do_better,22_male.wav,"you're all over the place, come on, man, get your head back together","you're all over the place, come on, man, get your head back together","you're all over the place, come on, man, get your head back together"
+\voice\pearls_of_wisdom\must_do_better,23_male.wav,"come on, man, smooth is fast, and we need fast right now","come on, man, smooth is fast, and we need fast right now","come on, man, smooth is fast, and we need fast right now"
+\voice\pearls_of_wisdom\must_do_better,24_male.wav,"you're better than this, the car's better than this, get it together, man","you're better than this, the car's better than this, get it together, man","you're better than this, the car's better than this, get it together, man"
+\voice\pearls_of_wisdom\must_do_better,27.wav,"qualifying pace now, come on, you can salvage something here","qualifying pace now, come on, you can salvage something here","qualifying pace now, come on, you can salvage something here"
+\voice\pearls_of_wisdom\must_do_better,28.wav,"come on, no more mistakes, concentrate","come on, no more mistakes, concentrate","come on, no more mistakes, concentrate"
+\voice\pearls_of_wisdom\must_do_better,29.wav,"maximize every lap, let's salvage what we can","maximize every lap, let's salvage what we can","maximize every lap, let's salvage what we can"
+\voice\pearls_of_wisdom\must_do_better,3.wav,"come on, focus, we need more speed, don't try to brake later, just concentrate harder","come on, focus, we need more speed, don't try to brake later, just concentrate harder","come on, focus, we need more speed, don't try to brake later, just concentrate harder"
+\voice\pearls_of_wisdom\must_do_better,4.wav,"come on, mate, we really need to get the hammer down now","come on, mate, we really need to get the hammer down now","come on, mate, we really need to get the hammer down now"
+\voice\pearls_of_wisdom\must_do_better,5.wav,"push now, we need more speed","push now, we need more speed","push now, we need more speed"
+\voice\pearls_of_wisdom\must_do_better,6.wav,"keep it neat and tidy, we still might get something out of this","keep it neat and tidy, we still might get something out of this","keep it neat and tidy, we still might get something out of this"
+\voice\pearls_of_wisdom\must_do_better,7.wav,"keep it together, come on, the race isn't over yet","keep it together, come on, the race isn't over yet","keep it together, come on, the race isn't over yet"
+\voice\pearls_of_wisdom\must_do_better,9.wav,"don't panic, you got time to sort this out","don't panic, you got time to sort this out","don't panic, you got time to sort this out"
+\voice\pearls_of_wisdom\must_do_better,sweary_13.wav,"come on, try fucking harder","come on, try fucking harder","come on, try fucking harder"
+\voice\pearls_of_wisdom\must_do_better,sweary_14.wav,"this is a bit crap, come on, mate, get your act together","this is a bit crap, come on, mate, get your act together","this is a bit crap, come on, mate, get your act together"
+\voice\pearls_of_wisdom\must_do_better,sweary_15.wav,"fucking hell, get your head down","fucking hell, get your head down","fucking hell, get your head down"
+\voice\pearls_of_wisdom\must_do_better,sweary_16.wav,"come on, stop being so shit, try bloody harder","come on, stop being so shit, try bloody harder","come on, stop being so shit, try bloody harder"
+\voice\pearls_of_wisdom\must_do_better,sweary_18_male.wav,"come on, man, stop fucking it up","come on, man, stop fucking it up","come on, man, stop fucking it up"
+\voice\pearls_of_wisdom\must_do_better,sweary_20_male.wav,"come on, man, if somebody fucks up in front we need to be able to take advantage","come on, man, if somebody fucks up in front we need to be able to take advantage","come on, man, if somebody fucks up in front we need to be able to take advantage"
+\voice\pearls_of_wisdom\must_do_better,sweary_25.wav,"come on, stop fucking it up","come on, stop fucking it up","come on, stop fucking it up"
+\voice\pearls_of_wisdom\must_do_better,sweary_26.wav,"this is a bit shit, come on, make it less shit","this is a bit shit, come on, make it less shit","this is a bit shit, come on, make it less shit"
+\voice\pearls_of_wisdom\must_do_better,sweary_8.wav,"come on, mate, get your ass in gear, we can do better than this","come on, mate, get your ass in gear, we can do better than this","come on, mate, get your ass in gear, we can do better than this"
+\voice\pearls_of_wisdom\neutral,10.wav,"focus on the exits, we can go faster here","focus on the exits, we can go faster here","focus on the exits, we can go faster here"
+\voice\pearls_of_wisdom\neutral,11_op_prefix_ok.wav,"there'll be chances here, let's make sure we can take them","there'll be chances here, let's make sure we can take them","there'll be chances here, let's make sure we can take them"
+\voice\pearls_of_wisdom\neutral,12_op_prefix_ok.wav,"don't think about the lap times, just hit each and every apex","don't think about the lap times, just hit each and every apex","don't think about the lap times, just hit each and every apex"
+\voice\pearls_of_wisdom\neutral,13.wav,"come on, keep digging","come on, keep digging","come on, keep digging"
+\voice\pearls_of_wisdom\neutral,14.wav,keep digging,keep digging,keep digging
+\voice\pearls_of_wisdom\neutral,15.wav,"stay on it, keep digging","stay on it, keep digging","stay on it, keep digging"
+\voice\pearls_of_wisdom\neutral,16_male.wav,"come on, man, keep pushing","come on, man, keep pushing","come on, man, keep pushing"
+\voice\pearls_of_wisdom\neutral,17.wav,"nail every corner, let's take whatever chances we can","nail every corner, let's take whatever chances we can","nail every corner, let's take whatever chances we can"
+\voice\pearls_of_wisdom\neutral,18.wav,"stay calm, keep it smooth","stay calm, keep it smooth","stay calm, keep it smooth"
+\voice\pearls_of_wisdom\neutral,19.wav,"come on, head up, keep your focus further down the track","come on, head up, keep your focus further down the track","come on, head up, keep your focus further down the track"
+\voice\pearls_of_wisdom\neutral,1_op_prefix_ok.wav,"come on, stay focused, apexes and exits, apexes and exits","come on, stay focused, apexes and exits, apexes and exits","come on, stay focused, apexes and exits, apexes and exits"
+\voice\pearls_of_wisdom\neutral,2.wav,"we're looking all right here, keep your concentration, nice and smooth","we're looking all right here, keep your concentration, nice and smooth","we're looking all right here, keep your concentration, nice and smooth"
+\voice\pearls_of_wisdom\neutral,20.wav,"nice and smooth, don't overdrive the car","nice and smooth, don't overdrive the car","nice and smooth, don't overdrive the car"
+\voice\pearls_of_wisdom\neutral,21.wav,"hit all your apexes, wait for the chances to come, mate","hit all your apexes, wait for the chances to come, mate","hit all your apexes, wait for the chances to come, mate"
+\voice\pearls_of_wisdom\neutral,22.wav,"nice and smooth with that throttle, keep it balanced","nice and smooth with that throttle, keep it balanced","nice and smooth with that throttle, keep it balanced"
+\voice\pearls_of_wisdom\neutral,3.wav,"this is okay, keep those exit speeds up","this is okay, keep those exit speeds up","this is okay, keep those exit speeds up"
+\voice\pearls_of_wisdom\neutral,4.wav,"stay focused, we're still in this","stay focused, we're still in this","stay focused, we're still in this"
+\voice\pearls_of_wisdom\neutral,5.wav,"stay on it, this isn't over yet","stay on it, this isn't over yet","stay on it, this isn't over yet"
+\voice\pearls_of_wisdom\neutral,6.wav,"keep digging, this isn't over yet","keep digging, this isn't over yet","keep digging, this isn't over yet"
+\voice\pearls_of_wisdom\neutral,7_op_prefix_ok.wav,"keep it nice and smooth, come on, let the race come to us","keep it nice and smooth, come on, let the race come to us","keep it nice and smooth, come on, let the race come to us"
+\voice\pearls_of_wisdom\neutral,8.wav,"come on, let's put this hard work to good use","come on, let's put this hard work to good use","come on, let's put this hard work to good use"
+\voice\pearls_of_wisdom\neutral,9_op_prefix_ok.wav,"relax, focus, keep it smooth","relax, focus, keep it smooth","relax, focus, keep it smooth"
+\voice\rants\general,10.wav,"this really isn't good for morale, we've been busting our asses here, we might as well not have bothered. Look, we need to sit down, and talk properly when you get back to the pits","this really isn't good for morale, we've been busting our asses here, we might as well not have bothered. Look, we need to sit down, and talk properly when you get back to the pits","this really isn't good for morale, we've been busting our asses here, we might as well not have bothered. Look, we need to sit down, and talk properly when you get back to the pits"
+\voice\rants\general,11.wav,"it's been one of them weekends. We need to just pack everything up, get away from here, start out fresh next time, work out what went wrong. We've gotta get better","it's been one of them weekends. We need to just pack everything up, get away from here, start out fresh next time, work out what went wrong. We've gotta get better","it's been one of them weekends. We need to just pack everything up, get away from here, start out fresh next time, work out what went wrong. We've gotta get better"
+\voice\rants\general,12.wav,"right, we're out of here. You can pack all this shit up yourself, we've all had enough, mate","right, we're out of here. You can pack all this shit up yourself, we've all had enough, mate","right, we're out of here. You can pack all this shit up yourself, we've all had enough, mate"
+\voice\rants\general,13.wav,"honestly mate, this is the last weekend we're gonna watch you drive like that. If it doesn't improve, I will buy my own fucking race car","honestly mate, this is the last weekend we're gonna watch you drive like that. If it doesn't improve, I will buy my own fucking race car","honestly mate, this is the last weekend we're gonna watch you drive like that. If it doesn't improve, I will buy my own fucking race car"
+\voice\rants\general,14_male.wav,"you've been a shambles all day, man, total shit show. We're all sat here wondering why we bothered","you've been a shambles all day, man, total shit show. We're all sat here wondering why we bothered","you've been a shambles all day, man, total shit show. We're all sat here wondering why we bothered"
+\voice\rants\general,15_male.wav,"all weekend, just useless, useless. Fucking tired of seeing this, man, we're all tired of seeing it. It's like, it's like just wasting our time","all weekend, just useless, useless. Fucking tired of seeing this, man, we're all tired of seeing it. It's like, it's like just wasting our time","all weekend, just useless, useless. Fucking tired of seeing this, man, we're all tired of seeing it. It's like, it's like just wasting our time"
+\voice\rants\general,16_male.wav,"fucking nightmare weekend, man, nightmare. We'll clear up and clear out, then we'll try and work out what the hell's just happened","fucking nightmare weekend, man, nightmare. We'll clear up and clear out, then we'll try and work out what the hell's just happened","fucking nightmare weekend, man, nightmare. We'll clear up and clear out, then we'll try and work out what the hell's just happened"
+\voice\rants\general,17.wav,Dick,Dick,Dick
+\voice\rants\general,18.wav,fucking useless,fucking useless,fucking useless
+\voice\rants\general,19.wav,I've shat better drives than that,I've shat better drives than that,I've shat better drives than that
+\voice\rants\general,1_male.wav,"we were up all night prepping this fucking car, and this is the best you can do? We're not pissing our weekends away to watch you fuck it all up, get your head out of your ass, man","we were up all night prepping this fucking car, and this is the best you can do? We're not pissing our weekends away to watch you fuck it all up, get your head out of your ass, man","we were up all night prepping this fucking car, and this is the best you can do? We're not pissing our weekends away to watch you fuck it all up, get your head out of your ass, man"
+\voice\rants\general,2.wav,"we're all working our asses off here, you got to start delivering. The car's quick and it's solid, and you've got to get your shit together","we're all working our asses off here, you got to start delivering. The car's quick and it's solid, and you've got to get your shit together","we're all working our asses off here, you got to start delivering. The car's quick and it's solid, and you've got to get your shit together"
+\voice\rants\general,20.wav,"stay away from the crew, they're ready to pull your arms off","stay away from the crew, they're ready to pull your arms off","stay away from the crew, they're ready to pull your arms off"
+\voice\rants\general,21.wav,I don't wanna work with you anymore. Fuck off,I don't wanna work with you anymore. Fuck off,I don't wanna work with you anymore. Fuck off
+\voice\rants\general,22.wav,"You're just hopeless, just absolutely fucking hopeless","You're just hopeless, just absolutely fucking hopeless","You're just hopeless, just absolutely fucking hopeless"
+\voice\rants\general,23.wav,"Right, bring it back. If you think can get back to the pits without fucking that up","Right, bring it back. If you think can get back to the pits without fucking that up","Right, bring it back. If you think can get back to the pits without fucking that up"
+\voice\rants\general,24.wav,"Honestly, I've seen better performances fall out of my arse","Honestly, I've seen better performances fall out of my arse","Honestly, I've seen better performances fall out of my arse"
+\voice\rants\general,25.wav,Absolutely bloody terrible,Absolutely bloody terrible,Absolutely bloody terrible
+\voice\rants\general,26.wav,The fuck was all that? You're just fucking shit,The fuck was all that? You're just fucking shit,The fuck was all that? You're just fucking shit
+\voice\rants\general,27.wav,That was... shit,That was... shit,That was... shit
+\voice\rants\general,28.wav,You fucking berk,You fucking berk,You fucking berk
+\voice\rants\general,29.wav,I've shat better performances than that,I've shat better performances than that,I've shat better performances than that
+\voice\rants\general,3.wav,"great, well, there we are, another weekend down the toilet. You might be content to throw your money away, just making up the numbers, but we've got a strong car and a competitive crew here, and we want some results for our hard work","great, well, there we are, another weekend down the toilet. You might be content to throw your money away, just making up the numbers, but we've got a strong car and a competitive crew here, and we want some results for our hard work","great, well, there we are, another weekend down the toilet. You might be content to throw your money away, just making up the numbers, but we've got a strong car and a competitive crew here, and we want some results for our hard work"
+\voice\rants\general,30.wav,"I think that's the worst you've ever driven, I hope you're proud of yourself","I think that's the worst you've ever driven, I hope you're proud of yourself","I think that's the worst you've ever driven, I hope you're proud of yourself"
+\voice\rants\general,4_male.wav,"well that went well, we're all properly thrilled that you stayed up half the night getting hammered while we worked on the car, just so we could watch you screw it all up in a hungover haze, well done, man","well that went well, we're all properly thrilled that you stayed up half the night getting hammered while we worked on the car, just so we could watch you screw it all up in a hungover haze, well done, man","well that went well, we're all properly thrilled that you stayed up half the night getting hammered while we worked on the car, just so we could watch you screw it all up in a hungover haze, well done, man"
+\voice\rants\general,5.wav,"right this, this isn't good enough, not by a long shot. I'm starting to wonder why we're bothering here. There's guys finishing way ahead of us who've got half the budget and cars that barely work. You're the weak link. The results are not gonna improve unless you do","right this, this isn't good enough, not by a long shot. I'm starting to wonder why we're bothering here. There's guys finishing way ahead of us who've got half the budget and cars that barely work. You're the weak link. The results are not gonna improve unless you do","right this, this isn't good enough, not by a long shot. I'm starting to wonder why we're bothering here. There's guys finishing way ahead of us who've got half the budget and cars that barely work. You're the weak link. The results are not gonna improve unless you do"
+\voice\rants\general,6.wav,"this is embarrassing. You've got one job to do, one job. Fumbling around at the back might be a laugh for you, but we are absolutely sick of it. We've got better things we could be doing with our weekends","this is embarrassing. You've got one job to do, one job. Fumbling around at the back might be a laugh for you, but we are absolutely sick of it. We've got better things we could be doing with our weekends","this is embarrassing. You've got one job to do, one job. Fumbling around at the back might be a laugh for you, but we are absolutely sick of it. We've got better things we could be doing with our weekends"
+\voice\rants\general,7.wav,"fucking useless, just fucking useless. Good car, good team, shit driver. Stop playing racing car and actually make a fucking effort","fucking useless, just fucking useless. Good car, good team, shit driver. Stop playing racing car and actually make a fucking effort","fucking useless, just fucking useless. Good car, good team, shit driver. Stop playing racing car and actually make a fucking effort"
+\voice\rants\general,8_male.wav,"stay away from the crew when you get back to the pits. They're all really fucking pissed off. I am, too. I mean, it was shit man, really shit, waste of a weekend","stay away from the crew when you get back to the pits. They're all really fucking pissed off. I am, too. I mean, it was shit man, really shit, waste of a weekend","stay away from the crew when you get back to the pits. They're all really fucking pissed off. I am, too. I mean, it was shit man, really shit, waste of a weekend"
+\voice\rants\general,9.wav,"what, what the fuck just happened? How'd you manage to fuck it up so badly","what, what the fuck just happened? How'd you manage to fuck it up so badly","what, what the fuck just happened? How'd you manage to fuck it up so badly"
