@@ -266,6 +266,48 @@ namespace CrewChiefV4.NumberProcessing
             return sounds;
         }
 
+        /**
+         * 钟点（几点几分），给 CommonActions.reportCurrentTime() 用。
+         *
+         * 不是 NumberReader 的抽象方法——基类只管时长（"一分二十三秒四"），钟点是另一回事，
+         * 而英文那条路把片段按 hour + oh + minute + am/pm 拼，是英文语序。中文有两处不同：
+         *
+         *   1. 上午/下午在最前面，不在最后
+         *   2. 小时后面跟「点」。「八小时零五分」是时长，不是钟点
+         *
+         * 放在这里而不是 CommonActions，是为了共用 countWithUnit 的量词规则——2 点要读「两点」，
+         * 和「两圈」「两秒」同一条规则，不该在调用方再实现一遍。
+         *
+         * 「点」复用 numbers/point：钟点的点和小数点的点是同一个字、同一段录音。
+         *
+         * hour 传 24 小时制。
+         */
+        public List<String> GetTimeOfDaySounds(int hour, int minute, String folderAM, String folderPM)
+        {
+            List<String> sounds = new List<String>();
+            sounds.Add(hour >= 12 ? folderPM : folderAM);
+
+            int hour12 = hour % 12;
+            if (hour12 == 0)
+            {
+                // 0 点和 12 点都读「十二点」，靠前面的上午/下午区分，与英文包一致。
+                hour12 = 12;
+            }
+            sounds.AddRange(countWithUnit(hour12, folderPoint));
+
+            if (minute > 0)
+            {
+                if (minute < 10)
+                {
+                    // 八点零五，不是八点五。
+                    sounds.Add(folderOh);
+                }
+                sounds.AddRange(readWholeNumber(minute, false));
+                sounds.Add(folderMinute);
+            }
+            return sounds;
+        }
+
         // The remaining methods are English / Italian short-form optimisations. ConvertTimeToSounds only
         // calls them when getLocale() is "en" or "it", so they are unreachable here. They return empty
         // rather than null because the base class AddRange()s the results.

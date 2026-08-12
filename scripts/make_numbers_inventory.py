@@ -180,8 +180,39 @@ def read_time(hours, minutes, seconds, tenths, precision=TENTHS):
     return out
 
 
+def read_time_of_day(hour, minute):
+    """
+    Mirror of NumberReaderZh.GetTimeOfDaySounds -- clock time, not duration.
+
+    Two things differ from the English composition in CommonActions.reportCurrentTime():
+    上午/下午 leads instead of trailing, and the hour takes 点. '八小时零五分' would be a
+    duration. 点 reuses numbers/point -- the decimal point and the o'clock 点 are the same
+    character and the same recording.
+    """
+    out = ["alarm_clock/pm" if hour >= 12 else "alarm_clock/am"]
+    hour12 = hour % 12
+    if hour12 == 0:
+        hour12 = 12
+    out += _count_with_unit(hour12, "numbers/point")
+    if minute > 0:
+        if minute < 10:
+            out.append("numbers/oh")
+        out += _read_whole(minute, False)
+        out.append("numbers/minute")
+    return out
+
+
+# alarm_clock/am and /pm ship with the chief batch, not the numbers batch, so they are not in
+# the inventory this script builds. Spelled out here so the clock cases can be checked end to end.
+CLOCK_FOLDERS = {
+    "alarm_clock/am": "上午",
+    "alarm_clock/pm": "下午",
+}
+
+
 def spoken(folders, text_by_folder):
-    return "".join(text_by_folder[f[len("numbers/"):]] for f in folders)
+    return "".join(CLOCK_FOLDERS[f] if f in CLOCK_FOLDERS
+                   else text_by_folder[f[len("numbers/"):]] for f in folders)
 
 
 INTEGER_CASES = [
@@ -214,6 +245,20 @@ TIME_CASES = [
     ((2, 0, 0, 0, MINUTES), "两小时"),
 ]
 
+# (24h hour, minute) -> expected reading. Clock time, not duration -- see read_time_of_day.
+CLOCK_CASES = [
+    ((8, 5), "上午八点零五分"),
+    ((8, 0), "上午八点"),
+    ((8, 25), "上午八点二十五分"),
+    ((14, 5), "下午两点零五分"),      # 两点, not 二点
+    ((14, 30), "下午两点三十分"),
+    ((2, 0), "上午两点"),
+    ((12, 0), "下午十二点"),
+    ((0, 0), "上午十二点"),           # midnight reads like the English pack's "twelve AM"
+    ((23, 59), "下午十一点五十九分"),
+    ((13, 10), "下午一点十分"),
+]
+
 
 def verify(rows):
     text_by_folder = {r["audio_path"].rsplit("\\", 1)[1]: r["subtitle"] for r in rows}
@@ -240,14 +285,26 @@ def verify(rows):
         print("%s %-24s %-16s %s" % ("✅" if ok else "❌", label, got,
                                      "" if ok else "期望 " + expected))
 
+    print("\n=== 钟点 ===")
+    for (h, m), expected in CLOCK_CASES:
+        folders = read_time_of_day(h, m)
+        got = spoken(folders, text_by_folder)
+        ok = got == expected
+        failures += not ok
+        print("%s %-24s %-16s %s" % ("✅" if ok else "❌", "%02d:%02d" % (h, m), got,
+                                     "" if ok else "期望 " + expected))
+
     used = ({f for n, _ in INTEGER_CASES for f in read_integer(n)}
-            | {f for a, _ in TIME_CASES for f in read_time(*a)})
-    missing = sorted(used - AVAILABLE)
+            | {f for a, _ in TIME_CASES for f in read_time(*a)}
+            | {f for a, _ in CLOCK_CASES for f in read_time_of_day(*a)})
+    # alarm_clock/* legitimately live in another batch, so they are not expected here.
+    missing = sorted(used - AVAILABLE - set(CLOCK_FOLDERS))
     if missing:
         failures += len(missing)
         print("\n❌ 清单缺少这些文件夹: " + ", ".join(missing))
 
-    print("\n%d 个用例，%d 个失败" % (len(INTEGER_CASES) + len(TIME_CASES), failures))
+    total = len(INTEGER_CASES) + len(TIME_CASES) + len(CLOCK_CASES)
+    print("\n%d 个用例，%d 个失败" % (total, failures))
     return failures
 
 

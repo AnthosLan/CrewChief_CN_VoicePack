@@ -1,18 +1,170 @@
-CrewChief: 中文数字朗读支持
-
-三处改动：
-  1. NumberReaderFactory  —— 增加 zh / zh-cn 分支，选用 NumberReaderZh
-  2. CrewChiefV4.csproj   —— 编译 NumberReaderZh.cs
-  3. TestNumbersInMessages —— 中文整数与时间用例
-
-新文件 CrewChiefV4/NumberReaderZh.cs 不在本 diff 里，从本仓库 src/ 复制：
-    cp src/NumberReaderZh.cs ~/Projects/CrewChiefV4-main/CrewChiefV4/NumberReaderZh.cs
-
-设计说明见 docs/数字与时间朗读设计.md。
-
+diff --git a/CrewChiefV4/ColloquialTime.cs b/CrewChiefV4/ColloquialTime.cs
+index 86a417fb1..523541355 100644
+--- a/CrewChiefV4/ColloquialTime.cs
++++ b/CrewChiefV4/ColloquialTime.cs
+@@ -86,6 +86,85 @@ namespace CrewChiefV4
+             "midnight", "one", "two", "three","four", "five", "six",
+             "seven", "eight", "nine", "ten", "eleven", "twelve"
+         };
++
++        // Chinese uses the same five-minute buckets as the table above, so only the wording changes.
++        // Two differences worth noting: the hour always takes 点, and 2 o'clock is 两点 not 二点 --
++        // the same measure-word rule NumberReaderZh applies to 两圈 and 两秒.
++        //
++        // This whole path is only reached when the user turns on colloquial_time AND system TTS is
++        // available, so it speaks through a Windows SAPI voice rather than the voice pack. Without a
++        // Chinese voice installed the result is an English voice reading Chinese characters; that is
++        // the same trade every other TTS string in the app makes, so it is not gated here.
++        private MinuteToText[] MinutesToTextZh =
++        {
++            new MinuteToText{pre = "", post = "点整", addHour = 0},
++            new MinuteToText{pre = "", post = "点整", addHour = 0},
++            new MinuteToText{pre = "", post = "点整", addHour = 0},
++            new MinuteToText{pre = "", post = "点零五", addHour = 0},
++            new MinuteToText{pre = "", post = "点零五", addHour = 0},
++            new MinuteToText{pre = "", post = "点零五", addHour = 0},
++            new MinuteToText{pre = "", post = "点零五", addHour = 0},
++            new MinuteToText{pre = "", post = "点零五", addHour = 0},
++            new MinuteToText{pre = "", post = "点十分", addHour = 0},
++            new MinuteToText{pre = "", post = "点十分", addHour = 0},
++            new MinuteToText{pre = "", post = "点十分", addHour = 0},
++            new MinuteToText{pre = "", post = "点十分", addHour = 0},
++            new MinuteToText{pre = "", post = "点十分", addHour = 0},
++            new MinuteToText{pre = "", post = "点一刻", addHour = 0},
++            new MinuteToText{pre = "", post = "点一刻", addHour = 0},
++            new MinuteToText{pre = "", post = "点一刻", addHour = 0},
++            new MinuteToText{pre = "", post = "点一刻", addHour = 0},
++            new MinuteToText{pre = "", post = "点一刻", addHour = 0},
++            new MinuteToText{pre = "", post = "点二十", addHour = 0},
++            new MinuteToText{pre = "", post = "点二十", addHour = 0},
++            new MinuteToText{pre = "", post = "点二十", addHour = 0},
++            new MinuteToText{pre = "", post = "点二十", addHour = 0},
++            new MinuteToText{pre = "", post = "点二十", addHour = 0},
++            new MinuteToText{pre = "", post = "点二十五", addHour = 0},
++            new MinuteToText{pre = "", post = "点二十五", addHour = 0},
++            new MinuteToText{pre = "", post = "点二十五", addHour = 0},
++            new MinuteToText{pre = "", post = "点二十五", addHour = 0},
++            new MinuteToText{pre = "", post = "点二十五", addHour = 0},
++            new MinuteToText{pre = "", post = "点半", addHour = 0},
++            new MinuteToText{pre = "", post = "点半", addHour = 0},
++            new MinuteToText{pre = "", post = "点半", addHour = 0},
++            new MinuteToText{pre = "", post = "点半", addHour = 0},
++            new MinuteToText{pre = "", post = "点半", addHour = 0},
++            new MinuteToText{pre = "差二十五分", post = "点", addHour = 1},
++            new MinuteToText{pre = "差二十五分", post = "点", addHour = 1},
++            new MinuteToText{pre = "差二十五分", post = "点", addHour = 1},
++            new MinuteToText{pre = "差二十五分", post = "点", addHour = 1},
++            new MinuteToText{pre = "差二十五分", post = "点", addHour = 1},
++            new MinuteToText{pre = "差二十分", post = "点", addHour = 1},
++            new MinuteToText{pre = "差二十分", post = "点", addHour = 1},
++            new MinuteToText{pre = "差二十分", post = "点", addHour = 1},
++            new MinuteToText{pre = "差二十分", post = "点", addHour = 1},
++            new MinuteToText{pre = "差二十分", post = "点", addHour = 1},
++            new MinuteToText{pre = "差一刻", post = "点", addHour = 1},
++            new MinuteToText{pre = "差一刻", post = "点", addHour = 1},
++            new MinuteToText{pre = "差一刻", post = "点", addHour = 1},
++            new MinuteToText{pre = "差一刻", post = "点", addHour = 1},
++            new MinuteToText{pre = "差一刻", post = "点", addHour = 1},
++            new MinuteToText{pre = "差十分", post = "点", addHour = 1},
++            new MinuteToText{pre = "差十分", post = "点", addHour = 1},
++            new MinuteToText{pre = "差十分", post = "点", addHour = 1},
++            new MinuteToText{pre = "差十分", post = "点", addHour = 1},
++            new MinuteToText{pre = "差十分", post = "点", addHour = 1},
++            new MinuteToText{pre = "差五分", post = "点", addHour = 1},
++            new MinuteToText{pre = "差五分", post = "点", addHour = 1},
++            new MinuteToText{pre = "差五分", post = "点", addHour = 1},
++            new MinuteToText{pre = "差五分", post = "点", addHour = 1},
++            new MinuteToText{pre = "快到", post = "点", addHour = 1},
++            new MinuteToText{pre = "快到", post = "点", addHour = 1},
++            new MinuteToText{pre = "快到", post = "点", addHour = 1},
++        };
++        // 半夜 rather than 十二 at index 0, matching the English table's "midnight". 两 at index 2 --
++        // 二点 is not how anyone says it.
++        String[] hourStringsZh =
++        {
++            "半夜十二", "一", "两", "三", "四", "五", "六",
++            "七", "八", "九", "十", "十一", "十二"
++        };
+         /// <summary>
+         /// Format time as it's said
+         /// </summary>
+@@ -93,8 +172,10 @@ namespace CrewChiefV4
+         /// <returns>lower case time of day</returns>
+         public string Format(DateTime tod)
+         {
++            Boolean isChinese = "zh".Equals(AudioPlayer.soundPackLanguage, StringComparison.InvariantCultureIgnoreCase)
++                || "zh-cn".Equals(AudioPlayer.soundPackLanguage, StringComparison.InvariantCultureIgnoreCase);
+             int minute = tod.Minute;
+-            var minuteFormat = MinutesToText[minute];
++            var minuteFormat = isChinese ? MinutesToTextZh[minute] : MinutesToText[minute];
+             int hour = tod.Hour + minuteFormat.addHour; // Add an hour if it's "to" the next hour
+             if (hour > 23)
+             {
+@@ -104,7 +185,7 @@ namespace CrewChiefV4
+             {
+                 hour -= 12;
+             }
+-            var hourString = hourStrings[hour];
++            var hourString = isChinese ? hourStringsZh[hour] : hourStrings[hour];
+             string result = minuteFormat.pre + hourString + minuteFormat.post;
+             if (result == "midnight o'clock")
+             {
+diff --git a/CrewChiefV4/CrewChiefV4.csproj b/CrewChiefV4/CrewChiefV4.csproj
+index 97f4f4644..99a0e6731 100644
+--- a/CrewChiefV4/CrewChiefV4.csproj
++++ b/CrewChiefV4/CrewChiefV4.csproj
+@@ -571,6 +571,7 @@
+     <Compile Include="NumberProcessing\CarNumber.cs" />
+     <Compile Include="NumberProcessing\SpokenNumberParser.cs" />
+     <Compile Include="NumberReaderPtBr.cs" />
++    <Compile Include="NumberReaderZh.cs" />
+     <Compile Include="NumberReaderIt2.cs" />
+     <Compile Include="Overlay\Charts.cs" />
+     <Compile Include="Overlay\CommonSubscriptions.cs" />
+diff --git a/CrewChiefV4/Events/CommonActions.cs b/CrewChiefV4/Events/CommonActions.cs
+index 5bb90a023..c9909cafa 100644
+--- a/CrewChiefV4/Events/CommonActions.cs
++++ b/CrewChiefV4/Events/CommonActions.cs
+@@ -819,7 +819,9 @@ namespace CrewChiefV4.Events
+             {
+                 var ct = new ColloquialTime();
+                 string timeString = ct.Format(now);
+-                var fragment = MessageFragment.Text("It's " + timeString);
++                Boolean isChinesePack = "zh".Equals(AudioPlayer.soundPackLanguage, StringComparison.InvariantCultureIgnoreCase)
++                    || "zh-cn".Equals(AudioPlayer.soundPackLanguage, StringComparison.InvariantCultureIgnoreCase);
++                var fragment = MessageFragment.Text((isChinesePack ? "现在是" : "It's ") + timeString);
+                 fragment.allowTTS = true;
+                 AudioPlayer.ttsOption = AudioPlayer.TTS_OPTION.ANY_TIME;
+                 audioPlayer.playMessageImmediately(new QueuedMessage("current_time", 0,
+@@ -836,7 +838,22 @@ namespace CrewChiefV4.Events
+                 {
+                     isPastMidDay = true;
+                 }
+-                if ("it".Equals(AudioPlayer.soundPackLanguage, StringComparison.InvariantCultureIgnoreCase))
++                NumberReaderZh zhNumberReader = NumberReaderFactory.GetNumberReader() as NumberReaderZh;
++                if (zhNumberReader != null)
++                {
++                    // Chinese puts 上午/下午 first, not last, and the hour needs 点 after it -- the
++                    // English order below would come out as "eight oh five morning". The composition
++                    // lives in NumberReaderZh so it can reuse the measure-word rule that makes 2
++                    // read 两 rather than 二.
++                    List<MessageFragment> fragments = new List<MessageFragment>();
++                    foreach (String folder in zhNumberReader.GetTimeOfDaySounds(now.Hour, now.Minute, folderAM, folderPM))
++                    {
++                        fragments.Add(MessageFragment.Text(folder));
++                    }
++                    audioPlayer.playMessageImmediately(new QueuedMessage("current_time", 0,
++                        messageFragments: fragments));
++                }
++                else if ("it".Equals(AudioPlayer.soundPackLanguage, StringComparison.InvariantCultureIgnoreCase))
+                 {
+                     audioPlayer.playMessageImmediately(new QueuedMessage("current_time", 0,
+                         messageFragments: AbstractEvent.MessageContents(hour, NumberReaderIt2.folderAnd, now.Minute)));
+diff --git a/CrewChiefV4/NumberProcessing/NumberReaderFactory.cs b/CrewChiefV4/NumberProcessing/NumberReaderFactory.cs
+index c467d1c99..f8e9c8477 100644
 --- a/CrewChiefV4/NumberProcessing/NumberReaderFactory.cs
 +++ b/CrewChiefV4/NumberProcessing/NumberReaderFactory.cs
-@@ -42,6 +42,13 @@
+@@ -42,6 +42,13 @@ namespace CrewChiefV4.NumberProcessing
                  Console.WriteLine("Using NumberReaderPtBr for soundPackLanguage " + AudioPlayer.soundPackLanguage);
                  numberReader = new NumberReaderPtBr();
              }
@@ -26,19 +178,11 @@ CrewChief: 中文数字朗读支持
              else
              {
                  Console.WriteLine("Using NumberReaderEn for soundPackLanguage " + AudioPlayer.soundPackLanguage);
---- a/CrewChiefV4/CrewChiefV4.csproj
-+++ b/CrewChiefV4/CrewChiefV4.csproj
-@@ -571,6 +571,7 @@
-     <Compile Include="NumberProcessing\CarNumber.cs" />
-     <Compile Include="NumberProcessing\SpokenNumberParser.cs" />
-     <Compile Include="NumberReaderPtBr.cs" />
-+    <Compile Include="NumberReaderZh.cs" />
-     <Compile Include="NumberReaderIt2.cs" />
-     <Compile Include="Overlay\Charts.cs" />
-     <Compile Include="Overlay\CommonSubscriptions.cs" />
+diff --git a/UnitTest/Misc/TestNumbersInMessages.cs b/UnitTest/Misc/TestNumbersInMessages.cs
+index c6e29adcb..ecad98043 100644
 --- a/UnitTest/Misc/TestNumbersInMessages.cs
 +++ b/UnitTest/Misc/TestNumbersInMessages.cs
-@@ -5,12 +5,149 @@
+@@ -5,11 +5,148 @@ using CrewChiefV4.NumberProcessing;
  using FluentAssertions;
  using NUnit.Framework;
  
@@ -167,7 +311,7 @@ CrewChief: 中文数字朗读支持
 +        /// reproduce. Whole-phrase recordings are preferred when the sound pack ships them, and their
 +        /// absence must stay harmless.
 +        /// </summary>
-         [Test]
++        [Test]
 +        public void TestChineseUsesWholePhraseRecordingWhenAvailable()
 +        {
 +            var reader = ChineseReader();
@@ -184,7 +328,6 @@ CrewChief: 中文数字朗读支持
 +            SoundCache.availableSounds.Clear();
 +        }
 +
-+        [Test]
+         [Test]
          public void TestPortugueseTwocmd()
          {
-             UserSettings.GetUserSettings().setProperty("use_naudio", false); // otherwise AudioPlayer Debug.Asserts
