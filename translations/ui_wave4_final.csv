@@ -1,0 +1,227 @@
+section,key,zh,english
+opponent_name_selection,personalisations_are_up_to_date,个性化称呼已是最新,Personalisations are up to date
+opponent_name_selection,dialog_title_opponent_name_selection,对手名称选择,Opponent Name Selection
+opponent_name_selection,opponent_name,对手名,Opponent name
+opponent_name_selection,none_of_the_above,以上都不是,None of the above
+opponent_name_selection,text_prop_type,(文本),(text)
+opponent_name_selection,integer_prop_type,（整数）,(integer)
+opponent_name_selection,real_number_prop_type,(实数),(real number)
+opponent_name_selection,save_prop_changes_warning,配置方案「{0}」有未保存的更改。\点击「是」以保存这些更改并重启程序。\点击「否」以放弃这些更改,Profile '{0}' has unsaved changes.\Click 'Yes' to save these changes and restart the application.\Click 'No' to discard these changes
+opponent_name_selection,save_prop_changes_warning_no_restart,配置方案「{0}」有未保存的更改。\点击「是」以保存这些更改。\点击「否」以放弃这些更改,Profile '{0}' has unsaved changes.\Click 'Yes' to save these changes.\Click 'No' to discard these changes
+opponent_name_selection,save_changes,保存更改(&S),&Save changes
+opponent_name_selection,save_changes_title,保存更改？,Save changes?
+opponent_name_selection,save_and_restart,保存配置方案设置并重启(&A),S&ave profile settings and restart
+opponent_name_selection,game_filter_label,游戏过滤(&G)：,&Game filter:
+opponent_name_selection,show_common_props_label,显示常用(&O),Show c&ommon
+opponent_name_selection,show_changed_props_label,显示更改(&H),Show c&hanged
+opponent_name_selection,show_non_default_props_label,显示非默认(&O),Show n&on-default
+opponent_name_selection,all_preferences_label,所有设置项,All Properties
+opponent_name_selection,common_preferences_label,常用设置项,Common Properties
+opponent_name_selection,unknown_sound_pack_language_text,当前的语音包未指定语言。\点击“是”继续更新（将应用默认的英文语音包文件并设置语言为英语）。\点击“否”取消。,"The current Sound Pack has no language specified.\Click ""Yes"" to proceed with the update (which will apply the default English Sound Pack update files and set the language to English).\Click ""No"" to cancel."
+opponent_name_selection,unknown_sound_pack_language_title,未定义语音包语言,No Sound Pack language defined
+opponent_name_selection,unknown_driver_names_language_text,当前语音包未指定语言。\点击“是”以继续更新（将下载默认的英文车手名更新）。\点击“否”以取消。,"The current Sound Pack has no language specified.\Click ""Yes"" to proceed with the update (which will download the default English driver name updates).\Click ""No"" to cancel."
+opponent_name_selection,unknown_driver_names_language_title,未定义语音包语言,No Sound Pack language defined
+opponent_name_selection,unknown_personalisations_language_text,当前语音包未指定语言。\点击“是”以继续更新（将下载默认的英文个性化称呼）。\点击“否”以取消。,"The current Sound Pack has no language specified.\Click ""Yes"" to proceed with the update (which will download the default English personalisations).\Click ""No"" to cancel."
+opponent_name_selection,unknown_personalisations_language_title,未定义语音包语言,No Sound Pack language defined
+opponent_name_selection,personalisation_label,我的名字(&Y)：,M&y name:
+opponent_name_selection,install_plugin_popup_text,需要一个插件才能与 Crew Chief 配合工作。点击确定，Crew Chief 将安装它（您需要重启游戏）。\一旦安装完成，Crew Chief 不应再要求安装。\如果仍然提示，请在控制台窗口中查找更多关于安装失败的信息。,"needs a plugin to work with Crew Chief.  Click OK and Crew Chief will install it (you will need to restart the game).\\Once it's installed Crew Chief should not ask again.\If it does, look for more information in the Console Window for why installing it failed."
+opponent_name_selection,install_plugin_popup_title,需要插件,Plugin Needed
+opponent_name_selection,install_plugin_select_directory_start,请选择您安装的文件夹,Please browse for the folder where you installed
+opponent_name_selection,install_plugin_select_directory_end,(未指定),(as it's not
+opponent_name_selection,install_plugin_popup_enable_text,Crew Chief 可以自动为你启用插件。\如果你选择取消，则需要你自己在游戏界面中启用插件。\点击确定以启用插件（你需要重启游戏）。,Crew Chief can automatically enable the plugin for you.\If instead you select Cancel you will have to enable it yourself in the game UI.\\Click OK to enable the plugin (you will need to restart the game).
+opponent_name_selection,install_plugin_popup_enable_title,插件未启用,Plugin Not Enabled
+opponent_name_selection,install_plugin_popup_create_text,Crew Chief 可以为你创建插件配置文件，如果你选择取消，\则需要手动在游戏界面启用。点击确定以创建插件配置文件（你需要重启游戏），或点击取消返回,"Crew Chief can create the plugin config file for you, if you select Cancel you will have to enable it manually in the game UI. Click OK to create the plugin config file (you will need to restart the game) or Cancel to Return"
+opponent_name_selection,install_plugin_popup_create_title,创建 CustomPluginVariables.JSON,Create CustomPluginVariables.JSON
+opponent_name_selection,install_plugin_popup_error_text,插件安装或更新失败。请确保游戏未运行。错误：,Failed to Install or Update the Plugin.  Please make sure the game is not running. Error:
+opponent_name_selection,install_plugin_popup_error_title,插件安装或更新失败,Plugin Install or Update failed
+opponent_name_selection,install_plugin_dll_not_installed_text,插件可能无法工作，继续吗？\查看帮助 / 开始使用 / 游戏特定设置 /,"Plugin probably won't work, continue anyway?\\See Help / Getting Started / Game specific /"
+opponent_name_selection,install_plugin_dll_not_installed_title,未安装,not installed
+opponent_name_selection,install_speechplatform_popup_title,缺少依赖项,Missing dependency
+opponent_name_selection,install_speechplatform_popup_text,系统缺少语音识别引擎所需的一个依赖项。\点击确定转到下载位置\或取消返回,It appears that your system is missing a dependency for speech recogniser to work.\Press OK to get redirected to the download location\Or Cancel to return
+opponent_name_selection,install_any_speechlanguage_popup_text,"系统缺少语音识别所需的依赖项。\请下载并安装以下文件之一：MSSpeech_SR_en-GB_TELE.msi,\MSSpeech_SR_en-US_TELE.msi, MSSpeech_SR_en-AU_TELE.msi,\MSSpeech_SR_en-CA_TELE.msi 或 MSSpeech_SR_en-IN_TELE.msi\。\点击确定以转到下载位置\或取消返回","It appears that your system is missing a dependency for speech recogniser to work. Please download and install one of the following MSSpeech_SR_en-GB_TELE.msi, MSSpeech_SR_en-US_TELE.msi,MSSpeech_SR_en-AU_TELE.msi, MSSpeech_SR_en-CA_TELE.msi or MSSpeech_SR_en-IN_TELE.msi.\Press OK to get redirected to the download location\Or Cancel to return"
+opponent_name_selection,install_single_speechlanguage_popup_text_start,系统缺少语音识别引擎所需的一个依赖项。请下载并安装 MSSpeech_SR_,It appears that your system is missing a dependency for speech recogniser to work. Please download and install MSSpeech_SR_
+opponent_name_selection,install_single_speechlanguage_popup_text_end,安装单语言语音包。点击确定转到下载位置，或取消返回,"_TELE.msi. Press OK to get redirected to the download location, Or Cancel to return"
+opponent_name_selection,properties_form,Crew Chief 配置设置项,Crew Chief Configuration Properties
+opponent_name_selection,exit_without_saving,不保存退出(&X),E&xit without Saving
+opponent_name_selection,restore_default_settings,恢复默认设置(&R),&Restore Default Settings
+opponent_name_selection,search_box_default_text,搜索设置项（Ctrl+E）,Search for property (Ctrl+E)
+opponent_name_selection,search_box_tooltip_line1,搜索不区分大小写，将匹配任何设置项名称或提示文本的部分内容,Search is not case-sensitive and will match any part of a property name or tooltip.
+opponent_name_selection,search_box_tooltip_line_hint,提示：要搜索特定游戏的设置，请将“游戏”设为“所有设置项”并使用,"Hint: to search preferences specific to a game set Game to ""All Properties"" and use"
+opponent_name_selection,search_box_tooltip_line_ACC,ACC - 适用于 Assetto Corsa Competizione,ACC - for Assetto Corsa Competizione
+opponent_name_selection,search_box_tooltip_line_ACE,ACE - 适用于 Assetto Corsa EVO,ACE - for Assetto Corsa Evo
+opponent_name_selection,search_box_tooltip_line_ACS,ACS - 适用于 Assetto Corsa,ACS - for Assetto Corsa
+opponent_name_selection,search_box_tooltip_line_AMS,AMS - 适用于 Automobilista,AMS - for Automobilista
+opponent_name_selection,search_box_tooltip_line_DIRT,DIRT - 适用于 Dirt Rally/2,DIRT - for Dirt Rally/2
+opponent_name_selection,search_box_tooltip_line_GTR2,GTR - 适用于 GTR 2,GTR - for GTR 2
+opponent_name_selection,search_box_tooltip_line_IRACING,iRacing - 适用于 iRacing,iRacing - for iRacing
+opponent_name_selection,search_box_tooltip_line_LMU,LMU - 适用于 Le Mans Ultimate,LMU - for Le Mans Ultimate
+opponent_name_selection,search_box_tooltip_line_PCARS,pCARS - 适用于 Project CARS 1 2 和 3,PCARS - for Project CARS 1 2 and 3
+opponent_name_selection,search_box_tooltip_line_PMR,PMR - 适用于 Project Motor Racing,PMR - for Project Motor Racing
+opponent_name_selection,search_box_tooltip_line_R3E,R3E - 适用于 RaceRoom Racing Experience,R3E - for RaceRoom Racing Experience
+opponent_name_selection,search_box_tooltip_line_RBR,RBR - 适用于 Richard Burns Rally,RBR - for Richard Burns Rally
+opponent_name_selection,search_box_tooltip_line_RF1,rF1 - 适用于 rFactor 1,rF1 - for rFactor 1
+opponent_name_selection,search_box_tooltip_line_RF2,rF2 - 适用于 rFactor 2,rF2 - for rFactor 2
+opponent_name_selection,no_matches,无匹配项,No matches.
+opponent_name_selection,reset_warning_text,这将把所有 Crew Chief {0} 配置方案「{1}」的设置重置为默认值，确定吗？,"This will reset all the Crew Chief {0} profile '{1}' settings to their default values, are you sure?"
+opponent_name_selection,reset_warning_title,将所有设置重置为默认值,Reset All Settings to Default Values
+opponent_name_selection,chief_name_label,车队工程师语音(&V)：,Chief &voice:
+opponent_name_selection,spotter_name_label,观察员语音(&V)：,Spotter &voice:
+opponent_name_selection,codriver_name_label,领航员(&D)：,Co-&driver:
+opponent_name_selection,codriver_style_label,风格(&S)：,&Style:
+opponent_name_selection,codriver_style_number_first,数字优先,Number First
+opponent_name_selection,codriver_style_direction_first,方向优先,Direction First
+opponent_name_selection,codriver_style_descriptive,描述性,Descriptive
+opponent_name_selection,codriver_style_number_first_reversed,数字优先倒序,Number First Reversed
+opponent_name_selection,codriver_style_direction_first_reversed,方向优先反转,Direction First Reversed
+opponent_name_selection,codriver_style_muted,静音（盲航）,Muted (Blind Rally)
+opponent_name_selection,messages_audio_device_label,播报播放设备(&K),Messages playbac&k device
+opponent_name_selection,background_audio_device_label,背景播放设备(&D),Background playback &device
+opponent_name_selection,version,版本,Version
+opponent_name_selection,the_application_must_be_restarted_to_check_for_updates,必须重启程序以检查更新。点击确定以重启程序。,The application must be restarted to check for updates. Click OK to restart the application.
+opponent_name_selection,check_for_updates,强制检查更新(&U),Force &update check
+opponent_name_selection,check_for_updates_title,强制检查更新,Force update check
+opponent_name_selection,donate_link_text,捐赠以支持 Crew Chief 开发,Donate to Support Crew Chief development
+opponent_name_selection,toggle_manual_formation_lap,切换手动编队圈模式,Toggle manual formation lap mode
+opponent_name_selection,read_corner_names_for_lap,读取当前圈的弯道名,Read corner names for current lap
+opponent_name_selection,the_application_must_be_restarted_to_switch_between_circuit_and_rally_racing,切换赛道和拉力赛需重启程序。点击确定以重启应用。,The application must be restarted to switch between Circuit and Rally racing. Click OK to restart the application.
+opponent_name_selection,switch_racing_type,切换比赛类型,Switch racing type
+opponent_name_selection,all_categories_label,所有类别,All Categories
+opponent_name_selection,ui_startup_and_paths_category_label,界面，启动与路径,"UI, Startup & Paths"
+opponent_name_selection,audio_voice_and_controllers_category_label,音频、语音及控制器,"Audio, Voice & Controllers"
+opponent_name_selection,spotter_category_label,观察员,Spotter
+opponent_name_selection,codriver_category_label,领航员,Co-Driver
+opponent_name_selection,flags_and_rules_category_label,旗语与规则,Flags & Rules
+opponent_name_selection,message_frequencies_category_label,播报频率,Message Frequencies
+opponent_name_selection,fuel_temps_and_damages_category_label,燃油、温度及损伤,"Fuel, Temperatures & Damage"
+opponent_name_selection,timings_category_label,计时,Timings
+opponent_name_selection,pit_stops_and_multiclass_category_label,进站与多级别,Pit Stops & Multiclass
+opponent_name_selection,internationalisation_label,国际化,Internationalisation
+opponent_name_selection,vr_settings_label,VR 设置,VR Settings
+opponent_name_selection,misc_category_label,其他,Miscellaneous
+opponent_name_selection,vip_category_label,重要设置项（VIP）,VIPs (Very Important Properties)
+opponent_name_selection,new_category_label,此版本新增设置项,New Properties in this release
+opponent_name_selection,debug_category_label,调试设置（主要供开发者使用）,Debug settings (mainly for developers)
+opponent_name_selection,toggle_enable_cut_track_warnings,切换切赛道提醒启用/关闭,Toggle cut track warnings on / off
+opponent_name_selection,category_filter_label,类别过滤(&T)：,Ca&tegory filter:
+opponent_name_selection,user_profile_settings,配置方案设置：,Profile settings:
+opponent_name_selection,user_profile,配置方案,Profiles
+opponent_name_selection,user_profile_label,配置方案(&P)：,&Profiles:
+opponent_name_selection,active_label,当前启用：,currently active:
+opponent_name_selection,profile,配置方案,Profile
+opponent_name_selection,activate_profile,激活配置方案(&A),&Activate profile
+opponent_name_selection,create_new_profile,创建配置方案(&C),&Create profile
+opponent_name_selection,copy_settings_from_current,从当前选定的配置方案复制设置(&O),C&opy settings from current selected profile
+opponent_name_selection,activate_new_profile,激活新配置方案并重启(&N),Activate &new profile and restart
+opponent_name_selection,scan_for_controllers,扫描控制器(&L),Scan for Contro&llers
+opponent_name_selection,cancel_scan,取消扫描(&E),Canc&el scan
+opponent_name_selection,edit_macro_commands,命令宏编辑器(&E),Command macro &editor
+opponent_name_selection,add_remove_actions,添加/删除操作(&R),Add/&Remove Actions
+opponent_name_selection,vr_window_settings,SteamVR 覆盖层设置(&V),Steam&VR overlay settings
+opponent_name_selection,available_windows_label,可见窗口(&W)：,Visible &windows:
+opponent_name_selection,controller_mappings_file_error_title,读取控制器映射错误,Error reading controller mappings
+opponent_name_selection,controller_mappings_file_error_details_1,控制器映射文件,Controller mapping file
+opponent_name_selection,controller_mappings_file_error_details_2,无效 - 没有可用的按钮映射。JSON 解析器的错误信息是：,is invalid - no button mappings will be available. Error message from JSON parsers is:
+macro_editor,global_macro_settings,全局设置,Global Settings
+macro_editor,available_macros,可用宏,Available macros
+macro_editor,regular_macro_voice_command,常规类型,Regular Type
+macro_editor,integer_macro_voice_command,整型类型,Integer Type
+macro_editor,macro_voice_trigger,语音指令,Voice Command
+macro_editor,new_macro_name,宏名称,Macro name
+macro_editor,confirmation_message,确认消息,Confirmation message
+macro_editor,add_or_edit_macro,添加/保存更改,Add/Save changes
+macro_editor,delete_selected_macro,删除宏,Delete macro
+macro_editor,select_confirmation_message,选择确认消息,Select confirmation message
+macro_editor,macro_description,描述,Description
+macro_editor,macro_view_only,操作编辑,Action edit
+macro_editor,edit_selected_macro,宏编辑,Macro edit
+macro_editor,create_new_macro,新建,Create new
+macro_editor,macro_edit_mode,模式,Mode
+macro_editor,game_specific_settings,游戏特定设置,Game specific settings
+macro_editor,action_sequence,动作序列,Action sequence
+macro_editor,new_action,新动作名称,New action name
+macro_editor,keypress_time,按键保持时间（可选）,Key hold time (optional)
+macro_editor,keypress_wait_time,按键之间的时间,Time between key presses
+macro_editor,add_action_to_sequence,将操作添加到序列,Add action to sequence
+macro_editor,add_key_to_sequence,将操作添加到序列,Add action to sequence
+macro_editor,add_action_sequence,将序列保存到宏中用于,Save sequence to macro for
+macro_editor,load_user_macro_settings,加载用户宏文件,Load user macros file
+macro_editor,load_default_macro_settings,加载默认宏文件,Load default macros file
+macro_editor,macro_please_download_soundpack,请下载语音包后再添加确认播报,Please download sound packs before adding confirmation message
+macro_editor,empty_name_or_voicetrigger,名称和触发词不得为空,Name and voice trigger must NOT be empty
+macro_editor,macro_voicetrigger_already_exists,语音触发词已存在于另一个宏中，请选择不同的,Voice trigger already exist for another macro please select a different
+macro_editor,regular_key_action,单键按下,Single key press
+macro_editor,multiple_key_action,重复按键,Repeated key presses
+macro_editor,voice_trigger_action,语音触发,Voice Trigger
+macro_editor,multiple_fuel_action,燃油操作,Fuel action
+macro_editor,wait_action,等待操作,Wait action
+macro_editor,free_text_action,自由文本,Free text
+macro_editor,dos_command,DOS 命令,DOS command
+macro_editor,dos_command_action,DOS 命令,DOS command
+macro_editor,rf2_hw_control_string,rF2 硬件控制,RF2 HWControl
+macro_editor,rf2_hw_control_string_action,rF2 硬件控制,RF2 HWControl
+macro_editor,modifier_and_key,修饰符和键,Modifier and key
+macro_editor,advanced_edit_action,高级编辑,Advanced edit
+macro_editor,action_repeated_key_presses,重复次数（整数）,Repetition count (integer)
+macro_editor,action_wait_time,等待时间（毫秒）,Wait time in milliseconds.
+macro_editor,action_free_text,自由文本,Free Text
+macro_editor,undo_last_action,撤销上次操作,Undo last action
+macro_editor,actions_keys,可用按键,Available keys
+macro_editor,modifier_keys,可用的修饰键,Available modifiers
+macro_editor,must_select_a_key,您必须从可用键列表中选择一个键,You must select a key from the list of available keys
+macro_editor,special_action_text_cant_be_empty,必须包含值,must contain a value
+macro_editor,delete_selected_macro_confirmation,确定要删除,Are you sure you want to delete
+macro_editor,delete_selected_macro_confirmation_title,确认删除,Confirm delete
+macro_editor,must_select_a_macro,您必须选择一个宏再尝试添加序列,You must select a macro before trying to add a sequence
+macro_editor,action_sequence_cant_be_empty,您必须至少添加一个动作到操作序列,You must add at least one action to Action sequence
+macro_editor,empty_wait_time_end,必须包含值,must contain a value
+macro_editor,auto_execute_start_chat,自动执行开始聊天,Auto execute start chat
+macro_editor,auto_execute_end_chat,自动执行结束聊天,Auto execute end chat
+action_editor,current_available_actions,当前可用操作(&C),&Current available actions
+action_editor,additional_available_actions,额外可用操作(&A),&Additional available actions
+action_editor,reload_actions,恢复用户默认设置(&R),&Restore user defaults.
+steamvr_overlay,enable_in_vr,在 VR 中显示(&V),Show in &VR
+steamvr_overlay,vr_overlay_position,覆盖层位置(&P),Overlay &position
+steamvr_overlay,vr_position_x,左 / 右（X）,Left / Right (X)
+steamvr_overlay,vr_position_y,上/下 (Y),Up / Down (Y)
+steamvr_overlay,vr_position_z,距离（Z）,Distance (Z)
+steamvr_overlay,vr_overlay_rotation,覆盖层旋转(&R),Overlay &rotation
+steamvr_overlay,vr_rotation_x,X 轴旋转,Rotation X axis
+steamvr_overlay,vr_rotation_y,Y 轴旋转,Rotation Y axis
+steamvr_overlay,vr_rotation_z,Z 轴旋转,Rotation Z axis
+steamvr_overlay,vr_overlay_scale_trans_curve,缩放 / 透明度 / 曲率(&C),S&cale / Transparency / Curvature
+steamvr_overlay,vr_scale,缩放,Scale
+steamvr_overlay,vr_transparency,透明度,Transparency
+steamvr_overlay,vr_curvature,曲率,Curvature
+steamvr_overlay,vr_enable_gazing,启用凝视(&G),Enable &Gazing
+steamvr_overlay,vr_gaze_scale,凝视缩放,Gazing scale
+steamvr_overlay,vr_gaze_transparency,凝视透明度,Gazing transparency
+steamvr_overlay,vr_force_topmost_window,窗口置顶,Force window on top
+steamvr_overlay,vr_toggle_key,切换键,Toggle Key(s)
+steamvr_overlay,vr_tracking_universe_overwrite,覆盖 VR 跟踪坐标系,Overwrite VR tracking universe
+steamvr_overlay,vr_recenter_pose,重置 VR 视图,Reset VR view
+steamvr_overlay,vr_transparent_background,透明背景(&B),Transparent &Background
+steamvr_overlay,vr_transparent_color,透明颜色,Transparent Color
+steamvr_overlay,vr_transparent_tolerance,容差,Tolerance
+steamvr_overlay,vr_tracking_space_seated,就坐,Seated
+steamvr_overlay,vr_tracking_space_standing,站立,Standing
+steamvr_overlay,vr_tracking_space_followhead,跟随头部,Follow Head
+steamvr_overlay,vr_tracking_space,跟踪空间,Tracking space
+steamvr_overlay,vr_decrement_x_position,减少 X 位置,Decrement X Position
+steamvr_overlay,vr_increment_x_position,增加 X 位置,Increment X Position
+steamvr_overlay,vr_decrement_y_position,减少 Y 位置,Decrement Y Position
+steamvr_overlay,vr_increment_y_position,增加 Y 位置,Increment Y Position
+steamvr_overlay,vr_decrement_z_position,减少 Z 位置,Decrement Z Position
+steamvr_overlay,vr_increment_z_position,增加 Z 位置,Increment Z Position
+steamvr_overlay,vr_decrement_x_rotation,减少 X 轴旋转,Decrement X Rotation
+steamvr_overlay,vr_increment_x_rotation,增加 X 轴旋转,Increment X Rotation
+steamvr_overlay,vr_decrement_y_rotation,减少 Y 轴旋转,Decrement Y Rotation
+steamvr_overlay,vr_increment_y_rotation,增加 Y 轴旋转,Increment Y Rotation
+steamvr_overlay,vr_decrement_z_rotation,减少 Z 轴旋转,Decrement Z Rotation
+steamvr_overlay,vr_increment_z_rotation,增加 Z 轴旋转,Increment Z Rotation
+steamvr_overlay,vr_decrement_scale,增大缩放,Increase Scale
+steamvr_overlay,vr_increment_scale,减小缩放,Decrease Scale
+steamvr_overlay,vr_decrement_transparency,增加透明度,Increase Transparency
+steamvr_overlay,vr_increment_transparency,降低透明度,Decrease Transparency
+steamvr_overlay,vr_reset_overlay_position_and_rotation,重置位置和旋转,Reset Position and Rotation
+steamvr_overlay,vr_previous_visible_overlay,选择下一个启用的窗口,Select Next Enabled Window
+steamvr_overlay,vr_next_visible_overlay,选择上一个启用的窗口,Select Previous Enabled Window

@@ -1,0 +1,227 @@
+section,key,zh,english
+opponent_name_selection,personalisations_are_up_to_date,,Personalisations are up to date
+opponent_name_selection,dialog_title_opponent_name_selection,,Opponent Name Selection
+opponent_name_selection,opponent_name,,Opponent name
+opponent_name_selection,none_of_the_above,,None of the above
+opponent_name_selection,text_prop_type,,(text)
+opponent_name_selection,integer_prop_type,,(integer)
+opponent_name_selection,real_number_prop_type,,(real number)
+opponent_name_selection,save_prop_changes_warning,,Profile '{0}' has unsaved changes.\Click 'Yes' to save these changes and restart the application.\Click 'No' to discard these changes
+opponent_name_selection,save_prop_changes_warning_no_restart,,Profile '{0}' has unsaved changes.\Click 'Yes' to save these changes.\Click 'No' to discard these changes
+opponent_name_selection,save_changes,,&Save changes
+opponent_name_selection,save_changes_title,,Save changes?
+opponent_name_selection,save_and_restart,,S&ave profile settings and restart
+opponent_name_selection,game_filter_label,,&Game filter:
+opponent_name_selection,show_common_props_label,,Show c&ommon
+opponent_name_selection,show_changed_props_label,,Show c&hanged
+opponent_name_selection,show_non_default_props_label,,Show n&on-default
+opponent_name_selection,all_preferences_label,,All Properties
+opponent_name_selection,common_preferences_label,,Common Properties
+opponent_name_selection,unknown_sound_pack_language_text,,"The current Sound Pack has no language specified.\Click ""Yes"" to proceed with the update (which will apply the default English Sound Pack update files and set the language to English).\Click ""No"" to cancel."
+opponent_name_selection,unknown_sound_pack_language_title,,No Sound Pack language defined
+opponent_name_selection,unknown_driver_names_language_text,,"The current Sound Pack has no language specified.\Click ""Yes"" to proceed with the update (which will download the default English driver name updates).\Click ""No"" to cancel."
+opponent_name_selection,unknown_driver_names_language_title,,No Sound Pack language defined
+opponent_name_selection,unknown_personalisations_language_text,,"The current Sound Pack has no language specified.\Click ""Yes"" to proceed with the update (which will download the default English personalisations).\Click ""No"" to cancel."
+opponent_name_selection,unknown_personalisations_language_title,,No Sound Pack language defined
+opponent_name_selection,personalisation_label,,M&y name:
+opponent_name_selection,install_plugin_popup_text,,"needs a plugin to work with Crew Chief.  Click OK and Crew Chief will install it (you will need to restart the game).\\Once it's installed Crew Chief should not ask again.\If it does, look for more information in the Console Window for why installing it failed."
+opponent_name_selection,install_plugin_popup_title,,Plugin Needed
+opponent_name_selection,install_plugin_select_directory_start,,Please browse for the folder where you installed
+opponent_name_selection,install_plugin_select_directory_end,,(as it's not
+opponent_name_selection,install_plugin_popup_enable_text,,Crew Chief can automatically enable the plugin for you.\If instead you select Cancel you will have to enable it yourself in the game UI.\\Click OK to enable the plugin (you will need to restart the game).
+opponent_name_selection,install_plugin_popup_enable_title,,Plugin Not Enabled
+opponent_name_selection,install_plugin_popup_create_text,,"Crew Chief can create the plugin config file for you, if you select Cancel you will have to enable it manually in the game UI. Click OK to create the plugin config file (you will need to restart the game) or Cancel to Return"
+opponent_name_selection,install_plugin_popup_create_title,,Create CustomPluginVariables.JSON
+opponent_name_selection,install_plugin_popup_error_text,,Failed to Install or Update the Plugin.  Please make sure the game is not running. Error:
+opponent_name_selection,install_plugin_popup_error_title,,Plugin Install or Update failed
+opponent_name_selection,install_plugin_dll_not_installed_text,,"Plugin probably won't work, continue anyway?\\See Help / Getting Started / Game specific /"
+opponent_name_selection,install_plugin_dll_not_installed_title,,not installed
+opponent_name_selection,install_speechplatform_popup_title,,Missing dependency
+opponent_name_selection,install_speechplatform_popup_text,,It appears that your system is missing a dependency for speech recogniser to work.\Press OK to get redirected to the download location\Or Cancel to return
+opponent_name_selection,install_any_speechlanguage_popup_text,,"It appears that your system is missing a dependency for speech recogniser to work. Please download and install one of the following MSSpeech_SR_en-GB_TELE.msi, MSSpeech_SR_en-US_TELE.msi,MSSpeech_SR_en-AU_TELE.msi, MSSpeech_SR_en-CA_TELE.msi or MSSpeech_SR_en-IN_TELE.msi.\Press OK to get redirected to the download location\Or Cancel to return"
+opponent_name_selection,install_single_speechlanguage_popup_text_start,,It appears that your system is missing a dependency for speech recogniser to work. Please download and install MSSpeech_SR_
+opponent_name_selection,install_single_speechlanguage_popup_text_end,,"_TELE.msi. Press OK to get redirected to the download location, Or Cancel to return"
+opponent_name_selection,properties_form,,Crew Chief Configuration Properties
+opponent_name_selection,exit_without_saving,,E&xit without Saving
+opponent_name_selection,restore_default_settings,,&Restore Default Settings
+opponent_name_selection,search_box_default_text,,Search for property (Ctrl+E)
+opponent_name_selection,search_box_tooltip_line1,,Search is not case-sensitive and will match any part of a property name or tooltip.
+opponent_name_selection,search_box_tooltip_line_hint,,"Hint: to search preferences specific to a game set Game to ""All Properties"" and use"
+opponent_name_selection,search_box_tooltip_line_ACC,,ACC - for Assetto Corsa Competizione
+opponent_name_selection,search_box_tooltip_line_ACE,,ACE - for Assetto Corsa Evo
+opponent_name_selection,search_box_tooltip_line_ACS,,ACS - for Assetto Corsa
+opponent_name_selection,search_box_tooltip_line_AMS,,AMS - for Automobilista
+opponent_name_selection,search_box_tooltip_line_DIRT,,DIRT - for Dirt Rally/2
+opponent_name_selection,search_box_tooltip_line_GTR2,,GTR - for GTR 2
+opponent_name_selection,search_box_tooltip_line_IRACING,,iRacing - for iRacing
+opponent_name_selection,search_box_tooltip_line_LMU,,LMU - for Le Mans Ultimate
+opponent_name_selection,search_box_tooltip_line_PCARS,,PCARS - for Project CARS 1 2 and 3
+opponent_name_selection,search_box_tooltip_line_PMR,,PMR - for Project Motor Racing
+opponent_name_selection,search_box_tooltip_line_R3E,,R3E - for RaceRoom Racing Experience
+opponent_name_selection,search_box_tooltip_line_RBR,,RBR - for Richard Burns Rally
+opponent_name_selection,search_box_tooltip_line_RF1,,rF1 - for rFactor 1
+opponent_name_selection,search_box_tooltip_line_RF2,,rF2 - for rFactor 2
+opponent_name_selection,no_matches,,No matches.
+opponent_name_selection,reset_warning_text,,"This will reset all the Crew Chief {0} profile '{1}' settings to their default values, are you sure?"
+opponent_name_selection,reset_warning_title,,Reset All Settings to Default Values
+opponent_name_selection,chief_name_label,,Chief &voice:
+opponent_name_selection,spotter_name_label,,Spotter &voice:
+opponent_name_selection,codriver_name_label,,Co-&driver:
+opponent_name_selection,codriver_style_label,,&Style:
+opponent_name_selection,codriver_style_number_first,,Number First
+opponent_name_selection,codriver_style_direction_first,,Direction First
+opponent_name_selection,codriver_style_descriptive,,Descriptive
+opponent_name_selection,codriver_style_number_first_reversed,,Number First Reversed
+opponent_name_selection,codriver_style_direction_first_reversed,,Direction First Reversed
+opponent_name_selection,codriver_style_muted,,Muted (Blind Rally)
+opponent_name_selection,messages_audio_device_label,,Messages playbac&k device
+opponent_name_selection,background_audio_device_label,,Background playback &device
+opponent_name_selection,version,,Version
+opponent_name_selection,the_application_must_be_restarted_to_check_for_updates,,The application must be restarted to check for updates. Click OK to restart the application.
+opponent_name_selection,check_for_updates,,Force &update check
+opponent_name_selection,check_for_updates_title,,Force update check
+opponent_name_selection,donate_link_text,,Donate to Support Crew Chief development
+opponent_name_selection,toggle_manual_formation_lap,,Toggle manual formation lap mode
+opponent_name_selection,read_corner_names_for_lap,,Read corner names for current lap
+opponent_name_selection,the_application_must_be_restarted_to_switch_between_circuit_and_rally_racing,,The application must be restarted to switch between Circuit and Rally racing. Click OK to restart the application.
+opponent_name_selection,switch_racing_type,,Switch racing type
+opponent_name_selection,all_categories_label,,All Categories
+opponent_name_selection,ui_startup_and_paths_category_label,,"UI, Startup & Paths"
+opponent_name_selection,audio_voice_and_controllers_category_label,,"Audio, Voice & Controllers"
+opponent_name_selection,spotter_category_label,,Spotter
+opponent_name_selection,codriver_category_label,,Co-Driver
+opponent_name_selection,flags_and_rules_category_label,,Flags & Rules
+opponent_name_selection,message_frequencies_category_label,,Message Frequencies
+opponent_name_selection,fuel_temps_and_damages_category_label,,"Fuel, Temperatures & Damage"
+opponent_name_selection,timings_category_label,,Timings
+opponent_name_selection,pit_stops_and_multiclass_category_label,,Pit Stops & Multiclass
+opponent_name_selection,internationalisation_label,,Internationalisation
+opponent_name_selection,vr_settings_label,,VR Settings
+opponent_name_selection,misc_category_label,,Miscellaneous
+opponent_name_selection,vip_category_label,,VIPs (Very Important Properties)
+opponent_name_selection,new_category_label,,New Properties in this release
+opponent_name_selection,debug_category_label,,Debug settings (mainly for developers)
+opponent_name_selection,toggle_enable_cut_track_warnings,,Toggle cut track warnings on / off
+opponent_name_selection,category_filter_label,,Ca&tegory filter:
+opponent_name_selection,user_profile_settings,,Profile settings:
+opponent_name_selection,user_profile,,Profiles
+opponent_name_selection,user_profile_label,,&Profiles:
+opponent_name_selection,active_label,,currently active:
+opponent_name_selection,profile,,Profile
+opponent_name_selection,activate_profile,,&Activate profile
+opponent_name_selection,create_new_profile,,&Create profile
+opponent_name_selection,copy_settings_from_current,,C&opy settings from current selected profile
+opponent_name_selection,activate_new_profile,,Activate &new profile and restart
+opponent_name_selection,scan_for_controllers,,Scan for Contro&llers
+opponent_name_selection,cancel_scan,,Canc&el scan
+opponent_name_selection,edit_macro_commands,,Command macro &editor
+opponent_name_selection,add_remove_actions,,Add/&Remove Actions
+opponent_name_selection,vr_window_settings,,Steam&VR overlay settings
+opponent_name_selection,available_windows_label,,Visible &windows:
+opponent_name_selection,controller_mappings_file_error_title,,Error reading controller mappings
+opponent_name_selection,controller_mappings_file_error_details_1,,Controller mapping file
+opponent_name_selection,controller_mappings_file_error_details_2,,is invalid - no button mappings will be available. Error message from JSON parsers is:
+macro_editor,global_macro_settings,,Global Settings
+macro_editor,available_macros,,Available macros
+macro_editor,regular_macro_voice_command,,Regular Type
+macro_editor,integer_macro_voice_command,,Integer Type
+macro_editor,macro_voice_trigger,,Voice Command
+macro_editor,new_macro_name,,Macro name
+macro_editor,confirmation_message,,Confirmation message
+macro_editor,add_or_edit_macro,,Add/Save changes
+macro_editor,delete_selected_macro,,Delete macro
+macro_editor,select_confirmation_message,,Select confirmation message
+macro_editor,macro_description,,Description
+macro_editor,macro_view_only,,Action edit
+macro_editor,edit_selected_macro,,Macro edit
+macro_editor,create_new_macro,,Create new
+macro_editor,macro_edit_mode,,Mode
+macro_editor,game_specific_settings,,Game specific settings
+macro_editor,action_sequence,,Action sequence
+macro_editor,new_action,,New action name
+macro_editor,keypress_time,,Key hold time (optional)
+macro_editor,keypress_wait_time,,Time between key presses
+macro_editor,add_action_to_sequence,,Add action to sequence
+macro_editor,add_key_to_sequence,,Add action to sequence
+macro_editor,add_action_sequence,,Save sequence to macro for
+macro_editor,load_user_macro_settings,,Load user macros file
+macro_editor,load_default_macro_settings,,Load default macros file
+macro_editor,macro_please_download_soundpack,,Please download sound packs before adding confirmation message
+macro_editor,empty_name_or_voicetrigger,,Name and voice trigger must NOT be empty
+macro_editor,macro_voicetrigger_already_exists,,Voice trigger already exist for another macro please select a different
+macro_editor,regular_key_action,,Single key press
+macro_editor,multiple_key_action,,Repeated key presses
+macro_editor,voice_trigger_action,,Voice Trigger
+macro_editor,multiple_fuel_action,,Fuel action
+macro_editor,wait_action,,Wait action
+macro_editor,free_text_action,,Free text
+macro_editor,dos_command,,DOS command
+macro_editor,dos_command_action,,DOS command
+macro_editor,rf2_hw_control_string,,RF2 HWControl
+macro_editor,rf2_hw_control_string_action,,RF2 HWControl
+macro_editor,modifier_and_key,,Modifier and key
+macro_editor,advanced_edit_action,,Advanced edit
+macro_editor,action_repeated_key_presses,,Repetition count (integer)
+macro_editor,action_wait_time,,Wait time in milliseconds.
+macro_editor,action_free_text,,Free Text
+macro_editor,undo_last_action,,Undo last action
+macro_editor,actions_keys,,Available keys
+macro_editor,modifier_keys,,Available modifiers
+macro_editor,must_select_a_key,,You must select a key from the list of available keys
+macro_editor,special_action_text_cant_be_empty,,must contain a value
+macro_editor,delete_selected_macro_confirmation,,Are you sure you want to delete
+macro_editor,delete_selected_macro_confirmation_title,,Confirm delete
+macro_editor,must_select_a_macro,,You must select a macro before trying to add a sequence
+macro_editor,action_sequence_cant_be_empty,,You must add at least one action to Action sequence
+macro_editor,empty_wait_time_end,,must contain a value
+macro_editor,auto_execute_start_chat,,Auto execute start chat
+macro_editor,auto_execute_end_chat,,Auto execute end chat
+action_editor,current_available_actions,,&Current available actions
+action_editor,additional_available_actions,,&Additional available actions
+action_editor,reload_actions,,&Restore user defaults.
+steamvr_overlay,enable_in_vr,,Show in &VR
+steamvr_overlay,vr_overlay_position,,Overlay &position
+steamvr_overlay,vr_position_x,,Left / Right (X)
+steamvr_overlay,vr_position_y,,Up / Down (Y)
+steamvr_overlay,vr_position_z,,Distance (Z)
+steamvr_overlay,vr_overlay_rotation,,Overlay &rotation
+steamvr_overlay,vr_rotation_x,,Rotation X axis
+steamvr_overlay,vr_rotation_y,,Rotation Y axis
+steamvr_overlay,vr_rotation_z,,Rotation Z axis
+steamvr_overlay,vr_overlay_scale_trans_curve,,S&cale / Transparency / Curvature
+steamvr_overlay,vr_scale,,Scale
+steamvr_overlay,vr_transparency,,Transparency
+steamvr_overlay,vr_curvature,,Curvature
+steamvr_overlay,vr_enable_gazing,,Enable &Gazing
+steamvr_overlay,vr_gaze_scale,,Gazing scale
+steamvr_overlay,vr_gaze_transparency,,Gazing transparency
+steamvr_overlay,vr_force_topmost_window,,Force window on top
+steamvr_overlay,vr_toggle_key,,Toggle Key(s)
+steamvr_overlay,vr_tracking_universe_overwrite,,Overwrite VR tracking universe
+steamvr_overlay,vr_recenter_pose,,Reset VR view
+steamvr_overlay,vr_transparent_background,,Transparent &Background
+steamvr_overlay,vr_transparent_color,,Transparent Color
+steamvr_overlay,vr_transparent_tolerance,,Tolerance
+steamvr_overlay,vr_tracking_space_seated,,Seated
+steamvr_overlay,vr_tracking_space_standing,,Standing
+steamvr_overlay,vr_tracking_space_followhead,,Follow Head
+steamvr_overlay,vr_tracking_space,,Tracking space
+steamvr_overlay,vr_decrement_x_position,,Decrement X Position
+steamvr_overlay,vr_increment_x_position,,Increment X Position
+steamvr_overlay,vr_decrement_y_position,,Decrement Y Position
+steamvr_overlay,vr_increment_y_position,,Increment Y Position
+steamvr_overlay,vr_decrement_z_position,,Decrement Z Position
+steamvr_overlay,vr_increment_z_position,,Increment Z Position
+steamvr_overlay,vr_decrement_x_rotation,,Decrement X Rotation
+steamvr_overlay,vr_increment_x_rotation,,Increment X Rotation
+steamvr_overlay,vr_decrement_y_rotation,,Decrement Y Rotation
+steamvr_overlay,vr_increment_y_rotation,,Increment Y Rotation
+steamvr_overlay,vr_decrement_z_rotation,,Decrement Z Rotation
+steamvr_overlay,vr_increment_z_rotation,,Increment Z Rotation
+steamvr_overlay,vr_decrement_scale,,Increase Scale
+steamvr_overlay,vr_increment_scale,,Decrease Scale
+steamvr_overlay,vr_decrement_transparency,,Increase Transparency
+steamvr_overlay,vr_increment_transparency,,Decrease Transparency
+steamvr_overlay,vr_reset_overlay_position_and_rotation,,Reset Position and Rotation
+steamvr_overlay,vr_previous_visible_overlay,,Select Next Enabled Window
+steamvr_overlay,vr_next_visible_overlay,,Select Previous Enabled Window

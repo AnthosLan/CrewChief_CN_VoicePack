@@ -1,0 +1,81 @@
+original_english,中文
+# 波次 U2（Preferences 属性名，490 条）的人工修正。按 original_english 索引。
+# 含逗号的英文必须加引号，否则 CSV 会拆成三个字段——fix_uitext.py 会报错退出。
+# 一词多译（警告/提醒、声音/语音、FCY 三种译法）收进 fix_uitext.py 的 TERM_FIXES，不写这里。
+
+# —— 译文碰撞：不同的设置项译成了同一句，界面上无法区分 ——
+# qa_uitext.py 的重复检测抓出来的。属性列表里这些行是挨着的，前缀是唯一的区分依据。
+R3E launch exe,R3E 启动程序
+GTR 2 launch exe,GTR 2 启动程序
+LMU launch exe,LMU 启动程序
+AMS launch exe,AMS 启动程序
+Launch pCARS 2,启动 pCARS 2
+Launch pCARS 3,启动 pCARS 3
+Launch rFactor 1,启动 rFactor 1
+# beep-in / beep-out 是工程师说话前后的两个不同提示音，而且 Chief 被译成了领航员。
+Insert beep-in between Spotter and Chief,在观察员与工程师之间插入进入提示音
+Insert beep-out between Spotter and Chief,在观察员与工程师之间插入结束提示音
+# clear = 判定安全（术语表口径），overlap = 并排。两个不同的延迟参数。
+Spotter clear delay,观察员安全判定延迟
+Spotter overlap delay,观察员并排判定延迟
+Spotter oval clear delay,观察员椭圆赛道安全判定延迟
+Frequency of gap behind reports,后方差距播报频率
+Frequency of gap behind on track reports,赛道上后方差距播报频率
+
+# —— 语义错 ——
+# talking to Crew Chief 是用户对着它说话（语音指令），不是 TTS 在说话。
+Enable audio ducking while talking to Crew Chief,与 Crew Chief 说话时启用音量闪避
+# 同上，Block messages 是你说话时压住播报。
+Block messages when talking to the Chief,与工程师说话时暂停播报
+# hundredths 是百分之一秒，不是百位。
+Always report time in hundredths,圈速始终播报到百分位
+# colloquially 被整个丢掉了，而这条正是 colloquial_time 那个开关。
+Announce time approximately/colloquially,用口语方式播报大致时间
+# lucky dog 是椭圆赛的一条规则（最快落圈车免费追回一圈），不是幸运转盘。
+# 和语音包里的处置一致：专有规则名保留英文。
+override iRacing lucky dog telemetry,覆盖 iRacing lucky dog 遥测
+disable iRacing lucky dog calls,禁用 iRacing lucky dog 播报
+# Strength of Field 是 iRacing 的场次实力值，这条是问它按不按玩家组别算。
+iRacing Strength of Field is for the player class,iRacing 实力值按玩家组别计算
+# hard parts 指赛道上难开的路段，不是硬件部件。
+Delay messages on hard parts,在赛道难点处延迟播报
+Toggle delay messages on hard parts,切换赛道难点处延迟播报
+# gap for clear 是判定「已经安全」所需的车距。
+Spotter gap for clear,观察员安全判定车距
+Min speed for spotter,观察员触发的最低车速
+Max closing speed for spotter,观察员判定的最大接近速度
+# caution period 是黄旗时段。
+Time between caution period status reminders,黄旗时段状态提醒间隔
+# stage recce 是拉力赛的赛段勘路，不是「阶段勘察」。
+Confirm each pace note in stage recce,勘路时逐条确认路书
+# Link ... closer than this 是把间距小于阈值的播报合并。
+Link co-driver calls closer than this (metres),合并间距小于此值的领航员播报（米）
+# wheel size 是车轮直径，用来算锁死和打滑，不是轮辋。
+Use rF2's real wheel size for lock/spin messages,使用 rF2 的真实车轮尺寸判定抱死/打滑
+Use LMU's real wheel size for lock/spin messages,使用 LMU 的真实车轮尺寸判定抱死/打滑
+# 游戏名不译。
+Include start location in Dirt Rally pace note folders,在 Dirt Rally 路书文件夹名里包含起点位置
+# telemetry 漏译了。
+MQTT Telemetry enabled,启用 MQTT 遥测
+# 「仅」放错了位置。
+Enable overlays (windowed / borderless window only),启用覆盖层（仅窗口/无边框窗口模式）
+# 两个「播报」叠在一起。
+Mute messages when playing pace notes,播放路书时静音其他播报
+
+# —— 措辞 ——
+Realistic mode,真实模式
+Enable pearls of wisdom,启用金句
+Min time between pearls of wisdom,金句最小间隔时间
+Frequency of pearls of wisdom,金句播报频率
+Fuel: percentile (road),燃油：百分位（公路赛道）
+Fuel: percentile (oval),燃油：百分位（椭圆赛道）
+iRacing FCY/formation use driver names,iRacing 全场黄旗/编队圈使用车手名
+
+# —— 上游英文本身重复，中文照样重复，不是错 ——
+# minimum_rally_voice_recognition_confidence_microsoft_sre 和 ..._system_sre 的英文都写成了
+# 'Windows recogniser'（前者应为 Microsoft）。修正表按英文索引，没法给两条不同的译文，
+# 保持和英文一样的重复。qa_uitext.py 会报重复，属预期。
+
+# —— 二轮审校补充 ——
+Manual formation 'go' when leader crosses line,领头车过线时手动发出编队圈「出发」
+Enable iRacing FCY pit state messages,启用 iRacing 全场黄旗进站播报

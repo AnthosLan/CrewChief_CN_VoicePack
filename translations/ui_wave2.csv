@@ -1,0 +1,491 @@
+section,key,zh,english
+preferences,no_help_provided,,No help provided
+preferences,trainee_chief_path,,Trainee chief
+preferences,acs_install_path,,ACS install path
+preferences,ace_install_path,,AC EVO install path
+preferences,ams_install_path,,AMS install path
+preferences,rf1_install_path,,rF1 install path
+preferences,asr_install_path,,ASR install path
+preferences,rf2_install_path,,rF2 install path
+preferences,lmu_install_path,,Le Mans Ultimate install path
+preferences,rbr_install_path,,RBR install path
+preferences,gtr2_install_path,,GTR 2 install path
+preferences,f1_2018_install_path,,F1 2018 install path
+preferences,acc_install_path,,ACC install path
+preferences,acc_machine_ip,,IP address for the machine ACC is running on
+preferences,ace_machine_ip,,IP address for the machine ACE is running on
+preferences,f1_2019_install_path,,F1 2019 install path
+preferences,override_default_sound_pack_location,,Override default Sound Pack location
+preferences,enable_brake_damage_messages,,Enable brake damage messages
+preferences,enable_acs_log_sectors_for_unknown_tracks,,Enable ACS log sectors for unknown tracks
+preferences,enable_ace_log_sectors_for_unknown_tracks,,Enable ACE log sectors for unknown tracks
+preferences,enable_brake_lock_warnings,,Enable brake lock warnings
+preferences,enable_brake_temp_warnings,,Enable brake temp warnings
+preferences,enable_damage_messages,,Enable damage messages
+preferences,enable_driver_names,,Enable driver names
+preferences,enable_drs_messages,,Enable DRS messages
+preferences,enable_drs_beeps,,Enable DRS beeps
+preferences,enable_fuel_messages,,Enable fuel messages
+preferences,enable_battery_messages,,Enable battery messages
+preferences,enable_gap_messages,,Enable gap messages
+preferences,gap_message_randomness,,Randomness of all gap ahead/behind messages
+preferences,enable_green_light_messages,,Enable green light messages
+preferences,enable_pearls_of_wisdom,,Enable pearls of wisdom
+preferences,enable_pit_exit_brake_temp_warning,,Enable pit exit brake temp warning
+preferences,enable_pit_exit_tyre_temp_warning,,Enable pit exit tyre temp warning
+preferences,enable_position_messages,,Enable position messages
+preferences,enable_push_to_pass_messages,,Enable push to pass messages
+preferences,enable_race_start_messages,,Enable race start messages
+preferences,enable_session_end_messages,,Enable session end messages
+preferences,enable_spotter_in_timetrial,,Enable Spotter in timetrial
+preferences,enable_suspension_damage_messages,,Enable suspension damage messages
+preferences,enable_track_and_air_temp_reports,,Enable track and air temp reports
+preferences,enable_tyre_temp_warnings,,Enable tyre temp warnings
+preferences,enable_tyre_wear_warnings,,Enable tyre wear warnings
+preferences,enable_wheel_spin_warnings,,Enable wheelspin warnings
+preferences,enable_tyre_dirt_pickup_warnings,,Enable tyre dirt pickup warnings
+preferences,attempt_pcars_opponent_pit_detection,,Attempt pCARS opponent pit detection
+preferences,cache_sounds,,Cache sounds
+preferences,disable_acs_yellow_flag_warnings,,Disable ACS yellow flag warnings
+preferences,disable_ace_yellow_flag_warnings,,Disable ACE yellow flag warnings
+preferences,disable_pcars_prac_and_qual_pole_deltas,,Disable pCARS prac and qual pole deltas
+preferences,launch_acs,,Launch ACS
+preferences,launch_ace,,Launch AC EVO
+preferences,play_cut_track_warnings,,Play cut track warnings
+preferences,spotter_enable_three_wide_left_and_right,,Spotter enable three wide left and right
+preferences,use_alternate_beeps,,Use alternate beeps
+preferences,use_fahrenheit,,Use Fahrenheit for temps
+preferences,use_listen_beep,,Use listen beep
+preferences,use_listen_end_beep,,Use end of listening beep
+preferences,acs_practice_time_minuts,,ACS practice time minutes
+preferences,ace_practice_time_minutes,,AC EVO practice time minutes
+preferences,min_time_between_personalised_messages,,Min time between personalised messages
+preferences,minimum_time_between_pearls_of_wisdom,,Min time between pearls of wisdom
+preferences,spotter_hold_repeat_frequency,,Spotter hold repeat frequency
+preferences,spotter_hold_repeat_frequency_ovals,,Spotter hold repeat frequency (ovals)
+preferences,enable_oval_spotter_enhancements,,Enable enhanced spotter on ovals
+preferences,spotter_update_interval,,Spotter update interval
+preferences,spotter_off_during_qualifying,,Spotter off during qualifying
+preferences,acc_udp_data_port,,ACC UDP port
+preferences,ace_udp_data_port,,ACE UDP port
+preferences,udp_data_port,,pCARS UDP port
+preferences,pmr_udp_port,,PMR UDP port
+preferences,f1_2018_udp_data_port,,F1 2018 UDP port
+preferences,f1_2019_udp_data_port,,F1 2019 UDP port
+preferences,f1_2020_udp_data_port,,F1 2020 UDP port
+preferences,f1_2021_udp_data_port,,F1 2021 UDP port
+preferences,f1_2022_udp_data_port,,F1 2022 UDP port
+preferences,f1_2023_udp_data_port,,F1 2023 UDP port
+preferences,acs_spotter_car_length,,ACS Spotter default car length
+preferences,ace_spotter_car_length,,AC EVO Spotter default car length
+preferences,acc_spotter_car_length,,ACC Spotter default car length
+preferences,ams_spotter_car_length,,AMS Spotter default car length
+preferences,pcars_spotter_car_length,,pCARS Spotter default car length
+preferences,pcars2_spotter_car_length,,pCARS2 Spotter default car length
+preferences,ams2_spotter_car_length,,AMS2 Spotter default car length
+preferences,r3e_spotter_car_length,,R3E Spotter default car length
+preferences,rf1_spotter_car_length,,rF1 Spotter default car length
+preferences,rf2_spotter_car_length,,rF2 Spotter default car length
+preferences,lmu_spotter_car_length,,LMU Spotter default car length
+preferences,gtr2_spotter_car_length,,GTR 2 Spotter default car length
+preferences,f1_2018_spotter_car_length,,F1 2018 Spotter default car length
+preferences,f1_2019_spotter_car_length,,F1 2019 Spotter default car length
+preferences,f1_2020_spotter_car_length,,F1 2020 Spotter default car length
+preferences,f1_2021_spotter_car_length,,F1 2021 Spotter default car length
+preferences,f1_2022_spotter_car_length,,F1 2022 Spotter default car length
+preferences,f1_2023_spotter_car_length,,F1 2023 Spotter default car length
+preferences,spotter_gap_for_clear,,Spotter gap for clear
+preferences,messages_volume,,&Messages volume
+preferences,background_volume,,&Background volume
+preferences,update_interval,,Update interval
+preferences,use_sweary_messages,,Use sweary messages
+preferences,enable_spotter,,Enable Spotter
+preferences,speech_recognition_country,,Speech recognition country
+preferences,ui_language,,UI language
+preferences,spotter_car_length,,Spotter car length
+preferences,time_after_race_start_for_spotter,,Time after race start for spotter
+preferences,min_speed_for_spotter,,Min speed for spotter
+preferences,max_closing_speed_for_spotter,,Max closing speed for spotter
+preferences,spotter_clear_delay,,Spotter clear delay
+preferences,spotter_overlap_delay,,Spotter overlap delay
+preferences,custom_device_guid,,Custom device GUID
+preferences,launch_raceroom,,Launch R3E
+preferences,r3e_launch_params,,R3E launch params
+preferences,launch_race_remaster,,Launch Race Remaster
+preferences,pcars32_launch_params,,pCARS 32bit launch params
+preferences,pcars64_launch_params,,pCARS 64bit launch params
+preferences,rf1_launch_params,,rF1 launch params
+preferences,rf2_launch_params,,rF2 launch params
+preferences,lmu_launch_params,,LMU launch params
+preferences,gsc_launch_params,,GSC launch params
+preferences,ams_launch_params,,AMS launch params
+preferences,acs_launch_params,,ACS launch params
+preferences,ace_launch_params,,AC Evo launch params
+preferences,marcas_launch_params,,Marcas launch params
+preferences,ftruck_launch_params,,FTruck launch params
+preferences,f1_2018_launch_params,,F1 2018 launch params
+preferences,f1_2019_launch_params,,F1 2019 launch params
+preferences,f1_2020_launch_params,,F1 2020 launch params
+preferences,f1_2021_launch_params,,F1 2021 launch params
+preferences,f1_2022_launch_params,,F1 2022 launch params
+preferences,f1_2023_launch_params,,F1 2023 launch params
+preferences,r3e_launch_exe,,R3E launch exe
+preferences,rbr_launch_exe,,RBR launch exe
+preferences,gtr2_launch_exe,,GTR 2 launch exe
+preferences,dirt_launch_exe,,Dirt Rally launch exe
+preferences,dirt_launch_params,,Dirt Rally launch params
+preferences,dirt2_launch_exe,,Dirt Rally 2 launch exe
+preferences,dirt2_launch_params,,Dirt Rally 2 launch params
+preferences,acc_launch_exe,,ACC launch exe
+preferences,rf1_launch_exe,,rF1 launch exe
+preferences,asr_launch_exe,,ASR launch exe
+preferences,rf2_launch_exe,,rF2 launch exe
+preferences,lmu_launch_exe,,LMU launch exe
+preferences,gsc_launch_exe,,GSC launch exe
+preferences,ams_launch_exe,,AMS launch exe
+preferences,acs_launch_exe,,ACS launch exe
+preferences,ace_launch_exe,,AC EVO launch exe
+preferences,marcas_launch_exe,,Marcas launch exe
+preferences,ftruck_launch_exe,,FTruck launch exe
+preferences,pcars32_launch_exe,,pCARS 32bit launch exe
+preferences,pcars64_launch_exe,,pCARS 64bit launch exe
+preferences,f1_2018_launch_exe,,F1 2018 launch exe
+preferences,f1_2019_launch_exe,,F1 2019 launch exe
+preferences,f1_2020_launch_exe,,F1 2020 launch exe
+preferences,f1_2021_launch_exe,,F1 2021 launch exe
+preferences,f1_2022_launch_exe,,F1 2022 launch exe
+preferences,f1_2023_launch_exe,,F1 2023 launch exe
+preferences,launch_rfactor1,,Launch rFactor 1
+preferences,launch_asr,,Launch ASR
+preferences,launch_rfactor2,,Launch rFactor 2
+preferences,launch_lmu,,Launch LMU
+preferences,launch_rbr,,Launch RBR
+preferences,launch_gtr2,,Launch GTR 2
+preferences,launch_dirt,,Launch Dirt Rally
+preferences,launch_dirt2,,Launch Dirt Rally 2
+preferences,launch_gsc,,Launch GSC
+preferences,launch_f1_2018,,Launch F1 2018
+preferences,launch_f1_2019,,Launch F1 2019
+preferences,launch_f1_2020,,Launch F1 2020
+preferences,launch_f1_2021,,Launch F1 2021
+preferences,launch_f1_2022,,Launch F1 2022
+preferences,launch_f1_2023,,Launch F1 2023
+preferences,launch_ams,,Launch AMS
+preferences,launch_marcas,,Launch Marcas
+preferences,launch_ftruck,,Launch FTruck
+preferences,launch_pcars,,Launch pCARS
+preferences,launch_acc,,Launch ACC
+preferences,pcars2_launch_exe,,pCARS 2 launch exe
+preferences,pcars3_launch_exe,,pCARS 3 launch exe
+preferences,pcars2_launch_params,,pCARS 2 launch params
+preferences,pcars3_launch_params,,pCARS 3 launch params
+preferences,ams2_launch_exe,,AMS 2 launch exe
+preferences,ams2_launch_params,,AMS 2 launch params
+preferences,acc_launch_params,,ACC launch params
+preferences,launch_pcars2,,Launch pCARS 2
+preferences,launch_pcars3,,Launch pCARS 3
+preferences,launch_ams2,,Launch AMS 2
+preferences,iracing_launch_exe,,iRacing launch exe
+preferences,iracing_launch_params,,iRacing launch params
+preferences,launch_iracing,,Launch iRacing
+preferences,run_immediately,,Run immediately
+preferences,pcars_steam_id,,pCARS Steam ID
+preferences,cumulative_lap_lockup_warning_threshold,,Cumulative lap lockup warning threshold
+preferences,cumulative_lap_wheelspin_warning_threshold,,Cumulative lap wheelspin warning threshold
+preferences,minimum_name_voice_recognition_confidence,,Min name voice recognition confidence (Microsoft recogniser)
+preferences,minimum_name_voice_recognition_confidence_system_sre,,Min name voice recognition confidence (Windows recogniser)
+preferences,minimum_voice_recognition_confidence,,Min voice recognition confidence (Microsoft recogniser)
+preferences,minimum_voice_recognition_confidence_system_sre,,Min voice recognition confidence (Windows recogniser)
+preferences,display_session_lap_times,,Display session lap times
+preferences,enable_opponent_laptime_reporting_in_race,,Enable opponent lap time reporting in race
+preferences,report_sector_deltas_race,,Report race sector deltas
+preferences,report_sector_deltas_race_likelihood,,Report race sector deltas likelihood
+preferences,report_sector_deltas_practice_and_qual,,Report practice and qual sector deltas
+preferences,frequency_of_overtaking_messages,,Frequency of overtaking messages
+preferences,frequency_of_being_overtaken_messages,,Frequency of being overtaken messages
+preferences,frequency_of_gap_ahead_reports,,Frequency of gap ahead reports
+preferences,frequency_of_gap_behind_reports,,Frequency of gap behind reports
+preferences,frequency_of_gap_behind_on_track_reports,,Frequency of gap behind on track reports
+preferences,frequency_of_opponent_race_lap_times,,Frequency of opponent race lap times
+preferences,frequency_of_opponent_practice_and_qual_lap_times,,Frequency of opponent practice and quali lap times
+preferences,seconds_to_announce_next_car,,Time between announcing new opponent
+preferences,minutes_to_announce_same_next_car,,Time between announcing the same opponent ahead
+preferences,opponents_number_after_name,,Opponents identified by name and number
+preferences,frequency_of_pearls_of_wisdom,,Frequency of pearls of wisdom
+preferences,frequency_of_player_race_lap_time_reports,,Frequency of player race lap time reports
+preferences,frequency_of_player_prac_and_qual_lap_time_reports,,Freq of player prac and qual lap time reports
+preferences,frequency_of_prac_and_qual_sector_delta_reports,,Frequency of player prac and qual sector delta reports
+preferences,frequency_of_race_sector_delta_reports,,Frequency of race sector delta reports
+preferences,race_sector_reports_at_each_sector,,Race sector reports at each sector
+preferences,race_sector_reports_at_lap_end,,Race sector reports at lap end
+preferences,practice_and_qual_sector_reports_at_each_sector,,Prac and qual sector reports at each sector
+preferences,practice_and_qual_sector_reports_at_lap_end,,Prac and qual sector reports at lap end
+preferences,iracing_reputations,,Reputation Messages
+preferences,iracing_reputations_flair_bad,,Flag Reputations (bad)
+preferences,iracing_reputations_flair_good,,Flag Reputations (good)
+preferences,iracing_reputations_ratings,,iRating Reputation (Absolute)
+preferences,iracing_reputations_division,,Division Reputation (Absolute)
+preferences,iracing_reputations_safety,,Safety Reputation (Relative)
+preferences,enable_opponent_rating_info,,Enable Opponent rating info
+preferences,ambient_temp_check_interval_seconds,,Ambient temp check interval seconds
+preferences,track_temp_check_interval_seconds,,Track temp check interval seconds
+preferences,report_ambient_temp_changes_greater_than,,Report ambient temp changes greater than
+preferences,report_track_temp_changes_greater_than,,Report track temp changes greater than
+preferences,pause_between_messages,,Pause between messages
+preferences,pause_between_message_fragments,,Pause between message fragments (ms)
+preferences,load_sound_files_on_startup,,Load sound files on startup
+preferences,enable_automatic_plugin_update,,Update game plugins on startup
+preferences,pcars_character_encoding,,pCARS character encoding
+preferences,ams2_character_encoding,,AMS2 character encoding
+preferences,enable_pcars_pit_window_messages,,Enable pCARS pit window messages
+preferences,report_yellows_in_all_sectors,,Report yellows in all sectors
+preferences,max_distance_moved_for_yellow_announcement,,Max distance moved for yellow announcement
+preferences,min_secs_for_debris_flag,,Minimum time between announcing a debris flag.
+preferences,enable_delayed_responses,,Enable delayed voice command responses
+preferences,enable_console_logging,,Enable console logging
+preferences,console_font_size,,Set console font size
+preferences,console_flush,,Continuously write the console log to disc
+preferences,log_tyre_stats,,Log tyre stats
+preferences,r3e_blue_flag_detection_distance,,R3E blue flag detection distance
+preferences,play_pre_lights_messages_until_cancelled,,Play pre-lights messages until cancelled
+preferences,time_between_caution_period_status_reminders,,Time between caution period status reminders
+preferences,enable_ams_pit_schedule_messages,,Enable AMS pit schedule messages
+preferences,report_allowed_overtakes_under_yellow,,Report allowed overtakes under yellow
+preferences,iracing_override_luckydog,,override iRacing lucky dog telemetry
+preferences,iracing_disable_luckydog,,disable iRacing lucky dog calls
+preferences,enable_rf2_pit_stop_prediction,,Enable rF2 pit stop prediction
+preferences,enable_lmu_pit_stop_prediction,,Enable LMU pit stop prediction
+preferences,enable_gtr2_pit_stop_prediction,,Enable GTR 2 pit stop prediction
+preferences,enable_simple_incident_detection_listprop,,Enable simple incident detection
+preferences,enable_simple_incident_detection_listprop_value_0,,Disabled
+preferences,enable_simple_incident_detection_listprop_value_1,,Race Only
+preferences,enable_simple_incident_detection_listprop_value_2,,All Sessions
+preferences,simple_incident_detection_report_delay,,Simple incident detection delay (ms)
+preferences,enable_yellow_flag_messages,,Enable yellow flag messages
+preferences,enable_opponent_crash_messages,,Enable opponent crash messages
+preferences,prefer_alternative_download_site,,Prefer alternative download site
+preferences,iracing_sof_playerclass,,iRacing Strength of Field is for the player class
+preferences,use_american_terms,,Use American terms
+preferences,use_metric,,Use metric
+preferences,iracing_overrides_units,,iRacing overrides units
+preferences,realistic_mode,,Realistic mode
+preferences,always_report_time_in_hundredths,,Always report time in hundredths
+preferences,no_minutes_in_lap_times,,Don't report minutes in lap times
+preferences,insert_beep_in_between_spotter_and_chief,,Insert beep-in between Spotter and Chief
+preferences,insert_beep_out_between_spotter_and_chief,,Insert beep-out between Spotter and Chief
+preferences,minimize_to_tray,,Minimize to tray
+preferences,minimize_on_startup,,Minimize on startup
+preferences,manual_formation_go_with_leader,,Manual formation 'go' when leader crosses line
+preferences,reject_message_when_talking,,Block messages when talking to the Chief
+preferences,enable_rf2_frozen_order_messages,,Enable rF2 frozen order messages
+preferences,enable_rf2_cut_track_heuristics,,Extra cut track detection for rF2
+preferences,enable_lmu_frozen_order_messages,,Enable LMU frozen order messages
+preferences,enable_lmu_cut_track_heuristics,,Extra cut track detection for LMU
+preferences,enable_gtr2_cut_track_heuristics,,Extra cut track detection for GTR 2
+preferences,enable_rf2_pit_lane_approach_heuristics,,Enable rF2 pit lane approach detection
+preferences,enable_lmu_pit_lane_approach_heuristics,,Enable LMU pit lane approach detection
+preferences,enable_command_macros,,Enable voice command macros
+preferences,pcars_enable_rain_prediction,,Enable PCars rain prediction using CloudBrightness
+preferences,disable_alternative_voice_commands,,Disable alternative voice commands
+preferences,use_verbose_responses,,Use verbose command responses
+preferences,toggle_pace_notes_recording,,Start / stop recording pace notes
+preferences,toggle_pace_notes_playback,,Start / stop playing pace notes
+preferences,use_naudio,,Use nAudio for playback
+preferences,toggle_track_landmarks_recording,,Start / stop track landmarks recording
+preferences,add_track_landmark,,Add Start / end track landmark
+preferences,tts_volume_boost,,TTS volume boost (scale)
+preferences,tts_trim_start_milliseconds,,Trim start of TTS sounds (milliseconds)
+preferences,tts_trim_end_milliseconds,,Trim end of TTS sounds (milliseconds)
+preferences,iracing_pit_tyre_pressure_in_psi,,iRacing tyre pressure adjustments in PSI
+preferences,spotter_volume_boost,,Spotter volume boost (scale)
+preferences,manual_formation_double_file,,Manual formation lap double-file start
+preferences,manual_formation_split_classes,,Manual formation lap separate classes
+preferences,save_list_of_unvocalized_names,,Save driver names with no sound
+preferences,enable_ams_blue_on_slower,,Enable AMS / rF1 blue on slower
+preferences,enable_rants,,Enable rants
+preferences,spotter_oval_clear_delay,,Spotter oval clear delay
+preferences,use_naudio_for_speech_recognition,,Use nAudio for speech input
+preferences,enable_rf2_pit_state_during_fcy,,Enable rF2 FCY pit state messages
+preferences,enable_lmu_pit_state_during_fcy,,Enable LMU FCY pit state messages
+preferences,enable_ams_pit_state_during_fcy,,Enable AMS / rF1 FCY pit state messages
+preferences,bring_game_window_to_front_for_macros,,Ensure game is on top for voice command macros
+preferences,report_all_laps_in_hotlap_mode,,Report all laps when hotlapping/lone practice
+preferences,enable_crash_messages,,Enable crash messages
+preferences,force_single_class,,Force single car class
+preferences,force_min_window_size,,Force minimum window size
+preferences,pit_box_position_countdown,,Pit box distance countdown
+preferences,pit_box_time_countdown,,Pit box time countdown
+preferences,pit_box_time_countdown_end_position,,Pit box time countdown end point (metres)
+preferences,pit_box_position_countdown_in_feet,,Pit box distance countdown in feet
+preferences,enable_multiclass_messages,,Enable multi-class messages
+preferences,target_warning_time_for_slower_class_car,,Multi-class slower car warning time
+preferences,target_warning_time_for_faster_class_car,,Multi-class faster car warning time
+preferences,max_unknown_car_classes_for_assetto,,Max unknown car models in ACS multi-class races
+preferences,iracing_fast_parsing,,iRacing faster parser
+preferences,crewchief_record_trace_checkbox,,Make the trace recording checkbox visible
+preferences,trace_race_sessions_only,,Trace race sessions only
+preferences,enable_iracing_pit_stop_commands,,Enable iRacing pit stop voice commands
+preferences,add_additional_fuel,,(LEGACY) Additional fuel to add to finish the race (number of laps worth)
+preferences,legacy_fuel,,Legacy fuel calculation
+preferences,fuel_saving_percentage,,Fuel: saving target (percentage)
+preferences,fuel_percentile,,Fuel: percentile (road)
+preferences,fuel_percentile_oval,,Fuel: percentile (oval)
+preferences,fuel_reserve_laps_short,,Fuel: extra laps (short tracks)
+preferences,fuel_reserve_laps_medium,,Fuel: extra laps (medium tracks)
+preferences,fuel_reserve_laps_long,,Fuel: extra laps (long tracks)
+preferences,fuel_extra_laps_oval,,Fuel: extra laps (oval tracks)
+preferences,fuel_extra_laps_endurance,,Fuel: extra laps (endurance races)
+preferences,fuel_experimental_lap_estimator_multiclass,,Fuel: multiclass pitstop times (Experimental)
+preferences,iracing_invalidate_cut_track_laps,,iRacing Invalidate cut track Laps
+preferences,enable_pit_exit_position_estimates,,Enable pit exit position estimates
+preferences,enable_opponent_pit_exit_estimates,,Enable opponent pit exit estimates
+preferences,enable_delayed_messages_on_hardparts,,Delay messages on hard parts
+preferences,toggle_delay_messages_in_hard_parts,,Toggle delay messages on hard parts
+preferences,iracing_enable_auto_fuel_to_end_of_race,,Enable iRacing auto refuelling when entering pit in race
+preferences,rf2_enable_auto_fuel_to_end_of_race,,Enable rF2 auto refuelling when entering pit in race
+preferences,rf2_enable_pit_manager,,Enable rF2 pit manager
+preferences,rf2_enable_auto_clear_tyre_change,,Enable rF2 auto clear tyre change
+preferences,lmu_enable_auto_fuel_to_end_of_race,,Enable LMU auto refuelling when entering pit in race
+preferences,lmu_enable_pit_manager,,Enable LMU pit manager
+preferences,priortise_messages_depending_on_situation,,Advanced message prioritisation
+preferences,trigger_word_for_always_on_sre,,Speech recogniser trigger word
+preferences,interrupt_setting_listprop,,Interrupt regular messages
+preferences,interrupt_setting_listprop_value_0,,Never
+preferences,interrupt_setting_listprop_value_1,,Spotter only
+preferences,interrupt_setting_listprop_value_2,,Spotter and critical messages only
+preferences,interrupt_setting_listprop_value_3,,Spotter and all important messages
+preferences,tts_setting_listprop,,TTS setting
+preferences,tts_setting_listprop_value_0,,Don't use TTS
+preferences,tts_setting_listprop_value_1,,Use TTS only when necessary
+preferences,tts_setting_listprop_value_2,,Use TTS for all missing names
+preferences,naudio_output_interface_listprop,,nAudio Output Interface Type
+preferences,naudio_output_interface_listprop_value_0,,WaveOut
+preferences,naudio_output_interface_listprop_value_1,,WASAPI
+preferences,naudio_wasapi_latency,,nAudio WASAPI latency (ms)
+preferences,trigger_word_sre_min_confidence,,Min trigger word confidence (Microsoft recogniser)
+preferences,trigger_word_sre_min_confidence_system_sre,,Min trigger word confidence (Windows recogniser)
+preferences,trigger_word_listen_timeout,,Trigger word listen timeout (ms)
+preferences,enable_alarm_clock_voice_recognition,,Enable alarm clock voice commands
+preferences,alarm_clock_times,,Alarm time(s)
+preferences,disable_behavior_altering_voice_commands,,Disable behaviour voice commands
+preferences,disable_overlay_voice_commands,,Disable overlay voice commands
+preferences,slow_class_car_warnings_in_race_only,,Slow car class warnings in race only
+preferences,record_sound_variety_data,,Record sound variety data
+preferences,persist_pitstop_benchmark_times,,Save pit stop benchmark times to disk
+preferences,use_rf2_wheel_size_for_locking_and_spinning,,Use rF2's real wheel size for lock/spin messages
+preferences,use_lmu_wheel_size_for_locking_and_spinning,,Use LMU's real wheel size for lock/spin messages
+preferences,enable_iracing_pit_state_during_fcy,,Enable iRacing FCY pit state messages
+preferences,iracing_fcy_formation_use_drivername,,iRacing FCY/formation use driver names
+preferences,formation_doublefile_variation,,Formation message variation
+preferences,enable_websocket,,Enable Websocket integration
+preferences,websocket_port,,Crew Chief data Websocket port
+preferences,enable_rf2_wrong_way_message,,Enable rF2 'Wrong Way' message
+preferences,enable_lmu_wrong_way_message,,Enable LMU 'Wrong Way' message
+preferences,enable_game_data_websocket,,Enable WebHud integration (R3E only)
+preferences,game_data_websocket_port,,Game data Websocket port
+preferences,disable_rf2_race_end_messages_on_abandoned_sessions,,Disable rF2 race end msg. for abandoned events
+preferences,disable_lmu_race_end_messages_on_abandoned_sessions,,Disable LMU race end msg. for abandoned events
+preferences,hold_button_poll_frequency,,Hold button poll frequency
+preferences,sre_wait_time,,How long to wait for speech recognition
+preferences,prefer_max_consumption_in_fuel_calculations,,(LEGACY) Base fuel calculations on max fuel consumption
+preferences,report_fuel_laps_left_in_timed_races,,Report fuel as laps left in timed races.
+preferences,naudio_wave_in_sample_rate,,Sample rate for nAudio wave-in device
+preferences,naudio_wave_in_channel_count,,Channel count for nAudio wave-in device
+preferences,naudio_wave_in_sample_depth,,Sample depth for nAudio wave-in device (8 or 16)
+preferences,allow_important_messages_even_when_silenced,,Play important messages when silenced
+preferences,fcy_stop_spotter_immediately,,Mute spotter immediately on full course yellow
+preferences,enable_blue_flag_messages,,Enable blue flag messages
+preferences,limit_available_games,,Limit available games
+preferences,enable_radio_beeps,,Enable radio beeps
+preferences,prefer_system_sre,,Prefer Windows speech recogniser
+preferences,use_free_dictation_for_chat,,Enable free dictation chat messages
+preferences,free_dictation_chat_start_word,,Chat free dictation start word
+preferences,free_dictation_chat_keypress_delay_ms,,Chat free dictation key press delay
+preferences,max_complaints_per_session,,Max complaints per session (0: disable complaints)
+preferences,enable_on_hold_close_channel_beep,,"Enable close channel beep (""Hold button"" mode)"
+preferences,sre_respond_while_channel_still_open,,Respond to voice commands immediately
+preferences,enable_breath_in,,Enable breath in pause
+preferences,enable_overlay_window,,Enable overlays (windowed / borderless window only)
+preferences,iracing_enable_disk_based_telemetry,,Enable disk based telemetry for overlay
+preferences,enable_chart_telemetry_in_race_session,,Enable chart telemetry in race session
+preferences,update_interval_when_collecting_telemetry,,Update interval when collecting telemetry
+preferences,make_overlay_app_window,,Enable overlay app window (Oculus mode)
+preferences,delete_iracing_telemetryfile,,Delete iRacing telemetry file after processing
+preferences,enable_automatic_disk_telemetry_recording,,Enable automatic telemetry disk recording
+preferences,enable_shared_memory,,Enable Shared Memory
+preferences,enable_subtitle_overlay,,Enable subtitle overlay
+preferences,force_stereo,,Play messages in stereo (nAudio only)
+preferences,auto_enable_pacenotes_in_practice,,Play pace notes automatically in practice
+preferences,enable_console_autoscroll,,Enable console autoscroll
+preferences,multi_lap_pace_notes,,Multi-lap pace notes
+preferences,pace_notes_mute_all_messages,,Mute messages when playing pace notes
+preferences,play_pit_speed_limit_warnings,,Enable pit speed limit warnings
+preferences,start_steam_vr_if_detected,,Start SteamVR if detected
+preferences,enable_vr_overlay_windows,,Enable VR overlays
+preferences,vr_overlays_enabled_on_startup,,Enable VR overlays when app starts
+preferences,r3e_ratings_url,,R3E Ratings URL
+preferences,watched_opponent_names,,Watched opponent names
+preferences,show_vr_settings_as_overlay,,Always show VR Settings window as overlay
+preferences,codriver_rushed_speed,,Co-driver rushing speed threshold (km/h)
+preferences,codriver_rushed_lookahead_seconds,,Co-driver rushing look ahead (seconds)
+preferences,codriver_chained_pacenote_threshold_distance,,Link co-driver calls closer than this (metres)
+preferences,codriver_lookahead_seconds,,Default look ahead for co-driver calls (seconds)
+preferences,enable_controller_pov_switches,,Enable controller PoV switches
+preferences,block_male_sounds,,Block sounds which refer to drivers as male
+preferences,enable_watch_car_command,,Enable watch opponent commands
+preferences,lazy_load_subtitles,,Lazy load subtitles
+preferences,show_splash_screen,,Show splash screen
+preferences,enable_gtr2_pit_lane_approach_heuristics,,Enable GTR 2 pit lane approach detection
+preferences,scroll_bars_on_main_window,,Scroll bars on main window
+preferences,use_dictation_grammar_for_rally,,Use free dictation for stage notes
+preferences,dictation_grammar_for_rally_confidence,,Min rally free dictation voice recognition confidence (Microsoft recogniser)
+preferences,confirm_recce_pace_notes,,Confirm each pace note in stage recce
+preferences,minimum_rally_voice_recognition_confidence_microsoft_sre,,Min rally voice recognition confidence (Windows recogniser)
+preferences,minimum_rally_voice_recognition_confidence_system_sre,,Min rally voice recognition confidence (Windows recogniser)
+preferences,dirt_rally_udp_data_port,,Dirt Rally UDP port
+preferences,dirt_rally_2_udp_data_port,,Dirt Rally 2 UDP port
+preferences,log_type_spotter,,Log type - spotter
+preferences,log_type_sound,,Log type - sound
+preferences,log_type_soundDebug,,Log type - sound debug
+preferences,log_type_debug,,Log type - debug
+preferences,log_type_verbose,,Log type - verbose
+preferences,log_type_fuel,,Log type - fuel
+preferences,log_type_tyres,,Log type - tyres
+preferences,log_type_brakes,,Log type - brakes
+preferences,log_type_exception,,Log type - exception
+preferences,allow_composite_personalisations,,Allow opponent names in 'My name' list
+preferences,codriver_dynamic_lookahead,,Dynamic co-driver distance look ahead
+preferences,codriver_min_space_for_auto_distance_call,,Min gap for auto-generated distance pace note (metres)
+preferences,include_start_pos_in_dirt_stage_names,,Include start location in Dirt Rally pace note folders
+preferences,save_sre_debug_data,,Write speech recognition debug data
+preferences,sre_button_release_delay,,"SRE delay after button release, hold button mode only (ms)"
+preferences,sre_enable_threshold_tuning,,Auto-tune speech recognition thresholds
+preferences,enable_rf1_box_sharing_warnings,,Warn about opponents sharing player's pit box (RF1 / AMS 1 only)
+preferences,force_resample,,nAudio playback resample rate (0 - no resampling)
+preferences,enable_frozen_order_messages,,Enable frozen order messages
+preferences,force_seated_on_vr_view_reset,,Force Seated tracking mode on Reset VR View
+preferences,speak_only_when_spoken_to,,Speak only when spoken to
+preferences,just_the_facts,,Disable commentary
+preferences,enable_mqtt_telemetry,,MQTT Telemetry enabled
+preferences,mqtt_topic_drivername,,MQTT driver name
+preferences,use_fuzzy_driver_name_matching,,Fuzzy opponent name matching
+preferences,allow_first_names,,Allow first names
+preferences,prefer_first_names,,Prefer first names
+preferences,enable_auto_detect,,Enable game auto detect
+preferences,enable_auto_detect_exit_cc,,Exit Crew Chief when auto-detected game exits
+preferences,enable_volume_control,,Enable volume control
+preferences,enable_audio_ducking,,Enable audio ducking
+preferences,enable_audio_ducking_while_talking_to_cc,,Enable audio ducking while talking to Crew Chief
+preferences,save_console_after_each_run,,Save the Console log each time
+preferences,enable_running_dos_commands_from_command_macros,,Enable running DOS commands from Command macros
+preferences,revert_to_legacy_version_of_refactored_code,,Revert to legacy version of refactored code
+preferences,use_legacy_plugin_installer,,Use legacy plugin installer
+preferences,enable_lmu_rf2_plugin_dll_check,,Enable LMU/RF2 plugin DLL check
+preferences,use_legacy_rf2_shared_memory_filenames,,Use legacy shared memory filenames
+preferences,enable_lmu_rest_api,,Enable LMU's problematic REST API
+preferences,save_all_fuel_data,,Save ALL fuel data
+preferences,enable_dark_mode,,Enable Dark Mode
+preferences,colloquial_time,,Announce time approximately/colloquially
+preferences,auto_is_oval,,Automatically set oval/non-oval track type
+preferences,use_toast_notifications,,Use 'toast' notifications
+preferences,FIRST_RUN,,FIRST RUN

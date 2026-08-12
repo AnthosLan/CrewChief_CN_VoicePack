@@ -1,0 +1,31 @@
+original_english,中文
+# 波次 U3（help / tooltip 长文本，469 条）的人工修正。按 original_english 索引。
+# 含逗号的英文必须加引号，否则 CSV 会拆成三个字段——fix_uitext.py 会报错退出。
+# 一词多译（首席/工程师、应用程序/程序、Notepad/记事本）收进 fix_uitext.py 的 TERM_FIXES。
+#
+# 长文本里的 \ 是 CrewChief 的强制换行标记。fix_uitext.py 会自动按标点补到每段 ≤44 字，
+# 所以这里写整句就行，不用自己数字数。
+
+# —— 值里带 '='，CrewChief 的 merge() 会从第一个 '=' 截断 ——
+# 这两条英文原文本身就带 '='，也就是说上游的英文帮助文本已经是被截断的。中文不重复这个 bug。
+"Probability of giving a sectors report after each race lap (0 = disabled, 1 = every lap, default 0.3 - 30% chance of sector information on each lap).",每圈正赛后播报分段成绩的概率。0 表示关闭，1 表示每圈都报，默认 0.3，即每圈有三成机会播报分段信息。
+"Drivers that have a Safety Rating this much below you will be considered ""bad"". Set to 0 to disable. Every license level is worth a (promotion) score of 1.0 and every whole number of Safety Rating is actually only worth 0.5 because of iRacing's banking system. If you are A3.5 and want to consider C2.5 (and below) to be sketchy, then use a value of 2.5 = 2.0 (for two classes) + 1.0 (for the number difference) - 0.5 (for the loan difference).",安全评分比你低这么多的车手会被判为「差」。填 0 关闭。每个执照等级折算 1.0 分，而安全评分每整数点实际只折算 0.5 分，这是 iRacing 的储备机制导致的。举例：你是 A3.5，想把 C2.5 及以下都算成危险，那就填 2.5——两个等级 2.0 加上数字差 1.0 再减去储备差 0.5。
+
+# —— 机翻残留：真实换行 + 冒出来的 click ——
+Opponent name : Recorded name pairs\Select then right click to listen to or change the sound.,对手名与已录制语音的对应关系\选中后右键可以试听或更换语音。
+
+# —— Chief 译成了领航员（那是拉力赛的 co-driver，CrewChief 里是另一个角色）——
+Don't play any messages while you have the 'talk to chief' radio channel open.,打开「与工程师通话」频道期间不播报任何内容。
+"Time between checks if ""Talk to Chief"" button is pressed.  The lower the value the higher the CPU usage is.",检查「与工程师通话」按键是否被按下的间隔。数值越小 CPU 占用越高。
+"How much fuel do you think you can reasonably save? This is skill dependent and is a percentage of your remaining tank. When asked about the fuel status, the chief will note that we might not get to the end or we may need to fuel save if it falls within this amount.",你觉得自己能省下多少燃油？这取决于驾驶水平，按剩余油量的百分比计算。你问燃油状态时，如果差额落在这个范围内，工程师会提醒可能跑不到终点、或者需要开始省油。
+# Spotter 译成了领航员，应为观察员。
+"Time between the Spotter repeating ""hold your line"" when along side a car on an oval track.",在椭圆赛道上与其他车并排时，观察员重复播报「保持走线」的间隔。
+
+# —— 机翻把词拆错了 ——
+# going off track and picking up dirt 是「冲出赛道沾上泥土」，不是「驶出道和拾取泥土」。
+Enables warning messages about going off track and picking up dirt (R3E and GTR2 only).,启用冲出赛道、轮胎沾上泥土的提醒（仅 R3E 和 GTR 2）。
+# Tenure Reputation 是「资历声誉」，不是「任期声誉」。
+"Enables voice commands and messages about bad reputations (distinct from SR and iRating) based on user-defined rules. See ""Flag Reputations"", ""Tenure Reputation"", ""Rating Reputation"" and the iracing_reputations.json file in the user's configuration folder.",按自定义规则启用不良声誉相关的语音指令与播报（与 SR、iRating 是两回事）。参见「旗语声誉」「资历声誉」「评分声誉」，以及配置目录下的 iracing_reputations.json。
+
+# —— 机器放弃的一条（重试 3 次都没返回合法 JSON）——
+Multiplier for fuel calculations\May be supplied by game\else enter a number.,燃油计算的倍率\游戏可能会自己提供\否则请手工填一个数字。

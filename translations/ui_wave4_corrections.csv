@@ -1,0 +1,25 @@
+original_english,中文
+# 波次 U4（次要对话框：对手选择 / 宏编辑器 / SteamVR 覆盖层，226 条）的人工修正。
+# 按 original_english 索引。含逗号的英文必须加引号。
+# 快捷键跑到冒号后面、「适用于/用于/为」不统一、旋转轴写法不统一，都收进了
+# fix_uitext.py 的 TERM_FIXES，因为跨波次通用。
+
+# —— 语序错 ——
+Plugin Needed,需要插件
+Create new,新建
+
+# —— 丢了括号，同组的 (text) / (real number) 都保留了 ——
+(integer),（整数）
+
+# —— 游戏名被翻译了 ——
+PMR - for Project Motor Racing,PMR - 适用于 Project Motor Racing
+R3E - for RaceRoom Racing Experience,R3E - 适用于 RaceRoom Racing Experience
+
+# —— SteamVR 覆盖层 ——
+# Scale 是覆盖层的缩放倍率，不是地图上的比例尺。
+Scale,缩放
+Increase Scale,增大缩放
+Decrease Scale,减小缩放
+Gazing scale,凝视缩放
+# tracking universe 是 SteamVR 的坐标系（seated / standing），不是「宇宙」。
+Overwrite VR tracking universe,覆盖 VR 跟踪坐标系

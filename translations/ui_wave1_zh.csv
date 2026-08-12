@@ -1,0 +1,121 @@
+section,key,zh,english
+main_window,main_window_title_prefix,CrewChief - 当前配置方案,Crew Chief - Active Profile:
+main_window,checking_sound_pack_version,检查语音包版本...,Checking Sound Pack version...
+main_window,checking_driver_names_version,检查车手名版本...,Checking driver names version...
+main_window,checking_personalisations_version,检查个性化称呼版本...,Checking personalisations version...
+main_window,sound_pack_are_up_to_date,语音包已是最新,Sound Pack is up to date
+main_window,sound_packs_are_up_to_date,语音包已是最新,Sound Packs are up to date
+main_window,no_sound_pack_detected_unable_to_locate_update,未检测到语音包，无法定位更新,"No Sound Pack detected, unable to locate update"
+main_window,no_sound_pack_detected_press_to_download,未检测到语音包，点击下载,"No Sound Pack detected, press to download"
+main_window,updated_sound_pack_available_press_to_download,更新的语音包可用，点击下载(&U),"&Updated Sound Pack available, press to download"
+main_window,an_updated_sound_pack_available_press_to_download,有更新的语音包可用，点击其按钮下载,"An updated sound pack is available, press its button to download it"
+main_window,no_driver_names_detected_unable_to_locate_update,未检测到车手名，无法定位更新,"No driver names detected, unable to locate update"
+main_window,no_driver_names_detected_press_to_download,未检测到车手名，点击下载,"No driver names detected, press to download"
+main_window,updated_driver_names_available_press_to_download,更新了车手名，点击下载(&I),"Updated dr&iver names available, press to download"
+main_window,driver_names_are_up_to_date,车手名已是最新,Driver names are up to date
+main_window,no_personalisations_detected_unable_to_locate_update,未检测到个性化称呼，无法定位更新,"No personalisations detected, unable to locate update"
+main_window,no_personalisations_detected_press_to_download,未检测到个性化称呼，点击下载,"No personalisations detected, press to download"
+main_window,updated_personalisations_available_press_to_download,有可用的个性化更新，点击下载(&W),"Updated personalisations available, press to do&wnload"
+main_window,stop,停止(&S),&Stop
+main_window,stop_and_save,停止并保存记录文件(&S),&Stop and Save trace
+main_window,start_application,启动 CrewChief(&S),&Start Crew Chief
+main_window,fuel_multiplier,燃油倍数  X,Fuel multiplier  X
+main_window,incremental_updates_count,可用更新,updates to apply
+main_window,please_choose_a_game_option,请选择游戏选项,Please choose a game option
+main_window,no_game_selected,未选择游戏,No game selected
+main_window,waiting_for_button_click_to_cancel,等待按钮点击以取消,"Waiting for button, click to cancel"
+main_window,assign,分配,Assign
+main_window,assign_control,分配控制(&G),Assi&gn control
+main_window,delete_assignment,删除分配(&D),&Delete assignment
+main_window,available_controllers,可用控制器(&C),Available &controllers
+main_window,no_control_assigned,无控制设置,No control assigned
+main_window,available_actions,已分配的操作(&T),Assigned ac&tions
+main_window,properties,设置项(&P),&Properties
+main_window,voice_recognition_mode,语音识别模式(&R),Voice &recognition mode
+main_window,always_on,始终开启,Always on
+main_window,trigger_word,触发词,Trigger word
+main_window,toggle_button,按下然后释放按钮,Press and release button
+main_window,hold_button,按住按钮,Hold button
+main_window,voice_recognition_listen_if_not_pressed,未按压时监听,Listen if not pressed
+main_window,disabled,禁用,Disabled
+main_window,game,游戏(&G),&Game
+main_window,app_version,应用版本,App version
+menu_bar,file_menu,文件(&F),&File
+menu_bar,exit_menu_item,退出(&X),E&xit
+menu_bar,console_menu,控制台(&C),&Console
+menu_bar,copy_console_text,复制所有控制台文本(&A),Copy &all console text
+menu_bar,copy_selected_text,复制选中的控制台文本(&S),Copy &selected console text
+menu_bar,clear_console,清除控制台(&O),Clear c&onsole
+menu_bar,save_console_output,保存控制台文本(&T),Save console &text
+menu_bar,save_console_output_as,将控制台文本保存为...,Save console text as...
+menu_bar,copy_crew_chief_settings,复制 CrewChief 设置(&S),Copy Crew Chief &settings
+menu_bar,opponent_names_menu,对手名称(&O),&Opponent Names
+menu_bar,speech_wizard_menu,语音向导(&W),Speech &Wizard
+menu_bar,problems_menu,问题？(&P),&Problems?
+menu_bar,log_now,发送当前日志文件给开发人员,Send the current log file to devs
+menu_bar,log_saved,发送保存的日志文件给开发者,Send a saved log file to devs
+menu_bar,record_trace,记录文件(&R),&Record a trace
+menu_bar,trace_now,将刚刚记录的记录文件发送给开发人员(&S),&Send the trace you've just recorded to devs
+menu_bar,trace_saved,发送保存的记录文件给开发者(&S),&Send a saved trace to devs
+menu_bar,playback_trace,(仅调试版本) 回放游戏记录文件(&P),(Debug builds only) &Playback a trace of a game
+menu_bar,send_log_trace_instructions,,1) Copy the file path and upload it to Google drive or a (free) file-sharing site like file.io or wetransfer.com 2) write an email with the download link for the file and notes about the problem to the Crew Chief developers using the Crew Chief issues email address:
+menu_bar,help_menu,帮助(&H),&Help
+voice_and_controls,crew_chief_help_title,Crew Chief 帮助,Crew Chief Help
+voice_and_controls,restore_context_menu,恢复,Restore
+voice_and_controls,start_context_menu,启动 {0} 模式,Start {0} mode
+voice_and_controls,close_context_menu,关闭,Close
+voice_and_controls,running_context_menu,Crew Chief 正在以 {0} 模式运行,Crew Chief is running in {0} mode
+voice_and_controls,idling_context_menu,CrewChief 处于待机,Crew Chief is idling
+voice_and_controls,extracting_sound_pack,提取语音包,Extracting Sound Pack
+voice_and_controls,error_downloading_sound_pack,下载语音包时出错，请查阅说明文件以获取手动下载和安装的指示。,"Error downloading Sound Pack, check the readme file for instructions on how to manually download and install this."
+voice_and_controls,unable_to_download_sound_pack,无法下载语音包,Unable to download Sound Pack
+voice_and_controls,extracting_driver_names,提取车手名,Extracting driver names
+voice_and_controls,error_downloading_personalisations,错误：个性化称呼名称，查看说明文件以获取手动下载和安装的说明。,"Error personalisations names, check the readme file for instructions on how to manually download and install this."
+voice_and_controls,unable_to_download_personalisations,无法下载个性化称呼,Unable to download personalisations
+voice_and_controls,extracting_personalisations,提取个性化称呼,Extracting personalisations
+voice_and_controls,error_downloading_driver_names,下载车手名时出错，请查阅说明文件以了解如何手动下载和安装。,"Error downloading driver names, check the readme file for instructions on how to manually download and install this."
+voice_and_controls,unable_to_download_driver_names,无法下载车手名,Unable to download driver names
+voice_and_controls,the_application_must_be_restarted_to_load_the_new_sounds,必须重启应用程序以加载新声音。点击确定以重启应用程序。,The application must be restarted to load the new sounds. Click OK to restart the application.
+voice_and_controls,the_application_must_be_restarted_to_load_the_new_sounds_need_another_restart,应用程序必须重启以加载新声音。可能需要额外下载。点击确定以重启应用程序。,The application must be restarted to load the new sounds. An additional download may be required. Click OK to restart the application.
+voice_and_controls,speech_recognition_device_label,语音输入设备(&E),Sp&eech input device
+voice_and_controls,no_speech_recognition_device,使用 Windows 默认的语音输入设备,<Using Windows default speech input device>
+voice_and_controls,load_new_sounds,加载新声音,Load new sounds
+voice_and_controls,downloading_sound_pack,下载语音包...,Downloading Sound Pack...
+voice_and_controls,downloading_driver_names,下载车手名...,Downloading driver names...
+voice_and_controls,downloading_personalisations,下载个性化称呼...,Downloading personalisations...
+voice_and_controls,talk_to_crew_chief,与CrewChief对话,Talk to Crew Chief
+voice_and_controls,toggle_race_updates_on/off,切换正赛更新开/关,Toggle race updates on/off
+voice_and_controls,toggle_spotter_on/off,切换观察员开启/关闭,Toggle Spotter on/off
+voice_and_controls,toggle_opponent_deltas_on/off_for_each_lap,每圈切换对手差距开/关,Toggle opponent deltas on/off for each lap
+voice_and_controls,press_to_replay_the_last_message,点击重播上一条播报,Press to replay the last message
+voice_and_controls,udp_network_data_buttons,UDP 网络数据按钮,UDP network data buttons
+voice_and_controls,volume_up,增加播报音量,Increase messages volume
+voice_and_controls,volume_down,降低播报音量,Decrease messages volume
+voice_and_controls,toggle_mute,切换静音,Toggle mute
+voice_and_controls,print_track_data,打印赛道和位置信息,Print track and position info
+voice_and_controls,toggle_yellow_flag_messages,切换黄旗播报,Toggle yellow flag messages
+voice_and_controls,activate_pit_prediction,进站预测,Pit stop prediction
+voice_and_controls,get_fuel_status,报告燃油/电池状态,Report fuel/battery status
+voice_and_controls,get_status,报告车辆状态、损伤和场次状态,"Report car, damage and session status"
+voice_and_controls,get_car_status,报告车辆状态和损伤,Report car status and damage
+voice_and_controls,get_session_status,报告场次状态,Report session status
+voice_and_controls,get_damage_report,报告车辆损坏,Report car damage
+voice_and_controls,toggle_rally_recce_mode,切换赛段勘路模式（仅拉力赛）,Toggle stage recce mode (rally only)
+voice_and_controls,reset_vr_view,重置VR视图,Reset VR view
+voice_and_controls,custom_device,自定义设备,custom device
+voice_and_controls,assigned_to,分配给,assigned to
+voice_and_controls,button,按钮,button
+voice_and_controls,POV,视角,PoV
+voice_and_controls,not_assigned,未分配,not assigned
+my_name_dialog,selecting_a_name,选择名称,Selecting a name
+my_name_dialog,enter_your_name,输入您的姓名，然后\按下搜索按钮,Enter your name and then\press the Search button
+my_name_dialog,full_personalisation,全部个性化,Full personalisations
+my_name_dialog,driver_name,车手名,Driver names
+my_name_dialog,other_driver_name,其他可能的车手名,Other possible driver names
+my_name_dialog,no_name,无需称呼,No name thanks
+my_name_dialog,select,选择,Select
+opponent_names_dialog,dialog_title_opponent_names,对手名称,Opponent Names
+opponent_names_dialog,guessed_opponent_names,猜测的对手名称,Guessed Opponent Names
+opponent_names_dialog,edit_guessed_names_file,编辑猜测的名称文件,Edit Guessed Names File
+opponent_names_dialog,delete_additional_names_file,删除附加名称文件,Delete Additional Names File
+opponent_names_dialog,edit_opponent_names_file,编辑对手名称文件,Edit Opponent Names File

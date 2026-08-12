@@ -1,0 +1,470 @@
+section,key,zh,english
+main_window,auto_detect_active_tooltip,启动 Crew Chief\自动检测活动(&S),&Start Crew Chief\Auto detect active
+main_window,fuel_multiplier_help,燃油计算的倍率\游戏可能会自己提供\否则请手工填一个数字。,Multiplier for fuel calculations\May be supplied by game\else enter a number.
+main_window,game_definition_help,查看设置项「限制可用游戏」,See Property 'Limit available games'
+menu_bar,copy_crew_chief_settings_tooltip,复制与默认设置不同的 Crew Chief 设置到剪贴板,Copy to the clipboard the Crew Chief settings that differ from default.
+menu_bar,log_now_tooltip,将当前日志发送给 Crew Chief 开发团队\(您可以先查看一下),Send the current log to the Crew Chief dev team\(You can review it first)
+menu_bar,log_saved_tooltip,发送保存的日志文件给 Crew Chief 开发团队\(您可以先查看一下),Send a saved log file to the Crew Chief dev team\(You can review it first)
+menu_bar,record_trace_tooltip,记录游戏提供的所有数据,Record all the data provided by the game
+menu_bar,trace_now_tooltip,将当前的游戏数据记录发送给 Crew Chief 开发团队\(您可以先查看一下),Send the current trace of all the data provided by the game to the Crew Chief dev team\(You can review it first)
+menu_bar,trace_saved_tooltip,将游戏提供的所有数据记录发送给 Crew Chief 开发团队\(您可以先查看一下),Send a trace of all the data provided by the game to the Crew Chief dev team\(You can review it first)
+menu_bar,playback_trace_tooltip,可以是 3 合 1 的 .zip 文件或旧的 .cct 文件,Can be a 3 in 1 .zip file or the old .cct file
+voice_and_controls,voice_recognition_mode_help,语音识别模式 - 「触发词」和「按下并松开按钮」在 nAudio 下不可用,Voice recognition mode - 'Trigger word' and 'Press and release button' not available with nAudio.
+voice_and_controls,voice_recognition_always_on_help,应用始终在监听。,App always listens.
+voice_and_controls,voice_recognition_toggle_button_help,程序在您按下并释放按钮后开始监听（不支持 nAudio）。,App listens after you press and release a button  (doesn't work with nAudio).
+voice_and_controls,voice_recognition_hold_button_help,程序按住按钮时监听,App listens while you hold down a button.
+voice_and_controls,voice_recognition_disabled_help,应用未监听,App doesn't listen.
+voice_and_controls,voice_recognition_trigger_word_help,程序始终监听一个关键字或短语，听到后开始监听命令（不支持 nAudio）。,"App always listens for a key word or phrase, and after hearing this it listens for a command (doesn't work with nAudio)."
+voice_and_controls,voice_recognition_release_button_help,程序在你释放按键时监听，以便该按键可以用于其他程序中的语音聊天。,App listens while you release a button so the button can be used for voice chat in another program.
+voice_and_controls,no_speech_recognition_tooltip,语音输入来自 Windows 默认设备\除非选择了“使用 nAudio 用于语音输入”设置项,"Speech input is from Windows default device\unless ""Use nAudio for speech input""\Property is selected"
+my_name_dialog,enter_your_name_help,Crew Chief AI 将尽力为您匹配可用的车手名,Crew Chief AI will do its best to match you to the available names.
+my_name_dialog,full_personalisation_help,由 Mr Belowski 录制的多条播报,Multiple individual recordings of messages by Mr Belowski.
+my_name_dialog,driver_name_help,Mr Belowski 的预制播报，名字已嵌入（可能听起来有点生硬）,Canned messages by Mr Belowski with the name stitched in (may sound a little clunky).
+my_name_dialog,other_driver_name_help,可以嵌入到预设播报中的名称,Names that can be stitched into canned messages.
+my_name_dialog,play_name_sample_help,播放车手名示例,Play name sample.
+my_name_dialog,no_name_help,如果没有选择车手名，Crew Chief 将不会播报个性化称呼。,If no name is selected Crew Chief will simply not say personalised messages.
+opponent_names_dialog,edit_guessed_names_file_tooltip,在记事本中打开包含对手名称的文件，这些名称是 Crew Chief 自动猜测的。\您可以编辑这些猜测或完全删除内容。,Opens the file in Notepad which contains opponent names that Crew Chief has guessed so you can edit the guesses or delete the contents completely.
+opponent_names_dialog,edit_opponent_names_file_tooltip,在记事本中打开包含预设对手名称的文件，以便进行编辑。,Opens the file in Notepad which contains preset opponent names so you can edit them.
+opponent_names_dialog,opponent_names_list_tooltip,对手名与已录制语音的对应关系\选中后右键可以试听或更换语音。,Opponent name : Recorded name pairs\Select then right click to listen to or change the sound.
+opponent_name_selection,none_of_the_above_tooltip,如果没有合适的记录名字，则 Crew Chief 不会使用任何名称。,If none of the recorded names are suitable then Crew Chief will not use a name.
+opponent_name_selection,show_common_props_tooltip,包含所有游戏共用的设置项,Include properties shared between all the games.
+opponent_name_selection,show_changed_props_tooltip,只显示已更改/未保存的设置项,Show only changed/unsaved properties.
+opponent_name_selection,show_non_default_props_tooltip,仅显示与默认值不同的设置项,Show only properties that are different from the default values.
+opponent_name_selection,personalisation_tooltip,选择您希望工程师呼唤您的名字（需要重启）,Choose a name you'd like Chief to call you (requires restart).
+opponent_name_selection,chief_name_tooltip,选择车队工程师语音（需要重启）,Choose a Chief voice (requires restart).
+opponent_name_selection,spotter_name_tooltip,选择观察员语音（需要重启）,Choose a Spotter voice (requires restart).
+opponent_name_selection,codriver_name_tooltip,选择领航员语音（需要重启）,Choose a Co-Driver voice (requires restart).
+opponent_name_selection,activate_profile_tooltip,加载选定的配置方案并重启。,Load selected profile and restart.
+macro_editor,dos_command_tooltip,你输入的内容将作为 DOS 命令执行。谨慎使用！,Whatever you enter can be run as a DOS command. Use with care!
+macro_editor,advanced_edit_tooltip,不进行错误检查,No error checking!
+trace_playback,playback_speed_tooltip,以毫秒为单位，减慢播放速度。若数值为 10 或更大，则播放音频,"In mS, slows down playback. If 10 or more then audio will be played"
+preferences,trainee_chief_path_help,"(或路径)指向新任车队工程师的语音文件。\只有当新任车队工程师能够完整说出主车队工程师要说的话时，才会代替主车队工程师发言。\这是为了逐步创建(完整的)语音包。\除非是绝对路径，\否则 Crew Chief 会在语音包的 alt 子目录下查找这些文件（使用文件/打开语\音文件夹来找到这些文件）。\如果设置为""Jim""则会被视为语音包根目录。\建议关闭对手名播报和语音合成功能(直到新任工程师有更多的车手名)。","Name of (or path to) voice files for a trainee crew chief.\The trainee crew chief will speak instead of the main crew chief only if they can say the entire sentence that the main crew chief would have spoken. This is to ease the incremental creation of (full) sound packs.\Unless it is a full path Crew Chief will look in the alt subdirectory of the sound pack (Use File/Open voice files folder to find the files).\If it is ""Jim"" it will be treated as the sound pack root.\\It is recommended to turn off opponent names (until the trainee chief has more names) and text-to-speech when using this option."
+preferences,acs_install_path_help,ACS 安装路径（不含引号），用于插件安装和更新,ACS installation path (without quotes) for plugin installation and updating .
+preferences,ace_install_path_help,AC EVO 安装路径（不含引号）用于插件安装和更新。,AC EVO installation path (without quotes) for plugin installation and updating .
+preferences,ams_install_path_help,AMS 安装路径（不含引号）用于插件安装和更新。,AMS installation path (without quotes) for plugin installation and updating.
+preferences,rf1_install_path_help,rF1 安装路径（不含引号）用于插件安装和更新,rF1 installation path (without quotes) for plugin installation and updating.
+preferences,asr_install_path_help,ASR 安装路径（不含引号），用于插件安装和更新。,ASR installation path (without quotes) for plugin installation and updating.
+preferences,rf2_install_path_help,rF2 安装路径（不含引号）用于插件安装和更新。,rF2 installation path (without quotes) for plugin installation and updating.
+preferences,lmu_install_path_help,Le Mans Ultimate 安装路径（不含引号）用于插件安装和更新。,Le Mans Ultimate installation path (without quotes) for plugin installation and updating.
+preferences,rbr_install_path_help,RBR 安装路径（不含引号）用于插件安装和更新。,RBR installation path (without quotes) for plugin installation and updating.
+preferences,gtr2_install_path_help,GTR 2 安装路径（不含引号）用于插件安装和更新。,GTR 2 installation path (without quotes) for plugin installation and updating.
+preferences,f1_2018_install_path_help,F1 2018 安装路径,F1 2018 installation path.
+preferences,acc_install_path_help,ACC 安装路径,ACC installation path.
+preferences,f1_2019_install_path_help,F1 2019 安装路径,F1 2019 installation path.
+preferences,override_default_sound_pack_location_help,使用其他文件夹存放语音包,Use an alternative folder for the Sound Pack.
+preferences,enable_acs_log_sectors_for_unknown_tracks_help,将分段写入控制台窗口,Write sectors to Console window.
+preferences,enable_ace_log_sectors_for_unknown_tracks_help,将分段写入控制台窗口,Write sectors to Console window.
+preferences,enable_driver_names_help,工程师使用所有名称，而不仅仅是个性化称呼的。,"Chief uses all names, not just personalised ones."
+preferences,enable_drs_beeps_help,DRS 检测和可用性提示音（仅限 iRacing）,Beep for DRS detection (iRacing only) and availability.
+preferences,gap_message_randomness_help,1 表示较少随机（更确定），10 表示最多随机（可能在播报之间有较长的等待时间）。\结合各种前车/后车差距频率值进行调整。,"1 means less random (more deterministic), 10 means most random (potentially long waits between calls). Tweak in combination with the various gap ahead/behind frequency values."
+preferences,enable_green_light_messages_help,绿灯亮时播报「向前冲! 向前冲! 向前冲!」,Go! Go! Go! message when lights turn green.
+preferences,enable_pearls_of_wisdom_help,关于驾驶的建议,"""Helpful"" comments on your driving."
+preferences,enable_tyre_dirt_pickup_warnings_help,启用冲出赛道、轮胎沾上泥土的提醒（仅 R3E 和 GTR 2）。,Enables warning messages about going off track and picking up dirt (R3E and GTR2 only).
+preferences,attempt_pcars_opponent_pit_detection_help,监控对手的世界位置，并尝试猜测他们何时进入和离开维修道。,Monitor opponent world positions and try to guess when they're entering and leaving the pit lane.
+preferences,cache_sounds_help,将声音缓存到内存,Cache sounds in memory.
+preferences,disable_acs_yellow_flag_warnings_help,防止混乱的在线比赛中黄色旗播报过多,Prevents yellow flag message spamming in messy online races.
+preferences,disable_ace_yellow_flag_warnings_help,防止混乱的在线比赛中黄色旗播报过多,Prevents yellow flag message spamming in messy online races.
+preferences,disable_pcars_prac_and_qual_pole_deltas_help,禁用 pCARS 练习和排位杆位差距 - 这些数据不可靠。,Disable pCARS practice and qual pole deltas - these are unreliable.
+preferences,launch_acs_help,启动 Crew Chief 时（因为你点击了“启动 Crew Chief”或“立即运行”\设置项自动启动它）尝试启动 Assetto Corsa。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch Assetto Corsa.
+preferences,launch_ace_help,启动 Crew Chief 时（因为你点击了「启动 Crew Chief」\或者「立即运行」设置项自动启动它）尝试启动 Assetto Corsa EVO。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch Assetto Corsa EVO.
+preferences,spotter_enable_three_wide_left_and_right_help,"""三辆并排，你在左边/右边"" 播报（可能引起混淆）","Use ""three wide, you're on the left / right"" messages (can be confusing)."
+preferences,use_alternate_beeps_help,使用不同的无线电声音（仅点击声）,Use a different radio sound (just the click).
+preferences,use_fahrenheit_help,未选中时，使用摄氏度。,"If not checked, use Celcius."
+preferences,use_listen_beep_help,按下“与 Crew Chief 通话”按钮时播放嘟声,Play a beep when you press the 'talk to Crew Chief' button.
+preferences,use_listen_end_beep_help,在点击“与 Crew Chief 对话”按钮后未收到回复时播放嘟声,Play a beep when the 'talk to Crew Chief' button didn't get a reply.
+preferences,min_time_between_personalised_messages_help,Crew Chief 使用你的名字播报之间的秒数。,Seconds between Crew Chief referring to you by name.
+preferences,minimum_time_between_pearls_of_wisdom_help,Crew Chief 评论你表现之间的秒数,Seconds between Crew Chief commenting on your performance.
+preferences,spotter_hold_repeat_frequency_help,观察员在与另一辆车并行时重复播报“保持线路”的时间间隔。,"Time between the Spotter repeating ""hold your line"" when along side a car."
+preferences,spotter_hold_repeat_frequency_ovals_help,在椭圆赛道上与其他车并排时，观察员重复播报「保持走线」的间隔。,"Time between the Spotter repeating ""hold your line"" when along side a car on an oval track."
+preferences,enable_oval_spotter_enhancements_help,允许在观察员播报之间进行无线电通话，并在椭圆形赛道上禁用提示音,Allow radio calls between spotter messages and disable beeps on ovals.
+preferences,spotter_update_interval_help,观察员更新间隔（毫秒）,Milliseconds between spotter updates.
+preferences,spotter_off_during_qualifying_help,排位赛时关闭观察员，以应对与其他不可见赛车同场的私人排位赛。,Spotter off during qualifying to cope with games that have private qualifying with other invisible cars on track.
+preferences,acc_udp_data_port_help,ACC 网络数据 UDP 端口（通常应为 9000）。,ACC network data UDP port (should usually be 9000).
+preferences,ace_udp_data_port_help,ACE 网络数据 UDP 端口（通常应为<tbd>）,ACE network data UDP port (should usually be <tbd>).
+preferences,udp_data_port_help,pCARS 网络数据 UDP 端口（通常应为 5606）,pCARS network data UDP port (should usually be 5606).
+preferences,pmr_udp_port_help,PMR 网络数据 UDP 端口（通常应为 7576）。,PMR network data UDP port (should usually be 7576).
+preferences,f1_2018_udp_data_port_help,F1 2018 网络数据 UDP 端口（通常应为 20777）,F1 2018 network data UDP port (should usually be 20777).
+preferences,f1_2019_udp_data_port_help,F1 2019 网络数据 UDP 端口（通常应为 20777）,F1 2019 network data UDP port (should usually be 20777).
+preferences,f1_2020_udp_data_port_help,F1 2020 网络数据 UDP 端口（通常应为 20777）,F1 2020 network data UDP port (should usually be 20777).
+preferences,f1_2021_udp_data_port_help,F1 2021 网络数据 UDP 端口（通常应为 20777）,F1 2021 network data UDP port (should usually be 20777).
+preferences,f1_2022_udp_data_port_help,F1 2022 网络数据 UDP 端口（通常应为 20777）,F1 2022 network data UDP port (should usually be 20777)
+preferences,f1_2023_udp_data_port_help,F1 2023 网络数据 UDP 端口（通常应为 20777）,F1 2023 network data UDP port (should usually be 20777)
+preferences,spotter_gap_for_clear_help,车辆间距离（米），在播报 Clear 之前,Gap between cars before calling clear (metres).
+preferences,messages_volume_help,Crew Chief 音量（0 - 1）,The volume of Crew Chief / spotter (0 - 1).
+preferences,background_volume_help,背景音量（0 - 1）,The volume of the background sounds (0 - 1).
+preferences,update_interval_help,程序更新之间的间隔时间（毫秒）,The time (milliseconds) between app updates.
+preferences,use_sweary_messages_help,部分播报包含脏话 - 启用 / 禁用这些,A few messages contain swearing - this enables / disables these.
+preferences,enable_spotter_help,观察员可以通过按钮启用或禁用。这设置其初始状态。,The Spotter can be enabled and disabled with a button. This sets its initial state.
+preferences,speech_recognition_country_help,可选 - 用于语音识别的本地化国家。如果没有设置，\程序将使用你安装的语言包（或找到的第一个语言包）。如果设置了，则值必须是特定国家代码，\如 GB、US、IT、DA、LT。,"Optional - the localisation country to use for speech recognition. If this isn't set, the app will use which ever English pack you've installed (or the first it finds if you have more than one). If you set it, the value must be a country specifics value ex. GB, US, IT, DA, LT."
+preferences,ui_language_help,可选 - 用于界面的本地化国家。如果没有设置，程序将使用操作系统语言。如果设置了，\则值必须是一个有效的 ISO 639-1 国家代码，后面跟一个破折号，\然后是两个字母的地区代码。例如 en-GB。如果没有找到翻译文件，程序将默认回到英语。,"Optional - the localisation country to use for the UI. If this isn't set, the app will use OS system language. If you set it, the value must be a valid ISO 639-1 code for country, followed by a hyphen, then a valid two letter region code. For example en-GB. If no translation file is found, the app will default back to English."
+preferences,spotter_car_length_help,车辆的长度，用于检查是否有重叠。如果观察员在没有重叠时呼叫“保持线路”，请减小此值。\如果有明显重叠但观察员未呼叫“保持线路”，请增大此值。,"The length of a car, used to check if there's an overlap. Decrease this if the Spotter calls 'hold your line' when you're not overlapping. Increase it if the Spotter doesn't call 'hold your line' when you clearly are overlapping."
+preferences,time_after_race_start_for_spotter_help,比赛开始后等待这么多秒再启用观察员。,Wait this many seconds after race start before enabling the spotter.
+preferences,min_speed_for_spotter_help,速度低于此值时不使用观察员,Don't use the Spotter if your speed is less than this.
+preferences,max_closing_speed_for_spotter_help,如果与另一辆车的相对速度大于此值，则不要播报「保持线路」。,Don't call 'hold your line' if the closing speed between you and the other car is greater than this.
+preferences,spotter_clear_delay_help,观察员在播报「安全通过」前需要保持清晰讲话的毫秒数。,You need to be clear for this many milliseconds before the Spotter calls 'clear'.
+preferences,spotter_overlap_delay_help,观察员需要在重叠多少毫秒后播报“保持线路”。,You need to be overlapping for this many milliseconds before the Spotter calls 'hold your line'.
+preferences,custom_device_guid_help,如果程序未在设备列表中显示您的控制器，请手动设置控制器的 GUID。,Manually set a controller GUID if the app doesn't display your controller in the devices list.
+preferences,launch_raceroom_help,启动 Crew Chief 时（因为你点击了「启动 Crew Chief」或「立即运行」\设置项自动启动它）尝试启动 RaceRoom Racing Experience。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch RaceRoom Racing Experience.
+preferences,r3e_launch_params_help,这用于告诉 Steam 要运行哪个应用——R3E 的 Steam app ID 是\211500。如果您指定了 RRRE.exe 的路径，则可以留空此项。,This is used to tell Steam what app to run - R3E's Steam app ID is 211500. If you specified a path RRRE.exe you can leave this blank.
+preferences,launch_race_remaster_help,启动 Crew Chief 时（因为你点击了「启动 Crew Chief」或「立即运行」\设置项自动启动它）尝试启动 Race Remaster。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch Race Remaster.
+preferences,pcars32_launch_params_help,这用于告诉 Steam 要运行哪个应用——pCARS 的 Steam app ID 是\234630。如果你指定了 pcars32.exe 的路径，可以留空此项。,This is used to tell Steam what app to run - pCARS' Steam app ID is 234630. If you specified a path pcars32.exe you can leave this blank.
+preferences,pcars64_launch_params_help,这用于告诉 Steam 要运行哪个应用 - pCARS 的 Steam app ID 是\234630。如果你指定了 pcars64.exe 的路径，可以留空此项。,This is used to tell Steam what app to run - pCARS' Steam app ID is 234630. If you specified a path pcars64.exe you can leave this blank.
+preferences,rf1_launch_params_help,这用于告诉 Steam 要运行哪个应用——rFactor 的 Steam app ID\是 339790。如果您指定了 rFactor.exe 的路径，可以留空此项。,This is used to tell Steam what app to run - rFactor's Steam app ID is 339790. If you specified a path rFactor.exe you can leave this blank.
+preferences,rf2_launch_params_help,这用于告诉 Steam 要运行哪个应用——rFactor 2 的 Steam app\ID 是 365960。如果你指定了 rFactor2.exe 的路径，可以留空此项。,This is used to tell Steam what app to run - rFactor 2's Steam app ID is 365960. If you specified a path rFactor2.exe you can leave this blank.
+preferences,lmu_launch_params_help,这用于告诉 Steam 要运行哪个应用——Le Mans Unlimited 的\Steam app ID 是 2399420。如果您指定了 lmu.exe 的路径，\则可以留空此项。,This is used to tell Steam what app to run - Le Mans Unlimited's Steam app ID is 2399420. If you specified a path lmu.exe you can leave this blank.
+preferences,gsc_launch_params_help,这用于告诉 Steam 要运行哪个应用——Stock Car Extreme 的\Steam app ID 是 273840。如果你指定了 GSC.exe 的路径，\可以留空此项。,This is used to tell Steam what app to run - Stock Car Extreme's Steam app ID is 273840. If you specified a path GSC.exe you can leave this blank.
+preferences,ams_launch_params_help,这用于告诉 Steam 要运行哪个应用——Automobilista 的 Steam\app ID 是 431600。如果你指定了 AMS.exe 的路径，可以留空此项。,This is used to tell Steam what app to run - Automobilista's Steam app ID is 431600. If you specified a path AMS.exe you can leave this blank.
+preferences,acs_launch_params_help,这用于告诉 Steam 要运行哪个应用——Assetto Corsa 的 Steam\app ID 是 244210。如果您指定了 ACS.exe 的路径，可以留空此项。,This is used to tell Steam what app to run - Assetto Corsa's Steam app ID is 244210. If you specified a path ACS.exe you can leave this blank.
+preferences,ace_launch_params_help,这用于告诉 Steam 要运行哪个应用——Assetto Corsa EVO 的\Steam app ID 是 3058630。如果你指定了 ACE.exe 的路径，\可以留空此选项。,This is used to tell Steam what app to run - Assetto Corsa EVO's Steam app ID is 3058630. If you specified a path ACE.exe you can leave this blank.
+preferences,marcas_launch_params_help,这用于告诉 Steam 要运行哪个应用 - Copa Petrobras de\Marcas 的 Steam app ID 是 359800。\如果你指定了 marcas.exe 的路径，可以留空此项。,This is used to tell Steam what app to run - Copa Petrobras de Marcas Steam app ID is 359800. If you specified a path marcas.exe you can leave this blank.
+preferences,ftruck_launch_params_help,这用于告诉 Steam 要运行哪个应用——Formula Truck 的 Steam\app ID 是 273750。如果你指定了 FTruck.exe 的路径，\可以留空此项。,This is used to tell Steam what app to run - Formula Truck's Steam app ID is 273750. If you specified a path FTruck.exe you can leave this blank.
+preferences,f1_2018_launch_params_help,用于告诉 Steam 要运行哪个应用——F1 2018 的 Steam app ID 是\737800。如果你指定了 f1_2018.exe 路径，可以留空此项。,This is used to tell Steam what app to run - F1 2018's Steam app ID is 737800. If you specified a path f1_2018.exe you can leave this blank.
+preferences,f1_2019_launch_params_help,用于告诉 Steam 要运行哪个应用 - F1 2019 的 Steam app ID\是 928600。如果你指定了 f1_2019.exe 的路径，可以留空此项。,This is used to tell Steam what app to run - F1 2019's Steam app ID is 928600. If you specified a path f1_2019.exe you can leave this blank.
+preferences,f1_2020_launch_params_help,这用于告诉 Steam 要运行哪个应用——F1 2020 的 Steam app ID\是 1080110。如果你指定了 f1_2020.exe 的路径，可以留空此项。,This is used to tell Steam what app to run - F1 2020's Steam app ID is 1080110. If you specified a path f1_2020.exe you can leave this blank.
+preferences,f1_2021_launch_params_help,用于告诉 Steam 要运行哪个应用——F1 2021 的 Steam app ID 是\1134570。如果你指定了 f1_2021.exe 路径，可以留空此项。,This is used to tell Steam what app to run - F1 2021's Steam app ID is 1134570. If you specified a path f1_2021.exe you can leave this blank.
+preferences,f1_2022_launch_params_help,用于告诉 Steam 要运行哪个应用 - F1 2022 的 Steam app ID\是 1692250。如果你指定了路径 f1_2022.exe，可以留空此项。,This is used to tell Steam what app to run - F1 2022's Steam app ID is 1692250. If you specified a path f1_2022.exe you can leave this blank.
+preferences,f1_2023_launch_params_help,用于告诉 Steam 要运行哪个应用——F1 2023 的 Steam app ID 是\2108330。如果你指定了 f1_2023.exe 路径，可以留空此项。,This is used to tell Steam what app to run - F1 2023's Steam app ID is 2108330. If you specified a path f1_2023.exe you can leave this blank.
+preferences,r3e_launch_exe_help,这是 Steam.exe 的位置，或直接指向 RRRE.exe 的路径（不带引号）,This is the location of Steam.exe or the direct path (without quotes) to RRRE.exe.
+preferences,rbr_launch_exe_help,这是直接路径（不含引号）到 RichardBurnsRally_SSE.exe。,This is the direct path (without quotes) to RichardBurnsRally_SSE.exe.
+preferences,gtr2_launch_exe_help,这是直接路径（不带引号）到 GTR2.exe。,This is the direct path (without quotes) to GTR2.exe.
+preferences,dirt_launch_exe_help,这是 Steam.exe 的位置，\或是直接指向 dirtrally.exe 的路径（不带引号）,This is the location of Steam.exe or the direct path (without quotes) to dirtrally.exe.
+preferences,dirt_launch_params_help,这用于告诉 Steam 要运行哪个应用——Dirt Rally 的 Steam app\ID 是 310560。如果你指定了 dirtrally.exe 的路径，可以留空此项。,This is used to tell Steam what app to run - Dirt Rally's Steam app ID is 310560. If you specified a path dirtrally.exe you can leave this blank.
+preferences,dirt2_launch_exe_help,这是 Steam.exe 的位置，\或直接指向 dirtrally2.exe 的路径（不带引号）,This is the location of Steam.exe or the direct path (without quotes) to dirtrally2.exe.
+preferences,dirt2_launch_params_help,用于告诉 Steam 要运行哪个应用——Dirt Rally 2 的 Steam app\ID 是 690790。如果你指定了 dirtrally.exe 路径，可以留空此项。,This is used to tell Steam what app to run - Dirt Rally 2's Steam app ID is 690790. If you specified a path dirtrally.exe you can leave this blank.
+preferences,acc_launch_exe_help,这是 Steam.exe 的位置，或是直接指向 acc.exe 的路径（不带引号）,This is the location of Steam.exe or the direct path (without quotes) to acc.exe.
+preferences,rf1_launch_exe_help,这是 Steam.exe 的位置，或直接指向 rFactor.exe 的路径（不带引号）,This is the location of Steam.exe or the direct path (without quotes) to rFactor.exe.
+preferences,asr_launch_exe_help,这是直接路径（不含引号）到 ARCA.exe。,This is the direct path (without quotes) to ARCA.exe.
+preferences,rf2_launch_exe_help,这是 Steam.exe 的位置，\或直接指向 rFactor2.exe 的路径（不带引号）,This is the location of Steam.exe or the direct path (without quotes) to rFactor2.exe.
+preferences,lmu_launch_exe_help,这是 Steam.exe 的位置，\或直接指向 rFactor2.exe 的路径（不带引号）,This is the location of Steam.exe or the direct path (without quotes) to rFactor2.exe.
+preferences,gsc_launch_exe_help,这是 Steam.exe 的位置，或直接指向 GSC.exe 的路径（不带引号）,This is the location of Steam.exe or the direct path (without quotes) to GSC.exe.
+preferences,ams_launch_exe_help,这是 Steam.exe 的位置，或直接指向 AMS.exe 的路径（不带引号）,This is the location of Steam.exe or the direct path (without quotes) to AMS.exe.
+preferences,acs_launch_exe_help,这是 Steam.exe 的位置，或是直接指向 ACS.exe 的路径（不带引号）。,This is the location of Steam.exe or the direct path (without quotes) to ACS.exe.
+preferences,ace_launch_exe_help,这是 Steam.exe 的位置，\或直接指向 AssettoCorsaEVO.exe 的路径（不带引号）,This is the location of Steam.exe or the direct path (without quotes) to AssettoCorsaEVO.exe.
+preferences,marcas_launch_exe_help,这是 Steam.exe 的位置，或是直接指向 marcas.exe 的路径（不带引号）,This is the location of Steam.exe or the direct path (without quotes) to marcas.exe.
+preferences,ftruck_launch_exe_help,这是 Steam.exe 的位置，或直接指向 FTruck.exe 的路径（不带引号）,This is the location of Steam.exe or the direct path (without quotes) to FTruck.exe.
+preferences,pcars32_launch_exe_help,这是 Steam.exe 的位置，\或是直接指向 pcars32.exe 的路径（不带引号）,This is the location of Steam.exe or the direct path (without quotes) to pcars32.exe.
+preferences,pcars64_launch_exe_help,这是 Steam.exe 的位置，\或是直接指向 pcars64.exe 的路径（不带引号）,This is the location of Steam.exe or the direct path (without quotes) to pcars64.exe.
+preferences,f1_2018_launch_exe_help,这是 Steam.exe 的位置，\或是直接指向 f1_2018.exe 的路径（不带引号）,This is the location of Steam.exe or the direct path (without quotes) to f1_2018.exe.
+preferences,f1_2019_launch_exe_help,这是 Steam.exe 的位置，\或是直接指向 f1_2019.exe 的路径（不带引号）,This is the location of Steam.exe or the direct path (without quotes) to f1_2019.exe.
+preferences,f1_2020_launch_exe_help,这是 Steam.exe 的位置，\或是直接指向 f1_2020.exe 的路径（不带引号）,This is the location of Steam.exe or the direct path (without quotes) to f1_2020.exe.
+preferences,f1_2021_launch_exe_help,这是 Steam.exe 的位置，\或是直接指向 f1_2021.exe 的路径（不带引号）,This is the location of Steam.exe or the direct path (without quotes) to f1_2021.exe.
+preferences,f1_2022_launch_exe_help,这是 Steam.exe 的位置，\或是直接指向 f1_2022.exe 的路径（不带引号）,This is the location of Steam.exe or the direct path (without quotes) to f1_2022.exe.
+preferences,f1_2023_launch_exe_help,这是 Steam.exe 的位置，\或是直接指向 f1_2023.exe 的路径（不带引号）,This is the location of Steam.exe or the direct path (without quotes) to f1_2023.exe.
+preferences,launch_rfactor1_help,启动 Crew Chief 时（因为你点击了「启动 Crew Chief」\或者「立即运行」设置项自动启动它）尝试启动 rFactor。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch rFactor.
+preferences,launch_asr_help,启动 Crew Chief 时（因为你点击了「启动 Crew Chief」\或者「立即运行」设置项自动启动它）尝试启动 ASR。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch ASR.
+preferences,launch_rfactor2_help,启动 Crew Chief（因为你点击了“启动 Crew Chief”或“立即运行”设置\项自动启动它）时，尝试启动 rFactor 2。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch rFactor 2.
+preferences,launch_lmu_help,启动 Crew Chief 时（因为你点击了「启动 Crew Chief」或「立即运行」\设置项自动启动它）尝试启动 LMU 。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch LMU .
+preferences,launch_rbr_help,启动 Crew Chief 时（因为你点击了「启动 Crew Chief」\或者「立即运行」设置项自动启动它）尝试启动 Richard Burns Rally。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch Richard Burns Rally.
+preferences,launch_gtr2_help,启动 Crew Chief（因为你点击了“启动 Crew Chief”或“立即运行”设置\项自动启动它）时，尝试启动 GTR 2。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch GTR 2.
+preferences,launch_dirt_help,启动 Crew Chief 时（因为你点击了「启动 Crew Chief」或「立即运行」\设置项自动启动它）尝试启动 Dirt Rally。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch Dirt Rally.
+preferences,launch_dirt2_help,启动 Crew Chief（因为你点击了“启动 Crew Chief”或“立即运行”属性\自动启动它）时，尝试启动 Dirt Rally 2。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch Dirt Rally 2.
+preferences,launch_gsc_help,启动 Crew Chief 时（因为你点击了「启动 Crew Chief」或「立即运行」\设置项自动启动它）尝试启动 Stock Car Extreme。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch Stock Car Extreme.
+preferences,launch_f1_2018_help,当 Crew Chief 启动（因为你点击了「启动 Crew Chief」\或者「Run immediately」设置项自动启动它）时，尝试启动 F1 2018。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch F1 2018.
+preferences,launch_f1_2019_help,当 Crew Chief 启动（因为你点击了「启动 Crew Chief」\或者「Run immediately」设置项自动启动它）时，尝试启动 F1 2019。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch F1 2019.
+preferences,launch_f1_2020_help,当 Crew Chief 启动（因为你点击了「启动 Crew Chief」\或者「Run immediately」设置项自动启动它）时，尝试启动 F1 2020。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch F1 2020.
+preferences,launch_f1_2021_help,启动 Crew Chief 时（因为你点击了「启动 Crew Chief」\或者「立即运行」设置项自动启动它）尝试启动 F1 2021。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch F1 2021.
+preferences,launch_f1_2022_help,启动 Crew Chief 时（因为你点击了「启动 Crew Chief」\或者「立即运行」设置项自动启动它）尝试启动 F1 2022。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch F1 2022.
+preferences,launch_f1_2023_help,启动 Crew Chief 时（因为你点击了“启动 Crew Chief”或“立即运行”\设置项自动启动它）尝试启动 F1 2023。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch F1 2023.
+preferences,launch_ams_help,启动 Crew Chief 时（因为你点击了「启动 Crew Chief」\或者「立即运行」设置项自动启动它）尝试启动 Automobilista。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch Automobilista.
+preferences,launch_marcas_help,启动 Crew Chief 时（因为你点击了「启动 Crew Chief」\或者「Run immediately」设置项自动启动它）\尝试启动 Copa Petrobras de Marcas。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch Copa Petrobras de Marcas.
+preferences,launch_ftruck_help,启动 Crew Chief 时（因为你点击了「启动 Crew Chief」\或者「立即运行」设置项自动启动它）尝试启动 Formula Truck。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch Formula Truck.
+preferences,launch_pcars_help,启动 Crew Chief 时（因为你点击了「启动 Crew Chief」或「立即运行」\设置项自动启动它）尝试启动 pCARS。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch pCARS.
+preferences,launch_acc_help,当 Crew Chief 启动（因为你点击了「启动 Crew Chief」\或者「立即运行」设置项自动启动它）时，尝试启动 ACC。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch ACC.
+preferences,pcars2_launch_exe_help,这是 Steam.exe 的位置，\或是直接指向 pCARS2AVX.exe 的路径（不带引号）,This is the location of Steam.exe or the direct path (without quotes) to pCARS2AVX.exe.
+preferences,pcars3_launch_exe_help,这是 Steam.exe 的位置，或直接指向 pCARS3.exe 的路径（不带引号）,This is the location of Steam.exe or the direct path (without quotes) to pCARS3.exe.
+preferences,pcars2_launch_params_help,这用于告诉 Steam 要运行哪个应用——pCARS 2 的 Steam app ID\是 378860。如果你指定了路径 pCARS2AVX.exe，可以留空此项。,This is used to tell Steam what app to run - pCARS 2's Steam app ID is 378860. If you specified a path pCARS2AVX.exe you can leave this blank.
+preferences,pcars3_launch_params_help,这用于告诉 Steam 要运行哪个应用 - pCARS 3 的 Steam app ID\是 958400。如果你指定了 pCARS3.exe 的路径，可以留空此项。,This is used to tell Steam what app to run - pCARS 3's Steam app ID is 958400. If you specified a path pCARS3.exe you can leave this blank.
+preferences,ams2_launch_exe_help,这是 Steam.exe 的位置，或直接指向 AMS2.exe 的路径（不带引号）,This is the location of Steam.exe or the direct path (without quotes) to AMS2.exe.
+preferences,ams2_launch_params_help,这用于告诉 Steam 要运行哪个应用——AMS 2 的 Steam app ID 是\1066890。如果你指定了 AMS2.exe 的路径，可以留空此项。,This is used to tell Steam what app to run - AMS 2's Steam app ID is 1066890. If you specified a path AMS2.exe you can leave this blank.
+preferences,acc_launch_params_help,用于告诉 Steam 要运行哪个应用-ACC 的 Steam app ID 是\805550。如果你指定了 AC2-Win64-Shipping.exe 路径，\可以留空此项。,This is used to tell Steam what app to run - ACC's Steam app ID is 805550. If you specified a path AC2-Win64-Shipping.exe you can leave this blank.
+preferences,launch_pcars2_help,启动 Crew Chief（因为你点击了“启动 Crew Chief”或“立即运行”属性\自动启动它）时，尝试启动 pCARS 2。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch pCARS 2.
+preferences,launch_pcars3_help,启动 Crew Chief（因为你点击了“启动 Crew Chief”或“立即运行”属性\自动启动它）时，尝试启动 pCARS 3。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch pCARS 3.
+preferences,launch_ams2_help,启动 Crew Chief 时（因为你点击了「启动 Crew Chief」\或者「Run immediately」设置项自动启动它）尝试启动 AMS2。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch AMS 2.
+preferences,iracing_launch_exe_help,这是不带引号的 iRacingSim64DX11.exe 的路径。,This is the path (without quotes) to iRacingSim64DX11.exe.
+preferences,launch_iracing_help,启动 Crew Chief 时（因为你点击了“启动 Crew Chief”或“立即运行”\设置项自动启动它）尝试启动 iRacing。,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch iRacing.
+preferences,run_immediately_help,程序启动后将立即运行 Crew Chief，使用您之前设置的选项。,"The application will start running Crew Chief as soon as you start it up, using whatever options you previously set."
+preferences,pcars_steam_id_help,pCARS 有时会以错误的顺序发送参与者数据。如果设置了此值，\程序将使用它来尝试解决此问题，防止程序‘看到’玩家的错误数据。,"pCARS sometimes sends the participant data in the wrong order. If this value is set, the app will use it to try and work around this issue, preventing the app 'seeing' the wrong data for the player."
+preferences,cumulative_lap_lockup_warning_threshold_help,如果玩家在一圈内锁胎时间超过此数值（秒），则播报提醒。,"If the player has locked wheels for more than this many seconds over the course of a lap, play a warning."
+preferences,cumulative_lap_wheelspin_warning_threshold_help,如果玩家在一圈内打滑时间超过此数值（秒），则播报提醒。,"If the player has wheelspin for more than this many seconds over the course of a lap, play a warning."
+preferences,minimum_name_voice_recognition_confidence_help,当处理有关对手车手的语音指令时，\语音识别引擎必须至少达到此置信度才能理解（0.0 - 1.0）。,"When processing voice commands asking about opponent drivers, the speech recognition engine must be at least this confident it understood before the app responds (0.0 - 1.0)."
+preferences,minimum_name_voice_recognition_confidence_system_sre_help,当处理有关对手车手的语音指令时，\语音识别引擎必须至少达到此置信度才能理解（0.0 - 1.0）。,"When processing voice commands asking about opponent drivers, the speech recognition engine must be at least this confident it understood before the app responds (0.0 - 1.0)."
+preferences,minimum_voice_recognition_confidence_help,处理语音指令时，语音识别引擎必须达到至少这个置信度才能确定理解正确（0.0 - 1.0）\。,"When processing voice commands, the speech recognition engine must be at least this confident it understood before the app responds (0.0 - 1.0)."
+preferences,minimum_voice_recognition_confidence_system_sre_help,处理语音指令时，语音识别引擎必须达到至少这个置信度才能确定理解正确（0.0 - 1.0）\。,"When processing voice commands, the speech recognition engine must be at least this confident it understood before the app responds (0.0 - 1.0)."
+preferences,display_session_lap_times_help,将已完成场次的所有圈速写入控制台（用分号隔开）,Write all the lap times from the completed session to the console (separated by ;).
+preferences,enable_opponent_laptime_reporting_in_race_help,在正赛中播报对手的圈速（前方、后方及领先者），如果该圈速是他们最好的一圈。,"Call out opponent lap times in the race (car front, behind & leader) if the lap time is their best lap."
+preferences,report_sector_deltas_race_help,在比赛中提供分段时间信息,Give sector delta information during a race.
+preferences,report_sector_deltas_race_likelihood_help,每圈正赛后播报分段成绩的概率。0 表示关闭，1 表示每圈都报，默认 0.3，\即每圈有三成机会播报分段信息。,"Probability of giving a sectors report after each race lap (0 = disabled, 1 = every lap, default 0.3 - 30% chance of sector information on each lap)."
+preferences,report_sector_deltas_practice_and_qual_help,在练习和排位中提供分段差距信息,Give sector delta information during practice and qualifying.
+preferences,frequency_of_overtaking_messages_help,当玩家干净利落地超车时，祝贺的频率。0（从不）到 10（尽可能频繁）。,How often to congratulate the player when he makes a clean overtake. 0 (never) to 10 (as often as possible).
+preferences,frequency_of_being_overtaken_messages_help,被超车时责备玩家的频率。0（从不）到 10（尽可能频繁）。,How often to berate the player when he gets overtaken. 0 (never) to 10 (as often as possible).
+preferences,frequency_of_gap_ahead_reports_help,报告与前车差距的频率。0（从不）到 10（尽可能频繁）。,How often to report a the gap to the car in front. 0 (never) to 10 (as often as possible).
+preferences,frequency_of_gap_behind_reports_help,报告与后车差距的频率。0（从不）到 10（尽可能频繁）。,How often to report a the gap to the car behind. 0 (never) to 10 (as often as possible).
+preferences,frequency_of_gap_behind_on_track_reports_help,报告与我们同级别但不在同一圈的后方更快车辆的距离的频率。值范围从 0（从不）\到 10（尽可能频繁）。,How often to report a the gap to a faster car behind that is the same class but not on the same lap as us (i.e. lapping us or unlapping themselves). 0 (never) to 10 (as often as possible).
+preferences,frequency_of_opponent_race_lap_times_help,报告正赛领跑者及前后车辆最快圈速的频率。数值范围从 0 （从不）到 10（尽可能频繁）。\若设置为 1，则仅在圈速达到该场次最佳时播报；数值越大，播报条件越宽松，\直到 10 时只需比当前场次最佳慢几十分之一秒即可。,"How often to report fast laps times for race leader and car in front and behind. 0 (never) to 10 (as often as possible). If this is 1, times are only reported if they're the session best. This criteria becomes less strict up to 10 where the time just needs to be a few tenths off session best."
+preferences,frequency_of_opponent_practice_and_qual_lap_times_help,报告领先车手和前后车辆最快圈速的频率。范围从 0（永不）到 10（尽可能频繁）。\如果设置为 1，则仅在圈速为本节最佳时播报。数值越大，播报条件越宽松，\直到 10 只需比本节最佳慢几十分之一秒即可。负数则只包含杆位圈速而不通知其他对手。,"How often to report fast laps times for race leader and car in front and behind. 0 (never) to 10 (as often as possible). If this is 1, times are only reported if they're the session best. This criteria becomes less strict up to 10 where the time just needs to be a few tenths off session best. A negative number will still include pole lap times but not inform of other opponents."
+preferences,seconds_to_announce_next_car_help,播报前方新赛车前等待的秒数,The seconds to wait before announcing a new car ahead.
+preferences,minutes_to_announce_same_next_car_help,等待宣布最近比赛过的对手的分钟数，例如如果他们在这一时间段内获得并失去位置，\则我们认为您已经认出他们，不会第二次提及。金鱼偏好设置为 0。,"The minutes to wait before announcing an opponent we were recently racing, e.g. if they gain and then lose a position within this time frame we won't mention them the second time on the basis that you already recognise them. Goldfish are known to prefer a value of 0."
+preferences,opponents_number_after_name_help,当知道对手的名字时，有时吉姆会试图提供帮助，在播报中包含他们的赛车号码，\这可以让识别赛道上的对手更容易，特别是在涂装不明显的情况下。,"When the name is known for an opponent, sometimes Jim tries to be helpful and also include their car number, which can make it easier to identify them on track incase their livery is not recognisable."
+preferences,frequency_of_pearls_of_wisdom_help,通用鼓励播报的频率。0（从不）到 10（尽可能频繁）。,How often to play general encouragement messages. 0 (never) to 10 (as often as possible).
+preferences,frequency_of_player_race_lap_time_reports_help,在比赛中报告玩家圈速的频率。从 0 （从不）到 10 （尽可能频繁）。,How often to report player lap times in the race. 0 (never) to 10 (as often as possible).
+preferences,frequency_of_player_prac_and_qual_lap_time_reports_help,播报玩家圈速的频率（练习和排位）。0（从不）到 10（尽可能频繁）。,How often to report player lap times in the practice and qualifying. 0 (never) to 10 (as often as possible).
+preferences,frequency_of_prac_and_qual_sector_delta_reports_help,在练习和排位中报告玩家分段差距的频率。从 0 （从不）到 10 （尽可能频繁）。,How often to report player sector deltas in practice and qualifying. 0 (never) to 10 (as often as possible).
+preferences,frequency_of_race_sector_delta_reports_help,在正赛中报告玩家分段差距的频率。0（从不）到 10（尽可能频繁）。,How often to report a player sector deltas in race. 0 (never) to 10 (as often as possible).
+preferences,race_sector_reports_at_each_sector_help,完成每个分段时播放该分段的差距播报,Play race sector delta reports as you complete each sector.
+preferences,race_sector_reports_at_lap_end_help,在完成一圈时，为整圈播放分段差距播报。,Play sector delta reports for whole lap when you complete the lap.
+preferences,practice_and_qual_sector_reports_at_each_sector_help,完成每个分段时播放练习和排位赛的分段差距播报,Play practice and qual sector delta reports as you complete each sector.
+preferences,practice_and_qual_sector_reports_at_lap_end_help,在完成一圈时，播放练习和排位赛分段差距报告。,Play practice and qual sector delta reports for whole lap when you complete the lap.
+preferences,iracing_reputations_help,按自定义规则启用不良声誉相关的语音指令与播报（与 SR、iRating 是两回事）。\参见「旗语声誉」「资历声誉」「评分声誉」，\以及配置目录下的 iracing_reputations.json。,"Enables voice commands and messages about bad reputations (distinct from SR and iRating) based on user-defined rules. See ""Flag Reputations"", ""Tenure Reputation"", ""Rating Reputation"" and the iracing_reputations.json file in the user's configuration folder."
+preferences,iracing_reputations_flair_bad_help,一个用于表示高延迟的代理，属于这些逗号分隔标志（又称徽章）的车手将被标记为“差”。\可以使用分号添加额外规则以适用于椭圆赛道（出现在分号后的规则将被添加到第一个列表中）。,"A proxy for bad latency, drivers that are members of these comma separated flags (aka flair) will be marked as ""bad"". A semicolon can be used to add additional rules for oval (those that appear after the semicolon will be added to the first list)."
+preferences,iracing_reputations_flair_good_help,一个用于表示高延迟的代理，不属于这些逗号分隔标志（即徽章）的驾驶员将被标记为“可疑”。\可以使用分号添加额外规则以应用于公路赛（在分号后的规则将添加到第一个列表中）。\如果此列表为空，则不会使用它，仅使用不良列表。,"A proxy for bad latency, drivers that are NOT members of these comma separated flags (aka flair) will be marked as ""sketchy"". A semicolon can be used to add additional rules for road (those that appear after the semicolon will be added to the first list). If this list is empty it is not used, and only the bad list is used."
+preferences,iracing_reputations_ratings_help,iRating 低于此值的车手将被标记为“可疑”。可以分别提供公路和椭圆赛道的数值，\用逗号分隔。,"Drivers that have an iRating less than this value will be flagged as ""sketchy"". Separate values for road and oval can be provided by separating with a comma."
+preferences,iracing_reputations_division_help,等级高于此值的车手将被标记为“可疑”。结合了评分和资历，\查看体育规则了解等级是如何计算的。,"Drivers that have a Division higher than this value will be flagged as ""sketchy"". Somewhat combines rating and tenure, see the Sporting Code on how divisions are calculated."
+preferences,iracing_reputations_safety_help,安全评分比你低这么多的车手会被判为「差」。填 0 关闭。每个执照等级折算 1.0 分，\而安全评分每整数点实际只折算 0.5 分，这是 iRacing 的储备机制导致的。\举例：你是 A3.5，想把 C2.5 及以下都算成危险，\那就填 2.5——两个等级 2.0 加上数字差 1.0 再减去储备差 0.5。,"Drivers that have a Safety Rating this much below you will be considered ""bad"". Set to 0 to disable. Every license level is worth a (promotion) score of 1.0 and every whole number of Safety Rating is actually only worth 0.5 because of iRacing's banking system. If you are A3.5 and want to consider C2.5 (and below) to be sketchy, then use a value of 2.5 = 2.0 (for two classes) + 1.0 (for the number difference) - 0.5 (for the loan difference)."
+preferences,enable_opponent_rating_info_help,在对手播报中包含游戏提供的评分信息,Include game supplied rating info in opponent messages.
+preferences,ambient_temp_check_interval_seconds_help,检查环境（空气）温度变化的频率，单位为秒。,"How often to check for changes in ambient (air) temperature, in seconds."
+preferences,track_temp_check_interval_seconds_help,检查赛道温度变化的频率，单位为秒。,"How often to check for changes in track temperature, in seconds."
+preferences,report_ambient_temp_changes_greater_than_help,如果气温变化超过此值（摄氏度），则播报。,Report ambient (air) temperature if it's changed by more than this amount (in Celsius).
+preferences,report_track_temp_changes_greater_than_help,如果赛道温度变化超过此数值（摄氏度），则播报。,Report track temperature if it's changed by more than this amount (in Celsius).
+preferences,pause_between_messages_help,播报多条消息时在同一组内的间隔时间（秒）,Time pause between messages (in seconds) when reading multiple messages together in a single group.
+preferences,pause_between_message_fragments_help,播报片段（声音）之间的暂停时间（毫秒）,Time pause between individual message fragments (sounds) in milliseconds.
+preferences,load_sound_files_on_startup_help,程序启动时加载所有声音。这可能会使启动时间很长，但可以防止在比赛过程中加载内容。,"Load all the sounds when the app starts up. This may make app start times quite long, but prevents the app having to load stuff while you're racing."
+preferences,enable_automatic_plugin_update_help,Crew Chief 会检查最新插件是否已安装，并在未找到或过期时提示安装。,Crew Chief will check if latest plugin is installed and will prompt to install plugin if it is not found or out of date.
+preferences,pcars_character_encoding_help,对于 PS4 始终使用 UTF-8。\对于 PC 和 Xbox 通常使用 windows-1252（Windows 西欧）,For PS4 always use UTF-8. For PC and XBox this will usually be windows-1252 (Windows Western European).
+preferences,ams2_character_encoding_help,通常应为 UTF-8,Should usually be UTF-8.
+preferences,enable_pcars_pit_window_messages_help,在 pCARS 中播报进站窗口消息。不要在线比赛中使用此功能——即使主机未启用，\游戏也会强制发送一次进站圈。,Play pit window messages in pCARS. Don't use this in online racing - the game always sends an enforced pit stop lap even if this isn't enabled by the host.
+preferences,report_yellows_in_all_sectors_help,如果未选中，则程序仅在当前和下一分段报告黄旗。,If this is unchecked the app will report yellow flags only in the current and next sector.
+preferences,max_distance_moved_for_yellow_announcement_help,在 3 秒内移动距离少于这个数值的车辆可能会被报告为发生碰撞。,Cars which have moved less than this many metres in 3 seconds may be reported as having crashed.
+preferences,min_secs_for_debris_flag_help,宣布碎片旗之间的秒数，设置为-1 以禁用。,"The seconds between announcing a debris flag, set to -1 to disable."
+preferences,enable_delayed_responses_help,某些语音指令会触发一个“待命”响应，稍后才会收到请求的播报。,"Some voice commands will trigger a ""stand by"" response, followed some time later by the requested into."
+preferences,enable_console_logging_help,取消选中此项可防止控制台窗口显示消息。减少程序的 CPU 负载。,Uncheck this to prevent console window messages being shown. Reduces the CPU load of the app.
+preferences,console_font_size_help,设置控制台窗口中字体的大小。默认为 8。,Set the size of the font used in the Console Window. Default is 8.
+preferences,console_flush_help,立即将控制台输出写入 MY DOCUMENTS/Crew Chief/Crew\ChiefV4/DebugLogs/console_flush.txt。\此操作有助于调试，但会增加大量磁盘写入次数，并可能减慢计算机速度。,"Immediately write anything written to the console to MY DOCUMENTS/CrewChief/CrewChiefV4/DebugLogs/console_flush.txt as it happens.\\This is useful for debugging, but will cause a lot of disc writes and may slow down your computer."
+preferences,log_tyre_stats_help,显示每个分段开始时的胎温和磨损,Show tyre temps and wear at the start of each sector.
+preferences,r3e_blue_flag_detection_distance_help,最大距离（米）用于 R3E 蓝旗触发,Max distance (metres) for R3E blue flag trigger.
+preferences,play_pre_lights_messages_until_cancelled_help,播放赛前信息播报，直到检测到控制输入。,Play pre-race info messages until a control input is detected.
+preferences,time_between_caution_period_status_reminders_help,黄旗期间状态提醒间隔（秒）,Time between caution period status reminders (seconds).
+preferences,enable_ams_pit_schedule_messages_help,使用离线计划进站时播放「box now」播报,Play 'box now' messages when using offline scheduled pit stops.
+preferences,report_allowed_overtakes_under_yellow_help,在黄旗期间播放可以超车和禁止超车的播报（仅 R3E）,Play can-overtake and no-overtaking messages during yellow flags (R3E only).
+preferences,iracing_override_luckydog_help,忽略 iRacing 的幸运狗遥测数据，在全场黄旗期间手动计算。\在 iRacing 修复他们的遥测之前，\这是在 Crew Chief 中获取幸运狗播报的唯一方法，但这种方法可能不可靠，\例如我们无法排除涉及事故的车手。,"ignore the iRacing lucky dog telemetry under FCY and calculate it manually. Until iRacing fix their telemetry this is the only way to get lucky dog calls in CrewChief but it can be unreliable, e.g. we can't exclude drivers involved in the incident."
+preferences,iracing_disable_luckydog_help,如果遥测数据或重写规则对你不起作用，只需关闭它们，\并使用自定义的 spmsg.txt 来获取默认的观察员播报。,"if neither telemetry nor override rules are working for you, just turn them off and use a custom spmsg.txt to get default spotter calls for this."
+preferences,enable_rf2_pit_stop_prediction_help,使用离线计划进站时播放「box now」播报,Play 'box now' messages when using offline scheduled pit stops.
+preferences,enable_lmu_pit_stop_prediction_help,使用离线计划进站时播放「box now」播报,Play 'box now' messages when using offline scheduled pit stops.
+preferences,enable_gtr2_pit_stop_prediction_help,使用离线计划进站时播放「box now」播报,Play 'box now' messages when using offline scheduled pit stops.
+preferences,enable_simple_incident_detection_listprop_help,监视并播报行驶缓慢的车辆为事故（仅适用于 iRacing、pCARS 和 ACC）。,"Watch for and report very slow cars as incidents (iRacing, pCARS and AC only)."
+preferences,simple_incident_detection_report_delay_help,延迟简单事故播报的时间，值过低可能会导致误报（仅 iRacing？\据说在 pCARS 和 ACC 中也有此情况）,"Time to delay simple incident reports, to low a value might cause false reports (iRacing only? Said to be pCARS and AC too)."
+preferences,enable_yellow_flag_messages_help,启用黄旗播报（可在比赛期间通过语音指令或按钮分配覆盖）,Enable yellow flag messages (can be overridden during a session with voice command or button assignment).
+preferences,enable_opponent_crash_messages_help,在可能的情况下报告涉及对手车辆的事故中的车手名,Report the names of opponent cars involved in incidents where possible.
+preferences,prefer_alternative_download_site_help,使用备用下载位置进行更新,Use the secondary download location for updates.
+preferences,iracing_sof_playerclass_help,计算实力值时不考虑其他组别,Ignores other classes when calculating the Strength of Field.
+preferences,use_american_terms_help,"假设未知车辆使用美国术语（""领跑车"", ""白旗"" 表示最后一圈等）","Assume unknown cars use American phrasing (""pace car"", ""white flag"" for last lap etc)."
+preferences,use_metric_help,使用公制单位（公里/小时、升等）。未选中时使用英制单位（英里/小时、加仑等）,"Use metric units (KPH, litres etc). If not checked use MPH, gallons etc."
+preferences,iracing_overrides_units_help,让 iRacing 选择使用的单位，覆盖“使用公制”，华氏度，并启用美式术语,"Let iRacing choose the units to use, overriding ""Use metric"", Fahrenheit and enabling American terms."
+preferences,realistic_mode_help,根据使用的车辆和赛道限制可用的播报类型。这意味着观察员仅在椭圆形赛道上工作。,Restrict available message types based on the car and track in use. Among other things that means the spotter only works on ovals.
+preferences,always_report_time_in_hundredths_help,始终以百分之一秒为单位播报圈速和差距。,Always report lap times and gaps to hundredths of a second.
+preferences,no_minutes_in_lap_times_help,"仅显示 ""26.5"" 而不是 ""1 分钟 26.5""","Just ""26 point 5"" instead of ""1 minute 26 point 5""."
+preferences,insert_beep_in_between_spotter_and_chief_help,如果观察员和车队工程师是不同的人（除吉姆以外的观察员语音），在切换播报时插入换台提示音。,"If Spotter and Chief are different people (spotter voices other than Jim), insert open channel beep sound on switching messages."
+preferences,insert_beep_out_between_spotter_and_chief_help,如果观察员和车队工程师是不同的人（非吉姆的观察员语音），在切换播报时插入关闭频道提示音。,"If Spotter and Chief are different people (spotter voices other than Jim), insert close channel beep sound on switching messages."
+preferences,minimize_to_tray_help,将 Crew Chief 最小化到系统通知区域而不是任务栏。,Minimize Crew Chief to the system notification area instead of taskbar.
+preferences,minimize_on_startup_help,启动时最小化到任务栏或系统托盘,Starts Crew Chief minimized to task bar or system tray.
+preferences,manual_formation_go_with_leader_help,当领跑车手越过终点线时，其他车辆即可在手动编队圈中超车。,Cars are allowed to overtake on a manual formation lap as soon as the leader crosses the line.
+preferences,reject_message_when_talking_help,打开「与工程师通话」频道期间不播报任何内容。,Don't play any messages while you have the 'talk to chief' radio channel open.
+preferences,enable_rf2_frozen_order_messages_help,在全场黄旗、滚动起步和编队/静止起步期间宣布顺序信息。,"Announce order information during Full Course Yellow, Rolling and Formation/Standing starts."
+preferences,enable_rf2_cut_track_heuristics_help,Crew Chief 将尝试判定您是否切了赛道（四个车轮没有全部在赛道表面）。\如果未选中，只有当游戏报告该圈无效时才会播报切赛道。,"Crew Chief will try to detect if you cut the track (don't have all 4 wheels on the track surface).  If unchecked, cut track will only be reported if game reported that lap got invalidated."
+preferences,enable_lmu_frozen_order_messages_help,在全场黄旗、滚动起步和编队/静止起步期间宣布顺序信息。,"Announce order information during Full Course Yellow, Rolling and Formation/Standing starts."
+preferences,enable_lmu_cut_track_heuristics_help,Crew Chief 将尝试判定您是否切了赛道（四个车轮没有全部在赛道表面）。\如果未选中，只有当游戏报告该圈无效时才会播报切赛道。,"Crew Chief will try to detect if you cut the track (don't have all 4 wheels on the track surface).  If unchecked, cut track will only be reported if game reported that lap got invalidated."
+preferences,enable_gtr2_cut_track_heuristics_help,Crew Chief 将尝试判定您是否切了赛道（四个车轮没有全部在赛道表面）。\如果未选中，只有当游戏报告该圈无效时才会播报切赛道。,"Crew Chief will try to detect if you cut the track (don't have all 4 wheels on the track surface).  If unchecked, cut track will only be reported if game reported that lap got invalidated."
+preferences,enable_rf2_pit_lane_approach_heuristics_help,Crew Chief 将尝试检测用户是否接近维修道入口，并提醒其遵守速度限制。\可能在所有赛道上都无法正常工作。,Crew Chief will try to detect if user approaches the pit lane entry and remind him to respect speed limit.  Might not work correctly for all tracks.
+preferences,enable_lmu_pit_lane_approach_heuristics_help,Crew Chief 将尝试检测用户是否接近维修道入口，并提醒其遵守速度限制。\可能在所有赛道上都无法正常工作。,Crew Chief will try to detect if user approaches the pit lane entry and remind him to respect speed limit.  Might not work correctly for all tracks.
+preferences,enable_command_macros_help,启用语音触发的命令宏，如进站操作等,Enable voice-triggered command macros for pit actions etc.
+preferences,pcars_enable_rain_prediction_help,使用 CloudBrightness 来预测可能下雨的时间 - 可能不太准确。,Use CloudBrightness to guess when it might rain - can be quite inaccurate.
+preferences,disable_alternative_voice_commands_help,Crew Chief 将仅使用每个语音指令集中的第一个项目 -- 可能会提高识别准确性。,Crew Chief will only use the first item from each voice command set - may improve recognition accuracy.
+preferences,use_verbose_responses_help,自动请求之前发出的语音或按钮命令的相关更多信息,Automatically request more info for the previously issued voice or button command.
+preferences,use_naudio_help,nAudio 播放库允许选择播放设备和更高的音量,nAudio playback library allows playback device selection and higher volumes.
+preferences,tts_volume_boost_help,将语音合成音量乘以该数值。,Scale (multiply) text-to-speech volume by this amount.
+preferences,tts_trim_start_milliseconds_help,从语音合成声音的开头裁剪掉这些毫秒，以移除播放前的停顿。,Trim this many milliseconds off the start of TTS sounds to remove pauses before they play.
+preferences,tts_trim_end_milliseconds_help,从语音合成声音末尾裁剪这些毫秒以移除播放后的停顿。,Trim this many milliseconds off the end of TTS sounds to remove pauses after they play.
+preferences,iracing_pit_tyre_pressure_in_psi_help,假设轮胎调整胎压命令使用 PSI 单位（取消选中以使用 kPa）。,Assume tyre adjust tyre pressure commands are in PSI (uncheck this to use kPa).
+preferences,spotter_volume_boost_help,调整观察员音量（乘以该数值）（仅 nAudio）,Scale (multiply) spotter volume by this amount (nAudio only).
+preferences,manual_formation_double_file_help,假设编队圈使用两行车辆,Assume manual formation lap starts use 2 lines of cars.
+preferences,manual_formation_split_classes_help,假设在滚动起步时，不同级别之间有间隔,Assume there's a gap between different classes during a rolling start.
+preferences,save_list_of_unvocalized_names_help,将无元音的车手名写入文件,Write unvocalized driver names to file.
+preferences,enable_ams_blue_on_slower_help,如果后方车辆看起来更快，则播放‘蓝旗’播报。在多级别比赛中很有用。,Play 'Blue Flag' messages if car behind seems to be faster.  Useful in multi-class races.
+preferences,enable_rants_help,允许工程师偶尔用生动有力的语言表达他的失望,Allow the Chief to occasionally express his disappointment in colourful and forceful terms.
+preferences,spotter_oval_clear_delay_help,在椭圆形赛道上，观察员呼叫“畅通”前你需要保持清晰讲话持续多少毫秒。,You need to be clear for this many milliseconds before the Spotter calls 'clear' on ovals.
+preferences,use_naudio_for_speech_recognition_help,nAudio 允许选择语音识别设备,nAudio allows speech recognition device selection.
+preferences,enable_rf2_pit_state_during_fcy_help,安全车/巡游车阶段播报进站状态,Announce pit state during Safety Car/Pace Car phase.
+preferences,enable_lmu_pit_state_during_fcy_help,安全车/巡游车阶段播报进站状态,Announce pit state during Safety Car/Pace Car phase.
+preferences,enable_ams_pit_state_during_fcy_help,安全车/巡游车阶段播报进站状态,Announce pit state during Safety Car/Pace Car phase.
+preferences,bring_game_window_to_front_for_macros_help,运行命令宏之前，将游戏窗口置于最前。,Bring the game window to the front (on top) before running command macros.
+preferences,report_all_laps_in_hotlap_mode_help,在热身圈/单人练习模式下或场次中没有对手时宣布所有圈速。,Announce all lap times when in hotlap/lone practice mode or when we have no opponents in the session.
+preferences,enable_crash_messages_help,在严重碰撞时播放「你还好吗？」播报,Play 'are you OK?' messages when you crash very heavily.
+preferences,force_single_class_help,不允许根据车辆组别分组,Don't allow participants to be grouped by their car classes.
+preferences,force_min_window_size_help,禁止将程序窗口大小调整到低于最小尺寸,Don't allow the app's window size to resized below the minimum size.
+preferences,pit_box_position_countdown_help,距离维修位的行驶距离（以米为单位）（仅限 R3E、rF2、LMU、\iRacing 和 GTR 2）。注意：在 rF2 中，椭圆形赛道禁用。\某些其他赛道可能也无法使用。,"Play distance in metres to box as you approach (R3E, rF2, LMU, iRacing and GTR 2 only).  Note:  In rF2, disabled for oval tracks.  May not work with some other tracks too."
+preferences,pit_box_time_countdown_help,接近时播报进维修位时间（仅限 R3E、rF2、LMU、iRacing 和 GTR 2）。\注意：在 rF2 中，椭圆形赛道禁用。也可能与其他某些赛道不兼容。,"Play time to box as you approach (R3E, rF2, LMU, iRacing and GTR 2 only).  Note:  In rF2, disabled for oval tracks.  May not work with some other tracks too."
+preferences,pit_box_time_countdown_end_position_help,距离维修位此距离（米）结束进站时间倒计时。,End pit box time countdown this many metres from the box.
+preferences,pit_box_position_countdown_in_feet_help,以英尺为单位播报进站距离,Play pit distance countdown in feet.
+preferences,enable_multiclass_messages_help,当较慢或较快级别的车辆接近时播放提醒,Play warnings when slower or faster class cars are approaching.
+preferences,target_warning_time_for_slower_class_car_help,在超过较低级别车辆时提前发出提醒的时间（秒）。,Try and warn this many seconds in advance when passing slower class cars.
+preferences,target_warning_time_for_faster_class_car_help,被更高级别车辆超越前提前提醒的秒数,Try and warn this many seconds in advance when being passed by faster class cars.
+preferences,max_unknown_car_classes_for_assetto_help,如果 Assetto Corsa 中未知的车辆型号超过此数量，则假设为单一级别比赛。,Assume single-class race if there are more than this many unknown car models in Assetto Corsa.
+preferences,iracing_fast_parsing_help,使用快速解析器解析 iRacing 场次信息。仅在遇到崩溃时取消选中（并请告知我们）,Use fast parser for iRacing session info. Uncheck only if you experience crashes (and please tell us).
+preferences,crewchief_record_trace_checkbox_help,允许捕获调试记录文件，开发者可以检查该文件以解决 bug 或实现新功能。,Allows a debug trace to be captured which can be inspected by developers to address bugs or new features.
+preferences,trace_race_sessions_only_help,如果仅记录调试跟踪，请在比赛场次期间进行（大多数有趣的事情发生在此时）。,If recording a debug trace only do it during race sessions (when most of the interesting stuff happens).
+preferences,enable_iracing_pit_stop_commands_help,如果您不使用 iRacing 进站指令，可以取消选中此项。若未选中，\Crew Chief 将不会包含 iRacing 进站指令于命令集中——可能提高识别准确\性。,"If you do not use iRacing pit stop commands, you may uncheck this.  If unchecked, Crew Chief will exclude iRacing pit stop commands from the command set - may improve recognition accuracy."
+preferences,add_additional_fuel_help,额外添加的燃油量（以圈数或部分圈数为单位）。仅适用于旧版算法，此设置将被移除。,"Amount of extra fuel to add as a reserve (in laps or fractions of a lap). Only for the legacy algorithm, this will be removed."
+preferences,legacy_fuel_help,使用旧燃油计算。此选项将在某个时候被移除。,Use the old fuel calculation. This option will be removed at some point.
+preferences,fuel_saving_percentage_help,你觉得自己能省下多少燃油？这取决于驾驶水平，按剩余油量的百分比计算。你问燃油状态时，\如果差额落在这个范围内，工程师会提醒可能跑不到终点、或者需要开始省油。,"How much fuel do you think you can reasonably save? This is skill dependent and is a percentage of your remaining tank. When asked about the fuel status, the chief will note that we might not get to the end or we may need to fuel save if it falls within this amount."
+preferences,fuel_percentile_help,值为 50 表示在估算燃油使用时始终采用中位数的绿旗加油量。\值为 100 表示始终采用最大绿旗加油量。可以设置介于两者之间的任何数值，\以找到适合您的安全余量。,A value of 50 will always use the median green flag fuel consumption when estimating fuel use. A value of 100 always uses the max green flag consumption. Can be set to anything in between to find a nice safety margin that works for you personally.
+preferences,fuel_percentile_oval_help,值为 50 表示在估算燃油使用时始终采用中位数的绿旗加油量。\值为 100 表示始终采用最大绿旗加油量。可以设置介于两者之间的任何数值，\以找到适合您的安全余量。,A value of 50 will always use the median green flag fuel consumption when estimating fuel use. A value of 100 always uses the max green flag consumption. Can be set to anything in between to find a nice safety margin that works for you personally.
+preferences,fuel_reserve_laps_short_help,为短赛道（少于 1.5 英里/2.4 公里）添加额外的圈数以节省燃油。,Add this many extra laps of fuel for short tracks (less than 1.5 mile / 2.4 km).
+preferences,fuel_reserve_laps_medium_help,为中型赛道（1.5 至 6.2 英里/2.4 至 10 公里）添加额外的燃油圈数。,Add this many extra laps of fuel for medium tracks (1.5 to 6.2 miles / 2.4 to 10 km).
+preferences,fuel_reserve_laps_long_help,为长赛道（超过 6.2 英里/10 公里）添加额外的燃油圈数。,Add this many extra laps of fuel for long tracks (more than 6.2 miles / 10 km).
+preferences,fuel_extra_laps_oval_help,为椭圆形赛道添加额外的燃油圈数（除保留燃油外），以应对可能出现的绿旗/白旗/方格旗情况。\设置为 0 表示愿意冒险。,"Add this many extra laps of fuel for ovals in addition to the reserve, to account for potential green / white / chequered scenarios. Set to 0 if you prefer to roll the dice!."
+preferences,fuel_extra_laps_endurance_help,为公路耐力赛（超过 60 分钟，赛道长度小于 10 公里）添加额外的燃油圈数。\这些圈数在储备燃油之外，用于补偿由于意外领先者进站和事故导致的比赛长度预测误差。,"Add this many extra laps of fuel for road endurance races (60+ minutes, tracks less than 10km) in addition to the reserve, to account for errors in race length predictions due to unexpected leader pitstops and incidents."
+preferences,fuel_experimental_lap_estimator_multiclass_help,在估算剩余圈数时，将领跑者视为与我们相同的进站时间。如果禁用此功能，则假设他们不会进站，\从而可能导致高估圈数（更保守）。,"When estimating the laps remaining in the race, treat the leader as if their pitstop will be the same length as ours. If this is disabled, we assume they do not stop and therefore we may over-estimate the laps (safer)."
+preferences,iracing_invalidate_cut_track_laps_help,取消选中此选项，如果您不想让程序在您切赛道时无效化圈数。,Uncheck this if you don't want the app to invalidate laps where you cut the track.
+preferences,enable_pit_exit_position_estimates_help,播报出维修道位置估计,Play pit exit position estimates.
+preferences,enable_opponent_pit_exit_estimates_help,播放对手赛车出维修道位置预测,Play pit exit position estimates for opponent cars.
+preferences,enable_delayed_messages_on_hardparts_help,在接近弯道时延迟非即时播报（初始状态）,Delays non immediate messages when approaching a corner (initial state).
+preferences,iracing_enable_auto_fuel_to_end_of_race_help,启用 iRacing 的自动加油，基于程序的燃油计算,Enables auto refuelling in iRacing based on fuel calculations done by the app.
+preferences,rf2_enable_auto_fuel_to_end_of_race_help,启用 rFactor 2 的自动加油，基于程序的燃油计算,Enables auto refuelling in rFactor 2 based on fuel calculations done by the app.
+preferences,rf2_enable_pit_manager_help,启用语音指令控制 rF2 维修站菜单,Enables voice commands controlling rF2 pit menu.
+preferences,rf2_enable_auto_clear_tyre_change_help,清除 rF2 赛始维修菜单中的轮胎更换,Clears rF2 pit menu tyre change at start of race.
+preferences,lmu_enable_auto_fuel_to_end_of_race_help,在 Le Mans Ultimate 中启用基于应用燃油计算的自动加油功能,Enables auto refuelling in LMU  based on fuel calculations done by the app.
+preferences,lmu_enable_pit_manager_help,启用语音指令控制 LMU 维修站菜单,Enables voice commands controlling LMU pit menu.
+preferences,priortise_messages_depending_on_situation_help,在压力下、排位圈等情况下禁用不太重要的播报,"Disable less important messages when under pressure, on a qualifying lap, etc."
+preferences,trigger_word_for_always_on_sre_help,"在运行""触发词""模式时，程序会在每个命令前监听此触发词","When running 'Trigger word' mode, the app listens for this trigger word before each command."
+preferences,interrupt_setting_listprop_help,设置哪些重要播报允许中断常规播报,Set which important messages are allowed to interrupt regular messages.
+preferences,tts_setting_listprop_help,设置程序播报车手名的频率,Set how often the app will use text-to-speech to read driver names.
+preferences,naudio_output_interface_listprop_help,选择 nAudio 输出接口类型。WaveOut 兼容性更好，\但 WASAPI 响应更快/直接播放,"Select nAudio Output Interface Type.  WaveOut is more compatible, but WASAPI is more responsive/direct playback."
+preferences,naudio_wasapi_latency_help,设置 WASAPI 输出延迟（毫秒）。较小的值可减少延迟，但会增加 CPU 使用率。,"Set WASAPI output latency in milliseconds.  Lower value reduces latency, but increases CPU usage."
+preferences,trigger_word_sre_min_confidence_help,当监听语音指令触发词时，\程序必须对其理解的置信度达到此值以上才开始进行语音识别（0.0 - 1.0）。,"When listening for the voice command trigger word, the app must be at least this confident it understood before starting speech recognition (0.0 - 1.0)."
+preferences,trigger_word_sre_min_confidence_system_sre_help,当监听语音指令触发词时，\程序必须对其理解的置信度达到此值以上才开始进行语音识别（0.0 - 1.0）。,"When listening for the voice command trigger word, the app must be at least this confident it understood before starting speech recognition (0.0 - 1.0)."
+preferences,trigger_word_listen_timeout_help,在收到触发词后等待这么多毫秒以接收命令。,Wait this many milliseconds for a command after receiving the trigger word.
+preferences,enable_alarm_clock_voice_recognition_help,选中此项以使用闹钟功能。默认不选中，以限制语音命令的数量。,"Check this if you want to use the alarm clock feature, this is unchecked by default to limit the number of voice commands."
+preferences,alarm_clock_times_help,设置您希望闹钟响起的时间。格式示例：17:11 23:11，如果您想设置多个闹钟，\请用“;”分隔时间，例如：17:11;23:11。,"Set the time(s) you want the alarm to go off. Format eg. 5:11PM 5:11AM 17:11, if you want to have more than one alarm separate times with "";"" eg. 5:11PM;5:11AM."
+preferences,disable_behavior_altering_voice_commands_help,禁用所有影响 Crew Chief 行为的语音指令，例如：“Spot”，\“Don't spot”，“Keep quiet”等,"Disable all voice commands that affect Crew Chief behaviour, for example: ""Spot"", ""Don't spot"", ""Keep quiet"" etc."
+preferences,disable_overlay_voice_commands_help,禁用所有影响 Crew Chief 覆盖层的语音指令，例如：“显示字幕”，\“切换 VR 覆盖层”等。,"Disable all voice commands that affect Crew Chief overlays, for example: ""Show subtitles"", ""Toggle VR overlays"" etc."
+preferences,slow_class_car_warnings_in_race_only_help,仅在正赛中播放多级别‘前方慢车’提醒,Only play 'slow car ahead' multiclass warnings in race sessions.
+preferences,record_sound_variety_data_help,记录每个声音播放的次数及其版本数量。适用于语音包开发者。,Log the number of times each sound is played and the number of versions of this sound. For sound pack developers.
+preferences,persist_pitstop_benchmark_times_help,将基准时间保存到文档文件夹。,Save benchmark times to Documents folder.
+preferences,use_rf2_wheel_size_for_locking_and_spinning_help,使用 rF2 提供的轮盘尺寸（而非车辆组别数据）进行锁死和打滑播报计算,Use rF2 provided wheel size (instead of car class data) for lock and spin messages calculations.
+preferences,use_lmu_wheel_size_for_locking_and_spinning_help,使用 LMU 提供的轮辋尺寸（而非车辆组别数据）进行锁死和打滑播报计算,Use LMU provided wheel size (instead of car class data) for lock and spin messages calculations.
+preferences,enable_iracing_pit_state_during_fcy_help,安全车/巡游车阶段播报进站状态,Announce pit state during Safety Car/Pace Car phase.
+preferences,iracing_fcy_formation_use_drivername_help,如果可用，在全场黄旗和编队圈期间使用车手名代替车辆编号。,Use driver names instead of car number if available during FCY and formation laps.
+preferences,formation_doublefile_variation_help,车队工程师将随机不包含车辆名称、编号或列信息。,"The crew chief will randomly not include car names, numbers or column information."
+preferences,enable_websocket_help,通过 Websocket 发送一些 Crew Chief 数据,Send some Crew Chief data over a Websocket.
+preferences,websocket_port_help,用于 Crew Chief 特定 Websocket 数据的端口（目前仅限 R3E\WebHud 的无线电旗）,Port to use for Crew Chief specific Websocket data (currently only a radio flag for R3E WebHud).
+preferences,enable_rf2_wrong_way_message_help,播报中心「逆向行驶」消息。需要在插件中启用 DMA。,Announce Message Centre 'Wrong Way' message.  Requires DMA enabled in plugin.
+preferences,enable_lmu_wrong_way_message_help,播报中心「逆向行驶」消息。需要在插件中启用 DMA。,Announce Message Centre 'Wrong Way' message.  Requires DMA enabled in plugin.
+preferences,enable_game_data_websocket_help,将共享内存数据以与「dash.exe」完全相同的方式发送到套接字,Send shared memory data to a socket in exactly the same way that 'dash.exe' would.
+preferences,game_data_websocket_port_help,R3E WebHud WebSocket 数据使用的端口,Port to use for R3E WebHud Websocket data.
+preferences,disable_rf2_race_end_messages_on_abandoned_sessions_help,选中此项可禁用在未完成单人比赛时退出比赛结束的播报。,Check this if you would like to turn off race end messages for times when you quit Single Player race without finishing it.
+preferences,disable_lmu_race_end_messages_on_abandoned_sessions_help,选中此项可禁用在未完成单人比赛时退出比赛结束的播报。,Check this if you would like to turn off race end messages for times when you quit Single Player race without finishing it.
+preferences,hold_button_poll_frequency_help,检查「与工程师通话」按键是否被按下的间隔。数值越小 CPU 占用越高。,"Time between checks if ""Talk to Chief"" button is pressed.  The lower the value the higher the CPU usage is."
+preferences,sre_wait_time_help,放弃识别该短语并说出「I 没有听清楚」之前等待的时间（毫秒）,Time (milliseconds) to wait until giving up on recognizing the phrase and saying 'I didn't catch that'.
+preferences,prefer_max_consumption_in_fuel_calculations_help,在所有赛道类型上计算燃油时使用每圈最大燃油消耗量。仅适用于旧版算法，此选项将被移除。,"Use max per-lap fuel consumption when calculating fuel on all track types. Only for the legacy algorithm, this will be removed."
+preferences,report_fuel_laps_left_in_timed_races_help,报告计时赛剩余圈数而不是比赛持续时间。即使未设置，\燃油也会在段程接近结束时以圈数形式播报。,"Report how many laps left in timed races rather than how long it will last. Even if this is unset, fuel will be reported in laps near the end of the stint."
+preferences,naudio_wave_in_sample_rate_help,语音录音设备的采样率（赫兹，仅限 nAudio）,"Sample rate for voice recording device (Hz, nAudio only)."
+preferences,naudio_wave_in_channel_count_help,声道（1：单声道，2：立体声）用于录音设备（仅 nAudio）。,"Channels (1: mono, 2: stereo) for recording device (nAudio only)."
+preferences,naudio_wave_in_sample_depth_help,样本深度，每个样本的位数为 8 或 16（仅 nAudio）。,"Sample depth, 8 or 16 bits per sample, for recording device (nAudio only)."
+preferences,allow_important_messages_even_when_silenced_help,即使要求静默，工程师仍然会优先播报重要消息。,The Chief still gives high priority messages even when you ask him to keep quiet.
+preferences,fcy_stop_spotter_immediately_help,在全场黄旗期间立即关闭观察员，无需等待减速或开始新一圈,Turn off spotter on FCY without waiting until you've slowed or start a new lap.
+preferences,enable_blue_flag_messages_help,启用蓝旗播报,Enable blue flag calls.
+preferences,limit_available_games_help,"用逗号分隔的游戏列表，显示在游戏列表中（例如：PCARS2, R3E）","Comma separated list of games to show in the Games list (e.g. PCARS2, R3E)."
+preferences,limit_available_games_new_help,选择要显示在游戏列表中的游戏,Select games to show in the Games list.
+preferences,enable_radio_beeps_help,播报前播放一声蜂鸣,Play a beep before the Chief starts talking.
+preferences,prefer_system_sre_help,使用 Windows 内置的语音识别引擎。这需要更好的语音输入信号质量，\但可以训练以识别用户的个人声音。,Use Windows' built-in speech recogniser. This requires a better quality voice input signal but can be trained to recognise a user's individual voice.
+preferences,prefer_microsoft_sre_help,使用 Microsoft 识别引擎。该引擎针对嘈杂环境和低质量声音输入进行了优化，\无需训练即可与多种麦克风类型和口音配合工作，但需要单独安装运行时和语言包。,"Use the Microsoft speech recogniser. This is optimised for noisy environments and poor quality sound input. It requires no training and works with a wide range of microphone types and accents, but it requires a separate runtime installation and a language pack."
+preferences,use_free_dictation_for_chat_help,使用自由听写进行聊天消息（仅限 Windows 语音识别引擎）,Use free dictation for chat messages (Windows Speech recogniser only).
+preferences,free_dictation_chat_start_word_help,说这个词后再输入聊天消息。,Say this word before dictating a chat message.
+preferences,free_dictation_chat_keypress_delay_ms_help,发送到游戏聊天的按键之间的延迟（毫秒）,Delay in mS between key presses sent to in-game chat.
+preferences,max_complaints_per_session_help,防止程序在长时间会话中过多抱怨，设置为 0 禁用负面消息。,"Prevent the app from complaining too much in long sessions, set to 0 to disable negative messages."
+preferences,enable_on_hold_close_channel_beep_help,在“按住按钮”语音模式下，释放按钮时播放关闭频道声音。,"Play close channel sound on button release in ""Hold button"" speech mode."
+preferences,sre_respond_while_channel_still_open_help,"不要等待电台频道关闭后再回应命令（""按住按钮""模式）","Don't wait for the radio channel to be closed before responding to commands (""Hold button"" mode)."
+preferences,enable_breath_in_help,播报时偶尔停顿换气,Occasionally pause for breath when reading messages.
+preferences,enable_overlay_window_help,显示一个透明窗口，显示控制台输出文本和/或遥测图表。,Shows a transparent window showing the console output text and/or telemetry charts.
+preferences,iracing_enable_disk_based_telemetry_help,启用 iRacing 基于磁盘的遥测数据读取以显示覆盖层图表,Enable iRacing disk based telemetry reading for overlay charts.
+preferences,enable_chart_telemetry_in_race_session_help,在比赛中记录图表遥测数据,Record chart telemetry during races.
+preferences,update_interval_when_collecting_telemetry_help,采集图表数据的更新间隔,Update interval for capturing chart data.
+preferences,make_overlay_app_window_help,将覆盖层窗口以程序窗口的形式显示在任务栏上,Make the overlay window appear on the taskbar as an app window.
+preferences,delete_iracing_telemetryfile_help,删除处理后的最新 iRacing 数据文件，有助于减少数据记录占用的磁盘空间。,"Deletes the latest iRacing telemetry file after processing it, helps reducing disk space used for telemetry recordings."
+preferences,enable_automatic_disk_telemetry_recording_help,让 Crew Chief 控制 iRacing  telemetry 记录的开始和停止。,Lets Crew Chief handle the starting and stopping of iRacing telemetry recording.
+preferences,enable_shared_memory_help,允许其他程序读取来自 Crew Chief 的当前共享内存,Allows other apps to read the current shared memory from Crew Chief.
+preferences,enable_subtitle_overlay_help,显示带有字幕的覆盖窗口,Displays an overlay window with subtitles.
+preferences,force_stereo_help,播放前将播报转换为立体声（仅限 nAudio）,Convert messages to stereo before playing (nAudio only).
+preferences,auto_enable_pacenotes_in_practice_help,在练习中始终启用路书播报（当有路书时）,Always start with pace note playback enabled in practice where pace notes are available.
+preferences,enable_console_autoscroll_help,在运行时自动滚动控制台。如果窗口未最小化，可能会影响性能。,Automatically scroll console while Crew Chief is running.  Can cost a bit of performance if window is not minimized.
+preferences,multi_lap_pace_notes_help,在多于一圈内记录路书,Record pace notes over more than one lap.
+preferences,pace_notes_mute_all_messages_help,播报路书时静音其他播报,Mute other messages when pace notes are playing.
+preferences,play_pit_speed_limit_warnings_help,离开车库或进入维修道时播报限速,Play pit speed limit when leaving garage or entering the pitlane.
+preferences,start_steam_vr_if_detected_help,如果系统检测到 SteamVR，则启动 SteamVR（用于 VR 覆盖层）,Starts SteamVR if detected on the system (Needed for VR overlays).
+preferences,enable_vr_overlay_windows_help,启用 SteamVR 覆盖层窗口,Enables Steam VR overlay windows.
+preferences,vr_overlays_enabled_on_startup_help,在启动 Crew Chief 时绘制之前启用的 SteamVR 覆盖层。,Draw previously enabled Steam VR overlays on Crew Chief startup.
+preferences,r3e_ratings_url_help,获取 R3E 评分数据的 URL,URL to retrieve R3E rating data.
+preferences,watched_opponent_names_help,要播报的对手车手名，以逗号分隔列表,Comma separated list of opponent names to report on.
+preferences,show_vr_settings_as_overlay_help,SteamVR 设置窗口始终以覆盖层形式显示。如果妨碍其他窗口，请取消选中。,SteamVR Settings window is always shown as an overlay.  Uncheck if it gets in a way of other windows.
+preferences,codriver_rushed_speed_help,在该速度以上使用紧急呼叫（仅限拉力赛）。设置为不切实际的高值，例如 400 公里/小时，\以避免因速度触发紧急呼叫。,"Use rushed / urgent calls when above this speed (rally only).  Set to unrealistically high value, e.g. 400km/h to never rush based on speed."
+preferences,codriver_rushed_lookahead_seconds_help,在距离路书播报还有这么多秒时使用紧急呼叫（仅限拉力赛）。如果设置为 0，\领航员将仅根据速度进行紧急播报。数值越大，领航员越可能进行紧急播报。,"Use rushed / urgent calls when there are pace notes to be announced this many seconds away (rally only).  If set to 0, co-driver will only rush based on speed.  The bigger the value, the more likely it is that co-driver will rush."
+preferences,codriver_chained_pacenote_threshold_distance_help,当它们之间的距离小于这个数值（单位：米）时合并播报（仅限拉力赛）。,Combined calls when they're closer together than this many metres (rally only).
+preferences,codriver_lookahead_seconds_help,当你距离拐弯等位置还有这么多秒时进行播报（仅限拉力赛）,Call out corners etc when you're this many seconds away (rally only).
+preferences,enable_controller_pov_switches_help,允许使用控制器视点切换进行按钮分配,Allow controller point-of-view switches to be used for button assignments.
+preferences,block_male_sounds_help,不播放假设玩家和所有对手为男性的声音（包含“他”、“家伙”、“男人”等词语的声音）,"Don't play sounds which assume the player and all opponents are male (sounds that include ""he"", ""guy"", ""man"" etc)."
+preferences,enable_watch_car_command_help,启用关注对手/竞争者语音指令,Enable the watched opponent / rivals voice commands.
+preferences,lazy_load_subtitles_help,立即加载字幕（加快应用启动时间，可能增加运行时负载）,"Load subtitles immediately before displaying (improves app startup time, may add additional load at runtime)."
+preferences,show_splash_screen_help,显示启动画面时程序正在启动,Show splash screen while the app is launching.
+preferences,enable_gtr2_pit_lane_approach_heuristics_help,Crew Chief 将尝试检测用户是否接近维修道入口，并提醒其遵守速度限制。\可能在所有赛道上都无法正常工作。,Crew Chief will try to detect if user approaches the pit lane entry and remind him to respect speed limit.  Might not work correctly for all tracks.
+preferences,scroll_bars_on_main_window_help,主窗口大于屏幕时显示滚动条,Scroll bars if main window is larger than screen.
+preferences,use_dictation_grammar_for_rally_help,使用自由听写语法记录路书（仅限 Windows 语音识别引擎）,Record pace notes using free dictation grammar (Windows speech recogniser only).
+preferences,dictation_grammar_for_rally_confidence_help,在自由听写模式下处理路书时，\语音识别引擎必须至少达到此置信度才能确定理解正确（0.0 - 1.0）。,"When processing stage notes in free dictation mode, the speech recognition engine must be at least this confident it understood before the app responds (0.0 - 1.0)."
+preferences,confirm_recce_pace_notes_help,播放从每个阶段注释语音命令创建的路书,Play back the pace note(s) created from each stage notes voice command.
+preferences,minimum_rally_voice_recognition_confidence_microsoft_sre_help,在拉力模式下处理语音指令时，\语音识别引擎必须至少达到此置信度才能确定理解正确（0.0 - 1.0）。,"When processing voice commands in rally mode, the speech recognition engine must be at least this confident it understood before the app responds (0.0 - 1.0)."
+preferences,minimum_rally_voice_recognition_confidence_system_sre_help,在拉力模式下处理语音指令时，\语音识别引擎必须至少达到此置信度才能确定理解正确（0.0 - 1.0）。,"When processing voice commands in rally mode, the speech recognition engine must be at least this confident it understood before the app responds (0.0 - 1.0)."
+preferences,dirt_rally_udp_data_port_help,Dirt Rally 网络数据 UDP 端口（通常应为 20777）,Dirt Rally network data UDP port (should usually be 20777).
+preferences,dirt_rally_2_udp_data_port_help,Dirt Rally 2 网络数据 UDP 端口（通常应为 20777）。,Dirt Rally 2 network data UDP port (should usually be 20777).
+preferences,log_type_spotter_help,在控制台和日志中包含观察员播报,Include spotter messages in the console and log.
+preferences,log_type_sound_help,在控制台和日志中包含语音播报,Include sound messages in the console and log.
+preferences,log_type_soundDebug_help,在控制台和日志中包含声音调试信息,Include sound debug messages in the console and log.
+preferences,log_type_debug_help,在控制台和日志中包含调试信息,Include debug messages in the console and log.
+preferences,log_type_verbose_help,在控制台和日志中包含详细的调试消息,Include verbose debug messages in the console and log.
+preferences,log_type_fuel_help,在控制台和日志中包含燃油调试信息,Include fuel debug messages in the console and log.
+preferences,log_type_tyres_help,在控制台和日志中包含轮胎记录消息,Include tyre trace messages in the console and log.
+preferences,log_type_brakes_help,在控制台和日志中包含刹车记录消息,Include brakes trace messages in the console and log.
+preferences,log_type_exception_help,在控制台和日志中包含异常消息,Include exception messages in the console and log.
+preferences,allow_composite_personalisations_help,在主屏幕的“我的车手名”列表中包含复合名称（使用对手名称）,Include composite names (using opponent names) in the 'My name' list on the main screen.
+preferences,codriver_dynamic_lookahead_help,接近慢弯时减少领航员的预测距离,Reduce co-driver look ahead distance when approaching slow corners.
+preferences,codriver_min_space_for_auto_distance_call_help,当下一个播报距离大于此值时插入自动距离播报。,Insert auto-generated distance call when the next call is greater than this distance away.
+preferences,include_start_pos_in_dirt_stage_names_help,在构建路书文件夹名称时，添加 X 和 Z 坐标到阶段长度,Add X and Z coordinates to stage length when constructing folder name for pace notes.
+preferences,save_sre_debug_data_help,保存 SRE 音频文件和识别文本到 voiceRecognitionDebug 文件夹。,Save SRE audio file and recognised text in voiceRecognitionDebug folder.
+preferences,sre_button_release_delay_help,在释放无线电按钮后等待此时间段再调用语音识别引擎。,Wait this long after releasing the radio button before invoking the speech recogniser.
+preferences,sre_enable_threshold_tuning_help,自动调整 SRE 置信度阈值,Adjust SRE confidence thresholds automatically.
+preferences,enable_rf1_box_sharing_warnings_help,使用练习进站时的车辆位置数据触发维修位被占用提醒,Use practice pit stop car position data to trigger pit-box-in-use warnings.
+preferences,force_resample_help,更改播报文件播放前的采样率，设置为 0 禁用重采样（仅 nAudio）,"Change sample rate of message files before playback, set to 0 to disable resampling (nAudio only)."
+preferences,enable_frozen_order_messages_help,播报编队圈和全场黄旗指令,Play formation lap and full course yellow order messages.
+preferences,force_seated_on_vr_view_reset_help,强制在重置 VR 视图时重置坐姿。若未选中，则保留当前 SteamVR 跟踪模式。,"Force Seated position reset on Reset VR View.  If unchecked, will respect the current SteamVR tracking mode."
+preferences,speak_only_when_spoken_to_help,仅在收到命令或请求时播放音频（观察员播报仍可能播放）,Only play audio in response to commands or requests (spotter messages may still play).
+preferences,just_the_facts_help,仅播放事实性播报 - 不包含建议、鼓励或抱怨,"Play only factual messages - no suggestions, encouragement or complaints."
+preferences,enable_mqtt_telemetry_help,启用 MQTT 遥测传输到 MQTT 中介服务器,Enable MQTT telemetry transmission to an MQTT broker.
+preferences,mqtt_topic_drivername_help,一个唯一的车手名，将插入到 MQTT 主题中。,A unique driver name to be inserted into the MQTT topic.
+preferences,use_fuzzy_driver_name_matching_help,允许对手名称匹配相似发音的录音,Allow opponent names to be matched to similar sounding recordings.
+preferences,allow_first_names_help,允许使用对手的名（如果无法匹配其姓）。请注意，这与语音识别兼容性较差/不可靠/不一致，\语音识别将期望您使用吉姆使用的相同名称。,Allow opponent first names to be used if there is no match for their surname. Note that this is largely incompatible / unreliable / inconsistent with speech recognition which will expect you to use the same name that Jim uses.
+preferences,prefer_first_names_help,如果可用，优先使用对手的名字而不是姓氏。注意这与语音识别功能不兼容/不可靠/不一致，\后者会期望你使用 Jim 使用的相同名字。,Use opponent first names if they are available before considering surnames. Note that this is largely incompatible / unreliable / inconsistent with speech recognition which will expect you to use the same name that Jim uses.
+preferences,enable_auto_detect_help,自动检测正在运行的游戏，并根据需要启动或重启 Crew Chief,Auto detect running game and start or restart Crew Chief as required.
+preferences,enable_auto_detect_exit_cc_help,如果自动检测到游戏退出，则退出 Crew Chief,If we have auto detected a game and it exits then exit Crew Chief.
+preferences,enable_volume_control_help,"添加命令以更改 Crew Chief、\游戏和语音聊天的音量（""crew chief""/""game""/""voip"" ""更小声""/\""更大声""）。Crew Chief 将记住下次的音量。\使用文件/打开数据文件夹来打开 game_volumes.json 以设置 VOIP 进\程名称。","Add commands to change the volume of Crew Chief, the game and voice chat (""crew chief""/""game""/""voip"" ""quieter""/""louder""). Crew Chief will remember the volume next time.\\Use File/Open data files folder to open game_volumes.json to set the VOIP process name."
+preferences,enable_audio_ducking_help,在 Crew Chief 播放声音时降低游戏音量。\使用文件/打开数据文件夹来打开 game_volumes.json 以设置音量减少的百分\比。,Reduce the game volume while Crew Chief is playing sounds.\\Use File/Open data files folder to open game_volumes.json to set the percentage the volume is reduced.
+preferences,enable_audio_ducking_while_talking_to_cc_help,在与 Crew Chief 通话时降低游戏音量。\使用文件/打开数据文件夹来打开 game_volumes.json 以设置降低的百分比。,Reduce the game volume while talking to Crew Chief.\\Use File/Open data files folder to open game_volumes.json to set the percentage the volume is reduced.
+preferences,save_console_after_each_run_help,每次按下停止时保存控制台日志，而非仅在退出 Crew Chief 时保存,Save the Console log each time Stop is pressed vs. only saving it when Crew Chief exits
+preferences,enable_running_dos_commands_from_command_macros_help,从按钮或语音命令运行任何你喜欢的内容。\例如：rF2 赛事管理员运行一个程序来反转发车顺序。,Run anything you like from a button or a voice command. Example: RF2 race admin runs a program to reverse the grid.
+preferences,revert_to_legacy_version_of_refactored_code_help,如果出现问题，则使用原始版本，有些模块可能正在使用更新的版本。,"Newer versions of some modules may be in use, if problems are reported then use the original version."
+preferences,use_legacy_plugin_installer_help,使用旧版插件安装程序来安装插件。,Use the legacy plugin installer to install the plugins.
+preferences,enable_lmu_rf2_plugin_dll_check_help,检查 LMU/RF2 插件所需的 Windows DLL 是否存在。\（ADVAPI32.dll、MSVCR120.dll 和 KERNEL32.dll）,"Check that the Windows DLLs required by the LMU/RF2 plugin are present. (ADVAPI32.dll, MSVCR120.dll, and KERNEL32.dll)"
+preferences,use_legacy_rf2_shared_memory_filenames_help,从原始的共享内存文件名读取（来自\rFactor2SharedMemoryMapPlugin64.dll）\而不是新的文件名（来自\RF2.3.8.SharedMemoryMapPlugin.dll）。,Read from the original shared memory filenames\(from rFactor2SharedMemoryMapPlugin64.dll)\rather than the new ones\(from RF2.3.8.SharedMemoryMapPlugin.dll).
+preferences,enable_lmu_rest_api_help,LMU 的 REST API 用于读取汽车的燃油量、燃油倍率和损伤倍率。\它还用于设置维修菜单。由于已知会与某些 LMU 安装产生问题，因此默认禁用。,"LMU's REST API is used to read the car's fuel level, fuel multiplier and damage multiplier. It's also used for setting the pit menu. It is known to cause problems with some LMU installations, so it is disabled by default."
+preferences,save_all_fuel_data_help,将所有燃油数据保存到 fuel_data.json 文件中，\即使燃油倍率来自不可靠来源（你！）,"Save all fuel data to the fuel_data.json file, even if the fuel multiplier is from an unreliable source (you!)."
+preferences,enable_dark_mode_help,启用深色模式界面 - 注意：它不完美且存在问题，特别是在 Windows 10 上,"Enable Dark Mode UI - WARNING: it is not perfect and has problems, especially on Win 10"
+preferences,colloquial_time_help,十点半,e.g. `Half past ten` instead of `10:31` (using TTS as Jim doesn't have the sounds).
+preferences,auto_is_oval_help,自动为未知赛道添加 PROBABLE 的椭圆/非椭圆赛道类型到\trackLandmarksData.json。\若未选中，则会弹出提示让你选择。,Automatically add the PROBABLE oval/non-oval track type to trackLandmarksData.json for unknown tracks.\If unticked a pop up will prompt you to choose.
+preferences,use_toast_notifications_help,使用消失的弹出通知「toast」显示错误和提醒,Use disappearing pop up 'toast' notifications for errors and warnings
+preferences,FIRST_RUN_help,运行 CC 的新用户流程,Run CC's new user process

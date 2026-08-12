@@ -1,0 +1,491 @@
+section,key,zh,english
+preferences,no_help_provided,未提供帮助,No help provided
+preferences,trainee_chief_path,实习生,Trainee chief
+preferences,acs_install_path,ACS 安装路径,ACS install path
+preferences,ace_install_path,AC EVO 安装路径,AC EVO install path
+preferences,ams_install_path,AMS 安装路径,AMS install path
+preferences,rf1_install_path,rF1 安装路径,rF1 install path
+preferences,asr_install_path,ASR 安装路径,ASR install path
+preferences,rf2_install_path,rF2 安装路径,rF2 install path
+preferences,lmu_install_path,LMU 安装路径,Le Mans Ultimate install path
+preferences,rbr_install_path,RBR 安装路径,RBR install path
+preferences,gtr2_install_path,GTR 2 安装路径,GTR 2 install path
+preferences,f1_2018_install_path,F1 2018 安装路径,F1 2018 install path
+preferences,acc_install_path,ACC 安装路径,ACC install path
+preferences,acc_machine_ip,ACC 运行的机器的 IP 地址,IP address for the machine ACC is running on
+preferences,ace_machine_ip,运行 ACC 的机器的 IP 地址,IP address for the machine ACE is running on
+preferences,f1_2019_install_path,F1 2019 安装路径,F1 2019 install path
+preferences,override_default_sound_pack_location,覆盖默认语音包位置,Override default Sound Pack location
+preferences,enable_brake_damage_messages,启用刹车损伤播报,Enable brake damage messages
+preferences,enable_acs_log_sectors_for_unknown_tracks,启用 ACS 未知赛道分段日志,Enable ACS log sectors for unknown tracks
+preferences,enable_ace_log_sectors_for_unknown_tracks,启用 ACE 未知赛道分段日志,Enable ACE log sectors for unknown tracks
+preferences,enable_brake_lock_warnings,启用刹车抱死提醒,Enable brake lock warnings
+preferences,enable_brake_temp_warnings,启用刹车温度提醒,Enable brake temp warnings
+preferences,enable_damage_messages,启用损伤播报,Enable damage messages
+preferences,enable_driver_names,启用车手名,Enable driver names
+preferences,enable_drs_messages,启用 DRS 播报,Enable DRS messages
+preferences,enable_drs_beeps,启用 DRS 响铃,Enable DRS beeps
+preferences,enable_fuel_messages,启用燃油播报,Enable fuel messages
+preferences,enable_battery_messages,启用电量播报,Enable battery messages
+preferences,enable_gap_messages,启用差距播报,Enable gap messages
+preferences,gap_message_randomness,差距播报的随机性,Randomness of all gap ahead/behind messages
+preferences,enable_green_light_messages,启用绿灯播报,Enable green light messages
+preferences,enable_pearls_of_wisdom,启用金句,Enable pearls of wisdom
+preferences,enable_pit_exit_brake_temp_warning,启用出维修道刹车温度提醒,Enable pit exit brake temp warning
+preferences,enable_pit_exit_tyre_temp_warning,启用出维修道轮胎温度提醒,Enable pit exit tyre temp warning
+preferences,enable_position_messages,启用位置播报,Enable position messages
+preferences,enable_push_to_pass_messages,启用 push-to-pass 消息,Enable push to pass messages
+preferences,enable_race_start_messages,启用正赛开始播报,Enable race start messages
+preferences,enable_session_end_messages,启用场次结束播报,Enable session end messages
+preferences,enable_spotter_in_timetrial,启用观察员在计时赛,Enable Spotter in timetrial
+preferences,enable_suspension_damage_messages,启用悬挂损伤播报,Enable suspension damage messages
+preferences,enable_track_and_air_temp_reports,启用赛道和气温播报,Enable track and air temp reports
+preferences,enable_tyre_temp_warnings,启用轮胎温度提醒,Enable tyre temp warnings
+preferences,enable_tyre_wear_warnings,启用轮胎磨损提醒,Enable tyre wear warnings
+preferences,enable_wheel_spin_warnings,启用打滑提醒,Enable wheelspin warnings
+preferences,enable_tyre_dirt_pickup_warnings,启用轮胎脏污拾取提醒,Enable tyre dirt pickup warnings
+preferences,attempt_pcars_opponent_pit_detection,尝试检测 pCARS 对手进站,Attempt pCARS opponent pit detection
+preferences,cache_sounds,缓存语音,Cache sounds
+preferences,disable_acs_yellow_flag_warnings,禁用 ACS 黄旗提醒,Disable ACS yellow flag warnings
+preferences,disable_ace_yellow_flag_warnings,禁用 ACE 黄旗提醒,Disable ACE yellow flag warnings
+preferences,disable_pcars_prac_and_qual_pole_deltas,禁用 pCARS 练习和排位杆位差距,Disable pCARS prac and qual pole deltas
+preferences,launch_acs,启动 ACS,Launch ACS
+preferences,launch_ace,启动 AC EVO,Launch AC EVO
+preferences,play_cut_track_warnings,播报切赛道提醒,Play cut track warnings
+preferences,spotter_enable_three_wide_left_and_right,观察员启用三辆并排左右播报,Spotter enable three wide left and right
+preferences,use_alternate_beeps,使用备用提示音,Use alternate beeps
+preferences,use_fahrenheit,使用华氏温度,Use Fahrenheit for temps
+preferences,use_listen_beep,使用听觉提示音,Use listen beep
+preferences,use_listen_end_beep,使用监听结束提示音,Use end of listening beep
+preferences,acs_practice_time_minuts,ACS 练习时间（分钟）,ACS practice time minutes
+preferences,ace_practice_time_minutes,ACC 练习时间分钟,AC EVO practice time minutes
+preferences,min_time_between_personalised_messages,最小个性化播报间隔时间,Min time between personalised messages
+preferences,minimum_time_between_pearls_of_wisdom,金句最小间隔时间,Min time between pearls of wisdom
+preferences,spotter_hold_repeat_frequency,观察员保持重复频率,Spotter hold repeat frequency
+preferences,spotter_hold_repeat_frequency_ovals,观察员保持重复频率（椭圆赛道）,Spotter hold repeat frequency (ovals)
+preferences,enable_oval_spotter_enhancements,启用椭圆赛道增强观察员,Enable enhanced spotter on ovals
+preferences,spotter_update_interval,观察员更新间隔,Spotter update interval
+preferences,spotter_off_during_qualifying,排位时观察员关闭,Spotter off during qualifying
+preferences,acc_udp_data_port,ACC UDP 端口,ACC UDP port
+preferences,ace_udp_data_port,ACE UDP 端口,ACE UDP port
+preferences,udp_data_port,pCARS UDP 端口,pCARS UDP port
+preferences,pmr_udp_port,PMR UDP 端口,PMR UDP port
+preferences,f1_2018_udp_data_port,F1 2018 UDP 端口,F1 2018 UDP port
+preferences,f1_2019_udp_data_port,F1 2019 UDP 端口,F1 2019 UDP port
+preferences,f1_2020_udp_data_port,F1 2020 UDP 端口,F1 2020 UDP port
+preferences,f1_2021_udp_data_port,F1 2021 UDP 端口,F1 2021 UDP port
+preferences,f1_2022_udp_data_port,F1 2022 UDP 端口,F1 2022 UDP port
+preferences,f1_2023_udp_data_port,F1 2023 UDP 端口,F1 2023 UDP port
+preferences,acs_spotter_car_length,ACS 观察员默认车身长度,ACS Spotter default car length
+preferences,ace_spotter_car_length,AC EVO 观察员默认车身长度,AC EVO Spotter default car length
+preferences,acc_spotter_car_length,ACC 观察员默认车身长度,ACC Spotter default car length
+preferences,ams_spotter_car_length,AMS 观察员默认车身长度,AMS Spotter default car length
+preferences,pcars_spotter_car_length,pCARS 观察员默认车身长度,pCARS Spotter default car length
+preferences,pcars2_spotter_car_length,pCARS2 观察员默认车身长度,pCARS2 Spotter default car length
+preferences,ams2_spotter_car_length,AMS2 观察员默认车身长度,AMS2 Spotter default car length
+preferences,r3e_spotter_car_length,R3E 观察员默认车身长度,R3E Spotter default car length
+preferences,rf1_spotter_car_length,rF1 观察员默认车身长度,rF1 Spotter default car length
+preferences,rf2_spotter_car_length,rF2 观察员默认车身长度,rF2 Spotter default car length
+preferences,lmu_spotter_car_length,LMU 观察员默认车身长度,LMU Spotter default car length
+preferences,gtr2_spotter_car_length,GTR 2 观察员默认车身长度,GTR 2 Spotter default car length
+preferences,f1_2018_spotter_car_length,F1 2018 观察员默认车身长度,F1 2018 Spotter default car length
+preferences,f1_2019_spotter_car_length,F1 2019 观察员默认车身长度,F1 2019 Spotter default car length
+preferences,f1_2020_spotter_car_length,F1 2020 观察员默认车身长度,F1 2020 Spotter default car length
+preferences,f1_2021_spotter_car_length,F1 2021 观察员默认车身长度,F1 2021 Spotter default car length
+preferences,f1_2022_spotter_car_length,F1 2022 观察员默认车身长度,F1 2022 Spotter default car length
+preferences,f1_2023_spotter_car_length,F1 2023 观察员默认车身长度,F1 2023 Spotter default car length
+preferences,spotter_gap_for_clear,观察员安全判定车距,Spotter gap for clear
+preferences,messages_volume,播报音量(&M),&Messages volume
+preferences,background_volume,背景音量(&B),&Background volume
+preferences,update_interval,更新间隔,Update interval
+preferences,use_sweary_messages,使用粗口播报,Use sweary messages
+preferences,enable_spotter,启用观察员,Enable Spotter
+preferences,speech_recognition_country,语音识别国家,Speech recognition country
+preferences,ui_language,界面语言,UI language
+preferences,spotter_car_length,观察员车身长度,Spotter car length
+preferences,time_after_race_start_for_spotter,正赛开始后观察员播报时间,Time after race start for spotter
+preferences,min_speed_for_spotter,观察员触发的最低车速,Min speed for spotter
+preferences,max_closing_speed_for_spotter,观察员判定的最大接近速度,Max closing speed for spotter
+preferences,spotter_clear_delay,观察员安全判定延迟,Spotter clear delay
+preferences,spotter_overlap_delay,观察员并排判定延迟,Spotter overlap delay
+preferences,custom_device_guid,自定义设备 GUID,Custom device GUID
+preferences,launch_raceroom,启动 R3E,Launch R3E
+preferences,r3e_launch_params,R3E 启动参数,R3E launch params
+preferences,launch_race_remaster,启动 Race Remaster,Launch Race Remaster
+preferences,pcars32_launch_params,pCARS 32 位启动参数,pCARS 32bit launch params
+preferences,pcars64_launch_params,pCARS 64 位启动参数,pCARS 64bit launch params
+preferences,rf1_launch_params,rF1 启动参数,rF1 launch params
+preferences,rf2_launch_params,rF2 启动参数,rF2 launch params
+preferences,lmu_launch_params,LMU 启动参数,LMU launch params
+preferences,gsc_launch_params,GSC 启动参数,GSC launch params
+preferences,ams_launch_params,AMS 启动参数,AMS launch params
+preferences,acs_launch_params,ACS 启动参数,ACS launch params
+preferences,ace_launch_params,AC EVO 启动参数,AC Evo launch params
+preferences,marcas_launch_params,Marcas 启动参数,Marcas launch params
+preferences,ftruck_launch_params,FTruck 启动参数,FTruck launch params
+preferences,f1_2018_launch_params,F1 2018 启动参数,F1 2018 launch params
+preferences,f1_2019_launch_params,F1 2019 启动参数,F1 2019 launch params
+preferences,f1_2020_launch_params,F1 2020 启动参数,F1 2020 launch params
+preferences,f1_2021_launch_params,F1 2021 启动参数,F1 2021 launch params
+preferences,f1_2022_launch_params,F1 2022 启动参数,F1 2022 launch params
+preferences,f1_2023_launch_params,F1 2023 启动参数,F1 2023 launch params
+preferences,r3e_launch_exe,R3E 启动程序,R3E launch exe
+preferences,rbr_launch_exe,RBR 启动程序,RBR launch exe
+preferences,gtr2_launch_exe,GTR 2 启动程序,GTR 2 launch exe
+preferences,dirt_launch_exe,Dirt Rally 启动程序,Dirt Rally launch exe
+preferences,dirt_launch_params,Dirt Rally 启动参数,Dirt Rally launch params
+preferences,dirt2_launch_exe,Dirt Rally 2 启动程序,Dirt Rally 2 launch exe
+preferences,dirt2_launch_params,Dirt Rally 2 启动参数,Dirt Rally 2 launch params
+preferences,acc_launch_exe,ACC 启动程序,ACC launch exe
+preferences,rf1_launch_exe,rF1 启动程序,rF1 launch exe
+preferences,asr_launch_exe,ASR 启动程序,ASR launch exe
+preferences,rf2_launch_exe,rF2 启动程序,rF2 launch exe
+preferences,lmu_launch_exe,LMU 启动程序,LMU launch exe
+preferences,gsc_launch_exe,启动 GSC 程序,GSC launch exe
+preferences,ams_launch_exe,AMS 启动程序,AMS launch exe
+preferences,acs_launch_exe,ACS 启动程序,ACS launch exe
+preferences,ace_launch_exe,AC EVO 启动程序,AC EVO launch exe
+preferences,marcas_launch_exe,MarCAS 启动程序,Marcas launch exe
+preferences,ftruck_launch_exe,FTruck 启动程序,FTruck launch exe
+preferences,pcars32_launch_exe,pCARS 32 位启动程序,pCARS 32bit launch exe
+preferences,pcars64_launch_exe,pCARS 64 位启动程序,pCARS 64bit launch exe
+preferences,f1_2018_launch_exe,F1 2018 启动程序,F1 2018 launch exe
+preferences,f1_2019_launch_exe,F1 2019 启动程序,F1 2019 launch exe
+preferences,f1_2020_launch_exe,F1 2020 启动程序,F1 2020 launch exe
+preferences,f1_2021_launch_exe,F1 2021 启动程序,F1 2021 launch exe
+preferences,f1_2022_launch_exe,F1 2022 启动程序,F1 2022 launch exe
+preferences,f1_2023_launch_exe,F1 2023 启动程序,F1 2023 launch exe
+preferences,launch_rfactor1,启动 rFactor 1,Launch rFactor 1
+preferences,launch_asr,启动 ASR,Launch ASR
+preferences,launch_rfactor2,启动 rFactor 2,Launch rFactor 2
+preferences,launch_lmu,启动 LMU,Launch LMU
+preferences,launch_rbr,启动 RBR,Launch RBR
+preferences,launch_gtr2,启动 GTR 2,Launch GTR 2
+preferences,launch_dirt,启动 Dirt Rally,Launch Dirt Rally
+preferences,launch_dirt2,启动 Dirt Rally 2,Launch Dirt Rally 2
+preferences,launch_gsc,启动 GSC,Launch GSC
+preferences,launch_f1_2018,启动 F1 2018,Launch F1 2018
+preferences,launch_f1_2019,启动 F1 2019,Launch F1 2019
+preferences,launch_f1_2020,启动 F1 2020,Launch F1 2020
+preferences,launch_f1_2021,启动 F1 2021,Launch F1 2021
+preferences,launch_f1_2022,启动 F1 2022,Launch F1 2022
+preferences,launch_f1_2023,启动 F1 2023,Launch F1 2023
+preferences,launch_ams,启动 AMS,Launch AMS
+preferences,launch_marcas,启动 Marcas,Launch Marcas
+preferences,launch_ftruck,启动 FTruck,Launch FTruck
+preferences,launch_pcars,启动 pCARS,Launch pCARS
+preferences,launch_acc,启动 ACC,Launch ACC
+preferences,pcars2_launch_exe,pCARS 2 启动程序,pCARS 2 launch exe
+preferences,pcars3_launch_exe,pCARS 3 启动程序,pCARS 3 launch exe
+preferences,pcars2_launch_params,pCARS 2 启动参数,pCARS 2 launch params
+preferences,pcars3_launch_params,pCARS 3 启动参数,pCARS 3 launch params
+preferences,ams2_launch_exe,AMS2 启动程序,AMS 2 launch exe
+preferences,ams2_launch_params,AMS2 启动参数,AMS 2 launch params
+preferences,acc_launch_params,ACC 启动参数,ACC launch params
+preferences,launch_pcars2,启动 pCARS 2,Launch pCARS 2
+preferences,launch_pcars3,启动 pCARS 3,Launch pCARS 3
+preferences,launch_ams2,启动 AMS2,Launch AMS 2
+preferences,iracing_launch_exe,iRacing 启动程序,iRacing launch exe
+preferences,iracing_launch_params,iRacing 启动参数,iRacing launch params
+preferences,launch_iracing,启动 iRacing,Launch iRacing
+preferences,run_immediately,立即运行,Run immediately
+preferences,pcars_steam_id,pCARS Steam app ID,pCARS Steam ID
+preferences,cumulative_lap_lockup_warning_threshold,累计圈数刹车抱死提醒阈值,Cumulative lap lockup warning threshold
+preferences,cumulative_lap_wheelspin_warning_threshold,累计圈数打滑提醒阈值,Cumulative lap wheelspin warning threshold
+preferences,minimum_name_voice_recognition_confidence,最小车手名语音识别置信度（Microsoft 识别引擎）,Min name voice recognition confidence (Microsoft recogniser)
+preferences,minimum_name_voice_recognition_confidence_system_sre,最小车手名语音识别置信度（Windows 识别引擎）,Min name voice recognition confidence (Windows recogniser)
+preferences,minimum_voice_recognition_confidence,最小语音识别置信度（Microsoft 识别引擎）,Min voice recognition confidence (Microsoft recogniser)
+preferences,minimum_voice_recognition_confidence_system_sre,最小语音识别置信度（Windows 识别引擎）,Min voice recognition confidence (Windows recogniser)
+preferences,display_session_lap_times,显示场次圈速,Display session lap times
+preferences,enable_opponent_laptime_reporting_in_race,启用正赛中的对手圈速播报,Enable opponent lap time reporting in race
+preferences,report_sector_deltas_race,播报正赛分段时间差,Report race sector deltas
+preferences,report_sector_deltas_race_likelihood,播报正赛分段差距概率,Report race sector deltas likelihood
+preferences,report_sector_deltas_practice_and_qual,播报练习和排位分段差距,Report practice and qual sector deltas
+preferences,frequency_of_overtaking_messages,超车播报频率,Frequency of overtaking messages
+preferences,frequency_of_being_overtaken_messages,被超车播报频率,Frequency of being overtaken messages
+preferences,frequency_of_gap_ahead_reports,前方差距播报频率,Frequency of gap ahead reports
+preferences,frequency_of_gap_behind_reports,后方差距播报频率,Frequency of gap behind reports
+preferences,frequency_of_gap_behind_on_track_reports,赛道上后方差距播报频率,Frequency of gap behind on track reports
+preferences,frequency_of_opponent_race_lap_times,对手正赛圈速频率,Frequency of opponent race lap times
+preferences,frequency_of_opponent_practice_and_qual_lap_times,对手练习圈和排位圈时间的频率,Frequency of opponent practice and quali lap times
+preferences,seconds_to_announce_next_car,播报新对手的时间间隔,Time between announcing new opponent
+preferences,minutes_to_announce_same_next_car,播报前方同一对手的时间间隔,Time between announcing the same opponent ahead
+preferences,opponents_number_after_name,对手以名称和编号识别,Opponents identified by name and number
+preferences,frequency_of_pearls_of_wisdom,金句播报频率,Frequency of pearls of wisdom
+preferences,frequency_of_player_race_lap_time_reports,播报玩家正赛圈速的频率,Frequency of player race lap time reports
+preferences,frequency_of_player_prac_and_qual_lap_time_reports,播报练习和排位圈速的频率,Freq of player prac and qual lap time reports
+preferences,frequency_of_prac_and_qual_sector_delta_reports,练习和排位分段差距播报频率,Frequency of player prac and qual sector delta reports
+preferences,frequency_of_race_sector_delta_reports,正赛分段差距播报频率,Frequency of race sector delta reports
+preferences,race_sector_reports_at_each_sector,每分段播报,Race sector reports at each sector
+preferences,race_sector_reports_at_lap_end,圈末分段播报,Race sector reports at lap end
+preferences,practice_and_qual_sector_reports_at_each_sector,练习和排位分段播报，每分段,Prac and qual sector reports at each sector
+preferences,practice_and_qual_sector_reports_at_lap_end,练习和排位分段播报在圈尾,Prac and qual sector reports at lap end
+preferences,iracing_reputations,声誉播报,Reputation Messages
+preferences,iracing_reputations_flair_bad,旗语声誉（差）,Flag Reputations (bad)
+preferences,iracing_reputations_flair_good,旗语声誉（良好）,Flag Reputations (good)
+preferences,iracing_reputations_ratings,iRating 评分（绝对值）,iRating Reputation (Absolute)
+preferences,iracing_reputations_division,分区声誉（绝对）,Division Reputation (Absolute)
+preferences,iracing_reputations_safety,安全声誉（相对）,Safety Reputation (Relative)
+preferences,enable_opponent_rating_info,启用对手评分信息,Enable Opponent rating info
+preferences,ambient_temp_check_interval_seconds,环境温度检查间隔（秒）,Ambient temp check interval seconds
+preferences,track_temp_check_interval_seconds,赛道温度检查间隔秒,Track temp check interval seconds
+preferences,report_ambient_temp_changes_greater_than,播报环境温度变化超过,Report ambient temp changes greater than
+preferences,report_track_temp_changes_greater_than,播报赛道温度变化大于,Report track temp changes greater than
+preferences,pause_between_messages,播报间隔,Pause between messages
+preferences,pause_between_message_fragments,播报片段之间暂停（毫秒）,Pause between message fragments (ms)
+preferences,load_sound_files_on_startup,启动时加载语音文件,Load sound files on startup
+preferences,enable_automatic_plugin_update,启动时更新游戏插件,Update game plugins on startup
+preferences,pcars_character_encoding,pCARS 字符编码,pCARS character encoding
+preferences,ams2_character_encoding,AMS2 字符编码,AMS2 character encoding
+preferences,enable_pcars_pit_window_messages,启用 pCARS 进站窗口播报,Enable pCARS pit window messages
+preferences,report_yellows_in_all_sectors,播报所有分段的黄旗,Report yellows in all sectors
+preferences,max_distance_moved_for_yellow_announcement,最大黄旗播报移动距离,Max distance moved for yellow announcement
+preferences,min_secs_for_debris_flag,播报碎片旗之间的最短时间,Minimum time between announcing a debris flag.
+preferences,enable_delayed_responses,启用延迟语音指令响应,Enable delayed voice command responses
+preferences,enable_console_logging,启用控制台日志,Enable console logging
+preferences,console_font_size,设置控制台字体大小,Set console font size
+preferences,console_flush,持续将控制台日志写入磁盘,Continuously write the console log to disc
+preferences,log_tyre_stats,轮胎统计日志,Log tyre stats
+preferences,r3e_blue_flag_detection_distance,R3E 蓝旗判定距离,R3E blue flag detection distance
+preferences,play_pre_lights_messages_until_cancelled,播放起步灯播报直至取消,Play pre-lights messages until cancelled
+preferences,time_between_caution_period_status_reminders,黄旗时段状态提醒间隔,Time between caution period status reminders
+preferences,enable_ams_pit_schedule_messages,启用 AMS 进站计划播报,Enable AMS pit schedule messages
+preferences,report_allowed_overtakes_under_yellow,播报黄旗下的超车许可,Report allowed overtakes under yellow
+preferences,iracing_override_luckydog,覆盖 iRacing lucky dog 遥测,override iRacing lucky dog telemetry
+preferences,iracing_disable_luckydog,禁用 iRacing lucky dog 播报,disable iRacing lucky dog calls
+preferences,enable_rf2_pit_stop_prediction,启用 rF2 进站预测,Enable rF2 pit stop prediction
+preferences,enable_lmu_pit_stop_prediction,启用 LMU 进站预测,Enable LMU pit stop prediction
+preferences,enable_gtr2_pit_stop_prediction,启用 GTR 2 进站预测,Enable GTR 2 pit stop prediction
+preferences,enable_simple_incident_detection_listprop,启用简单事件判定,Enable simple incident detection
+preferences,enable_simple_incident_detection_listprop_value_0,禁用,Disabled
+preferences,enable_simple_incident_detection_listprop_value_1,仅比赛,Race Only
+preferences,enable_simple_incident_detection_listprop_value_2,所有场次,All Sessions
+preferences,simple_incident_detection_report_delay,简单事件检测延迟（毫秒）,Simple incident detection delay (ms)
+preferences,enable_yellow_flag_messages,启用黄旗播报,Enable yellow flag messages
+preferences,enable_opponent_crash_messages,启用对手碰撞播报,Enable opponent crash messages
+preferences,prefer_alternative_download_site,优先使用备用下载站点,Prefer alternative download site
+preferences,iracing_sof_playerclass,iRacing 实力值按玩家组别计算,iRacing Strength of Field is for the player class
+preferences,use_american_terms,使用美式术语,Use American terms
+preferences,use_metric,使用公制,Use metric
+preferences,iracing_overrides_units,iRacing 单位覆盖,iRacing overrides units
+preferences,realistic_mode,真实模式,Realistic mode
+preferences,always_report_time_in_hundredths,圈速始终播报到百分位,Always report time in hundredths
+preferences,no_minutes_in_lap_times,不播报圈速中的分钟,Don't report minutes in lap times
+preferences,insert_beep_in_between_spotter_and_chief,在观察员与工程师之间插入进入提示音,Insert beep-in between Spotter and Chief
+preferences,insert_beep_out_between_spotter_and_chief,在观察员与工程师之间插入结束提示音,Insert beep-out between Spotter and Chief
+preferences,minimize_to_tray,最小化到托盘,Minimize to tray
+preferences,minimize_on_startup,启动时最小化,Minimize on startup
+preferences,manual_formation_go_with_leader,领头车过线时手动发出编队圈「出发」,Manual formation 'go' when leader crosses line
+preferences,reject_message_when_talking,与工程师说话时暂停播报,Block messages when talking to the Chief
+preferences,enable_rf2_frozen_order_messages,启用 rF2 冻结顺序播报,Enable rF2 frozen order messages
+preferences,enable_rf2_cut_track_heuristics,rF2 切赛道判定,Extra cut track detection for rF2
+preferences,enable_lmu_frozen_order_messages,启用 LMU 冻结顺序播报,Enable LMU frozen order messages
+preferences,enable_lmu_cut_track_heuristics,额外的切赛道判定（适用于 LMU）,Extra cut track detection for LMU
+preferences,enable_gtr2_cut_track_heuristics,额外的 GTR 2 切赛道判定,Extra cut track detection for GTR 2
+preferences,enable_rf2_pit_lane_approach_heuristics,启用 rF2 维修道接近判定,Enable rF2 pit lane approach detection
+preferences,enable_lmu_pit_lane_approach_heuristics,启用 LMU 维修道接近判定,Enable LMU pit lane approach detection
+preferences,enable_command_macros,启用语音指令宏,Enable voice command macros
+preferences,pcars_enable_rain_prediction,启用 pCARS 雨预测（使用 CloudBrightness）,Enable PCars rain prediction using CloudBrightness
+preferences,disable_alternative_voice_commands,禁用备用语音指令,Disable alternative voice commands
+preferences,use_verbose_responses,使用详细命令响应,Use verbose command responses
+preferences,toggle_pace_notes_recording,开始/停止记录路书,Start / stop recording pace notes
+preferences,toggle_pace_notes_playback,开始/停止播放路书,Start / stop playing pace notes
+preferences,use_naudio,使用 nAudio 播放,Use nAudio for playback
+preferences,toggle_track_landmarks_recording,开始/停止赛道地标记录,Start / stop track landmarks recording
+preferences,add_track_landmark,添加起点/终点赛道地标,Add Start / end track landmark
+preferences,tts_volume_boost,语音合成音量增强（范围）,TTS volume boost (scale)
+preferences,tts_trim_start_milliseconds,语音合成声音起始修剪（毫秒）,Trim start of TTS sounds (milliseconds)
+preferences,tts_trim_end_milliseconds,语音合成结尾修剪（毫秒）,Trim end of TTS sounds (milliseconds)
+preferences,iracing_pit_tyre_pressure_in_psi,iRacing 轮胎压力调整（PSI）,iRacing tyre pressure adjustments in PSI
+preferences,spotter_volume_boost,观察员音量增强（范围）,Spotter volume boost (scale)
+preferences,manual_formation_double_file,手动编队圈双列起步,Manual formation lap double-file start
+preferences,manual_formation_split_classes,手动编队圈分隔级别,Manual formation lap separate classes
+preferences,save_list_of_unvocalized_names,保存无语音的车手名,Save driver names with no sound
+preferences,enable_ams_blue_on_slower,启用 AMS / rF1 落后时蓝旗,Enable AMS / rF1 blue on slower
+preferences,enable_rants,启用吐槽,Enable rants
+preferences,spotter_oval_clear_delay,观察员椭圆赛道安全判定延迟,Spotter oval clear delay
+preferences,use_naudio_for_speech_recognition,使用 nAudio 进行语音输入,Use nAudio for speech input
+preferences,enable_rf2_pit_state_during_fcy,启用 rF2 全场黄旗进站播报,Enable rF2 FCY pit state messages
+preferences,enable_lmu_pit_state_during_fcy,启用 LMU 全场黄旗进站播报,Enable LMU FCY pit state messages
+preferences,enable_ams_pit_state_during_fcy,启用 AMS / rF1 全场黄旗进站播报,Enable AMS / rF1 FCY pit state messages
+preferences,bring_game_window_to_front_for_macros,确保游戏窗口位于顶层以执行语音命令宏,Ensure game is on top for voice command macros
+preferences,report_all_laps_in_hotlap_mode,计时赛/单人练习时播报所有圈数,Report all laps when hotlapping/lone practice
+preferences,enable_crash_messages,启用碰撞播报,Enable crash messages
+preferences,force_single_class,强制单一车辆组别,Force single car class
+preferences,force_min_window_size,强制最小窗口大小,Force minimum window size
+preferences,pit_box_position_countdown,维修位距离倒计时,Pit box distance countdown
+preferences,pit_box_time_countdown,维修位时间倒计时,Pit box time countdown
+preferences,pit_box_time_countdown_end_position,维修位计时结束位置（米）,Pit box time countdown end point (metres)
+preferences,pit_box_position_countdown_in_feet,维修位距离倒计时（英尺）,Pit box distance countdown in feet
+preferences,enable_multiclass_messages,启用多级别播报,Enable multi-class messages
+preferences,target_warning_time_for_slower_class_car,多级别慢车提醒时间,Multi-class slower car warning time
+preferences,target_warning_time_for_faster_class_car,多级别更快车辆提醒时间,Multi-class faster car warning time
+preferences,max_unknown_car_classes_for_assetto,ACS 多级别赛事中的未知车辆型号最大数量,Max unknown car models in ACS multi-class races
+preferences,iracing_fast_parsing,iRacing 快速解析器,iRacing faster parser
+preferences,crewchief_record_trace_checkbox,显示记录文件复选框,Make the trace recording checkbox visible
+preferences,trace_race_sessions_only,仅记录正赛,Trace race sessions only
+preferences,enable_iracing_pit_stop_commands,启用 iRacing 进站语音指令,Enable iRacing pit stop voice commands
+preferences,add_additional_fuel,(LEGACY) 为完成比赛需添加的额外燃油（圈数）,(LEGACY) Additional fuel to add to finish the race (number of laps worth)
+preferences,legacy_fuel,传统燃油计算,Legacy fuel calculation
+preferences,fuel_saving_percentage,燃油：节省目标（百分比）,Fuel: saving target (percentage)
+preferences,fuel_percentile,燃油：百分位（公路赛道）,Fuel: percentile (road)
+preferences,fuel_percentile_oval,燃油：百分位（椭圆赛道）,Fuel: percentile (oval)
+preferences,fuel_reserve_laps_short,燃油：额外圈数（短赛道）,Fuel: extra laps (short tracks)
+preferences,fuel_reserve_laps_medium,燃油：额外圈数（中型赛道）,Fuel: extra laps (medium tracks)
+preferences,fuel_reserve_laps_long,燃油：额外圈数（长赛道）,Fuel: extra laps (long tracks)
+preferences,fuel_extra_laps_oval,燃油：额外圈数（椭圆赛道）,Fuel: extra laps (oval tracks)
+preferences,fuel_extra_laps_endurance,燃油：额外圈数（耐力赛）,Fuel: extra laps (endurance races)
+preferences,fuel_experimental_lap_estimator_multiclass,燃油：多级别进站时间（实验性）,Fuel: multiclass pitstop times (Experimental)
+preferences,iracing_invalidate_cut_track_laps,iRacing 切赛道圈数无效,iRacing Invalidate cut track Laps
+preferences,enable_pit_exit_position_estimates,启用出维修道位置估计,Enable pit exit position estimates
+preferences,enable_opponent_pit_exit_estimates,启用对手出维修道估计,Enable opponent pit exit estimates
+preferences,enable_delayed_messages_on_hardparts,在赛道难点处延迟播报,Delay messages on hard parts
+preferences,toggle_delay_messages_in_hard_parts,切换赛道难点处延迟播报,Toggle delay messages on hard parts
+preferences,iracing_enable_auto_fuel_to_end_of_race,启用在比赛中进入维修区时 iRacing 自动加油,Enable iRacing auto refuelling when entering pit in race
+preferences,rf2_enable_auto_fuel_to_end_of_race,启用 rF2 自动加油（进站时）,Enable rF2 auto refuelling when entering pit in race
+preferences,rf2_enable_pit_manager,启用 rF2 进站管理,Enable rF2 pit manager
+preferences,rf2_enable_auto_clear_tyre_change,启用 rF2 自动清除轮胎更换,Enable rF2 auto clear tyre change
+preferences,lmu_enable_auto_fuel_to_end_of_race,启用 LMU 自动加油（在比赛进站时）,Enable LMU auto refuelling when entering pit in race
+preferences,lmu_enable_pit_manager,启用 LMU 维修道管理,Enable LMU pit manager
+preferences,priortise_messages_depending_on_situation,高级播报优先级,Advanced message prioritisation
+preferences,trigger_word_for_always_on_sre,语音识别触发词,Speech recogniser trigger word
+preferences,interrupt_setting_listprop,中断常规播报,Interrupt regular messages
+preferences,interrupt_setting_listprop_value_0,从不,Never
+preferences,interrupt_setting_listprop_value_1,仅观察员,Spotter only
+preferences,interrupt_setting_listprop_value_2,仅观察员和关键播报,Spotter and critical messages only
+preferences,interrupt_setting_listprop_value_3,观察员和所有重要播报,Spotter and all important messages
+preferences,tts_setting_listprop,语音合成设置,TTS setting
+preferences,tts_setting_listprop_value_0,不使用语音合成,Don't use TTS
+preferences,tts_setting_listprop_value_1,仅在必要时使用语音合成,Use TTS only when necessary
+preferences,tts_setting_listprop_value_2,为所有缺失的名称使用语音合成,Use TTS for all missing names
+preferences,naudio_output_interface_listprop,nAudio 输出接口类型,nAudio Output Interface Type
+preferences,naudio_output_interface_listprop_value_0,波形输出,WaveOut
+preferences,naudio_output_interface_listprop_value_1,WASAPI,WASAPI
+preferences,naudio_wasapi_latency,nAudio WASAPI 延迟（毫秒）,nAudio WASAPI latency (ms)
+preferences,trigger_word_sre_min_confidence,最小触发词置信度（Microsoft 识别引擎）,Min trigger word confidence (Microsoft recogniser)
+preferences,trigger_word_sre_min_confidence_system_sre,最小触发词置信度（Windows 识别引擎）,Min trigger word confidence (Windows recogniser)
+preferences,trigger_word_listen_timeout,触发词监听超时（毫秒）,Trigger word listen timeout (ms)
+preferences,enable_alarm_clock_voice_recognition,启用闹钟语音指令,Enable alarm clock voice commands
+preferences,alarm_clock_times,闹钟时间,Alarm time(s)
+preferences,disable_behavior_altering_voice_commands,禁用行为语音指令,Disable behaviour voice commands
+preferences,disable_overlay_voice_commands,禁用覆盖层语音指令,Disable overlay voice commands
+preferences,slow_class_car_warnings_in_race_only,正赛中显示慢车组别提醒,Slow car class warnings in race only
+preferences,record_sound_variety_data,记录声音多样性数据,Record sound variety data
+preferences,persist_pitstop_benchmark_times,保存进站基准时间到磁盘,Save pit stop benchmark times to disk
+preferences,use_rf2_wheel_size_for_locking_and_spinning,使用 rF2 的真实车轮尺寸判定抱死/打滑,Use rF2's real wheel size for lock/spin messages
+preferences,use_lmu_wheel_size_for_locking_and_spinning,使用 LMU 的真实车轮尺寸判定抱死/打滑,Use LMU's real wheel size for lock/spin messages
+preferences,enable_iracing_pit_state_during_fcy,启用 iRacing 全场黄旗进站播报,Enable iRacing FCY pit state messages
+preferences,iracing_fcy_formation_use_drivername,iRacing 全场黄旗/编队圈使用车手名,iRacing FCY/formation use driver names
+preferences,formation_doublefile_variation,编队圈播报变体,Formation message variation
+preferences,enable_websocket,启用 WebSocket 集成,Enable Websocket integration
+preferences,websocket_port,Crew Chief 数据 WebSocket 端口,Crew Chief data Websocket port
+preferences,enable_rf2_wrong_way_message,启用 rF2 「逆向行驶」播报,Enable rF2 'Wrong Way' message
+preferences,enable_lmu_wrong_way_message,启用 LMU 「逆向行驶」播报,Enable LMU 'Wrong Way' message
+preferences,enable_game_data_websocket,启用 WebHud 集成（仅 R3E）,Enable WebHud integration (R3E only)
+preferences,game_data_websocket_port,游戏数据 Websocket 端口,Game data Websocket port
+preferences,disable_rf2_race_end_messages_on_abandoned_sessions,禁用 rF2 正赛结束播报（因赛事取消）,Disable rF2 race end msg. for abandoned events
+preferences,disable_lmu_race_end_messages_on_abandoned_sessions,禁用 LMU 赛事结束播报（因赛事取消）,Disable LMU race end msg. for abandoned events
+preferences,hold_button_poll_frequency,按键轮询频率,Hold button poll frequency
+preferences,sre_wait_time,等待语音识别的时间,How long to wait for speech recognition
+preferences,prefer_max_consumption_in_fuel_calculations,(LEGACY) 燃油计算基于最大燃油消耗,(LEGACY) Base fuel calculations on max fuel consumption
+preferences,report_fuel_laps_left_in_timed_races,在计时赛中以剩余圈数报告燃油,Report fuel as laps left in timed races.
+preferences,naudio_wave_in_sample_rate,nAudio 波形输入设备的采样率,Sample rate for nAudio wave-in device
+preferences,naudio_wave_in_channel_count,nAudio 波形输入通道数,Channel count for nAudio wave-in device
+preferences,naudio_wave_in_sample_depth,nAudio 波形输入设备的样本深度（8 或 16）,Sample depth for nAudio wave-in device (8 or 16)
+preferences,allow_important_messages_even_when_silenced,静音时播放重要播报,Play important messages when silenced
+preferences,fcy_stop_spotter_immediately,立即静音观察员（全场黄旗）,Mute spotter immediately on full course yellow
+preferences,enable_blue_flag_messages,启用蓝旗播报,Enable blue flag messages
+preferences,limit_available_games,限制可用游戏,Limit available games
+preferences,enable_radio_beeps,启用无线电蜂鸣声,Enable radio beeps
+preferences,prefer_system_sre,偏好 Windows 识别引擎,Prefer Windows speech recogniser
+preferences,use_free_dictation_for_chat,启用自由听写聊天消息,Enable free dictation chat messages
+preferences,free_dictation_chat_start_word,自由听写开始词,Chat free dictation start word
+preferences,free_dictation_chat_keypress_delay_ms,自由听写按键延迟,Chat free dictation key press delay
+preferences,max_complaints_per_session,每场次最大抱怨次数（0：禁用抱怨）,Max complaints per session (0: disable complaints)
+preferences,enable_on_hold_close_channel_beep,启用关闭频道蜂鸣声（按住按钮模式）,"Enable close channel beep (""Hold button"" mode)"
+preferences,sre_respond_while_channel_still_open,立即响应语音指令,Respond to voice commands immediately
+preferences,enable_breath_in,启用暂停时呼吸,Enable breath in pause
+preferences,enable_overlay_window,启用覆盖层（仅窗口/无边框窗口模式）,Enable overlays (windowed / borderless window only)
+preferences,iracing_enable_disk_based_telemetry,启用基于磁盘的遥测数据以显示覆盖层,Enable disk based telemetry for overlay
+preferences,enable_chart_telemetry_in_race_session,启用正赛中的图表遥测,Enable chart telemetry in race session
+preferences,update_interval_when_collecting_telemetry,收集遥测时的更新间隔,Update interval when collecting telemetry
+preferences,make_overlay_app_window,启用覆盖层应用窗口（Oculus 模式）,Enable overlay app window (Oculus mode)
+preferences,delete_iracing_telemetryfile,处理后删除 iRacing 数据文件,Delete iRacing telemetry file after processing
+preferences,enable_automatic_disk_telemetry_recording,启用自动遥测磁盘记录,Enable automatic telemetry disk recording
+preferences,enable_shared_memory,启用共享内存,Enable Shared Memory
+preferences,enable_subtitle_overlay,启用字幕覆盖层,Enable subtitle overlay
+preferences,force_stereo,播报立体声（仅 nAudio）,Play messages in stereo (nAudio only)
+preferences,auto_enable_pacenotes_in_practice,练习时自动播放路书,Play pace notes automatically in practice
+preferences,enable_console_autoscroll,启用控制台自动滚动,Enable console autoscroll
+preferences,multi_lap_pace_notes,多圈路书,Multi-lap pace notes
+preferences,pace_notes_mute_all_messages,播放路书时静音其他播报,Mute messages when playing pace notes
+preferences,play_pit_speed_limit_warnings,启用进站限速提醒,Enable pit speed limit warnings
+preferences,start_steam_vr_if_detected,检测到时启动 SteamVR,Start SteamVR if detected
+preferences,enable_vr_overlay_windows,启用 VR 覆盖层,Enable VR overlays
+preferences,vr_overlays_enabled_on_startup,启动时启用 VR 覆盖层,Enable VR overlays when app starts
+preferences,r3e_ratings_url,R3E 评分网址,R3E Ratings URL
+preferences,watched_opponent_names,关注的对手车手名,Watched opponent names
+preferences,show_vr_settings_as_overlay,始终以覆盖层显示 VR 设置窗口,Always show VR Settings window as overlay
+preferences,codriver_rushed_speed,领航员催促速度阈值（公里/小时）,Co-driver rushing speed threshold (km/h)
+preferences,codriver_rushed_lookahead_seconds,领航员提前播报时间（秒）,Co-driver rushing look ahead (seconds)
+preferences,codriver_chained_pacenote_threshold_distance,合并间距小于此值的领航员播报（米）,Link co-driver calls closer than this (metres)
+preferences,codriver_lookahead_seconds,默认领航员呼叫前瞻时间（秒）,Default look ahead for co-driver calls (seconds)
+preferences,enable_controller_pov_switches,启用控制器 PoV 开关,Enable controller PoV switches
+preferences,block_male_sounds,屏蔽将车手称为男性的语音,Block sounds which refer to drivers as male
+preferences,enable_watch_car_command,启用观察对手命令,Enable watch opponent commands
+preferences,lazy_load_subtitles,延迟加载字幕,Lazy load subtitles
+preferences,show_splash_screen,显示启动画面,Show splash screen
+preferences,enable_gtr2_pit_lane_approach_heuristics,启用 GTR 2 维修道接近判定,Enable GTR 2 pit lane approach detection
+preferences,scroll_bars_on_main_window,主窗口滚动条,Scroll bars on main window
+preferences,use_dictation_grammar_for_rally,使用自由听写录入赛段笔记,Use free dictation for stage notes
+preferences,dictation_grammar_for_rally_confidence,最小拉力赛自由听写语音识别置信度（Microsoft 识别引擎）,Min rally free dictation voice recognition confidence (Microsoft recogniser)
+preferences,confirm_recce_pace_notes,勘路时逐条确认路书,Confirm each pace note in stage recce
+preferences,minimum_rally_voice_recognition_confidence_microsoft_sre,最小拉力赛语音识别置信度（Windows 识别引擎）,Min rally voice recognition confidence (Windows recogniser)
+preferences,minimum_rally_voice_recognition_confidence_system_sre,最小拉力赛语音识别置信度（Windows 识别引擎）,Min rally voice recognition confidence (Windows recogniser)
+preferences,dirt_rally_udp_data_port,Dirt Rally UDP 端口,Dirt Rally UDP port
+preferences,dirt_rally_2_udp_data_port,Dirt Rally 2 UDP 端口,Dirt Rally 2 UDP port
+preferences,log_type_spotter,日志类型 - 观察员,Log type - spotter
+preferences,log_type_sound,日志类型 - 语音,Log type - sound
+preferences,log_type_soundDebug,日志类型 - 语音调试,Log type - sound debug
+preferences,log_type_debug,日志类型 - 调试,Log type - debug
+preferences,log_type_verbose,日志类型 - 详细,Log type - verbose
+preferences,log_type_fuel,日志类型 - 燃油,Log type - fuel
+preferences,log_type_tyres,日志类型 - 轮胎,Log type - tyres
+preferences,log_type_brakes,日志类型 - 刹车,Log type - brakes
+preferences,log_type_exception,日志类型 - 异常,Log type - exception
+preferences,allow_composite_personalisations,允许对手名在“我的名称”列表中,Allow opponent names in 'My name' list
+preferences,codriver_dynamic_lookahead,动态领航员距离前瞻,Dynamic co-driver distance look ahead
+preferences,codriver_min_space_for_auto_distance_call,自动生成距离路书时的最小间距（米）,Min gap for auto-generated distance pace note (metres)
+preferences,include_start_pos_in_dirt_stage_names,在 Dirt Rally 路书文件夹名里包含起点位置,Include start location in Dirt Rally pace note folders
+preferences,save_sre_debug_data,写语音识别调试数据,Write speech recognition debug data
+preferences,sre_button_release_delay,按钮释放后 SRE 延迟（毫秒），仅在按住按钮模式下,"SRE delay after button release, hold button mode only (ms)"
+preferences,sre_enable_threshold_tuning,自动调整语音识别阈值,Auto-tune speech recognition thresholds
+preferences,enable_rf1_box_sharing_warnings,提醒对手占用玩家的维修位（仅限 rF1 / AMS）,Warn about opponents sharing player's pit box (RF1 / AMS 1 only)
+preferences,force_resample,nAudio 播放重采样率（0 - 不进行重采样）,nAudio playback resample rate (0 - no resampling)
+preferences,enable_frozen_order_messages,启用固定顺序播报,Enable frozen order messages
+preferences,force_seated_on_vr_view_reset,强制就坐跟踪模式在重置 VR 视图时启用,Force Seated tracking mode on Reset VR View
+preferences,speak_only_when_spoken_to,仅在被呼唤时播报,Speak only when spoken to
+preferences,just_the_facts,禁用解说,Disable commentary
+preferences,enable_mqtt_telemetry,启用 MQTT 遥测,MQTT Telemetry enabled
+preferences,mqtt_topic_drivername,MQTT 车手名,MQTT driver name
+preferences,use_fuzzy_driver_name_matching,模糊对手名匹配,Fuzzy opponent name matching
+preferences,allow_first_names,允许名字,Allow first names
+preferences,prefer_first_names,优先使用名字,Prefer first names
+preferences,enable_auto_detect,启用游戏自动检测,Enable game auto detect
+preferences,enable_auto_detect_exit_cc,当自动检测到的游戏退出时退出 Crew Chief,Exit Crew Chief when auto-detected game exits
+preferences,enable_volume_control,启用音量控制,Enable volume control
+preferences,enable_audio_ducking,启用音量闪避,Enable audio ducking
+preferences,enable_audio_ducking_while_talking_to_cc,与 Crew Chief 说话时启用音量闪避,Enable audio ducking while talking to Crew Chief
+preferences,save_console_after_each_run,每次保存控制台日志,Save the Console log each time
+preferences,enable_running_dos_commands_from_command_macros,启用从命令宏运行 DOS 命令,Enable running DOS commands from Command macros
+preferences,revert_to_legacy_version_of_refactored_code,恢复到重构代码的旧版本,Revert to legacy version of refactored code
+preferences,use_legacy_plugin_installer,使用旧版插件安装程序,Use legacy plugin installer
+preferences,enable_lmu_rf2_plugin_dll_check,启用 LMU/rF2 插件 DLL 检查,Enable LMU/RF2 plugin DLL check
+preferences,use_legacy_rf2_shared_memory_filenames,使用旧版共享内存文件名,Use legacy shared memory filenames
+preferences,enable_lmu_rest_api,启用 LMU 的有问题的 REST API,Enable LMU's problematic REST API
+preferences,save_all_fuel_data,保存所有燃油数据,Save ALL fuel data
+preferences,enable_dark_mode,启用深色模式,Enable Dark Mode
+preferences,colloquial_time,用口语方式播报大致时间,Announce time approximately/colloquially
+preferences,auto_is_oval,自动设置椭圆/非椭圆赛道类型,Automatically set oval/non-oval track type
+preferences,use_toast_notifications,使用弹出通知,Use 'toast' notifications
+preferences,FIRST_RUN,首次运行,FIRST RUN

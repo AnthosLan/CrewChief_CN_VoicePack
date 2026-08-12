@@ -1,0 +1,470 @@
+section,key,zh,english
+main_window,auto_detect_active_tooltip,,&Start Crew Chief\Auto detect active
+main_window,fuel_multiplier_help,,Multiplier for fuel calculations\May be supplied by game\else enter a number.
+main_window,game_definition_help,,See Property 'Limit available games'
+menu_bar,copy_crew_chief_settings_tooltip,,Copy to the clipboard the Crew Chief settings that differ from default.
+menu_bar,log_now_tooltip,,Send the current log to the Crew Chief dev team\(You can review it first)
+menu_bar,log_saved_tooltip,,Send a saved log file to the Crew Chief dev team\(You can review it first)
+menu_bar,record_trace_tooltip,,Record all the data provided by the game
+menu_bar,trace_now_tooltip,,Send the current trace of all the data provided by the game to the Crew Chief dev team\(You can review it first)
+menu_bar,trace_saved_tooltip,,Send a trace of all the data provided by the game to the Crew Chief dev team\(You can review it first)
+menu_bar,playback_trace_tooltip,,Can be a 3 in 1 .zip file or the old .cct file
+voice_and_controls,voice_recognition_mode_help,,Voice recognition mode - 'Trigger word' and 'Press and release button' not available with nAudio.
+voice_and_controls,voice_recognition_always_on_help,,App always listens.
+voice_and_controls,voice_recognition_toggle_button_help,,App listens after you press and release a button  (doesn't work with nAudio).
+voice_and_controls,voice_recognition_hold_button_help,,App listens while you hold down a button.
+voice_and_controls,voice_recognition_disabled_help,,App doesn't listen.
+voice_and_controls,voice_recognition_trigger_word_help,,"App always listens for a key word or phrase, and after hearing this it listens for a command (doesn't work with nAudio)."
+voice_and_controls,voice_recognition_release_button_help,,App listens while you release a button so the button can be used for voice chat in another program.
+voice_and_controls,no_speech_recognition_tooltip,,"Speech input is from Windows default device\unless ""Use nAudio for speech input""\Property is selected"
+my_name_dialog,enter_your_name_help,,Crew Chief AI will do its best to match you to the available names.
+my_name_dialog,full_personalisation_help,,Multiple individual recordings of messages by Mr Belowski.
+my_name_dialog,driver_name_help,,Canned messages by Mr Belowski with the name stitched in (may sound a little clunky).
+my_name_dialog,other_driver_name_help,,Names that can be stitched into canned messages.
+my_name_dialog,play_name_sample_help,,Play name sample.
+my_name_dialog,no_name_help,,If no name is selected Crew Chief will simply not say personalised messages.
+opponent_names_dialog,edit_guessed_names_file_tooltip,,Opens the file in Notepad which contains opponent names that Crew Chief has guessed so you can edit the guesses or delete the contents completely.
+opponent_names_dialog,edit_opponent_names_file_tooltip,,Opens the file in Notepad which contains preset opponent names so you can edit them.
+opponent_names_dialog,opponent_names_list_tooltip,,Opponent name : Recorded name pairs\Select then right click to listen to or change the sound.
+opponent_name_selection,none_of_the_above_tooltip,,If none of the recorded names are suitable then Crew Chief will not use a name.
+opponent_name_selection,show_common_props_tooltip,,Include properties shared between all the games.
+opponent_name_selection,show_changed_props_tooltip,,Show only changed/unsaved properties.
+opponent_name_selection,show_non_default_props_tooltip,,Show only properties that are different from the default values.
+opponent_name_selection,personalisation_tooltip,,Choose a name you'd like Chief to call you (requires restart).
+opponent_name_selection,chief_name_tooltip,,Choose a Chief voice (requires restart).
+opponent_name_selection,spotter_name_tooltip,,Choose a Spotter voice (requires restart).
+opponent_name_selection,codriver_name_tooltip,,Choose a Co-Driver voice (requires restart).
+opponent_name_selection,activate_profile_tooltip,,Load selected profile and restart.
+macro_editor,dos_command_tooltip,,Whatever you enter can be run as a DOS command. Use with care!
+macro_editor,advanced_edit_tooltip,,No error checking!
+trace_playback,playback_speed_tooltip,,"In mS, slows down playback. If 10 or more then audio will be played"
+preferences,trainee_chief_path_help,,"Name of (or path to) voice files for a trainee crew chief.\The trainee crew chief will speak instead of the main crew chief only if they can say the entire sentence that the main crew chief would have spoken. This is to ease the incremental creation of (full) sound packs.\Unless it is a full path Crew Chief will look in the alt subdirectory of the sound pack (Use File/Open voice files folder to find the files).\If it is ""Jim"" it will be treated as the sound pack root.\\It is recommended to turn off opponent names (until the trainee chief has more names) and text-to-speech when using this option."
+preferences,acs_install_path_help,,ACS installation path (without quotes) for plugin installation and updating .
+preferences,ace_install_path_help,,AC EVO installation path (without quotes) for plugin installation and updating .
+preferences,ams_install_path_help,,AMS installation path (without quotes) for plugin installation and updating.
+preferences,rf1_install_path_help,,rF1 installation path (without quotes) for plugin installation and updating.
+preferences,asr_install_path_help,,ASR installation path (without quotes) for plugin installation and updating.
+preferences,rf2_install_path_help,,rF2 installation path (without quotes) for plugin installation and updating.
+preferences,lmu_install_path_help,,Le Mans Ultimate installation path (without quotes) for plugin installation and updating.
+preferences,rbr_install_path_help,,RBR installation path (without quotes) for plugin installation and updating.
+preferences,gtr2_install_path_help,,GTR 2 installation path (without quotes) for plugin installation and updating.
+preferences,f1_2018_install_path_help,,F1 2018 installation path.
+preferences,acc_install_path_help,,ACC installation path.
+preferences,f1_2019_install_path_help,,F1 2019 installation path.
+preferences,override_default_sound_pack_location_help,,Use an alternative folder for the Sound Pack.
+preferences,enable_acs_log_sectors_for_unknown_tracks_help,,Write sectors to Console window.
+preferences,enable_ace_log_sectors_for_unknown_tracks_help,,Write sectors to Console window.
+preferences,enable_driver_names_help,,"Chief uses all names, not just personalised ones."
+preferences,enable_drs_beeps_help,,Beep for DRS detection (iRacing only) and availability.
+preferences,gap_message_randomness_help,,"1 means less random (more deterministic), 10 means most random (potentially long waits between calls). Tweak in combination with the various gap ahead/behind frequency values."
+preferences,enable_green_light_messages_help,,Go! Go! Go! message when lights turn green.
+preferences,enable_pearls_of_wisdom_help,,"""Helpful"" comments on your driving."
+preferences,enable_tyre_dirt_pickup_warnings_help,,Enables warning messages about going off track and picking up dirt (R3E and GTR2 only).
+preferences,attempt_pcars_opponent_pit_detection_help,,Monitor opponent world positions and try to guess when they're entering and leaving the pit lane.
+preferences,cache_sounds_help,,Cache sounds in memory.
+preferences,disable_acs_yellow_flag_warnings_help,,Prevents yellow flag message spamming in messy online races.
+preferences,disable_ace_yellow_flag_warnings_help,,Prevents yellow flag message spamming in messy online races.
+preferences,disable_pcars_prac_and_qual_pole_deltas_help,,Disable pCARS practice and qual pole deltas - these are unreliable.
+preferences,launch_acs_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch Assetto Corsa.
+preferences,launch_ace_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch Assetto Corsa EVO.
+preferences,spotter_enable_three_wide_left_and_right_help,,"Use ""three wide, you're on the left / right"" messages (can be confusing)."
+preferences,use_alternate_beeps_help,,Use a different radio sound (just the click).
+preferences,use_fahrenheit_help,,"If not checked, use Celcius."
+preferences,use_listen_beep_help,,Play a beep when you press the 'talk to Crew Chief' button.
+preferences,use_listen_end_beep_help,,Play a beep when the 'talk to Crew Chief' button didn't get a reply.
+preferences,min_time_between_personalised_messages_help,,Seconds between Crew Chief referring to you by name.
+preferences,minimum_time_between_pearls_of_wisdom_help,,Seconds between Crew Chief commenting on your performance.
+preferences,spotter_hold_repeat_frequency_help,,"Time between the Spotter repeating ""hold your line"" when along side a car."
+preferences,spotter_hold_repeat_frequency_ovals_help,,"Time between the Spotter repeating ""hold your line"" when along side a car on an oval track."
+preferences,enable_oval_spotter_enhancements_help,,Allow radio calls between spotter messages and disable beeps on ovals.
+preferences,spotter_update_interval_help,,Milliseconds between spotter updates.
+preferences,spotter_off_during_qualifying_help,,Spotter off during qualifying to cope with games that have private qualifying with other invisible cars on track.
+preferences,acc_udp_data_port_help,,ACC network data UDP port (should usually be 9000).
+preferences,ace_udp_data_port_help,,ACE network data UDP port (should usually be <tbd>).
+preferences,udp_data_port_help,,pCARS network data UDP port (should usually be 5606).
+preferences,pmr_udp_port_help,,PMR network data UDP port (should usually be 7576).
+preferences,f1_2018_udp_data_port_help,,F1 2018 network data UDP port (should usually be 20777).
+preferences,f1_2019_udp_data_port_help,,F1 2019 network data UDP port (should usually be 20777).
+preferences,f1_2020_udp_data_port_help,,F1 2020 network data UDP port (should usually be 20777).
+preferences,f1_2021_udp_data_port_help,,F1 2021 network data UDP port (should usually be 20777).
+preferences,f1_2022_udp_data_port_help,,F1 2022 network data UDP port (should usually be 20777)
+preferences,f1_2023_udp_data_port_help,,F1 2023 network data UDP port (should usually be 20777)
+preferences,spotter_gap_for_clear_help,,Gap between cars before calling clear (metres).
+preferences,messages_volume_help,,The volume of Crew Chief / spotter (0 - 1).
+preferences,background_volume_help,,The volume of the background sounds (0 - 1).
+preferences,update_interval_help,,The time (milliseconds) between app updates.
+preferences,use_sweary_messages_help,,A few messages contain swearing - this enables / disables these.
+preferences,enable_spotter_help,,The Spotter can be enabled and disabled with a button. This sets its initial state.
+preferences,speech_recognition_country_help,,"Optional - the localisation country to use for speech recognition. If this isn't set, the app will use which ever English pack you've installed (or the first it finds if you have more than one). If you set it, the value must be a country specifics value ex. GB, US, IT, DA, LT."
+preferences,ui_language_help,,"Optional - the localisation country to use for the UI. If this isn't set, the app will use OS system language. If you set it, the value must be a valid ISO 639-1 code for country, followed by a hyphen, then a valid two letter region code. For example en-GB. If no translation file is found, the app will default back to English."
+preferences,spotter_car_length_help,,"The length of a car, used to check if there's an overlap. Decrease this if the Spotter calls 'hold your line' when you're not overlapping. Increase it if the Spotter doesn't call 'hold your line' when you clearly are overlapping."
+preferences,time_after_race_start_for_spotter_help,,Wait this many seconds after race start before enabling the spotter.
+preferences,min_speed_for_spotter_help,,Don't use the Spotter if your speed is less than this.
+preferences,max_closing_speed_for_spotter_help,,Don't call 'hold your line' if the closing speed between you and the other car is greater than this.
+preferences,spotter_clear_delay_help,,You need to be clear for this many milliseconds before the Spotter calls 'clear'.
+preferences,spotter_overlap_delay_help,,You need to be overlapping for this many milliseconds before the Spotter calls 'hold your line'.
+preferences,custom_device_guid_help,,Manually set a controller GUID if the app doesn't display your controller in the devices list.
+preferences,launch_raceroom_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch RaceRoom Racing Experience.
+preferences,r3e_launch_params_help,,This is used to tell Steam what app to run - R3E's Steam app ID is 211500. If you specified a path RRRE.exe you can leave this blank.
+preferences,launch_race_remaster_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch Race Remaster.
+preferences,pcars32_launch_params_help,,This is used to tell Steam what app to run - pCARS' Steam app ID is 234630. If you specified a path pcars32.exe you can leave this blank.
+preferences,pcars64_launch_params_help,,This is used to tell Steam what app to run - pCARS' Steam app ID is 234630. If you specified a path pcars64.exe you can leave this blank.
+preferences,rf1_launch_params_help,,This is used to tell Steam what app to run - rFactor's Steam app ID is 339790. If you specified a path rFactor.exe you can leave this blank.
+preferences,rf2_launch_params_help,,This is used to tell Steam what app to run - rFactor 2's Steam app ID is 365960. If you specified a path rFactor2.exe you can leave this blank.
+preferences,lmu_launch_params_help,,This is used to tell Steam what app to run - Le Mans Unlimited's Steam app ID is 2399420. If you specified a path lmu.exe you can leave this blank.
+preferences,gsc_launch_params_help,,This is used to tell Steam what app to run - Stock Car Extreme's Steam app ID is 273840. If you specified a path GSC.exe you can leave this blank.
+preferences,ams_launch_params_help,,This is used to tell Steam what app to run - Automobilista's Steam app ID is 431600. If you specified a path AMS.exe you can leave this blank.
+preferences,acs_launch_params_help,,This is used to tell Steam what app to run - Assetto Corsa's Steam app ID is 244210. If you specified a path ACS.exe you can leave this blank.
+preferences,ace_launch_params_help,,This is used to tell Steam what app to run - Assetto Corsa EVO's Steam app ID is 3058630. If you specified a path ACE.exe you can leave this blank.
+preferences,marcas_launch_params_help,,This is used to tell Steam what app to run - Copa Petrobras de Marcas Steam app ID is 359800. If you specified a path marcas.exe you can leave this blank.
+preferences,ftruck_launch_params_help,,This is used to tell Steam what app to run - Formula Truck's Steam app ID is 273750. If you specified a path FTruck.exe you can leave this blank.
+preferences,f1_2018_launch_params_help,,This is used to tell Steam what app to run - F1 2018's Steam app ID is 737800. If you specified a path f1_2018.exe you can leave this blank.
+preferences,f1_2019_launch_params_help,,This is used to tell Steam what app to run - F1 2019's Steam app ID is 928600. If you specified a path f1_2019.exe you can leave this blank.
+preferences,f1_2020_launch_params_help,,This is used to tell Steam what app to run - F1 2020's Steam app ID is 1080110. If you specified a path f1_2020.exe you can leave this blank.
+preferences,f1_2021_launch_params_help,,This is used to tell Steam what app to run - F1 2021's Steam app ID is 1134570. If you specified a path f1_2021.exe you can leave this blank.
+preferences,f1_2022_launch_params_help,,This is used to tell Steam what app to run - F1 2022's Steam app ID is 1692250. If you specified a path f1_2022.exe you can leave this blank.
+preferences,f1_2023_launch_params_help,,This is used to tell Steam what app to run - F1 2023's Steam app ID is 2108330. If you specified a path f1_2023.exe you can leave this blank.
+preferences,r3e_launch_exe_help,,This is the location of Steam.exe or the direct path (without quotes) to RRRE.exe.
+preferences,rbr_launch_exe_help,,This is the direct path (without quotes) to RichardBurnsRally_SSE.exe.
+preferences,gtr2_launch_exe_help,,This is the direct path (without quotes) to GTR2.exe.
+preferences,dirt_launch_exe_help,,This is the location of Steam.exe or the direct path (without quotes) to dirtrally.exe.
+preferences,dirt_launch_params_help,,This is used to tell Steam what app to run - Dirt Rally's Steam app ID is 310560. If you specified a path dirtrally.exe you can leave this blank.
+preferences,dirt2_launch_exe_help,,This is the location of Steam.exe or the direct path (without quotes) to dirtrally2.exe.
+preferences,dirt2_launch_params_help,,This is used to tell Steam what app to run - Dirt Rally 2's Steam app ID is 690790. If you specified a path dirtrally.exe you can leave this blank.
+preferences,acc_launch_exe_help,,This is the location of Steam.exe or the direct path (without quotes) to acc.exe.
+preferences,rf1_launch_exe_help,,This is the location of Steam.exe or the direct path (without quotes) to rFactor.exe.
+preferences,asr_launch_exe_help,,This is the direct path (without quotes) to ARCA.exe.
+preferences,rf2_launch_exe_help,,This is the location of Steam.exe or the direct path (without quotes) to rFactor2.exe.
+preferences,lmu_launch_exe_help,,This is the location of Steam.exe or the direct path (without quotes) to rFactor2.exe.
+preferences,gsc_launch_exe_help,,This is the location of Steam.exe or the direct path (without quotes) to GSC.exe.
+preferences,ams_launch_exe_help,,This is the location of Steam.exe or the direct path (without quotes) to AMS.exe.
+preferences,acs_launch_exe_help,,This is the location of Steam.exe or the direct path (without quotes) to ACS.exe.
+preferences,ace_launch_exe_help,,This is the location of Steam.exe or the direct path (without quotes) to AssettoCorsaEVO.exe.
+preferences,marcas_launch_exe_help,,This is the location of Steam.exe or the direct path (without quotes) to marcas.exe.
+preferences,ftruck_launch_exe_help,,This is the location of Steam.exe or the direct path (without quotes) to FTruck.exe.
+preferences,pcars32_launch_exe_help,,This is the location of Steam.exe or the direct path (without quotes) to pcars32.exe.
+preferences,pcars64_launch_exe_help,,This is the location of Steam.exe or the direct path (without quotes) to pcars64.exe.
+preferences,f1_2018_launch_exe_help,,This is the location of Steam.exe or the direct path (without quotes) to f1_2018.exe.
+preferences,f1_2019_launch_exe_help,,This is the location of Steam.exe or the direct path (without quotes) to f1_2019.exe.
+preferences,f1_2020_launch_exe_help,,This is the location of Steam.exe or the direct path (without quotes) to f1_2020.exe.
+preferences,f1_2021_launch_exe_help,,This is the location of Steam.exe or the direct path (without quotes) to f1_2021.exe.
+preferences,f1_2022_launch_exe_help,,This is the location of Steam.exe or the direct path (without quotes) to f1_2022.exe.
+preferences,f1_2023_launch_exe_help,,This is the location of Steam.exe or the direct path (without quotes) to f1_2023.exe.
+preferences,launch_rfactor1_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch rFactor.
+preferences,launch_asr_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch ASR.
+preferences,launch_rfactor2_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch rFactor 2.
+preferences,launch_lmu_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch LMU .
+preferences,launch_rbr_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch Richard Burns Rally.
+preferences,launch_gtr2_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch GTR 2.
+preferences,launch_dirt_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch Dirt Rally.
+preferences,launch_dirt2_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch Dirt Rally 2.
+preferences,launch_gsc_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch Stock Car Extreme.
+preferences,launch_f1_2018_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch F1 2018.
+preferences,launch_f1_2019_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch F1 2019.
+preferences,launch_f1_2020_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch F1 2020.
+preferences,launch_f1_2021_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch F1 2021.
+preferences,launch_f1_2022_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch F1 2022.
+preferences,launch_f1_2023_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch F1 2023.
+preferences,launch_ams_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch Automobilista.
+preferences,launch_marcas_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch Copa Petrobras de Marcas.
+preferences,launch_ftruck_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch Formula Truck.
+preferences,launch_pcars_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch pCARS.
+preferences,launch_acc_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch ACC.
+preferences,pcars2_launch_exe_help,,This is the location of Steam.exe or the direct path (without quotes) to pCARS2AVX.exe.
+preferences,pcars3_launch_exe_help,,This is the location of Steam.exe or the direct path (without quotes) to pCARS3.exe.
+preferences,pcars2_launch_params_help,,This is used to tell Steam what app to run - pCARS 2's Steam app ID is 378860. If you specified a path pCARS2AVX.exe you can leave this blank.
+preferences,pcars3_launch_params_help,,This is used to tell Steam what app to run - pCARS 3's Steam app ID is 958400. If you specified a path pCARS3.exe you can leave this blank.
+preferences,ams2_launch_exe_help,,This is the location of Steam.exe or the direct path (without quotes) to AMS2.exe.
+preferences,ams2_launch_params_help,,This is used to tell Steam what app to run - AMS 2's Steam app ID is 1066890. If you specified a path AMS2.exe you can leave this blank.
+preferences,acc_launch_params_help,,This is used to tell Steam what app to run - ACC's Steam app ID is 805550. If you specified a path AC2-Win64-Shipping.exe you can leave this blank.
+preferences,launch_pcars2_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch pCARS 2.
+preferences,launch_pcars3_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch pCARS 3.
+preferences,launch_ams2_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch AMS 2.
+preferences,iracing_launch_exe_help,,This is the path (without quotes) to iRacingSim64DX11.exe.
+preferences,launch_iracing_help,,When Crew Chief starts (because you click 'Start Crew Chief' or the 'Run immediately' property auto starts it) attempt to launch iRacing.
+preferences,run_immediately_help,,"The application will start running Crew Chief as soon as you start it up, using whatever options you previously set."
+preferences,pcars_steam_id_help,,"pCARS sometimes sends the participant data in the wrong order. If this value is set, the app will use it to try and work around this issue, preventing the app 'seeing' the wrong data for the player."
+preferences,cumulative_lap_lockup_warning_threshold_help,,"If the player has locked wheels for more than this many seconds over the course of a lap, play a warning."
+preferences,cumulative_lap_wheelspin_warning_threshold_help,,"If the player has wheelspin for more than this many seconds over the course of a lap, play a warning."
+preferences,minimum_name_voice_recognition_confidence_help,,"When processing voice commands asking about opponent drivers, the speech recognition engine must be at least this confident it understood before the app responds (0.0 - 1.0)."
+preferences,minimum_name_voice_recognition_confidence_system_sre_help,,"When processing voice commands asking about opponent drivers, the speech recognition engine must be at least this confident it understood before the app responds (0.0 - 1.0)."
+preferences,minimum_voice_recognition_confidence_help,,"When processing voice commands, the speech recognition engine must be at least this confident it understood before the app responds (0.0 - 1.0)."
+preferences,minimum_voice_recognition_confidence_system_sre_help,,"When processing voice commands, the speech recognition engine must be at least this confident it understood before the app responds (0.0 - 1.0)."
+preferences,display_session_lap_times_help,,Write all the lap times from the completed session to the console (separated by ;).
+preferences,enable_opponent_laptime_reporting_in_race_help,,"Call out opponent lap times in the race (car front, behind & leader) if the lap time is their best lap."
+preferences,report_sector_deltas_race_help,,Give sector delta information during a race.
+preferences,report_sector_deltas_race_likelihood_help,,"Probability of giving a sectors report after each race lap (0 = disabled, 1 = every lap, default 0.3 - 30% chance of sector information on each lap)."
+preferences,report_sector_deltas_practice_and_qual_help,,Give sector delta information during practice and qualifying.
+preferences,frequency_of_overtaking_messages_help,,How often to congratulate the player when he makes a clean overtake. 0 (never) to 10 (as often as possible).
+preferences,frequency_of_being_overtaken_messages_help,,How often to berate the player when he gets overtaken. 0 (never) to 10 (as often as possible).
+preferences,frequency_of_gap_ahead_reports_help,,How often to report a the gap to the car in front. 0 (never) to 10 (as often as possible).
+preferences,frequency_of_gap_behind_reports_help,,How often to report a the gap to the car behind. 0 (never) to 10 (as often as possible).
+preferences,frequency_of_gap_behind_on_track_reports_help,,How often to report a the gap to a faster car behind that is the same class but not on the same lap as us (i.e. lapping us or unlapping themselves). 0 (never) to 10 (as often as possible).
+preferences,frequency_of_opponent_race_lap_times_help,,"How often to report fast laps times for race leader and car in front and behind. 0 (never) to 10 (as often as possible). If this is 1, times are only reported if they're the session best. This criteria becomes less strict up to 10 where the time just needs to be a few tenths off session best."
+preferences,frequency_of_opponent_practice_and_qual_lap_times_help,,"How often to report fast laps times for race leader and car in front and behind. 0 (never) to 10 (as often as possible). If this is 1, times are only reported if they're the session best. This criteria becomes less strict up to 10 where the time just needs to be a few tenths off session best. A negative number will still include pole lap times but not inform of other opponents."
+preferences,seconds_to_announce_next_car_help,,The seconds to wait before announcing a new car ahead.
+preferences,minutes_to_announce_same_next_car_help,,"The minutes to wait before announcing an opponent we were recently racing, e.g. if they gain and then lose a position within this time frame we won't mention them the second time on the basis that you already recognise them. Goldfish are known to prefer a value of 0."
+preferences,opponents_number_after_name_help,,"When the name is known for an opponent, sometimes Jim tries to be helpful and also include their car number, which can make it easier to identify them on track incase their livery is not recognisable."
+preferences,frequency_of_pearls_of_wisdom_help,,How often to play general encouragement messages. 0 (never) to 10 (as often as possible).
+preferences,frequency_of_player_race_lap_time_reports_help,,How often to report player lap times in the race. 0 (never) to 10 (as often as possible).
+preferences,frequency_of_player_prac_and_qual_lap_time_reports_help,,How often to report player lap times in the practice and qualifying. 0 (never) to 10 (as often as possible).
+preferences,frequency_of_prac_and_qual_sector_delta_reports_help,,How often to report player sector deltas in practice and qualifying. 0 (never) to 10 (as often as possible).
+preferences,frequency_of_race_sector_delta_reports_help,,How often to report a player sector deltas in race. 0 (never) to 10 (as often as possible).
+preferences,race_sector_reports_at_each_sector_help,,Play race sector delta reports as you complete each sector.
+preferences,race_sector_reports_at_lap_end_help,,Play sector delta reports for whole lap when you complete the lap.
+preferences,practice_and_qual_sector_reports_at_each_sector_help,,Play practice and qual sector delta reports as you complete each sector.
+preferences,practice_and_qual_sector_reports_at_lap_end_help,,Play practice and qual sector delta reports for whole lap when you complete the lap.
+preferences,iracing_reputations_help,,"Enables voice commands and messages about bad reputations (distinct from SR and iRating) based on user-defined rules. See ""Flag Reputations"", ""Tenure Reputation"", ""Rating Reputation"" and the iracing_reputations.json file in the user's configuration folder."
+preferences,iracing_reputations_flair_bad_help,,"A proxy for bad latency, drivers that are members of these comma separated flags (aka flair) will be marked as ""bad"". A semicolon can be used to add additional rules for oval (those that appear after the semicolon will be added to the first list)."
+preferences,iracing_reputations_flair_good_help,,"A proxy for bad latency, drivers that are NOT members of these comma separated flags (aka flair) will be marked as ""sketchy"". A semicolon can be used to add additional rules for road (those that appear after the semicolon will be added to the first list). If this list is empty it is not used, and only the bad list is used."
+preferences,iracing_reputations_ratings_help,,"Drivers that have an iRating less than this value will be flagged as ""sketchy"". Separate values for road and oval can be provided by separating with a comma."
+preferences,iracing_reputations_division_help,,"Drivers that have a Division higher than this value will be flagged as ""sketchy"". Somewhat combines rating and tenure, see the Sporting Code on how divisions are calculated."
+preferences,iracing_reputations_safety_help,,"Drivers that have a Safety Rating this much below you will be considered ""bad"". Set to 0 to disable. Every license level is worth a (promotion) score of 1.0 and every whole number of Safety Rating is actually only worth 0.5 because of iRacing's banking system. If you are A3.5 and want to consider C2.5 (and below) to be sketchy, then use a value of 2.5 = 2.0 (for two classes) + 1.0 (for the number difference) - 0.5 (for the loan difference)."
+preferences,enable_opponent_rating_info_help,,Include game supplied rating info in opponent messages.
+preferences,ambient_temp_check_interval_seconds_help,,"How often to check for changes in ambient (air) temperature, in seconds."
+preferences,track_temp_check_interval_seconds_help,,"How often to check for changes in track temperature, in seconds."
+preferences,report_ambient_temp_changes_greater_than_help,,Report ambient (air) temperature if it's changed by more than this amount (in Celsius).
+preferences,report_track_temp_changes_greater_than_help,,Report track temperature if it's changed by more than this amount (in Celsius).
+preferences,pause_between_messages_help,,Time pause between messages (in seconds) when reading multiple messages together in a single group.
+preferences,pause_between_message_fragments_help,,Time pause between individual message fragments (sounds) in milliseconds.
+preferences,load_sound_files_on_startup_help,,"Load all the sounds when the app starts up. This may make app start times quite long, but prevents the app having to load stuff while you're racing."
+preferences,enable_automatic_plugin_update_help,,Crew Chief will check if latest plugin is installed and will prompt to install plugin if it is not found or out of date.
+preferences,pcars_character_encoding_help,,For PS4 always use UTF-8. For PC and XBox this will usually be windows-1252 (Windows Western European).
+preferences,ams2_character_encoding_help,,Should usually be UTF-8.
+preferences,enable_pcars_pit_window_messages_help,,Play pit window messages in pCARS. Don't use this in online racing - the game always sends an enforced pit stop lap even if this isn't enabled by the host.
+preferences,report_yellows_in_all_sectors_help,,If this is unchecked the app will report yellow flags only in the current and next sector.
+preferences,max_distance_moved_for_yellow_announcement_help,,Cars which have moved less than this many metres in 3 seconds may be reported as having crashed.
+preferences,min_secs_for_debris_flag_help,,"The seconds between announcing a debris flag, set to -1 to disable."
+preferences,enable_delayed_responses_help,,"Some voice commands will trigger a ""stand by"" response, followed some time later by the requested into."
+preferences,enable_console_logging_help,,Uncheck this to prevent console window messages being shown. Reduces the CPU load of the app.
+preferences,console_font_size_help,,Set the size of the font used in the Console Window. Default is 8.
+preferences,console_flush_help,,"Immediately write anything written to the console to MY DOCUMENTS/CrewChief/CrewChiefV4/DebugLogs/console_flush.txt as it happens.\\This is useful for debugging, but will cause a lot of disc writes and may slow down your computer."
+preferences,log_tyre_stats_help,,Show tyre temps and wear at the start of each sector.
+preferences,r3e_blue_flag_detection_distance_help,,Max distance (metres) for R3E blue flag trigger.
+preferences,play_pre_lights_messages_until_cancelled_help,,Play pre-race info messages until a control input is detected.
+preferences,time_between_caution_period_status_reminders_help,,Time between caution period status reminders (seconds).
+preferences,enable_ams_pit_schedule_messages_help,,Play 'box now' messages when using offline scheduled pit stops.
+preferences,report_allowed_overtakes_under_yellow_help,,Play can-overtake and no-overtaking messages during yellow flags (R3E only).
+preferences,iracing_override_luckydog_help,,"ignore the iRacing lucky dog telemetry under FCY and calculate it manually. Until iRacing fix their telemetry this is the only way to get lucky dog calls in CrewChief but it can be unreliable, e.g. we can't exclude drivers involved in the incident."
+preferences,iracing_disable_luckydog_help,,"if neither telemetry nor override rules are working for you, just turn them off and use a custom spmsg.txt to get default spotter calls for this."
+preferences,enable_rf2_pit_stop_prediction_help,,Play 'box now' messages when using offline scheduled pit stops.
+preferences,enable_lmu_pit_stop_prediction_help,,Play 'box now' messages when using offline scheduled pit stops.
+preferences,enable_gtr2_pit_stop_prediction_help,,Play 'box now' messages when using offline scheduled pit stops.
+preferences,enable_simple_incident_detection_listprop_help,,"Watch for and report very slow cars as incidents (iRacing, pCARS and AC only)."
+preferences,simple_incident_detection_report_delay_help,,"Time to delay simple incident reports, to low a value might cause false reports (iRacing only? Said to be pCARS and AC too)."
+preferences,enable_yellow_flag_messages_help,,Enable yellow flag messages (can be overridden during a session with voice command or button assignment).
+preferences,enable_opponent_crash_messages_help,,Report the names of opponent cars involved in incidents where possible.
+preferences,prefer_alternative_download_site_help,,Use the secondary download location for updates.
+preferences,iracing_sof_playerclass_help,,Ignores other classes when calculating the Strength of Field.
+preferences,use_american_terms_help,,"Assume unknown cars use American phrasing (""pace car"", ""white flag"" for last lap etc)."
+preferences,use_metric_help,,"Use metric units (KPH, litres etc). If not checked use MPH, gallons etc."
+preferences,iracing_overrides_units_help,,"Let iRacing choose the units to use, overriding ""Use metric"", Fahrenheit and enabling American terms."
+preferences,realistic_mode_help,,Restrict available message types based on the car and track in use. Among other things that means the spotter only works on ovals.
+preferences,always_report_time_in_hundredths_help,,Always report lap times and gaps to hundredths of a second.
+preferences,no_minutes_in_lap_times_help,,"Just ""26 point 5"" instead of ""1 minute 26 point 5""."
+preferences,insert_beep_in_between_spotter_and_chief_help,,"If Spotter and Chief are different people (spotter voices other than Jim), insert open channel beep sound on switching messages."
+preferences,insert_beep_out_between_spotter_and_chief_help,,"If Spotter and Chief are different people (spotter voices other than Jim), insert close channel beep sound on switching messages."
+preferences,minimize_to_tray_help,,Minimize Crew Chief to the system notification area instead of taskbar.
+preferences,minimize_on_startup_help,,Starts Crew Chief minimized to task bar or system tray.
+preferences,manual_formation_go_with_leader_help,,Cars are allowed to overtake on a manual formation lap as soon as the leader crosses the line.
+preferences,reject_message_when_talking_help,,Don't play any messages while you have the 'talk to chief' radio channel open.
+preferences,enable_rf2_frozen_order_messages_help,,"Announce order information during Full Course Yellow, Rolling and Formation/Standing starts."
+preferences,enable_rf2_cut_track_heuristics_help,,"Crew Chief will try to detect if you cut the track (don't have all 4 wheels on the track surface).  If unchecked, cut track will only be reported if game reported that lap got invalidated."
+preferences,enable_lmu_frozen_order_messages_help,,"Announce order information during Full Course Yellow, Rolling and Formation/Standing starts."
+preferences,enable_lmu_cut_track_heuristics_help,,"Crew Chief will try to detect if you cut the track (don't have all 4 wheels on the track surface).  If unchecked, cut track will only be reported if game reported that lap got invalidated."
+preferences,enable_gtr2_cut_track_heuristics_help,,"Crew Chief will try to detect if you cut the track (don't have all 4 wheels on the track surface).  If unchecked, cut track will only be reported if game reported that lap got invalidated."
+preferences,enable_rf2_pit_lane_approach_heuristics_help,,Crew Chief will try to detect if user approaches the pit lane entry and remind him to respect speed limit.  Might not work correctly for all tracks.
+preferences,enable_lmu_pit_lane_approach_heuristics_help,,Crew Chief will try to detect if user approaches the pit lane entry and remind him to respect speed limit.  Might not work correctly for all tracks.
+preferences,enable_command_macros_help,,Enable voice-triggered command macros for pit actions etc.
+preferences,pcars_enable_rain_prediction_help,,Use CloudBrightness to guess when it might rain - can be quite inaccurate.
+preferences,disable_alternative_voice_commands_help,,Crew Chief will only use the first item from each voice command set - may improve recognition accuracy.
+preferences,use_verbose_responses_help,,Automatically request more info for the previously issued voice or button command.
+preferences,use_naudio_help,,nAudio playback library allows playback device selection and higher volumes.
+preferences,tts_volume_boost_help,,Scale (multiply) text-to-speech volume by this amount.
+preferences,tts_trim_start_milliseconds_help,,Trim this many milliseconds off the start of TTS sounds to remove pauses before they play.
+preferences,tts_trim_end_milliseconds_help,,Trim this many milliseconds off the end of TTS sounds to remove pauses after they play.
+preferences,iracing_pit_tyre_pressure_in_psi_help,,Assume tyre adjust tyre pressure commands are in PSI (uncheck this to use kPa).
+preferences,spotter_volume_boost_help,,Scale (multiply) spotter volume by this amount (nAudio only).
+preferences,manual_formation_double_file_help,,Assume manual formation lap starts use 2 lines of cars.
+preferences,manual_formation_split_classes_help,,Assume there's a gap between different classes during a rolling start.
+preferences,save_list_of_unvocalized_names_help,,Write unvocalized driver names to file.
+preferences,enable_ams_blue_on_slower_help,,Play 'Blue Flag' messages if car behind seems to be faster.  Useful in multi-class races.
+preferences,enable_rants_help,,Allow the Chief to occasionally express his disappointment in colourful and forceful terms.
+preferences,spotter_oval_clear_delay_help,,You need to be clear for this many milliseconds before the Spotter calls 'clear' on ovals.
+preferences,use_naudio_for_speech_recognition_help,,nAudio allows speech recognition device selection.
+preferences,enable_rf2_pit_state_during_fcy_help,,Announce pit state during Safety Car/Pace Car phase.
+preferences,enable_lmu_pit_state_during_fcy_help,,Announce pit state during Safety Car/Pace Car phase.
+preferences,enable_ams_pit_state_during_fcy_help,,Announce pit state during Safety Car/Pace Car phase.
+preferences,bring_game_window_to_front_for_macros_help,,Bring the game window to the front (on top) before running command macros.
+preferences,report_all_laps_in_hotlap_mode_help,,Announce all lap times when in hotlap/lone practice mode or when we have no opponents in the session.
+preferences,enable_crash_messages_help,,Play 'are you OK?' messages when you crash very heavily.
+preferences,force_single_class_help,,Don't allow participants to be grouped by their car classes.
+preferences,force_min_window_size_help,,Don't allow the app's window size to resized below the minimum size.
+preferences,pit_box_position_countdown_help,,"Play distance in metres to box as you approach (R3E, rF2, LMU, iRacing and GTR 2 only).  Note:  In rF2, disabled for oval tracks.  May not work with some other tracks too."
+preferences,pit_box_time_countdown_help,,"Play time to box as you approach (R3E, rF2, LMU, iRacing and GTR 2 only).  Note:  In rF2, disabled for oval tracks.  May not work with some other tracks too."
+preferences,pit_box_time_countdown_end_position_help,,End pit box time countdown this many metres from the box.
+preferences,pit_box_position_countdown_in_feet_help,,Play pit distance countdown in feet.
+preferences,enable_multiclass_messages_help,,Play warnings when slower or faster class cars are approaching.
+preferences,target_warning_time_for_slower_class_car_help,,Try and warn this many seconds in advance when passing slower class cars.
+preferences,target_warning_time_for_faster_class_car_help,,Try and warn this many seconds in advance when being passed by faster class cars.
+preferences,max_unknown_car_classes_for_assetto_help,,Assume single-class race if there are more than this many unknown car models in Assetto Corsa.
+preferences,iracing_fast_parsing_help,,Use fast parser for iRacing session info. Uncheck only if you experience crashes (and please tell us).
+preferences,crewchief_record_trace_checkbox_help,,Allows a debug trace to be captured which can be inspected by developers to address bugs or new features.
+preferences,trace_race_sessions_only_help,,If recording a debug trace only do it during race sessions (when most of the interesting stuff happens).
+preferences,enable_iracing_pit_stop_commands_help,,"If you do not use iRacing pit stop commands, you may uncheck this.  If unchecked, Crew Chief will exclude iRacing pit stop commands from the command set - may improve recognition accuracy."
+preferences,add_additional_fuel_help,,"Amount of extra fuel to add as a reserve (in laps or fractions of a lap). Only for the legacy algorithm, this will be removed."
+preferences,legacy_fuel_help,,Use the old fuel calculation. This option will be removed at some point.
+preferences,fuel_saving_percentage_help,,"How much fuel do you think you can reasonably save? This is skill dependent and is a percentage of your remaining tank. When asked about the fuel status, the chief will note that we might not get to the end or we may need to fuel save if it falls within this amount."
+preferences,fuel_percentile_help,,A value of 50 will always use the median green flag fuel consumption when estimating fuel use. A value of 100 always uses the max green flag consumption. Can be set to anything in between to find a nice safety margin that works for you personally.
+preferences,fuel_percentile_oval_help,,A value of 50 will always use the median green flag fuel consumption when estimating fuel use. A value of 100 always uses the max green flag consumption. Can be set to anything in between to find a nice safety margin that works for you personally.
+preferences,fuel_reserve_laps_short_help,,Add this many extra laps of fuel for short tracks (less than 1.5 mile / 2.4 km).
+preferences,fuel_reserve_laps_medium_help,,Add this many extra laps of fuel for medium tracks (1.5 to 6.2 miles / 2.4 to 10 km).
+preferences,fuel_reserve_laps_long_help,,Add this many extra laps of fuel for long tracks (more than 6.2 miles / 10 km).
+preferences,fuel_extra_laps_oval_help,,"Add this many extra laps of fuel for ovals in addition to the reserve, to account for potential green / white / chequered scenarios. Set to 0 if you prefer to roll the dice!."
+preferences,fuel_extra_laps_endurance_help,,"Add this many extra laps of fuel for road endurance races (60+ minutes, tracks less than 10km) in addition to the reserve, to account for errors in race length predictions due to unexpected leader pitstops and incidents."
+preferences,fuel_experimental_lap_estimator_multiclass_help,,"When estimating the laps remaining in the race, treat the leader as if their pitstop will be the same length as ours. If this is disabled, we assume they do not stop and therefore we may over-estimate the laps (safer)."
+preferences,iracing_invalidate_cut_track_laps_help,,Uncheck this if you don't want the app to invalidate laps where you cut the track.
+preferences,enable_pit_exit_position_estimates_help,,Play pit exit position estimates.
+preferences,enable_opponent_pit_exit_estimates_help,,Play pit exit position estimates for opponent cars.
+preferences,enable_delayed_messages_on_hardparts_help,,Delays non immediate messages when approaching a corner (initial state).
+preferences,iracing_enable_auto_fuel_to_end_of_race_help,,Enables auto refuelling in iRacing based on fuel calculations done by the app.
+preferences,rf2_enable_auto_fuel_to_end_of_race_help,,Enables auto refuelling in rFactor 2 based on fuel calculations done by the app.
+preferences,rf2_enable_pit_manager_help,,Enables voice commands controlling rF2 pit menu.
+preferences,rf2_enable_auto_clear_tyre_change_help,,Clears rF2 pit menu tyre change at start of race.
+preferences,lmu_enable_auto_fuel_to_end_of_race_help,,Enables auto refuelling in LMU  based on fuel calculations done by the app.
+preferences,lmu_enable_pit_manager_help,,Enables voice commands controlling LMU pit menu.
+preferences,priortise_messages_depending_on_situation_help,,"Disable less important messages when under pressure, on a qualifying lap, etc."
+preferences,trigger_word_for_always_on_sre_help,,"When running 'Trigger word' mode, the app listens for this trigger word before each command."
+preferences,interrupt_setting_listprop_help,,Set which important messages are allowed to interrupt regular messages.
+preferences,tts_setting_listprop_help,,Set how often the app will use text-to-speech to read driver names.
+preferences,naudio_output_interface_listprop_help,,"Select nAudio Output Interface Type.  WaveOut is more compatible, but WASAPI is more responsive/direct playback."
+preferences,naudio_wasapi_latency_help,,"Set WASAPI output latency in milliseconds.  Lower value reduces latency, but increases CPU usage."
+preferences,trigger_word_sre_min_confidence_help,,"When listening for the voice command trigger word, the app must be at least this confident it understood before starting speech recognition (0.0 - 1.0)."
+preferences,trigger_word_sre_min_confidence_system_sre_help,,"When listening for the voice command trigger word, the app must be at least this confident it understood before starting speech recognition (0.0 - 1.0)."
+preferences,trigger_word_listen_timeout_help,,Wait this many milliseconds for a command after receiving the trigger word.
+preferences,enable_alarm_clock_voice_recognition_help,,"Check this if you want to use the alarm clock feature, this is unchecked by default to limit the number of voice commands."
+preferences,alarm_clock_times_help,,"Set the time(s) you want the alarm to go off. Format eg. 5:11PM 5:11AM 17:11, if you want to have more than one alarm separate times with "";"" eg. 5:11PM;5:11AM."
+preferences,disable_behavior_altering_voice_commands_help,,"Disable all voice commands that affect Crew Chief behaviour, for example: ""Spot"", ""Don't spot"", ""Keep quiet"" etc."
+preferences,disable_overlay_voice_commands_help,,"Disable all voice commands that affect Crew Chief overlays, for example: ""Show subtitles"", ""Toggle VR overlays"" etc."
+preferences,slow_class_car_warnings_in_race_only_help,,Only play 'slow car ahead' multiclass warnings in race sessions.
+preferences,record_sound_variety_data_help,,Log the number of times each sound is played and the number of versions of this sound. For sound pack developers.
+preferences,persist_pitstop_benchmark_times_help,,Save benchmark times to Documents folder.
+preferences,use_rf2_wheel_size_for_locking_and_spinning_help,,Use rF2 provided wheel size (instead of car class data) for lock and spin messages calculations.
+preferences,use_lmu_wheel_size_for_locking_and_spinning_help,,Use LMU provided wheel size (instead of car class data) for lock and spin messages calculations.
+preferences,enable_iracing_pit_state_during_fcy_help,,Announce pit state during Safety Car/Pace Car phase.
+preferences,iracing_fcy_formation_use_drivername_help,,Use driver names instead of car number if available during FCY and formation laps.
+preferences,formation_doublefile_variation_help,,"The crew chief will randomly not include car names, numbers or column information."
+preferences,enable_websocket_help,,Send some Crew Chief data over a Websocket.
+preferences,websocket_port_help,,Port to use for Crew Chief specific Websocket data (currently only a radio flag for R3E WebHud).
+preferences,enable_rf2_wrong_way_message_help,,Announce Message Centre 'Wrong Way' message.  Requires DMA enabled in plugin.
+preferences,enable_lmu_wrong_way_message_help,,Announce Message Centre 'Wrong Way' message.  Requires DMA enabled in plugin.
+preferences,enable_game_data_websocket_help,,Send shared memory data to a socket in exactly the same way that 'dash.exe' would.
+preferences,game_data_websocket_port_help,,Port to use for R3E WebHud Websocket data.
+preferences,disable_rf2_race_end_messages_on_abandoned_sessions_help,,Check this if you would like to turn off race end messages for times when you quit Single Player race without finishing it.
+preferences,disable_lmu_race_end_messages_on_abandoned_sessions_help,,Check this if you would like to turn off race end messages for times when you quit Single Player race without finishing it.
+preferences,hold_button_poll_frequency_help,,"Time between checks if ""Talk to Chief"" button is pressed.  The lower the value the higher the CPU usage is."
+preferences,sre_wait_time_help,,Time (milliseconds) to wait until giving up on recognizing the phrase and saying 'I didn't catch that'.
+preferences,prefer_max_consumption_in_fuel_calculations_help,,"Use max per-lap fuel consumption when calculating fuel on all track types. Only for the legacy algorithm, this will be removed."
+preferences,report_fuel_laps_left_in_timed_races_help,,"Report how many laps left in timed races rather than how long it will last. Even if this is unset, fuel will be reported in laps near the end of the stint."
+preferences,naudio_wave_in_sample_rate_help,,"Sample rate for voice recording device (Hz, nAudio only)."
+preferences,naudio_wave_in_channel_count_help,,"Channels (1: mono, 2: stereo) for recording device (nAudio only)."
+preferences,naudio_wave_in_sample_depth_help,,"Sample depth, 8 or 16 bits per sample, for recording device (nAudio only)."
+preferences,allow_important_messages_even_when_silenced_help,,The Chief still gives high priority messages even when you ask him to keep quiet.
+preferences,fcy_stop_spotter_immediately_help,,Turn off spotter on FCY without waiting until you've slowed or start a new lap.
+preferences,enable_blue_flag_messages_help,,Enable blue flag calls.
+preferences,limit_available_games_help,,"Comma separated list of games to show in the Games list (e.g. PCARS2, R3E)."
+preferences,limit_available_games_new_help,,Select games to show in the Games list.
+preferences,enable_radio_beeps_help,,Play a beep before the Chief starts talking.
+preferences,prefer_system_sre_help,,Use Windows' built-in speech recogniser. This requires a better quality voice input signal but can be trained to recognise a user's individual voice.
+preferences,prefer_microsoft_sre_help,,"Use the Microsoft speech recogniser. This is optimised for noisy environments and poor quality sound input. It requires no training and works with a wide range of microphone types and accents, but it requires a separate runtime installation and a language pack."
+preferences,use_free_dictation_for_chat_help,,Use free dictation for chat messages (Windows Speech recogniser only).
+preferences,free_dictation_chat_start_word_help,,Say this word before dictating a chat message.
+preferences,free_dictation_chat_keypress_delay_ms_help,,Delay in mS between key presses sent to in-game chat.
+preferences,max_complaints_per_session_help,,"Prevent the app from complaining too much in long sessions, set to 0 to disable negative messages."
+preferences,enable_on_hold_close_channel_beep_help,,"Play close channel sound on button release in ""Hold button"" speech mode."
+preferences,sre_respond_while_channel_still_open_help,,"Don't wait for the radio channel to be closed before responding to commands (""Hold button"" mode)."
+preferences,enable_breath_in_help,,Occasionally pause for breath when reading messages.
+preferences,enable_overlay_window_help,,Shows a transparent window showing the console output text and/or telemetry charts.
+preferences,iracing_enable_disk_based_telemetry_help,,Enable iRacing disk based telemetry reading for overlay charts.
+preferences,enable_chart_telemetry_in_race_session_help,,Record chart telemetry during races.
+preferences,update_interval_when_collecting_telemetry_help,,Update interval for capturing chart data.
+preferences,make_overlay_app_window_help,,Make the overlay window appear on the taskbar as an app window.
+preferences,delete_iracing_telemetryfile_help,,"Deletes the latest iRacing telemetry file after processing it, helps reducing disk space used for telemetry recordings."
+preferences,enable_automatic_disk_telemetry_recording_help,,Lets Crew Chief handle the starting and stopping of iRacing telemetry recording.
+preferences,enable_shared_memory_help,,Allows other apps to read the current shared memory from Crew Chief.
+preferences,enable_subtitle_overlay_help,,Displays an overlay window with subtitles.
+preferences,force_stereo_help,,Convert messages to stereo before playing (nAudio only).
+preferences,auto_enable_pacenotes_in_practice_help,,Always start with pace note playback enabled in practice where pace notes are available.
+preferences,enable_console_autoscroll_help,,Automatically scroll console while Crew Chief is running.  Can cost a bit of performance if window is not minimized.
+preferences,multi_lap_pace_notes_help,,Record pace notes over more than one lap.
+preferences,pace_notes_mute_all_messages_help,,Mute other messages when pace notes are playing.
+preferences,play_pit_speed_limit_warnings_help,,Play pit speed limit when leaving garage or entering the pitlane.
+preferences,start_steam_vr_if_detected_help,,Starts SteamVR if detected on the system (Needed for VR overlays).
+preferences,enable_vr_overlay_windows_help,,Enables Steam VR overlay windows.
+preferences,vr_overlays_enabled_on_startup_help,,Draw previously enabled Steam VR overlays on Crew Chief startup.
+preferences,r3e_ratings_url_help,,URL to retrieve R3E rating data.
+preferences,watched_opponent_names_help,,Comma separated list of opponent names to report on.
+preferences,show_vr_settings_as_overlay_help,,SteamVR Settings window is always shown as an overlay.  Uncheck if it gets in a way of other windows.
+preferences,codriver_rushed_speed_help,,"Use rushed / urgent calls when above this speed (rally only).  Set to unrealistically high value, e.g. 400km/h to never rush based on speed."
+preferences,codriver_rushed_lookahead_seconds_help,,"Use rushed / urgent calls when there are pace notes to be announced this many seconds away (rally only).  If set to 0, co-driver will only rush based on speed.  The bigger the value, the more likely it is that co-driver will rush."
+preferences,codriver_chained_pacenote_threshold_distance_help,,Combined calls when they're closer together than this many metres (rally only).
+preferences,codriver_lookahead_seconds_help,,Call out corners etc when you're this many seconds away (rally only).
+preferences,enable_controller_pov_switches_help,,Allow controller point-of-view switches to be used for button assignments.
+preferences,block_male_sounds_help,,"Don't play sounds which assume the player and all opponents are male (sounds that include ""he"", ""guy"", ""man"" etc)."
+preferences,enable_watch_car_command_help,,Enable the watched opponent / rivals voice commands.
+preferences,lazy_load_subtitles_help,,"Load subtitles immediately before displaying (improves app startup time, may add additional load at runtime)."
+preferences,show_splash_screen_help,,Show splash screen while the app is launching.
+preferences,enable_gtr2_pit_lane_approach_heuristics_help,,Crew Chief will try to detect if user approaches the pit lane entry and remind him to respect speed limit.  Might not work correctly for all tracks.
+preferences,scroll_bars_on_main_window_help,,Scroll bars if main window is larger than screen.
+preferences,use_dictation_grammar_for_rally_help,,Record pace notes using free dictation grammar (Windows speech recogniser only).
+preferences,dictation_grammar_for_rally_confidence_help,,"When processing stage notes in free dictation mode, the speech recognition engine must be at least this confident it understood before the app responds (0.0 - 1.0)."
+preferences,confirm_recce_pace_notes_help,,Play back the pace note(s) created from each stage notes voice command.
+preferences,minimum_rally_voice_recognition_confidence_microsoft_sre_help,,"When processing voice commands in rally mode, the speech recognition engine must be at least this confident it understood before the app responds (0.0 - 1.0)."
+preferences,minimum_rally_voice_recognition_confidence_system_sre_help,,"When processing voice commands in rally mode, the speech recognition engine must be at least this confident it understood before the app responds (0.0 - 1.0)."
+preferences,dirt_rally_udp_data_port_help,,Dirt Rally network data UDP port (should usually be 20777).
+preferences,dirt_rally_2_udp_data_port_help,,Dirt Rally 2 network data UDP port (should usually be 20777).
+preferences,log_type_spotter_help,,Include spotter messages in the console and log.
+preferences,log_type_sound_help,,Include sound messages in the console and log.
+preferences,log_type_soundDebug_help,,Include sound debug messages in the console and log.
+preferences,log_type_debug_help,,Include debug messages in the console and log.
+preferences,log_type_verbose_help,,Include verbose debug messages in the console and log.
+preferences,log_type_fuel_help,,Include fuel debug messages in the console and log.
+preferences,log_type_tyres_help,,Include tyre trace messages in the console and log.
+preferences,log_type_brakes_help,,Include brakes trace messages in the console and log.
+preferences,log_type_exception_help,,Include exception messages in the console and log.
+preferences,allow_composite_personalisations_help,,Include composite names (using opponent names) in the 'My name' list on the main screen.
+preferences,codriver_dynamic_lookahead_help,,Reduce co-driver look ahead distance when approaching slow corners.
+preferences,codriver_min_space_for_auto_distance_call_help,,Insert auto-generated distance call when the next call is greater than this distance away.
+preferences,include_start_pos_in_dirt_stage_names_help,,Add X and Z coordinates to stage length when constructing folder name for pace notes.
+preferences,save_sre_debug_data_help,,Save SRE audio file and recognised text in voiceRecognitionDebug folder.
+preferences,sre_button_release_delay_help,,Wait this long after releasing the radio button before invoking the speech recogniser.
+preferences,sre_enable_threshold_tuning_help,,Adjust SRE confidence thresholds automatically.
+preferences,enable_rf1_box_sharing_warnings_help,,Use practice pit stop car position data to trigger pit-box-in-use warnings.
+preferences,force_resample_help,,"Change sample rate of message files before playback, set to 0 to disable resampling (nAudio only)."
+preferences,enable_frozen_order_messages_help,,Play formation lap and full course yellow order messages.
+preferences,force_seated_on_vr_view_reset_help,,"Force Seated position reset on Reset VR View.  If unchecked, will respect the current SteamVR tracking mode."
+preferences,speak_only_when_spoken_to_help,,Only play audio in response to commands or requests (spotter messages may still play).
+preferences,just_the_facts_help,,"Play only factual messages - no suggestions, encouragement or complaints."
+preferences,enable_mqtt_telemetry_help,,Enable MQTT telemetry transmission to an MQTT broker.
+preferences,mqtt_topic_drivername_help,,A unique driver name to be inserted into the MQTT topic.
+preferences,use_fuzzy_driver_name_matching_help,,Allow opponent names to be matched to similar sounding recordings.
+preferences,allow_first_names_help,,Allow opponent first names to be used if there is no match for their surname. Note that this is largely incompatible / unreliable / inconsistent with speech recognition which will expect you to use the same name that Jim uses.
+preferences,prefer_first_names_help,,Use opponent first names if they are available before considering surnames. Note that this is largely incompatible / unreliable / inconsistent with speech recognition which will expect you to use the same name that Jim uses.
+preferences,enable_auto_detect_help,,Auto detect running game and start or restart Crew Chief as required.
+preferences,enable_auto_detect_exit_cc_help,,If we have auto detected a game and it exits then exit Crew Chief.
+preferences,enable_volume_control_help,,"Add commands to change the volume of Crew Chief, the game and voice chat (""crew chief""/""game""/""voip"" ""quieter""/""louder""). Crew Chief will remember the volume next time.\\Use File/Open data files folder to open game_volumes.json to set the VOIP process name."
+preferences,enable_audio_ducking_help,,Reduce the game volume while Crew Chief is playing sounds.\\Use File/Open data files folder to open game_volumes.json to set the percentage the volume is reduced.
+preferences,enable_audio_ducking_while_talking_to_cc_help,,Reduce the game volume while talking to Crew Chief.\\Use File/Open data files folder to open game_volumes.json to set the percentage the volume is reduced.
+preferences,save_console_after_each_run_help,,Save the Console log each time Stop is pressed vs. only saving it when Crew Chief exits
+preferences,enable_running_dos_commands_from_command_macros_help,,Run anything you like from a button or a voice command. Example: RF2 race admin runs a program to reverse the grid.
+preferences,revert_to_legacy_version_of_refactored_code_help,,"Newer versions of some modules may be in use, if problems are reported then use the original version."
+preferences,use_legacy_plugin_installer_help,,Use the legacy plugin installer to install the plugins.
+preferences,enable_lmu_rf2_plugin_dll_check_help,,"Check that the Windows DLLs required by the LMU/RF2 plugin are present. (ADVAPI32.dll, MSVCR120.dll, and KERNEL32.dll)"
+preferences,use_legacy_rf2_shared_memory_filenames_help,,Read from the original shared memory filenames\(from rFactor2SharedMemoryMapPlugin64.dll)\rather than the new ones\(from RF2.3.8.SharedMemoryMapPlugin.dll).
+preferences,enable_lmu_rest_api_help,,"LMU's REST API is used to read the car's fuel level, fuel multiplier and damage multiplier. It's also used for setting the pit menu. It is known to cause problems with some LMU installations, so it is disabled by default."
+preferences,save_all_fuel_data_help,,"Save all fuel data to the fuel_data.json file, even if the fuel multiplier is from an unreliable source (you!)."
+preferences,enable_dark_mode_help,,"Enable Dark Mode UI - WARNING: it is not perfect and has problems, especially on Win 10"
+preferences,colloquial_time_help,,e.g. `Half past ten` instead of `10:31` (using TTS as Jim doesn't have the sounds).
+preferences,auto_is_oval_help,,Automatically add the PROBABLE oval/non-oval track type to trackLandmarksData.json for unknown tracks.\If unticked a pop up will prompt you to choose.
+preferences,use_toast_notifications_help,,Use disappearing pop up 'toast' notifications for errors and warnings
+preferences,FIRST_RUN_help,,Run CC's new user process

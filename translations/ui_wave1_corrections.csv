@@ -1,0 +1,41 @@
+original_english,中文
+# 波次 U1（主界面与菜单，120 条）的人工修正。按 original_english 索引，重新翻译后依然生效。
+# 含逗号的英文必须加引号，否则 CSV 会把它拆成三个字段——fix_uitext.py 会直接报错退出。
+# 只放语义错和机器改不动的措辞；能用规则收敛的（开发人员/开发者、CrewChief 加空格）写进
+# fix_uitext.py 的 TERM_FIXES。
+
+# —— 语义错 ——
+# 「等待按钮点击以取消」把两个分句读成了因果关系：原文是「等你按键；想取消就点一下」。
+"Waiting for button, click to cancel",等待按键，点击可取消
+# 「无控制设置」丢了 assigned 的意思，这里说的是这个操作还没绑按键。
+No control assigned,未分配控制器
+# 「记录文件(&R)」把动词 Record 丢了，菜单项变成了名词。
+&Record a trace,录制记录文件(&R)
+# 「切换正赛更新开/关」把 race updates 读成了正赛：指的是比赛中的周期播报。
+Toggle race updates on/off,切换比赛播报开/关
+# Print 是输出到控制台，不是打印机。
+Print track and position info,输出赛道和位置信息
+# PoV 是手柄上的方向帽（DirectInput POV hat），不是视角。英文缩写按既有原则保留。
+PoV,PoV
+
+# —— 上游英文本身就残破，中文按意思补全 ——
+# 英文漏了 downloading，机翻照着译出「错误：个性化称呼名称」。
+"Error personalisations names, check the readme file for instructions on how to manually download and install this.",下载个性化称呼出错，请查阅说明文件了解如何手动下载安装。
+
+# —— 措辞 ——
+# 标题前缀，冒号被模型吃掉了，程序会在后面接配置名。
+Crew Chief - Active Profile:,Crew Chief - 当前配置方案：
+"&Updated Sound Pack available, press to download",有语音包更新，点击下载(&U)
+"An updated sound pack is available, press its button to download it",有语音包更新，点击对应按钮下载
+"Updated dr&iver names available, press to download",有车手名更新，点击下载(&I)
+"Updated personalisations available, press to do&wnload",有个性化称呼更新，点击下载(&W)
+&Start Crew Chief,启动 Crew Chief(&S)
+# 这条是计数后缀，界面上显示成「3 个更新待应用」。
+updates to apply,个更新待应用
+Press and release button,按下并松开按钮
+Listen if not pressed,未按下时监听
+&Send the trace you've just recorded to devs,发送刚录制的记录文件给开发者(&S)
+Report car damage,报告车辆损伤
+
+# —— 机器放弃的一条（重试 3 次都没返回合法 JSON，长句 + URL + 冒号）——
+1) Copy the file path and upload it to Google drive or a (free) file-sharing site like file.io or wetransfer.com 2) write an email with the download link for the file and notes about the problem to the Crew Chief developers using the Crew Chief issues email address:,1) 复制文件路径，上传到 Google Drive 或 file.io、wetransfer.com 这类免费文件分享站 2) 写一封邮件，附上文件下载链接和问题说明，发给 Crew Chief 开发者，地址是：
