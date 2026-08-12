@@ -18,23 +18,27 @@
 | 数字与时间 | `NumberReaderZh` + 138 条数字音频 | ✅ 完成 |
 | 打包分发 | zip 构建脚本 + Releases | ✅ 完成 |
 | 字幕字体 | 覆盖层能否渲染中文 | ⏸ 待 Windows 环境验证（改法已定，改 json 不用编译） |
-| 工程师播报 | 3772 条文案 | ⬜ 未开始（主要工作量） |
+| 工程师播报 | 四波共 5042 条音频 | ✅ 完成 |
 | UI 中文化 | 2222 条 | ⬜ 未开始 |
 | 语音指令 | 30–50 个高频指令 | ⬜ 未开始 |
 
-**必做音频总量：3882 条去重文案 / 5819 个文件 / 约 143 分钟**，机器生成约 3 小时。主要瓶颈是翻译而非生成。
+**已产出 5308 个音频 / 1264 个文件夹 / 323 MB**，六批 `qa_pack.py` 全部异常 0 条。
+人工审校 863 条修正——机翻在赛车术语上不可靠，这部分是真正的瓶颈，机器生成只占几小时。
 
 ---
 
 ## 使用方法
 
-成品在 [Releases](https://github.com/AnthosLan/CrewChief_CN_VoicePack/releases)，单个压缩包 266 条：
+成品在 [Releases](https://github.com/AnthosLan/CrewChief_CN_VoicePack/releases)，单个压缩包 5308 条：
 
 | 目录 | 条数 | 适用 |
 |---|---|---|
-| `voice/spotter/` | 124 | 原版 CrewChief 即可 |
-| `voice/radio_check/` | 4 | 原版 CrewChief 即可 |
+| 工程师播报 29 个分类 | 5042 | 原版 CrewChief 即可 |
+| `voice/spotter/` + `radio_check/` | 128 | 原版 CrewChief 即可 |
 | `voice/numbers/` | 138 | **需要带 `NumberReaderZh` 的自编译版本** |
+
+有意保留英文的：车手名、弯角名、车辆组别号（GT3/LMP2/DTM）、超车辅助（DRS/KERS）。
+中文车手本来就说原名，而且中文 TTS 念拉丁字母不可靠——实测 `GTC` 三个字母能念到 1.73 秒。
 
 装法概要（完整步骤见 [`packaging/INSTALL.txt`](packaging/INSTALL.txt)，它也随压缩包一起分发）：
 
@@ -47,7 +51,8 @@
 ### ⚠️ 两个必须知道的坑
 
 **1. 原版程序装 `numbers/` 会中英混播。** `numbers` 包覆盖了 `numbers/0`–`99`、`point`、`hour` 这些
-英文包已有的文件夹，却没有英文特有的 599 个合成件（`45point6` 这类），圈速会念成「四十五 point six」。
+英文包已有的文件夹，却没有英文特有的 928 个合成件（599 个 `45point6` 这类，外加 `point75`、`1_23` 等），
+圈速会念成「四十五 point six」。
 **用原版 CrewChief 的话，解压后先把 `voice/numbers/` 整个删掉再合并。** 想要中文圈速就得自编译，
 见 [`patches/crewchief-zh-numberreader.diff`](patches/crewchief-zh-numberreader.diff) 与
 [数字与时间朗读设计 §8](docs/数字与时间朗读设计.md)。

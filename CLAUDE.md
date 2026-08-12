@@ -70,6 +70,13 @@ python3 scripts/make_numbers_inventory.py --out translations/numbers_zh.csv
 python3 scripts/make_chief_inventory.py --wave 1 --out translations/chief_wave1.csv
 ```
 
+机翻后处理（术语归一化 → 人工修正 → 数字归一化，三层顺序不能换）。`--corrections` 接受多个文件，
+**把前几波的修正表一起传进去**，同一句英文在各波才会保持同一译法：
+
+```bash
+python3 scripts/fix_translation.py --in translations/chief_wave34_zh.csv --corrections translations/chief_wave1_corrections.csv translations/chief_wave2_corrections.csv translations/chief_wave34_corrections.csv --out translations/chief_wave3_final.csv
+```
+
 打包：
 
 ```bash
@@ -95,6 +102,36 @@ CrewChief 播报逻辑里的标识符，写错这条消息永远不会播。只�
 
 **音频链里重采样必须在归一化之前**（`pilot_mac.py:302`）。带限插值会在瞬态上过冲，反过来会让
 16-bit 写入削波。这是修过的 bug，`qa_pack.py` 的削波检查就是它的回归防线。
+
+**机翻结果不能直接进 TTS。** 波次 1 实测 1452 条改了 404 条，错误集中在三类：反义（`safety car in`
+进站译成「出现」、`gone off` 冲出赛道译成「脱困」）、同一术语多种译法（`spotter` 在一个分类里出现 8 种，
+含「报站」这种公交车用语）、量纲错（`2 tenths` 零点二秒译成「百分之二十」）。通读和脚本扫描各能发现一半，
+两种都要做。修正写进 `translations/chief_wave<N>_corrections.csv`，**按 `original_english` 索引**，
+重新翻译后依然生效。
+
+**修正表里含逗号的英文必须加引号。** 不加的话 CSV 会把它拆成三个字段，第二个字段（英文的后半截）
+被当成中文译文写进语音包。`fix_translation.py` 有字段数校验会直接报错退出，别绕过它。
+
+**单条重跑会毁掉整个文件夹的 `subtitles.csv`。** `pilot_mac.py` 在收尾时按本次跑过的行重写字幕文件，
+所以只重跑 `flags/yellow_flag/6.wav` 会让那个文件夹 9 条音频的字幕只剩 1 行，其余 8 条在覆盖层上什么都不显示
+——而且音频本身是好的，听不出问题，只有对着 CSV 逐条比对才会发现。补救办法是重跑后从最终 CSV 重建全部
+`subtitles.csv`，并校验「每个 wav 都有字幕且文本一致」。
+
+**英文缩写和专有编号为主体的播报，整个文件夹不做，回落英文原音。** 语音包是覆盖在英文包的副本上的，
+不发的文件夹自动播原来的英文，所以「不做」是一个可用的选项，不是缺失。
+
+已确认属于这一类：车手名、弯角名、车辆组别号（GT3 / GT300 / LMP2 / DTM / Carrera Cup）、
+组别编号（Group A / Group C / Group 5）、超车辅助（`overtaking_aids` 整个分类，全是 DRS / KERS /
+push-to-pass）。共 60 个文件夹 / 202 条音频。
+
+两个理由。一是中文车手本来就说英文；二是**中文 TTS 念拉丁字母不可靠**，这一点上连续栽过五次：
+`bar` 和 `PSI` 被 QA 判异常、`GTC` 三个字母念到 1.73 秒、`DTM赛车` 截断到 0.21 秒、`DRS` 在句子里
+只占 0.25 秒（三个字母名至少要 0.5 秒）。`--attempts 8` 重跑无效——这是稳定行为不是随机抖动。
+
+排除规则写在 `make_chief_inventory.py` 的 `SKIP_EXACT` 和 `DROP_CLASS_PATTERN` 里，重新切语料会自动生效。
+
+**拉丁字母和汉字之间不能留空格。** XTTS 会在空格处断句并吞掉后半段：`DRS 不再可用` 只有 0.49 秒，
+比四个汉字单独念还短；`GT4 车` 截断到 0.22 秒。`fix_translation.py` 的 `TERM_FIXES` 里有一条全局去空格规则。
 
 **短句要多候选。** 一两个汉字是 XTTS 最不稳的地方（补幻觉音、音节念两遍）。两道防线只对短句生效：
 `--artifact_trim_max_syllables`（默认 4）裁掉长间隙后的尾巴，`--attempts` 取最短的合格候选。
