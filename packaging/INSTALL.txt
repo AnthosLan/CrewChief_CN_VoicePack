@@ -1,7 +1,18 @@
-CrewChief 中文语音包 v0.2.0
-============================
+CrewChief 中文语音包 v1.0.0 Beta
+================================
 
-内容：5308 条中文语音，覆盖车队工程师与 spotter 的全部常用播报。
+内容：
+  5308 条中文语音   —— 车队工程师与 spotter 的全部常用播报
+  1305 条界面文案   —— 主界面、菜单、全部设置项与帮助文本
+    45 条语音指令   —— 用中文向工程师提问
+
+为什么标 Beta：全部内容都过了自动体检（音频的时长/削波/字幕、文案的折行/占位符/快捷键），
+但制作是在 Mac 上完成的，没人在 Windows 上真正听过、看过。功能是完整的，
+用起来发现译文别扭或者哪里不对，欢迎去项目主页提 issue。
+
+
+语音分类明细
+============
 
   轮胎 tyre_monitor         583   进站 mandatory_pit_stops  528
   罚则 penalties            473   旗语 flags                451
@@ -38,10 +49,13 @@ DRS 在句子里只占 0.25 秒（三个字母名至少要 0.5 秒）。与其�
       只有圈速、差距里的数字仍是英文。
 
   用法 B —— 自己编译的 CrewChief
-      全部装上，数字也说中文。需要你有 Windows 开发环境。
+      全部装上，数字也说中文，「几点了」也按中文语序播报。
+      需要你有 Windows 开发环境。
 
 两种装法的区别只在第 3、5、6 步。用法 A 已经能拿到 5170 条中文播报，
-用法 B 多出来的是 numbers 那 138 条。
+用法 B 多出来的是 numbers 那 138 条加上中文钟点语序。
+
+界面文案和语音指令跟这两种装法无关，A 和 B 都能装，见后面两节。
 
 
 ⚠ 为什么原版程序不能装 numbers
@@ -194,12 +208,18 @@ CrewChief 生效，不需要重新编译程序。
 用法 B 需要的程序改动
 =====================
 
-源码改动在项目仓库：
+源码改动在项目仓库，一个新文件加四处小改：
 
-    CrewChiefV4/NumberReaderZh.cs                        （新增，294 行）
-    CrewChiefV4/NumberProcessing/NumberReaderFactory.cs  （+7 行）
-    CrewChiefV4/CrewChiefV4.csproj                       （+1 行）
+    CrewChiefV4/NumberReaderZh.cs                        （新增）
+    CrewChiefV4/NumberProcessing/NumberReaderFactory.cs  （加 zh 分支）
+    CrewChiefV4/CrewChiefV4.csproj                       （编译新文件）
+    CrewChiefV4/Events/CommonActions.cs                  （钟点按中文语序拼）
+    CrewChiefV4/ColloquialTime.cs                        （中文口语时间表）
 
+后两处是「现在几点」的播报。不打这个补丁的话，中文包会把 8:05 念成
+「八 零 五 上午」——片段是对的，语序是英文的。打上之后是「上午八点零五分」。
+
+补丁文件：patches/crewchief-zh-numberreader.diff
 需要 Windows + Visual Studio / msbuild 自行编译，配置选 Release | x86。
 
 启动后日志里应该出现：
@@ -212,19 +232,38 @@ CrewChief 生效，不需要重新编译程序。
 验证
 ====
 
+语音：
+
 - 启动时的无线电测试是中文
 - 进游戏后有车贴近时的盲区提醒是中文
 - 工程师播报是中文：旗语、圈数、燃油、轮胎、罚则、进站……
 - 车手名、弯角名、GT3 这类组别号仍是英文 —— 正常，见前面「哪些保留英文」
 - 用法 A：圈速里的数字仍是英文（「你的圈速是 one twenty-three point four」）
 - 用法 B 额外：数字也是中文（「你的圈速是一分二十三秒四」）
+- 用法 B 额外：问「现在几点」念「上午八点零五分」，不是「八 零 五 上午」
+
+界面（装了 ui_text.txt 才有）：
+
+- 主界面按钮、菜单栏是中文
+- 属性页里设置项名称和帮助文本是中文
+- 有一类设置项的值仍是 UI_STARTUP_AND_PATHS 这种全大写英文 —— 正常，那是程序内部标识符
+
+语音指令（装了 speech_recognition_override.txt 且装了中文识别引擎才有）：
+
+- 按住语音键说「车损报告」「我第几」「胎压多少」能被正确识别
 
 
 卸载
 ====
 
-把属性页里的 Override default Sound Pack location 清空，重启即可。
-用法 B 还要把 sound_pack_language.txt 改回 en 或删掉。
+语音：把属性页里的 Override default Sound Pack location 清空，重启即可。
+      用法 B 还要把 sound_pack_language.txt 改回 en 或删掉。
+
+界面：删掉 %LOCALAPPDATA%\CrewChiefV4\ui_text.txt，重启。
+
+语音指令：删掉 我的文档\CrewChiefV4\speech_recognition_override.txt，重启。
+
+三样互相独立，可以只卸其中一样。
 
 
 关于自动更新
@@ -262,6 +301,8 @@ CrewChief 生效，不需要重新编译程序。
   语速     1.45x，实测约 188 毫秒/音节
   后处理   radio EQ 曲线
   术语     3 wide → 三辆并排，clear → 安全，inside/outside → 内线/外线
+  翻译     本地 LLM 批量翻译 + 人工逐条审校，共改了 946 条
+           （机翻在赛车术语上不可靠，这部分是真正的工作量，机器生成只占几小时）
 
 
 授权

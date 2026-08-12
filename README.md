@@ -7,40 +7,51 @@
 
 ---
 
-## 当前状态
+## 当前状态：v1.0.0 Beta
 
-| 阶段 | 内容 | 状态 |
+**制作内容全部完成，等 Windows 上人工验收。**
+
+| 内容 | 量 | 状态 |
 |---|---|---|
-| 技术验证 | XTTS v2 中文生成链路跑通，参数定稿 | ✅ 完成 |
-| Spotter | 124 条翻译 + 生成 | ✅ 完成 |
-| radio_check | 4 条 | ✅ 完成 |
-| 装包实测 | AC 中验证无线电测试与盲区提醒 | ✅ 通过 |
-| 数字与时间 | `NumberReaderZh` + 138 条数字音频 | ✅ 完成 |
-| 打包分发 | zip 构建脚本 + Releases | ✅ 完成 |
-| 字幕字体 | 覆盖层能否渲染中文 | ⏸ 待 Windows 环境验证（改法已定，改 json 不用编译） |
-| 工程师播报 | 四波共 5042 条音频 | ✅ 完成 |
-| 听测 | 5042 条工程师语音在 AC 里抽听 | ⏸ 待 Windows 环境（第三阶段第一件事） |
-| UI 中文化 | 1305 条（另 913 条是标识符不译） | ✅ 完成，四波 83 条人工修正 |
-| 时间播报语序 | `reportCurrentTime()` + `ColloquialTime` 中文表 | ✅ 代码已写，⏸ 待 Windows 编译验证 |
-| 语音指令 | 45 条高频指令 | ✅ 文件已写，⏸ 待 Windows 装引擎实测 |
+| Spotter + radio_check | 128 条音频 | ✅ |
+| 工程师播报 | 四波 5042 条音频 | ✅ |
+| 数字与时间 | `NumberReaderZh` + 138 条音频 | ✅ |
+| 界面中文化 | 1305 条（另 913 条是标识符，**故意不译**） | ✅ |
+| 时间播报语序 | `GetTimeOfDaySounds` + `ColloquialTime` 中文表 | ✅ 代码已写 |
+| 中文语音指令 | 45 条 | ✅ |
+| 打包分发 | zip 构建脚本 + Releases | ✅ |
 
-**已产出 5308 个音频 / 1264 个文件夹 / 323 MB**，六批 `qa_pack.py` 全部异常 0 条。
-人工审校 863 条修正——机翻在赛车术语上不可靠，这部分是真正的瓶颈，机器生成只占几小时。
+**产出 5308 个音频 / 1264 个文件夹 / 323 MB + 1305 条界面文案。**
+六批 `qa_pack.py` 异常 0 条，`qa_uitext.py` 异常 0 条，54 个数字朗读用例全过。
+人工审校共 946 条修正（播报 863 + 界面 83）——机翻不可靠，这是真正的瓶颈，机器生成只占几小时。
+
+### 为什么是 Beta
+
+脚本体检有一条天花板：**能证明「格式对」，证明不了「说得通」**。
+5308 条语音没在比赛里听过，1305 条界面文案没在程序里看过，34 条 C# 单元测试从未真跑过——
+这些都要 Windows，而制作是在 Mac 上做的。
+
+转正式版的条件是 [**Windows 验收清单**](docs/Windows验收清单.md) 的 7 项全部走完。
 
 ---
 
 ## 使用方法
 
-成品在 [Releases](https://github.com/AnthosLan/CrewChief_CN_VoicePack/releases)，单个压缩包 5308 条：
+成品在 [Releases](https://github.com/AnthosLan/CrewChief_CN_VoicePack/releases)，一个压缩包装齐四样：
 
-| 目录 | 条数 | 适用 |
+| 内容 | 量 | 适用 |
 |---|---|---|
-| 工程师播报 29 个分类 | 5042 | 原版 CrewChief 即可 |
-| `voice/spotter/` + `radio_check/` | 128 | 原版 CrewChief 即可 |
-| `voice/numbers/` | 138 | **需要带 `NumberReaderZh` 的自编译版本** |
+| 工程师播报 29 个分类 | 5042 条音频 | 原版 CrewChief 即可 |
+| `voice/spotter/` + `radio_check/` | 128 条音频 | 原版 CrewChief 即可 |
+| `ui_text_zh.txt` 界面文案 | 1305 条 | 原版 CrewChief 即可 |
+| `speech_recognition_override.txt` 语音指令 | 45 条 | 原版即可，但要另装 zh-CN 识别引擎 |
+| `voice/numbers/` | 138 条音频 | **需要带 `NumberReaderZh` 的自编译版本** |
 
 有意保留英文的：车手名、弯角名、车辆组别号（GT3/LMP2/DTM）、超车辅助（DRS/KERS）。
 中文车手本来就说原名，而且中文 TTS 念拉丁字母不可靠——实测 `GTC` 三个字母能念到 1.73 秒。
+
+界面文案里另有 913 条**故意不译**：它们的值是 `UI_STARTUP_AND_PATHS`、`RESTART_REQUIRED`
+这类程序内部标识符，译了会让设置项从分组里消失、或让游戏过滤失效。
 
 装法概要（完整步骤见 [`packaging/INSTALL.txt`](packaging/INSTALL.txt)，它也随压缩包一起分发）：
 
@@ -122,6 +133,7 @@ dist/            打包产物（不入库）
 |---|---|
 | [制作方案](docs/中文语音包制作方案.md) | **流程与参数**：工作量分解、定稿参数、翻译方案、语料 CSV 格式、术语表、环境搭建、命令速查 |
 | [踩坑与经验总结](docs/踩坑与经验总结.md) | **为什么这么做、哪里会翻车**：被否决的方案、XTTS 中文的脾气、机翻错误类型、装包陷阱、风险登记 |
+| [**Windows 验收清单**](docs/Windows验收清单.md) | **Beta 转正式版的门槛**：7 项验收，逐条写了操作步骤、判据、发现问题怎么回修 |
 | [许可与分发](docs/许可与分发.md) | CPML 的三个硬条件、baseline 音色的第二层条款、商用替代路线 |
 | [数字与时间朗读设计](docs/数字与时间朗读设计.md) | `NumberReaderZh` 的拆分规则、为什么中文只要 138 个文件夹、接入 CrewChief 的方式 |
 | [INSTALL.txt](packaging/INSTALL.txt) | 随 Release 分发的最终用户安装说明 |

@@ -32,3 +32,4 @@ Thumbs.db
 # Claude Code 的本地会话配置 —— 里面是本机绝对路径，不该进库。
 # 作用是让从本库启动的会话自动能读写另外两个仓库（见 CLAUDE.md「三仓库布局」）。
 .claude/settings.local.json
+CLAUDE.md

@@ -14,7 +14,7 @@
 # 用法：packaging/build_release.sh [版本号]
 set -euo pipefail
 
-VERSION="${1:-v0.1.0}"
+VERSION="${1:-v1.0.0-beta}"
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 DIST="$ROOT/dist"
 ZIP="$DIST/crewchief-zh-voicepack-$VERSION.zip"
