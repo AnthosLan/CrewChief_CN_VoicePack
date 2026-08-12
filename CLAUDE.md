@@ -7,9 +7,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 给 CrewChief（赛车模拟的 AI 车队工程师）做中文语音包的**制作工程**——语料 CSV、生成脚本、对上游的补丁。
 不是一个应用：没有构建系统、没有测试框架、没有 requirements.txt。产物是音频文件，打成 zip 挂 Releases。
 
-权威文档两份，改了行为必须同步更新：
+权威文档四份，改了行为必须同步更新。**流程写进方案，教训写进经验总结，别混**：
 
-- [docs/中文语音包制作方案.md](docs/中文语音包制作方案.md) —— 总方案、工作量分解、定稿参数、装包陷阱、命令速查（§12）
+- [docs/中文语音包制作方案.md](docs/中文语音包制作方案.md) —— 流程与参数：工作量分解、定稿参数、翻译方案、环境搭建、命令速查（§11）
+- [docs/踩坑与经验总结.md](docs/踩坑与经验总结.md) —— 实测结论、失败教训、注意事项、风险登记
+- [docs/许可与分发.md](docs/许可与分发.md) —— CPML 三个硬条件、ElevenLabs 那层、商用替代
 - [docs/数字与时间朗读设计.md](docs/数字与时间朗读设计.md) —— `NumberReaderZh` 的拆分规则与取舍
 
 ## 三仓库布局
@@ -27,7 +29,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 唯一留档。
 
 Python 依赖装在 autovoicepack 的 venv 里（本库不放二进制依赖）。四个版本约束都是踩坑钉死的，
-别放宽——`transformers>=4.57,<5`、`torch<2.9`、`torchaudio<2.9`、外加 `jieba`/`pypinyin`。原因见方案文档 §10。
+别放宽——`transformers>=4.57,<5`、`torch<2.9`、`torchaudio<2.9`、外加 `jieba`/`pypinyin`。原因见[踩坑与经验总结](docs/踩坑与经验总结.md) §6。
 
 ## 常用命令
 
@@ -143,7 +145,7 @@ push-to-pass）。共 60 个文件夹 / 202 条音频。
 
 **装包不要放 `alt/`。** 用非默认工程师语音包时，CrewChief 强制从基础包读 `spotter*` 和 `radio_check*`
 （`Audio/Sounds.cs:1147`），照 autovoicepack README 的装法会得到「工程师中文、spotter 永远英文」。
-正确装法是整包替换 + `override_default_sound_pack_location`，见方案文档 §7 和 packaging/INSTALL.txt。
+正确装法是整包替换 + `override_default_sound_pack_location`，见方案文档 §7 和 packaging/INSTALL.txt，陷阱机制见踩坑与经验总结 §5。
 
 ## 版本控制约定
 
@@ -178,5 +180,6 @@ audio_path,audio_filename,subtitle,text_for_tts,original_english
 
 ## 许可
 
-XTTS v2 是 **Coqui CPML，非商用**。个人使用没问题，公开分发前需确认。若要商用，本方案的语料、
-目录结构、后处理链都可复用，只需替换 TTS 引擎。
+XTTS v2 是 **Coqui CPML，非商用**，且 CPML 管的是模型**及其输出**——开源发布并不解除约束。
+免费开源分发本身可以，但要随包附 `packaging/CPML.txt`、音频不能改成 MIT、下游不能商用。
+另有 ElevenLabs 那层容易漏掉。三条件与依据见 [docs/许可与分发.md](docs/许可与分发.md)，改打包脚本时别把 CPML.txt 弄丢。
