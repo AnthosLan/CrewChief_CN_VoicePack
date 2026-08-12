@@ -61,8 +61,8 @@
 
 ## 安装
 
-**完整步骤见 [`packaging/INSTALL.html`](packaging/INSTALL.html)**（浏览器打开，带目录和分步说明），
-或纯文本版 [`packaging/INSTALL.txt`](packaging/INSTALL.txt)。两份都随压缩包一起分发。
+**完整步骤见 [`INSTALL.html`](packaging/INSTALL.html)**（浏览器打开，带目录和分步说明），
+或纯文本版 [`INSTALL.txt`](packaging/INSTALL.txt)。两份都随压缩包一起分发。
 
 下载：[**Releases**](https://github.com/AnthosLan/CrewChief_CN_VoicePack/releases) → `crewchief-zh-voicepack-*.zip`（约 290 MB）
 
