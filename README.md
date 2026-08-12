@@ -19,8 +19,10 @@
 | 打包分发 | zip 构建脚本 + Releases | ✅ 完成 |
 | 字幕字体 | 覆盖层能否渲染中文 | ⏸ 待 Windows 环境验证（改法已定，改 json 不用编译） |
 | 工程师播报 | 四波共 5042 条音频 | ✅ 完成 |
-| UI 中文化 | 2222 条 | ⬜ 未开始 |
-| 语音指令 | 30–50 个高频指令 | ⬜ 未开始 |
+| 听测 | 5042 条工程师语音在 AC 里抽听 | ⏸ 待 Windows 环境（第三阶段第一件事） |
+| UI 中文化 | 1305 条（另 913 条是标识符不译） | ✅ 完成，四波 83 条人工修正 |
+| 时间播报语序 | `reportCurrentTime()` + `ColloquialTime` 中文表 | ✅ 代码已写，⏸ 待 Windows 编译验证 |
+| 语音指令 | 45 条高频指令 | ✅ 文件已写，⏸ 待 Windows 装引擎实测 |
 
 **已产出 5308 个音频 / 1264 个文件夹 / 323 MB**，六批 `qa_pack.py` 全部异常 0 条。
 人工审校 863 条修正——机翻在赛车术语上不可靠，这部分是真正的瓶颈，机器生成只占几小时。
@@ -89,7 +91,7 @@
 | `torchaudio` | `<2.9` | 同上；重采样与 EQ 也用它 |
 | `jieba`、`pypinyin` | — | XTTS `zh-cn` 分支的中文 g2p 依赖，缺了报错 |
 
-**四个版本约束都是踩坑钉死的，别放宽**，逐条原因见[踩坑与经验总结 §6](docs/踩坑与经验总结.md)。
+**四个版本约束都是踩坑钉死的，别放宽**，逐条原因见[踩坑与经验总结 §7](docs/踩坑与经验总结.md)。
 生成脚本本身只依赖 `torch` / `torchaudio` 加标准库；`qa_pack.py` 和 `make_numbers_inventory.py` 纯标准库。
 
 | 其他 | 说明 |
@@ -107,7 +109,7 @@ docs/            方案与设计文档
 translations/    翻译语料 CSV  ← 核心资产
 baseline/Bart/   音色参考音频（12 条 / 38.9s，必须入库才能复现）
 scripts/         生成、体检、语料构建脚本
-src/             对 CrewChief 的 C# 新增（NumberReaderZh）
+src/             对 CrewChief 的新增（NumberReaderZh.cs、ui_text_zh.txt）
 patches/         对 autovoicepack 和 CrewChief 的改动留档
 packaging/       安装说明 + CPML 原文 + Releases 打包脚本
 output/          生成产物（不入库）

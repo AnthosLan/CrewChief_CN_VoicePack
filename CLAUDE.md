@@ -29,7 +29,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 唯一留档。
 
 Python 依赖装在 autovoicepack 的 venv 里（本库不放二进制依赖）。四个版本约束都是踩坑钉死的，
-别放宽——`transformers>=4.57,<5`、`torch<2.9`、`torchaudio<2.9`、外加 `jieba`/`pypinyin`。原因见[踩坑与经验总结](docs/踩坑与经验总结.md) §6。
+别放宽——`transformers>=4.57,<5`、`torch<2.9`、`torchaudio<2.9`、外加 `jieba`/`pypinyin`。原因见[踩坑与经验总结](docs/踩坑与经验总结.md) §7。
 
 ## 常用命令
 
@@ -77,6 +77,17 @@ python3 scripts/make_chief_inventory.py --wave 1 --out translations/chief_wave1.
 
 ```bash
 python3 scripts/fix_translation.py --in translations/chief_wave34_zh.csv --corrections translations/chief_wave1_corrections.csv translations/chief_wave2_corrections.csv translations/chief_wave34_corrections.csv --out translations/chief_wave3_final.csv
+```
+
+UI 中文化（第三阶段，四个脚本自成一条链，和音频那条不共用翻译脚本——原因见方案文档 §9）：
+
+```bash
+python3 scripts/make_uitext_inventory.py --list_waves
+python3 scripts/make_uitext_inventory.py --wave 1 --out translations/ui_wave1.csv
+python3 scripts/translate_uitext.py --in translations/ui_wave1.csv --out translations/ui_wave1_zh.csv --glossary_file translations/glossary_ui_zh.txt
+python3 scripts/fix_uitext.py --in translations/ui_wave1_zh.csv --corrections translations/ui_wave1_corrections.csv --out translations/ui_wave1_final.csv
+python3 scripts/qa_uitext.py --csv translations/ui_wave1_final.csv
+python3 scripts/make_uitext_inventory.py --to_txt translations/ui_wave*_final.csv --out src/ui_text_zh.txt
 ```
 
 打包：
@@ -146,6 +157,25 @@ push-to-pass）。共 60 个文件夹 / 202 条音频。
 **装包不要放 `alt/`。** 用非默认工程师语音包时，CrewChief 强制从基础包读 `spotter*` 和 `radio_check*`
 （`Audio/Sounds.cs:1147`），照 autovoicepack README 的装法会得到「工程师中文、spotter 永远英文」。
 正确装法是整包替换 + `override_default_sound_pack_location`，见方案文档 §7 和 packaging/INSTALL.txt，陷阱机制见踩坑与经验总结 §5。
+
+**UI 帮助文本每段不能超过 44 字。** CrewChief 的 `NewlinesInLongString`（`Utilities.cs:672`）
+按空格折行，找不到空格就在第 44 字硬切，然后 `Substring(splitIndex + 1)` 跳过一个字符——
+英文跳的是空格，**中文跳的是一个汉字**。469 条 `_help`/`_tooltip` 里 423 条会中招，
+界面上看不出来，只是句子读着别扭。译的时候插显式换行符 `\`（en.txt 支持的标记），
+`qa_uitext.py` 会拦。机制见踩坑与经验总结 §6.1。
+
+**en.txt 里 913 条是标识符不是文案。** `_category`（457，解析成 `PropertyCategory` 枚举）、
+`_filter`（230，解析成 `GameEnum`）、`_metadata`（222，和 `"RESTART_REQUIRED"` 精确比较）——
+这三种译了会**静默**破坏属性分组、游戏过滤和重启提示；`_listprop_type`（4）喂给
+`Type.GetType(name, throwOnError: true)`，译了**直接抛异常**。
+
+这是 UI 版的「文件夹名不能翻译」，占 2218 条的 41%，剔掉后真实工作量是 1305 条。
+规则在 `make_uitext_inventory.py` 的 `INVARIANT_SUFFIXES`，`qa_uitext.py` 会拦。
+反过来 `_exe`/`_params`/`_port`/`_path` 看着像机器值，其实是标签，**要译**。详见踩坑与经验总结 §6.4。
+
+**UI 文案和语音文案的两条规则是相反的。** 音频那边数字要转成汉字、拉丁与汉字之间必须去空格
+（XTTS 会断句吞字）；UI 这边数字必须保持阿拉伯数字（`0 to disable` 是用户要填进设置框的值）、
+拉丁与汉字之间要**加**空格（屏幕排版）。所以 `fix_uitext.py` 不是 `fix_translation.py` 的复用。
 
 ## 版本控制约定
 
