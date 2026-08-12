@@ -11,6 +11,7 @@ Usage:
 """
 
 import argparse
+import re
 import csv
 import os
 import statistics
@@ -27,9 +28,29 @@ MIN_MS_PER_SYLLABLE = 90
 MAX_MS_PER_SYLLABLE = 420
 
 
+# Latin letters spoken in Mandarin take a full syllable each, and some take two: M is 艾姆,
+# W is 打不liu. Counting them as zero made every phrase holding an acronym look far too slow --
+# 'D级执照' was flagged at 440ms/syllable when it is really about 290.
+LETTER_SYLLABLES = {"w": 3, "m": 2, "n": 2, "x": 2, "f": 2, "l": 2, "s": 2,
+                    "h": 2, "r": 2, "j": 2, "q": 2, "y": 2, "z": 2}
+
+
 def syllable_count(text):
-    """Han characters are one syllable each; everything else is ignored."""
-    return sum(1 for ch in text if "一" <= ch <= "鿿") or 1
+    """
+    Han characters are one syllable each. Latin runs are trickier: XTTS speaks an acronym like
+    KERS as one word rather than spelling it out -- measured at 0.30s against a 0.55s control,
+    where letter-by-letter would need roughly twice that. Counting each letter separately made
+    every DRS/KERS phrase look truncated when the audio was fine, so a run of letters counts as
+    two syllables regardless of length.
+    """
+    total = 0
+    for run in re.findall(r"[A-Za-z]+|[0-9]|[一-鿿]", text):
+        if run.isalpha() and run.isascii():
+            # A lone letter is one syllable (B is 逼); an acronym is spoken as a word, so two.
+            total += 1 if len(run) == 1 else 2
+        else:
+            total += 1
+    return total or 1
 
 
 def main():

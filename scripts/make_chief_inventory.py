@@ -20,6 +20,7 @@ Usage:
 import argparse
 import csv
 import os
+import re
 import sys
 
 DEFAULT_VOICE_DIR = os.path.expanduser(
@@ -31,7 +32,7 @@ WAVES = {
     2: ["tyre_monitor", "penalties", "damage_reporting", "conditions", "opponents",
         "push_now", "race_time"],
     3: ["mandatory_pit_stops", "multiclass", "battery", "frozen_order", "watched_opponents",
-        "strategy", "overtaking_aids", "driver_swaps", "engine_monitor"],
+        "strategy", "driver_swaps", "engine_monitor"],
     4: ["pearls_of_wisdom", "rants", "incidents", "alarm_clock", "licence", "rejoining"],
 }
 
@@ -83,11 +84,33 @@ DROP = {
     "rejoining/rejoin_wait": "同上",
 }
 
+# Stock car procedures. Every one of these hangs off GameStateData.StockCarRulesData, which only
+# iRacingGameStateMapper and RF2GameStateMapper ever populate -- both AC mappers (ACS/, ACS128/)
+# reference it zero times, so none of it can fire in AC. 20 folders / 89 audio files.
+#
+# Not in DROP: flags/fc_yellow_pits_* looks American but is chosen by
+# GlobalBehaviourSettings.useAmericanTerms, a user preference, and does fire in AC.
+#
+# Dropping is safe even if this reasoning is ever wrong: the pack overlays a copy of the English
+# pack, so a folder we don't ship keeps playing its original English audio rather than going silent.
+DROP_OVAL_PATTERN = "lucky_dog|wave_around|waved_around|pace_car|tri-oval|move_to_choose_lane"
+
+# Car class designations (GT3, GT300, LMP2, DTM, Group C...) keep the original English audio, for
+# the same reason driver names and corner names do: Chinese drivers say them in English anyway.
+# There is also a practical reason -- XTTS reading Latin acronyms through its Chinese frontend is
+# unreliable. 'GTC' came out at 1.7s for three letters, and 'DTM赛车' truncated to 0.21s.
+# 34 folders / 103 audio files. Not shipping them leaves the English original in place.
+DROP_CLASS_PATTERN = ("^(gt\\d*|gtc|gte|gtlm|gto|gtp|lmdh|lmp\\d|tc\\d|dtm|carrera_cup"
+                      "|group\\d|group[abc])(_runners|_cars|_class_cars)?$")
+
 # Already shipped in v0.1.0.
 DONE = ["spotter", "radio_check", "numbers"]
 
 # Deliberately skipped -- reasons in docs/中文语音包制作方案.md §3.2.
-SKIP_EXACT = ["corners", "pace_notes"]
+# overtaking_aids is DRS / KERS / push-to-pass -- English acronyms end to end. XTTS reading them
+# through its Chinese frontend gave DRS only 0.25s inside a sentence, less than three letter names
+# need. Same call as the car classes: leave the English original in place.
+SKIP_EXACT = ["corners", "pace_notes", "overtaking_aids"]
 SKIP_PREFIX = ["spotter_", "radio_check_", "codriver"]
 
 
@@ -137,7 +160,8 @@ def gather(voice_dir, wanted_categories, manual=False):
             if not os.path.isdir(folder_dir):
                 continue
             key = "%s/%s" % (category, folder)
-            if key in DROP:
+            if key in DROP or re.search(DROP_OVAL_PATTERN, folder) \
+                    or (category == "multiclass" and re.match(DROP_CLASS_PATTERN, folder.lower())):
                 continue
             wavs = sorted(f for f in os.listdir(folder_dir) if f.endswith(".wav"))
             if not wavs:
