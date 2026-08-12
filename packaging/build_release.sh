@@ -60,8 +60,17 @@ pathlib.Path(sys.argv[2]).write_bytes((b'\xef\xbb\xbf' if sys.argv[3] == 'bom' e
 to_crlf "$ROOT/packaging/INSTALL.txt" "$stage/INSTALL.txt" bom
 to_crlf "$ROOT/packaging/CPML.txt"    "$stage/CPML.txt"    nobom
 
+# 界面文案与语音指令：纯文本，装在用户目录下，原版程序即可用（不需要自编译）。
+# 同样转成 CRLF + BOM —— 用户会用记事本打开看内容。
+extras=()
+for f in ui_text_zh.txt speech_recognition_override.txt; do
+  [[ -f "$ROOT/src/$f" ]] || { echo "缺 src/$f" >&2; exit 1; }
+  to_crlf "$ROOT/src/$f" "$stage/$f" bom
+  extras+=("$f")
+done
+
 find "$stage" -name '.DS_Store' -delete
-( cd "$stage" && zip -r -X -q "$ZIP" voice INSTALL.txt CPML.txt )
+( cd "$stage" && zip -r -X -q "$ZIP" voice INSTALL.txt CPML.txt "${extras[@]}" )
 rm -rf "$stage"
 
 echo "  $(basename "$ZIP")  $(du -h "$ZIP" | cut -f1)"
