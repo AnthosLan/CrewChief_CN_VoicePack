@@ -1,0 +1,161 @@
+# 界面术语表，注入 translate_uitext.py 的 prompt（--glossary_file）。
+# 一行一条 'english = 中文'，# 开头的行和空行会被过滤掉，不进 prompt。
+#
+# 和 glossary_zh.txt 分开放：那份是电台播报的赛车口语（'3 wide → 三辆并排'），
+# 对设置界面没用，一起注入只会稀释这边的条目。共有的术语在两边各写一份，
+# 以这边为准的只有界面用词。
+#
+# 收录标准同 glossary_zh.txt：只放模型会稳定译错的。试跑 5 条就撞上三个——
+# Sound Pack 出「声音包」、driver names 出「驾驶员名称」、is up to date 出「已更新至最新」。
+
+# —— 游戏缩写：原样保留，绝对不要展开 ——
+# 属性列表里 'ACS install path' 和 'ACC install path' 是相邻的两行，用户就是靠缩写认出
+# 自己那个游戏的。展开以后 rF1 和 rF2 双双变成「rFactor 安装路径」，两个设置项无法区分。
+ACS = ACS（不要展开成 Assetto Corsa）
+ACE = ACE（不要展开）
+ACC = ACC（不要展开成 Assetto Corsa Competizione）
+AC EVO = AC EVO（不要展开）
+rF1 = rF1（不要展开成 rFactor）
+rF2 = rF2（不要展开成 rFactor）
+RBR = RBR（不要展开成 Richard Burns Rally）
+AMS = AMS（不要展开）
+AMS2 = AMS2（不要展开）
+ASR = ASR（不要展开）
+LMU = LMU（不要展开成 Le Mans Ultimate）
+GSC = GSC（不要展开）
+pCARS = pCARS（不要展开成 Project CARS）
+GTR 2 = GTR 2
+R3E = R3E（不要展开）
+DRS = DRS
+KERS = KERS
+push to pass = push-to-pass（和 DRS 一样保留英文）
+
+# —— 产品与专有名词，保持英文 ——
+# 界面里的 'Crew Chief' 几乎总是指这个程序本身（出现 119 次），不是车队里那个角色。
+# 曾经同时收录 'crew chief = 车队工程师'，模型就把窗口标题译成了「车队工程师 - 当前配置方案」。
+Crew Chief = Crew Chief（这是程序名，原样保留，不要译成车队工程师）
+CrewChief = CrewChief（这是程序名，原样保留）
+Assetto Corsa = Assetto Corsa
+iRacing = iRacing
+rFactor = rFactor
+RaceRoom = RaceRoom
+Automobilista = Automobilista
+Richard Burns Rally = Richard Burns Rally
+Project CARS = Project CARS
+Le Mans Ultimate = Le Mans Ultimate
+SteamVR = SteamVR
+Steam = Steam
+Ollama = Ollama
+
+# —— CrewChief 自有概念（与语音包文档保持一致）——
+Sound Pack = 语音包
+sound pack = 语音包
+voice pack = 语音包
+driver names = 车手名
+personalisations = 个性化称呼
+spotter = 观察员
+co-driver = 领航员
+codriver = 领航员
+trace = 记录文件
+overlay = 覆盖层
+console = 控制台
+macro = 宏
+profile = 配置方案
+property = 设置项
+properties = 设置项
+message = 播报
+messages = 播报
+
+# —— 比赛术语（与 glossary_zh.txt 同口径）——
+pit stop = 进站
+pit lane = 维修道
+pit box = 维修位
+multiclass = 多级别
+multi-class = 多级别
+opponent = 对手
+lap = 圈
+sector = 分段
+delta = 差距
+gap = 差距
+battery = 电量
+brake lock = 刹车抱死
+wheelspin = 打滑
+timetrial = 计时赛
+time trial = 计时赛
+flag = 旗语
+yellow = 黄旗
+fuel = 燃油
+tyre = 轮胎
+tire = 轮胎
+brake = 刹车
+damage = 损伤
+penalty = 罚则
+session = 场次
+practice = 练习
+qualifying = 排位
+race = 正赛
+track = 赛道
+car class = 车辆组别
+stint = 一段跑程
+formation lap = 编队圈
+rolling start = 滚动起步
+safety car = 安全车
+
+# —— 界面动作与状态 ——
+Enable = 启用
+Disable = 禁用
+enable = 启用
+disable = 禁用
+is up to date = 已是最新
+are up to date = 已是最新
+press to download = 点击下载
+check for updates = 检查更新
+restart required = 需要重启
+default = 默认
+readme file = 说明文件
+# 这三条前面几乎总有个游戏名（'R3E launch exe'）。只写右边的译法，模型会把整个短语连同
+# 游戏名一起替换掉——R3E / GTR 2 / LMU / AMS 四条 launch exe 曾经全变成「启动程序」。
+install path = 安装路径（保留前面的游戏名：'ACS install path' → 'ACS 安装路径'）
+launch params = 启动参数（保留前面的游戏名：'rF2 launch params' → 'rF2 启动参数'）
+launch exe = 启动程序（保留前面的游戏名：'R3E launch exe' → 'R3E 启动程序'）
+UDP port = UDP 端口
+Steam app ID = Steam app ID
+trigger word = 触发词
+push to talk = 按键说话
+speech recognition = 语音识别
+voice recognition = 语音识别
+text to speech = 语音合成
+TTS = TTS
+audio ducking = 音量闪避
+heuristics = 判定
+threshold = 阈值
+likelihood = 概率
+verbosity = 详细程度
+
+# —— U2（Preferences 属性名）扫出来的高频词 ——
+reports = 播报
+report = 播报
+warnings = 提醒
+warning = 提醒
+announcement = 播报
+detection = 判定
+car length = 车身长度
+cut track = 切赛道
+pace notes = 路书
+free dictation = 自由听写
+voice commands = 语音指令
+recogniser = 识别引擎
+confidence = 置信度
+Windows recogniser = Windows 识别引擎
+track temp = 赛道温度
+air temp = 气温
+temp = 温度
+pit exit = 出维修道
+pit entry = 进维修道
+Log type = 日志类型
+bit = 位
+Frequency = 频率
+frequency = 频率
+extra laps = 额外圈数
+Min = 最小
+Max = 最大

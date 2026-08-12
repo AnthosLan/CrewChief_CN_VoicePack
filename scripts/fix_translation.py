@@ -115,7 +115,10 @@ def load_corrections(paths):
     空气动力套件 again.
     """
     if not paths:
-        return {}
+        # Two values, not one: the caller unpacks (corrections, own_keys). Returning a bare {}
+        # here made --report_numerals crash whenever --corrections was omitted, which is exactly
+        # how that mode is meant to be used.
+        return {}, set()
     if isinstance(paths, str):
         paths = [paths]
     out, own = {}, set()
