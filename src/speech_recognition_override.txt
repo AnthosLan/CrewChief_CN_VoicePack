@@ -1,0 +1,94 @@
+# CrewChief 中文语音指令
+#
+# 装到：  我的文档\CrewChiefV4\speech_recognition_override.txt
+#
+# 这个文件存在时，CrewChief 会【整份替换】默认的 speech_recognition_config.txt，不做合并
+# （Configuration.cs:16 的注释写明设计意图就是让用户删掉用不上的指令）。所以这里只留 45 条
+# 常用指令，其余 1300 多条不会进语法——缺 key 时 validateAndAdd 直接跳过，不会报错。
+#
+# 为什么不全量翻译：这套架构是「短语列表精确匹配」（GrammarBuilder + Choices）。中文同音字
+# 极多，1300 条指令 × 多个变体全塞进一个语法，误识别率会显著上升。配置文件自己的注释也提到
+# 删减指令能大幅提升识别质量。
+#
+# 还需要在 Windows 上装中文识别引擎，二选一：
+#   - MSSpeech_SR_zh-CN_TELE.msi（Microsoft Speech Platform 11）
+#   - Windows 设置 → 时间和语言 → 语言 → 添加中文，并勾选语音识别
+# 两条路 SREWrapperFactory 都支持，且会自动回落。
+#
+# ⚠️ language 和 defaultLocale 必须写，缺了代码会补成 en 和空串，静默回到英文识别。
+
+language = zh
+defaultLocale = zh-CN
+
+#################################################
+# 车辆状态
+#################################################
+DAMAGE_REPORT = 车损报告:车子怎么样:车还好吗
+CAR_STATUS = 车辆状态:报一下车况
+SESSION_STATUS = 赛况:比赛情况:报一下赛况
+STATUS = 全部报一遍:完整报告
+HOWS_MY_TYRE_WEAR = 轮胎磨损怎么样:轮胎还剩多少:胎耗怎么样
+HOWS_MY_BRAKES = 刹车怎么样:刹车还好吗
+HOWS_MY_ENGINE = 引擎怎么样:发动机怎么样
+HOWS_MY_AERO = 空力怎么样:车身怎么样
+HOWS_MY_SUSPENSION = 悬挂怎么样:悬挂还好吗
+HOWS_MY_TRANSMISSION = 变速箱怎么样:变速箱还好吗
+HOWS_MY_PACE = 我的节奏怎么样:我跑得怎么样
+
+#################################################
+# 温度与胎压
+#################################################
+WHAT_ARE_MY_TYRE_TEMPS = 胎温多少:轮胎温度多少
+WHAT_ARE_MY_TYRE_PRESSURES = 胎压多少:轮胎压力多少
+WHAT_ARE_MY_BRAKE_TEMPS = 刹车温度多少:刹车多少度
+WHAT_IS_MY_WATER_TEMP = 水温多少:水温多少度
+WHAT_IS_MY_OIL_TEMP = 油温多少:油温多少度
+WHATS_THE_AIR_TEMP = 气温多少:外面多少度
+WHATS_THE_TRACK_TEMP = 赛道温度多少:地表温度多少
+
+#################################################
+# 燃油与电量
+#################################################
+HOWS_MY_FUEL = 燃油怎么样:油还够吗
+WHATS_MY_FUEL_LEVEL = 还有多少油:剩多少燃油
+WHATS_MY_FUEL_USAGE = 油耗多少:每圈用多少油
+HOWS_MY_BATTERY = 电量怎么样:电还够吗
+
+#################################################
+# 位置与差距
+#################################################
+WHATS_MY_POSITION = 我第几:我现在第几名
+WHATS_MY_GAP_IN_FRONT = 前面差多少:和前车差多少
+WHATS_MY_GAP_BEHIND = 后面差多少:和后车差多少
+WHATS_MY_GAP_TO_LEADER = 和领跑差多少:落后领跑多少
+WHOS_IN_FRONT_IN_THE_RACE = 前面是谁:前车是谁
+WHOS_BEHIND_IN_THE_RACE = 后面是谁:后车是谁
+WHOS_LEADING = 谁在领跑:现在谁第一
+WHATS_MY_EXPECTED_FINISH_POSITION = 预计能跑第几:最后能拿第几
+
+#################################################
+# 圈速
+#################################################
+WHATS_MY_BEST_LAP_TIME = 我的最快圈速:我最快跑了多少
+WHATS_THE_FASTEST_LAP_TIME = 全场最快圈速:最快圈速是多少
+WHAT_ARE_MY_SECTOR_TIMES = 分段成绩多少:各分段跑了多少
+WHATS_MY_LAST_SECTOR_TIME = 上个分段多少
+
+#################################################
+# 设置与控制
+#################################################
+WHATS_MY_BRAKE_BIAS = 刹车分配多少:制动分配多少
+WHATS_THE_TIME = 现在几点
+REPEAT_LAST_MESSAGE = 再说一遍:刚才说什么
+RADIO_CHECK = 能听到吗:无线电测试
+I_AM_OK = 收到:好的:明白
+
+#################################################
+# 播报开关
+#################################################
+KEEP_QUIET = 安静:先别说话:我知道了
+KEEP_ME_INFORMED = 继续报:保持通报
+DONT_TELL_ME_THE_GAPS = 别报差距:不用报差距
+DONT_TALK_IN_THE_CORNERS = 弯里别说话:过弯时别说
+SPOT = 开启观察员:打开盲区提醒
+DONT_SPOT = 关闭观察员:关掉盲区提醒
