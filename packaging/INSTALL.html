@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CrewChief 中文语音包 · 安装说明</title>
+<style>
+/* 完全自包含：不引用任何外部字体、样式、脚本。从压缩包里双击就能打开。 */
+:root{
+  --bg:#fbfbfa; --fg:#1f2328; --dim:#6a737d; --line:#e3e3e0;
+  --card:#fff; --code-bg:#f2f2ef; --accent:#1a5fb4; --accent-bg:#eaf2fd;
+  --warn:#a15c00; --warn-bg:#fdf4e3; --warn-line:#e8c882;
+  --ok:#1a7f37; --ok-bg:#eaf6ec;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#16181c; --fg:#e6e6e3; --dim:#9198a1; --line:#2c3038;
+    --card:#1c1f24; --code-bg:#22262c; --accent:#6ba6ff; --accent-bg:#16233a;
+    --warn:#e3b341; --warn-bg:#2b2416; --warn-line:#5c4a18;
+    --ok:#4ac26b; --ok-bg:#152b1c;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--fg);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei","Hiragino Sans GB","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+  font-size:16px; line-height:1.75;
+}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px 80px}
+header{padding:44px 0 28px;border-bottom:1px solid var(--line);margin-bottom:0}
+h1{font-size:1.75rem;margin:0 0 6px;letter-spacing:-.01em}
+.ver{display:inline-block;font-size:.8rem;padding:2px 9px;border-radius:99px;
+  background:var(--accent-bg);color:var(--accent);font-weight:600;vertical-align:3px;margin-left:8px}
+.lede{color:var(--dim);margin:10px 0 0;max-width:62ch}
+.layout{display:grid;grid-template-columns:210px 1fr;gap:44px;align-items:start}
+@media (max-width:860px){.layout{grid-template-columns:1fr;gap:0}}
+nav{position:sticky;top:24px;padding-top:32px;font-size:.9rem}
+@media (max-width:860px){
+  nav{position:static;padding:20px 0 4px;border-bottom:1px solid var(--line);margin-bottom:8px}
+}
+nav p{margin:0 0 8px;font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;color:var(--dim);font-weight:700}
+nav a{display:block;padding:5px 0;color:var(--fg);text-decoration:none;border-left:2px solid transparent;padding-left:11px;margin-left:-13px}
+nav a:hover{color:var(--accent);border-left-color:var(--accent)}
+main{padding-top:32px;min-width:0}
+h2{font-size:1.28rem;margin:52px 0 4px;padding-top:8px;letter-spacing:-.01em}
+h2:first-child{margin-top:0}
+h3{font-size:1rem;margin:28px 0 6px}
+p,ul,ol{margin:10px 0}
+ul,ol{padding-left:24px}
+li{margin:5px 0}
+a{color:var(--accent)}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.875em;
+  background:var(--code-bg);padding:.14em .4em;border-radius:4px;word-break:break-all}
+.path{display:block;background:var(--code-bg);border:1px solid var(--line);border-radius:7px;
+  padding:11px 14px;margin:10px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-size:.875rem;user-select:all;word-break:break-all}
+.hint{font-size:.83rem;color:var(--dim);margin-top:-4px}
+table{border-collapse:collapse;width:100%;margin:14px 0;font-size:.92rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--line);padding:8px 11px;text-align:left;vertical-align:top}
+th{background:var(--code-bg);font-weight:600;white-space:nowrap}
+.box{border:1px solid var(--line);background:var(--card);border-radius:9px;padding:16px 20px;margin:16px 0}
+.warn{border-color:var(--warn-line);background:var(--warn-bg)}
+.warn .t{font-weight:700;color:var(--warn);margin:0 0 4px}
+.ok{border-color:var(--ok);background:var(--ok-bg)}
+.pick{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:16px 0}
+@media (max-width:700px){.pick{grid-template-columns:1fr}}
+.pick .box{margin:0}
+.pick h4{margin:0 0 6px;font-size:1rem}
+.pick .tag{font-size:.76rem;font-weight:700;color:var(--accent);letter-spacing:.05em}
+ol.steps{list-style:none;padding:0;counter-reset:s}
+ol.steps>li{counter-increment:s;position:relative;padding:0 0 4px 40px;margin:20px 0}
+ol.steps>li::before{content:counter(s);position:absolute;left:0;top:1px;width:26px;height:26px;
+  border-radius:50%;background:var(--accent);color:#fff;font-size:.83rem;font-weight:700;
+  display:flex;align-items:center;justify-content:center}
+ol.steps>li>strong:first-child{display:block;margin-bottom:2px}
+details{border:1px solid var(--line);border-radius:8px;padding:0 16px;margin:14px 0;background:var(--card)}
+details[open]{padding-bottom:8px}
+summary{cursor:pointer;padding:11px 0;font-weight:600;font-size:.93rem}
+summary:hover{color:var(--accent)}
+footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--line);font-size:.85rem;color:var(--dim)}
+kbd{font-family:inherit;font-size:.82em;border:1px solid var(--line);border-bottom-width:2px;
+  border-radius:4px;padding:1px 5px;background:var(--card)}
+@media print{
+  nav,.lede{display:none} .layout{display:block} body{font-size:11pt}
+  details{border:none;padding:0} details>summary{display:none} details[open] *{display:revert}
+  a{color:inherit;text-decoration:none}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>CrewChief 中文语音包<span class="ver">v1.0.0 Beta</span></h1>
+  <p class="lede">
+    工程师和 spotter 说中文，程序界面是中文，还能用中文向工程师提问。<br>
+    <strong>5308 条语音 · 1305 条界面文案 · 45 条语音指令</strong>——四部分互相独立，可以只装其中一样。
+  </p>
+</header>
+
+<div class="layout">
+<nav>
+  <p>目录</p>
+  <a href="#pick">① 先选一种装法</a>
+  <a href="#voice">② 装语音</a>
+  <a href="#ui">③ 装界面中文化</a>
+  <a href="#sr">④ 装语音指令</a>
+  <a href="#notes">注意事项</a>
+  <a href="#verify">怎么确认装好了</a>
+  <a href="#uninstall">卸载</a>
+  <a href="#compile">自己编译（可选）</a>
+  <a href="#license">许可</a>
+</nav>
+
+<main>
+
+<div class="box warn">
+  <p class="t">⚠ 装之前先备份</p>
+  全程<strong>不要直接修改原来的语音包目录</strong>。下面第 1 步会让你复制一份出来再改，
+  这样任何时候都能一键退回英文。
+</div>
+
+<h2 id="pick">① 先选一种装法</h2>
+<p>只影响语音那部分。界面文案和语音指令跟这个选择无关，两种装法都能装。</p>
+
+<div class="pick">
+  <div class="box">
+    <div class="tag">多数人选这个</div>
+    <h4>用法 A · 原版 CrewChief</h4>
+    <p>工程师和 spotter 全部说中文。<strong>装的时候要删掉 <code>numbers</code> 文件夹</strong>，
+    所以圈速、差距里的数字仍是英文（「你的圈速是 one twenty-three point four」）。</p>
+    <p class="hint">已经能拿到 5170 条中文播报。不需要任何编程环境。</p>
+  </div>
+  <div class="box">
+    <div class="tag">需要开发环境</div>
+    <h4>用法 B · 自己编译的 CrewChief</h4>
+    <p>全部装上，数字也说中文（「一分二十三秒四」），问「现在几点」也按中文语序播报
+    （「上午八点零五分」）。</p>
+    <p class="hint">多出来的是 numbers 那 138 条 + 中文钟点语序。需要 Windows + Visual Studio，见
+    <a href="#compile">自己编译</a>。</p>
+  </div>
+</div>
+
+<h2 id="voice">② 装语音</h2>
+
+<ol class="steps">
+<li><strong>找到语音包目录</strong>
+  <span class="path">%LOCALAPPDATA%\CrewChiefV4\Sounds</span>
+  <p class="hint">把上面这行直接粘到文件资源管理器地址栏，回车即可打开。</p></li>
+
+<li><strong>整个复制一份到别处</strong>
+  <span class="path">D:\CrewChief_zh\Sounds</span>
+  <p class="hint">路径可以自己定。这一步是你的退路，不要跳过。</p></li>
+
+<li><strong>把压缩包里的 <code>voice</code> 合并进复制出来的目录</strong>，覆盖同名文件。
+  <div class="box warn" style="margin-top:10px">
+    <p class="t">用法 A 必读</p>
+    合并<strong>之前</strong>先把压缩包里的 <code>voice\numbers\</code> 整个文件夹删掉。
+    不删会导致圈速中英混播，念成「四十五 point six」——
+    <a href="#why-numbers">原因</a>。用法 B 全部合并，不用删。
+  </div></li>
+
+<li><strong>告诉 CrewChief 去哪里读</strong><br>
+  打开属性页（Properties），搜索 <code>Override default Sound Pack location</code>，
+  填入第 2 步的路径。</li>
+
+<li><strong>用法 B 追加：</strong>新建或编辑
+  <span class="path">D:\CrewChief_zh\Sounds\sound_pack_language.txt</span>
+  内容就写一行 <code>zh</code>。
+  <p class="hint">用法 A <strong>不要</strong>建这个文件，保持原样。</p></li>
+
+<li><strong>用法 A 追加：防止下载按钮把英文包盖回来</strong><br>
+  编辑
+  <span class="path">D:\CrewChief_zh\Sounds\sound_pack_version_info.txt</span>
+  把里面的版本号改成一个很大的值，比如 <code>9999</code>。
+  <p class="hint">原因见<a href="#why-update">关于自动更新</a>。用法 B 不需要这一步。</p></li>
+
+<li><strong>确认两个语音下拉框都是默认值</strong><br>
+  工程师语音和 spotter 语音。这一步很关键，<a href="#why-alt">原因见下</a>。</li>
+
+<li><strong>重启 CrewChief</strong><span class="hint" style="margin:0 0 0 6px">Override 这个设置需要重启才生效。</span></li>
+</ol>
+
+<h2 id="ui">③ 装界面中文化（可选，原版程序就能用）</h2>
+<p>语音包只管「听到的」，界面上的按钮、菜单、设置项名称还是英文。想一起中文化就装这个——
+一个纯文本文件，<strong>不需要重新编译</strong>。</p>
+
+<ol class="steps">
+<li><strong>把压缩包里的 <code>ui_text_zh.txt</code> 复制到</strong>
+  <span class="path">%LOCALAPPDATA%\CrewChiefV4\</span></li>
+<li><strong>改名为</strong> <code>ui_text.txt</code></li>
+<li><strong>重启 CrewChief</strong></li>
+</ol>
+
+<p>共 1305 条，覆盖主界面、菜单栏、全部设置项和帮助文本。没翻译到的条目自动回落英文，不会出现空白。</p>
+
+<details>
+<summary>为什么放用户目录而不是安装目录？</summary>
+<p>CrewChief 按这个顺序合并界面文案，后面的覆盖前面的：</p>
+<p><code>安装目录\ui_text\en.txt</code> → <code>安装目录\ui_text\&lt;语言&gt;.txt</code> →
+<code>%LOCALAPPDATA%\CrewChiefV4\ui_text.txt</code></p>
+<p>最后一个优先级最高，而且在用户目录下，<strong>程序更新不会覆盖它</strong>。
+放安装目录里的话每次更新都得重装一遍。</p>
+</details>
+
+<div class="box warn">
+  <p class="t">⚠ 有一类设置项的值仍是全大写英文，那是正常的</p>
+  像 <code>UI_STARTUP_AND_PATHS</code>、<code>RESTART_REQUIRED</code> 这些是程序内部标识符，
+  不是给人看的文字。本包<strong>故意不译</strong>——译了会让设置项从分组里消失、或者游戏过滤失效。
+  这不是漏做。
+</div>
+
+<h2 id="sr">④ 装中文语音指令（可选，需要额外装识别引擎）</h2>
+<p>CrewChief 支持用语音向工程师提问（「胎压多少」「前面差多少」）。这部分是<strong>识别</strong>不是播报，
+和语音包完全独立。</p>
+
+<ol class="steps">
+<li><strong>装中文识别引擎</strong>，二选一：
+  <ul>
+    <li>Microsoft Speech Platform —— 下载安装 <code>MSSpeech_SR_zh-CN_TELE.msi</code></li>
+    <li>或 Windows 设置 → 时间和语言 → 语言 → 添加中文，勾选「语音识别」</li>
+  </ul></li>
+<li><strong>把 <code>speech_recognition_override.txt</code> 复制到</strong>
+  <span class="path">我的文档\CrewChiefV4\</span></li>
+<li><strong>重启 CrewChief</strong></li>
+</ol>
+
+<p>共 45 条常用指令：车况、胎温胎压、油量电量、位置差距、圈速，以及「安静」「再说一遍」这类控制。</p>
+
+<details>
+<summary>为什么只有 45 条，而不是全部 1300 条？</summary>
+<p>CrewChief 的识别是「短语列表精确匹配」，中文同音字太多（进站/近站、四/是），
+指令越多误识别越严重。程序自己的配置文件注释也建议删减指令。</p>
+<p>这个覆盖文件会<strong>整份替换</strong>默认配置，没列出来的指令就不再监听——
+这正是该机制的设计意图，不是缺陷。</p>
+</details>
+
+<h2 id="notes">注意事项</h2>
+
+<h3 id="why-numbers">原版程序装了 <code>numbers/</code> 会中英混播</h3>
+<p><code>numbers</code> 包会覆盖 <code>numbers/0</code>–<code>99</code>、<code>point</code>、<code>hour</code>
+这些英文包已有的文件夹，但它<strong>没有</strong>英文特有的 928 个合成件——其中 599 个是
+<code>45point6</code> 这类「数字point数字」，另外还有 <code>point75</code>、<code>1_23</code>（分_秒）等预录整段读音。</p>
+<p>结果就是圈速播报里整数部分念中文、小数部分念英文，变成「四十五 point six」。</p>
+<details>
+<summary>为什么中文需要改程序才能念数字</summary>
+<p>CrewChief 的数字朗读规则写死在代码里，每种语言一个实现类
+（<code>NumberProcessing/NumberReader.cs</code> 定义了 10 个抽象方法），上游自带 en / it / pt-br，没有中文。</p>
+<p>中文规则和这三种都不一样——「二」和「两」要分场合、万是独立量级、「一分二十三秒四」的结构也不同——
+所以需要新增一个 <code>NumberReaderZh.cs</code>。</p>
+</details>
+
+<h3 id="why-alt">不要装到 <code>alt\</code> 目录</h3>
+<p>CrewChief 在使用<strong>非默认</strong>工程师语音包时，会强制从基础包读取 <code>spotter</code> 和
+<code>radio_check</code>（见 <code>Audio/Sounds.cs</code> 里 <code>prepareVoiceWithoutLoading</code> 的实现）。</p>
+<p>后果是工程师说中文、<strong>spotter 永远说英文</strong>——而 spotter 恰恰是比赛中出现频率最高的播报。
+所以正确装法是上面写的「整包替换 + Override 路径」，而且第 7 步要确认两个下拉框都是默认值。</p>
+
+<h3>字幕显示成方块</h3>
+<p>只有开了字幕覆盖层才会遇到。覆盖层默认字体是 Microsoft Sans Serif，没有中文字形。改这个文件：</p>
+<span class="path">我的文档\CrewChiefV4\subtitle_overlay.json</span>
+<p>找到 <code>"fontName"</code> 那一行，改成系统里有中文字形的字体：</p>
+<span class="path">"fontName": "Microsoft YaHei",</span>
+<p>工程师覆盖层是同一套设置，文件叫 <code>crewchief_overlay.json</code>，同样改法。两个 json 都是
+CrewChief 首次运行时自动生成的，找不到就先启动一次。<strong>改完重启生效，不用重新编译。</strong></p>
+
+<h3 id="why-update">关于自动更新</h3>
+<p>先说清楚：<strong>CrewChief 不会在后台静默覆盖你的语音包。</strong>它只是把主界面上的语音包下载按钮点亮，
+要你自己点了才会下载覆盖。所以最坏情况是「哪天顺手点了绿按钮」，不是开着开着就没了。</p>
+<details>
+<summary>按钮什么时候会变绿</summary>
+<p>判断是 <code>latest &gt; current</code>：<code>current</code> 读你语音包根目录的
+<code>sound_pack_version_info.txt</code>，<code>latest</code> 从上游 XML 里<strong>按语言</strong>取。</p>
+<table>
+<tr><th>装法</th><th>处境</th></tr>
+<tr><td>用法 B（有 <code>zh</code> 语言标记）</td>
+    <td>查 zh 段，上游没有这一段，取不到更新包，按钮永远是灰的。<strong>天然免疫。</strong></td></tr>
+<tr><td>用法 A（没有语言标记）</td>
+    <td>语言为空时代码按 en 查，拿到真实的英文包版本号，上游一发新版按钮就变绿。
+        <strong>所以第 6 步要把 current 撑大到 9999。</strong></td></tr>
+</table>
+</details>
+<div class="box warn">
+  <p class="t">⚠ 启动参数 <code>-skip_updates</code> 不管用</p>
+  它只跳过<strong>程序本体</strong>的更新检查，语音包的 XML 照样下载和比对。别拿它当防线。
+</div>
+
+<h3>哪些内容有意保留英文</h3>
+<p>下面这些整个文件夹不在包里，装上后自动播原来的英文原音。<strong>这是有意为之，不是漏做。</strong></p>
+<table>
+<tr><th>内容</th><th>例子</th></tr>
+<tr><td>车手名、弯角名</td><td>Hamilton、Eau Rouge、130R —— 中文车手本来也说原名</td></tr>
+<tr><td>车辆组别号</td><td>GT3、GT300、LMP2、DTM、Group C</td></tr>
+<tr><td>超车辅助</td><td>DRS、KERS、push-to-pass 整个分类</td></tr>
+</table>
+<p>除了「本来就说英文」，还有个实际原因：中文语音引擎念拉丁字母不可靠。实测 <code>GTC</code>
+三个字母能念到 1.73 秒，<code>DRS</code> 在句子里只占 0.25 秒。与其念不清楚，不如用原音。</p>
+
+<h2 id="verify">怎么确认装好了</h2>
+
+<h3>语音</h3>
+<ul>
+<li>启动时的无线电测试是中文</li>
+<li>进游戏后有车贴近时的盲区提醒是中文</li>
+<li>工程师播报是中文：旗语、圈数、燃油、轮胎、罚则、进站……</li>
+<li>车手名、弯角名、GT3 这类组别号<strong>仍是英文</strong> —— 正常</li>
+<li>用法 A：圈速里的数字仍是英文（「one twenty-three point four」）</li>
+<li>用法 B：数字也是中文（「一分二十三秒四」），问「现在几点」念「上午八点零五分」</li>
+</ul>
+
+<h3>界面（装了 <code>ui_text.txt</code> 才有）</h3>
+<ul>
+<li>主界面按钮、菜单栏是中文</li>
+<li>属性页里设置项名称和帮助文本是中文</li>
+<li>有一类设置项的<strong>值</strong>仍是 <code>UI_STARTUP_AND_PATHS</code> 这种全大写英文 —— 正常</li>
+</ul>
+
+<h3>语音指令（装了覆盖文件 + 中文识别引擎才有）</h3>
+<ul>
+<li>按住语音键说「车损报告」「我第几」「胎压多少」能被正确识别</li>
+</ul>
+
+<h2 id="uninstall">卸载</h2>
+<table>
+<tr><th>装的东西</th><th>卸载方法</th></tr>
+<tr><td>语音</td><td>属性页里 <code>Override default Sound Pack location</code> 清空，重启。<br>
+        用法 B 还要把 <code>sound_pack_language.txt</code> 改回 <code>en</code> 或删掉。</td></tr>
+<tr><td>界面</td><td>删掉 <code>%LOCALAPPDATA%\CrewChiefV4\ui_text.txt</code>，重启</td></tr>
+<tr><td>语音指令</td><td>删掉 <code>我的文档\CrewChiefV4\speech_recognition_override.txt</code>，重启</td></tr>
+</table>
+<div class="box ok">
+  三样互相独立，可以只卸其中一样。原来的语音包目录始终没被改过，所以随时能退回英文。
+</div>
+
+<h2 id="compile">自己编译（用法 B，可选）</h2>
+<p>源码改动在项目仓库，一个新文件加四处小改：</p>
+<table>
+<tr><th>文件</th><th>改动</th></tr>
+<tr><td><code>CrewChiefV4/NumberReaderZh.cs</code></td><td>新增，中文数字朗读实现</td></tr>
+<tr><td><code>NumberProcessing/NumberReaderFactory.cs</code></td><td>加 <code>zh</code> 分支</td></tr>
+<tr><td><code>CrewChiefV4.csproj</code></td><td>编译新文件</td></tr>
+<tr><td><code>Events/CommonActions.cs</code></td><td>钟点按中文语序拼</td></tr>
+<tr><td><code>ColloquialTime.cs</code></td><td>中文口语时间表</td></tr>
+</table>
+<p>后两处是「现在几点」的播报。不打这个补丁的话，中文包会把 8:05 念成「八 零 五 上午」——
+片段是对的，语序是英文的。打上之后是「上午八点零五分」。</p>
+<p>补丁文件：<code>patches/crewchief-zh-numberreader.diff</code>。需要 Windows + Visual Studio / msbuild
+自行编译，配置选 <strong>Release | x86</strong>。启动后日志里应该出现：</p>
+<span class="path">Using NumberReaderZh for soundPackLanguage zh</span>
+<p class="hint">没有这行说明语言标记没读到，检查 <code>sound_pack_language.txt</code> 的位置和内容。</p>
+
+<h2 id="license">许可</h2>
+<p>语音由 <strong>XTTS v2</strong> 生成，该模型采用 Coqui Public Model License 1.0.0（CPML），
+<strong>只允许非商用</strong>。条款全文见同目录的 <code>CPML.txt</code>——那是许可本身的要求：
+任何拿到这些音频的人都必须一并拿到条款。<strong>你转发这个包时请连 CPML.txt 一起转发。</strong></p>
+<p>对使用者来说，实际约束是三条：</p>
+<ul>
+<li>✅ 自己玩、免费分享给车友，没问题</li>
+<li>❌ 不能拿去卖，也不能塞进付费产品、付费整合包</li>
+<li>❌ 不能只发音频不发 <code>CPML.txt</code></li>
+</ul>
+<p>要商用得替换 TTS 引擎（本项目的语料、目录结构、后处理链都可复用）。Coqui 已于 2024 年 1 月关停，
+没有人能再出售商业许可。</p>
+<p>Bart 音色来自 crew-chief-autovoicepack（MIT），为 ElevenLabs 合成音色，不涉及真人声纹。
+CrewChief 本体为 MIT。</p>
+<p class="hint">以上是对许可文本的阅读理解，不是法律意见。</p>
+
+<footer>
+  <p><strong>为什么标 Beta</strong>：全部内容都过了自动体检（音频的时长/削波/字幕，文案的折行/占位符/快捷键），
+  但制作是在 macOS 上完成的，没有人在 Windows 上完整听过、看过。功能是完整的——
+  用起来发现译文别扭或者哪里不对，欢迎去项目主页提 issue。</p>
+  <p>制作参数：XTTS v2（<code>zh-cn</code>）· Bart 音色 · 语速 1.45x · radio EQ ·
+  单声道 22050 Hz 16-bit PCM · 峰值 −1 dBFS</p>
+  <p>项目主页：<a href="https://github.com/AnthosLan/CrewChief_CN_VoicePack">github.com/AnthosLan/CrewChief_CN_VoicePack</a></p>
+</footer>
+
+</main>
+</div>
+</div>
+</body>
+</html>

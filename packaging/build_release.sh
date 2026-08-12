@@ -60,6 +60,14 @@ pathlib.Path(sys.argv[2]).write_bytes((b'\xef\xbb\xbf' if sys.argv[3] == 'bom' e
 to_crlf "$ROOT/packaging/INSTALL.txt" "$stage/INSTALL.txt" bom
 to_crlf "$ROOT/packaging/CPML.txt"    "$stage/CPML.txt"    nobom
 
+# HTML 版同一份说明，双击用浏览器打开。不做 CRLF/BOM 转换：它自带 <meta charset>，
+# 而 BOM 会让某些浏览器把开头的 doctype 前多出一个字符。完全自包含，不引用外部资源，
+# 所以从压缩包里解出来就能离线看。
+[[ -f "$ROOT/packaging/INSTALL.html" ]] || { echo "缺 packaging/INSTALL.html" >&2; exit 1; }
+grep -qE '<(script|link|img)[^>]+(src|href)="(https?:)?//' "$ROOT/packaging/INSTALL.html" && {
+  echo "INSTALL.html 引用了外部资源 —— 离线打开会缺样式，必须内联" >&2; exit 1; }
+cp "$ROOT/packaging/INSTALL.html" "$stage/INSTALL.html"
+
 # 界面文案与语音指令：纯文本，装在用户目录下，原版程序即可用（不需要自编译）。
 # 同样转成 CRLF + BOM —— 用户会用记事本打开看内容。
 extras=()
@@ -70,7 +78,7 @@ for f in ui_text_zh.txt speech_recognition_override.txt; do
 done
 
 find "$stage" -name '.DS_Store' -delete
-( cd "$stage" && zip -r -X -q "$ZIP" voice INSTALL.txt CPML.txt "${extras[@]}" )
+( cd "$stage" && zip -r -X -q "$ZIP" voice INSTALL.txt INSTALL.html CPML.txt "${extras[@]}" )
 rm -rf "$stage"
 
 echo "  $(basename "$ZIP")  $(du -h "$ZIP" | cut -f1)"
