@@ -29,3 +29,9 @@ Enables warning messages about going off track and picking up dirt (R3E and GTR2
 
 # —— 机器放弃的一条（重试 3 次都没返回合法 JSON）——
 Multiplier for fuel calculations\May be supplied by game\else enter a number.,燃油计算的倍率\游戏可能会自己提供\否则请手工填一个数字。
+
+# —— Windows 验收发现：换行标记切断了路径，且产品名被插入空格 ——
+# 原译「MY DOCUMENTS/Crew Chief/Crew\ChiefV4/...」有两处错：CrewChief 被拆成两个词，
+# 且 CrewChiefV4 被换行标记从中间切开。另外上游英文里的 CrewChief/CrewChiefV4 这一层
+# 是笔误，实际路径是 我的文档/CrewChiefV4/DebugLogs（见 DataFiles.cs:38），译文按实际路径写。
+"Immediately write anything written to the console to MY DOCUMENTS/CrewChief/CrewChiefV4/DebugLogs/console_flush.txt as it happens.\\This is useful for debugging, but will cause a lot of disc writes and may slow down your computer.",立即把控制台输出写入日志文件，位置：\我的文档/CrewChiefV4/DebugLogs/console_flush.txt\调试时有用，但会大量写盘，可能拖慢电脑。

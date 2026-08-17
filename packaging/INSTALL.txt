@@ -98,11 +98,19 @@ NumberReaderZh.cs（294 行）加 NumberReaderFactory 里的一个分支。
        用法 A：合并前先删掉压缩包里的 voice\numbers\ 整个文件夹
        用法 B：全部合并
 
-4. 打开 CrewChief 属性页（Properties），搜索：
+4. 打开 CrewChief 属性页（界面上叫 Properties 或「设置项」），在搜索框里搜：
 
-       Override default Sound Pack location
+       英文界面    Override default Sound Pack location
+       中文界面    语音包
 
    填入第 2 步的路径：D:\CrewChief_zh\Sounds
+
+   ⚠ 如果你已经装了本包的界面中文化，搜英文原文是搜不到的。搜索框只匹配【显示出来的
+     标签和帮助文本】，不匹配属性的内部名（UserInterface/PropertyFilter.cs 第 141 行），
+     而这一项装了中文界面之后显示为「覆盖默认语音包位置」。搜「语音包」两个字最省事。
+
+   这一项属于 AUDIO_VOICE_AND_CONTROLLERS 和 VIPS 两个分类，没有游戏过滤，
+   默认一定可见。如果搜不到，先确认「类别过滤」不是停在某个别的分类上。
 
 5. 用法 B 追加：在语音包根目录新建或编辑
 
@@ -134,6 +142,86 @@ NumberReaderZh.cs（294 行）加 NumberReaderFactory 里的一个分支。
 8. 重启 CrewChief（Override 这个设置需要重启才生效）。
 
 
+⚠ 装完一点声音都没有？先看这一节
+================================
+
+这是本包实测中最耗时间的一个问题，而且【几乎不是语音包的问题】。症状是：
+
+    - 一点声音都没有，连启动时的无线电测试也没有
+    - 日志里明明有 Sound: ... 这类行，说明程序认为自己在播
+    - 一行报错都没有
+
+先自证语音包是好的。看 DebugLogs 里的日志，找这一行：
+
+    Finished preparing sounds cache, found NNNNN driver names and NNNN sound sets
+
+只要 sound sets 这个数和你装中文包之前一致（本包的文件夹名全部来自英文包，
+一个新的都不加），语音包就是装对的，问题在播放链路的下游。
+
+真正的原因通常是：CrewChief 把声音播到了你没在听的那个设备上。
+
+【为什么别的程序没事，只有它有事】
+
+    别的程序都用 Windows 默认输出设备。CrewChief 不是 —— 它自己存了一个设备
+    GUID（NAUDIO_DEVICE_GUID_MESSAGES）。所以「浏览器放视频有声音」完全不能
+    说明 CrewChief 也有声音，这两者走的是不同的设备。
+
+    日志里这一行就是它当前用的设备：
+
+        Sound: Detected saved message audio output device: XXXXX
+
+    如果那个名字不是你正在用的耳机/音箱（比如它写着主板的「扬声器 (Realtek)」，
+    而你其实听显示器或 USB 耳机），那就是它了。
+
+【三步排查，从省事到彻底】
+
+  第 1 步，先关掉 nAudio —— 一分钟，而且能直接定性
+
+      属性页搜 nAudio，取消勾选「Use nAudio for playback」，保存，重启。
+
+      关掉之后 CrewChief 改用 System.Media.SoundPlayer，直接播到 Windows
+      默认设备，完全绕开它自己那套设备选择。
+
+        有声音了  →  确定是设备选错，做第 2 步把它改对，然后把 nAudio 开回来
+        还是没有  →  继续第 3 步
+
+      ⚠ 别长期关着 nAudio。关掉之后 spotter 失去打断工程师的能力
+        （InterruptCurrentlyPlayingSound 只对 nAudio 生效），贴身缠斗时
+        「左边有车」会排在工程师长句后面，晚两秒到就没意义了。
+
+  第 2 步，在【主界面】上换设备（不在属性页里）
+
+      「Messages playback device」下拉框，换成你真正在听的那个设备。
+      下面的「Background playback device」一起换。
+
+  第 3 步，把配置炸掉
+
+      退出 CrewChief，删掉整个文件夹：
+
+          %LOCALAPPDATA%\Britton_IT_Ltd
+
+      ⚠ 这一步会清掉所有设置，包括第 4 步填的 Override 路径，重开后要重填。
+
+【卸载重装 CrewChief 解决不了这个问题】
+
+    因为设置根本不在程序目录里。日志第二行自己写着：
+
+        UserConfigFolder: C:\Users\<你>\AppData\Local\Britton_IT_Ltd
+
+    卸载程序不会碰这个文件夹，你的设备选择、音量、全部属性都原样躺在里面，
+    重装之后一字不差地读回来。上游源码对这个文件夹的注释就一句话
+    （DataFiles.cs 第 50 行）：唯一想对它做的事就是绝望时把它炸掉。
+
+【顺便排除两个便宜的可能】
+
+    - Windows 音量合成器里 CrewChiefV4 这一条被静音或拉到 0。
+      这是每应用独立的，别的程序有声音不代表它没被静音。
+
+    - 属性页搜 nAudio Output Interface，把 WaveOut 换成 WASAPI 试试
+      （需要重启）。上游自己的说明是「WaveOut 兼容性更好，WASAPI 更直接」，
+      但有些声卡上 WaveOut 会静默失败。
+
+
 界面中文化（可选，原版程序就能用）
 ==================================
 
@@ -150,11 +238,33 @@ NumberReaderZh.cs（294 行）加 NumberReaderFactory 里的一个分支。
 
 重启 CrewChief 生效。共 1305 条，覆盖主界面、菜单、全部设置项和帮助文本。
 
+注意是【直接放在 CrewChiefV4\ 下面】，不要建子文件夹。
+
 为什么放这里而不是安装目录：CrewChief 会按顺序合并 安装目录\ui_text\en.txt →
 安装目录\ui_text\<语言>.txt → %LOCALAPPDATA%\CrewChiefV4\ui_text.txt，最后一个优先级最高，
 而且在用户目录下，程序更新不会把它覆盖掉。放安装目录里的话每次更新都要重装。
 
 没翻译到的条目会自动回落英文，不会出现空白。
+
+⚠ 装完还是英文？先看用户目录下有没有 ui_text 文件夹
+
+    覆盖层的两个位置是【二选一】，不是合并（Configuration.cs 第 212 行）：
+
+        %LOCALAPPDATA%\CrewChiefV4\ui_text\en.txt   ← 存在就只读它
+        %LOCALAPPDATA%\CrewChiefV4\ui_text.txt      ← 上面那个不存在时才读这个
+
+    所以只要用户目录下有 ui_text 文件夹且里面有 en.txt，我们这份 ui_text.txt
+    会被【完全忽略】。把那个文件夹挪走即可。
+
+    注意区分：安装目录下的 ui_text\en.txt（比如
+    D:\Games\Britton IT Ltd\CrewChiefV4\ui_text\en.txt）是上游自带的英文底本，
+    本来就该在那儿，不会挡我们，别删它。挡路的只有【用户目录】下的那个。
+
+    另外装失败是完全静默的 —— LoadAndMerge 里的异常被 catch(Exception){} 吞掉了，
+    不会有任何提示，界面就是保持英文。只能靠肉眼判断。
+
+编码不用管：程序用 new StreamReader(路径) 读，默认 UTF-8 且会探测 BOM，
+带不带 BOM 都能正确显示中文。
 
 想卸载就把这个文件删掉，重启即可。
 
@@ -173,39 +283,121 @@ CrewChief 支持用语音向工程师提问（"胎压多少"、"前面差多少"
     - Microsoft Speech Platform：下载 MSSpeech_SR_zh-CN_TELE.msi
     - 或 Windows 设置 → 时间和语言 → 语言 → 添加中文，勾选"语音识别"
 
-第 2 步，把压缩包里的 speech_recognition_override.txt 复制到：
+两条路 CrewChief 都支持并会自动回落，但【识别门槛差一倍】：
 
-    我的文档\CrewChiefV4\
+    Microsoft Speech Platform    置信度阈值 0.5
+    Windows 自带                 置信度阈值 0.75
 
-第 3 步，重启 CrewChief。
+实测 Windows 自带引擎在中文上表现已经够好（常见指令 0.92～0.99），所以不必特意去装
+MSSpeech。两个阈值来自属性 minimum_voice_recognition_confidence 和
+minimum_voice_recognition_confidence_system_sre。
+
+第 2 步，把压缩包里的 speech_recognition_override.txt 放进 CrewChief 的数据文件夹，
+文件名不要改。
+
+    ⚠ 不要照着「我的文档\CrewChiefV4\」去猜路径 —— 如果你把「我的文档」重定向到
+      了别的盘（很常见），那个路径是不存在的。让程序自己带你去：
+
+          菜单「文件」→「Open data files folder」
+
+      这个菜单项打开的就是程序实际使用的数据目录，把文件丢进去即可。
+
+第 3 步，打开语音识别。主界面上的「语音识别模式」下拉框，选：
+
+    始终启用      最省事，不用分配按键，适合先试通
+    按住按钮      需要先分配一个按键，实际使用推荐这个
+
+    ⚠ 「触发词」和「按下并松开按钮」这两项在 nAudio 开启时不可用，下拉框里选了也没用
+      （见属性 voice_recognition_mode 的帮助文本）。而 nAudio 默认是开的。
+
+第 4 步，重启 CrewChief。日志顶部的 VOICE_OPTION 应该从 DISABLED 变成 ALWAYS_ON
+或 HOLD，没变说明没生效。
+
+【怎么验证识别效果】
+
+用菜单「语音向导」。说一句指令，它会实时显示三行：
+
+    Recognised text: 胎压多少
+    Volume: 0.42
+    Confidence: 0.921
+
+没听出来就显示 Nothing recognised。这比在比赛里瞎试高效得多 —— 你能立刻看到它
+听成了什么、置信度多少。控制台也会同步记录每一次识别及其置信度。
+
+顺带一句：CrewChief 的置信度门槛是【会自适应的】。它按接受/拒绝比动态调整，还能
+识别出「用户重念了一遍」并主动降低门槛，所以用得越久越准。第一次念被拒是正常的，
+重念一遍通常就过了。
 
 共 45 条常用指令：车况、胎温胎压、油量电量、位置差距、圈速，以及"安静""再说一遍"这类控制。
+建议先试「能听到吗」—— 它不需要在赛道上，也不依赖任何游戏数据，是最快确认链路通了的一条。
 
 为什么只有 45 条而不是全部 1300 条：CrewChief 的识别是"短语精确匹配"，中文同音字太多，
 指令越多误识别越严重。程序自己的配置文件注释也建议删减。这个覆盖文件会【整份替换】默认配置，
 没列出来的指令就不再监听——这正是设计意图，不是缺陷。
 
+⚠ 启动时日志里会有这一条警告，是【预期的】，不是装错了：
+
+      Warn: Number strings not available. It is likely that you have a custom
+      speech_recognition_override.txt which does not include the default values.
+      All voice commands, including macros, that use numbers will be disabled.
+
+  原因是整份替换之后，上游配置里那 1099 条数字读法（键名就是 "0"、"1" …… "199"）
+  也一起没了。本包这 45 条指令没有一条用到数字，所以对它们零影响。真正被禁掉的是：
+  带数字的命令宏、「P5 是谁」这类按名次提问、以及车号相关指令。如果你需要这些，
+  得自行往这个文件里补 0～199 的中文读法（代价是语法变大，可能拉低识别率）。
+
+⚠ 说「开启观察员」「关闭观察员」时，日志里会出现
+
+      ERROR: Speech command 开启观察员 not handled
+
+  但指令其实【生效了】（spotter 会开关，应答音也会播）。这是上游的一个小 bug：
+  SpeechRecogniser.cs 里这两条指令干完活之后返回了 null，调用方把 null 当成
+  「没处理」。英文版说 spotter on 会报一模一样的错，与中文包无关，忽略即可。
+
 想卸载就把这个文件删掉，重启后回到英文指令。
 
 
-字幕显示成方块怎么办（可选）
-============================
+中文字幕覆盖层（可选）
+======================
 
-只有开了字幕覆盖层才需要看这一节，不开可以跳过。
+本包每个语音文件夹里都带了 subtitles.csv，字幕文本是中文，所以打开覆盖层就能在游戏里
+看到工程师说的每一句中文。不想要可以跳过这一节。
 
-本包每个语音文件夹里都带了 subtitles.csv，字幕文本是中文。覆盖层默认字体是
-Microsoft Sans Serif（Overlay/OverlaySettings.cs），如果中文显示成方块，改字体：
+第 1 步，打开它。属性页搜 subtitle，勾上「启用字幕覆盖层」，保存，【重启】。
+
+    这一项默认是关闭的（enable_subtitle_overlay 默认 False），所以「装了包却没看到
+    字幕」是正常的，不是坏了 —— 得先自己打开。它标了 RESTART_REQUIRED，不重启不生效。
+
+第 2 步，把那一大片设置面板收起来。
+
+    覆盖层第一次出现时会连带显示一整块设置控件，挡住画面。有两个办法：
+
+        按 Ctrl + Shift        立刻收起／展开，这是运行时开关（界面上没写）
+        勾「Hide controls on startup」再点「Save settings」   下次启动就是收起状态
+
+    勾选本身不会立刻隐藏 —— 那个值只在启动时读一次。所以勾完再按一次 Ctrl+Shift。
+
+    ⚠ 别点右上角那个 ⊠。它不是收起控件，是把整个覆盖层关掉（字幕一起消失），
+      要重启 CrewChief 才回来。
+
+    ⚠ 游戏里别勾「Enable input」。勾了之后鼠标移到覆盖层上点击会抢走窗口焦点，
+      游戏会失去输入。只在调整设置时临时勾。
+
+    面板上的「Max history」是同屏显示的历史行数，只想看当前一句就改成 1。
+
+字体：实测 Windows 中文环境下默认字体就能正常显示汉字，一般不用动。万一显示成方块，
+改这个文件里的 "fontName"：
 
     我的文档\CrewChiefV4\subtitle_overlay.json
 
-找到 "fontName" 那一行，改成系统里有中文字形的字体：
-
     "fontName": "Microsoft YaHei",
 
-工程师覆盖层是同一套设置，文件叫 crewchief_overlay.json，同样改法。
+工程师覆盖层是同一套设置，文件叫 crewchief_overlay.json，同样改法。两个 json 都是
+CrewChief 首次运行时自动生成的，找不到就先启动一次。改完重启生效，不需要重新编译。
 
-两个 json 都是 CrewChief 首次运行时自动生成的，找不到就先启动一次。改完重启
-CrewChief 生效，不需要重新编译程序。
+⚠ 覆盖层【控件上】的那些英文（Window width、Bold font、Save settings……）改不了，
+  本包的界面中文化覆盖不到它。那些字符串是硬编码在 Overlay/SubtitleOverlay.cs 里的，
+  不走界面文案那套机制，只能重新编译程序才能改。字幕正文不受影响，正文是中文的。
 
 
 用法 B 需要的程序改动
@@ -253,7 +445,26 @@ CrewChief 生效，不需要重新编译程序。
 
 语音指令（装了 speech_recognition_override.txt 且装了中文识别引擎才有）：
 
-- 按住语音键说「车损报告」「我第几」「胎压多少」能被正确识别
+- 说「能听到吗」能被识别 —— 不用进游戏，最快的一条
+- 用「语音向导」看置信度：常见指令应该在 0.9 以上，0.7 以上都算正常
+- 日志里出现 Got SRE for zh-CN，说明中文识别引擎加载成功了
+
+⚠ 播报比想象的少，不一定是故障
+
+  很多人第一次测会觉得「怎么半天不说话」。CrewChief 的播报量取决于【会话类型】和
+  【场上车数】，差别很大：
+
+      练习赛 + 场上只有一两台车    几分钟只有零星几条，这是正常的
+      正赛 + 十来台车              几十秒就会有一批
+
+  练习赛里没有名次变化、没有超车、没有差距可报，本来就没什么可说的。要判断语音包
+  是否正常，用【正赛 + 多台 AI】，别用练习赛。
+
+  另外圈速播报是按频率概率触发的（属性 frequency_of_player_race_lap_time_reports
+  默认 4/10），跑一圈有六成概率不报。想尽快听到就把它临时调到 10，或者开练习赛
+  多跑几圈（练习赛那个参数默认 6/10，报得更勤）。
+
+  真正说明有问题的是日志里出现 can't be played —— 那才是缺文件夹。
 
 
 卸载

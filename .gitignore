@@ -19,6 +19,9 @@ translations/*.tmp.csv
 # 日志
 *.log
 logs/
+# Windows 验收时收集的 CrewChief 控制台日志 —— 里面有本机用户名和绝对路径。
+# 结论已经写进 docs/踩坑与经验总结.md §8，原始日志没有留档价值。
+log/
 
 # 系统
 .DS_Store

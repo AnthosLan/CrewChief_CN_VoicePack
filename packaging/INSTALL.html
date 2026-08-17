@@ -104,8 +104,10 @@ kbd{font-family:inherit;font-size:.82em;border:1px solid var(--line);border-bott
   <p>目录</p>
   <a href="#pick">① 先选一种装法</a>
   <a href="#voice">② 装语音</a>
+  <a href="#no-sound">⚠ 装完没声音？</a>
   <a href="#ui">③ 装界面中文化</a>
   <a href="#sr">④ 装语音指令</a>
+  <a href="#subtitle">⑤ 中文字幕覆盖层</a>
   <a href="#notes">注意事项</a>
   <a href="#verify">怎么确认装好了</a>
   <a href="#uninstall">卸载</a>
@@ -162,8 +164,19 @@ kbd{font-family:inherit;font-size:.82em;border:1px solid var(--line);border-bott
   </div></li>
 
 <li><strong>告诉 CrewChief 去哪里读</strong><br>
-  打开属性页（Properties），搜索 <code>Override default Sound Pack location</code>，
-  填入第 2 步的路径。</li>
+  打开属性页（界面上叫 Properties 或「设置项」），在搜索框里搜：
+  <table style="margin:8px 0">
+  <tr><th>英文界面</th><td><code>Override default Sound Pack location</code></td></tr>
+  <tr><th>中文界面</th><td><code>语音包</code></td></tr>
+  </table>
+  填入第 2 步的路径。
+  <div class="box warn" style="margin-top:10px">
+    <p class="t">⚠ 已经装了界面中文化的话，搜英文原文是搜不到的</p>
+    搜索框只匹配<strong>显示出来的标签和帮助文本</strong>，不匹配属性的内部名
+    （<code>UserInterface/PropertyFilter.cs:141</code>），而这一项装了中文界面后显示为
+    「覆盖默认语音包位置」。搜<strong>「语音包」</strong>两个字最省事。
+  </div>
+  <p class="hint">这一项没有游戏过滤，默认一定可见。搜不到就先确认「类别过滤」不是停在别的分类上。</p></li>
 
 <li><strong>用法 B 追加：</strong>新建或编辑
   <span class="path">D:\CrewChief_zh\Sounds\sound_pack_language.txt</span>
@@ -182,18 +195,104 @@ kbd{font-family:inherit;font-size:.82em;border:1px solid var(--line);border-bott
 <li><strong>重启 CrewChief</strong><span class="hint" style="margin:0 0 0 6px">Override 这个设置需要重启才生效。</span></li>
 </ol>
 
+<h2 id="no-sound">⚠ 装完一点声音都没有？先看这一节</h2>
+<p>这是实测中最耗时间的一个问题，而且<strong>几乎不是语音包的问题</strong>。典型症状：</p>
+<ul>
+<li>一点声音都没有，连启动时的无线电测试也没有</li>
+<li>日志里明明有 <code>Sound: ...</code> 这类行，说明程序认为自己在播</li>
+<li>一行报错都没有</li>
+</ul>
+
+<div class="box ok">
+  <p class="t">先自证语音包是好的</p>
+  看 <code>DebugLogs</code> 里的日志，找这一行：
+  <span class="path">Finished preparing sounds cache, found NNNNN driver names and NNNN sound sets</span>
+  只要 <strong>sound sets</strong> 这个数和装中文包之前一致（本包的文件夹名全部来自英文包，
+  一个新的都不加），语音包就是装对的，问题在播放链路的下游。
+</div>
+
+<h3>为什么别的程序有声音，只有 CrewChief 没有</h3>
+<p>别的程序都用 Windows <strong>默认</strong>输出设备。CrewChief 不是——它自己存了一个设备 GUID。
+所以「浏览器放视频有声音」<strong>完全不能</strong>说明 CrewChief 也有声音，两者走的是不同的设备。</p>
+<p>日志里这一行就是它当前用的设备：</p>
+<span class="path">Sound: Detected saved message audio output device: XXXXX</span>
+<p>如果那个名字不是你正在用的耳机／音箱（比如它写着主板的「扬声器 (Realtek)」，而你其实听显示器
+或 USB 耳机），那就是它了。</p>
+
+<h3>三步排查，从省事到彻底</h3>
+<ol class="steps">
+<li><strong>先关掉 nAudio</strong>——一分钟，而且能直接定性<br>
+  属性页搜 <code>nAudio</code>，取消勾选「Use nAudio for playback」，保存，重启。
+  <p class="hint">关掉之后 CrewChief 改用 <code>System.Media.SoundPlayer</code>，直接播到 Windows
+  默认设备，完全绕开它自己那套设备选择。</p>
+  <table style="margin:8px 0">
+  <tr><th>有声音了</th><td>确定是设备选错 → 做第 2 步改对，然后把 nAudio 开回来</td></tr>
+  <tr><th>还是没有</th><td>继续第 3 步</td></tr>
+  </table>
+  <div class="box warn" style="margin-top:10px">
+    <p class="t">⚠ 别长期关着 nAudio</p>
+    关掉之后 spotter 失去打断工程师的能力（<code>InterruptCurrentlyPlayingSound</code> 只对 nAudio
+    生效），贴身缠斗时「左边有车」会排在工程师长句后面，晚两秒到就没意义了。
+  </div></li>
+
+<li><strong>在主界面上换设备</strong>（不在属性页里）<br>
+  「Messages playback device」下拉框换成你真正在听的那个设备，下面的
+  「Background playback device」一起换。</li>
+
+<li><strong>把配置炸掉</strong><br>
+  退出 CrewChief，删掉整个文件夹
+  <span class="path">%LOCALAPPDATA%\Britton_IT_Ltd</span>
+  <p class="hint">⚠ 会清掉所有设置，包括第 4 步填的 Override 路径，重开后要重填。</p></li>
+</ol>
+
+<div class="box warn">
+  <p class="t">⚠ 卸载重装 CrewChief 解决不了这个问题</p>
+  因为设置根本不在程序目录里。日志开头自己写着
+  <code>UserConfigFolder: C:\Users\&lt;你&gt;\AppData\Local\Britton_IT_Ltd</code>。
+  卸载程序不会碰这个文件夹，你的设备选择、音量、全部属性都原样躺在里面，重装之后一字不差地读回来。
+  上游源码对这个文件夹的注释就一句话（<code>DataFiles.cs:50</code>）：唯一想对它做的事就是绝望时把它炸掉。
+</div>
+
+<details>
+<summary>顺便排除两个便宜的可能</summary>
+<p><strong>Windows 音量合成器</strong>里 <code>CrewChiefV4</code> 这一条被静音或拉到 0。这是每应用独立的，
+别的程序有声音不代表它没被静音。</p>
+<p><strong>换播放接口</strong>：属性页搜 <code>nAudio Output Interface</code>，把 WaveOut 换成 WASAPI（需要重启）。
+上游自己的说明是「WaveOut 兼容性更好，WASAPI 更直接」，但有些声卡上 WaveOut 会静默失败。</p>
+</details>
+
 <h2 id="ui">③ 装界面中文化（可选，原版程序就能用）</h2>
 <p>语音包只管「听到的」，界面上的按钮、菜单、设置项名称还是英文。想一起中文化就装这个——
 一个纯文本文件，<strong>不需要重新编译</strong>。</p>
 
 <ol class="steps">
 <li><strong>把压缩包里的 <code>ui_text_zh.txt</code> 复制到</strong>
-  <span class="path">%LOCALAPPDATA%\CrewChiefV4\</span></li>
+  <span class="path">%LOCALAPPDATA%\CrewChiefV4\</span>
+  <p class="hint">注意是<strong>直接放在 <code>CrewChiefV4\</code> 下面</strong>，不要建子文件夹。</p></li>
 <li><strong>改名为</strong> <code>ui_text.txt</code></li>
 <li><strong>重启 CrewChief</strong></li>
 </ol>
 
 <p>共 1305 条，覆盖主界面、菜单栏、全部设置项和帮助文本。没翻译到的条目自动回落英文，不会出现空白。</p>
+
+<div class="box warn">
+  <p class="t">⚠ 装完还是英文？先看用户目录下有没有 <code>ui_text</code> 文件夹</p>
+  <p>覆盖层的两个位置是<strong>二选一</strong>，不是合并（<code>Configuration.cs:212</code>）：</p>
+  <table>
+  <tr><td><code>%LOCALAPPDATA%\CrewChiefV4\ui_text\en.txt</code></td><td>存在就<strong>只读它</strong></td></tr>
+  <tr><td><code>%LOCALAPPDATA%\CrewChiefV4\ui_text.txt</code></td><td>上面那个不存在时才读这个</td></tr>
+  </table>
+  <p>所以只要用户目录下有 <code>ui_text</code> 文件夹且里面有 <code>en.txt</code>，我们这份
+  <code>ui_text.txt</code> 会被<strong>完全忽略</strong>。把那个文件夹挪走即可。</p>
+  <p><strong>注意区分：</strong>安装目录下的 <code>ui_text\en.txt</code>（比如
+  <code>D:\Games\Britton IT Ltd\CrewChiefV4\ui_text\en.txt</code>）是上游自带的英文底本，
+  本来就该在那儿，不会挡我们，<strong>别删它</strong>。挡路的只有<strong>用户目录</strong>下的那个。</p>
+  <p>另外装失败是完全静默的——<code>LoadAndMerge</code> 里的异常被 <code>catch(Exception){}</code> 吞掉了，
+  不会有任何提示，界面就是保持英文。只能靠肉眼判断。</p>
+</div>
+
+<p class="hint">编码不用管：程序用 <code>new StreamReader(路径)</code> 读，默认 UTF-8 且会探测 BOM，
+带不带 BOM 都能正确显示中文。</p>
 
 <details>
 <summary>为什么放用户目录而不是安装目录？</summary>
@@ -216,17 +315,47 @@ kbd{font-family:inherit;font-size:.82em;border:1px solid var(--line);border-bott
 和语音包完全独立。</p>
 
 <ol class="steps">
-<li><strong>装中文识别引擎</strong>，二选一：
-  <ul>
-    <li>Microsoft Speech Platform —— 下载安装 <code>MSSpeech_SR_zh-CN_TELE.msi</code></li>
-    <li>或 Windows 设置 → 时间和语言 → 语言 → 添加中文，勾选「语音识别」</li>
-  </ul></li>
-<li><strong>把 <code>speech_recognition_override.txt</code> 复制到</strong>
-  <span class="path">我的文档\CrewChiefV4\</span></li>
-<li><strong>重启 CrewChief</strong></li>
+<li><strong>装中文识别引擎</strong>，二选一。两条路都支持并会自动回落，但<strong>识别门槛差一倍</strong>：
+  <table style="margin:8px 0">
+  <tr><th>引擎</th><th>置信度阈值</th></tr>
+  <tr><td>Microsoft Speech Platform —— <code>MSSpeech_SR_zh-CN_TELE.msi</code></td><td>0.5</td></tr>
+  <tr><td>Windows 自带 —— 设置 → 时间和语言 → 语言 → 添加中文，勾「语音识别」</td><td>0.75</td></tr>
+  </table>
+  <p class="hint">实测 Windows 自带引擎在中文上表现已经够好（常见指令 0.92～0.99），不必特意去装 MSSpeech。</p></li>
+
+<li><strong>把 <code>speech_recognition_override.txt</code> 放进 CrewChief 的数据文件夹</strong>，文件名不要改。
+  <div class="box warn" style="margin-top:10px">
+    <p class="t">⚠ 不要照着「我的文档\CrewChiefV4\」去猜路径</p>
+    如果你把「我的文档」重定向到了别的盘（很常见），那个路径根本不存在。让程序自己带你去：
+    <strong>菜单「文件」→「Open data files folder」</strong>，打开的就是程序实际使用的数据目录。
+  </div></li>
+
+<li><strong>打开语音识别</strong><br>
+  主界面上的「语音识别模式」下拉框，选：
+  <table style="margin:8px 0">
+  <tr><th>始终启用</th><td>最省事，不用分配按键，适合先试通</td></tr>
+  <tr><th>按住按钮</th><td>需要先分配一个按键，实际使用推荐这个</td></tr>
+  </table>
+  <p class="hint">⚠「触发词」和「按下并松开按钮」在 nAudio 开启时<strong>不可用</strong>，选了也没用，
+  而 nAudio 默认是开的。</p></li>
+
+<li><strong>重启 CrewChief</strong>
+  <p class="hint">日志顶部的 <code>VOICE_OPTION</code> 应该从 <code>DISABLED</code> 变成
+  <code>ALWAYS_ON</code> 或 <code>HOLD</code>，没变说明没生效。</p></li>
 </ol>
 
-<p>共 45 条常用指令：车况、胎温胎压、油量电量、位置差距、圈速，以及「安静」「再说一遍」这类控制。</p>
+<p>共 45 条常用指令：车况、胎温胎压、油量电量、位置差距、圈速，以及「安静」「再说一遍」这类控制。
+建议先试<strong>「能听到吗」</strong>——它不需要在赛道上，也不依赖任何游戏数据，是最快确认链路通了的一条。</p>
+
+<div class="box ok">
+  <p class="t">怎么验证识别效果</p>
+  <p>用菜单<strong>「语音向导」</strong>。说一句指令，它会实时显示：</p>
+  <span class="path">Recognised text: 胎压多少<br>Volume: 0.42<br>Confidence: 0.921</span>
+  <p>没听出来就显示 <code>Nothing recognised</code>。这比在比赛里瞎试高效得多——你能立刻看到它听成了什么、
+  置信度多少。控制台也会同步记录每一次识别及其置信度。</p>
+  <p>顺带一句：置信度门槛是<strong>会自适应的</strong>。CrewChief 按接受／拒绝比动态调整，还能识别出
+  「用户重念了一遍」并主动降低门槛，所以用得越久越准。<strong>第一次念被拒是正常的</strong>，重念一遍通常就过了。</p>
+</div>
 
 <details>
 <summary>为什么只有 45 条，而不是全部 1300 条？</summary>
@@ -235,6 +364,66 @@ kbd{font-family:inherit;font-size:.82em;border:1px solid var(--line);border-bott
 <p>这个覆盖文件会<strong>整份替换</strong>默认配置，没列出来的指令就不再监听——
 这正是该机制的设计意图，不是缺陷。</p>
 </details>
+
+<details>
+<summary>启动时那条 Number strings 警告是预期的，不是装错了</summary>
+<span class="path">Warn: Number strings not available. It is likely that you have a custom
+speech_recognition_override.txt which does not include the default values.
+All voice commands, including macros, that use numbers will be disabled.</span>
+<p>原因是整份替换之后，上游配置里那 <strong>1099 条数字读法</strong>（键名就是
+<code>"0"</code>、<code>"1"</code> …… <code>"199"</code>）也一起没了。</p>
+<p>本包这 45 条指令<strong>没有一条用到数字</strong>，所以对它们零影响。真正被禁掉的是：带数字的命令宏、
+「P5 是谁」这类按名次提问、以及车号相关指令。如果你需要这些，得自行往这个文件里补 0～199 的中文读法
+（代价是语法变大，可能拉低识别率）。</p>
+</details>
+
+<details>
+<summary>说「开启／关闭观察员」时日志报 ERROR，但指令其实生效了</summary>
+<span class="path">ERROR: Speech command 开启观察员 not handled</span>
+<p>指令<strong>是生效的</strong>——spotter 会开关，应答音也会播。这是上游的一个小 bug：
+<code>SpeechRecogniser.cs</code> 里这两条指令干完活之后返回了 <code>null</code>，调用方把
+<code>null</code> 当成「没处理」。</p>
+<p>英文版说 <code>spotter on</code> 会报一模一样的错，与中文包无关，<strong>忽略即可</strong>。</p>
+</details>
+
+<h2 id="subtitle">⑤ 中文字幕覆盖层（可选）</h2>
+<p>本包每个语音文件夹里都带了 <code>subtitles.csv</code>，字幕文本是中文，所以打开覆盖层就能在游戏里
+看到工程师说的每一句中文。不想要可以跳过。</p>
+
+<ol class="steps">
+<li><strong>打开它</strong><br>
+  属性页搜 <code>subtitle</code>，勾上「启用字幕覆盖层」，保存，<strong>重启</strong>。
+  <p class="hint">这一项<strong>默认是关闭的</strong>，所以「装了包却没看到字幕」是正常的，不是坏了——
+  得先自己打开。它标了 <code>RESTART_REQUIRED</code>，不重启不生效。</p></li>
+
+<li><strong>把那一大片设置面板收起来</strong><br>
+  覆盖层第一次出现时会连带显示一整块设置控件，挡住画面。两个办法：
+  <table style="margin:8px 0">
+  <tr><th>按 <code>Ctrl + Shift</code></th><td>立刻收起／展开。这是运行时开关，<strong>界面上没写</strong></td></tr>
+  <tr><th>勾「Hide controls on startup」<br>再点「Save settings」</th><td>下次启动就是收起状态</td></tr>
+  </table>
+  <p class="hint">勾选本身不会立刻隐藏——那个值只在启动时读一次。所以勾完再按一次 Ctrl+Shift。</p>
+  <div class="box warn" style="margin-top:10px">
+    <p class="t">⚠ 别点右上角那个 ⊠</p>
+    它不是收起控件，是把<strong>整个覆盖层关掉</strong>（字幕一起消失），要重启 CrewChief 才回来。
+    <p style="margin-top:8px">另外<strong>游戏里别勾「Enable input」</strong>——勾了之后鼠标移到覆盖层上点击会抢走
+    窗口焦点，游戏会失去输入。只在调整设置时临时勾。</p>
+  </div>
+  <p class="hint">面板上的「Max history」是同屏显示的历史行数，只想看当前一句就改成 <code>1</code>。</p></li>
+</ol>
+
+<p><strong>字体：</strong>实测 Windows 中文环境下默认字体就能正常显示汉字，一般不用动。万一显示成方块，
+改这个文件里的 <code>"fontName"</code>：</p>
+<span class="path">我的文档\CrewChiefV4\subtitle_overlay.json<br>"fontName": "Microsoft YaHei",</span>
+<p class="hint">工程师覆盖层是同一套设置，文件叫 <code>crewchief_overlay.json</code>，同样改法。两个 json 都是
+CrewChief 首次运行时自动生成的，找不到就先启动一次。改完重启生效，不需要重新编译。</p>
+
+<div class="box warn">
+  <p class="t">⚠ 覆盖层<strong>控件上</strong>的英文改不了</p>
+  Window width、Bold font、Save settings 这些字符串是硬编码在 <code>Overlay/SubtitleOverlay.cs</code> 里的，
+  不走界面文案那套机制，本包的界面中文化<strong>覆盖不到</strong>，只能重新编译程序才能改。
+  <strong>字幕正文不受影响，正文是中文的。</strong>
+</div>
 
 <h2 id="notes">注意事项</h2>
 
@@ -256,14 +445,6 @@ kbd{font-family:inherit;font-size:.82em;border:1px solid var(--line);border-bott
 <code>radio_check</code>（见 <code>Audio/Sounds.cs</code> 里 <code>prepareVoiceWithoutLoading</code> 的实现）。</p>
 <p>后果是工程师说中文、<strong>spotter 永远说英文</strong>——而 spotter 恰恰是比赛中出现频率最高的播报。
 所以正确装法是上面写的「整包替换 + Override 路径」，而且第 7 步要确认两个下拉框都是默认值。</p>
-
-<h3>字幕显示成方块</h3>
-<p>只有开了字幕覆盖层才会遇到。覆盖层默认字体是 Microsoft Sans Serif，没有中文字形。改这个文件：</p>
-<span class="path">我的文档\CrewChiefV4\subtitle_overlay.json</span>
-<p>找到 <code>"fontName"</code> 那一行，改成系统里有中文字形的字体：</p>
-<span class="path">"fontName": "Microsoft YaHei",</span>
-<p>工程师覆盖层是同一套设置，文件叫 <code>crewchief_overlay.json</code>，同样改法。两个 json 都是
-CrewChief 首次运行时自动生成的，找不到就先启动一次。<strong>改完重启生效，不用重新编译。</strong></p>
 
 <h3 id="why-update">关于自动更新</h3>
 <p>先说清楚：<strong>CrewChief 不会在后台静默覆盖你的语音包。</strong>它只是把主界面上的语音包下载按钮点亮，
@@ -318,8 +499,26 @@ CrewChief 首次运行时自动生成的，找不到就先启动一次。<strong
 
 <h3>语音指令（装了覆盖文件 + 中文识别引擎才有）</h3>
 <ul>
-<li>按住语音键说「车损报告」「我第几」「胎压多少」能被正确识别</li>
+<li>说<strong>「能听到吗」</strong>能被识别 —— 不用进游戏，最快的一条</li>
+<li>用「语音向导」看置信度：常见指令应该在 0.9 以上，0.7 以上都算正常</li>
+<li>日志里出现 <code>Got SRE for zh-CN</code>，说明中文识别引擎加载成功了</li>
 </ul>
+
+<div class="box warn">
+  <p class="t">⚠ 播报比想象的少，不一定是故障</p>
+  <p>很多人第一次测会觉得「怎么半天不说话」。CrewChief 的播报量取决于<strong>会话类型</strong>和
+  <strong>场上车数</strong>，差别很大：</p>
+  <table>
+  <tr><td>练习赛 + 场上只有一两台车</td><td>几分钟只有零星几条，<strong>这是正常的</strong></td></tr>
+  <tr><td>正赛 + 十来台车</td><td>几十秒就会有一批</td></tr>
+  </table>
+  <p>练习赛里没有名次变化、没有超车、没有差距可报，本来就没什么可说的。要判断语音包是否正常，
+  用<strong>正赛 + 多台 AI</strong>，别用练习赛。</p>
+  <p>另外圈速播报是<strong>按频率概率触发</strong>的（属性
+  <code>frequency_of_player_race_lap_time_reports</code> 默认 4/10），跑一圈有六成概率不报。
+  想尽快听到就把它临时调到 10，或者开练习赛多跑几圈（练习赛那个参数默认 6/10，报得更勤）。</p>
+  <p>真正说明有问题的是日志里出现 <code>can't be played</code>——那才是缺文件夹。</p>
+</div>
 
 <h2 id="uninstall">卸载</h2>
 <table>

@@ -72,7 +72,8 @@
    不要直接改原目录，出问题时你需要能退回去。
 2. 用原版 CrewChief 的话，**先删掉压缩包里的 `voice\numbers\` 整个文件夹**（原因见下面注意事项），
    再把 `voice` 合并进第 1 步复制出来的目录。
-3. CrewChief 属性页搜 `Override default Sound Pack location`，填第 1 步的路径，重启。
+3. CrewChief 属性页搜 `Override default Sound Pack location`（**装了中文界面就搜「语音包」**——
+   搜索框只匹配显示出来的标签，不匹配属性内部名），填第 1 步的路径，重启。
 
 再加一步防覆盖：把 `D:\CrewChief_zh\Sounds\sound_pack_version_info.txt` 里的版本号改成 `9999`，
 否则上游一发新版，主界面的语音包下载按钮会变绿，点下去英文包会盖掉中文包。
@@ -88,13 +89,34 @@
 
 1. 装中文识别引擎，二选一：`MSSpeech_SR_zh-CN_TELE.msi`（Microsoft Speech Platform），
    或 Windows 设置 → 时间和语言 → 语言 → 添加中文并勾选「语音识别」。
-2. 把 `speech_recognition_override.txt` 复制到 `我的文档\CrewChiefV4\`，重启。
+   实测 Windows 自带的就够用，不必特意装 MSSpeech。
+2. 把 `speech_recognition_override.txt` 放进 CrewChief 的数据文件夹。**别猜路径**——
+   用菜单「文件 → Open data files folder」打开，把文件丢进去（「我的文档」常被重定向到别的盘）。
+3. 主界面「语音识别模式」选「始终启用」或「按住按钮」，重启。
+
+用菜单「语音向导」验证：说一句指令，它会实时显示识别到的文本和置信度。先试「能听到吗」——
+不用进游戏，最快确认链路通了的一条。
 
 ---
 
 ## ⚠️ 注意事项
 
-### 1. 原版程序装了 `numbers/` 会中英混播
+### 1. 装完一点声音都没有？大概率不是语音包的问题
+
+这是实测中最耗时间的一个坑。症状是**一点声音都没有**（连启动的无线电测试都没有），
+但日志里满是 `Sound: ...` 行，**一行报错都没有**。
+
+原因通常是 **CrewChief 不用 Windows 默认输出设备**——它自己存了一个设备 GUID，
+所以「浏览器放视频有声音」完全不能说明 CrewChief 也有声音。
+
+最快的定性办法：属性页搜 `nAudio`，**取消勾选 `Use nAudio for playback`**，重启。
+这会让它改用 Windows 默认设备。有声音了就说明是设备选错，去主界面把
+「Messages playback device」改对，然后把 nAudio 开回来（关着会让 spotter 失去打断能力）。
+
+完整排查步骤见 [`INSTALL.html`](packaging/INSTALL.html) 的「装完一点声音都没有」一节。
+**卸载重装 CrewChief 没用**——设置存在 `%LOCALAPPDATA%\Britton_IT_Ltd`，卸载不会清它。
+
+### 2. 原版程序装了 `numbers/` 会中英混播
 
 `numbers` 包会覆盖 `numbers/0`–`99`、`point`、`hour` 这些英文包已有的文件夹，但它**没有**英文特有的
 928 个合成件（599 个 `45point6` 这类「数字point数字」，外加 `point75`、`1_23` 等预录整段）。
@@ -103,7 +125,7 @@
 **用原版程序就删掉 `voice/numbers/`。** 想要中文圈速必须自己编译，改动见
 [`patches/crewchief-zh-numberreader.diff`](patches/crewchief-zh-numberreader.diff)。
 
-### 2. 不要装到 `alt/` 目录
+### 3. 不要装到 `alt/` 目录
 
 CrewChief 在使用非默认工程师语音包时，会**强制从基础包**读 `spotter*` 和 `radio_check*`
 （`Audio/Sounds.cs:1147`）。按 autovoicepack README 那样装到 `alt/`，结果是工程师说中文、
@@ -111,16 +133,20 @@ CrewChief 在使用非默认工程师语音包时，会**强制从基础包**读
 
 正确装法是上面写的「整包替换 + `Override default Sound Pack location`」。
 
-### 3. 工程师语音和 spotter 语音两个下拉框保持默认
+### 4. 工程师语音和 spotter 语音两个下拉框保持默认
 
 同上一条的原因。一旦选了 Jerry 之类的替代音色，spotter 会退回英文。
 
-### 4. 字幕显示成方块就改字体
+### 5. 字幕覆盖层默认是关闭的
 
-只有开了字幕覆盖层才会遇到。改 `我的文档\CrewChiefV4\subtitle_overlay.json` 里的 `"fontName"`
-为 `"Microsoft YaHei"`，重启生效，**不用重新编译**。工程师覆盖层是 `crewchief_overlay.json`，同样改法。
+想在游戏里看到中文字幕，得先自己开：属性页搜 `subtitle`，勾上「启用字幕覆盖层」，**重启**。
+「装了包却没字幕」是正常的，不是缺陷。
 
-### 5. `-skip_updates` 挡不住语音包更新
+开了之后会连带显示一大片设置控件挡住画面，**按 `Ctrl + Shift` 收起**（这个快捷键界面上没写）。
+实测中文字体不用改；万一显示成方块，改 `我的文档\CrewChiefV4\subtitle_overlay.json` 里的
+`"fontName"` 为 `"Microsoft YaHei"`。
+
+### 6. `-skip_updates` 挡不住语音包更新
 
 它只跳过程序本体的更新检查，语音包的 XML 照样下载比对。防覆盖要靠上面的 `9999` 那一步。
 
@@ -141,12 +167,21 @@ CrewChief 在使用非默认工程师语音包时，会**强制从基础包**读
 ## 版本状态
 
 当前是 **v1.0.0 Beta**。内容全部完成并通过自动体检（音频的时长/削波/字幕一致性、
-文案的折行/占位符/快捷键/标识符），但制作是在 macOS 上做的，**没有人在 Windows 上完整听过、看过**。
+文案的折行/占位符/快捷键/标识符），并已在 Windows + Assetto Corsa 上实跑验收：
 
-功能是完整可用的。遇到译文别扭、界面文字被截断、语音指令识别不准，欢迎提
-[issue](https://github.com/AnthosLan/CrewChief_CN_VoicePack/issues)。
+| 验收项 | 结果 |
+|---|---|
+| 语音播报 | ✅ 单场 52 条实听，零消息被丢弃 |
+| 界面文案 | ✅ 主界面、菜单、属性页全中文，控件无截断 |
+| 中文语音指令 | ✅ 24 条实测，识别接受率 81%，常见指令置信度 0.92–0.99 |
+| 中文字幕 | ✅ 正常渲染，不需要改字体 |
+| 圈速数字（用法 B） | ⏸ 需自己编译，尚未验证 |
 
-转正式版的门槛写在 [Windows 验收清单](docs/Windows验收清单.md)。
+**仍标 Beta 的原因**：抽样通过不等于全量通过。5308 条语音只实听了几十条，1305 条文案只翻了几页，
+**译文别扭这类问题只能靠使用者反馈**。遇到哪句说不通、界面文字看着怪、语音指令老是识别错，
+欢迎提 [issue](https://github.com/AnthosLan/CrewChief_CN_VoicePack/issues)。
+
+逐项证据与操作步骤见 [Windows 验收清单](docs/Windows验收清单.md)。
 
 ---
 

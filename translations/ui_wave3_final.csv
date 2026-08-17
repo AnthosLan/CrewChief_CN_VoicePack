@@ -238,7 +238,7 @@ preferences,min_secs_for_debris_flag_help,宣布碎片旗之间的秒数，设�
 preferences,enable_delayed_responses_help,某些语音指令会触发一个“待命”响应，稍后才会收到请求的播报。,"Some voice commands will trigger a ""stand by"" response, followed some time later by the requested into."
 preferences,enable_console_logging_help,取消选中此项可防止控制台窗口显示消息。减少程序的 CPU 负载。,Uncheck this to prevent console window messages being shown. Reduces the CPU load of the app.
 preferences,console_font_size_help,设置控制台窗口中字体的大小。默认为 8。,Set the size of the font used in the Console Window. Default is 8.
-preferences,console_flush_help,立即将控制台输出写入 MY DOCUMENTS/Crew Chief/Crew\ChiefV4/DebugLogs/console_flush.txt。\此操作有助于调试，但会增加大量磁盘写入次数，并可能减慢计算机速度。,"Immediately write anything written to the console to MY DOCUMENTS/CrewChief/CrewChiefV4/DebugLogs/console_flush.txt as it happens.\\This is useful for debugging, but will cause a lot of disc writes and may slow down your computer."
+preferences,console_flush_help,立即把控制台输出写入日志文件，位置：\我的文档/CrewChiefV4/DebugLogs/console_flush.txt\调试时有用，但会大量写盘，可能拖慢电脑。,"Immediately write anything written to the console to MY DOCUMENTS/CrewChief/CrewChiefV4/DebugLogs/console_flush.txt as it happens.\\This is useful for debugging, but will cause a lot of disc writes and may slow down your computer."
 preferences,log_tyre_stats_help,显示每个分段开始时的胎温和磨损,Show tyre temps and wear at the start of each sector.
 preferences,r3e_blue_flag_detection_distance_help,最大距离（米）用于 R3E 蓝旗触发,Max distance (metres) for R3E blue flag trigger.
 preferences,play_pre_lights_messages_until_cancelled_help,播放赛前信息播报，直到检测到控制输入。,Play pre-race info messages until a control input is detected.
