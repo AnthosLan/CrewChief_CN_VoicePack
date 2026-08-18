@@ -61,8 +61,9 @@
 
 ## 安装
 
-**完整步骤见 [`INSTALL.html`](packaging/INSTALL.html)**（浏览器打开，带目录和分步说明），
-或纯文本版 [`INSTALL.txt`](packaging/INSTALL.txt)。两份都随压缩包一起分发。
+**完整步骤见 [📖 在线安装说明](https://anthoslan.github.io/CrewChief_CN_VoicePack/packaging/INSTALL.html)**（带目录、分步骤、可折叠的原理说明），或纯文本版 [`INSTALL.txt`](packaging/INSTALL.txt)。
+
+两份都随压缩包一起分发——解压后双击 `INSTALL.html` 就是同一份内容，**完全自包含，离线也是完整样式**。
 
 下载：[**Releases**](https://github.com/AnthosLan/CrewChief_CN_VoicePack/releases) → `crewchief-zh-voicepack-*.zip`（约 290 MB）
 
@@ -113,7 +114,7 @@
 这会让它改用 Windows 默认设备。有声音了就说明是设备选错，去主界面把
 「Messages playback device」改对，然后把 nAudio 开回来（关着会让 spotter 失去打断能力）。
 
-完整排查步骤见 [`INSTALL.html`](packaging/INSTALL.html) 的「装完一点声音都没有」一节。
+完整排查步骤见[在线安装说明的「装完一点声音都没有」一节](https://anthoslan.github.io/CrewChief_CN_VoicePack/packaging/INSTALL.html#no-sound)。
 **卸载重装 CrewChief 没用**——设置存在 `%LOCALAPPDATA%\Britton_IT_Ltd`，卸载不会清它。
 
 ### 2. 原版程序装了 `numbers/` 会中英混播
